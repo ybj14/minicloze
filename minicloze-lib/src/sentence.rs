@@ -1,8 +1,8 @@
 // logic which handles parsing a raw JSON from tatoeba into sentences
 
 use rand::{thread_rng, Rng};
-use reqwest::Error;
 use serde::{Deserialize, Serialize};
+use std::error::Error;
 
 const NON_SPACED: [&str; 12] = [
     "cmn", "lzh", "hak", "cjy", "nan", "hsn", "gan", "jpn", "tha", "khm", "lao", "mya",
@@ -11,7 +11,8 @@ const NON_SPACED: [&str; 12] = [
 // represents the entire JSON response from Tatoeba. results is the sentences found.
 #[derive(Deserialize, Serialize)]
 pub struct Json {
-    pub results: Vec<Sentence>,
+    #[serde(alias = "results")]
+    pub data: Vec<Sentence>,
 }
 
 // represents a sentence. id is the tatoeba id of the sentence, not used anywhere currently
@@ -19,7 +20,7 @@ pub struct Json {
 pub struct Sentence {
     id: i32,
     pub text: String,
-    pub translations: Vec<Vec<Translation>>,
+    pub translations: Vec<Translation>,
 }
 
 // represents a translation. id is the tatoeba id of the translation
@@ -38,13 +39,8 @@ pub struct Prompt {
 
 impl Sentence {
     // get the sentence's translation
-    // sometimes translations.0 will be blank
     pub fn get_translation(&self) -> Option<&Translation> {
-        self.translations
-            .first()
-            .unwrap()
-            .first()
-            .map_or_else(|| self.translations.get(1).unwrap().first(), Some)
+        self.translations.first()
     }
 
     // split string into vec of words, depends on whether the language uses spaces or not (e.g.
@@ -86,7 +82,9 @@ impl Sentence {
 }
 
 // language: the language to request from tatoeba
-pub async fn generate_sentences(language: &str) -> std::result::Result<Vec<Sentence>, Error> {
+pub async fn generate_sentences(
+    language: &str,
+) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
     // where the initial request happens
     let mut sentences = sentences_http_request(language).await?;
 
@@ -108,13 +106,18 @@ pub async fn generate_sentences(language: &str) -> std::result::Result<Vec<Sente
 }
 
 // language: the language to request from tatoeba
-pub async fn sentences_http_request(language: &str) -> Result<Vec<Sentence>, Error> {
-    let request = format!("https://tatoeba.org/en/api_v0/search?from=eng&orphans=no&sort=random&to={language}&unapproved=no");
+pub async fn sentences_http_request(
+    language: &str,
+) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
+    let request = format!(
+        "https://api.tatoeba.org/v1/sentences?lang=eng&trans:lang={language}&is_orphan=no&is_unapproved=no&trans:is_orphan=no&trans:is_unapproved=no&sort=random&limit=10&showtrans:lang={language}"
+    );
     let response = reqwest::get(request).await?.text().await?;
 
     let resp_str = response.as_str();
 
-    let sentences = parse(resp_str).unwrap();
+    let sentences =
+        parse(resp_str).map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
     Ok(sentences)
 }
 
@@ -131,7 +134,7 @@ pub fn convert_error(err: serde_json::Error) -> String {
 // parse plaintext JSON response string into a Vec of Sentences results: the JSON
 pub fn parse(results: &str) -> Result<Vec<Sentence>, String> {
     let sentences: Json = serde_json::from_str(results).map_err(convert_error)?;
-    Ok(sentences.results)
+    Ok(sentences.data)
 }
 
 pub fn remove_punctuation(word: &str) -> String {
@@ -141,4 +144,50 @@ pub fn remove_punctuation(word: &str) -> String {
         ][..],
         "",
     )
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn parses_tatoeba_v1_sentence_search_response() {
+        let response = r#"{
+            "data": [
+                {
+                    "id": 4471292,
+                    "text": "Mary took the cookies out of the oven.",
+                    "lang": "eng",
+                    "script": null,
+                    "license": "CC BY 2.0 FR",
+                    "owner": "Hybrid",
+                    "is_unapproved": false,
+                    "translations": [
+                        {
+                            "id": 4473114,
+                            "text": "Maria holte die Kekse aus dem Ofen.",
+                            "lang": "deu",
+                            "script": null,
+                            "license": "CC BY 2.0 FR",
+                            "owner": "Pfirsichbaeumchen",
+                            "is_unapproved": false,
+                            "is_direct": true
+                        }
+                    ]
+                }
+            ],
+            "paging": {}
+        }"#;
+
+        let sentences = parse(response).expect("v1 responses should parse");
+
+        assert_eq!(sentences.len(), 1);
+        assert_eq!(sentences[0].text, "Mary took the cookies out of the oven.");
+        assert_eq!(
+            sentences[0]
+                .get_translation()
+                .map(|translation| translation.text.as_str()),
+            Some("Maria holte die Kekse aus dem Ofen.")
+        );
+    }
 }

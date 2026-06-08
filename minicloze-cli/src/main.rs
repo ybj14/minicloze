@@ -59,7 +59,13 @@ async fn main() {
         .expect("Please enter a valid language")
         .to_string();
 
-    let sentences = generate_sentences(&language).await.unwrap();
+    let sentences = match generate_sentences(&language).await {
+        Ok(sentences) => sentences,
+        Err(err) => {
+            eprintln!(" Failed to fetch sentences: {err}");
+            exit(1);
+        }
+    };
     let len = sentences.len();
     let elapsed = now.elapsed();
 
@@ -230,7 +236,13 @@ async fn start_game(
     if let Ok(o) = replay {
         if let Some(c) = o {
             if c == "Yes" {
-                let sentences = generate_sentences(language.as_str()).await.unwrap();
+                let sentences = match generate_sentences(language.as_str()).await {
+                    Ok(sentences) => sentences,
+                    Err(err) => {
+                        eprintln!("Failed to fetch sentences: {err}");
+                        exit(1);
+                    }
+                };
                 let len = sentences.len();
                 start_game(sentences, len, language, new_correct, new_total, inverse).await;
             } else {
