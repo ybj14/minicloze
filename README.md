@@ -44,6 +44,8 @@ You can also use the one-step launcher, which creates a local Python environment
 # Usage
 For `minicloze-cli`, just pass in the language (from www.tatoeba.org) you want to use, e.g. `minicloze french`. Add `inverse` for inverse mode (`minicloze french inverse`).
 
+Answers can be typed either in the target script or as a Latin transliteration without diacritics. For example, Mongolian `дөрөв` can be answered as `dorov`, and Tibetan `བཀྲ་ཤིས` can be answered as `bkra shis`.
+
 ![Example of use with French](french.gif)
 
 # Contributing

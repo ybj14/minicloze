@@ -6,6 +6,7 @@ use minicloze_lib::{
 
 use levenshtein::levenshtein;
 
+use deunicode::deunicode;
 use std::io;
 use std::io::Write;
 use std::time::Instant;
@@ -189,10 +190,7 @@ async fn start_game(
         print!("> ");
         read_into(&mut guess);
 
-        let levenshtein_distance = levenshtein(
-            &remove_punctuation(&guess.trim().to_lowercase()),
-            prompt.word.to_lowercase().trim(),
-        );
+        let levenshtein_distance = answer_distance(&guess, &prompt);
 
         if levenshtein_distance == 0 {
             correct += 1;
@@ -298,6 +296,46 @@ fn answer_with_transliteration(prompt: &Prompt, language: &str) -> String {
     prompt.word.to_lowercase().trim().to_string()
 }
 
+fn answer_distance(guess: &str, prompt: &Prompt) -> usize {
+    let native_distance = levenshtein(
+        &remove_punctuation(&guess.trim().to_lowercase()),
+        prompt.word.to_lowercase().trim(),
+    );
+
+    let Some(transliterated_word) = transliterated_answer(prompt) else {
+        return native_distance;
+    };
+
+    let normalized_guess = normalize_latin_answer(guess);
+    if normalized_guess.is_empty() {
+        return native_distance;
+    }
+
+    native_distance.min(levenshtein(&normalized_guess, &transliterated_word))
+}
+
+fn transliterated_answer(prompt: &Prompt) -> Option<String> {
+    let transliteration = prompt
+        .word_transliteration
+        .as_deref()
+        .unwrap_or(&prompt.word);
+    let normalized = normalize_latin_answer(transliteration);
+
+    if normalized.is_empty() {
+        None
+    } else {
+        Some(normalized)
+    }
+}
+
+fn normalize_latin_answer(answer: &str) -> String {
+    deunicode(answer)
+        .to_lowercase()
+        .chars()
+        .filter(|ch| ch.is_ascii_alphanumeric())
+        .collect()
+}
+
 fn format_transliteration_cloze(first_half: &str, blank: &str, second_half: &str) -> String {
     let first_half = first_half.trim_end();
     let second_half = second_half.trim_start();
@@ -314,4 +352,42 @@ fn format_transliteration_cloze(first_half: &str, blank: &str, second_half: &str
 fn read_into(buffer: &mut String) {
     io::stdout().flush().unwrap();
     io::stdin().read_line(buffer).unwrap();
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn prompt_for(word: &str, transliteration: Option<&str>) -> Prompt {
+        Prompt {
+            first_half: String::new(),
+            word: word.to_string(),
+            second_half: String::new(),
+            first_half_transliteration: None,
+            word_transliteration: transliteration.map(str::to_string),
+            second_half_transliteration: None,
+        }
+    }
+
+    #[test]
+    fn accepts_mongolian_cyrillic_latin_transliteration() {
+        let prompt = prompt_for("дөрөв", None);
+
+        assert_eq!(answer_distance("dorov", &prompt), 0);
+    }
+
+    #[test]
+    fn accepts_tibetan_wylie_transliteration() {
+        let prompt = prompt_for("བཀྲ་ཤིས", Some("bkra shis"));
+
+        assert_eq!(answer_distance("bkra shis", &prompt), 0);
+        assert_eq!(answer_distance("bkrashis", &prompt), 0);
+    }
+
+    #[test]
+    fn ignores_diacritics_in_latin_answers() {
+        let prompt = prompt_for("été", None);
+
+        assert_eq!(answer_distance("ete", &prompt), 0);
+    }
 }
