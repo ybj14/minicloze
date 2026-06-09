@@ -4,12 +4,17 @@ use minicloze_lib::{
         DISTANCE_FOR_CLOSE,
     },
     langs::{normalize_language_input, propagate},
-    sentence::{generate_sentences, Prompt, Sentence},
+    sentence::{
+        generate_sentences, local_sentence_pool, prepare_local_sentences, Prompt, Sentence,
+    },
+    srs::{self, SrsProgress, SrsSelection},
     wiktionary::generate_url,
 };
 
+use std::collections::HashMap;
 use std::io;
 use std::io::Write;
+use std::path::PathBuf;
 use std::time::Instant;
 use std::{env, process::exit};
 
@@ -18,6 +23,27 @@ use inquire::*;
 use terminal_link::*;
 
 use async_recursion::async_recursion;
+
+const ROUND_SIZE: usize = 10;
+
+struct GameRound {
+    cards: Vec<ReviewCard>,
+    srs: Option<CliSrs>,
+    selection: Option<SrsSelection>,
+}
+
+#[derive(Clone)]
+struct ReviewCard {
+    sentence: Sentence,
+    prompt: Prompt,
+    srs_key: Option<String>,
+    srs_recorded: bool,
+}
+
+struct CliSrs {
+    progress: SrsProgress,
+    path: PathBuf,
+}
 
 #[tokio::main]
 async fn main() {
@@ -57,14 +83,14 @@ async fn main() {
         .expect("Please enter a valid language")
         .to_string();
 
-    let sentences = match generate_sentences(&language).await {
-        Ok(sentences) => sentences,
+    let round = match load_round(&language, inverse).await {
+        Ok(round) => round,
         Err(err) => {
             eprintln!(" Failed to fetch sentences: {err}");
             exit(1);
         }
     };
-    let len = sentences.len();
+    let len = round.cards.len();
     let elapsed = now.elapsed();
 
     println!(
@@ -72,7 +98,89 @@ async fn main() {
         elapsed, len
     );
 
-    start_game(sentences, len, language, 0, 0, inverse).await;
+    start_game(round, len, language, 0, 0, inverse).await;
+}
+
+async fn load_round(
+    language: &str,
+    inverse: bool,
+) -> Result<GameRound, Box<dyn std::error::Error + Send + Sync>> {
+    if srs::supports_language(language) {
+        if let Some(pool) = local_sentence_pool(language)? {
+            let path = srs::default_store_path();
+            let progress = srs::load_progress(&path)?;
+            let candidate_keys = pool
+                .iter()
+                .map(|sentence| srs::card_key(language, inverse, sentence.id()))
+                .collect::<Vec<_>>();
+            let selection =
+                srs::select_keys(&candidate_keys, &progress, srs::now_timestamp(), ROUND_SIZE);
+            let mut by_key = pool
+                .into_iter()
+                .map(|sentence| (srs::card_key(language, inverse, sentence.id()), sentence))
+                .collect::<HashMap<_, _>>();
+            let mut sentences = selection
+                .keys
+                .iter()
+                .filter_map(|key| by_key.remove(key))
+                .collect::<Vec<_>>();
+
+            if sentences.is_empty() {
+                return Err(Box::new(io::Error::new(
+                    io::ErrorKind::InvalidData,
+                    "No SRS candidates were selected",
+                )));
+            }
+
+            prepare_local_sentences(language, &mut sentences)?;
+            let cards = build_review_cards(sentences, language, inverse, true);
+
+            return Ok(GameRound {
+                cards,
+                srs: Some(CliSrs { progress, path }),
+                selection: Some(selection),
+            });
+        }
+    }
+
+    let sentences = generate_sentences(language).await?;
+    Ok(GameRound {
+        cards: build_review_cards(sentences, language, inverse, false),
+        srs: None,
+        selection: None,
+    })
+}
+
+fn build_review_cards(
+    sentences: Vec<Sentence>,
+    language: &str,
+    inverse: bool,
+    with_srs: bool,
+) -> Vec<ReviewCard> {
+    sentences
+        .into_iter()
+        .map(|sentence| {
+            let srs_key = with_srs.then(|| srs::card_key(language, inverse, sentence.id()));
+            let prompt = sentence.generate_prompt(language, inverse);
+            ReviewCard {
+                sentence,
+                prompt,
+                srs_key,
+                srs_recorded: false,
+            }
+        })
+        .collect()
+}
+
+fn print_srs_selection(round: &GameRound) {
+    let Some(selection) = &round.selection else {
+        return;
+    };
+
+    println!(
+        " SRS queue: {} due, {} new, {} upcoming.",
+        selection.due, selection.new, selection.upcoming
+    );
 }
 
 // sentences: sentences for the game
@@ -83,7 +191,7 @@ async fn main() {
 
 #[async_recursion]
 async fn start_game(
-    sentences: Vec<Sentence>,
+    mut round: GameRound,
     len: usize,
     language: String,
     previous_correct: i32,
@@ -91,10 +199,14 @@ async fn start_game(
     inverse: bool,
 ) {
     clear_screen();
+    print_srs_selection(&round);
     let mut correct = 0;
+    let mut card_index = 0;
 
-    for sentence in sentences {
-        let prompt = sentence.generate_prompt(&language, inverse);
+    while card_index < round.cards.len() {
+        let card = round.cards[card_index].clone();
+        let prompt = &card.prompt;
+        let sentence = &card.sentence;
 
         let underscores_num = if inverse {
             String::from("?")
@@ -187,11 +299,13 @@ async fn start_game(
         print!("> ");
         read_into(&mut guess);
 
-        let levenshtein_distance = answer_distance(&guess, &prompt);
+        let levenshtein_distance = answer_distance(&guess, prompt);
 
-        if levenshtein_distance == 0 {
+        let is_correct = levenshtein_distance == 0;
+
+        if is_correct {
             correct += 1;
-            let answer = answer_with_transliteration(&prompt, &language);
+            let answer = answer_with_transliteration(prompt, &language);
             println!(
                 "Correct, {color_white}{bg_green}{}{color_reset}{bg_reset}",
                 Link::new(
@@ -200,7 +314,7 @@ async fn start_game(
                 )
             );
         } else if levenshtein_distance < DISTANCE_FOR_CLOSE {
-            let answer = answer_with_transliteration(&prompt, &language);
+            let answer = answer_with_transliteration(prompt, &language);
             println!(
                 "Close, {style_bold}{color_bright_white}{bg_yellow}{}{bg_reset}{color_reset}{style_reset}.",
                 Link::new(
@@ -209,7 +323,7 @@ async fn start_game(
                 )
             );
         } else {
-            let answer = answer_with_transliteration(&prompt, &language);
+            let answer = answer_with_transliteration(prompt, &language);
             println!(
                 "Wrong, {style_bold}{color_bright_white}{bg_red}{}{bg_reset}{color_reset}{style_reset}.",
                 Link::new(
@@ -217,6 +331,13 @@ async fn start_game(
                     &generate_url(prompt.word.to_lowercase().trim(), &language)
                 )
             );
+        }
+        record_srs_attempt(&mut round, &card, is_correct);
+        if !is_correct && card.srs_key.is_some() {
+            let mut retry = card.clone();
+            retry.srs_recorded = true;
+            round.cards.push(retry);
+            println!("This one will come back near the end of the round.");
         }
         print_word_explanations(&sentence);
         println!();
@@ -236,17 +357,26 @@ async fn start_game(
         //     }
         // }
         println!();
+        card_index += 1;
     }
 
     let new_correct = previous_correct + correct;
-    let new_total = total + len as i32;
+    let attempts = round.cards.len();
+    let new_total = total + attempts as i32;
 
-    let message = if (new_total) / len as i32 == 1 {
-        format!("{}/{} sentences correct. Play again?", correct, len)
+    let message = if (new_total) / attempts as i32 == 1 {
+        if attempts == len {
+            format!("{}/{} sentences correct. Play again?", correct, attempts)
+        } else {
+            format!(
+                "{}/{} attempts correct across {} cards. Play again?",
+                correct, attempts, len
+            )
+        }
     } else {
         format!(
-            "{}/{} sentences correct locally, {}/{} sentences correct overall. Play again?",
-            correct, len, new_correct, new_total
+            "{}/{} attempts correct locally, {}/{} attempts correct overall. Play again?",
+            correct, attempts, new_correct, new_total
         )
     };
 
@@ -257,21 +387,43 @@ async fn start_game(
     if let Ok(o) = replay {
         if let Some(c) = o {
             if c == "Yes" {
-                let sentences = match generate_sentences(language.as_str()).await {
-                    Ok(sentences) => sentences,
+                let round = match load_round(language.as_str(), inverse).await {
+                    Ok(round) => round,
                     Err(err) => {
                         eprintln!("Failed to fetch sentences: {err}");
                         exit(1);
                     }
                 };
-                let len = sentences.len();
-                start_game(sentences, len, language, new_correct, new_total, inverse).await;
+                let len = round.cards.len();
+                start_game(round, len, language, new_correct, new_total, inverse).await;
             } else {
                 exit(0);
             }
         } else {
             exit(0);
         }
+    }
+}
+
+fn record_srs_attempt(round: &mut GameRound, card: &ReviewCard, is_correct: bool) {
+    let Some(srs_key) = &card.srs_key else {
+        return;
+    };
+    if card.srs_recorded {
+        return;
+    }
+    let Some(srs_state) = &mut round.srs else {
+        return;
+    };
+
+    srs::record_review(
+        &mut srs_state.progress,
+        srs_key,
+        is_correct,
+        srs::now_timestamp(),
+    );
+    if let Err(err) = srs::save_progress(&srs_state.path, &srs_state.progress) {
+        eprintln!("Could not save SRS progress: {err}");
     }
 }
 

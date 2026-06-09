@@ -8,7 +8,11 @@ use axum::{
 use minicloze_lib::{
     game::{check_answer, local_vocabulary_words, AnswerCheck},
     langs::{language_code_for_input, language_label_for_code},
-    sentence::{generate_sentences_with_count, Prompt, Sentence, WordExplanation},
+    sentence::{
+        generate_sentences_with_count, local_sentence_pool, prepare_local_sentences, Prompt,
+        Sentence, WordExplanation,
+    },
+    srs,
 };
 use rand::{seq::SliceRandom, thread_rng};
 use serde::{Deserialize, Serialize};
@@ -47,6 +51,8 @@ struct Card {
     translation: String,
     word_explanations: Vec<WordExplanation>,
     answer_options: Vec<String>,
+    srs_key: Option<String>,
+    srs_recorded: bool,
     result: Option<AnswerCheck>,
 }
 
@@ -66,6 +72,8 @@ struct CreateRoundRequest {
     count: usize,
     #[serde(default)]
     inverse: bool,
+    #[serde(default = "default_srs")]
+    srs: bool,
 }
 
 #[derive(Deserialize)]
@@ -337,9 +345,21 @@ async fn create_round(
         .ok_or_else(|| AppError::bad_request("Unknown language"))?;
     let count = request.count.clamp(1, MAX_COUNT);
 
-    let sentences = generate_sentences_with_count(language, count)
-        .await
-        .map_err(|err| AppError::internal(format!("Could not generate sentences: {err}")))?;
+    let use_srs = request.srs && srs::supports_language(language);
+    let sentences = if use_srs {
+        match srs_sentences(language, request.inverse, count)? {
+            Some(sentences) => sentences,
+            None => generate_sentences_with_count(language, count)
+                .await
+                .map_err(|err| {
+                    AppError::internal(format!("Could not generate sentences: {err}"))
+                })?,
+        }
+    } else {
+        generate_sentences_with_count(language, count)
+            .await
+            .map_err(|err| AppError::internal(format!("Could not generate sentences: {err}")))?
+    };
     if sentences.is_empty() {
         return Err(AppError::internal("No sentences were generated"));
     }
@@ -350,6 +370,7 @@ async fn create_round(
         language_label,
         request.inverse,
         request.mode,
+        use_srs,
     );
     if cards.is_empty() {
         return Err(AppError::internal("No playable cards were generated"));
@@ -404,6 +425,8 @@ async fn answer_round(
         .map(|card| card.word_explanations.clone())
         .unwrap_or_default();
     let mut accepted_new_answer = false;
+    let mut srs_update = None;
+    let mut retry_card = None;
     let result = {
         let card = session
             .cards
@@ -420,6 +443,19 @@ async fn answer_round(
             let result = check_answer(&request.answer, &card.prompt, &language);
             card.result = Some(result.clone());
             accepted_new_answer = true;
+            let is_correct = result.outcome == minicloze_lib::game::AnswerOutcome::Correct;
+            if let Some(srs_key) = card.srs_key.clone() {
+                if !card.srs_recorded {
+                    card.srs_recorded = true;
+                    srs_update = Some((srs_key, is_correct));
+                }
+                if !is_correct {
+                    let mut retry = card.clone();
+                    retry.result = None;
+                    retry.srs_recorded = true;
+                    retry_card = Some(retry);
+                }
+            }
             result
         }
     };
@@ -430,6 +466,12 @@ async fn answer_round(
         }
         session.answered += 1;
         session.cursor += 1;
+        if let Some(retry_card) = retry_card {
+            session.cards.push(retry_card);
+        }
+    }
+    if let Some((srs_key, is_correct)) = srs_update {
+        record_srs_review(&srs_key, is_correct)?;
     }
 
     let summary = round_summary(session);
@@ -453,11 +495,13 @@ fn build_cards(
     _language_label: &str,
     inverse: bool,
     mode: PlayMode,
+    with_srs: bool,
 ) -> Vec<Card> {
     let vocabulary = local_vocabulary_words(language).unwrap_or_default();
     let mut prompts = Vec::new();
 
     for sentence in sentences {
+        let srs_key = with_srs.then(|| srs::card_key(language, inverse, sentence.id()));
         let translation = if inverse {
             sentence
                 .get_translation()
@@ -468,16 +512,16 @@ fn build_cards(
         };
         let word_explanations = sentence.word_explanations.clone();
         let prompt = sentence.generate_prompt(language, inverse);
-        prompts.push((prompt, translation, word_explanations));
+        prompts.push((prompt, translation, word_explanations, srs_key));
     }
 
     let mut option_pool = vocabulary;
-    option_pool.extend(prompts.iter().map(|(prompt, _, _)| prompt.word.clone()));
+    option_pool.extend(prompts.iter().map(|(prompt, _, _, _)| prompt.word.clone()));
 
     prompts
         .into_iter()
         .enumerate()
-        .map(|(id, (prompt, translation, word_explanations))| {
+        .map(|(id, (prompt, translation, word_explanations, srs_key))| {
             let answer_options = if mode == PlayMode::MultipleChoice {
                 build_options(&prompt.word, &option_pool)
             } else {
@@ -490,10 +534,54 @@ fn build_cards(
                 translation,
                 word_explanations,
                 answer_options,
+                srs_key,
+                srs_recorded: false,
                 result: None,
             }
         })
         .collect()
+}
+
+fn srs_sentences(
+    language: &str,
+    inverse: bool,
+    count: usize,
+) -> Result<Option<Vec<Sentence>>, AppError> {
+    let pool = local_sentence_pool(language)
+        .map_err(|err| AppError::internal(format!("Could not load local corpus: {err}")))?;
+    let Some(pool) = pool else {
+        return Ok(None);
+    };
+    let path = srs::default_store_path();
+    let progress = srs::load_progress(&path)
+        .map_err(|err| AppError::internal(format!("Could not load SRS progress: {err}")))?;
+    let candidate_keys = pool
+        .iter()
+        .map(|sentence| srs::card_key(language, inverse, sentence.id()))
+        .collect::<Vec<_>>();
+    let selection = srs::select_keys(&candidate_keys, &progress, srs::now_timestamp(), count);
+    let mut by_key = pool
+        .into_iter()
+        .map(|sentence| (srs::card_key(language, inverse, sentence.id()), sentence))
+        .collect::<HashMap<_, _>>();
+    let mut sentences = selection
+        .keys
+        .iter()
+        .filter_map(|key| by_key.remove(key))
+        .collect::<Vec<_>>();
+
+    prepare_local_sentences(language, &mut sentences)
+        .map_err(|err| AppError::internal(format!("Could not prepare local sentences: {err}")))?;
+    Ok(Some(sentences))
+}
+
+fn record_srs_review(srs_key: &str, is_correct: bool) -> Result<(), AppError> {
+    let path = srs::default_store_path();
+    let mut progress = srs::load_progress(&path)
+        .map_err(|err| AppError::internal(format!("Could not load SRS progress: {err}")))?;
+    srs::record_review(&mut progress, srs_key, is_correct, srs::now_timestamp());
+    srs::save_progress(&path, &progress)
+        .map_err(|err| AppError::internal(format!("Could not save SRS progress: {err}")))
 }
 
 fn build_options(answer: &str, pool: &[String]) -> Vec<String> {
@@ -623,6 +711,10 @@ fn default_mode() -> PlayMode {
 
 fn default_count() -> usize {
     10
+}
+
+fn default_srs() -> bool {
+    true
 }
 
 #[cfg(test)]

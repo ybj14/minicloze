@@ -24,6 +24,8 @@ const COURSES = [
 
 const MAX_COUNT = 50;
 const DISTANCE_FOR_CLOSE = 3;
+const SRS_INTERVAL_DAYS = [1, 10, 30, 180];
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
 const NON_SPACED_LANGUAGES = new Set([
   "cmn",
   "lzh",
@@ -241,8 +243,15 @@ async function createRound(request) {
 
   const data = await loadCourse(course);
   const count = clamp(Number.isFinite(request.count) ? request.count : 10, 1, MAX_COUNT);
-  const sentences = shuffle([...data.sentences]).slice(0, count);
-  const cards = buildCards(sentences, data, request.inverse, request.mode);
+  const srsProgress = readSrsProgress(data, request.inverse);
+  const sentences = selectSrsSentences(
+    data.sentences,
+    data,
+    request.inverse,
+    count,
+    srsProgress,
+  );
+  const cards = buildCards(sentences, data, request.inverse, request.mode, true);
 
   if (!cards.length) {
     throw new Error("No playable cards were generated");
@@ -252,6 +261,8 @@ async function createRound(request) {
     course: data,
     inverse: request.inverse,
     cards,
+    srsProgress,
+    srsStorageKey: srsProgressKey(data, request.inverse),
     cursor: 0,
     correct: 0,
     answered: 0,
@@ -285,8 +296,21 @@ function answerRound(request) {
   }
 
   if (acceptedNewAnswer) {
-    if (card.result.outcome === "correct") {
+    const isCorrect = card.result.outcome === "correct";
+    if (isCorrect) {
       currentRound.correct += 1;
+    }
+    if (card.srsKey && !card.srsRecorded) {
+      recordSrsReview(currentRound.srsProgress, card.srsKey, isCorrect, Date.now());
+      writeSrsProgress(currentRound.srsStorageKey, currentRound.srsProgress);
+      card.srsRecorded = true;
+    }
+    if (card.srsKey && !isCorrect) {
+      currentRound.cards.push({
+        ...card,
+        result: null,
+        srsRecorded: true,
+      });
     }
     currentRound.answered += 1;
     currentRound.cursor += 1;
@@ -343,7 +367,132 @@ async function fetchJson(path) {
   return response.json();
 }
 
-function buildCards(sentences, course, inverse, mode) {
+function selectSrsSentences(sentences, course, inverse, count, progress) {
+  const byKey = new Map(
+    sentences.map((sentence) => [srsCardKey(course, inverse, sentence), sentence]),
+  );
+  const keys = Array.from(byKey.keys());
+  const selectedKeys = selectSrsKeys(keys, progress, Date.now(), count);
+  return selectedKeys.map((key) => byKey.get(key)).filter(Boolean);
+}
+
+function selectSrsKeys(keys, progress, now, count) {
+  const uniqueKeys = Array.from(new Set(keys));
+  const selected = new Set();
+  const output = [];
+  const cards = progress.cards || {};
+
+  const due = uniqueKeys
+    .filter((key) => cards[key] && Number(cards[key].dueAt || 0) <= now)
+    .sort((left, right) => {
+      const leftDue = Number(cards[left].dueAt || 0);
+      const rightDue = Number(cards[right].dueAt || 0);
+      return leftDue - rightDue || left.localeCompare(right);
+    });
+  appendSrsKeys(due, count, selected, output);
+
+  const newKeys = shuffle(uniqueKeys.filter((key) => !cards[key]));
+  appendSrsKeys(newKeys, count, selected, output);
+
+  const upcoming = uniqueKeys
+    .filter((key) => cards[key] && Number(cards[key].dueAt || 0) > now)
+    .sort((left, right) => {
+      const leftDue = Number(cards[left].dueAt || 0);
+      const rightDue = Number(cards[right].dueAt || 0);
+      return leftDue - rightDue || left.localeCompare(right);
+    });
+  appendSrsKeys(upcoming, count, selected, output);
+
+  return output;
+}
+
+function appendSrsKeys(keys, count, selected, output) {
+  for (const key of keys) {
+    if (output.length >= count) {
+      break;
+    }
+    if (!selected.has(key)) {
+      selected.add(key);
+      output.push(key);
+    }
+  }
+}
+
+function recordSrsReview(progress, key, isCorrect, now) {
+  const cards = progress.cards || (progress.cards = {});
+  const card =
+    cards[key] ||
+    (cards[key] = {
+      intervalIndex: 0,
+      dueAt: 0,
+      lastReviewedAt: null,
+      reviews: 0,
+      correct: 0,
+      wrong: 0,
+      lapses: 0,
+    });
+  const wasNew = !card.reviews;
+
+  if (isCorrect) {
+    card.correct = Number(card.correct || 0) + 1;
+    if (!wasNew) {
+      card.intervalIndex = Math.min(
+        Number(card.intervalIndex || 0) + 1,
+        SRS_INTERVAL_DAYS.length - 1,
+      );
+    }
+  } else {
+    card.wrong = Number(card.wrong || 0) + 1;
+    card.lapses = Number(card.lapses || 0) + 1;
+    card.intervalIndex = 0;
+  }
+
+  card.reviews = Number(card.reviews || 0) + 1;
+  card.lastReviewedAt = now;
+  card.dueAt = now + SRS_INTERVAL_DAYS[card.intervalIndex] * MS_PER_DAY;
+}
+
+function readSrsProgress(course, inverse) {
+  try {
+    return normalizeSrsProgress(
+      JSON.parse(localStorage.getItem(srsProgressKey(course, inverse)) || "{}"),
+    );
+  } catch {
+    return normalizeSrsProgress({});
+  }
+}
+
+function writeSrsProgress(key, progress) {
+  localStorage.setItem(key, JSON.stringify(normalizeSrsProgress(progress)));
+}
+
+function normalizeSrsProgress(progress) {
+  if (!progress || typeof progress !== "object") {
+    return { cards: {} };
+  }
+  if (!progress.cards || typeof progress.cards !== "object") {
+    progress.cards = {};
+  }
+  return progress;
+}
+
+function srsProgressKey(course, inverse) {
+  return [
+    "minicloze.srs.v1",
+    course.slug,
+    inverse ? "inverse" : "normal",
+  ].join(":");
+}
+
+function srsCardKey(course, inverse, sentence) {
+  return [
+    course.slug,
+    inverse ? "inverse" : "normal",
+    String(sentence.id),
+  ].join(":");
+}
+
+function buildCards(sentences, course, inverse, mode, withSrs = false) {
   const prompts = sentences.map((sentence) => {
     const prompt = generatePrompt(sentence, course, inverse);
     const translation = inverse
@@ -351,7 +500,8 @@ function buildCards(sentences, course, inverse, mode) {
       : sentence.text || "";
     const wordExplanations =
       course.explanationsById.get(String(sentence.id)) || [];
-    return { prompt, translation, wordExplanations };
+    const srsKey = withSrs ? srsCardKey(course, inverse, sentence) : null;
+    return { prompt, translation, wordExplanations, srsKey };
   });
 
   const optionPool = [
@@ -368,6 +518,8 @@ function buildCards(sentences, course, inverse, mode) {
       mode === "multiple_choice"
         ? buildOptions(item.prompt.word, optionPool)
         : [],
+    srsKey: item.srsKey,
+    srsRecorded: false,
     result: null,
   }));
 }

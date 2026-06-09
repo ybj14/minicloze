@@ -70,7 +70,11 @@ start_server() {
     ensure_tibetan_python
 
     echo "Starting minicloze-web in the background..."
-    nohup cargo run --quiet -p minicloze-web >"$LOG_FILE" 2>&1 &
+    if command -v setsid >/dev/null 2>&1; then
+        setsid nohup cargo run --quiet -p minicloze-web >"$LOG_FILE" 2>&1 </dev/null &
+    else
+        nohup cargo run --quiet -p minicloze-web >"$LOG_FILE" 2>&1 </dev/null &
+    fi
     pid="$!"
     echo "$pid" >"$PID_FILE"
 

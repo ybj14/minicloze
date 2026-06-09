@@ -223,22 +223,10 @@ pub async fn generate_sentences_with_count(
 ) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
     let count = count.max(1);
 
-    if let Some(corpus) = local_corpora::corpus_for_language(language) {
-        let mut sentences = parse(corpus.json)
-            .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
+    if let Some(mut sentences) = local_sentence_pool(language)? {
         sentences.shuffle(&mut thread_rng());
         sentences.truncate(count);
-        local_corpora::attach_word_explanations(language, &mut sentences)
-            .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
-        if let Err(err) = tokenizer::prepare_sentences(corpus.base_language, &mut sentences) {
-            if corpus.base_language == "bod" {
-                prepare_local_tibetan_syllable_fallback(&mut sentences);
-            } else {
-                return Err(err);
-            }
-        } else if corpus.base_language == "bod" {
-            ensure_local_tibetan_cloze_targets(&mut sentences);
-        }
+        prepare_local_sentences(language, &mut sentences)?;
         return Ok(sentences);
     }
 
@@ -264,6 +252,45 @@ pub async fn generate_sentences_with_count(
     sentences.truncate(count);
     tokenizer::prepare_sentences(language, &mut sentences)?;
     Ok(sentences)
+}
+
+pub fn is_local_language(language: &str) -> bool {
+    local_corpora::corpus_for_language(language).is_some()
+}
+
+pub fn local_sentence_pool(
+    language: &str,
+) -> Result<Option<Vec<Sentence>>, Box<dyn Error + Send + Sync>> {
+    let Some(corpus) = local_corpora::corpus_for_language(language) else {
+        return Ok(None);
+    };
+
+    let sentences = parse(corpus.json)
+        .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
+    Ok(Some(sentences))
+}
+
+pub fn prepare_local_sentences(
+    language: &str,
+    sentences: &mut [Sentence],
+) -> Result<(), Box<dyn Error + Send + Sync>> {
+    let Some(corpus) = local_corpora::corpus_for_language(language) else {
+        return Ok(());
+    };
+
+    local_corpora::attach_word_explanations(language, sentences)
+        .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
+    if let Err(err) = tokenizer::prepare_sentences(corpus.base_language, sentences) {
+        if corpus.base_language == "bod" {
+            prepare_local_tibetan_syllable_fallback(sentences);
+        } else {
+            return Err(err);
+        }
+    } else if corpus.base_language == "bod" {
+        ensure_local_tibetan_cloze_targets(sentences);
+    }
+
+    Ok(())
 }
 
 // language: the language to request from tatoeba

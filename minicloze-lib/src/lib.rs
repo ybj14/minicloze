@@ -2,6 +2,7 @@ pub mod game;
 pub mod langs;
 mod local_corpora;
 pub mod sentence;
+pub mod srs;
 mod tibetan;
 pub mod tokenizer;
 
