@@ -1,5 +1,7 @@
 pub mod langs;
 pub mod sentence;
+mod tibetan;
+pub mod tokenizer;
 
 // handles wiktionary lookup
 pub mod wiktionary {

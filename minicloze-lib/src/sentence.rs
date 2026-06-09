@@ -1,12 +1,9 @@
 // logic which handles parsing a raw JSON from tatoeba into sentences
 
+use crate::tokenizer;
 use rand::{thread_rng, Rng};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
-
-const NON_SPACED: [&str; 12] = [
-    "cmn", "lzh", "hak", "cjy", "nan", "hsn", "gan", "jpn", "tha", "khm", "lao", "mya",
-];
 
 // represents the entire JSON response from Tatoeba. results is the sentences found.
 #[derive(Deserialize, Serialize)]
@@ -21,6 +18,8 @@ pub struct Sentence {
     id: i32,
     pub text: String,
     pub translations: Vec<Translation>,
+    #[serde(skip)]
+    tokenized_translation: Option<Vec<String>>,
 }
 
 // represents a translation. id is the tatoeba id of the translation
@@ -43,6 +42,10 @@ impl Sentence {
         self.translations.first()
     }
 
+    pub(crate) fn set_tokenized_translation(&mut self, words: Vec<String>) {
+        self.tokenized_translation = Some(words);
+    }
+
     // split string into vec of words, depends on whether the language uses spaces or not (e.g.
     // japanese is not spaced)
     pub fn as_words(&self, language: &str, inverse: bool) -> Vec<String> {
@@ -52,31 +55,46 @@ impl Sentence {
             &self.get_translation().unwrap().text
         };
 
-        let words: Vec<String> = if NON_SPACED.contains(&language) {
-            let char_strings = translation.trim().chars().map(|x| x.to_string());
-            char_strings.collect::<Vec<String>>()
-        } else {
-            translation
-                .trim()
-                .split_inclusive(' ')
-                .map(std::string::ToString::to_string)
-                .collect::<Vec<String>>()
-        };
+        if !inverse {
+            if let Some(words) = &self.tokenized_translation {
+                return words.clone();
+            }
+        }
 
-        words
+        if inverse {
+            tokenizer::tokenize_prompt_text("eng", translation)
+        } else {
+            tokenizer::tokenize_prompt_text(language, translation)
+        }
     }
 
     // splits a sentence into a prompt consisting of three parts
     pub fn generate_prompt(&self, language: &str, inverse: bool) -> Prompt {
         let words: Vec<String> = self.as_words(language, inverse);
-        let halved = words.split_at(thread_rng().gen_range(0..words.len()));
+        let candidates = words
+            .iter()
+            .enumerate()
+            .filter_map(|(index, word)| {
+                if remove_punctuation(word).is_empty() {
+                    None
+                } else {
+                    Some(index)
+                }
+            })
+            .collect::<Vec<_>>();
+        let word_index = if candidates.is_empty() {
+            0
+        } else {
+            candidates[thread_rng().gen_range(0..candidates.len())]
+        };
+        let halved = words.split_at(word_index);
 
-        let word = remove_punctuation(&halved.1[0]);
+        let word = remove_punctuation(&words[word_index]);
 
         Prompt {
             first_half: halved.0.join(""),
             word,
-            second_half: halved.1[1..].join(""),
+            second_half: words[word_index + 1..].join(""),
         }
     }
 }
@@ -102,6 +120,7 @@ pub async fn generate_sentences(
 
         sentences.append(&mut sentences_difference);
     }
+    tokenizer::prepare_sentences(language, &mut sentences)?;
     Ok(sentences)
 }
 
@@ -138,12 +157,17 @@ pub fn parse(results: &str) -> Result<Vec<Sentence>, String> {
 }
 
 pub fn remove_punctuation(word: &str) -> String {
-    word.replace(
+    let cleaned = word.replace(
         &[
-            '(', ')', ',', '.', ';', ':', '?', '¿', '!', '¡', '"', '«', '»', '。', ' ',
+            '(', ')', ',', '.', ';', ':', '?', '¿', '!', '¡', '"', '«', '»', '。', ' ', '།', '༎',
+            '༏', '༐', '༑', '༔',
         ][..],
         "",
-    )
+    );
+
+    cleaned
+        .trim_matches(|ch| ch == '་' || ch == '༌')
+        .to_string()
 }
 
 #[cfg(test)]
@@ -189,5 +213,35 @@ mod tests {
                 .map(|translation| translation.text.as_str()),
             Some("Maria holte die Kekse aus dem Ofen.")
         );
+    }
+
+    #[test]
+    fn generate_prompt_uses_cached_tibetan_words() {
+        let mut sentence = Sentence {
+            id: 1,
+            text: "Good morning.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "ཞོགས་པ་བདེ་ལེགས།".to_string(),
+            }],
+            tokenized_translation: None,
+        };
+        sentence.set_tokenized_translation(vec![
+            "ཞོགས་པ་".to_string(),
+            "བདེ་ལེགས".to_string(),
+            "།".to_string(),
+        ]);
+
+        for _ in 0..20 {
+            let prompt = sentence.generate_prompt("bod", false);
+
+            assert_ne!(prompt.word, "ཞོགས་པ་བདེ་ལེགས");
+            assert!(prompt.word == "ཞོགས་པ" || prompt.word == "བདེ་ལེགས");
+        }
+    }
+
+    #[test]
+    fn remove_punctuation_trims_tibetan_terminal_tseks() {
+        assert_eq!(remove_punctuation("བཀྲ་ཤིས་"), "བཀྲ་ཤིས");
     }
 }
