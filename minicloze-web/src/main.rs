@@ -181,6 +181,10 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         .route("/", get(index))
         .route("/app.css", get(styles))
         .route("/app.js", get(script))
+        .route("/manifest.webmanifest", get(manifest))
+        .route("/service-worker.js", get(service_worker))
+        .route("/data/:file", get(data_asset))
+        .route("/icons/:file", get(icon_asset))
         .route("/api/languages", get(languages))
         .route("/api/rounds", post(create_round))
         .route("/api/rounds/:round_id/answer", post(answer_round))
@@ -225,6 +229,85 @@ async fn script() -> impl IntoResponse {
         ],
         include_str!("../static/app.js"),
     )
+}
+
+async fn manifest() -> impl IntoResponse {
+    (
+        [
+            (
+                header::CONTENT_TYPE,
+                "application/manifest+json; charset=utf-8",
+            ),
+            (header::CACHE_CONTROL, "no-store, max-age=0"),
+        ],
+        include_str!("../static/manifest.webmanifest"),
+    )
+}
+
+async fn service_worker() -> impl IntoResponse {
+    (
+        [
+            (header::CONTENT_TYPE, "text/javascript; charset=utf-8"),
+            (header::CACHE_CONTROL, "no-cache, max-age=0"),
+        ],
+        include_str!("../static/service-worker.js"),
+    )
+}
+
+async fn data_asset(Path(file): Path<String>) -> Result<Response, AppError> {
+    let body = match file.as_str() {
+        "mongolian_a1.json" => include_str!("../static/data/mongolian_a1.json"),
+        "mongolian_a1_explanations.json" => {
+            include_str!("../static/data/mongolian_a1_explanations.json")
+        }
+        "mongolian_a1_vocab.json" => include_str!("../static/data/mongolian_a1_vocab.json"),
+        "tibetan_a1.json" => include_str!("../static/data/tibetan_a1.json"),
+        "tibetan_a1_explanations.json" => {
+            include_str!("../static/data/tibetan_a1_explanations.json")
+        }
+        "tibetan_a1_tokens.json" => include_str!("../static/data/tibetan_a1_tokens.json"),
+        "tibetan_a1_vocab.json" => include_str!("../static/data/tibetan_a1_vocab.json"),
+        _ => return Err(AppError::not_found("Asset not found")),
+    };
+
+    Ok((
+        [
+            (header::CONTENT_TYPE, "application/json; charset=utf-8"),
+            (header::CACHE_CONTROL, "public, max-age=31536000, immutable"),
+        ],
+        body,
+    )
+        .into_response())
+}
+
+async fn icon_asset(Path(file): Path<String>) -> Result<Response, AppError> {
+    match file.as_str() {
+        "icon.svg" => Ok((
+            [
+                (header::CONTENT_TYPE, "image/svg+xml; charset=utf-8"),
+                (header::CACHE_CONTROL, "public, max-age=31536000, immutable"),
+            ],
+            include_str!("../static/icons/icon.svg"),
+        )
+            .into_response()),
+        "icon-192.png" => Ok((
+            [
+                (header::CONTENT_TYPE, "image/png"),
+                (header::CACHE_CONTROL, "public, max-age=31536000, immutable"),
+            ],
+            include_bytes!("../static/icons/icon-192.png").to_vec(),
+        )
+            .into_response()),
+        "icon-512.png" => Ok((
+            [
+                (header::CONTENT_TYPE, "image/png"),
+                (header::CACHE_CONTROL, "public, max-age=31536000, immutable"),
+            ],
+            include_bytes!("../static/icons/icon-512.png").to_vec(),
+        )
+            .into_response()),
+        _ => Err(AppError::not_found("Asset not found")),
+    }
 }
 
 async fn languages() -> Json<Vec<LanguageOption>> {

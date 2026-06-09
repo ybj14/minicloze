@@ -1,3 +1,95 @@
+const COURSES = [
+  {
+    code: "mon-a1",
+    label: "Mongolian A1",
+    slug: "mongolian-a1",
+    baseLanguage: "mon",
+    sentenceCount: 1500,
+    corpusPath: "/data/mongolian_a1.json",
+    vocabularyPath: "/data/mongolian_a1_vocab.json",
+    explanationsPath: "/data/mongolian_a1_explanations.json",
+  },
+  {
+    code: "bod-a1",
+    label: "Tibetan A1",
+    slug: "tibetan-a1",
+    baseLanguage: "bod",
+    sentenceCount: 1500,
+    corpusPath: "/data/tibetan_a1.json",
+    vocabularyPath: "/data/tibetan_a1_vocab.json",
+    explanationsPath: "/data/tibetan_a1_explanations.json",
+    tokensPath: "/data/tibetan_a1_tokens.json",
+  },
+];
+
+const MAX_COUNT = 50;
+const DISTANCE_FOR_CLOSE = 3;
+const NON_SPACED_LANGUAGES = new Set([
+  "cmn",
+  "lzh",
+  "hak",
+  "cjy",
+  "nan",
+  "hsn",
+  "gan",
+  "jpn",
+  "tha",
+  "khm",
+  "lao",
+  "mya",
+]);
+const TIBETAN_BREAKS = new Set(["་", "༌", "།", "༎", "༏", "༐", "༑", "༔"]);
+const TRANSLITERATION_TRIM = new Set([
+  "(",
+  ")",
+  ",",
+  ".",
+  ";",
+  ":",
+  "?",
+  "!",
+  '"',
+  "/",
+  " ",
+]);
+const CYRILLIC_LATIN = {
+  а: "a",
+  б: "b",
+  в: "v",
+  г: "g",
+  д: "d",
+  е: "e",
+  ё: "yo",
+  ж: "j",
+  з: "z",
+  и: "i",
+  й: "i",
+  к: "k",
+  л: "l",
+  м: "m",
+  н: "n",
+  о: "o",
+  ө: "o",
+  п: "p",
+  р: "r",
+  с: "s",
+  т: "t",
+  у: "u",
+  ү: "u",
+  ф: "f",
+  х: "h",
+  ц: "ts",
+  ч: "ch",
+  ш: "sh",
+  щ: "shch",
+  ъ: "",
+  ы: "y",
+  ь: "",
+  э: "e",
+  ю: "yu",
+  я: "ya",
+};
+
 const els = {
   languageSelect: document.querySelector("#languageSelect"),
   countSelect: document.querySelector("#countSelect"),
@@ -24,11 +116,13 @@ const els = {
   wordExplanations: document.querySelector("#wordExplanations"),
   nextButton: document.querySelector("#nextButton"),
   againButton: document.querySelector("#againButton"),
-  summaryTitle: document.querySelector("#summaryTitle"),
+  summaryViewTitle: document.querySelector("#summaryTitle"),
   summaryText: document.querySelector("#summaryText"),
 };
 
-let roundId = null;
+const courseCache = new Map();
+
+let currentRound = null;
 let currentCard = null;
 let currentSummary = { total: 0, answered: 0, correct: 0, finished: false };
 let pendingNextCard = null;
@@ -37,8 +131,9 @@ let answeredCurrentCard = false;
 
 document.addEventListener("DOMContentLoaded", async () => {
   bindEvents();
-  await loadLanguages();
+  loadLanguages();
   renderStoredStats();
+  registerServiceWorker();
 });
 
 function bindEvents() {
@@ -60,13 +155,12 @@ function bindEvents() {
   els.inverseToggle.addEventListener("change", renderStoredStats);
 }
 
-async function loadLanguages() {
-  const languages = await api("/api/languages");
+function loadLanguages() {
   els.languageSelect.replaceChildren(
-    ...languages.map((language) => {
+    ...COURSES.map((language) => {
       const option = document.createElement("option");
       option.value = language.slug;
-      option.textContent = `${language.label} (${language.sentence_count})`;
+      option.textContent = `${language.label} (${language.sentenceCount})`;
       return option;
     }),
   );
@@ -80,17 +174,13 @@ async function startRound() {
   hide(els.wordExplanations);
   try {
     activeMode = selectedMode();
-    const data = await api("/api/rounds", {
-      method: "POST",
-      body: JSON.stringify({
-        language: els.languageSelect.value,
-        mode: activeMode,
-        count: Number(els.countSelect.value),
-        inverse: els.inverseToggle.checked,
-      }),
+    const data = await createRound({
+      language: els.languageSelect.value,
+      mode: activeMode,
+      count: Number(els.countSelect.value),
+      inverse: els.inverseToggle.checked,
     });
 
-    roundId = data.round_id;
     currentSummary = data.summary;
     pendingNextCard = null;
     renderCard(data.card);
@@ -103,28 +193,25 @@ async function startRound() {
 }
 
 async function submitAnswer(answer) {
-  if (!roundId || !currentCard || answeredCurrentCard) {
+  if (!currentRound || !currentCard || answeredCurrentCard) {
     return;
   }
 
   answeredCurrentCard = true;
   disableAnswerInputs(true);
   try {
-    const data = await api(`/api/rounds/${roundId}/answer`, {
-      method: "POST",
-      body: JSON.stringify({
-        card_id: currentCard.id,
-        answer,
-      }),
+    const data = answerRound({
+      cardId: currentCard.id,
+      answer,
     });
 
     currentSummary = data.summary;
-    pendingNextCard = data.next_card;
+    pendingNextCard = data.nextCard;
     recordStoredStats(data.result.outcome === "correct");
     renderRoundSummary(data.summary);
     renderFeedback(data.result);
-    renderWordExplanations(data.word_explanations || []);
-    markChoices(answer, data.correct_answer, data.result);
+    renderWordExplanations(data.wordExplanations || []);
+    markChoices(answer, data.correctAnswer, data.result);
     els.nextButton.textContent = data.summary.finished ? "Finish" : "Next";
     show(els.nextButton);
   } catch (error) {
@@ -144,6 +231,429 @@ function goNext() {
   if (pendingNextCard) {
     renderCard(pendingNextCard);
   }
+}
+
+async function createRound(request) {
+  const course = courseForInput(request.language);
+  if (!course) {
+    throw new Error("Unknown language");
+  }
+
+  const data = await loadCourse(course);
+  const count = clamp(Number.isFinite(request.count) ? request.count : 10, 1, MAX_COUNT);
+  const sentences = shuffle([...data.sentences]).slice(0, count);
+  const cards = buildCards(sentences, data, request.inverse, request.mode);
+
+  if (!cards.length) {
+    throw new Error("No playable cards were generated");
+  }
+
+  currentRound = {
+    course: data,
+    inverse: request.inverse,
+    cards,
+    cursor: 0,
+    correct: 0,
+    answered: 0,
+  };
+
+  return {
+    mode: request.mode,
+    card: cardView(currentRound, cards[0], 0),
+    summary: roundSummary(currentRound),
+  };
+}
+
+function answerRound(request) {
+  if (!currentRound) {
+    throw new Error("Round not found");
+  }
+  if (currentRound.cursor >= currentRound.cards.length) {
+    throw new Error("Round is already finished");
+  }
+
+  const cardIndex = currentRound.cursor;
+  const card = currentRound.cards[cardIndex];
+  if (!card || card.id !== request.cardId) {
+    throw new Error("That card is not active");
+  }
+
+  let acceptedNewAnswer = false;
+  if (!card.result) {
+    card.result = checkAnswer(request.answer, card.prompt, currentRound.course);
+    acceptedNewAnswer = true;
+  }
+
+  if (acceptedNewAnswer) {
+    if (card.result.outcome === "correct") {
+      currentRound.correct += 1;
+    }
+    currentRound.answered += 1;
+    currentRound.cursor += 1;
+  }
+
+  const summary = roundSummary(currentRound);
+  const nextCard = currentRound.cards[currentRound.cursor]
+    ? cardView(currentRound, currentRound.cards[currentRound.cursor], currentRound.cursor)
+    : null;
+
+  return {
+    result: card.result,
+    correctAnswer: card.prompt.word,
+    wordExplanations: card.wordExplanations,
+    summary,
+    nextCard,
+  };
+}
+
+async function loadCourse(course) {
+  if (!courseCache.has(course.slug)) {
+    courseCache.set(course.slug, fetchCourse(course));
+  }
+  return courseCache.get(course.slug);
+}
+
+async function fetchCourse(course) {
+  const [corpus, vocabulary, explanations, tokens] = await Promise.all([
+    fetchJson(course.corpusPath),
+    fetchJson(course.vocabularyPath),
+    fetchJson(course.explanationsPath),
+    course.tokensPath ? fetchJson(course.tokensPath) : Promise.resolve({}),
+  ]);
+
+  return {
+    ...course,
+    sentences: corpus.data || [],
+    vocabulary: vocabulary.map((entry) => entry.word).filter(Boolean),
+    explanationsById: new Map(
+      (explanations.data || []).map((entry) => [
+        String(entry.id),
+        (entry.words || []).map((word) => ({ ...word })),
+      ]),
+    ),
+    tokensById: new Map(Object.entries(tokens || {})),
+  };
+}
+
+async function fetchJson(path) {
+  const response = await fetch(path, { headers: { Accept: "application/json" } });
+  if (!response.ok) {
+    throw new Error(`Could not load ${path}`);
+  }
+  return response.json();
+}
+
+function buildCards(sentences, course, inverse, mode) {
+  const prompts = sentences.map((sentence) => {
+    const prompt = generatePrompt(sentence, course, inverse);
+    const translation = inverse
+      ? firstTranslationText(sentence)
+      : sentence.text || "";
+    const wordExplanations =
+      course.explanationsById.get(String(sentence.id)) || [];
+    return { prompt, translation, wordExplanations };
+  });
+
+  const optionPool = [
+    ...course.vocabulary,
+    ...prompts.map((item) => item.prompt.word),
+  ];
+
+  return prompts.map((item, id) => ({
+    id,
+    prompt: item.prompt,
+    translation: item.translation,
+    wordExplanations: item.wordExplanations,
+    answerOptions:
+      mode === "multiple_choice"
+        ? buildOptions(item.prompt.word, optionPool)
+        : [],
+    result: null,
+  }));
+}
+
+function buildOptions(answer, pool) {
+  const answerKey = normalizeOption(answer);
+  const seen = new Set([answerKey]);
+  const distractors = [];
+
+  for (const candidateValue of pool) {
+    const candidate = String(candidateValue || "").trim();
+    const key = normalizeOption(candidate);
+    if (!candidate || key === answerKey || seen.has(key)) {
+      continue;
+    }
+    seen.add(key);
+    distractors.push(candidate);
+  }
+
+  shuffle(distractors);
+  const options = [answer, ...distractors.slice(0, 3)];
+  return shuffle(options);
+}
+
+function generatePrompt(sentence, course, inverse) {
+  const words = promptTokens(sentence, course, inverse);
+  const candidates = words
+    .map((word, index) => ({ word, index }))
+    .filter(({ word }) => removePunctuation(word.text).length > 0)
+    .map(({ index }) => index);
+
+  const preferredIndex = preferredClozeIndex(sentence, words, candidates, inverse);
+  const wordIndex =
+    preferredIndex ??
+    (candidates.length
+      ? candidates[Math.floor(Math.random() * candidates.length)]
+      : 0);
+  const word = words[wordIndex] || { text: "", transliteration: null };
+
+  return {
+    firstHalf: joinPromptTokenText(words.slice(0, wordIndex)),
+    word: removePunctuation(word.text),
+    secondHalf: joinPromptTokenText(words.slice(wordIndex + 1)),
+    firstHalfTransliteration: joinPromptTokenTransliteration(
+      words.slice(0, wordIndex),
+    ),
+    wordTransliteration: word.transliteration
+      ? removeTransliterationPunctuation(word.transliteration)
+      : null,
+    secondHalfTransliteration: joinPromptTokenTransliteration(
+      words.slice(wordIndex + 1),
+    ),
+  };
+}
+
+function promptTokens(sentence, course, inverse) {
+  if (inverse) {
+    return tokenizePromptText("eng", sentence.text || "").map((text) => ({
+      text,
+      transliteration: null,
+    }));
+  }
+
+  if (course.baseLanguage === "bod") {
+    const tokens = course.tokensById.get(String(sentence.id));
+    if (tokens) {
+      return tokens.map((token) => ({
+        text: token.text,
+        transliteration: token.wylie && token.wylie.trim() ? token.wylie : null,
+      }));
+    }
+    return tokenizeTibetanWithTarget(
+      firstTranslationText(sentence),
+      sentence.cloze_word,
+    ).map((text) => ({ text, transliteration: null }));
+  }
+
+  return tokenizePromptText(course.baseLanguage, firstTranslationText(sentence)).map(
+    (text) => ({ text, transliteration: null }),
+  );
+}
+
+function preferredClozeIndex(sentence, words, candidates, inverse) {
+  if (inverse || !sentence.cloze_word) {
+    return null;
+  }
+
+  const target = normalizeClozeMatch(sentence.cloze_word);
+  return (
+    candidates.find((index) => normalizeClozeMatch(words[index].text) === target) ??
+    null
+  );
+}
+
+function tokenizePromptText(language, text) {
+  const trimmed = String(text || "").trim();
+  if (!trimmed) {
+    return [];
+  }
+
+  if (NON_SPACED_LANGUAGES.has(language)) {
+    return Array.from(trimmed);
+  }
+  if (language === "bod") {
+    return tokenizeTibetanSyllables(trimmed);
+  }
+
+  return trimmed.match(/\S+\s*/g) || [];
+}
+
+function tokenizeTibetanWithTarget(text, target) {
+  if (!target) {
+    return tokenizeTibetanSyllables(text);
+  }
+
+  const index = text.indexOf(target);
+  if (index < 0) {
+    return tokenizeTibetanSyllables(text);
+  }
+
+  return [
+    ...tokenizeTibetanSyllables(text.slice(0, index)),
+    target,
+    ...tokenizeTibetanSyllables(text.slice(index + target.length)),
+  ];
+}
+
+function tokenizeTibetanSyllables(text) {
+  const tokens = [];
+  let current = "";
+
+  for (const char of String(text || "").trim()) {
+    current += char;
+    if (TIBETAN_BREAKS.has(char) || /\s/u.test(char)) {
+      pushTibetanToken(tokens, current);
+      current = "";
+    }
+  }
+
+  pushTibetanToken(tokens, current);
+  return tokens;
+}
+
+function pushTibetanToken(tokens, token) {
+  if (token.trim()) {
+    tokens.push(token);
+  }
+}
+
+function joinPromptTokenText(tokens) {
+  return tokens.map((token) => token.text).join("");
+}
+
+function joinPromptTokenTransliteration(tokens) {
+  const transliteration = tokens
+    .map((token) => token.transliteration || "")
+    .join("");
+  return transliteration.trim() ? transliteration : null;
+}
+
+function cardView(round, card, index) {
+  const blank = round.inverse
+    ? "?"
+    : "_".repeat(Math.max(Array.from(card.prompt.word).length, 3));
+  const transliteration = card.prompt.wordTransliteration
+    ? spacedClozeLine(
+        card.prompt.firstHalfTransliteration || "",
+        "_".repeat(Math.max(Array.from(card.prompt.wordTransliteration).length, 3)),
+        card.prompt.secondHalfTransliteration || "",
+      )
+    : null;
+
+  return {
+    id: card.id,
+    index: index + 1,
+    total: round.cards.length,
+    prompt_label: round.inverse ? "English" : round.course.label,
+    translation_label: round.inverse ? round.course.label : "English",
+    prompt: {
+      first_half: card.prompt.firstHalf,
+      blank,
+      second_half: card.prompt.secondHalf,
+    },
+    transliteration,
+    translation: card.translation,
+    answer_options: card.answerOptions,
+  };
+}
+
+function spacedClozeLine(firstHalf, blank, secondHalf) {
+  const first = firstHalf.trimEnd();
+  const second = secondHalf.trimStart();
+
+  return {
+    first_half: first ? `${first} ` : "",
+    blank,
+    second_half: second ? ` ${second}` : "",
+  };
+}
+
+function roundSummary(round) {
+  return {
+    total: round.cards.length,
+    answered: round.answered,
+    correct: round.correct,
+    finished: round.answered >= round.cards.length,
+  };
+}
+
+function checkAnswer(guess, prompt, course) {
+  const distance = answerDistance(guess, prompt);
+  const outcome =
+    distance === 0
+      ? "correct"
+      : distance < DISTANCE_FOR_CLOSE
+        ? "close"
+        : "wrong";
+
+  return {
+    outcome,
+    distance,
+    answer: answerWithTransliteration(prompt, course),
+  };
+}
+
+function answerWithTransliteration(prompt, course) {
+  if (course.baseLanguage === "bod" && prompt.wordTransliteration) {
+    return `${prompt.word.toLowerCase().trim()} (${prompt.wordTransliteration})`;
+  }
+  return prompt.word.toLowerCase().trim();
+}
+
+function answerDistance(guess, prompt) {
+  const nativeDistance = levenshtein(
+    removePunctuation(String(guess || "").trim().toLowerCase()),
+    prompt.word.toLowerCase().trim(),
+  );
+  const transliteratedWord = transliteratedAnswer(prompt);
+  if (!transliteratedWord) {
+    return nativeDistance;
+  }
+
+  const normalizedGuess = normalizeLatinAnswer(guess);
+  if (!normalizedGuess) {
+    return nativeDistance;
+  }
+  return Math.min(nativeDistance, levenshtein(normalizedGuess, transliteratedWord));
+}
+
+function transliteratedAnswer(prompt) {
+  const transliteration = prompt.wordTransliteration || prompt.word;
+  const normalized = normalizeLatinAnswer(transliteration);
+  return normalized || null;
+}
+
+function normalizeLatinAnswer(answer) {
+  const transliterated = Array.from(String(answer || "").toLowerCase())
+    .map((char) => CYRILLIC_LATIN[char] ?? char)
+    .join("");
+
+  return transliterated
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function levenshtein(left, right) {
+  const a = Array.from(left);
+  const b = Array.from(right);
+  let previous = Array.from({ length: b.length + 1 }, (_, index) => index);
+
+  for (let i = 0; i < a.length; i += 1) {
+    const current = [i + 1];
+    for (let j = 0; j < b.length; j += 1) {
+      const cost = a[i] === b[j] ? 0 : 1;
+      current[j + 1] = Math.min(
+        current[j] + 1,
+        previous[j + 1] + 1,
+        previous[j] + cost,
+      );
+    }
+    previous = current;
+  }
+
+  return previous[b.length];
 }
 
 function renderCard(card) {
@@ -298,7 +808,7 @@ function renderFinalSummary() {
   const total = currentSummary.total || 0;
   const correct = currentSummary.correct || 0;
   const percent = total ? Math.round((correct / total) * 100) : 0;
-  els.summaryTitle.textContent = `${correct} / ${total}`;
+  els.summaryViewTitle.textContent = `${correct} / ${total}`;
   els.summaryText.textContent = `${percent}% correct in this round.`;
 }
 
@@ -348,22 +858,6 @@ function selectedMode() {
   return selected ? selected.value : "multiple_choice";
 }
 
-async function api(path, options = {}) {
-  const response = await fetch(path, {
-    headers: {
-      "Content-Type": "application/json",
-      ...(options.headers || {}),
-    },
-    ...options,
-  });
-
-  const data = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(data.error || `Request failed with ${response.status}`);
-  }
-  return data;
-}
-
 function showEmptyError(message) {
   hide(els.cardView);
   hide(els.summaryView);
@@ -388,4 +882,65 @@ function show(element) {
 
 function hide(element) {
   element.classList.add("hidden");
+}
+
+function courseForInput(input) {
+  return COURSES.find(
+    (course) => course.slug === input || course.code === input || course.baseLanguage === input,
+  );
+}
+
+function firstTranslationText(sentence) {
+  return sentence.translations?.[0]?.text || "";
+}
+
+function removePunctuation(word) {
+  return String(word || "")
+    .replace(/[(),.;:?¿!¡"«»。 །༎༏༐༑༔]/gu, "")
+    .replace(/^[་༌]+|[་༌]+$/gu, "");
+}
+
+function removeTransliterationPunctuation(word) {
+  const chars = Array.from(String(word || "").trim());
+  let start = 0;
+  let end = chars.length;
+
+  while (start < end && TRANSLITERATION_TRIM.has(chars[start])) {
+    start += 1;
+  }
+  while (end > start && TRANSLITERATION_TRIM.has(chars[end - 1])) {
+    end -= 1;
+  }
+
+  return chars.slice(start, end).join("");
+}
+
+function normalizeClozeMatch(word) {
+  return removePunctuation(word).toLowerCase();
+}
+
+function normalizeOption(option) {
+  return String(option || "").trim().toLowerCase();
+}
+
+function shuffle(items) {
+  for (let index = items.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
+  }
+  return items;
+}
+
+function clamp(value, min, max) {
+  return Math.min(Math.max(value, min), max);
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator)) {
+    return;
+  }
+
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service-worker.js").catch(() => {});
+  });
 }

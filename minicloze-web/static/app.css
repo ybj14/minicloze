@@ -339,6 +339,7 @@ h2 {
 .blank {
   display: inline-block;
   min-width: 2.6em;
+  margin-inline: 0.08em;
   border-bottom: 4px solid var(--accent);
   color: var(--accent-dark);
   text-align: center;

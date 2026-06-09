@@ -52,6 +52,27 @@ The older Tibetan-only launcher is still available as a shortcut for `./learn.sh
 ```
 
 # Web frontend
+The web frontend can run as a static PWA. It loads local corpus JSON directly in
+the browser, keeps round state client-side, and can be deployed without the Rust
+web server.
+
+Preview the static build locally:
+
+```bash
+python3 -m http.server 4173 --directory minicloze-web/static
+```
+
+Then open <http://127.0.0.1:4173>. To refresh the static corpus files after
+editing `minicloze-lib/corpora`, run:
+
+```bash
+./.venv-tibetan/bin/python scripts/build_static_web_data.py
+```
+
+Vercel can deploy the static app from this workspace using `vercel.json`; it has
+no install or build command and serves `minicloze-web/static` as the output
+directory. The same directory also works on any static host.
+
 You can run the local web version in the foreground with Tibetan Wylie support enabled:
 
 ```bash
