@@ -20,6 +20,7 @@ use async_recursion::async_recursion;
 
 const DISTANCE_FOR_CLOSE: i32 = 3;
 const TIBETAN: &str = "bod";
+const TIBETAN_A1: &str = "bod-a1";
 
 #[tokio::main]
 async fn main() {
@@ -34,8 +35,7 @@ async fn main() {
     let inverse = args.len() > 2 && args[2] == "inverse";
 
     let language_input = if args.len() > 1 {
-        // titlecase the input from the command line
-        args[1].to_string().remove(0).to_uppercase().to_string() + &args[1][1..]
+        normalize_language_input(&args[1])
     }
     // if compiled script is run
     else {
@@ -171,7 +171,7 @@ async fn start_game(
 
             println!();
 
-            if language == TIBETAN && prompt.word_transliteration.is_some() {
+            if is_tibetan(&language) && prompt.word_transliteration.is_some() {
                 println!(
                     "{style_bold}WYL:{style_reset} {}",
                     format_transliteration_cloze(
@@ -283,7 +283,7 @@ fn clear_screen() {
 }
 
 fn answer_with_transliteration(prompt: &Prompt, language: &str) -> String {
-    if language == TIBETAN {
+    if is_tibetan(language) {
         if let Some(transliteration) = &prompt.word_transliteration {
             return format!(
                 "{} ({})",
@@ -294,6 +294,10 @@ fn answer_with_transliteration(prompt: &Prompt, language: &str) -> String {
     }
 
     prompt.word.to_lowercase().trim().to_string()
+}
+
+fn is_tibetan(language: &str) -> bool {
+    language == TIBETAN || language == TIBETAN_A1
 }
 
 fn answer_distance(guess: &str, prompt: &Prompt) -> usize {
@@ -354,6 +358,26 @@ fn read_into(buffer: &mut String) {
     io::stdin().read_line(buffer).unwrap();
 }
 
+fn normalize_language_input(input: &str) -> String {
+    match input {
+        "mongolian-a1" | "mon-a1" => "Mongolian A1".to_string(),
+        "tibetan-a1" | "bod-a1" => "Tibetan A1".to_string(),
+        _ if input.starts_with("tibetan-a") => {
+            format!("Tibetan A{}", &input["tibetan-a".len()..])
+        }
+        _ if input.starts_with("bod-a") => {
+            format!("Tibetan A{}", &input["bod-a".len()..])
+        }
+        _ if input.starts_with("mongolian-a") => {
+            format!("Mongolian A{}", &input["mongolian-a".len()..])
+        }
+        _ if input.starts_with("mon-a") => {
+            format!("Mongolian A{}", &input["mon-a".len()..])
+        }
+        _ => input.to_string().remove(0).to_uppercase().to_string() + &input[1..],
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -389,5 +413,13 @@ mod tests {
         let prompt = prompt_for("été", None);
 
         assert_eq!(answer_distance("ete", &prompt), 0);
+    }
+
+    #[test]
+    fn normalizes_local_corpus_language_arguments() {
+        assert_eq!(normalize_language_input("tibetan-a1"), "Tibetan A1");
+        assert_eq!(normalize_language_input("bod-a2"), "Tibetan A2");
+        assert_eq!(normalize_language_input("mongolian-a1"), "Mongolian A1");
+        assert_eq!(normalize_language_input("mon-a2"), "Mongolian A2");
     }
 }

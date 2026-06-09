@@ -1,4 +1,5 @@
 pub mod langs;
+mod local_corpora;
 pub mod sentence;
 mod tibetan;
 pub mod tokenizer;
@@ -11,6 +12,7 @@ pub mod wiktionary {
 
     pub fn generate_url(lookup: &str, language: &str) -> String {
         let lang_codes = crate::langs::propagate();
+        let language = crate::local_corpora::lookup_language(language);
 
         let mut full_language = String::new();
         // gets key from value

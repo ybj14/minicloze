@@ -71,6 +71,24 @@ sys.stdout = json_stdout
 json.dump(output, sys.stdout, ensure_ascii=False)
 "#;
 
+const WYLIE_HELPER: &str = r#"
+import json
+import sys
+
+try:
+    import pyewts
+except ModuleNotFoundError:
+    sys.stderr.write(
+        "Tibetan Wylie transliteration requires pyewts. "
+        "Install it with: pip install 'setuptools<81' wheel && pip install --no-build-isolation pyewts\n"
+    )
+    sys.exit(2)
+
+texts = json.load(sys.stdin)
+converter = pyewts.pyewts()
+json.dump([converter.toWylie(text) for text in texts], sys.stdout, ensure_ascii=False)
+"#;
+
 pub fn tokenize_batch_with_botok(
     texts: &[&str],
 ) -> Result<Vec<Vec<TibetanToken>>, Box<dyn Error + Send + Sync>> {
@@ -126,6 +144,63 @@ pub fn tokenize_batch_with_botok(
     }
 
     Ok(tokenized)
+}
+
+pub(crate) fn transliterate_batch_to_wylie(
+    texts: &[&str],
+) -> Result<Vec<String>, Box<dyn Error + Send + Sync>> {
+    let python = std::env::var("MINICLOZE_PYTHON").unwrap_or_else(|_| "python3".to_string());
+    let input = serde_json::to_vec(texts)?;
+
+    let mut child = Command::new(&python)
+        .arg("-c")
+        .arg(WYLIE_HELPER)
+        .stdin(Stdio::piped())
+        .stdout(Stdio::piped())
+        .stderr(Stdio::piped())
+        .spawn()
+        .map_err(|err| {
+            IoError::new(
+                err.kind(),
+                format!(
+                    "failed to start {python} for Tibetan Wylie transliteration; install Python 3 and pyewts, or set MINICLOZE_PYTHON: {err}"
+                ),
+            )
+        })?;
+
+    let mut stdin = child.stdin.take().ok_or_else(|| {
+        IoError::new(
+            ErrorKind::BrokenPipe,
+            "failed to open stdin for Tibetan Wylie transliteration",
+        )
+    })?;
+    stdin.write_all(&input)?;
+    drop(stdin);
+
+    let output = child.wait_with_output()?;
+    if !output.status.success() {
+        let stderr = String::from_utf8_lossy(&output.stderr);
+        return Err(IoError::new(
+            ErrorKind::Other,
+            format!("Tibetan Wylie transliteration failed: {}", stderr.trim()),
+        )
+        .into());
+    }
+
+    let transliterated = serde_json::from_slice::<Vec<String>>(&output.stdout)?;
+    if transliterated.len() != texts.len() {
+        return Err(IoError::new(
+            ErrorKind::InvalidData,
+            format!(
+                "pyewts returned {} transliterations for {} inputs",
+                transliterated.len(),
+                texts.len()
+            ),
+        )
+        .into());
+    }
+
+    Ok(transliterated)
 }
 
 pub fn tokenize_syllables(text: &str) -> Vec<String> {
@@ -196,5 +271,14 @@ mod tests {
 
         assert_eq!(tokenized.len(), 1);
         assert!(tokenized[0].len() > 1);
+    }
+
+    #[test]
+    #[ignore = "requires Python with pyewts installed"]
+    fn transliterates_with_pyewts_when_installed() {
+        assert_eq!(
+            transliterate_batch_to_wylie(&["བཀྲ་ཤིས"]).unwrap(),
+            vec!["bkra shis".to_string()]
+        );
     }
 }

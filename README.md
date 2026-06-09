@@ -35,7 +35,17 @@ MINICLOZE_PYTHON=/path/to/python minicloze tibetan
 
 For debugging only, `MINICLOZE_TIBETAN_FALLBACK=syllable` falls back to syllable-level splitting when Botok cannot run.
 
-You can also use the one-step launcher, which creates a local Python environment, installs Botok if needed, and starts Tibetan mode:
+The local `tibetan-a1` corpus can run without Botok by using a built-in target-word fallback. Install Botok and pyewts if you want Wylie helper text.
+
+You can also use the one-step launcher, which runs any language or local corpus. For Tibetan targets such as `tibetan`, `tibetan-a1`, or a future `tibetan-a2`, it creates a local Python environment and installs Botok/pyewts if needed:
+
+```bash
+./learn.sh mongolian
+./learn.sh tibetan-a1
+./learn.sh tibetan-a1 inverse
+```
+
+The older Tibetan-only launcher is still available as a shortcut for `./learn.sh tibetan`:
 
 ```bash
 ./learn-tibetan.sh
@@ -44,6 +54,13 @@ You can also use the one-step launcher, which creates a local Python environment
 # Usage
 For `minicloze-cli`, just pass in the language (from www.tatoeba.org) you want to use, e.g. `minicloze french`. Add `inverse` for inverse mode (`minicloze french inverse`).
 
+There are also local A1 corpora with original beginner sentences:
+
+```bash
+minicloze mongolian-a1
+minicloze tibetan-a1
+```
+
 Answers can be typed either in the target script or as a Latin transliteration without diacritics. For example, Mongolian `дөрөв` can be answered as `dorov`, and Tibetan `བཀྲ་ཤིས` can be answered as `bkra shis`.
 
 ![Example of use with French](french.gif)
@@ -51,5 +68,7 @@ Answers can be typed either in the target script or as a Latin transliteration w
 # Contributing
 Any help is very welcome, just open a PR or an issue and I'll probably be able to reply quickly. Right now the focus is on expanding from the basic idea into a more fully-fledged and user friendly experience.
 
-# Tatoeba Licensing
-All sentences are from Tatoeba (www.tatoeba.org). Tatoeba's data is released under the CC-BY 2.0 FR license.
+# Licensing
+Remote sentence data comes from Tatoeba (www.tatoeba.org), released under the CC-BY 2.0 FR license.
+
+The local `mongolian-a1` and `tibetan-a1` corpora are original minicloze sentences generated for this project. Their vocabulary selection is inspired by beginner language-learning resources listed in `minicloze-lib/corpora/README.md`.

@@ -1,8 +1,9 @@
 // logic which handles parsing a raw JSON from tatoeba into sentences
 
-use crate::tibetan::TibetanToken;
+use crate::local_corpora;
+use crate::tibetan::{self, TibetanToken};
 use crate::tokenizer;
-use rand::{thread_rng, Rng};
+use rand::{seq::SliceRandom, thread_rng, Rng};
 use serde::{Deserialize, Serialize};
 use std::error::Error;
 
@@ -19,6 +20,8 @@ pub struct Sentence {
     id: i32,
     pub text: String,
     pub translations: Vec<Translation>,
+    #[serde(default)]
+    cloze_word: Option<String>,
     #[serde(skip)]
     tokenized_translation: Option<Vec<TibetanToken>>,
 }
@@ -118,11 +121,15 @@ impl Sentence {
                 }
             })
             .collect::<Vec<_>>();
-        let word_index = if candidates.is_empty() {
-            0
-        } else {
-            candidates[thread_rng().gen_range(0..candidates.len())]
-        };
+        let word_index = self
+            .preferred_cloze_index(&words, &candidates, inverse)
+            .unwrap_or_else(|| {
+                if candidates.is_empty() {
+                    0
+                } else {
+                    candidates[thread_rng().gen_range(0..candidates.len())]
+                }
+            });
         let halved = words.split_at(word_index);
 
         let word = remove_punctuation(&words[word_index].text);
@@ -141,6 +148,25 @@ impl Sentence {
                 &words[word_index + 1..],
             ),
         }
+    }
+
+    fn preferred_cloze_index(
+        &self,
+        words: &[PromptToken],
+        candidates: &[usize],
+        inverse: bool,
+    ) -> Option<usize> {
+        if inverse {
+            return None;
+        }
+
+        let target = self.cloze_word.as_deref()?;
+        let target = normalize_cloze_match(target);
+
+        candidates
+            .iter()
+            .copied()
+            .find(|index| normalize_cloze_match(&words[*index].text) == target)
     }
 }
 
@@ -168,6 +194,23 @@ fn join_prompt_token_transliteration(tokens: &[PromptToken]) -> Option<String> {
 pub async fn generate_sentences(
     language: &str,
 ) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
+    if let Some(corpus) = local_corpora::corpus_for_language(language) {
+        let mut sentences = parse(corpus.json)
+            .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
+        sentences.shuffle(&mut thread_rng());
+        sentences.truncate(10);
+        if let Err(err) = tokenizer::prepare_sentences(corpus.base_language, &mut sentences) {
+            if corpus.base_language == "bod" {
+                prepare_local_tibetan_syllable_fallback(&mut sentences);
+            } else {
+                return Err(err);
+            }
+        } else if corpus.base_language == "bod" {
+            ensure_local_tibetan_cloze_targets(&mut sentences);
+        }
+        return Ok(sentences);
+    }
+
     // where the initial request happens
     let mut sentences = sentences_http_request(language).await?;
 
@@ -241,6 +284,90 @@ pub fn remove_transliteration_punctuation(word: &str) -> String {
         .to_string()
 }
 
+fn normalize_cloze_match(word: &str) -> String {
+    remove_punctuation(word).to_lowercase()
+}
+
+fn prepare_local_tibetan_syllable_fallback(sentences: &mut [Sentence]) {
+    for sentence in sentences {
+        let Some(translation) = sentence.get_translation() else {
+            continue;
+        };
+        let tokens =
+            tokenize_tibetan_with_target(&translation.text, sentence.cloze_word.as_deref());
+        sentence.set_tokenized_translation(tokens);
+    }
+}
+
+fn ensure_local_tibetan_cloze_targets(sentences: &mut [Sentence]) {
+    for sentence in sentences {
+        let Some(target) = sentence.cloze_word.as_deref() else {
+            continue;
+        };
+        let Some(tokens) = sentence.tokenized_translation.as_ref() else {
+            continue;
+        };
+        let target = normalize_cloze_match(target);
+        let has_target = tokens
+            .iter()
+            .any(|token| normalize_cloze_match(&token.text) == target);
+
+        if !has_target {
+            let Some(translation) = sentence.get_translation() else {
+                continue;
+            };
+            let tokens =
+                tokenize_tibetan_with_target(&translation.text, sentence.cloze_word.as_deref());
+            sentence.set_tokenized_translation(tokens);
+        }
+    }
+}
+
+fn tokenize_tibetan_with_target(text: &str, target: Option<&str>) -> Vec<TibetanToken> {
+    let Some(target) = target else {
+        return tibetan_tokens_with_wylie(tibetan::tokenize_syllables(text));
+    };
+
+    let Some(index) = text.find(target) else {
+        return tibetan_tokens_with_wylie(tibetan::tokenize_syllables(text));
+    };
+
+    let before = &text[..index];
+    let after_start = index + target.len();
+    let after = &text[after_start..];
+
+    let mut token_texts = tibetan::tokenize_syllables(before);
+    token_texts.push(target.to_string());
+    token_texts.extend(tibetan::tokenize_syllables(after));
+    tibetan_tokens_with_wylie(token_texts)
+}
+
+fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
+    let text_refs = texts.iter().map(String::as_str).collect::<Vec<_>>();
+    let wylies = tibetan::transliterate_batch_to_wylie(&text_refs).ok();
+
+    texts
+        .into_iter()
+        .enumerate()
+        .map(|(index, text)| TibetanToken {
+            text,
+            wylie: wylies
+                .as_ref()
+                .and_then(|items| items.get(index))
+                .cloned()
+                .unwrap_or_default(),
+        })
+        .collect()
+}
+
+#[allow(dead_code)]
+fn tibetan_token_without_wylie(text: String) -> TibetanToken {
+    TibetanToken {
+        text,
+        wylie: String::new(),
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -295,6 +422,7 @@ mod tests {
                 id: 2,
                 text: "ཞོགས་པ་བདེ་ལེགས།".to_string(),
             }],
+            cloze_word: None,
             tokenized_translation: None,
         };
         sentence.set_tokenized_translation(vec![
@@ -332,5 +460,23 @@ mod tests {
     #[test]
     fn remove_transliteration_punctuation_trims_wylie_spacing_and_shad() {
         assert_eq!(remove_transliteration_punctuation("cig / "), "cig");
+    }
+
+    #[test]
+    fn generate_prompt_prefers_configured_cloze_word() {
+        let sentence = Sentence {
+            id: 1,
+            text: "The sun is warm.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "Нар дулаан байна.".to_string(),
+            }],
+            cloze_word: Some("нар".to_string()),
+            tokenized_translation: None,
+        };
+
+        let prompt = sentence.generate_prompt("mon", false);
+
+        assert_eq!(prompt.word, "Нар");
     }
 }
