@@ -1,12 +1,13 @@
 use minicloze_lib::{
-    langs::propagate,
-    sentence::{generate_sentences, remove_punctuation, Prompt, Sentence},
+    game::{
+        answer_distance, answer_with_transliteration, format_transliteration_cloze, is_tibetan,
+        DISTANCE_FOR_CLOSE,
+    },
+    langs::{normalize_language_input, propagate},
+    sentence::{generate_sentences, Prompt, Sentence},
     wiktionary::generate_url,
 };
 
-use levenshtein::levenshtein;
-
-use deunicode::deunicode;
 use std::io;
 use std::io::Write;
 use std::time::Instant;
@@ -17,10 +18,6 @@ use inquire::*;
 use terminal_link::*;
 
 use async_recursion::async_recursion;
-
-const DISTANCE_FOR_CLOSE: i32 = 3;
-const TIBETAN: &str = "bod";
-const TIBETAN_A1: &str = "bod-a1";
 
 #[tokio::main]
 async fn main() {
@@ -202,7 +199,7 @@ async fn start_game(
                     &generate_url(prompt.word.to_lowercase().trim(), &language)
                 )
             );
-        } else if levenshtein_distance < DISTANCE_FOR_CLOSE as usize {
+        } else if levenshtein_distance < DISTANCE_FOR_CLOSE {
             let answer = answer_with_transliteration(&prompt, &language);
             println!(
                 "Close, {style_bold}{color_bright_white}{bg_yellow}{}{bg_reset}{color_reset}{style_reset}.",
@@ -282,100 +279,10 @@ fn clear_screen() {
     print!("{esc}[2J{esc}[1;1H", esc = 27 as char);
 }
 
-fn answer_with_transliteration(prompt: &Prompt, language: &str) -> String {
-    if is_tibetan(language) {
-        if let Some(transliteration) = &prompt.word_transliteration {
-            return format!(
-                "{} ({})",
-                prompt.word.to_lowercase().trim(),
-                transliteration
-            );
-        }
-    }
-
-    prompt.word.to_lowercase().trim().to_string()
-}
-
-fn is_tibetan(language: &str) -> bool {
-    language == TIBETAN || language == TIBETAN_A1
-}
-
-fn answer_distance(guess: &str, prompt: &Prompt) -> usize {
-    let native_distance = levenshtein(
-        &remove_punctuation(&guess.trim().to_lowercase()),
-        prompt.word.to_lowercase().trim(),
-    );
-
-    let Some(transliterated_word) = transliterated_answer(prompt) else {
-        return native_distance;
-    };
-
-    let normalized_guess = normalize_latin_answer(guess);
-    if normalized_guess.is_empty() {
-        return native_distance;
-    }
-
-    native_distance.min(levenshtein(&normalized_guess, &transliterated_word))
-}
-
-fn transliterated_answer(prompt: &Prompt) -> Option<String> {
-    let transliteration = prompt
-        .word_transliteration
-        .as_deref()
-        .unwrap_or(&prompt.word);
-    let normalized = normalize_latin_answer(transliteration);
-
-    if normalized.is_empty() {
-        None
-    } else {
-        Some(normalized)
-    }
-}
-
-fn normalize_latin_answer(answer: &str) -> String {
-    deunicode(answer)
-        .to_lowercase()
-        .chars()
-        .filter(|ch| ch.is_ascii_alphanumeric())
-        .collect()
-}
-
-fn format_transliteration_cloze(first_half: &str, blank: &str, second_half: &str) -> String {
-    let first_half = first_half.trim_end();
-    let second_half = second_half.trim_start();
-
-    match (first_half.is_empty(), second_half.is_empty()) {
-        (true, true) => blank.to_string(),
-        (true, false) => format!("{blank} {second_half}"),
-        (false, true) => format!("{first_half} {blank}"),
-        (false, false) => format!("{first_half} {blank} {second_half}"),
-    }
-}
-
 // user input
 fn read_into(buffer: &mut String) {
     io::stdout().flush().unwrap();
     io::stdin().read_line(buffer).unwrap();
-}
-
-fn normalize_language_input(input: &str) -> String {
-    match input {
-        "mongolian-a1" | "mon-a1" => "Mongolian A1".to_string(),
-        "tibetan-a1" | "bod-a1" => "Tibetan A1".to_string(),
-        _ if input.starts_with("tibetan-a") => {
-            format!("Tibetan A{}", &input["tibetan-a".len()..])
-        }
-        _ if input.starts_with("bod-a") => {
-            format!("Tibetan A{}", &input["bod-a".len()..])
-        }
-        _ if input.starts_with("mongolian-a") => {
-            format!("Mongolian A{}", &input["mongolian-a".len()..])
-        }
-        _ if input.starts_with("mon-a") => {
-            format!("Mongolian A{}", &input["mon-a".len()..])
-        }
-        _ => input.to_string().remove(0).to_uppercase().to_string() + &input[1..],
-    }
 }
 
 #[cfg(test)]

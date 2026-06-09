@@ -51,6 +51,19 @@ The older Tibetan-only launcher is still available as a shortcut for `./learn.sh
 ./learn-tibetan.sh
 ```
 
+# Web frontend
+You can start the local web version with Tibetan Wylie support enabled:
+
+```bash
+./web.sh
+```
+
+The launcher creates or reuses `.venv-tibetan`, installs Botok and pyewts when needed, and exports `MINICLOZE_PYTHON` before starting `minicloze-web`. To choose a different address:
+
+```bash
+MINICLOZE_WEB_ADDR=127.0.0.1:4000 ./web.sh
+```
+
 # Usage
 For `minicloze-cli`, just pass in the language (from www.tatoeba.org) you want to use, e.g. `minicloze french`. Add `inverse` for inverse mode (`minicloze french inverse`).
 

@@ -1,5 +1,55 @@
 use std::collections::HashMap;
 
+pub fn normalize_language_input(input: &str) -> String {
+    let input = input.trim();
+    let lower = input.to_lowercase();
+
+    match lower.as_str() {
+        "mongolian-a1" | "mon-a1" => "Mongolian A1".to_string(),
+        "tibetan-a1" | "bod-a1" => "Tibetan A1".to_string(),
+        _ if lower.starts_with("tibetan-a") => {
+            format!("Tibetan A{}", &lower["tibetan-a".len()..])
+        }
+        _ if lower.starts_with("bod-a") => {
+            format!("Tibetan A{}", &lower["bod-a".len()..])
+        }
+        _ if lower.starts_with("mongolian-a") => {
+            format!("Mongolian A{}", &lower["mongolian-a".len()..])
+        }
+        _ if lower.starts_with("mon-a") => format!("Mongolian A{}", &lower["mon-a".len()..]),
+        _ => titlecase_first(input),
+    }
+}
+
+pub fn language_code_for_input(input: &str) -> Option<&'static str> {
+    let input = input.trim();
+    let languages = propagate();
+    if let Some((_, code)) = languages
+        .iter()
+        .find(|(_, code)| code.eq_ignore_ascii_case(input))
+    {
+        return Some(*code);
+    }
+
+    let language_input = normalize_language_input(input);
+    languages.get(language_input.as_str()).copied()
+}
+
+pub fn language_label_for_code(code: &str) -> Option<&'static str> {
+    propagate()
+        .into_iter()
+        .find_map(|(label, language_code)| (language_code == code).then_some(label))
+}
+
+fn titlecase_first(input: &str) -> String {
+    let mut chars = input.chars();
+    let Some(first) = chars.next() else {
+        return String::new();
+    };
+
+    format!("{}{}", first.to_uppercase(), chars.as_str())
+}
+
 pub fn propagate() -> HashMap<&'static str, &'static str> {
     HashMap::from([
         ("Abkhaz", "abk"),
@@ -424,4 +474,23 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Zulu", "zul"),
         ("Zaza", "zza"),
     ])
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn normalizes_local_corpus_language_arguments() {
+        assert_eq!(normalize_language_input("tibetan-a1"), "Tibetan A1");
+        assert_eq!(normalize_language_input("bod-a2"), "Tibetan A2");
+        assert_eq!(normalize_language_input("mongolian-a1"), "Mongolian A1");
+        assert_eq!(normalize_language_input("mon-a2"), "Mongolian A2");
+    }
+
+    #[test]
+    fn resolves_codes_from_aliases() {
+        assert_eq!(language_code_for_input("mongolian-a1"), Some("mon-a1"));
+        assert_eq!(language_code_for_input("tibetan-a1"), Some("bod-a1"));
+    }
 }

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minicloze Web</title>
+    <link rel="stylesheet" href="/app.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Minicloze</p>
+          <h1>Language in context</h1>
+        </div>
+        <div class="script-samples" aria-hidden="true">
+          <span>Монгол</span>
+          <span>བོད་སྐད</span>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Round setup">
+        <label class="field">
+          <span>Course</span>
+          <select id="languageSelect"></select>
+        </label>
+
+        <fieldset class="segmented">
+          <legend>Mode</legend>
+          <label>
+            <input type="radio" name="mode" value="multiple_choice" checked />
+            <span>Multiple choice</span>
+          </label>
+          <label>
+            <input type="radio" name="mode" value="text_input" />
+            <span>Text input</span>
+          </label>
+        </fieldset>
+
+        <label class="field count-field">
+          <span>Count</span>
+          <select id="countSelect">
+            <option value="5">5</option>
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+          </select>
+        </label>
+
+        <label class="switch">
+          <input id="inverseToggle" type="checkbox" />
+          <span>Inverse</span>
+        </label>
+
+        <button id="startButton" class="primary-button" type="button">Start</button>
+      </section>
+
+      <main class="workspace">
+        <aside class="stats-panel" aria-label="Progress">
+          <div>
+            <p class="panel-label">This round</p>
+            <p id="roundScore" class="score">0 / 0</p>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+          <div class="stats-grid">
+            <div>
+              <span>Played</span>
+              <strong id="storedPlayed">0</strong>
+            </div>
+            <div>
+              <span>Accuracy</span>
+              <strong id="storedAccuracy">0%</strong>
+            </div>
+            <div>
+              <span>Streak</span>
+              <strong id="storedStreak">0</strong>
+            </div>
+          </div>
+        </aside>
+
+        <section class="play-panel" aria-live="polite">
+          <div id="emptyState" class="empty-state">
+            <p class="panel-label">Ready</p>
+            <h2>Choose a course and start a round.</h2>
+          </div>
+
+          <article id="cardView" class="card-view hidden">
+            <div class="card-meta">
+              <span id="cardPosition">1 / 10</span>
+              <span id="promptLabel">Mongolian A1</span>
+            </div>
+
+            <div class="sentence-block">
+              <p id="promptLine" class="prompt-line"></p>
+              <p id="wylieLine" class="wylie-line hidden"></p>
+              <div class="translation-row">
+                <span id="translationLabel">English</span>
+                <p id="translationText"></p>
+              </div>
+            </div>
+
+            <div id="choices" class="choices"></div>
+
+            <form id="textAnswerForm" class="text-answer hidden">
+              <input
+                id="textAnswer"
+                autocomplete="off"
+                spellcheck="false"
+                type="text"
+              />
+              <button class="primary-button" type="submit">Check</button>
+            </form>
+
+            <div id="feedback" class="feedback hidden"></div>
+            <button id="nextButton" class="next-button hidden" type="button">Next</button>
+          </article>
+
+          <div id="summaryView" class="summary-view hidden">
+            <p class="panel-label">Round complete</p>
+            <h2 id="summaryTitle">Nice work.</h2>
+            <p id="summaryText"></p>
+            <button id="againButton" class="primary-button" type="button">Play again</button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

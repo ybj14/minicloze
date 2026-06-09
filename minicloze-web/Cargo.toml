@@ -1,0 +1,16 @@
+[package]
+name = "minicloze-web"
+description = "A local web frontend for minicloze"
+repository = "https://github.com/benmanone/minicloze/"
+authors = ["benman"]
+license = "WTFPL"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minicloze-lib = { path = "../minicloze-lib/" }
+axum = "0.7"
+rand = "0.8.5"
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1.38.0", features = ["macros", "net", "rt-multi-thread", "sync"] }
+uuid = { version = "1", features = ["serde", "v4"] }

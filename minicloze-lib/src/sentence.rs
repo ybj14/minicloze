@@ -194,11 +194,20 @@ fn join_prompt_token_transliteration(tokens: &[PromptToken]) -> Option<String> {
 pub async fn generate_sentences(
     language: &str,
 ) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
+    generate_sentences_with_count(language, 10).await
+}
+
+pub async fn generate_sentences_with_count(
+    language: &str,
+    count: usize,
+) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
+    let count = count.max(1);
+
     if let Some(corpus) = local_corpora::corpus_for_language(language) {
         let mut sentences = parse(corpus.json)
             .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
         sentences.shuffle(&mut thread_rng());
-        sentences.truncate(10);
+        sentences.truncate(count);
         if let Err(err) = tokenizer::prepare_sentences(corpus.base_language, &mut sentences) {
             if corpus.base_language == "bod" {
                 prepare_local_tibetan_syllable_fallback(&mut sentences);
@@ -212,22 +221,25 @@ pub async fn generate_sentences(
     }
 
     // where the initial request happens
-    let mut sentences = sentences_http_request(language).await?;
-
-    let len = sentences.len();
+    let mut sentences = sentences_http_request_with_limit(language, count).await?;
 
     // makes sure we always get 10 sentences
-    if len != 10 {
-        let difference = 10 - len;
+    while sentences.len() < count {
+        let difference = count - sentences.len();
         // makes more requests if required
-        let mut sentences_difference = sentences_http_request(language)
+        let mut sentences_difference = sentences_http_request_with_limit(language, difference)
             .await?
             .into_iter()
             .take(difference)
             .collect::<Vec<_>>();
 
+        if sentences_difference.is_empty() {
+            break;
+        }
+
         sentences.append(&mut sentences_difference);
     }
+    sentences.truncate(count);
     tokenizer::prepare_sentences(language, &mut sentences)?;
     Ok(sentences)
 }
@@ -236,8 +248,15 @@ pub async fn generate_sentences(
 pub async fn sentences_http_request(
     language: &str,
 ) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
+    sentences_http_request_with_limit(language, 10).await
+}
+
+pub async fn sentences_http_request_with_limit(
+    language: &str,
+    limit: usize,
+) -> Result<Vec<Sentence>, Box<dyn Error + Send + Sync>> {
     let request = format!(
-        "https://api.tatoeba.org/v1/sentences?lang=eng&trans:lang={language}&is_orphan=no&is_unapproved=no&trans:is_orphan=no&trans:is_unapproved=no&sort=random&limit=10&showtrans:lang={language}"
+        "https://api.tatoeba.org/v1/sentences?lang=eng&trans:lang={language}&is_orphan=no&is_unapproved=no&trans:is_orphan=no&trans:is_unapproved=no&sort=random&limit={limit}&showtrans:lang={language}"
     );
     let response = reqwest::get(request).await?.text().await?;
 
