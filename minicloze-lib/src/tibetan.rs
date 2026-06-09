@@ -2,6 +2,14 @@ use std::error::Error;
 use std::io::{Error as IoError, ErrorKind, Write};
 use std::process::{Command, Stdio};
 
+use serde::{Deserialize, Serialize};
+
+#[derive(Clone, Debug, Deserialize, Eq, PartialEq, Serialize)]
+pub(crate) struct TibetanToken {
+    pub text: String,
+    pub wylie: String,
+}
+
 const BOTOK_HELPER: &str = r#"
 import json
 import sys
@@ -10,10 +18,11 @@ from pathlib import Path
 try:
     from botok import WordTokenizer
     from botok.config import Config
+    import pyewts
 except ModuleNotFoundError:
     sys.stderr.write(
-        "Tibetan tokenization requires Python package botok. "
-        "Install it with: pip install botok\n"
+        "Tibetan tokenization requires Python packages botok and pyewts. "
+        "Install them with: pip install botok && pip install 'setuptools<81' wheel && pip install --no-build-isolation pyewts\n"
     )
     sys.exit(2)
 
@@ -44,6 +53,7 @@ json_stdout = sys.stdout
 sys.stdout = sys.stderr
 config = Config(dialect_name="general", base_path=Path.home())
 tokenizer = WordTokenizer(config=config)
+converter = pyewts.pyewts()
 
 output = []
 for text in texts:
@@ -51,7 +61,10 @@ for text in texts:
     for token in tokenizer.tokenize(text, split_affixes=False):
         token_text = token_to_text(token)
         if token_text.strip():
-            tokens.append(token_text)
+            tokens.append({
+                "text": token_text,
+                "wylie": converter.toWylie(token_text),
+            })
     output.append(tokens)
 
 sys.stdout = json_stdout
@@ -60,7 +73,7 @@ json.dump(output, sys.stdout, ensure_ascii=False)
 
 pub fn tokenize_batch_with_botok(
     texts: &[&str],
-) -> Result<Vec<Vec<String>>, Box<dyn Error + Send + Sync>> {
+) -> Result<Vec<Vec<TibetanToken>>, Box<dyn Error + Send + Sync>> {
     let python = std::env::var("MINICLOZE_PYTHON").unwrap_or_else(|_| "python3".to_string());
     let input = serde_json::to_vec(texts)?;
 
@@ -75,7 +88,7 @@ pub fn tokenize_batch_with_botok(
             IoError::new(
                 err.kind(),
                 format!(
-                    "failed to start {python} for Tibetan tokenization; install Python 3 and botok, or set MINICLOZE_PYTHON: {err}"
+                    "failed to start {python} for Tibetan tokenization; install Python 3, botok, and pyewts, or set MINICLOZE_PYTHON: {err}"
                 ),
             )
         })?;
@@ -131,7 +144,7 @@ pub fn tokenize_syllables(text: &str) -> Vec<String> {
     tokens
 }
 
-fn parse_botok_output(output: &[u8]) -> Result<Vec<Vec<String>>, serde_json::Error> {
+fn parse_botok_output(output: &[u8]) -> Result<Vec<Vec<TibetanToken>>, serde_json::Error> {
     serde_json::from_slice(output)
 }
 
@@ -153,11 +166,21 @@ mod tests {
 
     #[test]
     fn parses_botok_json_output() {
-        let output = r#"[["བཀྲ་ཤིས་","བདེ་ལེགས","།"]]"#;
+        let output =
+            r#"[[{"text":"བཀྲ་ཤིས་","wylie":"bkra shis "},{"text":"བདེ་ལེགས","wylie":"bde legs"}]]"#;
 
         assert_eq!(
             parse_botok_output(output.as_bytes()).unwrap(),
-            vec![vec!["བཀྲ་ཤིས་", "བདེ་ལེགས", "།"]]
+            vec![vec![
+                TibetanToken {
+                    text: "བཀྲ་ཤིས་".to_string(),
+                    wylie: "bkra shis ".to_string(),
+                },
+                TibetanToken {
+                    text: "བདེ་ལེགས".to_string(),
+                    wylie: "bde legs".to_string(),
+                }
+            ]]
         );
     }
 

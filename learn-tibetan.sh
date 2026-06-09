@@ -21,10 +21,11 @@ fi
 
 PYTHON="$VENV_DIR/bin/python"
 
-if ! "$PYTHON" -c "import botok" >/dev/null 2>&1; then
-    echo "Installing Tibetan tokenizer dependency: botok..."
-    "$PYTHON" -m pip install --upgrade pip
+if ! "$PYTHON" -c "import botok, pyewts" >/dev/null 2>&1; then
+    echo "Installing Tibetan tokenizer dependencies: botok and pyewts..."
+    "$PYTHON" -m pip install --upgrade pip "setuptools<81" wheel
     "$PYTHON" -m pip install botok
+    "$PYTHON" -m pip install --no-build-isolation pyewts
 fi
 
 echo "Starting minicloze Tibetan mode..."

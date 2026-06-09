@@ -1,5 +1,6 @@
 // logic which handles parsing a raw JSON from tatoeba into sentences
 
+use crate::tibetan::TibetanToken;
 use crate::tokenizer;
 use rand::{thread_rng, Rng};
 use serde::{Deserialize, Serialize};
@@ -19,7 +20,7 @@ pub struct Sentence {
     pub text: String,
     pub translations: Vec<Translation>,
     #[serde(skip)]
-    tokenized_translation: Option<Vec<String>>,
+    tokenized_translation: Option<Vec<TibetanToken>>,
 }
 
 // represents a translation. id is the tatoeba id of the translation
@@ -34,6 +35,15 @@ pub struct Prompt {
     pub first_half: String,
     pub word: String,
     pub second_half: String,
+    pub first_half_transliteration: Option<String>,
+    pub word_transliteration: Option<String>,
+    pub second_half_transliteration: Option<String>,
+}
+
+#[derive(Clone)]
+struct PromptToken {
+    text: String,
+    transliteration: Option<String>,
 }
 
 impl Sentence {
@@ -42,7 +52,7 @@ impl Sentence {
         self.translations.first()
     }
 
-    pub(crate) fn set_tokenized_translation(&mut self, words: Vec<String>) {
+    pub(crate) fn set_tokenized_translation(&mut self, words: Vec<TibetanToken>) {
         self.tokenized_translation = Some(words);
     }
 
@@ -56,8 +66,8 @@ impl Sentence {
         };
 
         if !inverse {
-            if let Some(words) = &self.tokenized_translation {
-                return words.clone();
+            if let Some(tokens) = &self.tokenized_translation {
+                return tokens.iter().map(|token| token.text.clone()).collect();
             }
         }
 
@@ -68,14 +78,40 @@ impl Sentence {
         }
     }
 
+    fn as_prompt_tokens(&self, language: &str, inverse: bool) -> Vec<PromptToken> {
+        if !inverse {
+            if let Some(tokens) = &self.tokenized_translation {
+                return tokens
+                    .iter()
+                    .map(|token| PromptToken {
+                        text: token.text.clone(),
+                        transliteration: if token.wylie.trim().is_empty() {
+                            None
+                        } else {
+                            Some(token.wylie.clone())
+                        },
+                    })
+                    .collect();
+            }
+        }
+
+        self.as_words(language, inverse)
+            .into_iter()
+            .map(|text| PromptToken {
+                text,
+                transliteration: None,
+            })
+            .collect()
+    }
+
     // splits a sentence into a prompt consisting of three parts
     pub fn generate_prompt(&self, language: &str, inverse: bool) -> Prompt {
-        let words: Vec<String> = self.as_words(language, inverse);
+        let words = self.as_prompt_tokens(language, inverse);
         let candidates = words
             .iter()
             .enumerate()
             .filter_map(|(index, word)| {
-                if remove_punctuation(word).is_empty() {
+                if remove_punctuation(&word.text).is_empty() {
                     None
                 } else {
                     Some(index)
@@ -89,13 +125,42 @@ impl Sentence {
         };
         let halved = words.split_at(word_index);
 
-        let word = remove_punctuation(&words[word_index]);
+        let word = remove_punctuation(&words[word_index].text);
 
         Prompt {
-            first_half: halved.0.join(""),
+            first_half: join_prompt_token_text(halved.0),
             word,
-            second_half: words[word_index + 1..].join(""),
+            second_half: join_prompt_token_text(&words[word_index + 1..]),
+            first_half_transliteration: join_prompt_token_transliteration(halved.0),
+            word_transliteration: words[word_index]
+                .transliteration
+                .as_deref()
+                .map(remove_transliteration_punctuation)
+                .filter(|wylie| !wylie.is_empty()),
+            second_half_transliteration: join_prompt_token_transliteration(
+                &words[word_index + 1..],
+            ),
         }
+    }
+}
+
+fn join_prompt_token_text(tokens: &[PromptToken]) -> String {
+    tokens
+        .iter()
+        .map(|token| token.text.as_str())
+        .collect::<String>()
+}
+
+fn join_prompt_token_transliteration(tokens: &[PromptToken]) -> Option<String> {
+    let transliteration = tokens
+        .iter()
+        .filter_map(|token| token.transliteration.as_deref())
+        .collect::<String>();
+
+    if transliteration.trim().is_empty() {
+        None
+    } else {
+        Some(transliteration)
     }
 }
 
@@ -170,6 +235,12 @@ pub fn remove_punctuation(word: &str) -> String {
         .to_string()
 }
 
+pub fn remove_transliteration_punctuation(word: &str) -> String {
+    word.trim()
+        .trim_matches(&['(', ')', ',', '.', ';', ':', '?', '!', '"', '/', ' '][..])
+        .to_string()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -227,9 +298,18 @@ mod tests {
             tokenized_translation: None,
         };
         sentence.set_tokenized_translation(vec![
-            "ཞོགས་པ་".to_string(),
-            "བདེ་ལེགས".to_string(),
-            "།".to_string(),
+            TibetanToken {
+                text: "ཞོགས་པ་".to_string(),
+                wylie: "zhogs pa ".to_string(),
+            },
+            TibetanToken {
+                text: "བདེ་ལེགས".to_string(),
+                wylie: "bde legs".to_string(),
+            },
+            TibetanToken {
+                text: "།".to_string(),
+                wylie: "/".to_string(),
+            },
         ]);
 
         for _ in 0..20 {
@@ -237,11 +317,20 @@ mod tests {
 
             assert_ne!(prompt.word, "ཞོགས་པ་བདེ་ལེགས");
             assert!(prompt.word == "ཞོགས་པ" || prompt.word == "བདེ་ལེགས");
+            assert!(
+                prompt.word_transliteration == Some("zhogs pa".to_string())
+                    || prompt.word_transliteration == Some("bde legs".to_string())
+            );
         }
     }
 
     #[test]
     fn remove_punctuation_trims_tibetan_terminal_tseks() {
         assert_eq!(remove_punctuation("བཀྲ་ཤིས་"), "བཀྲ་ཤིས");
+    }
+
+    #[test]
+    fn remove_transliteration_punctuation_trims_wylie_spacing_and_shad() {
+        assert_eq!(remove_transliteration_punctuation("cig / "), "cig");
     }
 }

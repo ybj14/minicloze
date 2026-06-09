@@ -19,10 +19,12 @@ A command-line cloze-based language-learning game using the Tatoeba database of 
 To install `minicloze-cli`, the only currently supported frontend, use `cargo install minicloze` (more likely to be up-to-date) or just download a release.
 
 # Tibetan tokenization
-Tibetan (`minicloze tibetan`) uses [Botok](https://pypi.org/project/botok/) for word segmentation so cloze prompts hide words rather than whole sentences. Install Botok before playing Tibetan:
+Tibetan (`minicloze tibetan`) uses [Botok](https://pypi.org/project/botok/) for word segmentation and [pyewts](https://pypi.org/project/pyewts/) for Wylie transliteration, so cloze prompts hide words rather than whole sentences and show a transliterated helper line. Install the Python dependencies before playing Tibetan:
 
 ```bash
-pip install botok
+python3 -m pip install botok
+python3 -m pip install "setuptools<81" wheel
+python3 -m pip install --no-build-isolation pyewts
 ```
 
 If Botok is installed in a non-default Python, set `MINICLOZE_PYTHON` to that interpreter. For example:

@@ -1,5 +1,5 @@
 use crate::sentence::Sentence;
-use crate::tibetan;
+use crate::tibetan::{self, TibetanToken};
 use std::error::Error;
 
 const NON_SPACED: [&str; 12] = [
@@ -30,7 +30,15 @@ pub fn prepare_sentences(
         Ok(tokenized) => tokenized,
         Err(_err) if tibetan_fallback_enabled() => translations
             .iter()
-            .map(|translation| tibetan::tokenize_syllables(translation))
+            .map(|translation| {
+                tibetan::tokenize_syllables(translation)
+                    .into_iter()
+                    .map(|text| TibetanToken {
+                        text,
+                        wylie: String::new(),
+                    })
+                    .collect()
+            })
             .collect(),
         Err(err) => return Err(err),
     };
