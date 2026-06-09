@@ -442,6 +442,53 @@ h2 {
   color: #8b1d18;
 }
 
+.word-explanations {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcfa;
+  padding: 14px;
+}
+
+.word-explanations-title {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
+.word-explanations dl {
+  display: grid;
+  grid-template-columns: minmax(80px, 0.55fr) minmax(0, 1fr);
+  gap: 8px 14px;
+  margin: 0;
+}
+
+.word-explanations dt,
+.word-explanations dd {
+  margin: 0;
+  line-height: 1.35;
+}
+
+.word-explanations dt {
+  color: var(--ink);
+  font-weight: 850;
+  overflow-wrap: anywhere;
+}
+
+.word-explanations-wylie {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.word-explanations dd {
+  color: #334155;
+  overflow-wrap: anywhere;
+}
+
 .next-button {
   justify-self: end;
 }
@@ -505,6 +552,7 @@ h2 {
   .controls,
   .choices,
   .text-answer,
+  .word-explanations dl,
   .stats-grid {
     grid-template-columns: 1fr;
   }

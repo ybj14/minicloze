@@ -1,14 +1,14 @@
 use axum::{
     extract::{Path, State},
     http::{header, StatusCode},
-    response::{Html, IntoResponse, Response},
+    response::{IntoResponse, Response},
     routing::{get, post},
     Json, Router,
 };
 use minicloze_lib::{
     game::{check_answer, local_vocabulary_words, AnswerCheck},
     langs::{language_code_for_input, language_label_for_code},
-    sentence::{generate_sentences_with_count, Prompt, Sentence},
+    sentence::{generate_sentences_with_count, Prompt, Sentence, WordExplanation},
 };
 use rand::{seq::SliceRandom, thread_rng};
 use serde::{Deserialize, Serialize};
@@ -45,6 +45,7 @@ struct Card {
     id: usize,
     prompt: Prompt,
     translation: String,
+    word_explanations: Vec<WordExplanation>,
     answer_options: Vec<String>,
     result: Option<AnswerCheck>,
 }
@@ -93,6 +94,7 @@ struct CreateRoundResponse {
 struct AnswerResponse {
     result: AnswerCheck,
     correct_answer: String,
+    word_explanations: Vec<WordExplanation>,
     summary: RoundSummary,
     next_card: Option<CardView>,
 }
@@ -195,20 +197,32 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-async fn index() -> Html<&'static str> {
-    Html(include_str!("../static/index.html"))
+async fn index() -> impl IntoResponse {
+    (
+        [
+            (header::CONTENT_TYPE, "text/html; charset=utf-8"),
+            (header::CACHE_CONTROL, "no-store, max-age=0"),
+        ],
+        include_str!("../static/index.html"),
+    )
 }
 
 async fn styles() -> impl IntoResponse {
     (
-        [(header::CONTENT_TYPE, "text/css; charset=utf-8")],
+        [
+            (header::CONTENT_TYPE, "text/css; charset=utf-8"),
+            (header::CACHE_CONTROL, "no-store, max-age=0"),
+        ],
         include_str!("../static/app.css"),
     )
 }
 
 async fn script() -> impl IntoResponse {
     (
-        [(header::CONTENT_TYPE, "text/javascript; charset=utf-8")],
+        [
+            (header::CONTENT_TYPE, "text/javascript; charset=utf-8"),
+            (header::CACHE_CONTROL, "no-store, max-age=0"),
+        ],
         include_str!("../static/app.js"),
     )
 }
@@ -301,6 +315,11 @@ async fn answer_round(
         .get(card_index)
         .map(|card| card.prompt.word.clone())
         .unwrap_or_default();
+    let word_explanations = session
+        .cards
+        .get(card_index)
+        .map(|card| card.word_explanations.clone())
+        .unwrap_or_default();
     let mut accepted_new_answer = false;
     let result = {
         let card = session
@@ -339,6 +358,7 @@ async fn answer_round(
     Ok(Json(AnswerResponse {
         result,
         correct_answer,
+        word_explanations,
         summary,
         next_card,
     }))
@@ -363,17 +383,18 @@ fn build_cards(
         } else {
             sentence.text.clone()
         };
+        let word_explanations = sentence.word_explanations.clone();
         let prompt = sentence.generate_prompt(language, inverse);
-        prompts.push((prompt, translation));
+        prompts.push((prompt, translation, word_explanations));
     }
 
     let mut option_pool = vocabulary;
-    option_pool.extend(prompts.iter().map(|(prompt, _)| prompt.word.clone()));
+    option_pool.extend(prompts.iter().map(|(prompt, _, _)| prompt.word.clone()));
 
     prompts
         .into_iter()
         .enumerate()
-        .map(|(id, (prompt, translation))| {
+        .map(|(id, (prompt, translation, word_explanations))| {
             let answer_options = if mode == PlayMode::MultipleChoice {
                 build_options(&prompt.word, &option_pool)
             } else {
@@ -384,6 +405,7 @@ fn build_cards(
                 id,
                 prompt,
                 translation,
+                word_explanations,
                 answer_options,
                 result: None,
             }

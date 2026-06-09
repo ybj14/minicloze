@@ -52,16 +52,26 @@ The older Tibetan-only launcher is still available as a shortcut for `./learn.sh
 ```
 
 # Web frontend
-You can start the local web version with Tibetan Wylie support enabled:
+You can run the local web version in the foreground with Tibetan Wylie support enabled:
 
 ```bash
 ./web.sh
 ```
 
-The launcher creates or reuses `.venv-tibetan`, installs Botok and pyewts when needed, and exports `MINICLOZE_PYTHON` before starting `minicloze-web`. To choose a different address:
+For background process control:
 
 ```bash
-MINICLOZE_WEB_ADDR=127.0.0.1:4000 ./web.sh
+./webctl.sh start
+./webctl.sh status
+./webctl.sh stop
+./webctl.sh restart
+./webctl.sh logs
+```
+
+The launchers create or reuse `.venv-tibetan`, install Botok and pyewts when needed, and export `MINICLOZE_PYTHON` before starting `minicloze-web`. To choose a different address:
+
+```bash
+MINICLOZE_WEB_ADDR=127.0.0.1:4000 ./webctl.sh start
 ```
 
 # Usage

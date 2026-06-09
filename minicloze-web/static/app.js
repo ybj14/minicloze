@@ -21,6 +21,7 @@ const els = {
   textAnswerForm: document.querySelector("#textAnswerForm"),
   textAnswer: document.querySelector("#textAnswer"),
   feedback: document.querySelector("#feedback"),
+  wordExplanations: document.querySelector("#wordExplanations"),
   nextButton: document.querySelector("#nextButton"),
   againButton: document.querySelector("#againButton"),
   summaryTitle: document.querySelector("#summaryTitle"),
@@ -76,6 +77,7 @@ async function startRound() {
   hide(els.summaryView);
   hide(els.emptyState);
   hide(els.feedback);
+  hide(els.wordExplanations);
   try {
     activeMode = selectedMode();
     const data = await api("/api/rounds", {
@@ -121,6 +123,7 @@ async function submitAnswer(answer) {
     recordStoredStats(data.result.outcome === "correct");
     renderRoundSummary(data.summary);
     renderFeedback(data.result);
+    renderWordExplanations(data.word_explanations || []);
     markChoices(answer, data.correct_answer, data.result);
     els.nextButton.textContent = data.summary.finished ? "Finish" : "Next";
     show(els.nextButton);
@@ -128,6 +131,7 @@ async function submitAnswer(answer) {
     answeredCurrentCard = false;
     disableAnswerInputs(false);
     renderFeedback({ outcome: "wrong", answer: error.message });
+    hide(els.wordExplanations);
   }
 }
 
@@ -151,6 +155,7 @@ function renderCard(card) {
   hide(els.summaryView);
   show(els.cardView);
   hide(els.feedback);
+  hide(els.wordExplanations);
   hide(els.nextButton);
 
   els.cardPosition.textContent = `${card.index} / ${card.total}`;
@@ -217,6 +222,38 @@ function renderFeedback(result) {
   els.feedback.className = `feedback ${result.outcome}`;
   els.feedback.textContent = `${labels[result.outcome] || "Result"}: ${result.answer}`;
   show(els.feedback);
+}
+
+function renderWordExplanations(explanations) {
+  if (!explanations.length) {
+    hide(els.wordExplanations);
+    return;
+  }
+
+  const title = document.createElement("p");
+  title.className = "word-explanations-title";
+  title.textContent = "Words";
+
+  const list = document.createElement("dl");
+  for (const explanation of explanations) {
+    const term = document.createElement("dt");
+    term.append(document.createTextNode(explanation.word));
+    if (explanation.wylie) {
+      const wylie = document.createElement("span");
+      wylie.className = "word-explanations-wylie";
+      wylie.textContent = explanation.wylie;
+      term.append(wylie);
+    }
+
+    const definition = document.createElement("dd");
+    definition.textContent = explanation.note
+      ? `${explanation.gloss} (${explanation.note})`
+      : explanation.gloss;
+    list.append(term, definition);
+  }
+
+  els.wordExplanations.replaceChildren(title, list);
+  show(els.wordExplanations);
 }
 
 function markChoices(answer, correctAnswer, result) {

@@ -218,6 +218,7 @@ async fn start_game(
                 )
             );
         }
+        print_word_explanations(&sentence);
         println!();
 
         // Old lookup logic
@@ -283,6 +284,29 @@ fn clear_screen() {
 fn read_into(buffer: &mut String) {
     io::stdout().flush().unwrap();
     io::stdin().read_line(buffer).unwrap();
+}
+
+fn print_word_explanations(sentence: &Sentence) {
+    if sentence.word_explanations.is_empty() {
+        return;
+    }
+
+    println!("{style_bold}Words:{style_reset}");
+    for explanation in &sentence.word_explanations {
+        let word = match explanation.wylie.as_deref() {
+            Some(wylie) if !wylie.trim().is_empty() => {
+                format!("{} ({})", explanation.word, wylie)
+            }
+            _ => explanation.word.clone(),
+        };
+
+        match explanation.note.as_deref() {
+            Some(note) if !note.trim().is_empty() => {
+                println!("  {} — {} ({})", word, explanation.gloss, note)
+            }
+            _ => println!("  {} — {}", word, explanation.gloss),
+        }
+    }
 }
 
 #[cfg(test)]

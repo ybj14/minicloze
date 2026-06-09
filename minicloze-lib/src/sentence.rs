@@ -22,6 +22,8 @@ pub struct Sentence {
     pub translations: Vec<Translation>,
     #[serde(default)]
     cloze_word: Option<String>,
+    #[serde(default)]
+    pub word_explanations: Vec<WordExplanation>,
     #[serde(skip)]
     tokenized_translation: Option<Vec<TibetanToken>>,
 }
@@ -31,6 +33,16 @@ pub struct Sentence {
 pub struct Translation {
     id: i32,
     pub text: String,
+}
+
+#[derive(Deserialize, Serialize, Clone, Debug, Eq, PartialEq)]
+pub struct WordExplanation {
+    pub word: String,
+    pub gloss: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub note: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub wylie: Option<String>,
 }
 
 #[derive(Clone)]
@@ -50,9 +62,17 @@ struct PromptToken {
 }
 
 impl Sentence {
+    pub fn id(&self) -> i32 {
+        self.id
+    }
+
     // get the sentence's translation
     pub fn get_translation(&self) -> Option<&Translation> {
         self.translations.first()
+    }
+
+    pub(crate) fn set_word_explanations(&mut self, explanations: Vec<WordExplanation>) {
+        self.word_explanations = explanations;
     }
 
     pub(crate) fn set_tokenized_translation(&mut self, words: Vec<TibetanToken>) {
@@ -208,6 +228,8 @@ pub async fn generate_sentences_with_count(
             .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
         sentences.shuffle(&mut thread_rng());
         sentences.truncate(count);
+        local_corpora::attach_word_explanations(language, &mut sentences)
+            .map_err(|err| std::io::Error::new(std::io::ErrorKind::InvalidData, err))?;
         if let Err(err) = tokenizer::prepare_sentences(corpus.base_language, &mut sentences) {
             if corpus.base_language == "bod" {
                 prepare_local_tibetan_syllable_fallback(&mut sentences);
@@ -442,6 +464,7 @@ mod tests {
                 text: "ཞོགས་པ་བདེ་ལེགས།".to_string(),
             }],
             cloze_word: None,
+            word_explanations: Vec::new(),
             tokenized_translation: None,
         };
         sentence.set_tokenized_translation(vec![
@@ -491,6 +514,7 @@ mod tests {
                 text: "Нар дулаан байна.".to_string(),
             }],
             cloze_word: Some("нар".to_string()),
+            word_explanations: Vec::new(),
             tokenized_translation: None,
         };
 
