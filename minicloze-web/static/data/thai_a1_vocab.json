@@ -1,0 +1,752 @@
+[
+  {
+    "word": "สวัสดี",
+    "gloss": "hello",
+    "note": "greeting",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ขอบคุณ",
+    "gloss": "thank you",
+    "note": "polite phrase",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ขอโทษ",
+    "gloss": "sorry",
+    "note": "polite phrase",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ใช่",
+    "gloss": "yes",
+    "note": "response",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ไม่",
+    "gloss": "no not",
+    "note": "negation",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ฉัน",
+    "gloss": "I",
+    "note": "pronoun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "คุณ",
+    "gloss": "you",
+    "note": "pronoun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เขา",
+    "gloss": "he she",
+    "note": "pronoun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เรา",
+    "gloss": "we",
+    "note": "pronoun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "พวกเขา",
+    "gloss": "they",
+    "note": "pronoun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "นี่",
+    "gloss": "this here",
+    "note": "demonstrative",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "นั่น",
+    "gloss": "that",
+    "note": "demonstrative",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ใคร",
+    "gloss": "who",
+    "note": "question word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "อะไร",
+    "gloss": "what",
+    "note": "question word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ที่ไหน",
+    "gloss": "where",
+    "note": "question word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เมื่อไหร่",
+    "gloss": "when",
+    "note": "question word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ทำไม",
+    "gloss": "why",
+    "note": "question word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "อย่างไร",
+    "gloss": "how",
+    "note": "question word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "หนึ่ง",
+    "gloss": "one",
+    "note": "number",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สอง",
+    "gloss": "two",
+    "note": "number",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สาม",
+    "gloss": "three",
+    "note": "number",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สี่",
+    "gloss": "four",
+    "note": "number",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ห้า",
+    "gloss": "five",
+    "note": "number",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สิบ",
+    "gloss": "ten",
+    "note": "number",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "คน",
+    "gloss": "person",
+    "note": "noun classifier",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ผู้ชาย",
+    "gloss": "man",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ผู้หญิง",
+    "gloss": "woman",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เด็ก",
+    "gloss": "child",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "พ่อ",
+    "gloss": "father",
+    "note": "family noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "แม่",
+    "gloss": "mother",
+    "note": "family noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "พี่",
+    "gloss": "older sibling",
+    "note": "family noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "น้อง",
+    "gloss": "younger sibling",
+    "note": "family noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เพื่อน",
+    "gloss": "friend",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ครู",
+    "gloss": "teacher",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "นักเรียน",
+    "gloss": "student",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "หมอ",
+    "gloss": "doctor",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "คนขับ",
+    "gloss": "driver",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "บ้าน",
+    "gloss": "house home",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ห้อง",
+    "gloss": "room",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "โรงเรียน",
+    "gloss": "school",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ตลาด",
+    "gloss": "market",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ร้าน",
+    "gloss": "shop",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ร้านอาหาร",
+    "gloss": "restaurant",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "โรงพยาบาล",
+    "gloss": "hospital",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สถานี",
+    "gloss": "station",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เมือง",
+    "gloss": "city town",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ถนน",
+    "gloss": "road street",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สวน",
+    "gloss": "park garden",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "หนังสือ",
+    "gloss": "book",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สมุด",
+    "gloss": "notebook",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ปากกา",
+    "gloss": "pen",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "โทรศัพท์",
+    "gloss": "phone",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "กระเป๋า",
+    "gloss": "bag",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "โต๊ะ",
+    "gloss": "table desk",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เก้าอี้",
+    "gloss": "chair",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ประตู",
+    "gloss": "door",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "หน้าต่าง",
+    "gloss": "window",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "รถ",
+    "gloss": "car vehicle",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "รถเมล์",
+    "gloss": "bus",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เงิน",
+    "gloss": "money",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ตั๋ว",
+    "gloss": "ticket",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ข้าว",
+    "gloss": "rice meal",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "น้ำ",
+    "gloss": "water",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ชา",
+    "gloss": "tea",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "กาแฟ",
+    "gloss": "coffee",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "นม",
+    "gloss": "milk",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ขนมปัง",
+    "gloss": "bread",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ไข่",
+    "gloss": "egg",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ผัก",
+    "gloss": "vegetables",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ผลไม้",
+    "gloss": "fruit",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "กล้วย",
+    "gloss": "banana",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "แอปเปิล",
+    "gloss": "apple",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ปลา",
+    "gloss": "fish",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ไก่",
+    "gloss": "chicken",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "น้ำตาล",
+    "gloss": "sugar",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เกลือ",
+    "gloss": "salt",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "วันนี้",
+    "gloss": "today",
+    "note": "time word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "พรุ่งนี้",
+    "gloss": "tomorrow",
+    "note": "time word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เมื่อวาน",
+    "gloss": "yesterday",
+    "note": "time word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เช้า",
+    "gloss": "morning",
+    "note": "time word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เย็น",
+    "gloss": "evening cool",
+    "note": "time word adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "คืน",
+    "gloss": "night",
+    "note": "time word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "วัน",
+    "gloss": "day",
+    "note": "time word",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เวลา",
+    "gloss": "time",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ฝน",
+    "gloss": "rain",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "แดด",
+    "gloss": "sunshine",
+    "note": "noun",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ร้อน",
+    "gloss": "hot",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "หนาว",
+    "gloss": "cold",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ดี",
+    "gloss": "good",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ใหม่",
+    "gloss": "new",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เก่า",
+    "gloss": "old",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ใหญ่",
+    "gloss": "big",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เล็ก",
+    "gloss": "small",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "สวย",
+    "gloss": "beautiful",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ง่าย",
+    "gloss": "easy",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ยาก",
+    "gloss": "difficult",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "แพง",
+    "gloss": "expensive",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ถูก",
+    "gloss": "cheap correct",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เร็ว",
+    "gloss": "fast early",
+    "note": "adjective adverb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ช้า",
+    "gloss": "slow late",
+    "note": "adjective adverb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ใกล้",
+    "gloss": "near",
+    "note": "adjective preposition",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ไกล",
+    "gloss": "far",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ว่าง",
+    "gloss": "free available",
+    "note": "adjective",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ไป",
+    "gloss": "go",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "มา",
+    "gloss": "come",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "กิน",
+    "gloss": "eat",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ดื่ม",
+    "gloss": "drink",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "อ่าน",
+    "gloss": "read",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เขียน",
+    "gloss": "write",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ดู",
+    "gloss": "look watch",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ฟัง",
+    "gloss": "listen",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "พูด",
+    "gloss": "speak say",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เรียน",
+    "gloss": "study learn",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ทำ",
+    "gloss": "do make",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ซื้อ",
+    "gloss": "buy",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ขาย",
+    "gloss": "sell",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ชอบ",
+    "gloss": "like",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ต้องการ",
+    "gloss": "want need",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "มี",
+    "gloss": "have there is",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "อยู่",
+    "gloss": "be stay",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "นอน",
+    "gloss": "sleep lie down",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "นั่ง",
+    "gloss": "sit",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "เดิน",
+    "gloss": "walk",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "วิ่ง",
+    "gloss": "run",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  },
+  {
+    "word": "ช่วย",
+    "gloss": "help",
+    "note": "verb",
+    "source": "Codex-curated Thai A1 starter seed list"
+  }
+]

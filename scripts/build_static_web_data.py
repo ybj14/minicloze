@@ -25,6 +25,9 @@ SOURCE_FILES = [
     "tajik_a1.json",
     "tajik_a1_explanations.json",
     "tajik_a1_vocab.json",
+    "thai_a1.json",
+    "thai_a1_explanations.json",
+    "thai_a1_vocab.json",
 ]
 
 

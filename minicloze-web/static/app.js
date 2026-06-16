@@ -30,6 +30,16 @@ const COURSES = [
     vocabularyPath: "/data/tajik_a1_vocab.json",
     explanationsPath: "/data/tajik_a1_explanations.json",
   },
+  {
+    code: "tha-a1",
+    label: "Thai A1",
+    slug: "thai-a1",
+    baseLanguage: "tha",
+    sentenceCount: 375,
+    corpusPath: "/data/thai_a1.json",
+    vocabularyPath: "/data/thai_a1_vocab.json",
+    explanationsPath: "/data/thai_a1_explanations.json",
+  },
 ];
 
 const MAX_COUNT = 50;
@@ -619,6 +629,14 @@ function promptTokens(sentence, course, inverse) {
     ).map((text) => ({ text, transliteration: null }));
   }
 
+  if (NON_SPACED_LANGUAGES.has(course.baseLanguage) && sentence.cloze_word) {
+    return tokenizePromptTextWithTarget(
+      course.baseLanguage,
+      firstTranslationText(sentence),
+      sentence.cloze_word,
+    ).map((text) => ({ text, transliteration: null }));
+  }
+
   return tokenizePromptText(course.baseLanguage, firstTranslationText(sentence)).map(
     (text) => ({ text, transliteration: null }),
   );
@@ -666,6 +684,23 @@ function tokenizeTibetanWithTarget(text, target) {
     ...tokenizeTibetanSyllables(text.slice(0, index)),
     target,
     ...tokenizeTibetanSyllables(text.slice(index + target.length)),
+  ];
+}
+
+function tokenizePromptTextWithTarget(language, text, target) {
+  if (!target) {
+    return tokenizePromptText(language, text);
+  }
+
+  const index = String(text || "").indexOf(target);
+  if (index < 0) {
+    return tokenizePromptText(language, text);
+  }
+
+  return [
+    ...tokenizePromptText(language, text.slice(0, index)),
+    target,
+    ...tokenizePromptText(language, text.slice(index + target.length)),
   ];
 }
 

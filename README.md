@@ -43,6 +43,7 @@ You can also use the one-step launcher, which runs any language or local corpus.
 ./learn.sh mongolian
 ./learn.sh tibetan-a1
 ./learn.sh tajik-a1
+./learn.sh thai-a1
 ./learn.sh tibetan-a1 inverse
 ```
 

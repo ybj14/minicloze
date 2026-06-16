@@ -47,6 +47,16 @@ LANGS = {
         "forbidden": ["калимаи", "маънои", "word “", "the word"],
         "standalone_target": True,
     },
+    "thai": {
+        "vocab": CORPORA / "thai_a1_vocab.json",
+        "output": CORPORA / "thai_a1.json",
+        "batches": [
+            GENERATED / "thai_001_125.json",
+        ],
+        "id_start": -400000,
+        "forbidden": ["คำว่า", "word “", "the word"],
+        "expected_count": 125,
+    },
 }
 
 
@@ -154,8 +164,13 @@ def merge_language(lang, config):
             )
             current_id -= 1
 
-    if len(seen) != 500 or len(rows) != 1500:
-        raise ValueError(f"{lang}: expected 500 words and 1500 sentences, got {len(seen)} and {len(rows)}")
+    expected_count = config.get("expected_count", 500)
+    expected_sentences = config.get("expected_sentences", expected_count * 3)
+    if len(seen) != expected_count or len(rows) != expected_sentences:
+        raise ValueError(
+            f"{lang}: expected {expected_count} words and {expected_sentences} sentences, "
+            f"got {len(seen)} and {len(rows)}"
+        )
 
     config["output"].write_text(
         json.dumps({"data": rows}, ensure_ascii=False, indent=2) + "\n",

@@ -43,6 +43,10 @@ pub fn corpus_for_language(language: &str) -> Option<LocalCorpus> {
             base_language: "tgk",
             json: include_str!("../corpora/tajik_a1.json"),
         }),
+        "tha-a1" => Some(LocalCorpus {
+            base_language: "tha",
+            json: include_str!("../corpora/thai_a1.json"),
+        }),
         _ => None,
     }
 }
@@ -57,6 +61,9 @@ pub fn vocabulary_for_language(language: &str) -> Option<LocalVocabulary> {
         }),
         "tgk-a1" => Some(LocalVocabulary {
             json: include_str!("../corpora/tajik_a1_vocab.json"),
+        }),
+        "tha-a1" => Some(LocalVocabulary {
+            json: include_str!("../corpora/thai_a1_vocab.json"),
         }),
         _ => None,
     }
@@ -130,6 +137,9 @@ fn explanations_for_language(language: &str) -> Option<LocalExplanations> {
         "tgk-a1" => Some(LocalExplanations {
             json: include_str!("../corpora/tajik_a1_explanations.json"),
         }),
+        "tha-a1" => Some(LocalExplanations {
+            json: include_str!("../corpora/thai_a1_explanations.json"),
+        }),
         _ => None,
     }
 }
@@ -139,6 +149,7 @@ pub fn lookup_language(language: &str) -> &str {
         "mon-a1" => "mon",
         "bod-a1" => "bod",
         "tgk-a1" => "tgk",
+        "tha-a1" => "tha",
         _ => language,
     }
 }
@@ -150,7 +161,7 @@ mod tests {
 
     #[test]
     fn local_explanations_cover_local_corpora() {
-        for language in ["mon-a1", "bod-a1", "tgk-a1"] {
+        for language in ["mon-a1", "bod-a1", "tgk-a1", "tha-a1"] {
             let corpus = corpus_for_language(language).expect("local corpus exists");
             let explanations =
                 explanations_for_language(language).expect("local explanations exist");

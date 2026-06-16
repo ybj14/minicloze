@@ -14,6 +14,8 @@ Files:
 - `tibetan_a1.json`: 1,500 Tibetan cloze sentences.
 - `tajik_a1_vocab.json`: 500 Tajik Cyrillic target words.
 - `tajik_a1.json`: 1,500 Tajik cloze sentences.
+- `thai_a1_vocab.json`: 125 Thai target words.
+- `thai_a1.json`: 375 Thai cloze sentences.
 
 Sources:
 
@@ -21,3 +23,4 @@ Sources:
 - Mongolian: https://1000mostcommonwords.com/1000-most-common-mongolian-words/, used to fill the remaining high-frequency beginner vocabulary.
 - Tibetan: https://www.small-steps-tibetan.com/first-1000-words-basic, used as the source for the 500-word Tibetan beginner vocabulary selection.
 - Tajik: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
+- Thai: Codex-curated beginner A1 starter seed list, used for selecting target words and English glosses.

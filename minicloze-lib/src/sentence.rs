@@ -299,6 +299,9 @@ pub fn prepare_local_sentences(
     } else if corpus.base_language == "bod" {
         ensure_local_tibetan_cloze_targets(sentences);
     }
+    if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
+        prepare_local_non_spaced_target_tokens(corpus.base_language, sentences);
+    }
 
     Ok(())
 }
@@ -420,6 +423,36 @@ fn tokenize_tibetan_with_target(text: &str, target: Option<&str>) -> Vec<Tibetan
     tibetan_tokens_with_wylie(token_texts)
 }
 
+fn prepare_local_non_spaced_target_tokens(language: &str, sentences: &mut [Sentence]) {
+    for sentence in sentences {
+        let Some(target) = sentence.cloze_word.as_deref() else {
+            continue;
+        };
+        let Some(translation) = sentence.get_translation() else {
+            continue;
+        };
+        if !translation.text.contains(target) {
+            continue;
+        }
+
+        let tokens = tokenize_non_spaced_with_target(language, &translation.text, target);
+        sentence.set_tokenized_translation(tokens);
+    }
+}
+
+fn tokenize_non_spaced_with_target(language: &str, text: &str, target: &str) -> Vec<TibetanToken> {
+    let Some(index) = text.find(target) else {
+        return tokens_without_wylie(tokenizer::tokenize_prompt_text(language, text));
+    };
+
+    let before = &text[..index];
+    let after = &text[index + target.len()..];
+    let mut token_texts = tokenizer::tokenize_prompt_text(language, before);
+    token_texts.push(target.to_string());
+    token_texts.extend(tokenizer::tokenize_prompt_text(language, after));
+    tokens_without_wylie(token_texts)
+}
+
 fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
     let text_refs = texts.iter().map(String::as_str).collect::<Vec<_>>();
     let wylies = tibetan::transliterate_batch_to_wylie(&text_refs).ok();
@@ -434,6 +467,16 @@ fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
                 .and_then(|items| items.get(index))
                 .cloned()
                 .unwrap_or_default(),
+        })
+        .collect()
+}
+
+fn tokens_without_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
+    texts
+        .into_iter()
+        .map(|text| TibetanToken {
+            text,
+            wylie: String::new(),
         })
         .collect()
 }
@@ -579,5 +622,27 @@ mod tests {
         assert_eq!(prompt.first_half, "Ин ");
         assert_eq!(prompt.word, "кат");
         assert_eq!(prompt.second_half, " аст.");
+    }
+
+    #[test]
+    fn local_non_spaced_sentences_prefer_configured_cloze_word() {
+        let mut sentences = vec![Sentence {
+            id: 1,
+            text: "I drink water.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "ฉันดื่มน้ำ".to_string(),
+            }],
+            cloze_word: Some("น้ำ".to_string()),
+            word_explanations: Vec::new(),
+            tokenized_translation: None,
+        }];
+
+        prepare_local_non_spaced_target_tokens("tha", &mut sentences);
+        let prompt = sentences[0].generate_prompt("tha", false);
+
+        assert_eq!(prompt.first_half, "ฉันดื่ม");
+        assert_eq!(prompt.word, "น้ำ");
+        assert_eq!(prompt.second_half, "");
     }
 }

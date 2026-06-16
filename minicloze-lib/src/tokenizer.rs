@@ -8,6 +8,10 @@ const NON_SPACED: [&str; 12] = [
 
 const TIBETAN: &str = "bod";
 
+pub fn is_non_spaced(language: &str) -> bool {
+    NON_SPACED.contains(&language)
+}
+
 pub fn prepare_sentences(
     language: &str,
     sentences: &mut [Sentence],
@@ -51,7 +55,7 @@ pub fn prepare_sentences(
 }
 
 pub fn tokenize_prompt_text(language: &str, text: &str) -> Vec<String> {
-    if NON_SPACED.contains(&language) {
+    if is_non_spaced(language) {
         text.trim().chars().map(|ch| ch.to_string()).collect()
     } else if language == TIBETAN {
         tibetan::tokenize_syllables(text)

@@ -1,0 +1,2252 @@
+[
+  {
+    "vocab_index": 1,
+    "word": "สวัสดี",
+    "sentences": [
+      {
+        "target": "สวัสดีครับครู",
+        "text": "Hello, teacher."
+      },
+      {
+        "target": "แม่พูดสวัสดีตอนเช้า",
+        "text": "Mother says hello in the morning."
+      },
+      {
+        "target": "เด็กพูดสวัสดีกับเพื่อน",
+        "text": "The child says hello to a friend."
+      }
+    ]
+  },
+  {
+    "vocab_index": 2,
+    "word": "ขอบคุณ",
+    "sentences": [
+      {
+        "target": "ขอบคุณครับพ่อ",
+        "text": "Thank you, Dad."
+      },
+      {
+        "target": "ฉันขอบคุณครู",
+        "text": "I thank the teacher."
+      },
+      {
+        "target": "เธอขอบคุณเพื่อนที่ช่วย",
+        "text": "She thanks her friend for helping."
+      }
+    ]
+  },
+  {
+    "vocab_index": 3,
+    "word": "ขอโทษ",
+    "sentences": [
+      {
+        "target": "ขอโทษครับฉันมาช้า",
+        "text": "Sorry, I am late."
+      },
+      {
+        "target": "เด็กพูดขอโทษกับแม่",
+        "text": "The child says sorry to mother."
+      },
+      {
+        "target": "ขอโทษค่ะนี่ของคุณไหม",
+        "text": "Sorry, is this yours?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 4,
+    "word": "ใช่",
+    "sentences": [
+      {
+        "target": "ใช่ฉันเป็นนักเรียน",
+        "text": "Yes, I am a student."
+      },
+      {
+        "target": "นี่ใช่บ้านคุณไหม",
+        "text": "Is this your house?"
+      },
+      {
+        "target": "เขาบอกว่าใช่",
+        "text": "He says yes."
+      }
+    ]
+  },
+  {
+    "vocab_index": 5,
+    "word": "ไม่",
+    "sentences": [
+      {
+        "target": "ฉันไม่กินปลา",
+        "text": "I do not eat fish."
+      },
+      {
+        "target": "เขาไม่อยู่บ้าน",
+        "text": "He is not at home."
+      },
+      {
+        "target": "วันนี้ไม่ร้อน",
+        "text": "Today is not hot."
+      }
+    ]
+  },
+  {
+    "vocab_index": 6,
+    "word": "ฉัน",
+    "sentences": [
+      {
+        "target": "ฉันกินข้าวเช้า",
+        "text": "I eat breakfast."
+      },
+      {
+        "target": "ฉันอยู่ในห้อง",
+        "text": "I am in the room."
+      },
+      {
+        "target": "ฉันชอบชาอุ่น",
+        "text": "I like warm tea."
+      }
+    ]
+  },
+  {
+    "vocab_index": 7,
+    "word": "คุณ",
+    "sentences": [
+      {
+        "target": "คุณดื่มน้ำไหม",
+        "text": "Do you drink water?"
+      },
+      {
+        "target": "บ้านคุณอยู่ใกล้ตลาด",
+        "text": "Your house is near the market."
+      },
+      {
+        "target": "ครูถามคุณตอนเช้า",
+        "text": "The teacher asks you in the morning."
+      }
+    ]
+  },
+  {
+    "vocab_index": 8,
+    "word": "เขา",
+    "sentences": [
+      {
+        "target": "เขาอ่านหนังสือ",
+        "text": "He reads a book."
+      },
+      {
+        "target": "เขาเป็นหมอในเมือง",
+        "text": "She is a doctor in the city."
+      },
+      {
+        "target": "วันนี้เขามาโรงเรียน",
+        "text": "He comes to school today."
+      }
+    ]
+  },
+  {
+    "vocab_index": 9,
+    "word": "เรา",
+    "sentences": [
+      {
+        "target": "เรากินข้าวด้วยกัน",
+        "text": "We eat together."
+      },
+      {
+        "target": "วันนี้เราไปตลาด",
+        "text": "Today we go to the market."
+      },
+      {
+        "target": "เราเรียนภาษาไทย",
+        "text": "We study Thai."
+      }
+    ]
+  },
+  {
+    "vocab_index": 10,
+    "word": "พวกเขา",
+    "sentences": [
+      {
+        "target": "พวกเขานั่งในสวน",
+        "text": "They sit in the park."
+      },
+      {
+        "target": "พวกเขาซื้อผลไม้",
+        "text": "They buy fruit."
+      },
+      {
+        "target": "พวกเขาเดินไปโรงเรียน",
+        "text": "They walk to school."
+      }
+    ]
+  },
+  {
+    "vocab_index": 11,
+    "word": "นี่",
+    "sentences": [
+      {
+        "target": "นี่คือบ้านของฉัน",
+        "text": "This is my house."
+      },
+      {
+        "target": "นี่ใช่กระเป๋าคุณไหม",
+        "text": "Is this your bag?"
+      },
+      {
+        "target": "นี่คือปากกาใหม่",
+        "text": "This is a new pen."
+      }
+    ]
+  },
+  {
+    "vocab_index": 12,
+    "word": "นั่น",
+    "sentences": [
+      {
+        "target": "นั่นคือโรงเรียนของเรา",
+        "text": "That is our school."
+      },
+      {
+        "target": "นั่นใช่ครูคุณไหม",
+        "text": "Is that your teacher?"
+      },
+      {
+        "target": "นั่นคือรถของพ่อ",
+        "text": "That is father's car."
+      }
+    ]
+  },
+  {
+    "vocab_index": 13,
+    "word": "ใคร",
+    "sentences": [
+      {
+        "target": "ใครอยู่ในห้อง",
+        "text": "Who is in the room?"
+      },
+      {
+        "target": "ครูถามว่าใครมา",
+        "text": "The teacher asks who came."
+      },
+      {
+        "target": "ผู้ชายคนนั้นคือใคร",
+        "text": "Who is that man?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 14,
+    "word": "อะไร",
+    "sentences": [
+      {
+        "target": "นี่คืออะไร",
+        "text": "What is this?"
+      },
+      {
+        "target": "คุณกินอะไรตอนเช้า",
+        "text": "What do you eat in the morning?"
+      },
+      {
+        "target": "เด็กถามว่าอะไรอยู่ในกระเป๋า",
+        "text": "The child asks what is in the bag."
+      }
+    ]
+  },
+  {
+    "vocab_index": 15,
+    "word": "ที่ไหน",
+    "sentences": [
+      {
+        "target": "ตลาดอยู่ที่ไหน",
+        "text": "Where is the market?"
+      },
+      {
+        "target": "คุณไปที่ไหนวันนี้",
+        "text": "Where are you going today?"
+      },
+      {
+        "target": "สถานีอยู่ที่ไหน",
+        "text": "Where is the station?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 16,
+    "word": "เมื่อไหร่",
+    "sentences": [
+      {
+        "target": "คุณมาถึงเมื่อไหร่",
+        "text": "When do you arrive?"
+      },
+      {
+        "target": "เราไปตลาดเมื่อไหร่",
+        "text": "When do we go to the market?"
+      },
+      {
+        "target": "ฝนจะหยุดเมื่อไหร่",
+        "text": "When will the rain stop?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 17,
+    "word": "ทำไม",
+    "sentences": [
+      {
+        "target": "ทำไมคุณมาช้า",
+        "text": "Why are you late?"
+      },
+      {
+        "target": "ทำไมเด็กไม่กินข้าว",
+        "text": "Why does the child not eat rice?"
+      },
+      {
+        "target": "ทำไมวันนี้ร้านปิด",
+        "text": "Why is the shop closed today?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 18,
+    "word": "อย่างไร",
+    "sentences": [
+      {
+        "target": "คุณเขียนชื่อนี้อย่างไร",
+        "text": "How do you write this name?"
+      },
+      {
+        "target": "เราจะไปตลาดอย่างไร",
+        "text": "How will we go to the market?"
+      },
+      {
+        "target": "ครูสอนอย่างไร",
+        "text": "How does the teacher teach?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 19,
+    "word": "หนึ่ง",
+    "sentences": [
+      {
+        "target": "ฉันมีหนังสือหนึ่งเล่ม",
+        "text": "I have one book."
+      },
+      {
+        "target": "มีเด็กหนึ่งคนในห้อง",
+        "text": "There is one child in the room."
+      },
+      {
+        "target": "ขอน้ำหนึ่งแก้วครับ",
+        "text": "One glass of water, please."
+      }
+    ]
+  },
+  {
+    "vocab_index": 20,
+    "word": "สอง",
+    "sentences": [
+      {
+        "target": "เขามีปากกาสองด้าม",
+        "text": "He has two pens."
+      },
+      {
+        "target": "เราซื้อตั๋วสองใบ",
+        "text": "We buy two tickets."
+      },
+      {
+        "target": "แม่มีไข่สองฟอง",
+        "text": "Mother has two eggs."
+      }
+    ]
+  },
+  {
+    "vocab_index": 21,
+    "word": "สาม",
+    "sentences": [
+      {
+        "target": "เด็กสามคนเล่นในสวน",
+        "text": "Three children play in the park."
+      },
+      {
+        "target": "ฉันซื้อกล้วยสามลูก",
+        "text": "I buy three bananas."
+      },
+      {
+        "target": "บนโต๊ะมีแก้วสามใบ",
+        "text": "There are three glasses on the table."
+      }
+    ]
+  },
+  {
+    "vocab_index": 22,
+    "word": "สี่",
+    "sentences": [
+      {
+        "target": "เรามีเก้าอี้สี่ตัว",
+        "text": "We have four chairs."
+      },
+      {
+        "target": "รถเมล์มาสี่โมง",
+        "text": "The bus comes at four o'clock."
+      },
+      {
+        "target": "เขาซื้อแอปเปิลสี่ลูก",
+        "text": "He buys four apples."
+      }
+    ]
+  },
+  {
+    "vocab_index": 23,
+    "word": "ห้า",
+    "sentences": [
+      {
+        "target": "ครูมีนักเรียนห้าคน",
+        "text": "The teacher has five students."
+      },
+      {
+        "target": "ฉันตื่นห้าโมงเช้า",
+        "text": "I wake up at five in the morning."
+      },
+      {
+        "target": "แม่ซื้อไข่ห้าฟอง",
+        "text": "Mother buys five eggs."
+      }
+    ]
+  },
+  {
+    "vocab_index": 24,
+    "word": "สิบ",
+    "sentences": [
+      {
+        "target": "ตั๋วราคาสิบบาท",
+        "text": "The ticket costs ten baht."
+      },
+      {
+        "target": "ในห้องมีโต๊ะสิบตัว",
+        "text": "There are ten tables in the room."
+      },
+      {
+        "target": "รถเมล์มาทุกสิบนาที",
+        "text": "The bus comes every ten minutes."
+      }
+    ]
+  },
+  {
+    "vocab_index": 25,
+    "word": "คน",
+    "sentences": [
+      {
+        "target": "คนนี้เป็นเพื่อนฉัน",
+        "text": "This person is my friend."
+      },
+      {
+        "target": "ในร้านมีคนมาก",
+        "text": "There are many people in the shop."
+      },
+      {
+        "target": "คนขับรถยิ้มให้เรา",
+        "text": "The driver smiles at us."
+      }
+    ]
+  },
+  {
+    "vocab_index": 26,
+    "word": "ผู้ชาย",
+    "sentences": [
+      {
+        "target": "ผู้ชายคนนั้นเป็นครู",
+        "text": "That man is a teacher."
+      },
+      {
+        "target": "ผู้ชายอ่านหนังสือในสวน",
+        "text": "The man reads a book in the park."
+      },
+      {
+        "target": "ผู้ชายซื้อกาแฟที่ร้าน",
+        "text": "The man buys coffee at the shop."
+      }
+    ]
+  },
+  {
+    "vocab_index": 27,
+    "word": "ผู้หญิง",
+    "sentences": [
+      {
+        "target": "ผู้หญิงคนนั้นเป็นหมอ",
+        "text": "That woman is a doctor."
+      },
+      {
+        "target": "ผู้หญิงขายผลไม้ในตลาด",
+        "text": "The woman sells fruit in the market."
+      },
+      {
+        "target": "ผู้หญิงนั่งใกล้หน้าต่าง",
+        "text": "The woman sits near the window."
+      }
+    ]
+  },
+  {
+    "vocab_index": 28,
+    "word": "เด็ก",
+    "sentences": [
+      {
+        "target": "เด็กกินขนมปังกับนม",
+        "text": "The child eats bread with milk."
+      },
+      {
+        "target": "เด็กเดินไปโรงเรียน",
+        "text": "The child walks to school."
+      },
+      {
+        "target": "เด็กนอนในห้องเล็ก",
+        "text": "The child sleeps in the small room."
+      }
+    ]
+  },
+  {
+    "vocab_index": 29,
+    "word": "พ่อ",
+    "sentences": [
+      {
+        "target": "พ่อขับรถไปทำงาน",
+        "text": "Father drives to work."
+      },
+      {
+        "target": "พ่อซื้อปลาในตลาด",
+        "text": "Father buys fish in the market."
+      },
+      {
+        "target": "พ่อนั่งอ่านหนังสือ",
+        "text": "Father sits and reads a book."
+      }
+    ]
+  },
+  {
+    "vocab_index": 30,
+    "word": "แม่",
+    "sentences": [
+      {
+        "target": "แม่ทำข้าวเย็น",
+        "text": "Mother makes dinner."
+      },
+      {
+        "target": "แม่ดื่มชาร้อน",
+        "text": "Mother drinks hot tea."
+      },
+      {
+        "target": "แม่ช่วยฉันเขียนชื่อ",
+        "text": "Mother helps me write my name."
+      }
+    ]
+  },
+  {
+    "vocab_index": 31,
+    "word": "พี่",
+    "sentences": [
+      {
+        "target": "พี่เรียนที่โรงเรียนใหญ่",
+        "text": "My older sibling studies at a big school."
+      },
+      {
+        "target": "พี่ซื้อกระเป๋าใหม่",
+        "text": "My older sibling buys a new bag."
+      },
+      {
+        "target": "พี่นั่งใกล้ฉัน",
+        "text": "My older sibling sits near me."
+      }
+    ]
+  },
+  {
+    "vocab_index": 32,
+    "word": "น้อง",
+    "sentences": [
+      {
+        "target": "น้องกินกล้วยตอนเช้า",
+        "text": "My younger sibling eats a banana in the morning."
+      },
+      {
+        "target": "น้องชอบเล่นในสวน",
+        "text": "My younger sibling likes playing in the park."
+      },
+      {
+        "target": "น้องนอนเร็วคืนนี้",
+        "text": "My younger sibling sleeps early tonight."
+      }
+    ]
+  },
+  {
+    "vocab_index": 33,
+    "word": "เพื่อน",
+    "sentences": [
+      {
+        "target": "เพื่อนมาที่บ้านฉัน",
+        "text": "A friend comes to my house."
+      },
+      {
+        "target": "ฉันช่วยเพื่อนถือกระเป๋า",
+        "text": "I help a friend carry a bag."
+      },
+      {
+        "target": "เพื่อนอ่านสมุดของเขา",
+        "text": "The friend reads his notebook."
+      }
+    ]
+  },
+  {
+    "vocab_index": 34,
+    "word": "ครู",
+    "sentences": [
+      {
+        "target": "ครูเขียนบนกระดาน",
+        "text": "The teacher writes on the board."
+      },
+      {
+        "target": "ครูพูดช้าๆกับนักเรียน",
+        "text": "The teacher speaks slowly to the students."
+      },
+      {
+        "target": "ครูนั่งที่โต๊ะหน้าห้อง",
+        "text": "The teacher sits at the table at the front of the room."
+      }
+    ]
+  },
+  {
+    "vocab_index": 35,
+    "word": "นักเรียน",
+    "sentences": [
+      {
+        "target": "นักเรียนอ่านหนังสือไทย",
+        "text": "The student reads a Thai book."
+      },
+      {
+        "target": "นักเรียนถามครูอย่างสุภาพ",
+        "text": "The student asks the teacher politely."
+      },
+      {
+        "target": "นักเรียนเดินเข้าโรงเรียน",
+        "text": "The student walks into the school."
+      }
+    ]
+  },
+  {
+    "vocab_index": 36,
+    "word": "หมอ",
+    "sentences": [
+      {
+        "target": "หมอทำงานที่โรงพยาบาล",
+        "text": "The doctor works at the hospital."
+      },
+      {
+        "target": "หมอพูดกับแม่ของเด็ก",
+        "text": "The doctor speaks with the child's mother."
+      },
+      {
+        "target": "วันนี้หมอไม่ว่าง",
+        "text": "The doctor is not free today."
+      }
+    ]
+  },
+  {
+    "vocab_index": 37,
+    "word": "คนขับ",
+    "sentences": [
+      {
+        "target": "คนขับเปิดประตูรถ",
+        "text": "The driver opens the car door."
+      },
+      {
+        "target": "คนขับรถเมล์พูดขอบคุณ",
+        "text": "The bus driver says thank you."
+      },
+      {
+        "target": "คนขับรู้ทางไปสถานี",
+        "text": "The driver knows the way to the station."
+      }
+    ]
+  },
+  {
+    "vocab_index": 38,
+    "word": "บ้าน",
+    "sentences": [
+      {
+        "target": "บ้านของฉันอยู่ใกล้สวน",
+        "text": "My house is near the park."
+      },
+      {
+        "target": "พรุ่งนี้เราอยู่บ้าน",
+        "text": "Tomorrow we stay home."
+      },
+      {
+        "target": "บ้านหลังนี้มีหน้าต่างใหญ่",
+        "text": "This house has big windows."
+      }
+    ]
+  },
+  {
+    "vocab_index": 39,
+    "word": "ห้อง",
+    "sentences": [
+      {
+        "target": "ห้องนี้เล็กแต่สะอาด",
+        "text": "This room is small but clean."
+      },
+      {
+        "target": "เขานั่งในห้องเรียน",
+        "text": "He sits in the classroom."
+      },
+      {
+        "target": "แม่เปิดประตูห้อง",
+        "text": "Mother opens the room door."
+      }
+    ]
+  },
+  {
+    "vocab_index": 40,
+    "word": "โรงเรียน",
+    "sentences": [
+      {
+        "target": "โรงเรียนอยู่ไกลจากบ้าน",
+        "text": "The school is far from home."
+      },
+      {
+        "target": "เด็กไปโรงเรียนตอนเช้า",
+        "text": "The child goes to school in the morning."
+      },
+      {
+        "target": "หน้าโรงเรียนมีต้นไม้",
+        "text": "There are trees in front of the school."
+      }
+    ]
+  },
+  {
+    "vocab_index": 41,
+    "word": "ตลาด",
+    "sentences": [
+      {
+        "target": "ตลาดเปิดตอนเช้า",
+        "text": "The market opens in the morning."
+      },
+      {
+        "target": "ฉันซื้อผักที่ตลาด",
+        "text": "I buy vegetables at the market."
+      },
+      {
+        "target": "ตลาดอยู่ใกล้สถานี",
+        "text": "The market is near the station."
+      }
+    ]
+  },
+  {
+    "vocab_index": 42,
+    "word": "ร้าน",
+    "sentences": [
+      {
+        "target": "ร้านนี้ขายขนมปัง",
+        "text": "This shop sells bread."
+      },
+      {
+        "target": "พ่อไปที่ร้านตอนเย็น",
+        "text": "Father goes to the shop in the evening."
+      },
+      {
+        "target": "ร้านอยู่ริมถนน",
+        "text": "The shop is by the road."
+      }
+    ]
+  },
+  {
+    "vocab_index": 43,
+    "word": "ร้านอาหาร",
+    "sentences": [
+      {
+        "target": "ร้านอาหารนี้มีข้าวอร่อย",
+        "text": "This restaurant has tasty rice."
+      },
+      {
+        "target": "เราไปร้านอาหารกับเพื่อน",
+        "text": "We go to a restaurant with friends."
+      },
+      {
+        "target": "ร้านอาหารปิดตอนกลางคืน",
+        "text": "The restaurant closes at night."
+      }
+    ]
+  },
+  {
+    "vocab_index": 44,
+    "word": "โรงพยาบาล",
+    "sentences": [
+      {
+        "target": "โรงพยาบาลอยู่ในเมือง",
+        "text": "The hospital is in the city."
+      },
+      {
+        "target": "หมอเดินเข้าโรงพยาบาล",
+        "text": "The doctor walks into the hospital."
+      },
+      {
+        "target": "แม่ไปโรงพยาบาลตอนเช้า",
+        "text": "Mother goes to the hospital in the morning."
+      }
+    ]
+  },
+  {
+    "vocab_index": 45,
+    "word": "สถานี",
+    "sentences": [
+      {
+        "target": "สถานีอยู่ใกล้ตลาด",
+        "text": "The station is near the market."
+      },
+      {
+        "target": "รถเมล์หยุดที่สถานี",
+        "text": "The bus stops at the station."
+      },
+      {
+        "target": "ฉันรอพ่อที่สถานี",
+        "text": "I wait for father at the station."
+      }
+    ]
+  },
+  {
+    "vocab_index": 46,
+    "word": "เมือง",
+    "sentences": [
+      {
+        "target": "เมืองนี้ใหญ่และสวย",
+        "text": "This city is big and beautiful."
+      },
+      {
+        "target": "เขาทำงานในเมือง",
+        "text": "He works in the city."
+      },
+      {
+        "target": "เราเดินดูเมืองตอนเย็น",
+        "text": "We walk around the city in the evening."
+      }
+    ]
+  },
+  {
+    "vocab_index": 47,
+    "word": "ถนน",
+    "sentences": [
+      {
+        "target": "ถนนนี้กว้างมาก",
+        "text": "This road is very wide."
+      },
+      {
+        "target": "เด็กเดินข้างถนน",
+        "text": "The child walks beside the road."
+      },
+      {
+        "target": "ร้านกาแฟอยู่ริมถนน",
+        "text": "The coffee shop is by the road."
+      }
+    ]
+  },
+  {
+    "vocab_index": 48,
+    "word": "สวน",
+    "sentences": [
+      {
+        "target": "สวนมีดอกไม้สวย",
+        "text": "The park has beautiful flowers."
+      },
+      {
+        "target": "พวกเขานั่งในสวนตอนเย็น",
+        "text": "They sit in the park in the evening."
+      },
+      {
+        "target": "ฉันเดินกับแม่ในสวน",
+        "text": "I walk with mother in the park."
+      }
+    ]
+  },
+  {
+    "vocab_index": 49,
+    "word": "หนังสือ",
+    "sentences": [
+      {
+        "target": "หนังสือเล่มนี้ใหม่",
+        "text": "This book is new."
+      },
+      {
+        "target": "เด็กอ่านหนังสือบนเตียง",
+        "text": "The child reads a book on the bed."
+      },
+      {
+        "target": "ครูให้หนังสือแก่นักเรียน",
+        "text": "The teacher gives a book to a student."
+      }
+    ]
+  },
+  {
+    "vocab_index": 50,
+    "word": "สมุด",
+    "sentences": [
+      {
+        "target": "สมุดของฉันอยู่ในกระเป๋า",
+        "text": "My notebook is in the bag."
+      },
+      {
+        "target": "นักเรียนเปิดสมุดหน้าใหม่",
+        "text": "The student opens a new page in the notebook."
+      },
+      {
+        "target": "แม่ซื้อสมุดให้ฉัน",
+        "text": "Mother buys me a notebook."
+      }
+    ]
+  },
+  {
+    "vocab_index": 51,
+    "word": "ปากกา",
+    "sentences": [
+      {
+        "target": "ปากกาอยู่บนโต๊ะ",
+        "text": "The pen is on the table."
+      },
+      {
+        "target": "ฉันเขียนด้วยปากกาสีดำ",
+        "text": "I write with a black pen."
+      },
+      {
+        "target": "เขาซื้อปากกาใหม่สองด้าม",
+        "text": "He buys two new pens."
+      }
+    ]
+  },
+  {
+    "vocab_index": 52,
+    "word": "โทรศัพท์",
+    "sentences": [
+      {
+        "target": "โทรศัพท์ของคุณดัง",
+        "text": "Your phone is ringing."
+      },
+      {
+        "target": "ฉันดูเวลาในโทรศัพท์",
+        "text": "I look at the time on the phone."
+      },
+      {
+        "target": "พ่อวางโทรศัพท์บนโต๊ะ",
+        "text": "Father puts the phone on the table."
+      }
+    ]
+  },
+  {
+    "vocab_index": 53,
+    "word": "กระเป๋า",
+    "sentences": [
+      {
+        "target": "กระเป๋าใบนี้หนัก",
+        "text": "This bag is heavy."
+      },
+      {
+        "target": "ฉันใส่สมุดในกระเป๋า",
+        "text": "I put the notebook in the bag."
+      },
+      {
+        "target": "น้องถือกระเป๋าสีแดง",
+        "text": "My younger sibling carries a red bag."
+      }
+    ]
+  },
+  {
+    "vocab_index": 54,
+    "word": "โต๊ะ",
+    "sentences": [
+      {
+        "target": "โต๊ะอยู่ใกล้หน้าต่าง",
+        "text": "The table is near the window."
+      },
+      {
+        "target": "บนโต๊ะมีข้าวและน้ำ",
+        "text": "On the table there is rice and water."
+      },
+      {
+        "target": "ครูนั่งที่โต๊ะหน้าห้อง",
+        "text": "The teacher sits at the table at the front of the room."
+      }
+    ]
+  },
+  {
+    "vocab_index": 55,
+    "word": "เก้าอี้",
+    "sentences": [
+      {
+        "target": "เก้าอี้ตัวนี้เล็ก",
+        "text": "This chair is small."
+      },
+      {
+        "target": "เด็กนั่งบนเก้าอี้",
+        "text": "The child sits on a chair."
+      },
+      {
+        "target": "ในห้องมีเก้าอี้หลายตัว",
+        "text": "There are many chairs in the room."
+      }
+    ]
+  },
+  {
+    "vocab_index": 56,
+    "word": "ประตู",
+    "sentences": [
+      {
+        "target": "ประตูบ้านเปิดอยู่",
+        "text": "The house door is open."
+      },
+      {
+        "target": "กรุณาปิดประตูห้อง",
+        "text": "Please close the room door."
+      },
+      {
+        "target": "คนขับเปิดประตูรถเมล์",
+        "text": "The driver opens the bus door."
+      }
+    ]
+  },
+  {
+    "vocab_index": 57,
+    "word": "หน้าต่าง",
+    "sentences": [
+      {
+        "target": "หน้าต่างห้องใหญ่",
+        "text": "The room window is big."
+      },
+      {
+        "target": "แม่นั่งใกล้หน้าต่าง",
+        "text": "Mother sits near the window."
+      },
+      {
+        "target": "ฉันเปิดหน้าต่างตอนเช้า",
+        "text": "I open the window in the morning."
+      }
+    ]
+  },
+  {
+    "vocab_index": 58,
+    "word": "รถ",
+    "sentences": [
+      {
+        "target": "รถของพ่ออยู่หน้าบ้าน",
+        "text": "Father's car is in front of the house."
+      },
+      {
+        "target": "เขาขับรถไปตลาด",
+        "text": "He drives to the market."
+      },
+      {
+        "target": "รถคันนี้เก่าแต่ดี",
+        "text": "This car is old but good."
+      }
+    ]
+  },
+  {
+    "vocab_index": 59,
+    "word": "รถเมล์",
+    "sentences": [
+      {
+        "target": "รถเมล์มาช้าในวันนี้",
+        "text": "The bus is late today."
+      },
+      {
+        "target": "ฉันขึ้นรถเมล์ไปโรงเรียน",
+        "text": "I take the bus to school."
+      },
+      {
+        "target": "สถานีรถเมล์อยู่ใกล้ร้าน",
+        "text": "The bus station is near the shop."
+      }
+    ]
+  },
+  {
+    "vocab_index": 60,
+    "word": "เงิน",
+    "sentences": [
+      {
+        "target": "ฉันมีเงินเล็กน้อย",
+        "text": "I have a little money."
+      },
+      {
+        "target": "แม่ให้เงินซื้อตั๋ว",
+        "text": "Mother gives money to buy a ticket."
+      },
+      {
+        "target": "เขาวางเงินบนโต๊ะ",
+        "text": "He puts the money on the table."
+      }
+    ]
+  },
+  {
+    "vocab_index": 61,
+    "word": "ตั๋ว",
+    "sentences": [
+      {
+        "target": "ตั๋วรถเมล์อยู่ในกระเป๋า",
+        "text": "The bus ticket is in the bag."
+      },
+      {
+        "target": "ฉันซื้อตั๋วสองใบ",
+        "text": "I buy two tickets."
+      },
+      {
+        "target": "คุณมีตั๋วไหม",
+        "text": "Do you have a ticket?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 62,
+    "word": "ข้าว",
+    "sentences": [
+      {
+        "target": "ข้าวร้อนอยู่บนโต๊ะ",
+        "text": "Hot rice is on the table."
+      },
+      {
+        "target": "เรากินข้าวกับไก่",
+        "text": "We eat rice with chicken."
+      },
+      {
+        "target": "แม่ทำข้าวเย็นให้ครอบครัว",
+        "text": "Mother makes dinner for the family."
+      }
+    ]
+  },
+  {
+    "vocab_index": 63,
+    "word": "น้ำ",
+    "sentences": [
+      {
+        "target": "ฉันดื่มน้ำเย็น",
+        "text": "I drink cold water."
+      },
+      {
+        "target": "บนโต๊ะมีน้ำหนึ่งแก้ว",
+        "text": "There is a glass of water on the table."
+      },
+      {
+        "target": "เด็กต้องการน้ำหลังวิ่ง",
+        "text": "The child wants water after running."
+      }
+    ]
+  },
+  {
+    "vocab_index": 64,
+    "word": "ชา",
+    "sentences": [
+      {
+        "target": "แม่ดื่มชาตอนเช้า",
+        "text": "Mother drinks tea in the morning."
+      },
+      {
+        "target": "ชาถ้วยนี้ไม่ร้อน",
+        "text": "This cup of tea is not hot."
+      },
+      {
+        "target": "ฉันซื้อชาให้ครู",
+        "text": "I buy tea for the teacher."
+      }
+    ]
+  },
+  {
+    "vocab_index": 65,
+    "word": "กาแฟ",
+    "sentences": [
+      {
+        "target": "พ่อดื่มกาแฟทุกเช้า",
+        "text": "Father drinks coffee every morning."
+      },
+      {
+        "target": "ร้านนี้ขายกาแฟดี",
+        "text": "This shop sells good coffee."
+      },
+      {
+        "target": "เขาถือกาแฟหนึ่งแก้ว",
+        "text": "He carries one cup of coffee."
+      }
+    ]
+  },
+  {
+    "vocab_index": 66,
+    "word": "นม",
+    "sentences": [
+      {
+        "target": "เด็กดื่มนมก่อนนอน",
+        "text": "The child drinks milk before sleep."
+      },
+      {
+        "target": "นมอยู่ในตู้เย็น",
+        "text": "The milk is in the refrigerator."
+      },
+      {
+        "target": "แม่ซื้อนมสองกล่อง",
+        "text": "Mother buys two cartons of milk."
+      }
+    ]
+  },
+  {
+    "vocab_index": 67,
+    "word": "ขนมปัง",
+    "sentences": [
+      {
+        "target": "ขนมปังอยู่บนจาน",
+        "text": "The bread is on the plate."
+      },
+      {
+        "target": "ฉันกินขนมปังกับนม",
+        "text": "I eat bread with milk."
+      },
+      {
+        "target": "ร้านขายขนมปังใหม่",
+        "text": "The shop sells fresh bread."
+      }
+    ]
+  },
+  {
+    "vocab_index": 68,
+    "word": "ไข่",
+    "sentences": [
+      {
+        "target": "แม่ทอดไข่ตอนเช้า",
+        "text": "Mother fries eggs in the morning."
+      },
+      {
+        "target": "ในถุงมีไข่ห้าฟอง",
+        "text": "There are five eggs in the bag."
+      },
+      {
+        "target": "เขากินไข่กับข้าว",
+        "text": "He eats eggs with rice."
+      }
+    ]
+  },
+  {
+    "vocab_index": 69,
+    "word": "ผัก",
+    "sentences": [
+      {
+        "target": "ผักสดอยู่ในตลาด",
+        "text": "Fresh vegetables are in the market."
+      },
+      {
+        "target": "ฉันซื้อผักให้แม่",
+        "text": "I buy vegetables for mother."
+      },
+      {
+        "target": "เด็กกินผักกับข้าว",
+        "text": "The child eats vegetables with rice."
+      }
+    ]
+  },
+  {
+    "vocab_index": 70,
+    "word": "ผลไม้",
+    "sentences": [
+      {
+        "target": "ผลไม้อยู่บนโต๊ะ",
+        "text": "The fruit is on the table."
+      },
+      {
+        "target": "พวกเขาซื้อผลไม้ที่ตลาด",
+        "text": "They buy fruit at the market."
+      },
+      {
+        "target": "ฉันชอบผลไม้หวาน",
+        "text": "I like sweet fruit."
+      }
+    ]
+  },
+  {
+    "vocab_index": 71,
+    "word": "กล้วย",
+    "sentences": [
+      {
+        "target": "กล้วยสีเหลืองอยู่ในจาน",
+        "text": "The yellow banana is on the plate."
+      },
+      {
+        "target": "น้องกินกล้วยหนึ่งลูก",
+        "text": "My younger sibling eats one banana."
+      },
+      {
+        "target": "แม่ซื้อกล้วยที่ตลาด",
+        "text": "Mother buys bananas at the market."
+      }
+    ]
+  },
+  {
+    "vocab_index": 72,
+    "word": "แอปเปิล",
+    "sentences": [
+      {
+        "target": "แอปเปิลลูกนี้แดง",
+        "text": "This apple is red."
+      },
+      {
+        "target": "ฉันแบ่งแอปเปิลให้เพื่อน",
+        "text": "I share an apple with a friend."
+      },
+      {
+        "target": "ร้านมีแอปเปิลใหม่วันนี้",
+        "text": "The shop has new apples today."
+      }
+    ]
+  },
+  {
+    "vocab_index": 73,
+    "word": "ปลา",
+    "sentences": [
+      {
+        "target": "พ่อซื้อปลาที่ตลาด",
+        "text": "Father buys fish at the market."
+      },
+      {
+        "target": "ปลาอยู่ในจานข้าว",
+        "text": "The fish is on the rice plate."
+      },
+      {
+        "target": "ฉันไม่กินปลาเย็น",
+        "text": "I do not eat cold fish."
+      }
+    ]
+  },
+  {
+    "vocab_index": 74,
+    "word": "ไก่",
+    "sentences": [
+      {
+        "target": "แม่ทำไก่กับข้าว",
+        "text": "Mother cooks chicken with rice."
+      },
+      {
+        "target": "ร้านอาหารขายไก่อร่อย",
+        "text": "The restaurant sells tasty chicken."
+      },
+      {
+        "target": "เขาซื้อไก่ให้ครอบครัว",
+        "text": "He buys chicken for the family."
+      }
+    ]
+  },
+  {
+    "vocab_index": 75,
+    "word": "น้ำตาล",
+    "sentences": [
+      {
+        "target": "ชาใส่น้ำตาลเล็กน้อย",
+        "text": "The tea has a little sugar."
+      },
+      {
+        "target": "แม่ซื้อน้ำตาลที่ร้าน",
+        "text": "Mother buys sugar at the shop."
+      },
+      {
+        "target": "ฉันไม่ใส่น้ำตาลในกาแฟ",
+        "text": "I do not put sugar in coffee."
+      }
+    ]
+  },
+  {
+    "vocab_index": 76,
+    "word": "เกลือ",
+    "sentences": [
+      {
+        "target": "แม่ใส่เกลือในปลา",
+        "text": "Mother puts salt on the fish."
+      },
+      {
+        "target": "เกลืออยู่ข้างน้ำตาล",
+        "text": "The salt is beside the sugar."
+      },
+      {
+        "target": "อาหารนี้มีเกลือมาก",
+        "text": "This food has a lot of salt."
+      }
+    ]
+  },
+  {
+    "vocab_index": 77,
+    "word": "วันนี้",
+    "sentences": [
+      {
+        "target": "วันนี้แดดดี",
+        "text": "Today the sunshine is good."
+      },
+      {
+        "target": "วันนี้ฉันไปโรงเรียน",
+        "text": "Today I go to school."
+      },
+      {
+        "target": "วันนี้ร้านอาหารปิดเร็ว",
+        "text": "Today the restaurant closes early."
+      }
+    ]
+  },
+  {
+    "vocab_index": 78,
+    "word": "พรุ่งนี้",
+    "sentences": [
+      {
+        "target": "พรุ่งนี้เราไปตลาด",
+        "text": "Tomorrow we go to the market."
+      },
+      {
+        "target": "พรุ่งนี้ครูไม่ว่าง",
+        "text": "Tomorrow the teacher is not free."
+      },
+      {
+        "target": "พรุ่งนี้ฉันตื่นเช้า",
+        "text": "Tomorrow I wake up early."
+      }
+    ]
+  },
+  {
+    "vocab_index": 79,
+    "word": "เมื่อวาน",
+    "sentences": [
+      {
+        "target": "เมื่อวานฝนตกหนัก",
+        "text": "Yesterday it rained hard."
+      },
+      {
+        "target": "เมื่อวานฉันซื้อหนังสือ",
+        "text": "Yesterday I bought a book."
+      },
+      {
+        "target": "เมื่อวานเขามาบ้านเรา",
+        "text": "Yesterday he came to our house."
+      }
+    ]
+  },
+  {
+    "vocab_index": 80,
+    "word": "เช้า",
+    "sentences": [
+      {
+        "target": "เช้านี้อากาศเย็น",
+        "text": "This morning the weather is cool."
+      },
+      {
+        "target": "ฉันดื่มกาแฟตอนเช้า",
+        "text": "I drink coffee in the morning."
+      },
+      {
+        "target": "แม่ไปตลาดแต่เช้า",
+        "text": "Mother goes to the market early."
+      }
+    ]
+  },
+  {
+    "vocab_index": 81,
+    "word": "เย็น",
+    "sentences": [
+      {
+        "target": "ตอนเย็นเราเดินในสวน",
+        "text": "In the evening we walk in the park."
+      },
+      {
+        "target": "น้ำแก้วนี้เย็นมาก",
+        "text": "This glass of water is very cold."
+      },
+      {
+        "target": "แม่ทำข้าวเย็นให้เรา",
+        "text": "Mother makes dinner for us."
+      }
+    ]
+  },
+  {
+    "vocab_index": 82,
+    "word": "คืน",
+    "sentences": [
+      {
+        "target": "คืนนี้น้องนอนเร็ว",
+        "text": "Tonight my younger sibling sleeps early."
+      },
+      {
+        "target": "คืนวันศุกร์ตลาดเปิดช้า",
+        "text": "On Friday night the market stays open late."
+      },
+      {
+        "target": "ฉันอ่านหนังสือกลางคืน",
+        "text": "I read a book at night."
+      }
+    ]
+  },
+  {
+    "vocab_index": 83,
+    "word": "วัน",
+    "sentences": [
+      {
+        "target": "วันจันทร์ฉันไปโรงเรียน",
+        "text": "On Monday I go to school."
+      },
+      {
+        "target": "วันนี้เป็นวันดี",
+        "text": "Today is a good day."
+      },
+      {
+        "target": "เขาทำงานทุกวัน",
+        "text": "He works every day."
+      }
+    ]
+  },
+  {
+    "vocab_index": 84,
+    "word": "เวลา",
+    "sentences": [
+      {
+        "target": "เวลาเรียนเริ่มเช้า",
+        "text": "Class time starts in the morning."
+      },
+      {
+        "target": "คุณมีเวลาไหม",
+        "text": "Do you have time?"
+      },
+      {
+        "target": "ฉันดูเวลาในโทรศัพท์",
+        "text": "I check the time on the phone."
+      }
+    ]
+  },
+  {
+    "vocab_index": 85,
+    "word": "ฝน",
+    "sentences": [
+      {
+        "target": "ฝนตกตอนเย็น",
+        "text": "It rains in the evening."
+      },
+      {
+        "target": "วันนี้ฝนไม่ตก",
+        "text": "Today it does not rain."
+      },
+      {
+        "target": "เด็กวิ่งกลับบ้านตอนฝนมา",
+        "text": "The child runs home when the rain comes."
+      }
+    ]
+  },
+  {
+    "vocab_index": 86,
+    "word": "แดด",
+    "sentences": [
+      {
+        "target": "แดดแรงบนถนน",
+        "text": "The sunshine is strong on the road."
+      },
+      {
+        "target": "วันนี้มีแดดดี",
+        "text": "Today has good sunshine."
+      },
+      {
+        "target": "เด็กนั่งใต้ต้นไม้เพราะแดดร้อน",
+        "text": "The child sits under a tree because the sun is hot."
+      }
+    ]
+  },
+  {
+    "vocab_index": 87,
+    "word": "ร้อน",
+    "sentences": [
+      {
+        "target": "วันนี้อากาศร้อน",
+        "text": "Today the weather is hot."
+      },
+      {
+        "target": "ชาถ้วยนี้ร้อนมาก",
+        "text": "This cup of tea is very hot."
+      },
+      {
+        "target": "ข้าวยังร้อนอยู่",
+        "text": "The rice is still hot."
+      }
+    ]
+  },
+  {
+    "vocab_index": 88,
+    "word": "หนาว",
+    "sentences": [
+      {
+        "target": "ตอนเช้าอากาศหนาว",
+        "text": "The morning weather is cold."
+      },
+      {
+        "target": "ฉันใส่เสื้อเพราะหนาว",
+        "text": "I wear a shirt because it is cold."
+      },
+      {
+        "target": "คืนนี้เด็กไม่หนาว",
+        "text": "Tonight the child is not cold."
+      }
+    ]
+  },
+  {
+    "vocab_index": 89,
+    "word": "ดี",
+    "sentences": [
+      {
+        "target": "ครูคนนี้ดีมาก",
+        "text": "This teacher is very good."
+      },
+      {
+        "target": "วันนี้เป็นวันดี",
+        "text": "Today is a good day."
+      },
+      {
+        "target": "กาแฟร้านนี้ดี",
+        "text": "This shop's coffee is good."
+      }
+    ]
+  },
+  {
+    "vocab_index": 90,
+    "word": "ใหม่",
+    "sentences": [
+      {
+        "target": "ฉันมีสมุดใหม่",
+        "text": "I have a new notebook."
+      },
+      {
+        "target": "รถใหม่อยู่หน้าบ้าน",
+        "text": "The new car is in front of the house."
+      },
+      {
+        "target": "ร้านนี้เปิดใหม่",
+        "text": "This shop is newly opened."
+      }
+    ]
+  },
+  {
+    "vocab_index": 91,
+    "word": "เก่า",
+    "sentences": [
+      {
+        "target": "หนังสือเก่าอยู่บนโต๊ะ",
+        "text": "The old book is on the table."
+      },
+      {
+        "target": "รถเก่าของพ่อยังดี",
+        "text": "Father's old car is still good."
+      },
+      {
+        "target": "บ้านเก่าอยู่ใกล้แม่น้ำ",
+        "text": "The old house is near the river."
+      }
+    ]
+  },
+  {
+    "vocab_index": 92,
+    "word": "ใหญ่",
+    "sentences": [
+      {
+        "target": "โรงเรียนนี้ใหญ่",
+        "text": "This school is big."
+      },
+      {
+        "target": "เขามีกระเป๋าใหญ่",
+        "text": "He has a big bag."
+      },
+      {
+        "target": "หน้าต่างใหญ่เปิดอยู่",
+        "text": "The big window is open."
+      }
+    ]
+  },
+  {
+    "vocab_index": 93,
+    "word": "เล็ก",
+    "sentences": [
+      {
+        "target": "ห้องเล็กอยู่ข้างครัว",
+        "text": "The small room is beside the kitchen."
+      },
+      {
+        "target": "เด็กถือแก้วเล็ก",
+        "text": "The child holds a small glass."
+      },
+      {
+        "target": "ร้านเล็กขายชาและกาแฟ",
+        "text": "The small shop sells tea and coffee."
+      }
+    ]
+  },
+  {
+    "vocab_index": 94,
+    "word": "สวย",
+    "sentences": [
+      {
+        "target": "สวนนี้สวยมาก",
+        "text": "This park is very beautiful."
+      },
+      {
+        "target": "ผู้หญิงใส่เสื้อสวย",
+        "text": "The woman wears a beautiful shirt."
+      },
+      {
+        "target": "เมืองตอนกลางคืนสวย",
+        "text": "The city is beautiful at night."
+      }
+    ]
+  },
+  {
+    "vocab_index": 95,
+    "word": "ง่าย",
+    "sentences": [
+      {
+        "target": "บทเรียนนี้ง่าย",
+        "text": "This lesson is easy."
+      },
+      {
+        "target": "คำถามง่ายสำหรับนักเรียน",
+        "text": "The question is easy for the student."
+      },
+      {
+        "target": "ทางไปตลาดง่ายมาก",
+        "text": "The way to the market is very easy."
+      }
+    ]
+  },
+  {
+    "vocab_index": 96,
+    "word": "ยาก",
+    "sentences": [
+      {
+        "target": "งานนี้ยากสำหรับฉัน",
+        "text": "This work is difficult for me."
+      },
+      {
+        "target": "ข้อสอบไม่ยากวันนี้",
+        "text": "The test is not difficult today."
+      },
+      {
+        "target": "ภาษาไทยยากแต่สนุก",
+        "text": "Thai is difficult but fun."
+      }
+    ]
+  },
+  {
+    "vocab_index": 97,
+    "word": "แพง",
+    "sentences": [
+      {
+        "target": "กาแฟร้านนี้แพง",
+        "text": "The coffee at this shop is expensive."
+      },
+      {
+        "target": "ตั๋วรถไฟแพงวันนี้",
+        "text": "The train ticket is expensive today."
+      },
+      {
+        "target": "กระเป๋าใหม่แพงมาก",
+        "text": "The new bag is very expensive."
+      }
+    ]
+  },
+  {
+    "vocab_index": 98,
+    "word": "ถูก",
+    "sentences": [
+      {
+        "target": "ขนมปังร้านนี้ถูก",
+        "text": "The bread at this shop is cheap."
+      },
+      {
+        "target": "คำตอบของคุณถูก",
+        "text": "Your answer is correct."
+      },
+      {
+        "target": "ตั๋วรถเมล์ถูกกว่าแท็กซี่",
+        "text": "A bus ticket is cheaper than a taxi."
+      }
+    ]
+  },
+  {
+    "vocab_index": 99,
+    "word": "เร็ว",
+    "sentences": [
+      {
+        "target": "รถเมล์วันนี้เร็ว",
+        "text": "The bus is fast today."
+      },
+      {
+        "target": "เขาวิ่งเร็วในสวน",
+        "text": "He runs fast in the park."
+      },
+      {
+        "target": "พรุ่งนี้ฉันตื่นเร็ว",
+        "text": "Tomorrow I wake up early."
+      }
+    ]
+  },
+  {
+    "vocab_index": 100,
+    "word": "ช้า",
+    "sentences": [
+      {
+        "target": "รถเมล์มาช้า",
+        "text": "The bus comes late."
+      },
+      {
+        "target": "ครูพูดช้าให้เราเข้าใจ",
+        "text": "The teacher speaks slowly so we understand."
+      },
+      {
+        "target": "เขาเดินช้าเพราะเหนื่อย",
+        "text": "He walks slowly because he is tired."
+      }
+    ]
+  },
+  {
+    "vocab_index": 101,
+    "word": "ใกล้",
+    "sentences": [
+      {
+        "target": "บ้านฉันอยู่ใกล้โรงเรียน",
+        "text": "My house is near the school."
+      },
+      {
+        "target": "ร้านกาแฟใกล้สถานี",
+        "text": "The coffee shop is near the station."
+      },
+      {
+        "target": "นั่งใกล้หน้าต่างดีไหม",
+        "text": "Is sitting near the window good?"
+      }
+    ]
+  },
+  {
+    "vocab_index": 102,
+    "word": "ไกล",
+    "sentences": [
+      {
+        "target": "โรงพยาบาลอยู่ไกลจากบ้าน",
+        "text": "The hospital is far from home."
+      },
+      {
+        "target": "เขาเดินไกลทุกวัน",
+        "text": "He walks far every day."
+      },
+      {
+        "target": "ตลาดไม่ไกลจากสถานี",
+        "text": "The market is not far from the station."
+      }
+    ]
+  },
+  {
+    "vocab_index": 103,
+    "word": "ว่าง",
+    "sentences": [
+      {
+        "target": "วันนี้ครูว่างตอนเย็น",
+        "text": "The teacher is free this evening."
+      },
+      {
+        "target": "คุณว่างพรุ่งนี้ไหม",
+        "text": "Are you free tomorrow?"
+      },
+      {
+        "target": "เก้าอี้ตัวนี้ว่าง",
+        "text": "This chair is free."
+      }
+    ]
+  },
+  {
+    "vocab_index": 104,
+    "word": "ไป",
+    "sentences": [
+      {
+        "target": "ฉันไปโรงเรียนตอนเช้า",
+        "text": "I go to school in the morning."
+      },
+      {
+        "target": "เราไปตลาดด้วยกัน",
+        "text": "We go to the market together."
+      },
+      {
+        "target": "พ่อไปทำงานในเมือง",
+        "text": "Father goes to work in the city."
+      }
+    ]
+  },
+  {
+    "vocab_index": 105,
+    "word": "มา",
+    "sentences": [
+      {
+        "target": "แม่มาที่บ้านตอนเย็น",
+        "text": "Mother comes home in the evening."
+      },
+      {
+        "target": "รถเมล์มาช้า",
+        "text": "The bus comes late."
+      },
+      {
+        "target": "เพื่อนมาหาฉันพรุ่งนี้",
+        "text": "A friend comes to see me tomorrow."
+      }
+    ]
+  },
+  {
+    "vocab_index": 106,
+    "word": "กิน",
+    "sentences": [
+      {
+        "target": "เด็กกินข้าวกับไข่",
+        "text": "The child eats rice with egg."
+      },
+      {
+        "target": "ฉันกินผลไม้ตอนเช้า",
+        "text": "I eat fruit in the morning."
+      },
+      {
+        "target": "เขาไม่กินผัก",
+        "text": "He does not eat vegetables."
+      }
+    ]
+  },
+  {
+    "vocab_index": 107,
+    "word": "ดื่ม",
+    "sentences": [
+      {
+        "target": "ฉันดื่มน้ำเย็น",
+        "text": "I drink cold water."
+      },
+      {
+        "target": "พ่อดื่มกาแฟตอนเช้า",
+        "text": "Father drinks coffee in the morning."
+      },
+      {
+        "target": "เด็กดื่มนมก่อนนอน",
+        "text": "The child drinks milk before bed."
+      }
+    ]
+  },
+  {
+    "vocab_index": 108,
+    "word": "อ่าน",
+    "sentences": [
+      {
+        "target": "ฉันอ่านหนังสือใหม่",
+        "text": "I read a new book."
+      },
+      {
+        "target": "ครูอ่านสมุดนักเรียน",
+        "text": "The teacher reads the student's notebook."
+      },
+      {
+        "target": "เขาอ่านเมนูในร้านอาหาร",
+        "text": "He reads the menu in the restaurant."
+      }
+    ]
+  },
+  {
+    "vocab_index": 109,
+    "word": "เขียน",
+    "sentences": [
+      {
+        "target": "นักเรียนเขียนในสมุด",
+        "text": "The student writes in a notebook."
+      },
+      {
+        "target": "ฉันเขียนชื่อบนตั๋ว",
+        "text": "I write my name on the ticket."
+      },
+      {
+        "target": "ครูเขียนตัวเลขบนกระดาน",
+        "text": "The teacher writes numbers on the board."
+      }
+    ]
+  },
+  {
+    "vocab_index": 110,
+    "word": "ดู",
+    "sentences": [
+      {
+        "target": "เด็กดูโทรศัพท์ของแม่",
+        "text": "The child looks at mother's phone."
+      },
+      {
+        "target": "เราไปดูเมืองตอนเย็น",
+        "text": "We go to see the city in the evening."
+      },
+      {
+        "target": "ฉันดูเวลาแล้วไปโรงเรียน",
+        "text": "I check the time and go to school."
+      }
+    ]
+  },
+  {
+    "vocab_index": 111,
+    "word": "ฟัง",
+    "sentences": [
+      {
+        "target": "นักเรียนฟังครูพูด",
+        "text": "The students listen to the teacher speak."
+      },
+      {
+        "target": "ฉันฟังเพลงตอนกลางคืน",
+        "text": "I listen to music at night."
+      },
+      {
+        "target": "แม่ฟังข่าวในรถ",
+        "text": "Mother listens to the news in the car."
+      }
+    ]
+  },
+  {
+    "vocab_index": 112,
+    "word": "พูด",
+    "sentences": [
+      {
+        "target": "ครูพูดภาษาไทยช้าๆ",
+        "text": "The teacher speaks Thai slowly."
+      },
+      {
+        "target": "เด็กพูดกับเพื่อนในสวน",
+        "text": "The child speaks with a friend in the park."
+      },
+      {
+        "target": "เขาพูดขอบคุณกับคนขับ",
+        "text": "He says thank you to the driver."
+      }
+    ]
+  },
+  {
+    "vocab_index": 113,
+    "word": "เรียน",
+    "sentences": [
+      {
+        "target": "เราเรียนภาษาไทยทุกวัน",
+        "text": "We study Thai every day."
+      },
+      {
+        "target": "นักเรียนเรียนในห้องใหญ่",
+        "text": "The students study in the big room."
+      },
+      {
+        "target": "ฉันชอบเรียนตอนเช้า",
+        "text": "I like studying in the morning."
+      }
+    ]
+  },
+  {
+    "vocab_index": 114,
+    "word": "ทำ",
+    "sentences": [
+      {
+        "target": "แม่ทำอาหารเย็น",
+        "text": "Mother makes dinner."
+      },
+      {
+        "target": "ฉันทำงานที่บ้าน",
+        "text": "I work at home."
+      },
+      {
+        "target": "เด็กทำการบ้านบนโต๊ะ",
+        "text": "The child does homework at the table."
+      }
+    ]
+  },
+  {
+    "vocab_index": 115,
+    "word": "ซื้อ",
+    "sentences": [
+      {
+        "target": "พ่อซื้อปลาในตลาด",
+        "text": "Father buys fish at the market."
+      },
+      {
+        "target": "ฉันซื้อปากกาใหม่",
+        "text": "I buy a new pen."
+      },
+      {
+        "target": "พวกเขาซื้อตั๋วรถเมล์",
+        "text": "They buy bus tickets."
+      }
+    ]
+  },
+  {
+    "vocab_index": 116,
+    "word": "ขาย",
+    "sentences": [
+      {
+        "target": "ร้านนี้ขายชาและกาแฟ",
+        "text": "This shop sells tea and coffee."
+      },
+      {
+        "target": "ผู้หญิงขายผักในตลาด",
+        "text": "The woman sells vegetables at the market."
+      },
+      {
+        "target": "พ่อขายรถเก่า",
+        "text": "Father sells the old car."
+      }
+    ]
+  },
+  {
+    "vocab_index": 117,
+    "word": "ชอบ",
+    "sentences": [
+      {
+        "target": "ฉันชอบผลไม้หวาน",
+        "text": "I like sweet fruit."
+      },
+      {
+        "target": "น้องชอบวิ่งในสวน",
+        "text": "My younger sibling likes running in the park."
+      },
+      {
+        "target": "เขาชอบหนังสือเล่มนี้",
+        "text": "He likes this book."
+      }
+    ]
+  },
+  {
+    "vocab_index": 118,
+    "word": "ต้องการ",
+    "sentences": [
+      {
+        "target": "เด็กต้องการน้ำเย็น",
+        "text": "The child wants cold water."
+      },
+      {
+        "target": "ฉันต้องการตั๋วหนึ่งใบ",
+        "text": "I need one ticket."
+      },
+      {
+        "target": "แม่ต้องการผักสด",
+        "text": "Mother wants fresh vegetables."
+      }
+    ]
+  },
+  {
+    "vocab_index": 119,
+    "word": "มี",
+    "sentences": [
+      {
+        "target": "ฉันมีสมุดและปากกา",
+        "text": "I have a notebook and a pen."
+      },
+      {
+        "target": "ในห้องมีโต๊ะใหญ่",
+        "text": "There is a big table in the room."
+      },
+      {
+        "target": "วันนี้มีแดดดี",
+        "text": "Today there is good sunshine."
+      }
+    ]
+  },
+  {
+    "vocab_index": 120,
+    "word": "อยู่",
+    "sentences": [
+      {
+        "target": "ฉันอยู่บ้านตอนเย็น",
+        "text": "I am at home in the evening."
+      },
+      {
+        "target": "ตลาดอยู่ใกล้สถานี",
+        "text": "The market is near the station."
+      },
+      {
+        "target": "เขาอยู่ในห้องกับครู",
+        "text": "He is in the room with the teacher."
+      }
+    ]
+  },
+  {
+    "vocab_index": 121,
+    "word": "นอน",
+    "sentences": [
+      {
+        "target": "เด็กนอนบนเตียงเล็ก",
+        "text": "The child sleeps on a small bed."
+      },
+      {
+        "target": "ฉันนอนเร็วคืนนี้",
+        "text": "I sleep early tonight."
+      },
+      {
+        "target": "แมวนอนใต้โต๊ะ",
+        "text": "The cat sleeps under the table."
+      }
+    ]
+  },
+  {
+    "vocab_index": 122,
+    "word": "นั่ง",
+    "sentences": [
+      {
+        "target": "ครูนั่งใกล้หน้าต่าง",
+        "text": "The teacher sits near the window."
+      },
+      {
+        "target": "เรานั่งรถเมล์ไปเมือง",
+        "text": "We take a bus to the city."
+      },
+      {
+        "target": "เด็กนั่งบนเก้าอี้สีแดง",
+        "text": "The child sits on a red chair."
+      }
+    ]
+  },
+  {
+    "vocab_index": 123,
+    "word": "เดิน",
+    "sentences": [
+      {
+        "target": "ฉันเดินไปโรงเรียน",
+        "text": "I walk to school."
+      },
+      {
+        "target": "พวกเขาเดินในสวนตอนเย็น",
+        "text": "They walk in the park in the evening."
+      },
+      {
+        "target": "แม่เดินไปตลาดใกล้บ้าน",
+        "text": "Mother walks to the market near home."
+      }
+    ]
+  },
+  {
+    "vocab_index": 124,
+    "word": "วิ่ง",
+    "sentences": [
+      {
+        "target": "เด็กวิ่งในสนาม",
+        "text": "The child runs in the field."
+      },
+      {
+        "target": "เขาวิ่งเร็วมาก",
+        "text": "He runs very fast."
+      },
+      {
+        "target": "น้องวิ่งกลับบ้านตอนฝนตก",
+        "text": "My younger sibling runs home when it rains."
+      }
+    ]
+  },
+  {
+    "vocab_index": 125,
+    "word": "ช่วย",
+    "sentences": [
+      {
+        "target": "ฉันช่วยแม่ทำข้าวเย็น",
+        "text": "I help mother make dinner."
+      },
+      {
+        "target": "เพื่อนช่วยถือกระเป๋า",
+        "text": "A friend helps carry the bag."
+      },
+      {
+        "target": "ครูช่วยนักเรียนอ่านหนังสือ",
+        "text": "The teacher helps the student read a book."
+      }
+    ]
+  }
+]
