@@ -20,6 +20,16 @@ const COURSES = [
     explanationsPath: "/data/tibetan_a1_explanations.json",
     tokensPath: "/data/tibetan_a1_tokens.json",
   },
+  {
+    code: "tgk-a1",
+    label: "Tajik A1",
+    slug: "tajik-a1",
+    baseLanguage: "tgk",
+    sentenceCount: 1500,
+    corpusPath: "/data/tajik_a1.json",
+    vocabularyPath: "/data/tajik_a1_vocab.json",
+    explanationsPath: "/data/tajik_a1_explanations.json",
+  },
 ];
 
 const MAX_COUNT = 50;
@@ -59,14 +69,18 @@ const CYRILLIC_LATIN = {
   б: "b",
   в: "v",
   г: "g",
+  ғ: "gh",
   д: "d",
   е: "e",
   ё: "yo",
   ж: "j",
   з: "z",
   и: "i",
+  ӣ: "i",
   й: "i",
+  ҷ: "j",
   к: "k",
+  қ: "q",
   л: "l",
   м: "m",
   н: "n",
@@ -77,9 +91,11 @@ const CYRILLIC_LATIN = {
   с: "s",
   т: "t",
   у: "u",
+  ӯ: "u",
   ү: "u",
   ф: "f",
   х: "h",
+  ҳ: "h",
   ц: "ts",
   ч: "ch",
   ш: "sh",
@@ -558,11 +574,12 @@ function generatePrompt(sentence, course, inverse) {
       ? candidates[Math.floor(Math.random() * candidates.length)]
       : 0);
   const word = words[wordIndex] || { text: "", transliteration: null };
+  const trailing = trailingWhitespace(word.text);
 
   return {
     firstHalf: joinPromptTokenText(words.slice(0, wordIndex)),
     word: removePunctuation(word.text),
-    secondHalf: joinPromptTokenText(words.slice(wordIndex + 1)),
+    secondHalf: `${trailing}${joinPromptTokenText(words.slice(wordIndex + 1))}`,
     firstHalfTransliteration: joinPromptTokenTransliteration(
       words.slice(0, wordIndex),
     ),
@@ -573,6 +590,11 @@ function generatePrompt(sentence, course, inverse) {
       words.slice(wordIndex + 1),
     ),
   };
+}
+
+function trailingWhitespace(text) {
+  const match = String(text || "").match(/\s+$/u);
+  return match ? match[0] : "";
 }
 
 function promptTokens(sentence, course, inverse) {

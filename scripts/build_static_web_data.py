@@ -22,6 +22,9 @@ SOURCE_FILES = [
     "tibetan_a1.json",
     "tibetan_a1_explanations.json",
     "tibetan_a1_vocab.json",
+    "tajik_a1.json",
+    "tajik_a1_explanations.json",
+    "tajik_a1_vocab.json",
 ]
 
 

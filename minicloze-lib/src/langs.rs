@@ -7,12 +7,17 @@ pub fn normalize_language_input(input: &str) -> String {
     match lower.as_str() {
         "mongolian-a1" | "mon-a1" => "Mongolian A1".to_string(),
         "tibetan-a1" | "bod-a1" => "Tibetan A1".to_string(),
+        "tajik-a1" | "tgk-a1" => "Tajik A1".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
         _ if lower.starts_with("bod-a") => {
             format!("Tibetan A{}", &lower["bod-a".len()..])
         }
+        _ if lower.starts_with("tajik-a") => {
+            format!("Tajik A{}", &lower["tajik-a".len()..])
+        }
+        _ if lower.starts_with("tgk-a") => format!("Tajik A{}", &lower["tgk-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -420,6 +425,7 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Telugu", "tel"),
         ("Tetun", "tet"),
         ("Tajik", "tgk"),
+        ("Tajik A1", "tgk-a1"),
         ("Tagalog", "tgl"),
         ("Thai", "tha"),
         ("Tahaggart Tamahaq", "thv"),
@@ -484,6 +490,8 @@ mod tests {
     fn normalizes_local_corpus_language_arguments() {
         assert_eq!(normalize_language_input("tibetan-a1"), "Tibetan A1");
         assert_eq!(normalize_language_input("bod-a2"), "Tibetan A2");
+        assert_eq!(normalize_language_input("tajik-a1"), "Tajik A1");
+        assert_eq!(normalize_language_input("tgk-a2"), "Tajik A2");
         assert_eq!(normalize_language_input("mongolian-a1"), "Mongolian A1");
         assert_eq!(normalize_language_input("mon-a2"), "Mongolian A2");
     }
@@ -492,5 +500,6 @@ mod tests {
     fn resolves_codes_from_aliases() {
         assert_eq!(language_code_for_input("mongolian-a1"), Some("mon-a1"));
         assert_eq!(language_code_for_input("tibetan-a1"), Some("bod-a1"));
+        assert_eq!(language_code_for_input("tajik-a1"), Some("tgk-a1"));
     }
 }

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -32,6 +33,19 @@ LANGS = {
         ],
         "id_start": -200000,
         "forbidden": ["ཞེས་པའི་ཚིག", "word “", "the word"],
+    },
+    "tajik": {
+        "vocab": CORPORA / "tajik_a1_vocab.json",
+        "output": CORPORA / "tajik_a1.json",
+        "batches": [
+            GENERATED / "tajik_001_125.json",
+            GENERATED / "tajik_126_250.json",
+            GENERATED / "tajik_251_375.json",
+            GENERATED / "tajik_376_500.json",
+        ],
+        "id_start": -300000,
+        "forbidden": ["калимаи", "маънои", "word “", "the word"],
+        "standalone_target": True,
     },
 }
 
@@ -70,6 +84,12 @@ def validate_batch(lang, config, expected_vocab, batch_path):
             if word not in target:
                 errors.append(
                     f"{batch_path}: index {index} sentence {sentence_index} lacks target word {word!r}"
+                )
+            if config.get("standalone_target") and not re.search(
+                rf"(?<!\S){re.escape(word)}(?!\S)", target
+            ):
+                errors.append(
+                    f"{batch_path}: index {index} sentence {sentence_index} does not use standalone target word {word!r}"
                 )
             lower_text = text.lower()
             if any(marker in target or marker in lower_text for marker in config["forbidden"]):

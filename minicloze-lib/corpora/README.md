@@ -12,9 +12,12 @@ Files:
 - `mongolian_a1.json`: 1,500 Mongolian cloze sentences.
 - `tibetan_a1_vocab.json`: 500 Tibetan target words.
 - `tibetan_a1.json`: 1,500 Tibetan cloze sentences.
+- `tajik_a1_vocab.json`: 500 Tajik Cyrillic target words.
+- `tajik_a1.json`: 1,500 Tajik cloze sentences.
 
 Sources:
 
 - Mongolian: Multi Linguis, English-Mongolian Learner's Dictionary, Elementary Level, CC BY-SA 3.0, used as the first quality-checked A1 seed list.
 - Mongolian: https://1000mostcommonwords.com/1000-most-common-mongolian-words/, used to fill the remaining high-frequency beginner vocabulary.
 - Tibetan: https://www.small-steps-tibetan.com/first-1000-words-basic, used as the source for the 500-word Tibetan beginner vocabulary selection.
+- Tajik: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.

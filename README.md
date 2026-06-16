@@ -42,6 +42,7 @@ You can also use the one-step launcher, which runs any language or local corpus.
 ```bash
 ./learn.sh mongolian
 ./learn.sh tibetan-a1
+./learn.sh tajik-a1
 ./learn.sh tibetan-a1 inverse
 ```
 
@@ -103,6 +104,7 @@ There are also local A1 corpora with original beginner sentences:
 ```bash
 minicloze mongolian-a1
 minicloze tibetan-a1
+minicloze tajik-a1
 ```
 
 Answers can be typed either in the target script or as a Latin transliteration without diacritics. For example, Mongolian `дөрөв` can be answered as `dorov`, and Tibetan `བཀྲ་ཤིས` can be answered as `bkra shis`.

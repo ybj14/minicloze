@@ -153,11 +153,16 @@ impl Sentence {
         let halved = words.split_at(word_index);
 
         let word = remove_punctuation(&words[word_index].text);
+        let trailing = trailing_whitespace(&words[word_index].text);
 
         Prompt {
             first_half: join_prompt_token_text(halved.0),
             word,
-            second_half: join_prompt_token_text(&words[word_index + 1..]),
+            second_half: format!(
+                "{}{}",
+                trailing,
+                join_prompt_token_text(&words[word_index + 1..])
+            ),
             first_half_transliteration: join_prompt_token_transliteration(halved.0),
             word_transliteration: words[word_index]
                 .transliteration
@@ -188,6 +193,11 @@ impl Sentence {
             .copied()
             .find(|index| normalize_cloze_match(&words[*index].text) == target)
     }
+}
+
+fn trailing_whitespace(text: &str) -> &str {
+    let trimmed = text.trim_end_matches(char::is_whitespace);
+    &text[trimmed.len()..]
 }
 
 fn join_prompt_token_text(tokens: &[PromptToken]) -> String {
@@ -548,5 +558,26 @@ mod tests {
         let prompt = sentence.generate_prompt("mon", false);
 
         assert_eq!(prompt.word, "Нар");
+    }
+
+    #[test]
+    fn generate_prompt_preserves_space_after_configured_cloze_word() {
+        let sentence = Sentence {
+            id: 1,
+            text: "This is a bed.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "Ин кат аст.".to_string(),
+            }],
+            cloze_word: Some("кат".to_string()),
+            word_explanations: Vec::new(),
+            tokenized_translation: None,
+        };
+
+        let prompt = sentence.generate_prompt("tgk", false);
+
+        assert_eq!(prompt.first_half, "Ин ");
+        assert_eq!(prompt.word, "кат");
+        assert_eq!(prompt.second_half, " аст.");
     }
 }

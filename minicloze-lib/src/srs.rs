@@ -58,7 +58,7 @@ pub struct SrsSelection {
 }
 
 pub fn supports_language(language: &str) -> bool {
-    matches!(language, "mon-a1" | "bod-a1")
+    matches!(language, "mon-a1" | "bod-a1" | "tgk-a1")
 }
 
 pub fn card_key(language: &str, inverse: bool, sentence_id: i32) -> String {
