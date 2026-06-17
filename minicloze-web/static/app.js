@@ -1,3 +1,6 @@
+const DATA_VERSION = "static-data-20260617-1";
+const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
+
 const COURSES = [
   {
     code: "mon-a1",
@@ -5,9 +8,9 @@ const COURSES = [
     slug: "mongolian-a1",
     baseLanguage: "mon",
     sentenceCount: 1500,
-    corpusPath: "/data/mongolian_a1.json",
-    vocabularyPath: "/data/mongolian_a1_vocab.json",
-    explanationsPath: "/data/mongolian_a1_explanations.json",
+    corpusPath: dataPath("/data/mongolian_a1.json"),
+    vocabularyPath: dataPath("/data/mongolian_a1_vocab.json"),
+    explanationsPath: dataPath("/data/mongolian_a1_explanations.json"),
   },
   {
     code: "bod-a1",
@@ -15,10 +18,10 @@ const COURSES = [
     slug: "tibetan-a1",
     baseLanguage: "bod",
     sentenceCount: 1500,
-    corpusPath: "/data/tibetan_a1.json",
-    vocabularyPath: "/data/tibetan_a1_vocab.json",
-    explanationsPath: "/data/tibetan_a1_explanations.json",
-    tokensPath: "/data/tibetan_a1_tokens.json",
+    corpusPath: dataPath("/data/tibetan_a1.json"),
+    vocabularyPath: dataPath("/data/tibetan_a1_vocab.json"),
+    explanationsPath: dataPath("/data/tibetan_a1_explanations.json"),
+    tokensPath: dataPath("/data/tibetan_a1_tokens.json"),
   },
   {
     code: "tgk-a1",
@@ -26,9 +29,9 @@ const COURSES = [
     slug: "tajik-a1",
     baseLanguage: "tgk",
     sentenceCount: 1500,
-    corpusPath: "/data/tajik_a1.json",
-    vocabularyPath: "/data/tajik_a1_vocab.json",
-    explanationsPath: "/data/tajik_a1_explanations.json",
+    corpusPath: dataPath("/data/tajik_a1.json"),
+    vocabularyPath: dataPath("/data/tajik_a1_vocab.json"),
+    explanationsPath: dataPath("/data/tajik_a1_explanations.json"),
   },
   {
     code: "tha-a1",
@@ -36,9 +39,9 @@ const COURSES = [
     slug: "thai-a1",
     baseLanguage: "tha",
     sentenceCount: 1500,
-    corpusPath: "/data/thai_a1.json",
-    vocabularyPath: "/data/thai_a1_vocab.json",
-    explanationsPath: "/data/thai_a1_explanations.json",
+    corpusPath: dataPath("/data/thai_a1.json"),
+    vocabularyPath: dataPath("/data/thai_a1_vocab.json"),
+    explanationsPath: dataPath("/data/thai_a1_explanations.json"),
   },
 ];
 

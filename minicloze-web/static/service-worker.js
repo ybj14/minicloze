@@ -1,9 +1,9 @@
-const CACHE_NAME = "minicloze-static-pwa-v6";
+const CACHE_NAME = "minicloze-static-pwa-v7";
 const APP_SHELL = [
   "/",
   "/index.html",
   "/app.css?v=static-pwa-20260609-2",
-  "/app.js?v=static-pwa-20260616-3",
+  "/app.js?v=static-pwa-20260617-1",
   "/manifest.webmanifest",
   "/icons/icon.svg",
   "/icons/icon-192.png",
@@ -49,7 +49,7 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (url.pathname.startsWith("/data/")) {
-    event.respondWith(cacheFirst(request));
+    event.respondWith(networkFirst(request));
     return;
   }
 
@@ -65,18 +65,6 @@ async function networkFirst(request, fallbackPath) {
   } catch {
     return (await cache.match(request)) || cache.match(fallbackPath);
   }
-}
-
-async function cacheFirst(request) {
-  const cache = await caches.open(CACHE_NAME);
-  const cached = await cache.match(request);
-  if (cached) {
-    return cached;
-  }
-
-  const response = await fetch(request);
-  cache.put(request, response.clone());
-  return response;
 }
 
 async function staleWhileRevalidate(request) {
