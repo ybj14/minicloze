@@ -13,6 +13,8 @@ import json
 from dataclasses import dataclass
 from pathlib import Path
 
+from explanation_utils import write_explanations_from_corpus
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPORA = ROOT / "minicloze-lib" / "corpora"
@@ -788,26 +790,13 @@ def write_batches(batches: list[dict[str, object]]) -> None:
         write_json(batch_path, batches[start - 1 : end])
 
 
-def write_explanations(entries: list[Entry]) -> None:
-    rows = []
-    current_id = ID_START
-    for entry in entries:
-        for _ in range(3):
-            rows.append(
-                {
-                    "id": current_id,
-                    "words": [
-                        {
-                            "word": entry.word,
-                            "gloss": entry.gloss,
-                            "note": POS_NOTES[entry.pos],
-                        }
-                    ],
-                }
-            )
-            current_id -= 1
-
-    write_json(CORPORA / "tajik_a1_explanations.json", {"data": rows})
+def write_explanations() -> None:
+    write_explanations_from_corpus(
+        CORPORA / "tajik_a1.json",
+        CORPORA / "tajik_a1_vocab.json",
+        CORPORA / "tajik_a1_explanations.json",
+        "tajik",
+    )
 
 
 def validate(entries: list[Entry], batches: list[dict[str, object]]) -> None:
@@ -839,7 +828,7 @@ def main() -> None:
 
     CORPORA.mkdir(parents=True, exist_ok=True)
     write_vocab(entries)
-    write_explanations(entries)
+    write_explanations()
     if args.write_template_batches:
         batches = build_batches(entries)
         validate(entries, batches)

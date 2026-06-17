@@ -52,10 +52,12 @@ LANGS = {
         "output": CORPORA / "thai_a1.json",
         "batches": [
             GENERATED / "thai_001_125.json",
+            GENERATED / "thai_126_250.json",
+            GENERATED / "thai_251_375.json",
+            GENERATED / "thai_376_500.json",
         ],
         "id_start": -400000,
         "forbidden": ["คำว่า", "word “", "the word"],
-        "expected_count": 125,
     },
 }
 

@@ -35,7 +35,7 @@ const COURSES = [
     label: "Thai A1",
     slug: "thai-a1",
     baseLanguage: "tha",
-    sentenceCount: 375,
+    sentenceCount: 1500,
     corpusPath: "/data/thai_a1.json",
     vocabularyPath: "/data/thai_a1_vocab.json",
     explanationsPath: "/data/thai_a1_explanations.json",
