@@ -68,6 +68,9 @@ def collect_alignment_issues(
             rebuilt = "".join(str(word["word"]) for word in words)
             if rebuilt != target:
                 issues.append(f"{row_id}: Thai token rebuild mismatch")
+            for word in words:
+                if not str(word.get("paiboon") or "").strip():
+                    issues.append(f"{row_id}: missing Paiboon for {word['word']}")
     return issues
 
 

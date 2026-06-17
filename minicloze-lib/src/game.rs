@@ -39,19 +39,19 @@ pub fn check_answer(guess: &str, prompt: &Prompt, language: &str) -> AnswerCheck
 }
 
 pub fn answer_with_transliteration(prompt: &Prompt, language: &str) -> String {
-    if is_tibetan(language) {
-        if let Some(transliteration) = &prompt.word_transliteration {
-            return format!(
-                "{} ({})",
-                prompt.word.to_lowercase().trim(),
-                transliteration
-            );
-        }
+    let _ = language;
+    if let Some(transliteration) = &prompt.word_transliteration {
+        return format!(
+            "{} ({})",
+            prompt.word.to_lowercase().trim(),
+            transliteration
+        );
     }
 
     prompt.word.to_lowercase().trim().to_string()
 }
 
+#[allow(dead_code)]
 pub fn is_tibetan(language: &str) -> bool {
     local_corpora::lookup_language(language) == "bod"
 }

@@ -7,7 +7,10 @@ use serde::{Deserialize, Serialize};
 #[derive(Clone, Debug, Deserialize, Eq, PartialEq, Serialize)]
 pub(crate) struct TibetanToken {
     pub text: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
     pub wylie: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    pub paiboon: String,
 }
 
 const BOTOK_HELPER: &str = r#"
@@ -250,10 +253,12 @@ mod tests {
                 TibetanToken {
                     text: "བཀྲ་ཤིས་".to_string(),
                     wylie: "bkra shis ".to_string(),
+                    paiboon: String::new(),
                 },
                 TibetanToken {
                     text: "བདེ་ལེགས".to_string(),
                     wylie: "bde legs".to_string(),
+                    paiboon: String::new(),
                 }
             ]]
         );

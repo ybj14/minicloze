@@ -275,6 +275,15 @@ async fn data_asset(Path(file): Path<String>) -> Result<Response, AppError> {
         }
         "tibetan_a1_tokens.json" => include_str!("../static/data/tibetan_a1_tokens.json"),
         "tibetan_a1_vocab.json" => include_str!("../static/data/tibetan_a1_vocab.json"),
+        "tajik_a1.json" => include_str!("../static/data/tajik_a1.json"),
+        "tajik_a1_explanations.json" => {
+            include_str!("../static/data/tajik_a1_explanations.json")
+        }
+        "tajik_a1_vocab.json" => include_str!("../static/data/tajik_a1_vocab.json"),
+        "thai_a1.json" => include_str!("../static/data/thai_a1.json"),
+        "thai_a1_explanations.json" => include_str!("../static/data/thai_a1_explanations.json"),
+        "thai_a1_tokens.json" => include_str!("../static/data/thai_a1_tokens.json"),
+        "thai_a1_vocab.json" => include_str!("../static/data/thai_a1_vocab.json"),
         _ => return Err(AppError::not_found("Asset not found")),
     };
 

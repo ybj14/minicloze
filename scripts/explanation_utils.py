@@ -6,6 +6,11 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
+try:
+    from thai_paiboon import romanize as romanize_thai_paiboon
+except ModuleNotFoundError:  # pragma: no cover - supports package-style imports in QA snippets.
+    from scripts.thai_paiboon import romanize as romanize_thai_paiboon
+
 
 CYRILLIC_WORD = re.compile(r"[A-Za-zА-Яа-яЁёӢӣӮӯҚқҒғҲҳҶҷ'-]+")
 PUNCTUATION = ".,!?;:«»\"()[]{}“”"
@@ -41,6 +46,13 @@ def explanation(word: str, gloss: str, note: str | None = None) -> dict[str, str
     note = compact_note(note)
     if note:
         item["note"] = note
+    return item
+
+
+def add_paiboon(item: dict[str, str]) -> dict[str, str]:
+    paiboon = romanize_thai_paiboon(item.get("word", ""))
+    if paiboon.strip():
+        item["paiboon"] = paiboon
     return item
 
 
@@ -1190,9 +1202,9 @@ def explain_thai_sentence(
     for token in tokens:
         if token in lexicon:
             item = lexicon[token]
-            explanations.append(explanation(token, item["gloss"], item.get("note")))
+            explanations.append(add_paiboon(explanation(token, item["gloss"], item.get("note"))))
         else:
-            explanations.append(explanation(token, token, UNKNOWN_NOTE))
+            explanations.append(add_paiboon(explanation(token, token, UNKNOWN_NOTE)))
     return explanations
 
 

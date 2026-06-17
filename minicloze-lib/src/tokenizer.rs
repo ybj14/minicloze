@@ -40,6 +40,7 @@ pub fn prepare_sentences(
                     .map(|text| TibetanToken {
                         text,
                         wylie: String::new(),
+                        paiboon: String::new(),
                     })
                     .collect()
             })

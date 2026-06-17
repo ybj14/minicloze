@@ -9,6 +9,8 @@ from pathlib import Path
 
 import pyewts
 
+from thai_paiboon import romanize as romanize_thai_paiboon
+
 
 ROOT = Path(__file__).resolve().parents[1]
 STATIC_DATA = ROOT / "minicloze-web" / "static" / "data"
@@ -91,6 +93,26 @@ def build_tibetan_tokens() -> None:
     )
 
 
+def build_thai_tokens() -> None:
+    explanations_path = STATIC_DATA / "thai_a1_explanations.json"
+    output_path = STATIC_DATA / "thai_a1_tokens.json"
+    explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
+    tokenized: dict[str, list[dict[str, str]]] = {}
+
+    for sentence in explanations["data"]:
+        tokens = []
+        for word in sentence.get("words", []):
+            text = word.get("word", "")
+            paiboon = word.get("paiboon") or romanize_thai_paiboon(text)
+            tokens.append({"text": text, "paiboon": paiboon})
+        tokenized[str(sentence["id"])] = tokens
+
+    output_path.write_text(
+        json.dumps(tokenized, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def copy_base_data() -> None:
     STATIC_DATA.mkdir(parents=True, exist_ok=True)
     for filename in SOURCE_FILES:
@@ -115,10 +137,28 @@ def enrich_tibetan_explanations() -> None:
     )
 
 
+def enrich_thai_explanations() -> None:
+    path = STATIC_DATA / "thai_a1_explanations.json"
+    explanations = json.loads(path.read_text(encoding="utf-8"))
+
+    for sentence in explanations["data"]:
+        for word in sentence.get("words", []):
+            paiboon = word.get("paiboon") or romanize_thai_paiboon(word.get("word", ""))
+            if paiboon.strip():
+                word["paiboon"] = paiboon
+
+    path.write_text(
+        json.dumps(explanations, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     copy_base_data()
     build_tibetan_tokens()
     enrich_tibetan_explanations()
+    enrich_thai_explanations()
+    build_thai_tokens()
 
 
 if __name__ == "__main__":

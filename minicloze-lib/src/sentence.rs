@@ -43,6 +43,8 @@ pub struct WordExplanation {
     pub note: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub wylie: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub paiboon: Option<String>,
 }
 
 #[derive(Clone)]
@@ -108,10 +110,12 @@ impl Sentence {
                     .iter()
                     .map(|token| PromptToken {
                         text: token.text.clone(),
-                        transliteration: if token.wylie.trim().is_empty() {
-                            None
-                        } else {
+                        transliteration: if !token.wylie.trim().is_empty() {
                             Some(token.wylie.clone())
+                        } else if !token.paiboon.trim().is_empty() {
+                            Some(token.paiboon.clone())
+                        } else {
+                            None
                         },
                     })
                     .collect();
@@ -208,15 +212,17 @@ fn join_prompt_token_text(tokens: &[PromptToken]) -> String {
 }
 
 fn join_prompt_token_transliteration(tokens: &[PromptToken]) -> Option<String> {
-    let transliteration = tokens
+    let parts = tokens
         .iter()
         .filter_map(|token| token.transliteration.as_deref())
-        .collect::<String>();
+        .map(str::trim)
+        .filter(|token| !token.is_empty())
+        .collect::<Vec<_>>();
 
-    if transliteration.trim().is_empty() {
+    if parts.is_empty() {
         None
     } else {
-        Some(transliteration)
+        Some(parts.join(" "))
     }
 }
 
@@ -299,7 +305,9 @@ pub fn prepare_local_sentences(
     } else if corpus.base_language == "bod" {
         ensure_local_tibetan_cloze_targets(sentences);
     }
-    if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
+    if corpus.base_language == "tha" {
+        prepare_local_explanation_tokens(sentences);
+    } else if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
         prepare_local_non_spaced_target_tokens(corpus.base_language, sentences);
     }
 
@@ -440,6 +448,24 @@ fn prepare_local_non_spaced_target_tokens(language: &str, sentences: &mut [Sente
     }
 }
 
+fn prepare_local_explanation_tokens(sentences: &mut [Sentence]) {
+    for sentence in sentences {
+        if sentence.word_explanations.is_empty() {
+            continue;
+        }
+        let tokens = sentence
+            .word_explanations
+            .iter()
+            .map(|explanation| TibetanToken {
+                text: explanation.word.clone(),
+                wylie: explanation.wylie.clone().unwrap_or_default(),
+                paiboon: explanation.paiboon.clone().unwrap_or_default(),
+            })
+            .collect::<Vec<_>>();
+        sentence.set_tokenized_translation(tokens);
+    }
+}
+
 fn tokenize_non_spaced_with_target(language: &str, text: &str, target: &str) -> Vec<TibetanToken> {
     let Some(index) = text.find(target) else {
         return tokens_without_wylie(tokenizer::tokenize_prompt_text(language, text));
@@ -467,6 +493,7 @@ fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
                 .and_then(|items| items.get(index))
                 .cloned()
                 .unwrap_or_default(),
+            paiboon: String::new(),
         })
         .collect()
 }
@@ -477,6 +504,7 @@ fn tokens_without_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
         .map(|text| TibetanToken {
             text,
             wylie: String::new(),
+            paiboon: String::new(),
         })
         .collect()
 }
@@ -486,6 +514,7 @@ fn tibetan_token_without_wylie(text: String) -> TibetanToken {
     TibetanToken {
         text,
         wylie: String::new(),
+        paiboon: String::new(),
     }
 }
 
@@ -551,14 +580,17 @@ mod tests {
             TibetanToken {
                 text: "ཞོགས་པ་".to_string(),
                 wylie: "zhogs pa ".to_string(),
+                paiboon: String::new(),
             },
             TibetanToken {
                 text: "བདེ་ལེགས".to_string(),
                 wylie: "bde legs".to_string(),
+                paiboon: String::new(),
             },
             TibetanToken {
                 text: "།".to_string(),
                 wylie: "/".to_string(),
+                paiboon: String::new(),
             },
         ]);
 
@@ -644,5 +676,53 @@ mod tests {
         assert_eq!(prompt.first_half, "ฉันดื่ม");
         assert_eq!(prompt.word, "น้ำ");
         assert_eq!(prompt.second_half, "");
+    }
+
+    #[test]
+    fn local_thai_explanation_tokens_provide_paiboon() {
+        let mut sentences = vec![Sentence {
+            id: 1,
+            text: "I drink water.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "ฉันดื่มน้ำ".to_string(),
+            }],
+            cloze_word: Some("น้ำ".to_string()),
+            word_explanations: vec![
+                WordExplanation {
+                    word: "ฉัน".to_string(),
+                    gloss: "I".to_string(),
+                    note: None,
+                    wylie: None,
+                    paiboon: Some("chǎn".to_string()),
+                },
+                WordExplanation {
+                    word: "ดื่ม".to_string(),
+                    gloss: "drink".to_string(),
+                    note: None,
+                    wylie: None,
+                    paiboon: Some("dʉ̀ʉm".to_string()),
+                },
+                WordExplanation {
+                    word: "น้ำ".to_string(),
+                    gloss: "water".to_string(),
+                    note: None,
+                    wylie: None,
+                    paiboon: Some("náam".to_string()),
+                },
+            ],
+            tokenized_translation: None,
+        }];
+
+        prepare_local_explanation_tokens(&mut sentences);
+        let prompt = sentences[0].generate_prompt("tha", false);
+
+        assert_eq!(prompt.first_half, "ฉันดื่ม");
+        assert_eq!(prompt.word, "น้ำ");
+        assert_eq!(prompt.word_transliteration, Some("náam".to_string()));
+        assert_eq!(
+            prompt.first_half_transliteration,
+            Some("chǎn dʉ̀ʉm".to_string())
+        );
     }
 }

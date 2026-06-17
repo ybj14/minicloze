@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260617-1";
+const DATA_VERSION = "static-data-20260617-2";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -42,6 +42,7 @@ const COURSES = [
     corpusPath: dataPath("/data/thai_a1.json"),
     vocabularyPath: dataPath("/data/thai_a1_vocab.json"),
     explanationsPath: dataPath("/data/thai_a1_explanations.json"),
+    tokensPath: dataPath("/data/thai_a1_tokens.json"),
   },
 ];
 
@@ -618,14 +619,15 @@ function promptTokens(sentence, course, inverse) {
     }));
   }
 
+  const tokens = course.tokensById.get(String(sentence.id));
+  if (tokens) {
+    return tokens.map((token) => ({
+      text: token.text,
+      transliteration: tokenTransliteration(token),
+    }));
+  }
+
   if (course.baseLanguage === "bod") {
-    const tokens = course.tokensById.get(String(sentence.id));
-    if (tokens) {
-      return tokens.map((token) => ({
-        text: token.text,
-        transliteration: token.wylie && token.wylie.trim() ? token.wylie : null,
-      }));
-    }
     return tokenizeTibetanWithTarget(
       firstTranslationText(sentence),
       sentence.cloze_word,
@@ -643,6 +645,11 @@ function promptTokens(sentence, course, inverse) {
   return tokenizePromptText(course.baseLanguage, firstTranslationText(sentence)).map(
     (text) => ({ text, transliteration: null }),
   );
+}
+
+function tokenTransliteration(token) {
+  const value = token.wylie || token.paiboon || token.transliteration || "";
+  return value.trim() ? value : null;
 }
 
 function preferredClozeIndex(sentence, words, candidates, inverse) {
@@ -734,10 +741,11 @@ function joinPromptTokenText(tokens) {
 }
 
 function joinPromptTokenTransliteration(tokens) {
-  const transliteration = tokens
+  const parts = tokens
     .map((token) => token.transliteration || "")
-    .join("");
-  return transliteration.trim() ? transliteration : null;
+    .map((token) => token.trim())
+    .filter(Boolean);
+  return parts.length ? parts.join(" ") : null;
 }
 
 function cardView(round, card, index) {
@@ -806,7 +814,7 @@ function checkAnswer(guess, prompt, course) {
 }
 
 function answerWithTransliteration(prompt, course) {
-  if (course.baseLanguage === "bod" && prompt.wordTransliteration) {
+  if (prompt.wordTransliteration) {
     return `${prompt.word.toLowerCase().trim()} (${prompt.wordTransliteration})`;
   }
   return prompt.word.toLowerCase().trim();
@@ -960,11 +968,13 @@ function renderWordExplanations(explanations) {
   for (const explanation of explanations) {
     const term = document.createElement("dt");
     term.append(document.createTextNode(explanation.word));
-    if (explanation.wylie) {
-      const wylie = document.createElement("span");
-      wylie.className = "word-explanations-wylie";
-      wylie.textContent = explanation.wylie;
-      term.append(wylie);
+    const transliteration =
+      explanation.wylie || explanation.paiboon || explanation.transliteration;
+    if (transliteration) {
+      const transliterationElement = document.createElement("span");
+      transliterationElement.className = "word-explanations-transliteration";
+      transliterationElement.textContent = transliteration;
+      term.append(transliterationElement);
     }
 
     const definition = document.createElement("dd");
