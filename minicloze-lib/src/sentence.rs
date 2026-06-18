@@ -359,10 +359,13 @@ pub fn prepare_local_sentences(
         || corpus.base_language == "mya"
         || corpus.base_language == "khm"
         || corpus.base_language == "amh"
+        || corpus.base_language == "hye"
     {
         prepare_local_explanation_tokens(
             sentences,
-            corpus.base_language == "mya" || corpus.base_language == "amh",
+            corpus.base_language == "mya"
+                || corpus.base_language == "amh"
+                || corpus.base_language == "hye",
         );
     } else if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
         prepare_local_non_spaced_target_tokens(corpus.base_language, sentences);
@@ -416,7 +419,7 @@ pub fn remove_punctuation(word: &str) -> String {
     let cleaned = word.replace(
         &[
             '(', ')', ',', '.', ';', ':', '?', '¿', '!', '¡', '"', '«', '»', '。', '།', '༎', '༏',
-            '༐', '༑', '༔', '።', '፣', '፤', '፥', '፦', '፧',
+            '༐', '༑', '༔', '።', '፣', '፤', '፥', '፦', '፧', '։', '՞', '՜', '՛', '՝',
         ][..],
         "",
     );
@@ -1074,6 +1077,66 @@ mod tests {
         assert_eq!(prompt.word, "ውሃ");
         assert_eq!(prompt.word_transliteration, Some("wha".to_string()));
         assert_eq!(prompt.first_half_transliteration, Some("enE".to_string()));
+    }
+
+    #[test]
+    fn local_armenian_explanation_tokens_provide_transliteration() {
+        let mut sentences = vec![Sentence {
+            id: 1,
+            text: "I drink water.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "ես ջուր խմում եմ։".to_string(),
+            }],
+            cloze_word: Some("ջուր".to_string()),
+            word_explanations: vec![
+                WordExplanation {
+                    word: "ես".to_string(),
+                    gloss: "I".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: None,
+                    okell: None,
+                    transliteration: Some("es".to_string()),
+                    transcription: None,
+                },
+                WordExplanation {
+                    word: "ջուր".to_string(),
+                    gloss: "water".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: None,
+                    okell: None,
+                    transliteration: Some("jur".to_string()),
+                    transcription: None,
+                },
+                WordExplanation {
+                    word: "խմում եմ".to_string(),
+                    gloss: "I drink".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: None,
+                    okell: None,
+                    transliteration: Some("khmum em".to_string()),
+                    transcription: None,
+                },
+            ],
+            tokenized_translation: None,
+        }];
+
+        prepare_local_explanation_tokens(&mut sentences, true);
+        let prompt = sentences[0].generate_prompt("hye", false);
+
+        assert_eq!(prompt.first_half, "ես ");
+        assert_eq!(prompt.word, "ջուր");
+        assert_eq!(prompt.word_transliteration, Some("jur".to_string()));
+        assert_eq!(prompt.first_half_transliteration, Some("es".to_string()));
     }
 
     #[test]

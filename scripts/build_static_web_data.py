@@ -11,6 +11,7 @@ from pathlib import Path
 import pyewts
 
 from amharic_transliteration import romanize as romanize_amharic
+from armenian_transliteration import romanize as romanize_armenian
 from burmese_okell import romanize as romanize_burmese_okell
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
@@ -37,6 +38,8 @@ COURSE_PREFIXES = [
     "khmer_swadesh",
     "amharic_a1",
     "amharic_swadesh",
+    "armenian_a1",
+    "armenian_swadesh",
 ]
 SOURCE_FILES = [
     filename
@@ -48,6 +51,7 @@ THAI_COURSES = ["thai_a1", "thai_swadesh"]
 BURMESE_COURSES = ["burmese_a1", "burmese_swadesh"]
 KHMER_COURSES = ["khmer_a1", "khmer_swadesh"]
 AMHARIC_COURSES = ["amharic_a1", "amharic_swadesh"]
+ARMENIAN_COURSES = ["armenian_a1", "armenian_swadesh"]
 
 
 def tokenize_syllables(text: str) -> list[str]:
@@ -261,6 +265,32 @@ def build_amharic_tokens(course: str) -> None:
     )
 
 
+def build_armenian_tokens(course: str) -> None:
+    explanations_path = STATIC_DATA / f"{course}_explanations.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
+    explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
+    tokenized: dict[str, list[dict[str, str]]] = {}
+
+    for sentence in explanations["data"]:
+        tokens = []
+        words = sentence.get("words", [])
+        for index, word in enumerate(words):
+            text = word.get("word", "")
+            if index + 1 < len(words):
+                text = f"{text} "
+            token = {"text": text}
+            transliteration = word.get("transliteration") or romanize_armenian(word.get("word", ""))
+            if transliteration.strip():
+                token["transliteration"] = transliteration
+            tokens.append(token)
+        tokenized[str(sentence["id"])] = tokens
+
+    output_path.write_text(
+        json.dumps(tokenized, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def copy_base_data() -> None:
     STATIC_DATA.mkdir(parents=True, exist_ok=True)
     for filename in SOURCE_FILES:
@@ -367,6 +397,22 @@ def enrich_amharic_explanations(course: str) -> None:
     )
 
 
+def enrich_armenian_explanations(course: str) -> None:
+    path = STATIC_DATA / f"{course}_explanations.json"
+    explanations = json.loads(path.read_text(encoding="utf-8"))
+
+    for sentence in explanations["data"]:
+        for word in sentence.get("words", []):
+            transliteration = word.get("transliteration") or romanize_armenian(word.get("word", ""))
+            if transliteration.strip():
+                word["transliteration"] = transliteration
+
+    path.write_text(
+        json.dumps(explanations, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     copy_base_data()
     for course in TIBETAN_COURSES:
@@ -384,6 +430,9 @@ def main() -> None:
     for course in AMHARIC_COURSES:
         enrich_amharic_explanations(course)
         build_amharic_tokens(course)
+    for course in ARMENIAN_COURSES:
+        enrich_armenian_explanations(course)
+        build_armenian_tokens(course)
 
 
 if __name__ == "__main__":

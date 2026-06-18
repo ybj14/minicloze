@@ -74,6 +74,8 @@ pub fn supports_language(language: &str) -> bool {
             | "khm-swadesh"
             | "amh-a1"
             | "amh-swadesh"
+            | "hye-a1"
+            | "hye-swadesh"
     )
 }
 

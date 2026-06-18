@@ -1,9 +1,9 @@
-const CACHE_NAME = "minicloze-static-pwa-v16";
+const CACHE_NAME = "minicloze-static-pwa-v17";
 const APP_SHELL = [
   "/",
   "/index.html",
-  "/app.css?v=static-pwa-20260618-7",
-  "/app.js?v=static-pwa-20260618-7",
+  "/app.css?v=static-pwa-20260618-8",
+  "/app.js?v=static-pwa-20260618-8",
   "/manifest.webmanifest",
   "/icons/icon.svg",
   "/icons/icon-192.png",

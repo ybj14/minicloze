@@ -42,6 +42,12 @@ Files:
 - `amharic_swadesh_vocab.json`: 207 Amharic Swadesh target words.
 - `amharic_swadesh.json`: 621 Amharic Swadesh cloze sentences.
 - `amharic_swadesh_explanations.json`: full-sentence Amharic Swadesh word explanations with SERA-style transliteration.
+- `armenian_a1_vocab.json`: 500 Armenian target words.
+- `armenian_a1.json`: 1,500 Armenian cloze sentences.
+- `armenian_a1_explanations.json`: full-sentence Armenian word explanations with ASCII transliteration.
+- `armenian_swadesh_vocab.json`: 207 Armenian Swadesh target words.
+- `armenian_swadesh.json`: 621 Armenian Swadesh cloze sentences.
+- `armenian_swadesh_explanations.json`: full-sentence Armenian Swadesh word explanations with ASCII transliteration.
 
 Sources:
 
@@ -53,4 +59,5 @@ Sources:
 - Burmese: Codex-authored beginner A1 course material, split into reviewed batch files before merge.
 - Khmer: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
 - Amharic: Codex-curated beginner A1 seed list, combined with Amharic Swadesh seed items, used for selecting target words and English glosses.
-- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, Burmese, Khmer, and Amharic, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.
+- Armenian: Codex-curated beginner A1 seed list, combined with Eastern Armenian Swadesh seed items, used for selecting target words and English glosses.
+- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, Burmese, Khmer, Amharic, and Eastern Armenian, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.

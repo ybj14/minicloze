@@ -19,6 +19,8 @@ pub fn normalize_language_input(input: &str) -> String {
         "khmer-swadesh" | "cambodian-swadesh" | "khm-swadesh" => "Khmer Swadesh".to_string(),
         "amharic-a1" | "amh-a1" => "Amharic A1".to_string(),
         "amharic-swadesh" | "amh-swadesh" => "Amharic Swadesh".to_string(),
+        "armenian-a1" | "hye-a1" => "Armenian A1".to_string(),
+        "armenian-swadesh" | "hye-swadesh" => "Armenian Swadesh".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -47,6 +49,10 @@ pub fn normalize_language_input(input: &str) -> String {
             format!("Amharic A{}", &lower["amharic-a".len()..])
         }
         _ if lower.starts_with("amh-a") => format!("Amharic A{}", &lower["amh-a".len()..]),
+        _ if lower.starts_with("armenian-a") => {
+            format!("Armenian A{}", &lower["armenian-a".len()..])
+        }
+        _ if lower.starts_with("hye-a") => format!("Armenian A{}", &lower["hye-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -239,6 +245,8 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Xiang Chinese", "hsn"),
         ("Hungarian", "hun"),
         ("Armenian", "hye"),
+        ("Armenian A1", "hye-a1"),
+        ("Armenian Swadesh", "hye-swadesh"),
         ("Iban", "iba"),
         ("Igbo", "ibo"),
         ("Ido", "ido"),
