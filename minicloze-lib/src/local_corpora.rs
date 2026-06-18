@@ -84,7 +84,7 @@ pub fn attach_word_explanations(language: &str, sentences: &mut [Sentence]) -> R
 
     for sentence in sentences {
         if let Some(mut explanations) = by_id.remove(&sentence.id()) {
-            add_wylie_to_explanations(language, &mut explanations);
+            add_tibetan_transliterations_to_explanations(language, &mut explanations);
             sentence.set_word_explanations(explanations);
         }
     }
@@ -92,11 +92,19 @@ pub fn attach_word_explanations(language: &str, sentences: &mut [Sentence]) -> R
     Ok(())
 }
 
-fn add_wylie_to_explanations(language: &str, explanations: &mut [WordExplanation]) {
+fn add_tibetan_transliterations_to_explanations(
+    language: &str,
+    explanations: &mut [WordExplanation],
+) {
     if lookup_language(language) != "bod" {
         return;
     }
 
+    add_wylie_to_explanations(explanations);
+    add_thl_to_explanations(explanations);
+}
+
+fn add_wylie_to_explanations(explanations: &mut [WordExplanation]) {
     let indices = explanations
         .iter()
         .enumerate()
@@ -122,6 +130,36 @@ fn add_wylie_to_explanations(language: &str, explanations: &mut [WordExplanation
         let wylie = remove_transliteration_punctuation(&wylie);
         if !wylie.is_empty() {
             explanations[index].wylie = Some(wylie);
+        }
+    }
+}
+
+fn add_thl_to_explanations(explanations: &mut [WordExplanation]) {
+    let indices = explanations
+        .iter()
+        .enumerate()
+        .filter_map(|(index, explanation)| {
+            explanation
+                .thl
+                .as_ref()
+                .map(|thl| thl.trim().is_empty())
+                .unwrap_or(true)
+                .then_some(index)
+        })
+        .collect::<Vec<_>>();
+    let words = indices
+        .iter()
+        .map(|index| explanations[*index].word.as_str())
+        .collect::<Vec<_>>();
+
+    let Ok(thls) = tibetan::transliterate_batch_to_thl(&words) else {
+        return;
+    };
+
+    for (index, thl) in indices.into_iter().zip(thls) {
+        let thl = remove_transliteration_punctuation(&thl);
+        if !thl.is_empty() {
+            explanations[index].thl = Some(thl);
         }
     }
 }

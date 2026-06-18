@@ -10,6 +10,8 @@ pub(crate) struct TibetanToken {
     #[serde(default, skip_serializing_if = "String::is_empty")]
     pub wylie: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
+    pub thl: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
     pub paiboon: String,
 }
 
@@ -92,6 +94,18 @@ converter = pyewts.pyewts()
 json.dump([converter.toWylie(text) for text in texts], sys.stdout, ensure_ascii=False)
 "#;
 
+const THL_HELPER: &str = r#"
+import { readFileSync } from "node:fs";
+import { get_phonetics } from "tibetan-ewts-converter";
+
+const texts = JSON.parse(readFileSync(0, "utf8"));
+const phonetics = get_phonetics({ style: "thl", lang: "en" });
+const output = texts.map((text) =>
+  phonetics.phonetics(String(text || ""), { autosplit: true }).trim(),
+);
+process.stdout.write(JSON.stringify(output));
+"#;
+
 pub fn tokenize_batch_with_botok(
     texts: &[&str],
 ) -> Result<Vec<Vec<TibetanToken>>, Box<dyn Error + Send + Sync>> {
@@ -133,7 +147,7 @@ pub fn tokenize_batch_with_botok(
         .into());
     }
 
-    let tokenized = parse_botok_output(&output.stdout)?;
+    let mut tokenized = parse_botok_output(&output.stdout)?;
     if tokenized.len() != texts.len() {
         return Err(IoError::new(
             ErrorKind::InvalidData,
@@ -146,6 +160,7 @@ pub fn tokenize_batch_with_botok(
         .into());
     }
 
+    add_thl_to_tokens(&mut tokenized);
     Ok(tokenized)
 }
 
@@ -206,6 +221,85 @@ pub(crate) fn transliterate_batch_to_wylie(
     Ok(transliterated)
 }
 
+pub(crate) fn transliterate_batch_to_thl(
+    texts: &[&str],
+) -> Result<Vec<String>, Box<dyn Error + Send + Sync>> {
+    let node = std::env::var("MINICLOZE_NODE").unwrap_or_else(|_| "node".to_string());
+    let input = serde_json::to_vec(texts)?;
+
+    let mut child = Command::new(&node)
+        .arg("--input-type=module")
+        .arg("-e")
+        .arg(THL_HELPER)
+        .stdin(Stdio::piped())
+        .stdout(Stdio::piped())
+        .stderr(Stdio::piped())
+        .spawn()
+        .map_err(|err| {
+            IoError::new(
+                err.kind(),
+                format!(
+                    "failed to start {node} for Tibetan THL transliteration; install Node.js and run npm install, or set MINICLOZE_NODE: {err}"
+                ),
+            )
+        })?;
+
+    let mut stdin = child.stdin.take().ok_or_else(|| {
+        IoError::new(
+            ErrorKind::BrokenPipe,
+            "failed to open stdin for Tibetan THL transliteration",
+        )
+    })?;
+    stdin.write_all(&input)?;
+    drop(stdin);
+
+    let output = child.wait_with_output()?;
+    if !output.status.success() {
+        let stderr = String::from_utf8_lossy(&output.stderr);
+        return Err(IoError::new(
+            ErrorKind::Other,
+            format!("Tibetan THL transliteration failed: {}", stderr.trim()),
+        )
+        .into());
+    }
+
+    let transliterated = serde_json::from_slice::<Vec<String>>(&output.stdout)?;
+    if transliterated.len() != texts.len() {
+        return Err(IoError::new(
+            ErrorKind::InvalidData,
+            format!(
+                "THL converter returned {} transliterations for {} inputs",
+                transliterated.len(),
+                texts.len()
+            ),
+        )
+        .into());
+    }
+
+    Ok(transliterated)
+}
+
+fn add_thl_to_tokens(tokenized: &mut [Vec<TibetanToken>]) {
+    let texts = tokenized
+        .iter()
+        .flat_map(|tokens| tokens.iter())
+        .map(|token| token.text.as_str())
+        .collect::<Vec<_>>();
+    let Ok(thls) = transliterate_batch_to_thl(&texts) else {
+        return;
+    };
+
+    for (token, thl) in tokenized
+        .iter_mut()
+        .flat_map(|tokens| tokens.iter_mut())
+        .zip(thls)
+    {
+        if !thl.trim().is_empty() {
+            token.thl = thl;
+        }
+    }
+}
+
 pub fn tokenize_syllables(text: &str) -> Vec<String> {
     let mut tokens = Vec::new();
     let mut current = String::new();
@@ -244,8 +338,7 @@ mod tests {
 
     #[test]
     fn parses_botok_json_output() {
-        let output =
-            r#"[[{"text":"བཀྲ་ཤིས་","wylie":"bkra shis "},{"text":"བདེ་ལེགས","wylie":"bde legs"}]]"#;
+        let output = r#"[[{"text":"བཀྲ་ཤིས་","wylie":"bkra shis ","thl":"tra shi"},{"text":"བདེ་ལེགས","wylie":"bde legs","thl":"dé lek"}]]"#;
 
         assert_eq!(
             parse_botok_output(output.as_bytes()).unwrap(),
@@ -253,11 +346,13 @@ mod tests {
                 TibetanToken {
                     text: "བཀྲ་ཤིས་".to_string(),
                     wylie: "bkra shis ".to_string(),
+                    thl: "tra shi".to_string(),
                     paiboon: String::new(),
                 },
                 TibetanToken {
                     text: "བདེ་ལེགས".to_string(),
                     wylie: "bde legs".to_string(),
+                    thl: "dé lek".to_string(),
                     paiboon: String::new(),
                 }
             ]]

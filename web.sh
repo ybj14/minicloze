@@ -8,7 +8,7 @@ usage() {
     cat >&2 <<'EOF'
 Usage: ./web.sh
 
-Starts the local minicloze web app with Tibetan Botok/pyewts support enabled.
+Starts the local minicloze web app with Tibetan Botok/pyewts/THL support enabled.
 
 Optional environment variables:
   MINICLOZE_WEB_ADDR=127.0.0.1:4000
@@ -29,5 +29,5 @@ fi
 cd "$ROOT_DIR"
 ensure_tibetan_python
 
-echo "Starting minicloze-web with Tibetan Wylie support..."
+echo "Starting minicloze-web with Tibetan Wylie/THL support..."
 exec cargo run --quiet -p minicloze-web -- "$@"

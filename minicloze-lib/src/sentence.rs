@@ -44,6 +44,8 @@ pub struct WordExplanation {
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub wylie: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub thl: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
     pub paiboon: Option<String>,
 }
 
@@ -55,12 +57,14 @@ pub struct Prompt {
     pub first_half_transliteration: Option<String>,
     pub word_transliteration: Option<String>,
     pub second_half_transliteration: Option<String>,
+    pub word_answer_transliterations: Vec<String>,
 }
 
 #[derive(Clone)]
 struct PromptToken {
     text: String,
     transliteration: Option<String>,
+    answer_transliterations: Vec<String>,
 }
 
 impl Sentence {
@@ -110,13 +114,8 @@ impl Sentence {
                     .iter()
                     .map(|token| PromptToken {
                         text: token.text.clone(),
-                        transliteration: if !token.wylie.trim().is_empty() {
-                            Some(token.wylie.clone())
-                        } else if !token.paiboon.trim().is_empty() {
-                            Some(token.paiboon.clone())
-                        } else {
-                            None
-                        },
+                        transliteration: token_preferred_transliteration(token),
+                        answer_transliterations: token_answer_transliterations(token),
                     })
                     .collect();
             }
@@ -127,6 +126,7 @@ impl Sentence {
             .map(|text| PromptToken {
                 text,
                 transliteration: None,
+                answer_transliterations: Vec::new(),
             })
             .collect()
     }
@@ -176,6 +176,7 @@ impl Sentence {
             second_half_transliteration: join_prompt_token_transliteration(
                 &words[word_index + 1..],
             ),
+            word_answer_transliterations: words[word_index].answer_transliterations.clone(),
         }
     }
 
@@ -196,6 +197,30 @@ impl Sentence {
             .iter()
             .copied()
             .find(|index| normalize_cloze_match(&words[*index].text) == target)
+    }
+}
+
+fn token_preferred_transliteration(token: &TibetanToken) -> Option<String> {
+    [&token.thl, &token.paiboon, &token.wylie]
+        .into_iter()
+        .find_map(|value| {
+            let value = value.trim();
+            (!value.is_empty()).then(|| value.to_string())
+        })
+}
+
+fn token_answer_transliterations(token: &TibetanToken) -> Vec<String> {
+    let mut values = Vec::new();
+    push_unique_transliteration(&mut values, &token.thl);
+    push_unique_transliteration(&mut values, &token.wylie);
+    push_unique_transliteration(&mut values, &token.paiboon);
+    values
+}
+
+fn push_unique_transliteration(values: &mut Vec<String>, value: &str) {
+    let value = remove_transliteration_punctuation(value);
+    if !value.is_empty() && !values.iter().any(|existing| existing == &value) {
+        values.push(value);
     }
 }
 
@@ -459,6 +484,7 @@ fn prepare_local_explanation_tokens(sentences: &mut [Sentence]) {
             .map(|explanation| TibetanToken {
                 text: explanation.word.clone(),
                 wylie: explanation.wylie.clone().unwrap_or_default(),
+                thl: explanation.thl.clone().unwrap_or_default(),
                 paiboon: explanation.paiboon.clone().unwrap_or_default(),
             })
             .collect::<Vec<_>>();
@@ -482,6 +508,7 @@ fn tokenize_non_spaced_with_target(language: &str, text: &str, target: &str) -> 
 fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
     let text_refs = texts.iter().map(String::as_str).collect::<Vec<_>>();
     let wylies = tibetan::transliterate_batch_to_wylie(&text_refs).ok();
+    let thls = tibetan::transliterate_batch_to_thl(&text_refs).ok();
 
     texts
         .into_iter()
@@ -489,6 +516,11 @@ fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
         .map(|(index, text)| TibetanToken {
             text,
             wylie: wylies
+                .as_ref()
+                .and_then(|items| items.get(index))
+                .cloned()
+                .unwrap_or_default(),
+            thl: thls
                 .as_ref()
                 .and_then(|items| items.get(index))
                 .cloned()
@@ -504,6 +536,7 @@ fn tokens_without_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
         .map(|text| TibetanToken {
             text,
             wylie: String::new(),
+            thl: String::new(),
             paiboon: String::new(),
         })
         .collect()
@@ -514,6 +547,7 @@ fn tibetan_token_without_wylie(text: String) -> TibetanToken {
     TibetanToken {
         text,
         wylie: String::new(),
+        thl: String::new(),
         paiboon: String::new(),
     }
 }
@@ -580,16 +614,19 @@ mod tests {
             TibetanToken {
                 text: "ཞོགས་པ་".to_string(),
                 wylie: "zhogs pa ".to_string(),
+                thl: "zhok pa".to_string(),
                 paiboon: String::new(),
             },
             TibetanToken {
                 text: "བདེ་ལེགས".to_string(),
                 wylie: "bde legs".to_string(),
+                thl: "dé lek".to_string(),
                 paiboon: String::new(),
             },
             TibetanToken {
                 text: "།".to_string(),
                 wylie: "/".to_string(),
+                thl: String::new(),
                 paiboon: String::new(),
             },
         ]);
@@ -600,9 +637,13 @@ mod tests {
             assert_ne!(prompt.word, "ཞོགས་པ་བདེ་ལེགས");
             assert!(prompt.word == "ཞོགས་པ" || prompt.word == "བདེ་ལེགས");
             assert!(
-                prompt.word_transliteration == Some("zhogs pa".to_string())
-                    || prompt.word_transliteration == Some("bde legs".to_string())
+                prompt.word_transliteration == Some("zhok pa".to_string())
+                    || prompt.word_transliteration == Some("dé lek".to_string())
             );
+            assert!(prompt
+                .word_answer_transliterations
+                .iter()
+                .any(|item| item == "zhogs pa" || item == "bde legs"));
         }
     }
 
@@ -694,6 +735,7 @@ mod tests {
                     gloss: "I".to_string(),
                     note: None,
                     wylie: None,
+                    thl: None,
                     paiboon: Some("chǎn".to_string()),
                 },
                 WordExplanation {
@@ -701,6 +743,7 @@ mod tests {
                     gloss: "drink".to_string(),
                     note: None,
                     wylie: None,
+                    thl: None,
                     paiboon: Some("dʉ̀ʉm".to_string()),
                 },
                 WordExplanation {
@@ -708,6 +751,7 @@ mod tests {
                     gloss: "water".to_string(),
                     note: None,
                     wylie: None,
+                    thl: None,
                     paiboon: Some("náam".to_string()),
                 },
             ],

@@ -282,7 +282,7 @@ async fn start_game(
 
             if is_tibetan(&language) && prompt.word_transliteration.is_some() {
                 println!(
-                    "{style_bold}WYL:{style_reset} {}",
+                    "{style_bold}THL:{style_reset} {}",
                     format_transliteration_cloze(
                         prompt.first_half_transliteration.as_deref().unwrap_or(""),
                         &transliteration_underscores_num,
@@ -445,11 +445,25 @@ fn print_word_explanations(sentence: &Sentence) {
 
     println!("{style_bold}Words:{style_reset}");
     for explanation in &sentence.word_explanations {
-        let word = match explanation.wylie.as_deref() {
-            Some(wylie) if !wylie.trim().is_empty() => {
-                format!("{} ({})", explanation.word, wylie)
-            }
-            _ => explanation.word.clone(),
+        let mut helpers = Vec::new();
+        if let Some(wylie) = explanation
+            .wylie
+            .as_deref()
+            .filter(|value| !value.trim().is_empty())
+        {
+            helpers.push(format!("Wylie: {wylie}"));
+        }
+        if let Some(thl) = explanation
+            .thl
+            .as_deref()
+            .filter(|value| !value.trim().is_empty())
+        {
+            helpers.push(format!("THL: {thl}"));
+        }
+        let word = if helpers.is_empty() {
+            explanation.word.clone()
+        } else {
+            format!("{} ({})", explanation.word, helpers.join("; "))
         };
 
         match explanation.note.as_deref() {
@@ -473,6 +487,9 @@ mod tests {
             first_half_transliteration: None,
             word_transliteration: transliteration.map(str::to_string),
             second_half_transliteration: None,
+            word_answer_transliterations: transliteration
+                .map(|item| vec![item.to_string()])
+                .unwrap_or_default(),
         }
     }
 

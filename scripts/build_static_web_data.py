@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import shutil
+import subprocess
 from pathlib import Path
 
 import pyewts
@@ -70,6 +71,44 @@ def convert_items(converter: pyewts.pyewts, items: list[str]) -> list[str]:
     return [converter.toWylie(item) for item in items]
 
 
+def convert_items_to_thl(items: list[str]) -> list[str]:
+    script = ROOT / "scripts" / "tibetan_thl.mjs"
+    try:
+        result = subprocess.run(
+            ["node", str(script)],
+            input=json.dumps(items, ensure_ascii=False),
+            text=True,
+            capture_output=True,
+            check=True,
+            cwd=ROOT,
+        )
+    except FileNotFoundError as err:
+        raise RuntimeError("Tibetan THL generation requires Node.js") from err
+    except subprocess.CalledProcessError as err:
+        stderr = err.stderr.strip()
+        raise RuntimeError(
+            "Tibetan THL generation requires npm dependencies. "
+            "Run `npm install` from the workspace root. "
+            f"Details: {stderr}"
+        ) from err
+
+    converted = json.loads(result.stdout)
+    if len(converted) != len(items):
+        raise RuntimeError(
+            f"THL converter returned {len(converted)} items for {len(items)} inputs"
+        )
+    return converted
+
+
+def tibetan_token(text: str, wylie: str, thl: str) -> dict[str, str]:
+    token = {"text": text}
+    if wylie.strip():
+        token["wylie"] = wylie
+    if thl.strip():
+        token["thl"] = thl
+    return token
+
+
 def build_tibetan_tokens() -> None:
     converter = pyewts.pyewts()
     corpus_path = STATIC_DATA / "tibetan_a1.json"
@@ -77,14 +116,26 @@ def build_tibetan_tokens() -> None:
 
     corpus = json.loads(corpus_path.read_text(encoding="utf-8"))
     tokenized: dict[str, list[dict[str, str]]] = {}
+    sentence_token_texts: list[tuple[str, list[str]]] = []
+    all_token_texts: list[str] = []
 
     for sentence in corpus["data"]:
         translation = sentence.get("translations", [{}])[0].get("text", "")
         token_texts = tokenize_with_target(translation, sentence.get("cloze_word"))
-        wylies = convert_items(converter, token_texts)
-        tokenized[str(sentence["id"])] = [
-            {"text": text, "wylie": wylie}
-            for text, wylie in zip(token_texts, wylies, strict=True)
+        sentence_token_texts.append((str(sentence["id"]), token_texts))
+        all_token_texts.extend(token_texts)
+
+    all_wylies = convert_items(converter, all_token_texts)
+    all_thls = convert_items_to_thl(all_token_texts)
+    offset = 0
+    for sentence_id, token_texts in sentence_token_texts:
+        length = len(token_texts)
+        wylies = all_wylies[offset : offset + length]
+        thls = all_thls[offset : offset + length]
+        offset += length
+        tokenized[sentence_id] = [
+            tibetan_token(text, wylie, thl)
+            for text, wylie, thl in zip(token_texts, wylies, thls, strict=True)
         ]
 
     output_path.write_text(
@@ -123,13 +174,26 @@ def enrich_tibetan_explanations() -> None:
     converter = pyewts.pyewts()
     path = STATIC_DATA / "tibetan_a1_explanations.json"
     explanations = json.loads(path.read_text(encoding="utf-8"))
+    all_words: list[str] = [
+        word.get("word", "")
+        for sentence in explanations["data"]
+        for word in sentence.get("words", [])
+    ]
+    all_wylies = convert_items(converter, all_words)
+    all_thls = convert_items_to_thl(all_words)
+    offset = 0
 
     for sentence in explanations["data"]:
         words = sentence.get("words", [])
-        wylies = convert_items(converter, [word.get("word", "") for word in words])
-        for word, wylie in zip(words, wylies, strict=True):
+        length = len(words)
+        wylies = all_wylies[offset : offset + length]
+        thls = all_thls[offset : offset + length]
+        offset += length
+        for word, wylie, thl in zip(words, wylies, thls, strict=True):
             if wylie.strip():
                 word["wylie"] = wylie
+            if thl.strip():
+                word["thl"] = thl
 
     path.write_text(
         json.dumps(explanations, ensure_ascii=False, indent=2) + "\n",

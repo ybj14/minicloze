@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260617-2";
+const DATA_VERSION = "static-data-20260617-3";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -587,7 +587,11 @@ function generatePrompt(sentence, course, inverse) {
     (candidates.length
       ? candidates[Math.floor(Math.random() * candidates.length)]
       : 0);
-  const word = words[wordIndex] || { text: "", transliteration: null };
+  const word = words[wordIndex] || {
+    text: "",
+    transliteration: null,
+    answerTransliterations: [],
+  };
   const trailing = trailingWhitespace(word.text);
 
   return {
@@ -603,6 +607,7 @@ function generatePrompt(sentence, course, inverse) {
     secondHalfTransliteration: joinPromptTokenTransliteration(
       words.slice(wordIndex + 1),
     ),
+    wordAnswerTransliterations: word.answerTransliterations || [],
   };
 }
 
@@ -616,6 +621,7 @@ function promptTokens(sentence, course, inverse) {
     return tokenizePromptText("eng", sentence.text || "").map((text) => ({
       text,
       transliteration: null,
+      answerTransliterations: [],
     }));
   }
 
@@ -624,6 +630,7 @@ function promptTokens(sentence, course, inverse) {
     return tokens.map((token) => ({
       text: token.text,
       transliteration: tokenTransliteration(token),
+      answerTransliterations: tokenAnswerTransliterations(token),
     }));
   }
 
@@ -631,7 +638,7 @@ function promptTokens(sentence, course, inverse) {
     return tokenizeTibetanWithTarget(
       firstTranslationText(sentence),
       sentence.cloze_word,
-    ).map((text) => ({ text, transliteration: null }));
+    ).map((text) => ({ text, transliteration: null, answerTransliterations: [] }));
   }
 
   if (NON_SPACED_LANGUAGES.has(course.baseLanguage) && sentence.cloze_word) {
@@ -639,17 +646,33 @@ function promptTokens(sentence, course, inverse) {
       course.baseLanguage,
       firstTranslationText(sentence),
       sentence.cloze_word,
-    ).map((text) => ({ text, transliteration: null }));
+    ).map((text) => ({ text, transliteration: null, answerTransliterations: [] }));
   }
 
   return tokenizePromptText(course.baseLanguage, firstTranslationText(sentence)).map(
-    (text) => ({ text, transliteration: null }),
+    (text) => ({ text, transliteration: null, answerTransliterations: [] }),
   );
 }
 
 function tokenTransliteration(token) {
-  const value = token.wylie || token.paiboon || token.transliteration || "";
+  const value = token.thl || token.paiboon || token.transliteration || token.wylie || "";
   return value.trim() ? value : null;
+}
+
+function tokenAnswerTransliterations(token) {
+  const values = [];
+  pushUniqueTransliteration(values, token.thl);
+  pushUniqueTransliteration(values, token.wylie);
+  pushUniqueTransliteration(values, token.paiboon);
+  pushUniqueTransliteration(values, token.transliteration);
+  return values;
+}
+
+function pushUniqueTransliteration(values, value) {
+  const trimmed = removeTransliterationPunctuation(value || "");
+  if (trimmed && !values.includes(trimmed)) {
+    values.push(trimmed);
+  }
 }
 
 function preferredClozeIndex(sentence, words, candidates, inverse) {
@@ -825,22 +848,35 @@ function answerDistance(guess, prompt) {
     removePunctuation(String(guess || "").trim().toLowerCase()),
     prompt.word.toLowerCase().trim(),
   );
-  const transliteratedWord = transliteratedAnswer(prompt);
-  if (!transliteratedWord) {
-    return nativeDistance;
-  }
-
   const normalizedGuess = normalizeLatinAnswer(guess);
   if (!normalizedGuess) {
     return nativeDistance;
   }
-  return Math.min(nativeDistance, levenshtein(normalizedGuess, transliteratedWord));
+
+  return transliteratedAnswers(prompt)
+    .map((transliteratedWord) => levenshtein(normalizedGuess, transliteratedWord))
+    .reduce((distance, candidate) => Math.min(distance, candidate), nativeDistance);
 }
 
 function transliteratedAnswer(prompt) {
+  return transliteratedAnswers(prompt)[0] || null;
+}
+
+function transliteratedAnswers(prompt) {
+  const answers = [];
   const transliteration = prompt.wordTransliteration || prompt.word;
-  const normalized = normalizeLatinAnswer(transliteration);
-  return normalized || null;
+  pushNormalizedAnswer(answers, transliteration);
+  for (const alias of prompt.wordAnswerTransliterations || []) {
+    pushNormalizedAnswer(answers, alias);
+  }
+  return answers;
+}
+
+function pushNormalizedAnswer(answers, answer) {
+  const normalized = normalizeLatinAnswer(answer);
+  if (normalized && !answers.includes(normalized)) {
+    answers.push(normalized);
+  }
 }
 
 function normalizeLatinAnswer(answer) {
@@ -968,9 +1004,7 @@ function renderWordExplanations(explanations) {
   for (const explanation of explanations) {
     const term = document.createElement("dt");
     term.append(document.createTextNode(explanation.word));
-    const transliteration =
-      explanation.wylie || explanation.paiboon || explanation.transliteration;
-    if (transliteration) {
+    for (const transliteration of explanationTransliterations(explanation)) {
       const transliterationElement = document.createElement("span");
       transliterationElement.className = "word-explanations-transliteration";
       transliterationElement.textContent = transliteration;
@@ -986,6 +1020,23 @@ function renderWordExplanations(explanations) {
 
   els.wordExplanations.replaceChildren(title, list);
   show(els.wordExplanations);
+}
+
+function explanationTransliterations(explanation) {
+  const values = [];
+  if (explanation.wylie) {
+    values.push(`Wylie: ${explanation.wylie}`);
+  }
+  if (explanation.thl) {
+    values.push(`THL: ${explanation.thl}`);
+  }
+  if (!values.length && explanation.paiboon) {
+    values.push(explanation.paiboon);
+  }
+  if (!values.length && explanation.transliteration) {
+    values.push(explanation.transliteration);
+  }
+  return values;
 }
 
 function markChoices(answer, correctAnswer, result) {

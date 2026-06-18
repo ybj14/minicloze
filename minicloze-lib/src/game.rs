@@ -62,29 +62,39 @@ pub fn answer_distance(guess: &str, prompt: &Prompt) -> usize {
         prompt.word.to_lowercase().trim(),
     );
 
-    let Some(transliterated_word) = transliterated_answer(prompt) else {
-        return native_distance;
-    };
-
     let normalized_guess = normalize_latin_answer(guess);
     if normalized_guess.is_empty() {
         return native_distance;
     }
 
-    native_distance.min(levenshtein(&normalized_guess, &transliterated_word))
+    transliterated_answers(prompt)
+        .into_iter()
+        .map(|transliterated_word| levenshtein(&normalized_guess, &transliterated_word))
+        .fold(native_distance, usize::min)
 }
 
 pub fn transliterated_answer(prompt: &Prompt) -> Option<String> {
+    transliterated_answers(prompt).into_iter().next()
+}
+
+pub fn transliterated_answers(prompt: &Prompt) -> Vec<String> {
+    let mut answers = Vec::new();
     let transliteration = prompt
         .word_transliteration
         .as_deref()
         .unwrap_or(&prompt.word);
-    let normalized = normalize_latin_answer(transliteration);
+    push_normalized_answer(&mut answers, transliteration);
+    for transliteration in &prompt.word_answer_transliterations {
+        push_normalized_answer(&mut answers, transliteration);
+    }
 
-    if normalized.is_empty() {
-        None
-    } else {
-        Some(normalized)
+    answers
+}
+
+fn push_normalized_answer(answers: &mut Vec<String>, answer: &str) {
+    let normalized = normalize_latin_answer(answer);
+    if !normalized.is_empty() && !answers.iter().any(|item| item == &normalized) {
+        answers.push(normalized);
     }
 }
 
@@ -135,6 +145,9 @@ mod tests {
             first_half_transliteration: None,
             word_transliteration: transliteration.map(str::to_string),
             second_half_transliteration: None,
+            word_answer_transliterations: transliteration
+                .map(|item| vec![item.to_string()])
+                .unwrap_or_default(),
         }
     }
 
@@ -151,6 +164,17 @@ mod tests {
 
         assert_eq!(answer_distance("bkra shis", &prompt), 0);
         assert_eq!(answer_distance("bkrashis", &prompt), 0);
+    }
+
+    #[test]
+    fn accepts_tibetan_thl_and_wylie_aliases() {
+        let mut prompt = prompt_for("བཀྲ་ཤིས", Some("tra shi"));
+        prompt
+            .word_answer_transliterations
+            .push("bkra shis".to_string());
+
+        assert_eq!(answer_distance("tra shi", &prompt), 0);
+        assert_eq!(answer_distance("bkra shis", &prompt), 0);
     }
 
     #[test]
