@@ -12,11 +12,12 @@ except ModuleNotFoundError:  # pragma: no cover - supports package-style imports
     from scripts.thai_paiboon import romanize as romanize_thai_paiboon
 
 
-CYRILLIC_WORD = re.compile(r"[A-Za-zА-Яа-яЁёӢӣӮӯҚқҒғҲҳҶҷ'-]+")
+CYRILLIC_WORD = re.compile(r"[A-Za-z\u0400-\u04FF'-]+")
 PUNCTUATION = ".,!?;:«»\"()[]{}“”"
 UNKNOWN_NOTE = "needs lexicon review"
 THAI_COMBINING_MARKS = set("ัิีึืุู็่้๊๋์ํฺ")
 THAI_BLOCK = re.compile(r"[\u0E00-\u0E7F]")
+TIBETAN_DELIMITERS = set("་༌།༎༏༐༑༔ \t\r\n")
 
 
 def read_json(path: Path) -> Any:
@@ -66,6 +67,25 @@ def load_vocab_lexicon(vocab_path: Path) -> dict[str, dict[str, str]]:
             first_gloss(str(entry["gloss"])),
             entry.get("note"),
         )
+    return lexicon
+
+
+def load_existing_explanation_lexicon(
+    corpora_dir: Path,
+    language: str,
+) -> dict[str, dict[str, str]]:
+    lexicon: dict[str, dict[str, str]] = {}
+    for suffix in ["a1", "swadesh"]:
+        path = corpora_dir / f"{language}_{suffix}_explanations.json"
+        if not path.exists():
+            continue
+        for row in read_json(path).get("data", []):
+            for word in row.get("words", []):
+                value = str(word.get("word", "")).strip()
+                gloss = str(word.get("gloss", "")).strip()
+                if not value or not gloss or word.get("note") == UNKNOWN_NOTE:
+                    continue
+                lexicon.setdefault(value, explanation(value, gloss, word.get("note")))
     return lexicon
 
 
@@ -670,6 +690,90 @@ TAJIK_COMMON = parse_pipe_lexicon(
 ҷаҳид|jumped|past verb
 ҷорӣ|flowing; current|adjective
 ҷунбонд|moved; shook|past verb
+духтур|doctor|noun
+шудан|becoming; to become|infinitive
+механдад|laughs|verb form
+пок|clean; pure|adjective
+тела|push|noun/verb stem
+берун|outside|place word
+бораи|about; concerning|postpositional form
+нафас|breath|noun
+тавр|way; manner|noun
+туф|spit|noun/verb stem
+шикор|hunt|noun/verb stem
+шиновар|swimmer; floating|noun/adjective
+қай|vomit|noun/verb stem
+вақте|when|time connector
+баромад|came out; went out|past verb
+биология|biology|noun
+гардед|turn; become|polite imperative/subjunctive
+гирад|takes; may take|get verb form
+дида|seen; having seen|participle
+крем|cream|noun
+намехост|did not want|negative past verb
+расонд|delivered; caused to reach|past verb
+эҳтиёт|care; caution|noun/adverb
+қаҳрамон|hero|noun
+ахлотро|trash + object marker|object form
+нӯги|tip; end + ezafe|ezafe form
+ресмон|rope|string noun
+тугма|button|noun
+чархи|wheel + ezafe|ezafe form
+аждаҳоро|dragon + object marker|object form
+аробачаро|cart + object marker|object form
+афтодааст|has fallen|perfect verb form
+бадан|body|noun
+балки|but rather; maybe|connector
+беоб|without water; waterless|adjective
+беодобист|is rude|copula phrase
+биншинед|sit down|polite imperative
+бозии|game/play + ezafe|ezafe form
+даромад|entered|past verb
+диван|sofa|noun
+зина|stairs; step|noun
+ист|stop; stand|imperative/stem
+калонсол|adult|noun/adjective
+касе|someone; a person|pronoun
+касеро|someone + object marker|object form
+каш|pull; draw|imperative/stem
+манъ|forbidden; prohibition|adjective/noun
+мевазад|blows|verb form
+мемолад|rubs; applies|verb form
+мепошад|sprinkles; scatters|verb form
+мерасем|we arrive; we reach|verb form
+мерӯяд|grows|verb form
+месанҷад|checks; tests|verb form
+метарсам|I fear; I am afraid|verb form
+мешинонам|I plant; seat|verb form
+мисли|like; similar to|preposition
+монӣ|you put; you leave|verb form
+набошад|if there is not; is not|negative subjunctive
+намегазад|does not bite|negative verb form
+намерасонад|does not deliver; does not harm|negative verb form
+нарасон|do not deliver; do not harm|negative imperative
+нохуш|unpleasant; unwell|adjective
+пиёда|on foot|adverb/adjective
+пурс|ask|imperative/stem
+рақс|dance|noun/verb stem
+саломатӣ|health|noun
+сер|full; satiated|adjective
+сулфа|cough|noun/verb stem
+табиӣ|natural|adjective
+тахта|board|noun
+торикӣ|darkness|noun
+хобидааст|is lying down; has slept|perfect verb form
+хонаанд|are houses; are at home|plural copula form
+хоҳӣ|you want; you will|verb form
+хурсандӣ|happiness|noun
+чуқурӣ|hole; depth|noun
+шӯед|wash|polite imperative
+қаиқ|boat|noun
+қайчии|scissors + ezafe|ezafe form
+ҳангоми|during; when|time connector
+ҳезум|firewood|noun
+ҳавопаймо|airplane|noun
+ҳис|feeling; sense|noun
+ҷудо|separate|adjective/adverb
     """
 )
 
@@ -772,6 +876,518 @@ TAJIK_PAST_STEMS = {
     "шинонд": ("planted", "past stem"),
     "шуст": ("washed", "past stem"),
 }
+
+
+MONGOLIAN_COMMON = parse_pipe_lexicon(
+    """
+Би|I|pronoun
+би|I|pronoun
+Чи|you|pronoun
+чи|you|pronoun
+Та|you|polite pronoun
+та|you|polite pronoun
+Бид|we|pronoun
+бид|we|pronoun
+Тэд|they|pronoun
+тэд|they|pronoun
+Энэ|this|demonstrative
+энэ|this|demonstrative
+Тэр|he; she; that|pronoun/demonstrative
+тэр|he; she; that|pronoun/demonstrative
+Миний|my|possessive pronoun
+миний|my|possessive pronoun
+Таны|your|polite possessive pronoun
+таны|your|polite possessive pronoun
+бүх|all|determiner
+олон|many|determiner
+зарим|some|determiner
+нэг|one|number
+хоёр|two|number
+гурван|three|number
+дөрвөн|four|number
+таван|five|number
+ба|and|conjunction
+болон|and|conjunction
+хамт|with; together|postposition/adverb
+дээр|on|postposition
+дотор|in; inside|postposition
+дэргэд|near; beside|postposition
+хэрэв|if|conjunction
+учир|because|reason word
+болохгүй|must not; cannot|negative modal
+биш|not|negative copula
+байна|is; are|copula
+байдаг|is usually; exists|verb form
+байхгүй|is not; absent|negative existential
+ирсэн|came|past verb
+ирлээ|came|past verb
+ирдэг|comes; usually comes|verb form
+явна|goes; will go|verb form
+явдаг|goes; usually goes|verb form
+явъя|let us go|hortative
+харлаа|saw|past verb
+хардаг|sees; usually sees|verb form
+харж|seeing; looking|converb
+ууж|drinking|converb
+уудаг|drinks|verb form
+иддэг|eats|verb form
+идэж|eating|converb
+өгнө|gives|verb form
+авна|takes; buys|verb form
+нээдэг|opens|verb form
+хаадаг|closes|verb form
+уншдаг|reads|verb form
+бичдэг|writes|verb form
+сурдаг|learns|verb form
+ярьдаг|speaks; talks|verb form
+асуудаг|asks|verb form
+хэлдэг|says|verb form
+мэднэ|knows|verb form
+мэддэг|knows|verb form
+хүсэж|wanting|converb
+чадна|can|modal verb
+сайн|good; well|adjective/adverb
+муу|bad|adjective
+цэвэр|clean|adjective
+дулаан|warm|adjective
+хүйтэн|cold|adjective
+шинэ|new|adjective
+хуучин|old|adjective
+өнөөдөр|today|time word
+Өнөөдөр|today|time word
+өглөө|morning|time word
+Өглөө|morning|time word
+орой|evening|time word
+Орой|evening|time word
+энд|here|place word
+тэнд|there|place word
+гэрт|at home|location
+сургуульд|at school|location
+гадаа|outside|location
+цүнх|bag|noun
+хаалга|door|noun
+цай|tea|noun
+ус|water|noun
+хоол|food|noun
+талх|bread|noun
+аяга|cup|noun
+ширээн|table|oblique form
+багш|teacher|noun
+эмч|doctor|noun
+ээж|mother|noun
+найз|friend|noun
+хүүхэд|child|noun
+зураг|picture|noun
+биед|in the body|locative form
+бие|body|noun
+өвдөж|hurting|converb
+шалгалаа|checked|past verb
+харуулж|showing|converb
+Анчин|hunter|noun
+Ахын|older brother + genitive|genitive form
+Аяганы|cup + genitive|genitive form
+Бохийг|gum + object marker|object form
+Бяцхан|little|adjective
+Бөмбөлөг|balloon|noun
+Галын|fire + genitive|genitive form
+Гэмтсэн|injured|participle
+Зууханд|in the stove|locative form
+Зүү|needle|noun
+Зөгий|bee|noun
+Намар|autumn|season
+намар|autumn|season
+Сагс|basket|noun
+сагс|basket|noun
+Сагсанд|in the basket|locative form
+Шувууны|bird + genitive|genitive form
+Хазуулсан|bitten|participle
+бай|be; stay|imperative/stem
+барихгүй|will not hold; will not catch|negative verb form
+гэвэл|because; if one says|connector
+унав|fell|past verb
+салхинд|in the wind|locative form
+сурлаа|learned|past verb
+хийсгэв|blew away|past verb
+хутга|knife|noun
+цаана|behind; on the other side|place word
+цэцгийн|flower + genitive|genitive form
+үнэр|smell; scent|noun
+чанав|boiled; cooked|past verb
+эрүүл|healthy|adjective
+өвдсөн|hurt; sore|participle
+нээ|open|imperative/stem
+үзэхээр|in order to see|purpose form
+гал|fire|noun
+шувуу|bird|noun
+үүр|nest|noun
+салхи|wind|noun
+цэцэг|flower|noun
+цонх|window|noun
+лимон|lemon|noun
+малын|livestock + genitive|genitive form
+онгоц|airplane|noun
+охины|girl + genitive|genitive form
+соруултай|with a straw|comitative form
+тамирчид|athletes|plural noun
+тамирчин|athlete|noun
+унасны|falling + genitive|genitive/verbal form
+урагдсан|torn|participle
+ургамлын|plant + genitive|genitive form
+хайруулын|frying + genitive|genitive form
+хайч|scissors|noun
+хогоо|one's trash|reflexive object form
+хортон|pest|noun
+чамтай|with you|comitative pronoun
+эрвээхэй|butterfly|noun
+ямааны|goat + genitive|genitive form
+айдсаа|one's fear|reflexive object form
+алхана|walks; will walk|verb form
+амтат|sweet; tasty|adjective
+анхааралтай|carefully; attentive|adverb/adjective
+арилгах|remove; erase|verb
+асаж|burning; lit|converb
+байшинг|house + object marker|object form
+барин|holding|converb
+битүүрсэн|blocked; stuffy|participle
+боль|stop|imperative
+босгов|raised; stood up|past verb
+бүү|do not|negative imperative
+газарт|on the ground; to the land|locative form
+газраа|one's place; ground|reflexive form
+гаргахын|to take out; producing + genitive|verbal genitive form
+гарна|comes out; goes out|verb form
+гутлын|shoe + genitive|genitive form
+гэрэлтэж|shining|converb
+давж|crossing; passing|converb
+дор|under; below|postposition
+дэлгэв|spread out; opened|past verb
+дээш|upward|direction word
+жаахан|a little; small|adjective/adverb
+жимээр|by path|instrumental form
+залуудaa|in youth; when young|time form
+залуудаа|in youth; when young|time form
+зангидав|tied; knotted|past verb
+засдаг|fixes; repairs|verb form
+ир|come|imperative/stem
+лаа|candle|noun
+мэдрэгдэв|was felt|past verb
+мэрэхгүй|will not gnaw|negative verb form
+нэмлээ|added|past verb
+нээх|open|verb
+нян|germ|noun
+нүх|hole|noun
+онгойлгов|opened|past verb
+орондоо|in one's bed|locative/reflexive form
+оч|spark|noun
+очно|goes; will go|verb form
+сурагч|student|noun
+тавганд|on a plate|locative form
+тарив|planted|past verb
+татаж|pulling|converb
+товч|button|noun
+толбыг|stain + object marker|object form
+тэвэрлээ|hugged|past verb
+тэрэг|cart; vehicle|noun
+түүв|picked; collected|past verb
+улайдаг|turns red|verb form
+унаад|after falling|converb
+уналаа|fell|past verb
+ургажээ|has grown|perfect verb form
+ургана|grows; will grow|verb form
+ухаж|digging|converb
+хаа|close|imperative/stem
+хавар|spring|season
+хайлав|melted|past verb
+хайрладаг|loves; cares for|verb form
+харандаа|pencil|noun
+хариуг|answer + object marker|object form
+хориотой|forbidden|adjective
+хуруугаа|one's finger|reflexive object form
+хуулахгүй|will not peel; will not copy|negative verb form
+хэрэглэ|use|imperative/stem
+хэрэглэдэг|uses|verb form
+хөдөл|move|imperative/stem
+хөдөлдөг|moves|verb form
+хөдөлнө|moves; will move|verb form
+чадалтай|strong; capable|adjective
+чадвартай|capable; skilled|adjective
+шалыг|floor + object marker|object form
+шампунь|shampoo|noun
+шарсан|fried; roasted|participle
+шингээдэг|absorbs|verb form
+шударгаар|honestly; fairly|adverb
+шүүс|juice|noun
+эгнээнд|in a row; in line|locative form
+эдгэрэв|healed|past verb
+эмчид|to the doctor|dative form
+эргэнэ|turns; returns|verb form
+эрэгт|on the shore|locative form
+ядарлаа|got tired|past verb
+ёсгүй|must not; should not|negative modal
+үхрийн|cow/cattle + genitive|genitive form
+үдээс|shoelace; lace|noun
+үлдлээ|remained; stayed|past verb
+үлдэв|remained; stayed|past verb
+үлдэнэ|remains; will stay|verb form
+өвсөн|grass + attributive|attributive form
+өргөс|thorn|noun
+    """
+)
+
+
+MONGOLIAN_SUFFIXES = [
+    ("тайгаа", "with; comitative/reflexive form"),
+    ("тэйгээ", "with; comitative/reflexive form"),
+    ("тойгоо", "with; comitative/reflexive form"),
+    ("гүй", "negative form"),
+    ("ийг", "object marker"),
+    ("ыг", "object marker"),
+    ("аар", "by; through; instrumental form"),
+    ("ээр", "by; through; instrumental form"),
+    ("оор", "by; through; instrumental form"),
+    ("өөр", "by; through; instrumental form"),
+    ("аас", "from; ablative form"),
+    ("ээс", "from; ablative form"),
+    ("оос", "from; ablative form"),
+    ("өөс", "from; ablative form"),
+    ("анд", "in; at; dative-locative form"),
+    ("энд", "in; at; dative-locative form"),
+    ("онд", "in; at; dative-locative form"),
+    ("өнд", "in; at; dative-locative form"),
+    ("тай", "with; having"),
+    ("тэй", "with; having"),
+    ("той", "with; having"),
+    ("ны", "genitive form"),
+    ("ний", "genitive form"),
+    ("ын", "genitive form"),
+    ("ийн", "genitive form"),
+    ("ад", "when; dative/verbal form"),
+    ("эд", "when; dative/verbal form"),
+    ("аа", "reflexive/object form"),
+    ("ээ", "reflexive/object form"),
+    ("оо", "reflexive/object form"),
+    ("өө", "reflexive/object form"),
+]
+
+
+def build_mongolian_lexicon(vocab_path: Path) -> dict[str, dict[str, str]]:
+    raw: dict[str, dict[str, str]] = {}
+    raw.update(load_existing_explanation_lexicon(vocab_path.parent, "mongolian"))
+    raw.update(load_vocab_lexicon(vocab_path))
+    raw.update(MONGOLIAN_COMMON)
+    lexicon: dict[str, dict[str, str]] = {}
+    for word, item in raw.items():
+        lexicon[word.lower()] = item
+    return lexicon
+
+
+def explain_spaced_token(
+    token: str,
+    lexicon: dict[str, dict[str, str]],
+) -> dict[str, str]:
+    normalized = token.strip(PUNCTUATION)
+    key = normalized.lower()
+    if key in lexicon:
+        base = lexicon[key]
+        return explanation(normalized, base["gloss"], base.get("note"))
+    return explanation(normalized, normalized, UNKNOWN_NOTE)
+
+
+def explain_mongolian_token(
+    token: str,
+    lexicon: dict[str, dict[str, str]],
+) -> dict[str, str]:
+    normalized = token.strip(PUNCTUATION)
+    key = normalized.lower()
+    if key in lexicon:
+        base = lexicon[key]
+        return explanation(normalized, base["gloss"], base.get("note"))
+
+    for suffix, note in MONGOLIAN_SUFFIXES:
+        if not key.endswith(suffix) or len(key) <= len(suffix):
+            continue
+        base_key = key[: -len(suffix)]
+        if base_key in lexicon:
+            base = lexicon[base_key]
+            return explanation(normalized, base["gloss"], note)
+
+    return explanation(normalized, normalized, UNKNOWN_NOTE)
+
+
+def explain_mongolian_sentence(
+    text: str,
+    lexicon: dict[str, dict[str, str]],
+) -> list[dict[str, str]]:
+    return [explain_mongolian_token(token, lexicon) for token in tajik_tokens(text)]
+
+
+def clean_tibetan_word(word: str) -> str:
+    return word.strip().strip("་༌།༎༏༐༑༔")
+
+
+TIBETAN_COMMON = parse_pipe_lexicon(
+    """
+བཅུག|put; let|verb form
+གཟབ|careful|adjective component
+པོས|adjectival suffix + ergative|suffix form
+འཛུལ|enter|verb
+རྗེས|after|postposition
+ཁྱིས|dog + ergative|ergative form
+གྲི|knife|noun
+ཆས|things; equipment|noun
+ཆེན|big; great|adjective component
+ཕར|away; over there|direction word
+བརྟག|check; examine|verb
+བྱའི|bird + genitive|genitive form
+ཚ|hot|adjective component
+འབྲི|write; draw|verb
+རྩེད|play|verb/noun
+ཁར|at; on|postposition form
+ཆད|cut; broken|verb/adjective
+ཆུས|water + ergative|ergative form
+ཐོན|come out|verb
+དཀྲིས|wrapped; tied|verb form
+དབྱར|summer|season
+ཕྱིར|back; outside|direction word
+བཅད|cut|past verb
+བཏོན|took out|past verb
+བསྟན|showed|past verb
+བྱུགས|spread; applied|past verb
+མིས|person + ergative|ergative form
+ཚོར|felt; sense|verb form
+འཆང|hold; carry|verb
+འཚོལ|look for|verb
+སྔོན|before; earlier|time word
+སྨྱུ|pen; reed pen|noun component
+ཀས|pillar/post + ergative|ergative form
+ཁེངས|full; filled|adjective/verb
+ཁྱིའི|dog + genitive|genitive form
+གཙང|clean|adjective component
+གྲུ|boat; corner|noun
+ཐིག|line; drop|noun
+པོའི|adjectival suffix + genitive|suffix form
+ཕས|father + ergative|ergative form
+བཀབ|covered|past verb
+བཏང|sent; let go|past verb
+བཏུབས|cut|past verb
+བརྐོས|dug; carved|past verb
+བརྗེ|change; exchange|verb
+བས|by; because|particle
+བོ|nominal suffix|suffix
+བླངས|took|past verb
+མཆིན|liver|noun component
+མདོ|main point; area|noun
+མཛུབ|finger|noun component
+མའི|mother/female suffix + genitive|genitive form
+ཚྭའི|salt + genitive|genitive form
+ཞི|gentle; peaceful|adjective component
+ཞིང|field|noun
+འགག|blocked; stopped|verb/adjective
+འཐོན|come out|verb
+འདྲ|like; similar|adjective
+འཕར|jump; increase|verb
+འབུས|bug + ergative|ergative form
+འཛུམ|smile|verb/noun
+རིང|long|adjective component
+རུང|may; suitable|modal/adjective
+རུས|bone|noun component
+རོ|taste; corpse|noun
+རྐང|leg; foot|noun component
+རྒྱུ|guts; material; will|noun
+རྒྱུགས|run|verb form
+རྙེད|found|past verb
+རྟུལ|dull|adjective component
+རྣ|ear|noun component
+ལག|hand|noun component
+ལན|answer; time|noun
+ལིམ|lemon|noun component
+ལྗིད|heavy|adjective component
+ལྷག|remain; extra|verb/adjective
+ལྷམ|shoe|noun
+སྐུད|string; thread|noun
+སྐྱ|gray|adjective component
+སྔོ|blue; green|adjective component
+    """
+)
+
+
+TIBETAN_SUFFIXES = [
+    ("འི", "genitive form"),
+    ("ཡི", "genitive form"),
+    ("ཀྱི", "genitive form"),
+    ("གྱི", "genitive form"),
+    ("གི", "genitive form"),
+    ("ས", "ergative/instrumental form"),
+    ("ར", "dative/locative form"),
+    ("ལ", "dative/locative form"),
+]
+
+
+def build_tibetan_lexicon(vocab_path: Path) -> dict[str, dict[str, str]]:
+    raw: dict[str, dict[str, str]] = {}
+    raw.update(load_existing_explanation_lexicon(vocab_path.parent, "tibetan"))
+    raw.update(load_vocab_lexicon(vocab_path))
+    raw.update(TIBETAN_COMMON)
+    lexicon: dict[str, dict[str, str]] = {}
+    for word, item in raw.items():
+        cleaned = clean_tibetan_word(word)
+        if cleaned:
+            lexicon[cleaned] = explanation(cleaned, item["gloss"], item.get("note"))
+    return lexicon
+
+
+def tibetan_has_boundary(text: str, index: int) -> bool:
+    return index >= len(text) or text[index] in TIBETAN_DELIMITERS
+
+
+def match_tibetan_word(
+    text: str,
+    index: int,
+    keys: list[str],
+    lexicon: dict[str, dict[str, str]],
+) -> tuple[str, str, str | None] | None:
+    for key in keys:
+        if not text.startswith(key, index):
+            continue
+        end = index + len(key)
+        if tibetan_has_boundary(text, end):
+            return key, key, lexicon[key].get("note")
+        for suffix, note in TIBETAN_SUFFIXES:
+            suffix_end = end + len(suffix)
+            if text.startswith(suffix, end) and tibetan_has_boundary(text, suffix_end):
+                return text[index:suffix_end], key, note
+    return None
+
+
+def explain_tibetan_sentence(
+    text: str,
+    lexicon: dict[str, dict[str, str]],
+) -> list[dict[str, str]]:
+    keys = sorted(lexicon, key=lambda item: (-len(item), item))
+    words: list[dict[str, str]] = []
+    index = 0
+    while index < len(text):
+        char = text[index]
+        if char in TIBETAN_DELIMITERS:
+            index += 1
+            continue
+
+        matched = match_tibetan_word(text, index, keys, lexicon)
+        if matched:
+            surface, key, suffix_note = matched
+            base = lexicon[key]
+            words.append(explanation(surface, base["gloss"], suffix_note or base.get("note")))
+            index += len(surface)
+            continue
+
+        end = index
+        while end < len(text) and text[end] not in TIBETAN_DELIMITERS:
+            end += 1
+        token = clean_tibetan_word(text[index:end])
+        if token:
+            words.append(explanation(token, token, UNKNOWN_NOTE))
+        index = end
+    return words
 
 
 THAI_COMMON = parse_pipe_lexicon(
@@ -1050,12 +1666,104 @@ THAI_COMMON = parse_pipe_lexicon(
 ท่า|pier; posture|noun
 ทางซ้าย|to the left|direction phrase
 วันจันทร์|Monday|day name
+นิด|a little|adverb
+แผ่น|sheet; flat classifier|noun/classifier
+แตงกวา|cucumber|noun
+บางๆ|thinly|adverb
+ลุง|uncle|noun
+ห้าม|must not; forbid|negative imperative
+เลื้อย|crawl; slither|verb
+ไม้|wood; tree|noun
+ค้ำ|support; prop up|verb
+ปลิว|blow away; flutter|verb
+โผล่|emerge; show|verb
+จับ|touch; hold|verb
+ม้วน|roll up|verb
+แขน|arm|noun
+นิ้ว|finger|noun
+หัก|broken; break|verb/adjective
+แพะ|goat|noun
+ควาย|buffalo|noun
+แกว่ง|swing; wag|verb
+ดม|smell; sniff|verb
+ตัน|blocked; stuffy|adjective
+ชิม|taste|verb
+แลบ|stick out|verb
+ยก|lift|verb
+ล้ม|fall|verb
+กาง|spread; open|verb
+อักเสบ|inflamed|adjective/verb
+รอบ|around|preposition/noun
+ก้อน|lump; piece classifier|noun/classifier
+ติด|stick to; attached|verb
+กระถาง|pot; planter|noun
+เหนือ|above; north|preposition/direction
+ญี่ปุ่น|Japan|place name
+ฤดูหนาว|winter|season
+แรก|first|adjective
+ไหม้|burn; be on fire|verb
+ดับ|put out; go out|verb
+แตะ|touch|verb
+กองไฟ|fire pit; campfire|noun
+ชาวสวน|gardener|noun
+จน|until; so that|connector
+ขยะ|trash|noun
+หลับ|sleep; asleep|verb/adjective
+คู่|pair; couple|noun/classifier
+รู้สึก|feel|verb
+ถังขยะ|trash can|noun
+เส้น|line; noodle/thread classifier|noun/classifier
+ระวัง|be careful|verb
+บาด|cut; wound|verb
+กรรไกร|scissors|noun
+รอย|mark; trace|noun
+เลี้ยว|turn|verb
+ผ้าพันคอ|scarf|noun
+พัน|wrap|verb
+แบก|carry on the back|verb
+ผัด|stir-fry|verb
+ยุง|mosquito|noun
+หลอด|straw; tube|noun
+บ้วน|rinse; spit out|verb
+เมารถ|carsick|adjective
+ลึกๆ|deeply|adverb
+เชื้อ|germ; infection|noun
+แมลง|insect|noun
+ทีม|team|noun
+หนู|mouse; rat; child pronoun|noun/pronoun
+เสือ|tiger|noun
+เหยื่อ|prey; victim|noun
+บอล|ball|noun
+ลูกบอล|ball|noun
+ชาม|bowl|noun
+ฟืน|firewood|noun
+แผล|wound|noun
+หนาม|thorn|noun
+แหลม|sharp; pointed|adjective
+ขาด|torn; broken|adjective/verb
+เข็ม|needle|noun
+หลุม|hole|noun
+เสื่อ|mat|noun
+หงาย|face up; on one's back|adverb/verb
+พลาสติก|plastic|noun/adjective
+แถว|line; row|noun
+กระดุม|button|noun
+น้ำปั่น|smoothie|noun
+ลูกโป่ง|balloon|noun
+เป่า|blow|verb
+ลับ|set; disappear behind|verb
+ดวง|celestial/body classifier|classifier/noun
+ทั้ง|all; whole|determiner
     """
 )
 
 
 def build_tajik_lexicon(vocab_path: Path) -> dict[str, dict[str, str]]:
-    lexicon = {key.lower(): value for key, value in load_vocab_lexicon(vocab_path).items()}
+    lexicon = {
+        key.lower(): value
+        for key, value in load_existing_explanation_lexicon(vocab_path.parent, "tajik").items()
+    }
+    lexicon.update({key.lower(): value for key, value in load_vocab_lexicon(vocab_path).items()})
     lexicon.update({key.lower(): value for key, value in TAJIK_COMMON.items()})
     return lexicon
 
@@ -1147,7 +1855,8 @@ def explain_tajik_sentence(
 
 
 def build_thai_lexicon(vocab_path: Path) -> dict[str, dict[str, str]]:
-    lexicon = load_vocab_lexicon(vocab_path)
+    lexicon = load_existing_explanation_lexicon(vocab_path.parent, "thai")
+    lexicon.update(load_vocab_lexicon(vocab_path))
     lexicon.update(THAI_COMMON)
     return lexicon
 
@@ -1186,7 +1895,9 @@ def explain_thai_sentence(
         for word in words_by_first.get(char, []):
             if not text.startswith(word, index):
                 continue
-            next_seen = seen_cloze or word == cloze
+            next_seen = seen_cloze or word == cloze or bool(
+                cloze and word == f"{cloze}ๆ"
+            )
             tail_score, tail_words = best(index + len(word), next_seen)
             score = add_score((0, 0, 1 if thai_bad_single_token(word) else 0, 1, -len(word)), tail_score)
             options.append((score, (word, *tail_words)))
@@ -1215,7 +1926,13 @@ def build_explanations_from_corpus(
 ) -> dict[str, list[dict[str, object]]]:
     corpus = read_json(corpus_path)["data"]
     vocab_lexicon = load_vocab_lexicon(vocab_path)
-    if language == "tajik":
+    if language == "mongolian":
+        lexicon = build_mongolian_lexicon(vocab_path)
+        explain = explain_mongolian_sentence
+    elif language == "tibetan":
+        lexicon = build_tibetan_lexicon(vocab_path)
+        explain = explain_tibetan_sentence
+    elif language == "tajik":
         lexicon = build_tajik_lexicon(vocab_path)
         explain = explain_tajik_sentence
     elif language == "thai":

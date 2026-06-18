@@ -54,6 +54,10 @@ When adding or renaming a local course, update all relevant places together: `mi
 - Keep non-ASCII language text intact. Do not normalize away Tibetan tseks, Thai spelling, Cyrillic letters, or transliteration fields.
 - For Tajik generated sentences, target words should be standalone words where the merge script enforces that.
 - Avoid meta-language in generated target sentences, such as sentences that talk about "the word ..." instead of using the word naturally.
+- Treat sentence naturalness as a hard corpus requirement, not polish. Do not build production corpora by rotating generic templates such as "I saw X", "X is here", "The child drew X", or by inserting any question word into a noun frame. Sentences like "Who is the book?", "Where came?", "The liver is here", or other semantically odd examples are failures even when JSON shape and target-word checks pass.
+- Generate cloze sentences as authored A1 learning material. Pick contexts that fit the specific concept: question words need real questions, body parts need ordinary body/health/gesture scenes, nature words need weather/place scenes, verbs need plausible actions, and function words need natural connectors. If a word is hard, write fewer but better simple contexts first, then adapt them to the target language.
+- Reuse the successful A1 workflow for new Swadesh or derived courses: treat `minicloze-lib/corpora/generated/*` batch JSON as the reviewed source of truth, author/rewrite those batches first, then merge final corpus JSON and regenerate explanations/static web data from that reviewed corpus. Do not treat a scaffold generator's candidate sentences as production material.
+- For large corpus rewrites, split by language or batch across agents when useful, but keep ownership disjoint and run local QA after merging. Subagent output is a draft until it passes naturalness, repetition, schema, explanation, and web-data validation.
 
 ## Static Web Notes
 

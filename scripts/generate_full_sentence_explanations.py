@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate full-sentence word explanations for local A1 corpora."""
+"""Generate full-sentence word explanations for local corpora."""
 
 from __future__ import annotations
 
@@ -19,11 +19,41 @@ ROOT = Path(__file__).resolve().parents[1]
 CORPORA = ROOT / "minicloze-lib" / "corpora"
 
 LANGS = {
+    "mongolian": {
+        "language": "mongolian",
+        "corpus": CORPORA / "mongolian_a1.json",
+        "vocab": CORPORA / "mongolian_a1_vocab.json",
+        "output": CORPORA / "mongolian_a1_explanations.json",
+    },
+    "mongolian-swadesh": {
+        "language": "mongolian",
+        "corpus": CORPORA / "mongolian_swadesh.json",
+        "vocab": CORPORA / "mongolian_swadesh_vocab.json",
+        "output": CORPORA / "mongolian_swadesh_explanations.json",
+    },
+    "tibetan": {
+        "language": "tibetan",
+        "corpus": CORPORA / "tibetan_a1.json",
+        "vocab": CORPORA / "tibetan_a1_vocab.json",
+        "output": CORPORA / "tibetan_a1_explanations.json",
+    },
+    "tibetan-swadesh": {
+        "language": "tibetan",
+        "corpus": CORPORA / "tibetan_swadesh.json",
+        "vocab": CORPORA / "tibetan_swadesh_vocab.json",
+        "output": CORPORA / "tibetan_swadesh_explanations.json",
+    },
     "tajik": {
         "language": "tajik",
         "corpus": CORPORA / "tajik_a1.json",
         "vocab": CORPORA / "tajik_a1_vocab.json",
         "output": CORPORA / "tajik_a1_explanations.json",
+    },
+    "tajik-swadesh": {
+        "language": "tajik",
+        "corpus": CORPORA / "tajik_swadesh.json",
+        "vocab": CORPORA / "tajik_swadesh_vocab.json",
+        "output": CORPORA / "tajik_swadesh_explanations.json",
     },
     "thai": {
         "language": "thai",
@@ -31,11 +61,41 @@ LANGS = {
         "vocab": CORPORA / "thai_a1_vocab.json",
         "output": CORPORA / "thai_a1_explanations.json",
     },
+    "thai-swadesh": {
+        "language": "thai",
+        "corpus": CORPORA / "thai_swadesh.json",
+        "vocab": CORPORA / "thai_swadesh_vocab.json",
+        "output": CORPORA / "thai_swadesh_explanations.json",
+    },
 }
 
 
 def stripped_token(value: str) -> str:
     return value.strip(PUNCTUATION).lower()
+
+
+def has_cloze_explanation(cloze: str, words: list[dict[str, object]], language: str) -> bool:
+    if not cloze:
+        return True
+    explanation_words = [
+        stripped_token(str(word.get("word") or ""))
+        for word in words
+        if str(word.get("word") or "").strip()
+    ]
+    cloze_parts = [stripped_token(part) for part in cloze.split() if stripped_token(part)]
+    if len(cloze_parts) > 1:
+        return all(
+            any(part == explanation_word or part in explanation_word for explanation_word in explanation_words)
+            for part in cloze_parts
+        )
+    if language in {"mongolian", "tibetan"}:
+        return any(cloze == explanation_word or cloze in explanation_word for explanation_word in explanation_words)
+    if language == "thai":
+        return any(
+            explanation_word == cloze or explanation_word == f"{cloze}ๆ"
+            for explanation_word in explanation_words
+        )
+    return any(explanation_word == cloze for explanation_word in explanation_words)
 
 
 def compact_target(value: str) -> str:
@@ -61,7 +121,7 @@ def collect_alignment_issues(
             continue
         words = explanation_row["words"]
         cloze = stripped_token(str(corpus_row.get("cloze_word") or ""))
-        if cloze and not any(stripped_token(str(word["word"])) == cloze for word in words):
+        if cloze and not has_cloze_explanation(cloze, words, language):
             issues.append(f"{row_id}: missing cloze {cloze}")
         if language == "thai":
             target = compact_target(corpus_row["translations"][0]["text"])
