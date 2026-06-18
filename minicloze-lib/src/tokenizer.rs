@@ -42,6 +42,8 @@ pub fn prepare_sentences(
                         wylie: String::new(),
                         thl: String::new(),
                         paiboon: String::new(),
+                        mlcts: String::new(),
+                        okell: String::new(),
                     })
                     .collect()
             })

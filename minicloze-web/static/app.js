@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260618-2";
+const DATA_VERSION = "static-data-20260618-4";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -85,6 +85,28 @@ const COURSES = [
     vocabularyPath: dataPath("/data/thai_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/thai_swadesh_explanations.json"),
     tokensPath: dataPath("/data/thai_swadesh_tokens.json"),
+  },
+  {
+    code: "mya-a1",
+    label: "Burmese A1",
+    slug: "burmese-a1",
+    baseLanguage: "mya",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/burmese_a1.json"),
+    vocabularyPath: dataPath("/data/burmese_a1_vocab.json"),
+    explanationsPath: dataPath("/data/burmese_a1_explanations.json"),
+    tokensPath: dataPath("/data/burmese_a1_tokens.json"),
+  },
+  {
+    code: "mya-swadesh",
+    label: "Burmese Swadesh",
+    slug: "burmese-swadesh",
+    baseLanguage: "mya",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/burmese_swadesh.json"),
+    vocabularyPath: dataPath("/data/burmese_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/burmese_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/burmese_swadesh_tokens.json"),
   },
 ];
 
@@ -714,7 +736,14 @@ function promptTokens(sentence, course, inverse) {
 }
 
 function tokenTransliteration(token) {
-  const value = token.thl || token.paiboon || token.transliteration || token.wylie || "";
+  const value =
+    token.thl ||
+    token.paiboon ||
+    token.okell ||
+    token.mlcts ||
+    token.transliteration ||
+    token.wylie ||
+    "";
   return value.trim() ? value : null;
 }
 
@@ -723,6 +752,8 @@ function tokenAnswerTransliterations(token) {
   pushUniqueTransliteration(values, token.thl);
   pushUniqueTransliteration(values, token.wylie);
   pushUniqueTransliteration(values, token.paiboon);
+  pushUniqueTransliteration(values, token.okell);
+  pushUniqueTransliteration(values, token.mlcts);
   pushUniqueTransliteration(values, token.transliteration);
   return values;
 }
@@ -1103,8 +1134,14 @@ function explanationTransliterations(explanation) {
   if (explanation.thl) {
     values.push(`THL: ${explanation.thl}`);
   }
-  if (!values.length && explanation.paiboon) {
+  if (explanation.paiboon) {
     values.push(explanation.paiboon);
+  }
+  if (explanation.okell) {
+    values.push(`Okell: ${explanation.okell}`);
+  }
+  if (explanation.mlcts) {
+    values.push(`MLCTS: ${explanation.mlcts}`);
   }
   if (!values.length && explanation.transliteration) {
     values.push(explanation.transliteration);

@@ -47,6 +47,10 @@ pub struct WordExplanation {
     pub thl: Option<String>,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub paiboon: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub mlcts: Option<String>,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub okell: Option<String>,
 }
 
 #[derive(Clone)]
@@ -201,12 +205,18 @@ impl Sentence {
 }
 
 fn token_preferred_transliteration(token: &TibetanToken) -> Option<String> {
-    [&token.thl, &token.paiboon, &token.wylie]
-        .into_iter()
-        .find_map(|value| {
-            let value = value.trim();
-            (!value.is_empty()).then(|| value.to_string())
-        })
+    [
+        &token.thl,
+        &token.paiboon,
+        &token.okell,
+        &token.mlcts,
+        &token.wylie,
+    ]
+    .into_iter()
+    .find_map(|value| {
+        let value = value.trim();
+        (!value.is_empty()).then(|| value.to_string())
+    })
 }
 
 fn token_answer_transliterations(token: &TibetanToken) -> Vec<String> {
@@ -214,6 +224,8 @@ fn token_answer_transliterations(token: &TibetanToken) -> Vec<String> {
     push_unique_transliteration(&mut values, &token.thl);
     push_unique_transliteration(&mut values, &token.wylie);
     push_unique_transliteration(&mut values, &token.paiboon);
+    push_unique_transliteration(&mut values, &token.okell);
+    push_unique_transliteration(&mut values, &token.mlcts);
     values
 }
 
@@ -335,8 +347,8 @@ pub fn prepare_local_sentences(
     } else if corpus.base_language == "bod" {
         ensure_local_tibetan_cloze_targets(sentences);
     }
-    if corpus.base_language == "tha" {
-        prepare_local_explanation_tokens(sentences);
+    if corpus.base_language == "tha" || corpus.base_language == "mya" {
+        prepare_local_explanation_tokens(sentences, corpus.base_language == "mya");
     } else if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
         prepare_local_non_spaced_target_tokens(corpus.base_language, sentences);
     } else if corpus.base_language != "bod" {
@@ -501,19 +513,27 @@ fn prepare_local_spaced_target_tokens(language: &str, sentences: &mut [Sentence]
     }
 }
 
-fn prepare_local_explanation_tokens(sentences: &mut [Sentence]) {
+fn prepare_local_explanation_tokens(sentences: &mut [Sentence], preserve_spaces: bool) {
     for sentence in sentences {
         if sentence.word_explanations.is_empty() {
             continue;
         }
+        let word_count = sentence.word_explanations.len();
         let tokens = sentence
             .word_explanations
             .iter()
-            .map(|explanation| TibetanToken {
-                text: explanation.word.clone(),
+            .enumerate()
+            .map(|(index, explanation)| TibetanToken {
+                text: if preserve_spaces && index + 1 < word_count {
+                    format!("{} ", explanation.word)
+                } else {
+                    explanation.word.clone()
+                },
                 wylie: explanation.wylie.clone().unwrap_or_default(),
                 thl: explanation.thl.clone().unwrap_or_default(),
                 paiboon: explanation.paiboon.clone().unwrap_or_default(),
+                mlcts: explanation.mlcts.clone().unwrap_or_default(),
+                okell: explanation.okell.clone().unwrap_or_default(),
             })
             .collect::<Vec<_>>();
         sentence.set_tokenized_translation(tokens);
@@ -562,6 +582,8 @@ fn tibetan_tokens_with_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
                 .cloned()
                 .unwrap_or_default(),
             paiboon: String::new(),
+            mlcts: String::new(),
+            okell: String::new(),
         })
         .collect()
 }
@@ -574,6 +596,8 @@ fn tokens_without_wylie(texts: Vec<String>) -> Vec<TibetanToken> {
             wylie: String::new(),
             thl: String::new(),
             paiboon: String::new(),
+            mlcts: String::new(),
+            okell: String::new(),
         })
         .collect()
 }
@@ -585,6 +609,8 @@ fn tibetan_token_without_wylie(text: String) -> TibetanToken {
         wylie: String::new(),
         thl: String::new(),
         paiboon: String::new(),
+        mlcts: String::new(),
+        okell: String::new(),
     }
 }
 
@@ -652,18 +678,24 @@ mod tests {
                 wylie: "zhogs pa ".to_string(),
                 thl: "zhok pa".to_string(),
                 paiboon: String::new(),
+                mlcts: String::new(),
+                okell: String::new(),
             },
             TibetanToken {
                 text: "བདེ་ལེགས".to_string(),
                 wylie: "bde legs".to_string(),
                 thl: "dé lek".to_string(),
                 paiboon: String::new(),
+                mlcts: String::new(),
+                okell: String::new(),
             },
             TibetanToken {
                 text: "།".to_string(),
                 wylie: "/".to_string(),
                 thl: String::new(),
                 paiboon: String::new(),
+                mlcts: String::new(),
+                okell: String::new(),
             },
         ]);
 
@@ -773,6 +805,8 @@ mod tests {
                     wylie: None,
                     thl: None,
                     paiboon: Some("chǎn".to_string()),
+                    mlcts: None,
+                    okell: None,
                 },
                 WordExplanation {
                     word: "ดื่ม".to_string(),
@@ -781,6 +815,8 @@ mod tests {
                     wylie: None,
                     thl: None,
                     paiboon: Some("dʉ̀ʉm".to_string()),
+                    mlcts: None,
+                    okell: None,
                 },
                 WordExplanation {
                     word: "น้ำ".to_string(),
@@ -789,12 +825,14 @@ mod tests {
                     wylie: None,
                     thl: None,
                     paiboon: Some("náam".to_string()),
+                    mlcts: None,
+                    okell: None,
                 },
             ],
             tokenized_translation: None,
         }];
 
-        prepare_local_explanation_tokens(&mut sentences);
+        prepare_local_explanation_tokens(&mut sentences, false);
         let prompt = sentences[0].generate_prompt("tha", false);
 
         assert_eq!(prompt.first_half, "ฉันดื่ม");
@@ -804,6 +842,73 @@ mod tests {
             prompt.first_half_transliteration,
             Some("chǎn dʉ̀ʉm".to_string())
         );
+    }
+
+    #[test]
+    fn local_burmese_explanation_tokens_provide_mlcts_and_okell() {
+        let mut sentences = vec![Sentence {
+            id: 1,
+            text: "I drink water.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "ကျွန်တော် ရေ သောက် တယ်။".to_string(),
+            }],
+            cloze_word: Some("ရေ".to_string()),
+            word_explanations: vec![
+                WordExplanation {
+                    word: "ကျွန်တော်".to_string(),
+                    gloss: "I".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: Some("kywan to".to_string()),
+                    okell: Some("cuñto".to_string()),
+                },
+                WordExplanation {
+                    word: "ရေ".to_string(),
+                    gloss: "water".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: Some("re".to_string()),
+                    okell: Some("yei".to_string()),
+                },
+                WordExplanation {
+                    word: "သောက်".to_string(),
+                    gloss: "drink".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: Some("sauk".to_string()),
+                    okell: Some("thauʔ".to_string()),
+                },
+                WordExplanation {
+                    word: "တယ်".to_string(),
+                    gloss: "sentence marker".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: Some("tai".to_string()),
+                    okell: Some("te".to_string()),
+                },
+            ],
+            tokenized_translation: None,
+        }];
+
+        prepare_local_explanation_tokens(&mut sentences, true);
+        let prompt = sentences[0].generate_prompt("mya", false);
+
+        assert_eq!(prompt.first_half, "ကျွန်တော် ");
+        assert_eq!(prompt.word, "ရေ");
+        assert_eq!(prompt.word_transliteration, Some("yei".to_string()));
+        assert_eq!(prompt.first_half_transliteration, Some("cuñto".to_string()));
+        assert!(prompt
+            .word_answer_transliterations
+            .contains(&"re".to_string()));
     }
 
     #[test]

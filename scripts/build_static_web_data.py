@@ -10,6 +10,7 @@ from pathlib import Path
 
 import pyewts
 
+from burmese_okell import romanize as romanize_burmese_okell
 from thai_paiboon import romanize as romanize_thai_paiboon
 
 
@@ -27,6 +28,8 @@ COURSE_PREFIXES = [
     "tajik_swadesh",
     "thai_a1",
     "thai_swadesh",
+    "burmese_a1",
+    "burmese_swadesh",
 ]
 SOURCE_FILES = [
     filename
@@ -35,6 +38,7 @@ SOURCE_FILES = [
 ]
 TIBETAN_COURSES = ["tibetan_a1", "tibetan_swadesh"]
 THAI_COURSES = ["thai_a1", "thai_swadesh"]
+BURMESE_COURSES = ["burmese_a1", "burmese_swadesh"]
 
 
 def tokenize_syllables(text: str) -> list[str]:
@@ -167,6 +171,35 @@ def build_thai_tokens(course: str) -> None:
     )
 
 
+def build_burmese_tokens(course: str) -> None:
+    explanations_path = STATIC_DATA / f"{course}_explanations.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
+    explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
+    tokenized: dict[str, list[dict[str, str]]] = {}
+
+    for sentence in explanations["data"]:
+        tokens = []
+        words = sentence.get("words", [])
+        for index, word in enumerate(words):
+            text = word.get("word", "")
+            if index + 1 < len(words):
+                text = f"{text} "
+            token = {"text": text}
+            mlcts = word.get("mlcts")
+            if mlcts:
+                token["mlcts"] = mlcts
+            okell = word.get("okell") or romanize_burmese_okell(word.get("word", ""), mlcts)
+            if okell:
+                token["okell"] = okell
+            tokens.append(token)
+        tokenized[str(sentence["id"])] = tokens
+
+    output_path.write_text(
+        json.dumps(tokenized, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def copy_base_data() -> None:
     STATIC_DATA.mkdir(parents=True, exist_ok=True)
     for filename in SOURCE_FILES:
@@ -220,6 +253,23 @@ def enrich_thai_explanations(course: str) -> None:
     )
 
 
+def enrich_burmese_explanations(course: str) -> None:
+    path = STATIC_DATA / f"{course}_explanations.json"
+    explanations = json.loads(path.read_text(encoding="utf-8"))
+
+    for sentence in explanations["data"]:
+        for word in sentence.get("words", []):
+            mlcts = word.get("mlcts", "")
+            okell = word.get("okell") or romanize_burmese_okell(word.get("word", ""), mlcts)
+            if okell.strip():
+                word["okell"] = okell
+
+    path.write_text(
+        json.dumps(explanations, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     copy_base_data()
     for course in TIBETAN_COURSES:
@@ -228,6 +278,9 @@ def main() -> None:
     for course in THAI_COURSES:
         enrich_thai_explanations(course)
         build_thai_tokens(course)
+    for course in BURMESE_COURSES:
+        enrich_burmese_explanations(course)
+        build_burmese_tokens(course)
 
 
 if __name__ == "__main__":

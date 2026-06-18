@@ -24,6 +24,12 @@ Files:
 - `thai_a1.json`: 1,500 Thai cloze sentences.
 - `thai_swadesh_vocab.json`: 207 Thai Swadesh target words.
 - `thai_swadesh.json`: 621 Thai Swadesh cloze sentences.
+- `burmese_a1_vocab.json`: 500 Burmese target words.
+- `burmese_a1.json`: 1,500 Burmese cloze sentences.
+- `burmese_a1_explanations.json`: full-sentence Burmese word explanations with MLCTS and Okell.
+- `burmese_swadesh_vocab.json`: 207 Burmese Swadesh target words.
+- `burmese_swadesh.json`: 621 Burmese Swadesh cloze sentences.
+- `burmese_swadesh_explanations.json`: full-sentence Burmese Swadesh word explanations with MLCTS and Okell.
 
 Sources:
 
@@ -32,4 +38,5 @@ Sources:
 - Tibetan: https://www.small-steps-tibetan.com/first-1000-words-basic, used as the source for the 500-word Tibetan beginner vocabulary selection.
 - Tajik: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
 - Thai: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
-- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, and Thai, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.
+- Burmese: Codex-authored beginner A1 course material, split into reviewed batch files before merge.
+- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, and Burmese, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.

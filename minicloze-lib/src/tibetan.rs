@@ -13,6 +13,10 @@ pub(crate) struct TibetanToken {
     pub thl: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
     pub paiboon: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    pub mlcts: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    pub okell: String,
 }
 
 const BOTOK_HELPER: &str = r#"
@@ -348,12 +352,16 @@ mod tests {
                     wylie: "bkra shis ".to_string(),
                     thl: "tra shi".to_string(),
                     paiboon: String::new(),
+                    mlcts: String::new(),
+                    okell: String::new(),
                 },
                 TibetanToken {
                     text: "བདེ་ལེགས".to_string(),
                     wylie: "bde legs".to_string(),
                     thl: "dé lek".to_string(),
                     paiboon: String::new(),
+                    mlcts: String::new(),
+                    okell: String::new(),
                 }
             ]]
         );
