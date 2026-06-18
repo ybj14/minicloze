@@ -6,6 +6,7 @@ from pathlib import Path
 
 from armenian_transliteration import romanize as romanize_armenian
 from burmese_okell import romanize as romanize_burmese_okell
+from georgian_transliteration import romanize as romanize_georgian
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
 
@@ -275,6 +276,45 @@ LANGS = {
         "vocab_from_batches": True,
         "explanations_from_batches": True,
     },
+    "georgian": {
+        "vocab": CORPORA / "georgian_a1_vocab.json",
+        "output": CORPORA / "georgian_a1.json",
+        "explanations": CORPORA / "georgian_a1_explanations.json",
+        "batches": [
+            GENERATED / "georgian_001_050.json",
+            GENERATED / "georgian_051_100.json",
+            GENERATED / "georgian_101_150.json",
+            GENERATED / "georgian_151_200.json",
+            GENERATED / "georgian_201_250.json",
+            GENERATED / "georgian_251_300.json",
+            GENERATED / "georgian_301_350.json",
+            GENERATED / "georgian_351_400.json",
+            GENERATED / "georgian_401_450.json",
+            GENERATED / "georgian_451_500.json",
+        ],
+        "id_start": -1700000,
+        "forbidden": ["სიტყვა", "ნიშნავს", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+    },
+    "georgian-swadesh": {
+        "vocab": CORPORA / "georgian_swadesh_vocab.json",
+        "output": CORPORA / "georgian_swadesh.json",
+        "explanations": CORPORA / "georgian_swadesh_explanations.json",
+        "batches": [
+            GENERATED / "georgian_swadesh_001_041.json",
+            GENERATED / "georgian_swadesh_042_083.json",
+            GENERATED / "georgian_swadesh_084_124.json",
+            GENERATED / "georgian_swadesh_125_165.json",
+            GENERATED / "georgian_swadesh_166_207.json",
+        ],
+        "id_start": -1800000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": ["სიტყვა", "ნიშნავს", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+    },
 }
 
 BAD_ENGLISH_PATTERNS = [
@@ -339,7 +379,7 @@ def validate_batch(lang, config, expected_vocab, batch_path):
                         for part in words
                         if str(part.get("word", "")).strip()
                     )
-                    normalized_target = target.strip().rstrip("။.།។៕?!።፧፣፤፥፦։՞՜՛՝")
+                    normalized_target = target.strip().rstrip("။.།។៕?!።፧፣፤፥፦։՞՜՛՝჻")
                     if config.get("unspaced_explanations"):
                         normalized_target = re.sub(r"\s+", "", normalized_target)
                     if token_text != normalized_target:
@@ -486,6 +526,15 @@ def enrich_armenian_words(words):
     return words
 
 
+def enrich_georgian_words(words):
+    for word in words:
+        text = str(word.get("word", "")).strip()
+        transliteration = str(word.get("transliteration", "")).strip() or romanize_georgian(text)
+        if transliteration:
+            word["transliteration"] = transliteration
+    return words
+
+
 def expected_range(path):
     stem = path.stem
     start, end = stem.rsplit("_", 2)[1:]
@@ -542,6 +591,8 @@ def merge_language(lang, config):
                     words = enrich_khmer_words(words)
                 elif lang.startswith("armenian"):
                     words = enrich_armenian_words(words)
+                elif lang.startswith("georgian"):
+                    words = enrich_georgian_words(words)
                 explanation_rows.append(
                     {
                         "id": current_id,

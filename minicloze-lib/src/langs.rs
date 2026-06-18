@@ -21,6 +21,8 @@ pub fn normalize_language_input(input: &str) -> String {
         "amharic-swadesh" | "amh-swadesh" => "Amharic Swadesh".to_string(),
         "armenian-a1" | "hye-a1" => "Armenian A1".to_string(),
         "armenian-swadesh" | "hye-swadesh" => "Armenian Swadesh".to_string(),
+        "georgian-a1" | "kat-a1" => "Georgian A1".to_string(),
+        "georgian-swadesh" | "kat-swadesh" => "Georgian Swadesh".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -53,6 +55,10 @@ pub fn normalize_language_input(input: &str) -> String {
             format!("Armenian A{}", &lower["armenian-a".len()..])
         }
         _ if lower.starts_with("hye-a") => format!("Armenian A{}", &lower["hye-a".len()..]),
+        _ if lower.starts_with("georgian-a") => {
+            format!("Georgian A{}", &lower["georgian-a".len()..])
+        }
+        _ if lower.starts_with("kat-a") => format!("Georgian A{}", &lower["kat-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -274,6 +280,8 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Kannada", "kan"),
         ("Kashmiri", "kas"),
         ("Georgian", "kat"),
+        ("Georgian A1", "kat-a1"),
+        ("Georgian Swadesh", "kat-swadesh"),
         ("Kazakh", "kaz"),
         ("Kabardian", "kbd"),
         ("Kekchi (Q'eqchi')", "kek"),

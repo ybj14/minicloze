@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260618-7";
+const DATA_VERSION = "static-data-20260618-8";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -173,6 +173,28 @@ const COURSES = [
     vocabularyPath: dataPath("/data/armenian_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/armenian_swadesh_explanations.json"),
     tokensPath: dataPath("/data/armenian_swadesh_tokens.json"),
+  },
+  {
+    code: "kat-a1",
+    label: "Georgian A1",
+    slug: "georgian-a1",
+    baseLanguage: "kat",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/georgian_a1.json"),
+    vocabularyPath: dataPath("/data/georgian_a1_vocab.json"),
+    explanationsPath: dataPath("/data/georgian_a1_explanations.json"),
+    tokensPath: dataPath("/data/georgian_a1_tokens.json"),
+  },
+  {
+    code: "kat-swadesh",
+    label: "Georgian Swadesh",
+    slug: "georgian-swadesh",
+    baseLanguage: "kat",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/georgian_swadesh.json"),
+    vocabularyPath: dataPath("/data/georgian_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/georgian_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/georgian_swadesh_tokens.json"),
   },
 ];
 
@@ -1350,7 +1372,7 @@ function firstTranslationText(sentence) {
 
 function removePunctuation(word) {
   return String(word || "")
-    .replace(/[(),.;:?¿!¡"«»。།༎༏༐༑༔።፣፤፥፦፧։՞՜՛՝]/gu, "")
+    .replace(/[(),.;:?¿!¡"«»。།༎༏༐༑༔።፣፤፥፦፧։՞՜՛՝჻]/gu, "")
     .trim()
     .replace(/^[་༌]+|[་༌]+$/gu, "");
 }

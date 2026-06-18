@@ -95,6 +95,14 @@ pub fn corpus_for_language(language: &str) -> Option<LocalCorpus> {
             base_language: "hye",
             json: include_str!("../corpora/armenian_swadesh.json"),
         }),
+        "kat-a1" => Some(LocalCorpus {
+            base_language: "kat",
+            json: include_str!("../corpora/georgian_a1.json"),
+        }),
+        "kat-swadesh" => Some(LocalCorpus {
+            base_language: "kat",
+            json: include_str!("../corpora/georgian_swadesh.json"),
+        }),
         _ => None,
     }
 }
@@ -148,6 +156,12 @@ pub fn vocabulary_for_language(language: &str) -> Option<LocalVocabulary> {
         }),
         "hye-swadesh" => Some(LocalVocabulary {
             json: include_str!("../corpora/armenian_swadesh_vocab.json"),
+        }),
+        "kat-a1" => Some(LocalVocabulary {
+            json: include_str!("../corpora/georgian_a1_vocab.json"),
+        }),
+        "kat-swadesh" => Some(LocalVocabulary {
+            json: include_str!("../corpora/georgian_swadesh_vocab.json"),
         }),
         _ => None,
     }
@@ -298,6 +312,12 @@ fn explanations_for_language(language: &str) -> Option<LocalExplanations> {
         "hye-swadesh" => Some(LocalExplanations {
             json: include_str!("../corpora/armenian_swadesh_explanations.json"),
         }),
+        "kat-a1" => Some(LocalExplanations {
+            json: include_str!("../corpora/georgian_a1_explanations.json"),
+        }),
+        "kat-swadesh" => Some(LocalExplanations {
+            json: include_str!("../corpora/georgian_swadesh_explanations.json"),
+        }),
         _ => None,
     }
 }
@@ -312,6 +332,7 @@ pub fn lookup_language(language: &str) -> &str {
         "khm-a1" | "khm-swadesh" => "khm",
         "amh-a1" | "amh-swadesh" => "amh",
         "hye-a1" | "hye-swadesh" => "hye",
+        "kat-a1" | "kat-swadesh" => "kat",
         _ => language,
     }
 }
@@ -340,6 +361,8 @@ mod tests {
             "amh-swadesh",
             "hye-a1",
             "hye-swadesh",
+            "kat-a1",
+            "kat-swadesh",
         ] {
             let corpus = corpus_for_language(language).expect("local corpus exists");
             let explanations =
