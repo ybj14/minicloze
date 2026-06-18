@@ -1,4 +1,4 @@
-# Local A1 corpora
+# Local corpora
 
 These corpora use the same JSON shape as the Tatoeba v1 sentence API, with one extra optional field:
 
@@ -10,12 +10,20 @@ Files:
 
 - `mongolian_a1_vocab.json`: 500 Mongolian Cyrillic target words.
 - `mongolian_a1.json`: 1,500 Mongolian cloze sentences.
+- `mongolian_swadesh_vocab.json`: 207 Mongolian Cyrillic Swadesh target words.
+- `mongolian_swadesh.json`: 621 Mongolian Swadesh cloze sentences.
 - `tibetan_a1_vocab.json`: 500 Tibetan target words.
 - `tibetan_a1.json`: 1,500 Tibetan cloze sentences.
+- `tibetan_swadesh_vocab.json`: 207 Tibetan Swadesh target words.
+- `tibetan_swadesh.json`: 621 Tibetan Swadesh cloze sentences.
 - `tajik_a1_vocab.json`: 500 Tajik Cyrillic target words.
 - `tajik_a1.json`: 1,500 Tajik cloze sentences.
+- `tajik_swadesh_vocab.json`: 207 Tajik Cyrillic Swadesh target words.
+- `tajik_swadesh.json`: 621 Tajik Swadesh cloze sentences.
 - `thai_a1_vocab.json`: 500 Thai target words.
 - `thai_a1.json`: 1,500 Thai cloze sentences.
+- `thai_swadesh_vocab.json`: 207 Thai Swadesh target words.
+- `thai_swadesh.json`: 621 Thai Swadesh cloze sentences.
 
 Sources:
 
@@ -24,3 +32,4 @@ Sources:
 - Tibetan: https://www.small-steps-tibetan.com/first-1000-words-basic, used as the source for the 500-word Tibetan beginner vocabulary selection.
 - Tajik: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
 - Thai: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
+- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, and Thai, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.

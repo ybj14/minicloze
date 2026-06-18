@@ -22,6 +22,18 @@ LANGS = {
         "id_start": -100000,
         "forbidden": [" гэдэг үг", "гэдэг үгийг", "word “", "the word"],
     },
+    "mongolian-swadesh": {
+        "vocab": CORPORA / "mongolian_swadesh_vocab.json",
+        "output": CORPORA / "mongolian_swadesh.json",
+        "batches": [
+            GENERATED / "mongolian_swadesh_001_104.json",
+            GENERATED / "mongolian_swadesh_105_207.json",
+        ],
+        "id_start": -500000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": [" гэдэг үг", "гэдэг үгийг", "word “", "the word"],
+    },
     "tibetan": {
         "vocab": CORPORA / "tibetan_a1_vocab.json",
         "output": CORPORA / "tibetan_a1.json",
@@ -32,6 +44,18 @@ LANGS = {
             GENERATED / "tibetan_376_500.json",
         ],
         "id_start": -200000,
+        "forbidden": ["ཞེས་པའི་ཚིག", "word “", "the word"],
+    },
+    "tibetan-swadesh": {
+        "vocab": CORPORA / "tibetan_swadesh_vocab.json",
+        "output": CORPORA / "tibetan_swadesh.json",
+        "batches": [
+            GENERATED / "tibetan_swadesh_001_104.json",
+            GENERATED / "tibetan_swadesh_105_207.json",
+        ],
+        "id_start": -600000,
+        "expected_count": 207,
+        "expected_sentences": 621,
         "forbidden": ["ཞེས་པའི་ཚིག", "word “", "the word"],
     },
     "tajik": {
@@ -47,6 +71,19 @@ LANGS = {
         "forbidden": ["калимаи", "маънои", "word “", "the word"],
         "standalone_target": True,
     },
+    "tajik-swadesh": {
+        "vocab": CORPORA / "tajik_swadesh_vocab.json",
+        "output": CORPORA / "tajik_swadesh.json",
+        "batches": [
+            GENERATED / "tajik_swadesh_001_104.json",
+            GENERATED / "tajik_swadesh_105_207.json",
+        ],
+        "id_start": -700000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": ["калимаи", "маънои", "word “", "the word"],
+        "standalone_target": True,
+    },
     "thai": {
         "vocab": CORPORA / "thai_a1_vocab.json",
         "output": CORPORA / "thai_a1.json",
@@ -57,6 +94,18 @@ LANGS = {
             GENERATED / "thai_376_500.json",
         ],
         "id_start": -400000,
+        "forbidden": ["คำว่า", "word “", "the word"],
+    },
+    "thai-swadesh": {
+        "vocab": CORPORA / "thai_swadesh_vocab.json",
+        "output": CORPORA / "thai_swadesh.json",
+        "batches": [
+            GENERATED / "thai_swadesh_001_104.json",
+            GENERATED / "thai_swadesh_105_207.json",
+        ],
+        "id_start": -800000,
+        "expected_count": 207,
+        "expected_sentences": 621,
         "forbidden": ["คำว่า", "word “", "the word"],
     },
 }

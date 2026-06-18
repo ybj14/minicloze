@@ -6,9 +6,13 @@ pub fn normalize_language_input(input: &str) -> String {
 
     match lower.as_str() {
         "mongolian-a1" | "mon-a1" => "Mongolian A1".to_string(),
+        "mongolian-swadesh" | "mon-swadesh" => "Mongolian Swadesh".to_string(),
         "tibetan-a1" | "bod-a1" => "Tibetan A1".to_string(),
+        "tibetan-swadesh" | "bod-swadesh" => "Tibetan Swadesh".to_string(),
         "tajik-a1" | "tgk-a1" => "Tajik A1".to_string(),
+        "tajik-swadesh" | "tgk-swadesh" => "Tajik Swadesh".to_string(),
         "thai-a1" | "tha-a1" => "Thai A1".to_string(),
+        "thai-swadesh" | "tha-swadesh" => "Thai Swadesh".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -105,6 +109,7 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Banjar", "bjn"),
         ("Tibetan", "bod"),
         ("Tibetan A1", "bod-a1"),
+        ("Tibetan Swadesh", "bod-swadesh"),
         ("Berom", "bom"),
         ("Bosnian", "bos"),
         ("Breton", "bre"),
@@ -306,6 +311,7 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Mohawk", "moh"),
         ("Mongolian", "mon"),
         ("Mongolian A1", "mon-a1"),
+        ("Mongolian Swadesh", "mon-swadesh"),
         ("Maori", "mri"),
         ("Hill Mari", "mrj"),
         ("Muskogee (Creek)", "mus"),
@@ -429,9 +435,11 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Tetun", "tet"),
         ("Tajik", "tgk"),
         ("Tajik A1", "tgk-a1"),
+        ("Tajik Swadesh", "tgk-swadesh"),
         ("Tagalog", "tgl"),
         ("Thai", "tha"),
         ("Thai A1", "tha-a1"),
+        ("Thai Swadesh", "tha-swadesh"),
         ("Tahaggart Tamahaq", "thv"),
         ("Tigre", "tig"),
         ("Tigrinya", "tir"),
@@ -493,18 +501,38 @@ mod tests {
     #[test]
     fn normalizes_local_corpus_language_arguments() {
         assert_eq!(normalize_language_input("tibetan-a1"), "Tibetan A1");
+        assert_eq!(
+            normalize_language_input("tibetan-swadesh"),
+            "Tibetan Swadesh"
+        );
         assert_eq!(normalize_language_input("bod-a2"), "Tibetan A2");
         assert_eq!(normalize_language_input("tajik-a1"), "Tajik A1");
+        assert_eq!(normalize_language_input("tgk-swadesh"), "Tajik Swadesh");
         assert_eq!(normalize_language_input("tgk-a2"), "Tajik A2");
         assert_eq!(normalize_language_input("mongolian-a1"), "Mongolian A1");
+        assert_eq!(normalize_language_input("mon-swadesh"), "Mongolian Swadesh");
         assert_eq!(normalize_language_input("mon-a2"), "Mongolian A2");
+        assert_eq!(normalize_language_input("thai-swadesh"), "Thai Swadesh");
     }
 
     #[test]
     fn resolves_codes_from_aliases() {
         assert_eq!(language_code_for_input("mongolian-a1"), Some("mon-a1"));
+        assert_eq!(
+            language_code_for_input("mongolian-swadesh"),
+            Some("mon-swadesh")
+        );
         assert_eq!(language_code_for_input("tibetan-a1"), Some("bod-a1"));
+        assert_eq!(
+            language_code_for_input("tibetan-swadesh"),
+            Some("bod-swadesh")
+        );
         assert_eq!(language_code_for_input("tajik-a1"), Some("tgk-a1"));
+        assert_eq!(
+            language_code_for_input("tajik-swadesh"),
+            Some("tgk-swadesh")
+        );
         assert_eq!(language_code_for_input("thai-a1"), Some("tha-a1"));
+        assert_eq!(language_code_for_input("thai-swadesh"), Some("tha-swadesh"));
     }
 }

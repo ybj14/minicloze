@@ -269,21 +269,49 @@ async fn data_asset(Path(file): Path<String>) -> Result<Response, AppError> {
             include_str!("../static/data/mongolian_a1_explanations.json")
         }
         "mongolian_a1_vocab.json" => include_str!("../static/data/mongolian_a1_vocab.json"),
+        "mongolian_swadesh.json" => include_str!("../static/data/mongolian_swadesh.json"),
+        "mongolian_swadesh_explanations.json" => {
+            include_str!("../static/data/mongolian_swadesh_explanations.json")
+        }
+        "mongolian_swadesh_vocab.json" => {
+            include_str!("../static/data/mongolian_swadesh_vocab.json")
+        }
         "tibetan_a1.json" => include_str!("../static/data/tibetan_a1.json"),
         "tibetan_a1_explanations.json" => {
             include_str!("../static/data/tibetan_a1_explanations.json")
         }
         "tibetan_a1_tokens.json" => include_str!("../static/data/tibetan_a1_tokens.json"),
         "tibetan_a1_vocab.json" => include_str!("../static/data/tibetan_a1_vocab.json"),
+        "tibetan_swadesh.json" => include_str!("../static/data/tibetan_swadesh.json"),
+        "tibetan_swadesh_explanations.json" => {
+            include_str!("../static/data/tibetan_swadesh_explanations.json")
+        }
+        "tibetan_swadesh_tokens.json" => {
+            include_str!("../static/data/tibetan_swadesh_tokens.json")
+        }
+        "tibetan_swadesh_vocab.json" => {
+            include_str!("../static/data/tibetan_swadesh_vocab.json")
+        }
         "tajik_a1.json" => include_str!("../static/data/tajik_a1.json"),
         "tajik_a1_explanations.json" => {
             include_str!("../static/data/tajik_a1_explanations.json")
         }
         "tajik_a1_vocab.json" => include_str!("../static/data/tajik_a1_vocab.json"),
+        "tajik_swadesh.json" => include_str!("../static/data/tajik_swadesh.json"),
+        "tajik_swadesh_explanations.json" => {
+            include_str!("../static/data/tajik_swadesh_explanations.json")
+        }
+        "tajik_swadesh_vocab.json" => include_str!("../static/data/tajik_swadesh_vocab.json"),
         "thai_a1.json" => include_str!("../static/data/thai_a1.json"),
         "thai_a1_explanations.json" => include_str!("../static/data/thai_a1_explanations.json"),
         "thai_a1_tokens.json" => include_str!("../static/data/thai_a1_tokens.json"),
         "thai_a1_vocab.json" => include_str!("../static/data/thai_a1_vocab.json"),
+        "thai_swadesh.json" => include_str!("../static/data/thai_swadesh.json"),
+        "thai_swadesh_explanations.json" => {
+            include_str!("../static/data/thai_swadesh_explanations.json")
+        }
+        "thai_swadesh_tokens.json" => include_str!("../static/data/thai_swadesh_tokens.json"),
+        "thai_swadesh_vocab.json" => include_str!("../static/data/thai_swadesh_vocab.json"),
         _ => return Err(AppError::not_found("Asset not found")),
     };
 
@@ -336,10 +364,46 @@ async fn languages() -> Json<Vec<LanguageOption>> {
             sentence_count: 1500,
         },
         LanguageOption {
+            code: "mon-swadesh",
+            label: "Mongolian Swadesh",
+            slug: "mongolian-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
             code: "bod-a1",
             label: "Tibetan A1",
             slug: "tibetan-a1",
             sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "bod-swadesh",
+            label: "Tibetan Swadesh",
+            slug: "tibetan-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "tgk-a1",
+            label: "Tajik A1",
+            slug: "tajik-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "tgk-swadesh",
+            label: "Tajik Swadesh",
+            slug: "tajik-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "tha-a1",
+            label: "Thai A1",
+            slug: "thai-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "tha-swadesh",
+            label: "Thai Swadesh",
+            slug: "thai-swadesh",
+            sentence_count: 621,
         },
     ])
 }

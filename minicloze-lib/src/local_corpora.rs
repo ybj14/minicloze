@@ -35,17 +35,33 @@ pub fn corpus_for_language(language: &str) -> Option<LocalCorpus> {
             base_language: "mon",
             json: include_str!("../corpora/mongolian_a1.json"),
         }),
+        "mon-swadesh" => Some(LocalCorpus {
+            base_language: "mon",
+            json: include_str!("../corpora/mongolian_swadesh.json"),
+        }),
         "bod-a1" => Some(LocalCorpus {
             base_language: "bod",
             json: include_str!("../corpora/tibetan_a1.json"),
+        }),
+        "bod-swadesh" => Some(LocalCorpus {
+            base_language: "bod",
+            json: include_str!("../corpora/tibetan_swadesh.json"),
         }),
         "tgk-a1" => Some(LocalCorpus {
             base_language: "tgk",
             json: include_str!("../corpora/tajik_a1.json"),
         }),
+        "tgk-swadesh" => Some(LocalCorpus {
+            base_language: "tgk",
+            json: include_str!("../corpora/tajik_swadesh.json"),
+        }),
         "tha-a1" => Some(LocalCorpus {
             base_language: "tha",
             json: include_str!("../corpora/thai_a1.json"),
+        }),
+        "tha-swadesh" => Some(LocalCorpus {
+            base_language: "tha",
+            json: include_str!("../corpora/thai_swadesh.json"),
         }),
         _ => None,
     }
@@ -56,14 +72,26 @@ pub fn vocabulary_for_language(language: &str) -> Option<LocalVocabulary> {
         "mon-a1" => Some(LocalVocabulary {
             json: include_str!("../corpora/mongolian_a1_vocab.json"),
         }),
+        "mon-swadesh" => Some(LocalVocabulary {
+            json: include_str!("../corpora/mongolian_swadesh_vocab.json"),
+        }),
         "bod-a1" => Some(LocalVocabulary {
             json: include_str!("../corpora/tibetan_a1_vocab.json"),
+        }),
+        "bod-swadesh" => Some(LocalVocabulary {
+            json: include_str!("../corpora/tibetan_swadesh_vocab.json"),
         }),
         "tgk-a1" => Some(LocalVocabulary {
             json: include_str!("../corpora/tajik_a1_vocab.json"),
         }),
+        "tgk-swadesh" => Some(LocalVocabulary {
+            json: include_str!("../corpora/tajik_swadesh_vocab.json"),
+        }),
         "tha-a1" => Some(LocalVocabulary {
             json: include_str!("../corpora/thai_a1_vocab.json"),
+        }),
+        "tha-swadesh" => Some(LocalVocabulary {
+            json: include_str!("../corpora/thai_swadesh_vocab.json"),
         }),
         _ => None,
     }
@@ -169,14 +197,26 @@ fn explanations_for_language(language: &str) -> Option<LocalExplanations> {
         "mon-a1" => Some(LocalExplanations {
             json: include_str!("../corpora/mongolian_a1_explanations.json"),
         }),
+        "mon-swadesh" => Some(LocalExplanations {
+            json: include_str!("../corpora/mongolian_swadesh_explanations.json"),
+        }),
         "bod-a1" => Some(LocalExplanations {
             json: include_str!("../corpora/tibetan_a1_explanations.json"),
+        }),
+        "bod-swadesh" => Some(LocalExplanations {
+            json: include_str!("../corpora/tibetan_swadesh_explanations.json"),
         }),
         "tgk-a1" => Some(LocalExplanations {
             json: include_str!("../corpora/tajik_a1_explanations.json"),
         }),
+        "tgk-swadesh" => Some(LocalExplanations {
+            json: include_str!("../corpora/tajik_swadesh_explanations.json"),
+        }),
         "tha-a1" => Some(LocalExplanations {
             json: include_str!("../corpora/thai_a1_explanations.json"),
+        }),
+        "tha-swadesh" => Some(LocalExplanations {
+            json: include_str!("../corpora/thai_swadesh_explanations.json"),
         }),
         _ => None,
     }
@@ -184,10 +224,10 @@ fn explanations_for_language(language: &str) -> Option<LocalExplanations> {
 
 pub fn lookup_language(language: &str) -> &str {
     match language {
-        "mon-a1" => "mon",
-        "bod-a1" => "bod",
-        "tgk-a1" => "tgk",
-        "tha-a1" => "tha",
+        "mon-a1" | "mon-swadesh" => "mon",
+        "bod-a1" | "bod-swadesh" => "bod",
+        "tgk-a1" | "tgk-swadesh" => "tgk",
+        "tha-a1" | "tha-swadesh" => "tha",
         _ => language,
     }
 }
@@ -199,7 +239,16 @@ mod tests {
 
     #[test]
     fn local_explanations_cover_local_corpora() {
-        for language in ["mon-a1", "bod-a1", "tgk-a1", "tha-a1"] {
+        for language in [
+            "mon-a1",
+            "mon-swadesh",
+            "bod-a1",
+            "bod-swadesh",
+            "tgk-a1",
+            "tgk-swadesh",
+            "tha-a1",
+            "tha-swadesh",
+        ] {
             let corpus = corpus_for_language(language).expect("local corpus exists");
             let explanations =
                 explanations_for_language(language).expect("local explanations exist");

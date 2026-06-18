@@ -18,20 +18,23 @@ STATIC_DATA = ROOT / "minicloze-web" / "static" / "data"
 CORPORA = ROOT / "minicloze-lib" / "corpora"
 
 TIBETAN_BREAKS = {"་", "༌", "།", "༎", "༏", "༐", "༑", "༔"}
-SOURCE_FILES = [
-    "mongolian_a1.json",
-    "mongolian_a1_explanations.json",
-    "mongolian_a1_vocab.json",
-    "tibetan_a1.json",
-    "tibetan_a1_explanations.json",
-    "tibetan_a1_vocab.json",
-    "tajik_a1.json",
-    "tajik_a1_explanations.json",
-    "tajik_a1_vocab.json",
-    "thai_a1.json",
-    "thai_a1_explanations.json",
-    "thai_a1_vocab.json",
+COURSE_PREFIXES = [
+    "mongolian_a1",
+    "mongolian_swadesh",
+    "tibetan_a1",
+    "tibetan_swadesh",
+    "tajik_a1",
+    "tajik_swadesh",
+    "thai_a1",
+    "thai_swadesh",
 ]
+SOURCE_FILES = [
+    filename
+    for prefix in COURSE_PREFIXES
+    for filename in [f"{prefix}.json", f"{prefix}_explanations.json", f"{prefix}_vocab.json"]
+]
+TIBETAN_COURSES = ["tibetan_a1", "tibetan_swadesh"]
+THAI_COURSES = ["thai_a1", "thai_swadesh"]
 
 
 def tokenize_syllables(text: str) -> list[str]:
@@ -109,10 +112,10 @@ def tibetan_token(text: str, wylie: str, thl: str) -> dict[str, str]:
     return token
 
 
-def build_tibetan_tokens() -> None:
+def build_tibetan_tokens(course: str) -> None:
     converter = pyewts.pyewts()
-    corpus_path = STATIC_DATA / "tibetan_a1.json"
-    output_path = STATIC_DATA / "tibetan_a1_tokens.json"
+    corpus_path = STATIC_DATA / f"{course}.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
 
     corpus = json.loads(corpus_path.read_text(encoding="utf-8"))
     tokenized: dict[str, list[dict[str, str]]] = {}
@@ -144,9 +147,9 @@ def build_tibetan_tokens() -> None:
     )
 
 
-def build_thai_tokens() -> None:
-    explanations_path = STATIC_DATA / "thai_a1_explanations.json"
-    output_path = STATIC_DATA / "thai_a1_tokens.json"
+def build_thai_tokens(course: str) -> None:
+    explanations_path = STATIC_DATA / f"{course}_explanations.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
     explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
     tokenized: dict[str, list[dict[str, str]]] = {}
 
@@ -170,9 +173,9 @@ def copy_base_data() -> None:
         shutil.copyfile(CORPORA / filename, STATIC_DATA / filename)
 
 
-def enrich_tibetan_explanations() -> None:
+def enrich_tibetan_explanations(course: str) -> None:
     converter = pyewts.pyewts()
-    path = STATIC_DATA / "tibetan_a1_explanations.json"
+    path = STATIC_DATA / f"{course}_explanations.json"
     explanations = json.loads(path.read_text(encoding="utf-8"))
     all_words: list[str] = [
         word.get("word", "")
@@ -201,8 +204,8 @@ def enrich_tibetan_explanations() -> None:
     )
 
 
-def enrich_thai_explanations() -> None:
-    path = STATIC_DATA / "thai_a1_explanations.json"
+def enrich_thai_explanations(course: str) -> None:
+    path = STATIC_DATA / f"{course}_explanations.json"
     explanations = json.loads(path.read_text(encoding="utf-8"))
 
     for sentence in explanations["data"]:
@@ -219,10 +222,12 @@ def enrich_thai_explanations() -> None:
 
 def main() -> None:
     copy_base_data()
-    build_tibetan_tokens()
-    enrich_tibetan_explanations()
-    enrich_thai_explanations()
-    build_thai_tokens()
+    for course in TIBETAN_COURSES:
+        build_tibetan_tokens(course)
+        enrich_tibetan_explanations(course)
+    for course in THAI_COURSES:
+        enrich_thai_explanations(course)
+        build_thai_tokens(course)
 
 
 if __name__ == "__main__":

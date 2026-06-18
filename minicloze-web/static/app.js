@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260617-3";
+const DATA_VERSION = "static-data-20260618-1";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -13,6 +13,16 @@ const COURSES = [
     explanationsPath: dataPath("/data/mongolian_a1_explanations.json"),
   },
   {
+    code: "mon-swadesh",
+    label: "Mongolian Swadesh",
+    slug: "mongolian-swadesh",
+    baseLanguage: "mon",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/mongolian_swadesh.json"),
+    vocabularyPath: dataPath("/data/mongolian_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/mongolian_swadesh_explanations.json"),
+  },
+  {
     code: "bod-a1",
     label: "Tibetan A1",
     slug: "tibetan-a1",
@@ -22,6 +32,17 @@ const COURSES = [
     vocabularyPath: dataPath("/data/tibetan_a1_vocab.json"),
     explanationsPath: dataPath("/data/tibetan_a1_explanations.json"),
     tokensPath: dataPath("/data/tibetan_a1_tokens.json"),
+  },
+  {
+    code: "bod-swadesh",
+    label: "Tibetan Swadesh",
+    slug: "tibetan-swadesh",
+    baseLanguage: "bod",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/tibetan_swadesh.json"),
+    vocabularyPath: dataPath("/data/tibetan_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/tibetan_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/tibetan_swadesh_tokens.json"),
   },
   {
     code: "tgk-a1",
@@ -34,6 +55,16 @@ const COURSES = [
     explanationsPath: dataPath("/data/tajik_a1_explanations.json"),
   },
   {
+    code: "tgk-swadesh",
+    label: "Tajik Swadesh",
+    slug: "tajik-swadesh",
+    baseLanguage: "tgk",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/tajik_swadesh.json"),
+    vocabularyPath: dataPath("/data/tajik_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/tajik_swadesh_explanations.json"),
+  },
+  {
     code: "tha-a1",
     label: "Thai A1",
     slug: "thai-a1",
@@ -43,6 +74,17 @@ const COURSES = [
     vocabularyPath: dataPath("/data/thai_a1_vocab.json"),
     explanationsPath: dataPath("/data/thai_a1_explanations.json"),
     tokensPath: dataPath("/data/thai_a1_tokens.json"),
+  },
+  {
+    code: "tha-swadesh",
+    label: "Thai Swadesh",
+    slug: "thai-swadesh",
+    baseLanguage: "tha",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/thai_swadesh.json"),
+    vocabularyPath: dataPath("/data/thai_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/thai_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/thai_swadesh_tokens.json"),
   },
 ];
 
@@ -616,6 +658,11 @@ function trailingWhitespace(text) {
   return match ? match[0] : "";
 }
 
+function leadingWhitespace(text) {
+  const match = String(text || "").match(/^\s+/u);
+  return match ? match[0] : "";
+}
+
 function promptTokens(sentence, course, inverse) {
   if (inverse) {
     return tokenizePromptText("eng", sentence.text || "").map((text) => ({
@@ -642,6 +689,18 @@ function promptTokens(sentence, course, inverse) {
   }
 
   if (NON_SPACED_LANGUAGES.has(course.baseLanguage) && sentence.cloze_word) {
+    return tokenizePromptTextWithTarget(
+      course.baseLanguage,
+      firstTranslationText(sentence),
+      sentence.cloze_word,
+    ).map((text) => ({ text, transliteration: null, answerTransliterations: [] }));
+  }
+
+  if (
+    sentence.cloze_word &&
+    /\s/u.test(sentence.cloze_word) &&
+    firstTranslationText(sentence).includes(sentence.cloze_word)
+  ) {
     return tokenizePromptTextWithTarget(
       course.baseLanguage,
       firstTranslationText(sentence),
@@ -725,15 +784,29 @@ function tokenizePromptTextWithTarget(language, text, target) {
     return tokenizePromptText(language, text);
   }
 
-  const index = String(text || "").indexOf(target);
+  const source = String(text || "");
+  const index = source.indexOf(target);
   if (index < 0) {
-    return tokenizePromptText(language, text);
+    return tokenizePromptText(language, source);
+  }
+
+  const before = source.slice(0, index);
+  const after = source.slice(index + target.length);
+  const targetTrailing = leadingWhitespace(after);
+  const beforeTokens = tokenizePromptText(language, before);
+  const whitespaceBeforeTarget = trailingWhitespace(before);
+  if (
+    beforeTokens.length &&
+    whitespaceBeforeTarget &&
+    !beforeTokens[beforeTokens.length - 1].endsWith(whitespaceBeforeTarget)
+  ) {
+    beforeTokens[beforeTokens.length - 1] += whitespaceBeforeTarget;
   }
 
   return [
-    ...tokenizePromptText(language, text.slice(0, index)),
-    target,
-    ...tokenizePromptText(language, text.slice(index + target.length)),
+    ...beforeTokens,
+    `${target}${targetTrailing}`,
+    ...tokenizePromptText(language, after.slice(targetTrailing.length)),
   ];
 }
 
@@ -1169,7 +1242,8 @@ function firstTranslationText(sentence) {
 
 function removePunctuation(word) {
   return String(word || "")
-    .replace(/[(),.;:?¿!¡"«»。 །༎༏༐༑༔]/gu, "")
+    .replace(/[(),.;:?¿!¡"«»。།༎༏༐༑༔]/gu, "")
+    .trim()
     .replace(/^[་༌]+|[་༌]+$/gu, "");
 }
 

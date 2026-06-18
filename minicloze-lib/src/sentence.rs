@@ -229,6 +229,11 @@ fn trailing_whitespace(text: &str) -> &str {
     &text[trimmed.len()..]
 }
 
+fn leading_whitespace(text: &str) -> &str {
+    let trimmed = text.trim_start_matches(char::is_whitespace);
+    &text[..text.len() - trimmed.len()]
+}
+
 fn join_prompt_token_text(tokens: &[PromptToken]) -> String {
     tokens
         .iter()
@@ -334,6 +339,8 @@ pub fn prepare_local_sentences(
         prepare_local_explanation_tokens(sentences);
     } else if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
         prepare_local_non_spaced_target_tokens(corpus.base_language, sentences);
+    } else if corpus.base_language != "bod" {
+        prepare_local_spaced_target_tokens(corpus.base_language, sentences);
     }
 
     Ok(())
@@ -381,13 +388,14 @@ pub fn parse(results: &str) -> Result<Vec<Sentence>, String> {
 pub fn remove_punctuation(word: &str) -> String {
     let cleaned = word.replace(
         &[
-            '(', ')', ',', '.', ';', ':', '?', '¿', '!', '¡', '"', '«', '»', '。', ' ', '།', '༎',
-            '༏', '༐', '༑', '༔',
+            '(', ')', ',', '.', ';', ':', '?', '¿', '!', '¡', '"', '«', '»', '。', '།', '༎', '༏',
+            '༐', '༑', '༔',
         ][..],
         "",
     );
 
     cleaned
+        .trim()
         .trim_matches(|ch| ch == '་' || ch == '༌')
         .to_string()
 }
@@ -473,6 +481,26 @@ fn prepare_local_non_spaced_target_tokens(language: &str, sentences: &mut [Sente
     }
 }
 
+fn prepare_local_spaced_target_tokens(language: &str, sentences: &mut [Sentence]) {
+    for sentence in sentences {
+        let Some(target) = sentence.cloze_word.as_deref() else {
+            continue;
+        };
+        if !target.chars().any(char::is_whitespace) {
+            continue;
+        }
+        let Some(translation) = sentence.get_translation() else {
+            continue;
+        };
+        if !translation.text.contains(target) {
+            continue;
+        }
+
+        let tokens = tokenize_non_spaced_with_target(language, &translation.text, target);
+        sentence.set_tokenized_translation(tokens);
+    }
+}
+
 fn prepare_local_explanation_tokens(sentences: &mut [Sentence]) {
     for sentence in sentences {
         if sentence.word_explanations.is_empty() {
@@ -499,8 +527,16 @@ fn tokenize_non_spaced_with_target(language: &str, text: &str, target: &str) -> 
 
     let before = &text[..index];
     let after = &text[index + target.len()..];
+    let target_trailing = leading_whitespace(after);
+    let after = &after[target_trailing.len()..];
     let mut token_texts = tokenizer::tokenize_prompt_text(language, before);
-    token_texts.push(target.to_string());
+    if let Some(last) = token_texts.last_mut() {
+        let whitespace = trailing_whitespace(before);
+        if !whitespace.is_empty() && !last.ends_with(whitespace) {
+            last.push_str(whitespace);
+        }
+    }
+    token_texts.push(format!("{target}{target_trailing}"));
     token_texts.extend(tokenizer::tokenize_prompt_text(language, after));
     tokens_without_wylie(token_texts)
 }
@@ -768,5 +804,27 @@ mod tests {
             prompt.first_half_transliteration,
             Some("chǎn dʉ̀ʉm".to_string())
         );
+    }
+
+    #[test]
+    fn local_spaced_sentences_can_blank_multiword_targets() {
+        let mut sentences = vec![Sentence {
+            id: 1,
+            text: "I drink water because it is hot.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "Би ус ууж яагаад гэвэл халуун байна.".to_string(),
+            }],
+            cloze_word: Some("яагаад гэвэл".to_string()),
+            word_explanations: Vec::new(),
+            tokenized_translation: None,
+        }];
+
+        prepare_local_spaced_target_tokens("mon", &mut sentences);
+        let prompt = sentences[0].generate_prompt("mon", false);
+
+        assert_eq!(prompt.first_half, "Би ус ууж ");
+        assert_eq!(prompt.word, "яагаад гэвэл");
+        assert_eq!(prompt.second_half, " халуун байна.");
     }
 }
