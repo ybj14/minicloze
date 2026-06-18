@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260618-5";
+const DATA_VERSION = "static-data-20260618-6";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -129,6 +129,28 @@ const COURSES = [
     vocabularyPath: dataPath("/data/khmer_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/khmer_swadesh_explanations.json"),
     tokensPath: dataPath("/data/khmer_swadesh_tokens.json"),
+  },
+  {
+    code: "amh-a1",
+    label: "Amharic A1",
+    slug: "amharic-a1",
+    baseLanguage: "amh",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/amharic_a1.json"),
+    vocabularyPath: dataPath("/data/amharic_a1_vocab.json"),
+    explanationsPath: dataPath("/data/amharic_a1_explanations.json"),
+    tokensPath: dataPath("/data/amharic_a1_tokens.json"),
+  },
+  {
+    code: "amh-swadesh",
+    label: "Amharic Swadesh",
+    slug: "amharic-swadesh",
+    baseLanguage: "amh",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/amharic_swadesh.json"),
+    vocabularyPath: dataPath("/data/amharic_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/amharic_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/amharic_swadesh_tokens.json"),
   },
 ];
 
@@ -1306,7 +1328,7 @@ function firstTranslationText(sentence) {
 
 function removePunctuation(word) {
   return String(word || "")
-    .replace(/[(),.;:?¿!¡"«»。།༎༏༐༑༔]/gu, "")
+    .replace(/[(),.;:?¿!¡"«»。།༎༏༐༑༔።፣፤፥፦፧]/gu, "")
     .trim()
     .replace(/^[་༌]+|[་༌]+$/gu, "");
 }

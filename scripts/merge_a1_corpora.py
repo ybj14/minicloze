@@ -196,6 +196,45 @@ LANGS = {
         "unspaced_explanations": True,
         "max_frame_repeats": 50,
     },
+    "amharic": {
+        "vocab": CORPORA / "amharic_a1_vocab.json",
+        "output": CORPORA / "amharic_a1.json",
+        "explanations": CORPORA / "amharic_a1_explanations.json",
+        "batches": [
+            GENERATED / "amharic_001_050.json",
+            GENERATED / "amharic_051_100.json",
+            GENERATED / "amharic_101_150.json",
+            GENERATED / "amharic_151_200.json",
+            GENERATED / "amharic_201_250.json",
+            GENERATED / "amharic_251_300.json",
+            GENERATED / "amharic_301_350.json",
+            GENERATED / "amharic_351_400.json",
+            GENERATED / "amharic_401_450.json",
+            GENERATED / "amharic_451_500.json",
+        ],
+        "id_start": -1300000,
+        "forbidden": ["ቃል ማለት", "የሚለው", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+    },
+    "amharic-swadesh": {
+        "vocab": CORPORA / "amharic_swadesh_vocab.json",
+        "output": CORPORA / "amharic_swadesh.json",
+        "explanations": CORPORA / "amharic_swadesh_explanations.json",
+        "batches": [
+            GENERATED / "amharic_swadesh_001_041.json",
+            GENERATED / "amharic_swadesh_042_083.json",
+            GENERATED / "amharic_swadesh_084_124.json",
+            GENERATED / "amharic_swadesh_125_165.json",
+            GENERATED / "amharic_swadesh_166_207.json",
+        ],
+        "id_start": -1400000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": ["ቃል ማለት", "የሚለው", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+    },
 }
 
 BAD_ENGLISH_PATTERNS = [
@@ -260,7 +299,7 @@ def validate_batch(lang, config, expected_vocab, batch_path):
                         for part in words
                         if str(part.get("word", "")).strip()
                     )
-                    normalized_target = target.strip().rstrip("။.།។៕?!")
+                    normalized_target = target.strip().rstrip("။.།។៕?!።፧፣፤፥፦")
                     if config.get("unspaced_explanations"):
                         normalized_target = re.sub(r"\s+", "", normalized_target)
                     if token_text != normalized_target:

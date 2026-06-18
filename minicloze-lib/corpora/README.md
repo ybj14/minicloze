@@ -36,6 +36,12 @@ Files:
 - `khmer_swadesh_vocab.json`: 207 Khmer Swadesh target words.
 - `khmer_swadesh.json`: 621 Khmer Swadesh cloze sentences.
 - `khmer_swadesh_explanations.json`: full-sentence Khmer Swadesh word explanations with Wiktionary transliteration and transcription.
+- `amharic_a1_vocab.json`: 500 Amharic target words.
+- `amharic_a1.json`: 1,500 Amharic cloze sentences.
+- `amharic_a1_explanations.json`: full-sentence Amharic word explanations with SERA-style transliteration.
+- `amharic_swadesh_vocab.json`: 207 Amharic Swadesh target words.
+- `amharic_swadesh.json`: 621 Amharic Swadesh cloze sentences.
+- `amharic_swadesh_explanations.json`: full-sentence Amharic Swadesh word explanations with SERA-style transliteration.
 
 Sources:
 
@@ -46,4 +52,5 @@ Sources:
 - Thai: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
 - Burmese: Codex-authored beginner A1 course material, split into reviewed batch files before merge.
 - Khmer: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
-- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, Burmese, and Khmer, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.
+- Amharic: Codex-curated beginner A1 seed list, combined with Amharic Swadesh seed items, used for selecting target words and English glosses.
+- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, Burmese, Khmer, and Amharic, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.

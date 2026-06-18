@@ -17,6 +17,8 @@ pub fn normalize_language_input(input: &str) -> String {
         "burmese-swadesh" | "myanmar-swadesh" | "mya-swadesh" => "Burmese Swadesh".to_string(),
         "khmer-a1" | "cambodian-a1" | "khm-a1" => "Khmer A1".to_string(),
         "khmer-swadesh" | "cambodian-swadesh" | "khm-swadesh" => "Khmer Swadesh".to_string(),
+        "amharic-a1" | "amh-a1" => "Amharic A1".to_string(),
+        "amharic-swadesh" | "amh-swadesh" => "Amharic Swadesh".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -41,6 +43,10 @@ pub fn normalize_language_input(input: &str) -> String {
             format!("Khmer A{}", &lower["cambodian-a".len()..])
         }
         _ if lower.starts_with("khm-a") => format!("Khmer A{}", &lower["khm-a".len()..]),
+        _ if lower.starts_with("amharic-a") => {
+            format!("Amharic A{}", &lower["amharic-a".len()..])
+        }
+        _ if lower.starts_with("amh-a") => format!("Amharic A{}", &lower["amh-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -94,6 +100,8 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Gheg Albanian", "aln"),
         ("Southern Altai", "alt"),
         ("Amharic", "amh"),
+        ("Amharic A1", "amh-a1"),
+        ("Amharic Swadesh", "amh-swadesh"),
         ("Old English", "ang"),
         ("Uab Meto", "aoz"),
         ("North Levantine Arabic", "apc"),

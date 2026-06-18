@@ -358,8 +358,12 @@ pub fn prepare_local_sentences(
     if corpus.base_language == "tha"
         || corpus.base_language == "mya"
         || corpus.base_language == "khm"
+        || corpus.base_language == "amh"
     {
-        prepare_local_explanation_tokens(sentences, corpus.base_language == "mya");
+        prepare_local_explanation_tokens(
+            sentences,
+            corpus.base_language == "mya" || corpus.base_language == "amh",
+        );
     } else if corpus.base_language != "bod" && tokenizer::is_non_spaced(corpus.base_language) {
         prepare_local_non_spaced_target_tokens(corpus.base_language, sentences);
     } else if corpus.base_language != "bod" {
@@ -412,7 +416,7 @@ pub fn remove_punctuation(word: &str) -> String {
     let cleaned = word.replace(
         &[
             '(', ')', ',', '.', ';', ':', '?', '¿', '!', '¡', '"', '«', '»', '。', '།', '༎', '༏',
-            '༐', '༑', '༔',
+            '༐', '༑', '༔', '።', '፣', '፤', '፥', '፦', '፧',
         ][..],
         "",
     );
@@ -1010,6 +1014,66 @@ mod tests {
         assert!(prompt
             .word_answer_transliterations
             .contains(&"tœ̆k".to_string()));
+    }
+
+    #[test]
+    fn local_amharic_explanation_tokens_provide_transliteration() {
+        let mut sentences = vec![Sentence {
+            id: 1,
+            text: "I drink water.".to_string(),
+            translations: vec![Translation {
+                id: 2,
+                text: "እኔ ውሃ እጠጣለሁ።".to_string(),
+            }],
+            cloze_word: Some("ውሃ".to_string()),
+            word_explanations: vec![
+                WordExplanation {
+                    word: "እኔ".to_string(),
+                    gloss: "I".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: None,
+                    okell: None,
+                    transliteration: Some("enE".to_string()),
+                    transcription: None,
+                },
+                WordExplanation {
+                    word: "ውሃ".to_string(),
+                    gloss: "water".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: None,
+                    okell: None,
+                    transliteration: Some("wha".to_string()),
+                    transcription: None,
+                },
+                WordExplanation {
+                    word: "እጠጣለሁ".to_string(),
+                    gloss: "I drink".to_string(),
+                    note: None,
+                    wylie: None,
+                    thl: None,
+                    paiboon: None,
+                    mlcts: None,
+                    okell: None,
+                    transliteration: Some("eTeTalehu".to_string()),
+                    transcription: None,
+                },
+            ],
+            tokenized_translation: None,
+        }];
+
+        prepare_local_explanation_tokens(&mut sentences, true);
+        let prompt = sentences[0].generate_prompt("amh", false);
+
+        assert_eq!(prompt.first_half, "እኔ ");
+        assert_eq!(prompt.word, "ውሃ");
+        assert_eq!(prompt.word_transliteration, Some("wha".to_string()));
+        assert_eq!(prompt.first_half_transliteration, Some("enE".to_string()));
     }
 
     #[test]
