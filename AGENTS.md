@@ -1,0 +1,88 @@
+# Repository Guidelines
+
+## Project Shape
+
+`minicloze` is a Rust workspace for a cloze-style language-learning game.
+
+- `minicloze-lib/`: shared Rust logic for sentence loading, prompts, answer checking, SRS, Tibetan helpers, and local corpora embedded with `include_str!`.
+- `minicloze-cli/`: terminal frontend; `cargo run -- <language-or-corpus> [inverse]`.
+- `minicloze-web/`: Axum local web server plus a browser-only static PWA in `minicloze-web/static`.
+- `minicloze-lib/corpora/`: source local course JSON, vocabulary JSON, explanation JSON, and generated batch inputs.
+- `scripts/`: corpus merge/build/enrichment utilities.
+
+The important local course codes are `mon-a1`, `mon-swadesh`, `bod-a1`, `bod-swadesh`, `tgk-a1`, `tgk-swadesh`, `tha-a1`, and `tha-swadesh`. User-facing aliases such as `mongolian-a1` and `tibetan-swadesh` are normalized in `minicloze-lib/src/langs.rs`.
+
+## Development Commands
+
+Run commands from the repository root unless noted otherwise.
+
+- Format Rust: `cargo fmt`
+- Run all Rust tests: `cargo test`
+- Run CLI locally: `cargo run -- mongolian-a1` or `cargo run -- tibetan-a1 inverse`
+- Run launcher with Tibetan dependencies bootstrapped: `./learn.sh tibetan-a1`
+- Run local web server with Tibetan helpers: `./web.sh`
+- Static PWA preview: `python3 -m http.server 4173 --directory minicloze-web/static`
+- Rebuild static web data after corpus changes: `./.venv-tibetan/bin/python scripts/build_static_web_data.py`
+- Background web server: `./webctl.sh start`, `./webctl.sh status`, `./webctl.sh stop`, `./webctl.sh logs`
+
+`npm install` provides the `tibetan-ewts-converter` dependency used by Tibetan THL generation. The launcher scripts create/reuse `.venv-tibetan` and install Botok/pyewts when needed.
+
+## Corpus Workflow
+
+Treat `minicloze-lib/corpora` as the source of truth. The browser app loads mirrored files from `minicloze-web/static/data`, so any corpus, vocabulary, or explanation change usually needs:
+
+1. Update source files under `minicloze-lib/corpora`.
+2. Run the relevant generator/merge script if the source is a generated batch.
+3. Run `./.venv-tibetan/bin/python scripts/build_static_web_data.py`.
+4. Run `cargo test`.
+
+Useful corpus scripts:
+
+- `scripts/merge_a1_corpora.py [language...]` validates generated batches and writes the main A1/Swadesh corpus JSON files.
+- `scripts/generate_full_sentence_explanations.py [tajik|thai]` builds Tajik/Thai explanation files and fails on unknown/alignment issues by default.
+- `scripts/generate_swadesh_courses.py` fetches Wiktionary Swadesh seed data and writes local Swadesh vocabulary/course material.
+- `scripts/build_static_web_data.py` copies corpus/vocab/explanation files into the static web directory, adds Tibetan Wylie/THL data, and adds Thai Paiboon data.
+
+When adding or renaming a local course, update all relevant places together: `minicloze-lib/src/langs.rs`, `minicloze-lib/src/local_corpora.rs`, `minicloze-web/static/app.js`, corpus source files, static data, and tests.
+
+## Data Conventions
+
+- Local corpus files use the Tatoeba v1-style shape: `{ "data": [...] }`, with `translations[0].text` as the target-language sentence and `text` as the English side for local courses.
+- Local corpus rows may include `cloze_word`; keep it aligned with the actual target sentence.
+- A1 courses have 500 vocabulary items and 1,500 sentences. Swadesh courses have 207 vocabulary items and 621 sentences.
+- Existing local IDs are negative and language-specific; preserve each script's `id_start` range.
+- Keep non-ASCII language text intact. Do not normalize away Tibetan tseks, Thai spelling, Cyrillic letters, or transliteration fields.
+- For Tajik generated sentences, target words should be standalone words where the merge script enforces that.
+- Avoid meta-language in generated target sentences, such as sentences that talk about "the word ..." instead of using the word naturally.
+
+## Static Web Notes
+
+The static PWA in `minicloze-web/static` is deployable as-is. `vercel.json` serves that directory without an install/build step.
+
+When changing `app.js`, `app.css`, `index.html`, service-worker behavior, or static data, keep cache busting in sync:
+
+- `DATA_VERSION` in `minicloze-web/static/app.js`
+- `CACHE_NAME` and shell asset query strings in `minicloze-web/static/service-worker.js`
+- CSS/JS query strings in `minicloze-web/static/index.html`
+
+The Axum server in `minicloze-web/src/main.rs` embeds the same static files with `include_str!` and exposes API endpoints for local server mode.
+
+## Testing Guidance
+
+Run `cargo test` for normal changes. It covers answer normalization, local corpus/explanation alignment, SRS behavior, language aliases, Tibetan helpers, CLI answer handling, and web option generation.
+
+For corpus-only changes, still run `cargo test` after rebuilding static data. If you change Python/Node generation scripts, run the specific script on the affected language and inspect the resulting JSON diff.
+
+For frontend/UI changes, preview with either `./web.sh` or the static HTTP server. Check both multiple-choice and text-input modes, inverse mode, and at least one Tibetan or Thai course if transliteration/token rendering changed.
+
+## Code Style
+
+- Follow existing Rust 2021 style and keep shared behavior in `minicloze-lib` rather than duplicating it in frontends.
+- Prefer small, focused tests near the module they exercise.
+- Keep JavaScript in the static app framework-free and consistent with the existing DOM/state style.
+- Keep Python scripts deterministic where possible and use UTF-8 JSON reads/writes with `ensure_ascii=False`.
+- Do not hand-edit `minicloze-web/static/data` as the only copy of a corpus change; regenerate it from `minicloze-lib/corpora`.
+
+## Git Hygiene
+
+This repository may be nested inside a broader workspace. The project repository root is this directory, not its parent. Avoid committing local runtime artifacts such as `target/`, `node_modules/`, `.venv-tibetan/`, `.minicloze-web.log`, `.minicloze-web.pid`, and `.DS_Store`.
