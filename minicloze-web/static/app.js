@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260618-4";
+const DATA_VERSION = "static-data-20260618-5";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -107,6 +107,28 @@ const COURSES = [
     vocabularyPath: dataPath("/data/burmese_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/burmese_swadesh_explanations.json"),
     tokensPath: dataPath("/data/burmese_swadesh_tokens.json"),
+  },
+  {
+    code: "khm-a1",
+    label: "Khmer A1",
+    slug: "khmer-a1",
+    baseLanguage: "khm",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/khmer_a1.json"),
+    vocabularyPath: dataPath("/data/khmer_a1_vocab.json"),
+    explanationsPath: dataPath("/data/khmer_a1_explanations.json"),
+    tokensPath: dataPath("/data/khmer_a1_tokens.json"),
+  },
+  {
+    code: "khm-swadesh",
+    label: "Khmer Swadesh",
+    slug: "khmer-swadesh",
+    baseLanguage: "khm",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/khmer_swadesh.json"),
+    vocabularyPath: dataPath("/data/khmer_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/khmer_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/khmer_swadesh_tokens.json"),
   },
 ];
 
@@ -740,6 +762,7 @@ function tokenTransliteration(token) {
     token.thl ||
     token.paiboon ||
     token.okell ||
+    token.transcription ||
     token.mlcts ||
     token.transliteration ||
     token.wylie ||
@@ -754,6 +777,7 @@ function tokenAnswerTransliterations(token) {
   pushUniqueTransliteration(values, token.paiboon);
   pushUniqueTransliteration(values, token.okell);
   pushUniqueTransliteration(values, token.mlcts);
+  pushUniqueTransliteration(values, token.transcription);
   pushUniqueTransliteration(values, token.transliteration);
   return values;
 }
@@ -1143,8 +1167,11 @@ function explanationTransliterations(explanation) {
   if (explanation.mlcts) {
     values.push(`MLCTS: ${explanation.mlcts}`);
   }
-  if (!values.length && explanation.transliteration) {
-    values.push(explanation.transliteration);
+  if (explanation.transcription) {
+    values.push(`WT transcr.: ${explanation.transcription}`);
+  }
+  if (explanation.transliteration) {
+    values.push(`WT translit.: ${explanation.transliteration}`);
   }
   return values;
 }

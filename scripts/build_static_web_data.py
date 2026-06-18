@@ -11,6 +11,8 @@ from pathlib import Path
 import pyewts
 
 from burmese_okell import romanize as romanize_burmese_okell
+from khmer_romanization import transcribe as transcribe_khmer
+from khmer_romanization import transliterate as transliterate_khmer
 from thai_paiboon import romanize as romanize_thai_paiboon
 
 
@@ -30,6 +32,8 @@ COURSE_PREFIXES = [
     "thai_swadesh",
     "burmese_a1",
     "burmese_swadesh",
+    "khmer_a1",
+    "khmer_swadesh",
 ]
 SOURCE_FILES = [
     filename
@@ -39,6 +43,7 @@ SOURCE_FILES = [
 TIBETAN_COURSES = ["tibetan_a1", "tibetan_swadesh"]
 THAI_COURSES = ["thai_a1", "thai_swadesh"]
 BURMESE_COURSES = ["burmese_a1", "burmese_swadesh"]
+KHMER_COURSES = ["khmer_a1", "khmer_swadesh"]
 
 
 def tokenize_syllables(text: str) -> list[str]:
@@ -200,6 +205,32 @@ def build_burmese_tokens(course: str) -> None:
     )
 
 
+def build_khmer_tokens(course: str) -> None:
+    explanations_path = STATIC_DATA / f"{course}_explanations.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
+    explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
+    tokenized: dict[str, list[dict[str, str]]] = {}
+
+    for sentence in explanations["data"]:
+        tokens = []
+        for word in sentence.get("words", []):
+            text = word.get("word", "")
+            transliteration = word.get("transliteration") or transliterate_khmer(text)
+            transcription = word.get("transcription") or transcribe_khmer(text)
+            token = {"text": text}
+            if transliteration:
+                token["transliteration"] = transliteration
+            if transcription:
+                token["transcription"] = transcription
+            tokens.append(token)
+        tokenized[str(sentence["id"])] = tokens
+
+    output_path.write_text(
+        json.dumps(tokenized, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def copy_base_data() -> None:
     STATIC_DATA.mkdir(parents=True, exist_ok=True)
     for filename in SOURCE_FILES:
@@ -270,6 +301,26 @@ def enrich_burmese_explanations(course: str) -> None:
     )
 
 
+def enrich_khmer_explanations(course: str) -> None:
+    path = STATIC_DATA / f"{course}_explanations.json"
+    explanations = json.loads(path.read_text(encoding="utf-8"))
+
+    for sentence in explanations["data"]:
+        for word in sentence.get("words", []):
+            text = word.get("word", "")
+            transliteration = word.get("transliteration") or transliterate_khmer(text)
+            transcription = word.get("transcription") or transcribe_khmer(text)
+            if transliteration.strip():
+                word["transliteration"] = transliteration
+            if transcription.strip():
+                word["transcription"] = transcription
+
+    path.write_text(
+        json.dumps(explanations, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     copy_base_data()
     for course in TIBETAN_COURSES:
@@ -281,6 +332,9 @@ def main() -> None:
     for course in BURMESE_COURSES:
         enrich_burmese_explanations(course)
         build_burmese_tokens(course)
+    for course in KHMER_COURSES:
+        enrich_khmer_explanations(course)
+        build_khmer_tokens(course)
 
 
 if __name__ == "__main__":

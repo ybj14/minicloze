@@ -5,6 +5,8 @@ import sys
 from pathlib import Path
 
 from burmese_okell import romanize as romanize_burmese_okell
+from khmer_romanization import transcribe as transcribe_khmer
+from khmer_romanization import transliterate as transliterate_khmer
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -151,6 +153,49 @@ LANGS = {
         "explanations_from_batches": True,
         "max_frame_repeats": 8,
     },
+    "khmer": {
+        "vocab": CORPORA / "khmer_a1_vocab.json",
+        "output": CORPORA / "khmer_a1.json",
+        "explanations": CORPORA / "khmer_a1_explanations.json",
+        "batches": [
+            GENERATED / "khmer_001_050.json",
+            GENERATED / "khmer_051_100.json",
+            GENERATED / "khmer_101_150.json",
+            GENERATED / "khmer_151_200.json",
+            GENERATED / "khmer_201_250.json",
+            GENERATED / "khmer_251_300.json",
+            GENERATED / "khmer_301_350.json",
+            GENERATED / "khmer_351_400.json",
+            GENERATED / "khmer_401_450.json",
+            GENERATED / "khmer_451_500.json",
+        ],
+        "id_start": -1100000,
+        "forbidden": ["មានន័យ", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "unspaced_explanations": True,
+        "max_frame_repeats": 50,
+    },
+    "khmer-swadesh": {
+        "vocab": CORPORA / "khmer_swadesh_vocab.json",
+        "output": CORPORA / "khmer_swadesh.json",
+        "explanations": CORPORA / "khmer_swadesh_explanations.json",
+        "batches": [
+            GENERATED / "khmer_swadesh_001_041.json",
+            GENERATED / "khmer_swadesh_042_083.json",
+            GENERATED / "khmer_swadesh_084_124.json",
+            GENERATED / "khmer_swadesh_125_165.json",
+            GENERATED / "khmer_swadesh_166_207.json",
+        ],
+        "id_start": -1200000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": ["មានន័យ", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "unspaced_explanations": True,
+        "max_frame_repeats": 50,
+    },
 }
 
 BAD_ENGLISH_PATTERNS = [
@@ -209,12 +254,15 @@ def validate_batch(lang, config, expected_vocab, batch_path):
                         f"{batch_path}: index {index} sentence {sentence_index} must include words explanations"
                     )
                 else:
-                    token_text = " ".join(
+                    separator = "" if config.get("unspaced_explanations") else " "
+                    token_text = separator.join(
                         str(part.get("word", "")).strip()
                         for part in words
                         if str(part.get("word", "")).strip()
                     )
-                    normalized_target = target.strip().rstrip("။.།")
+                    normalized_target = target.strip().rstrip("။.།។៕?!")
+                    if config.get("unspaced_explanations"):
+                        normalized_target = re.sub(r"\s+", "", normalized_target)
                     if token_text != normalized_target:
                         errors.append(
                             f"{batch_path}: index {index} sentence {sentence_index} words do not match target"
@@ -338,6 +386,18 @@ def enrich_burmese_words(words):
     return words
 
 
+def enrich_khmer_words(words):
+    for word in words:
+        text = str(word.get("word", "")).strip()
+        transliteration = str(word.get("transliteration", "")).strip() or transliterate_khmer(text)
+        transcription = str(word.get("transcription", "")).strip() or transcribe_khmer(text)
+        if transliteration:
+            word["transliteration"] = transliteration
+        if transcription:
+            word["transcription"] = transcription
+    return words
+
+
 def expected_range(path):
     stem = path.stem
     start, end = stem.rsplit("_", 2)[1:]
@@ -390,6 +450,8 @@ def merge_language(lang, config):
                 words = sentence["words"]
                 if lang.startswith("burmese"):
                     words = enrich_burmese_words(words)
+                elif lang.startswith("khmer"):
+                    words = enrich_khmer_words(words)
                 explanation_rows.append(
                     {
                         "id": current_id,

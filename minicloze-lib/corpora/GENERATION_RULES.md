@@ -103,3 +103,8 @@ For Burmese, include both `mlcts` and `okell` on every explanation word and
 sentence token. Treat MLCTS as the spelling-oriented scholarly transliteration
 and Okell as the learner pronunciation transcription, analogous to Tibetan
 Wylie plus THL.
+
+For Khmer, include both Wiktionary-style `transliteration` and Wiktionary-style
+`transcription` on every explanation word and sentence token. Treat
+`transliteration` as the spelling-oriented WT:KM TR helper and `transcription`
+as the learner pronunciation helper.

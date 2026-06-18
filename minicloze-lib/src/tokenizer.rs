@@ -44,6 +44,8 @@ pub fn prepare_sentences(
                         paiboon: String::new(),
                         mlcts: String::new(),
                         okell: String::new(),
+                        transliteration: String::new(),
+                        transcription: String::new(),
                     })
                     .collect()
             })

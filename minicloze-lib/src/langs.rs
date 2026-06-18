@@ -15,6 +15,8 @@ pub fn normalize_language_input(input: &str) -> String {
         "thai-swadesh" | "tha-swadesh" => "Thai Swadesh".to_string(),
         "burmese-a1" | "myanmar-a1" | "mya-a1" => "Burmese A1".to_string(),
         "burmese-swadesh" | "myanmar-swadesh" | "mya-swadesh" => "Burmese Swadesh".to_string(),
+        "khmer-a1" | "cambodian-a1" | "khm-a1" => "Khmer A1".to_string(),
+        "khmer-swadesh" | "cambodian-swadesh" | "khm-swadesh" => "Khmer Swadesh".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -34,6 +36,11 @@ pub fn normalize_language_input(input: &str) -> String {
             format!("Burmese A{}", &lower["myanmar-a".len()..])
         }
         _ if lower.starts_with("mya-a") => format!("Burmese A{}", &lower["mya-a".len()..]),
+        _ if lower.starts_with("khmer-a") => format!("Khmer A{}", &lower["khmer-a".len()..]),
+        _ if lower.starts_with("cambodian-a") => {
+            format!("Khmer A{}", &lower["cambodian-a".len()..])
+        }
+        _ if lower.starts_with("khm-a") => format!("Khmer A{}", &lower["khm-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -256,6 +263,8 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Kekchi (Q'eqchi')", "kek"),
         ("Khasi", "kha"),
         ("Khmer", "khm"),
+        ("Khmer A1", "khm-a1"),
+        ("Khmer Swadesh", "khm-swadesh"),
         ("Kinyarwanda", "kin"),
         ("Kyrgyz", "kir"),
         ("Northern Zaza (Kirmanjki)", "kiu"),
@@ -530,6 +539,12 @@ mod tests {
             "Burmese Swadesh"
         );
         assert_eq!(normalize_language_input("mya-a2"), "Burmese A2");
+        assert_eq!(normalize_language_input("khmer-a1"), "Khmer A1");
+        assert_eq!(
+            normalize_language_input("cambodian-swadesh"),
+            "Khmer Swadesh"
+        );
+        assert_eq!(normalize_language_input("khm-a2"), "Khmer A2");
     }
 
     #[test]
@@ -557,5 +572,11 @@ mod tests {
             Some("mya-swadesh")
         );
         assert_eq!(language_code_for_input("myanmar-a1"), Some("mya-a1"));
+        assert_eq!(language_code_for_input("khmer-a1"), Some("khm-a1"));
+        assert_eq!(
+            language_code_for_input("khmer-swadesh"),
+            Some("khm-swadesh")
+        );
+        assert_eq!(language_code_for_input("cambodian-a1"), Some("khm-a1"));
     }
 }

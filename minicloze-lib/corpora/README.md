@@ -30,6 +30,12 @@ Files:
 - `burmese_swadesh_vocab.json`: 207 Burmese Swadesh target words.
 - `burmese_swadesh.json`: 621 Burmese Swadesh cloze sentences.
 - `burmese_swadesh_explanations.json`: full-sentence Burmese Swadesh word explanations with MLCTS and Okell.
+- `khmer_a1_vocab.json`: 500 Khmer target words.
+- `khmer_a1.json`: 1,500 Khmer cloze sentences.
+- `khmer_a1_explanations.json`: full-sentence Khmer word explanations with Wiktionary transliteration and transcription.
+- `khmer_swadesh_vocab.json`: 207 Khmer Swadesh target words.
+- `khmer_swadesh.json`: 621 Khmer Swadesh cloze sentences.
+- `khmer_swadesh_explanations.json`: full-sentence Khmer Swadesh word explanations with Wiktionary transliteration and transcription.
 
 Sources:
 
@@ -39,4 +45,5 @@ Sources:
 - Tajik: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
 - Thai: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
 - Burmese: Codex-authored beginner A1 course material, split into reviewed batch files before merge.
-- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, and Burmese, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.
+- Khmer: Codex-curated beginner A1 seed list, used for selecting target words and English glosses.
+- Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, Burmese, and Khmer, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.

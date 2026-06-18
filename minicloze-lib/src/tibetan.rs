@@ -17,6 +17,10 @@ pub(crate) struct TibetanToken {
     pub mlcts: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
     pub okell: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    pub transliteration: String,
+    #[serde(default, skip_serializing_if = "String::is_empty")]
+    pub transcription: String,
 }
 
 const BOTOK_HELPER: &str = r#"
@@ -354,6 +358,8 @@ mod tests {
                     paiboon: String::new(),
                     mlcts: String::new(),
                     okell: String::new(),
+                    transliteration: String::new(),
+                    transcription: String::new(),
                 },
                 TibetanToken {
                     text: "བདེ་ལེགས".to_string(),
@@ -362,6 +368,8 @@ mod tests {
                     paiboon: String::new(),
                     mlcts: String::new(),
                     okell: String::new(),
+                    transliteration: String::new(),
+                    transcription: String::new(),
                 }
             ]]
         );

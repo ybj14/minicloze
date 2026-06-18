@@ -312,6 +312,32 @@ async fn data_asset(Path(file): Path<String>) -> Result<Response, AppError> {
         }
         "thai_swadesh_tokens.json" => include_str!("../static/data/thai_swadesh_tokens.json"),
         "thai_swadesh_vocab.json" => include_str!("../static/data/thai_swadesh_vocab.json"),
+        "burmese_a1.json" => include_str!("../static/data/burmese_a1.json"),
+        "burmese_a1_explanations.json" => {
+            include_str!("../static/data/burmese_a1_explanations.json")
+        }
+        "burmese_a1_tokens.json" => include_str!("../static/data/burmese_a1_tokens.json"),
+        "burmese_a1_vocab.json" => include_str!("../static/data/burmese_a1_vocab.json"),
+        "burmese_swadesh.json" => include_str!("../static/data/burmese_swadesh.json"),
+        "burmese_swadesh_explanations.json" => {
+            include_str!("../static/data/burmese_swadesh_explanations.json")
+        }
+        "burmese_swadesh_tokens.json" => {
+            include_str!("../static/data/burmese_swadesh_tokens.json")
+        }
+        "burmese_swadesh_vocab.json" => include_str!("../static/data/burmese_swadesh_vocab.json"),
+        "khmer_a1.json" => include_str!("../static/data/khmer_a1.json"),
+        "khmer_a1_explanations.json" => {
+            include_str!("../static/data/khmer_a1_explanations.json")
+        }
+        "khmer_a1_tokens.json" => include_str!("../static/data/khmer_a1_tokens.json"),
+        "khmer_a1_vocab.json" => include_str!("../static/data/khmer_a1_vocab.json"),
+        "khmer_swadesh.json" => include_str!("../static/data/khmer_swadesh.json"),
+        "khmer_swadesh_explanations.json" => {
+            include_str!("../static/data/khmer_swadesh_explanations.json")
+        }
+        "khmer_swadesh_tokens.json" => include_str!("../static/data/khmer_swadesh_tokens.json"),
+        "khmer_swadesh_vocab.json" => include_str!("../static/data/khmer_swadesh_vocab.json"),
         _ => return Err(AppError::not_found("Asset not found")),
     };
 
@@ -403,6 +429,30 @@ async fn languages() -> Json<Vec<LanguageOption>> {
             code: "tha-swadesh",
             label: "Thai Swadesh",
             slug: "thai-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "mya-a1",
+            label: "Burmese A1",
+            slug: "burmese-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "mya-swadesh",
+            label: "Burmese Swadesh",
+            slug: "burmese-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "khm-a1",
+            label: "Khmer A1",
+            slug: "khmer-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "khm-swadesh",
+            label: "Khmer Swadesh",
+            slug: "khmer-swadesh",
             sentence_count: 621,
         },
     ])

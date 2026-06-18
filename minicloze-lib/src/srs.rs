@@ -68,6 +68,10 @@ pub fn supports_language(language: &str) -> bool {
             | "tgk-swadesh"
             | "tha-a1"
             | "tha-swadesh"
+            | "mya-a1"
+            | "mya-swadesh"
+            | "khm-a1"
+            | "khm-swadesh"
     )
 }
 
