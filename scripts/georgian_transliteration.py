@@ -1,7 +1,8 @@
 """ASCII Georgian transliteration helper for local course data.
 
-The mapping follows common Georgian romanization values, folded to ASCII so
-learners can type pronunciation helpers without special characters.
+The mapping follows common Georgian romanization values. It uses apostrophes
+for ejective stops and affricates while remaining ASCII so learners can type
+pronunciation helpers without special characters.
 """
 
 from __future__ import annotations
@@ -19,27 +20,27 @@ LETTERS = {
     "ზ": "z",
     "თ": "t",
     "ი": "i",
-    "კ": "k",
+    "კ": "k'",
     "ლ": "l",
     "მ": "m",
     "ნ": "n",
     "ო": "o",
-    "პ": "p",
+    "პ": "p'",
     "ჟ": "zh",
     "რ": "r",
     "ს": "s",
-    "ტ": "t",
+    "ტ": "t'",
     "უ": "u",
     "ფ": "p",
     "ქ": "k",
     "ღ": "gh",
-    "ყ": "q",
+    "ყ": "q'",
     "შ": "sh",
     "ჩ": "ch",
     "ც": "ts",
     "ძ": "dz",
-    "წ": "ts",
-    "ჭ": "ch",
+    "წ": "ts'",
+    "ჭ": "ch'",
     "ხ": "kh",
     "ჯ": "j",
     "ჰ": "h",

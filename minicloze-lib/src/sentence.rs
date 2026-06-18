@@ -1173,7 +1173,7 @@ mod tests {
                     paiboon: None,
                     mlcts: None,
                     okell: None,
-                    transliteration: Some("tsqali".to_string()),
+                    transliteration: Some("ts'q'ali".to_string()),
                     transcription: None,
                 },
                 WordExplanation {
@@ -1197,7 +1197,7 @@ mod tests {
 
         assert_eq!(prompt.first_half, "მე ");
         assert_eq!(prompt.word, "წყალი");
-        assert_eq!(prompt.word_transliteration, Some("tsqali".to_string()));
+        assert_eq!(prompt.word_transliteration, Some("ts'q'ali".to_string()));
         assert_eq!(prompt.first_half_transliteration, Some("me".to_string()));
     }
 

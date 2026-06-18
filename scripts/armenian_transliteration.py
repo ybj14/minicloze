@@ -1,7 +1,8 @@
 """ASCII Armenian transliteration helper for local course data.
 
-The mapping is intentionally close to common WT:HY/ISO-style values, while
-remaining ASCII so learners can type answers without special characters.
+The mapping is intentionally close to common WT:HY/ISO-style values. It uses
+apostrophes for the aspirated stop/affricate series while remaining ASCII so
+learners can type answers without special characters.
 """
 
 from __future__ import annotations
@@ -22,7 +23,7 @@ LETTERS = {
     "զ": "z",
     "է": "e",
     "ը": "y",
-    "թ": "t",
+    "թ": "t'",
     "ժ": "zh",
     "ի": "i",
     "լ": "l",
@@ -38,7 +39,7 @@ LETTERS = {
     "ն": "n",
     "շ": "sh",
     "ո": "o",
-    "չ": "ch",
+    "չ": "ch'",
     "պ": "p",
     "ջ": "j",
     "ռ": "rr",
@@ -46,10 +47,10 @@ LETTERS = {
     "վ": "v",
     "տ": "t",
     "ր": "r",
-    "ց": "ts",
+    "ց": "ts'",
     "ւ": "v",
-    "փ": "p",
-    "ք": "k",
+    "փ": "p'",
+    "ք": "k'",
     "օ": "o",
     "ֆ": "f",
     "և": "ev",

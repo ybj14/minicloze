@@ -44,16 +44,16 @@ Files:
 - `amharic_swadesh_explanations.json`: full-sentence Amharic Swadesh word explanations with SERA-style transliteration.
 - `armenian_a1_vocab.json`: 500 Armenian target words.
 - `armenian_a1.json`: 1,500 Armenian cloze sentences.
-- `armenian_a1_explanations.json`: full-sentence Armenian word explanations with ASCII transliteration.
+- `armenian_a1_explanations.json`: full-sentence Armenian word explanations with apostrophe-marked ASCII transliteration.
 - `armenian_swadesh_vocab.json`: 207 Armenian Swadesh target words.
 - `armenian_swadesh.json`: 621 Armenian Swadesh cloze sentences.
-- `armenian_swadesh_explanations.json`: full-sentence Armenian Swadesh word explanations with ASCII transliteration.
+- `armenian_swadesh_explanations.json`: full-sentence Armenian Swadesh word explanations with apostrophe-marked ASCII transliteration.
 - `georgian_a1_vocab.json`: 500 Georgian target words.
 - `georgian_a1.json`: 1,500 Georgian cloze sentences.
-- `georgian_a1_explanations.json`: full-sentence Georgian word explanations with ASCII transliteration.
+- `georgian_a1_explanations.json`: full-sentence Georgian word explanations with apostrophe-marked ASCII transliteration.
 - `georgian_swadesh_vocab.json`: 207 Georgian Swadesh target words.
 - `georgian_swadesh.json`: 621 Georgian Swadesh cloze sentences.
-- `georgian_swadesh_explanations.json`: full-sentence Georgian Swadesh word explanations with ASCII transliteration.
+- `georgian_swadesh_explanations.json`: full-sentence Georgian Swadesh word explanations with apostrophe-marked ASCII transliteration.
 
 Sources:
 
