@@ -402,7 +402,10 @@ async function submitAnswer(answer) {
 
     try {
       await ensureExplanations(currentRound.course);
-      const explanations = explanationsForCard(currentRound.course, currentCard);
+      const roundCard =
+        currentRound.cards.find((item) => item.id === currentCard.id) || currentCard;
+      const explanations = explanationsForCard(currentRound.course, roundCard);
+      currentCard.sentenceId = roundCard.sentenceId;
       currentCard.wordExplanations = explanations;
       renderWordExplanations(explanations);
     } catch {
@@ -1057,6 +1060,7 @@ function cardView(round, card, index) {
 
   return {
     id: card.id,
+    sentenceId: card.sentenceId,
     index: index + 1,
     total: round.cards.length,
     prompt_label: round.inverse ? "English" : round.course.label,
