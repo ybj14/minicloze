@@ -396,10 +396,19 @@ async function submitAnswer(answer) {
     recordStoredStats(data.result.outcome === "correct");
     renderRoundSummary(data.summary);
     renderFeedback(data.result);
-    renderWordExplanations(data.wordExplanations || []);
     markChoices(answer, data.correctAnswer, data.result);
     els.nextButton.textContent = data.summary.finished ? "Finish" : "Next";
     show(els.nextButton);
+
+    try {
+      await ensureExplanations(currentRound.course);
+      const explanations = explanationsForCard(currentRound.course, currentCard);
+      currentCard.wordExplanations = explanations;
+      renderWordExplanations(explanations);
+    } catch {
+      // Round can continue even if word glosses fail to load.
+      hide(els.wordExplanations);
+    }
   } catch (error) {
     answeredCurrentCard = false;
     disableAnswerInputs(false);
@@ -508,7 +517,7 @@ function answerRound(request) {
   return {
     result: card.result,
     correctAnswer: card.prompt.word,
-    wordExplanations: card.wordExplanations,
+    wordExplanations: explanationsForCard(currentRound.course, card),
     summary,
     nextCard,
   };
@@ -526,25 +535,75 @@ async function loadCourse(course) {
 }
 
 async function fetchCourse(course) {
-  const [corpus, vocabulary, explanations, tokens] = await Promise.all([
+  // Critical path: corpus + vocab (+ tokens for cloze/transliteration).
+  // Explanations are large and only needed after an answer — load in background.
+  const [corpus, vocabulary, tokens] = await Promise.all([
     fetchJson(course.corpusPath),
     fetchJson(course.vocabularyPath),
-    fetchJson(course.explanationsPath),
     course.tokensPath ? fetchJson(course.tokensPath) : Promise.resolve({}),
   ]);
 
-  return {
+  const loaded = {
     ...course,
     sentences: corpus.data || [],
     vocabulary: vocabulary.map((entry) => entry.word).filter(Boolean),
-    explanationsById: new Map(
-      (explanations.data || []).map((entry) => [
-        String(entry.id),
-        (entry.words || []).map((word) => ({ ...word })),
-      ]),
-    ),
+    explanationsById: new Map(),
+    explanationsReady: false,
+    explanationsPromise: null,
     tokensById: new Map(Object.entries(tokens || {})),
   };
+
+  loaded.explanationsPromise = fetchJson(course.explanationsPath)
+    .then((explanations) => {
+      loaded.explanationsById = new Map(
+        (explanations.data || []).map((entry) => [
+          String(entry.id),
+          (entry.words || []).map((word) => ({ ...word })),
+        ]),
+      );
+      loaded.explanationsReady = true;
+      return loaded.explanationsById;
+    })
+    .catch((error) => {
+      loaded.explanationsPromise = null;
+      throw error;
+    });
+
+  return loaded;
+}
+
+async function ensureExplanations(course) {
+  if (!course) {
+    return;
+  }
+  if (course.explanationsReady) {
+    return;
+  }
+  if (!course.explanationsPromise) {
+    course.explanationsPromise = fetchJson(course.explanationsPath)
+      .then((explanations) => {
+        course.explanationsById = new Map(
+          (explanations.data || []).map((entry) => [
+            String(entry.id),
+            (entry.words || []).map((word) => ({ ...word })),
+          ]),
+        );
+        course.explanationsReady = true;
+        return course.explanationsById;
+      })
+      .catch((error) => {
+        course.explanationsPromise = null;
+        throw error;
+      });
+  }
+  await course.explanationsPromise;
+}
+
+function explanationsForCard(course, card) {
+  if (!course || !card || card.sentenceId == null) {
+    return [];
+  }
+  return course.explanationsById.get(String(card.sentenceId)) || [];
 }
 
 async function fetchJson(path) {
@@ -695,10 +754,13 @@ function buildCards(sentences, course, inverse, mode, withSrs = false) {
     const translation = inverse
       ? firstTranslationText(sentence)
       : sentence.text || "";
-    const wordExplanations =
-      course.explanationsById.get(String(sentence.id)) || [];
     const srsKey = withSrs ? srsCardKey(course, inverse, sentence) : null;
-    return { prompt, translation, wordExplanations, srsKey };
+    return {
+      prompt,
+      translation,
+      sentenceId: sentence.id,
+      srsKey,
+    };
   });
 
   const optionPool = [
@@ -710,7 +772,8 @@ function buildCards(sentences, course, inverse, mode, withSrs = false) {
     id,
     prompt: item.prompt,
     translation: item.translation,
-    wordExplanations: item.wordExplanations,
+    sentenceId: item.sentenceId,
+    wordExplanations: [],
     answerOptions:
       mode === "multiple_choice"
         ? buildOptions(item.prompt.word, optionPool)
