@@ -11,7 +11,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "បើក",
@@ -24,12 +24,12 @@
         ]
       },
       {
-        "target": "គាត់បើកបង្អួច។",
+        "target": "នាងបើកបង្អួច។",
         "text": "She opens the window.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "បើក",
@@ -42,8 +42,8 @@
         ]
       },
       {
-        "target": "សូមបើកសៀវភៅ។",
-        "text": "Please open the book.",
+        "target": "សូមបើកសៀវភៅទំព័រទីប្រាំ។",
+        "text": "Please open the book to page five.",
         "words": [
           {
             "word": "សូម",
@@ -56,6 +56,18 @@
           {
             "word": "សៀវភៅ",
             "gloss": "book"
+          },
+          {
+            "word": "ទំព័រ",
+            "gloss": "page"
+          },
+          {
+            "word": "ទី",
+            "gloss": "ordinal"
+          },
+          {
+            "word": "ប្រាំ",
+            "gloss": "five"
           }
         ]
       }
@@ -73,7 +85,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "បិទ",
@@ -87,7 +99,7 @@
       },
       {
         "target": "គាត់បិទទូរស័ព្ទ។",
-        "text": "She turns off the phone.",
+        "text": "He turns off the phone.",
         "words": [
           {
             "word": "គាត់",
@@ -99,13 +111,13 @@
           },
           {
             "word": "ទូរស័ព្ទ",
-            "gloss": "telephone"
+            "gloss": "phone"
           }
         ]
       },
       {
-        "target": "សូមបិទបង្អួច។",
-        "text": "Please close the window.",
+        "target": "សូមបិទបង្អួចពេលយប់។",
+        "text": "Please close the window at night.",
         "words": [
           {
             "word": "សូម",
@@ -118,6 +130,10 @@
           {
             "word": "បង្អួច",
             "gloss": "window"
+          },
+          {
+            "word": "ពេលយប់",
+            "gloss": "at night"
           }
         ]
       }
@@ -135,7 +151,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ទិញ",
@@ -174,12 +190,12 @@
         ]
       },
       {
-        "target": "គាត់ទិញសំបុត្រ។",
-        "text": "She buys a ticket.",
+        "target": "នាងទិញសំបុត្រឡានក្រុង។",
+        "text": "She buys a bus ticket.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ទិញ",
@@ -188,6 +204,10 @@
           {
             "word": "សំបុត្រ",
             "gloss": "ticket"
+          },
+          {
+            "word": "ឡានក្រុង",
+            "gloss": "bus"
           }
         ]
       }
@@ -199,24 +219,6 @@
     "gloss": "sell",
     "source": "Codex-authored Khmer A1",
     "sentences": [
-      {
-        "target": "អ្នកលក់លក់ផ្លែឈើ។",
-        "text": "The seller sells fruit.",
-        "words": [
-          {
-            "word": "អ្នកលក់",
-            "gloss": "seller"
-          },
-          {
-            "word": "លក់",
-            "gloss": "sell"
-          },
-          {
-            "word": "ផ្លែឈើ",
-            "gloss": "fruit"
-          }
-        ]
-      },
       {
         "target": "ហាងនេះលក់កាហ្វេ។",
         "text": "This shop sells coffee.",
@@ -260,6 +262,28 @@
             "gloss": "old"
           }
         ]
+      },
+      {
+        "target": "អ្នកលក់លក់ផ្លែឈើថ្ងៃនេះ។",
+        "text": "The seller sells fruit today.",
+        "words": [
+          {
+            "word": "អ្នកលក់",
+            "gloss": "seller"
+          },
+          {
+            "word": "លក់",
+            "gloss": "sell"
+          },
+          {
+            "word": "ផ្លែឈើ",
+            "gloss": "fruit"
+          },
+          {
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
+          }
+        ]
       }
     ]
   },
@@ -283,7 +307,7 @@
           },
           {
             "word": "បាយ",
-            "gloss": "rice; meal"
+            "gloss": "rice"
           }
         ]
       },
@@ -305,11 +329,11 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
             "word": "ផ្ទះ",
-            "gloss": "house"
+            "gloss": "home"
           }
         ]
       },
@@ -363,7 +387,7 @@
         "words": [
           {
             "word": "គាត់",
-            "gloss": "he; she"
+            "gloss": "he"
           },
           {
             "word": "ផឹក",
@@ -375,7 +399,7 @@
           },
           {
             "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "gloss": "in the morning"
           }
         ]
       },
@@ -419,13 +443,13 @@
           },
           {
             "word": "បាយ",
-            "gloss": "rice; meal"
+            "gloss": "rice"
           }
         ]
       },
       {
         "target": "ចុងភៅចម្អិនម្ហូបឆ្ងាញ់។",
-        "text": "The cook makes delicious food.",
+        "text": "The cook prepares delicious food.",
         "words": [
           {
             "word": "ចុងភៅ",
@@ -437,7 +461,7 @@
           },
           {
             "word": "ម្ហូប",
-            "gloss": "dish; food"
+            "gloss": "food"
           },
           {
             "word": "ឆ្ងាញ់",
@@ -463,7 +487,7 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at"
+            "gloss": "in"
           },
           {
             "word": "ផ្ទះបាយ",
@@ -485,7 +509,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ដើរ",
@@ -493,7 +517,7 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
             "word": "ផ្សារ",
@@ -502,24 +526,20 @@
         ]
       },
       {
-        "target": "គាត់ដើរក្នុងសួនច្បារ។",
-        "text": "She walks in the park.",
+        "target": "នាងដើរយឺតៗ។",
+        "text": "She walks slowly.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ដើរ",
             "gloss": "walk"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "យឺតៗ",
+            "gloss": "slowly"
           }
         ]
       },
@@ -554,8 +574,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនរត់នៅសួនច្បារ។",
-        "text": "The child runs in the park.",
+        "target": "កូនរត់លឿន។",
+        "text": "The child runs fast.",
         "words": [
           {
             "word": "កូន",
@@ -566,12 +586,8 @@
             "gloss": "run"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "លឿន",
+            "gloss": "fast"
           }
         ]
       },
@@ -581,7 +597,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "រត់",
@@ -589,13 +605,13 @@
           },
           {
             "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "gloss": "in the morning"
           }
         ]
       },
       {
-        "target": "គាត់រត់លឿន។",
-        "text": "He runs fast.",
+        "target": "គាត់រត់ទៅសាលារៀន។",
+        "text": "He runs to school.",
         "words": [
           {
             "word": "គាត់",
@@ -606,8 +622,12 @@
             "gloss": "run"
           },
           {
-            "word": "លឿន",
-            "gloss": "fast"
+            "word": "ទៅ",
+            "gloss": "to"
+          },
+          {
+            "word": "សាលារៀន",
+            "gloss": "school"
           }
         ]
       }
@@ -642,12 +662,12 @@
         ]
       },
       {
-        "target": "គាត់អង្គុយក្នុងថ្នាក់រៀន។",
+        "target": "នាងអង្គុយក្នុងថ្នាក់រៀន។",
         "text": "She sits in the classroom.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "អង្គុយ",
@@ -669,7 +689,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "អង្គុយ",
@@ -707,7 +727,7 @@
           },
           {
             "word": "មុខ",
-            "gloss": "face"
+            "gloss": "in front"
           },
           {
             "word": "ក្តារខៀន",
@@ -721,7 +741,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឈរ",
@@ -738,12 +758,12 @@
         ]
       },
       {
-        "target": "គាត់ឈរជិតទ្វារ។",
+        "target": "នាងឈរជិតទ្វារ។",
         "text": "She stands near the door.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ឈរ",
@@ -777,7 +797,7 @@
           },
           {
             "word": "គេង",
-            "gloss": "see"
+            "gloss": "sleep"
           },
           {
             "word": "លើ",
@@ -795,21 +815,21 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "គេង",
-            "gloss": "see"
+            "gloss": "sleep"
           },
           {
             "word": "ពេលយប់",
-            "gloss": "ពេលយប់"
+            "gloss": "at night"
           }
         ]
       },
       {
-        "target": "គាត់គេងនៅផ្ទះ។",
-        "text": "He sleeps at home.",
+        "target": "គាត់គេងល្មមប្រាំបីម៉ោង។",
+        "text": "He sleeps about eight hours.",
         "words": [
           {
             "word": "គាត់",
@@ -817,15 +837,19 @@
           },
           {
             "word": "គេង",
-            "gloss": "see"
+            "gloss": "sleep"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
+            "word": "ល្មម",
+            "gloss": "about"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ប្រាំបី",
+            "gloss": "eight"
+          },
+          {
+            "word": "ម៉ោង",
+            "gloss": "hour"
           }
         ]
       }
@@ -843,7 +867,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ភ្ញាក់",
@@ -851,13 +875,13 @@
           },
           {
             "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "gloss": "in the morning"
           }
         ]
       },
       {
         "target": "កូនភ្ញាក់ម៉ោងប្រាំពីរ។",
-        "text": "The child wakes at seven o’clock.",
+        "text": "The child wakes at seven o'clock.",
         "words": [
           {
             "word": "កូន",
@@ -869,7 +893,7 @@
           },
           {
             "word": "ម៉ោង",
-            "gloss": "hour; o’clock"
+            "gloss": "o'clock"
           },
           {
             "word": "ប្រាំពីរ",
@@ -878,12 +902,12 @@
         ]
       },
       {
-        "target": "គាត់ភ្ញាក់ហើយ។",
-        "text": "She has woken up.",
+        "target": "នាងភ្ញាក់ហើយ។",
+        "text": "She has already woken up.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ភ្ញាក់",
@@ -891,7 +915,7 @@
           },
           {
             "word": "ហើយ",
-            "gloss": "already; then"
+            "gloss": "already"
           }
         ]
       }
@@ -922,34 +946,12 @@
         ]
       },
       {
-        "target": "យើងលេងនៅសួនច្បារ។",
-        "text": "We play in the park.",
+        "target": "យើងលេងជាមួយឆ្កែ។",
+        "text": "We play with the dog.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
-          },
-          {
-            "word": "លេង",
-            "gloss": "play"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
-          }
-        ]
-      },
-      {
-        "target": "គាត់លេងជាមួយឆ្កែ។",
-        "text": "She plays with the dog.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he"
           },
           {
             "word": "លេង",
@@ -962,6 +964,32 @@
           {
             "word": "ឆ្កែ",
             "gloss": "dog"
+          }
+        ]
+      },
+      {
+        "target": "នាងលេងហ្គេមលើទូរស័ព្ទ។",
+        "text": "She plays a game on the phone.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "លេង",
+            "gloss": "play"
+          },
+          {
+            "word": "ហ្គេម",
+            "gloss": "game"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ទូរស័ព្ទ",
+            "gloss": "phone"
           }
         ]
       }
@@ -991,17 +1019,17 @@
           },
           {
             "word": "ការិយាល័យ",
-            "gloss": "ការិយាល័យ"
+            "gloss": "office"
           }
         ]
       },
       {
-        "target": "គាត់ធ្វើការរាល់ថ្ងៃ។",
+        "target": "នាងធ្វើការរាល់ថ្ងៃ។",
         "text": "She works every day.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ធ្វើការ",
@@ -1014,12 +1042,12 @@
         ]
       },
       {
-        "target": "ខ្ញុំធ្វើការនៅផ្ទះ។",
-        "text": "I work at home.",
+        "target": "ខ្ញុំធ្វើការនៅផ្ទះថ្ងៃនេះ។",
+        "text": "I work at home today.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ធ្វើការ",
@@ -1031,7 +1059,11 @@
           },
           {
             "word": "ផ្ទះ",
-            "gloss": "house"
+            "gloss": "home"
+          },
+          {
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           }
         ]
       }
@@ -1044,8 +1076,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូជួយសិស្ស។",
-        "text": "The teacher helps the student.",
+        "target": "គ្រូជួយសិស្សធ្វើលំហាត់។",
+        "text": "The teacher helps the student with the exercise.",
         "words": [
           {
             "word": "គ្រូ",
@@ -1058,6 +1090,14 @@
           {
             "word": "សិស្ស",
             "gloss": "student"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "do"
+          },
+          {
+            "word": "លំហាត់",
+            "gloss": "exercise"
           }
         ]
       },
@@ -1079,7 +1119,7 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "in"
           },
           {
             "word": "ផ្ទះបាយ",
@@ -1119,7 +1159,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "យក",
@@ -1131,7 +1171,7 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
             "word": "សាលារៀន",
@@ -1140,12 +1180,12 @@
         ]
       },
       {
-        "target": "គាត់យកកាបូប។",
+        "target": "នាងយកកាបូប។",
         "text": "She takes the bag.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "យក",
@@ -1188,38 +1228,12 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំដាក់កែវលើតុ។",
-        "text": "I put the glass on the table.",
+        "target": "ខ្ញុំដាក់ប៊ិចក្នុងកាបូប។",
+        "text": "I put the pen in the bag.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
-          {
-            "word": "កែវ",
-            "gloss": "glass"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "គាត់ដាក់ប៊ិចក្នុងកាបូប។",
-        "text": "She puts the pen in the bag.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he"
+            "gloss": "I"
           },
           {
             "word": "ដាក់",
@@ -1253,7 +1267,7 @@
           },
           {
             "word": "បាយ",
-            "gloss": "rice; meal"
+            "gloss": "rice"
           },
           {
             "word": "ក្នុង",
@@ -1261,7 +1275,33 @@
           },
           {
             "word": "ចាន",
-            "gloss": "plate; bowl"
+            "gloss": "bowl"
+          }
+        ]
+      },
+      {
+        "target": "សូមដាក់សៀវភៅលើធ្នើ។",
+        "text": "Please put the book on the shelf.",
+        "words": [
+          {
+            "word": "សូម",
+            "gloss": "please"
+          },
+          {
+            "word": "ដាក់",
+            "gloss": "put"
+          },
+          {
+            "word": "សៀវភៅ",
+            "gloss": "book"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ធ្នើ",
+            "gloss": "shelf"
           }
         ]
       }
@@ -1274,7 +1314,7 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែឱ្យទឹកកូន។",
+        "target": "ម៉ែឱ្យទឹកដល់កូន។",
         "text": "Mother gives water to the child.",
         "words": [
           {
@@ -1283,11 +1323,15 @@
           },
           {
             "word": "ឱ្យ",
-            "gloss": "give; to"
+            "gloss": "give"
           },
           {
             "word": "ទឹក",
             "gloss": "water"
+          },
+          {
+            "word": "ដល់",
+            "gloss": "to"
           },
           {
             "word": "កូន",
@@ -1301,11 +1345,11 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឱ្យ",
-            "gloss": "give; to"
+            "gloss": "give"
           },
           {
             "word": "សៀវភៅ",
@@ -1318,8 +1362,8 @@
         ]
       },
       {
-        "target": "គ្រូឱ្យមេរៀនសិស្ស។",
-        "text": "The teacher gives the lesson to the student.",
+        "target": "គ្រូឱ្យកិច្ចការផ្ទះ។",
+        "text": "The teacher gives homework.",
         "words": [
           {
             "word": "គ្រូ",
@@ -1327,15 +1371,11 @@
           },
           {
             "word": "ឱ្យ",
-            "gloss": "give; to"
+            "gloss": "give"
           },
           {
-            "word": "មេរៀន",
-            "gloss": "lesson"
-          },
-          {
-            "word": "សិស្ស",
-            "gloss": "student"
+            "word": "កិច្ចការផ្ទះ",
+            "gloss": "homework"
           }
         ]
       }
@@ -1353,7 +1393,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ទទួល",
@@ -1366,12 +1406,12 @@
         ]
       },
       {
-        "target": "គាត់ទទួលលិខិត។",
+        "target": "នាងទទួលលិខិត។",
         "text": "She receives a letter.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ទទួល",
@@ -1405,7 +1445,7 @@
           },
           {
             "word": "ផ្ទះ",
-            "gloss": "house"
+            "gloss": "home"
           }
         ]
       }
@@ -1423,41 +1463,15 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ចាំ",
-            "gloss": "wait; remember"
+            "gloss": "wait"
           },
           {
             "word": "ឡានក្រុង",
             "gloss": "bus"
-          }
-        ]
-      },
-      {
-        "target": "គាត់ចាំមិត្តភក្តិនៅចំណត។",
-        "text": "She waits for a friend at the stop.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he"
-          },
-          {
-            "word": "ចាំ",
-            "gloss": "wait; remember"
-          },
-          {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "ចំណត",
-            "gloss": "stop"
           }
         ]
       },
@@ -1471,11 +1485,33 @@
           },
           {
             "word": "ចាំ",
-            "gloss": "wait; remember"
+            "gloss": "wait"
           },
           {
             "word": "គ្រូ",
             "gloss": "teacher"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំចាំឈ្មោះគាត់។",
+        "text": "I remember his name.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ចាំ",
+            "gloss": "remember"
+          },
+          {
+            "word": "ឈ្មោះ",
+            "gloss": "name"
+          },
+          {
+            "word": "គាត់",
+            "gloss": "he"
           }
         ]
       }
@@ -1493,7 +1529,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "រក",
@@ -1506,8 +1542,8 @@
         ]
       },
       {
-        "target": "ម៉ែរកកាបូប។",
-        "text": "Mother looks for the bag.",
+        "target": "ម៉ែរកកាបូបក្នុងបន្ទប់។",
+        "text": "Mother looks for the bag in the room.",
         "words": [
           {
             "word": "ម៉ែ",
@@ -1520,12 +1556,20 @@
           {
             "word": "កាបូប",
             "gloss": "bag"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "បន្ទប់",
+            "gloss": "room"
           }
         ]
       },
       {
-        "target": "គាត់រកអាសយដ្ឋាន។",
-        "text": "He looks for the address.",
+        "target": "គាត់រកអាសយដ្ឋានលើផែនទី។",
+        "text": "He looks for the address on the map.",
         "words": [
           {
             "word": "គាត់",
@@ -1538,6 +1582,14 @@
           {
             "word": "អាសយដ្ឋាន",
             "gloss": "address"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ផែនទី",
+            "gloss": "map"
           }
         ]
       }
@@ -1550,16 +1602,20 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញឆ្កែនៅផ្លូវ។",
-        "text": "I see a dog on the road.",
+        "target": "តើអ្នកឃើញឆ្កែនៅផ្លូវទេ?",
+        "text": "Do you see the dog on the road?",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "តើ",
+            "gloss": "Q particle"
+          },
+          {
+            "word": "អ្នក",
+            "gloss": "you"
           },
           {
             "word": "ឃើញ",
-            "gloss": "see; find"
+            "gloss": "see"
           },
           {
             "word": "ឆ្កែ",
@@ -1567,37 +1623,41 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at"
+            "gloss": "on"
           },
           {
             "word": "ផ្លូវ",
             "gloss": "road"
+          },
+          {
+            "word": "ទេ",
+            "gloss": "or not"
           }
         ]
       },
       {
-        "target": "គាត់ឃើញសៀវភៅលើតុ។",
-        "text": "She finds the book on the table.",
+        "target": "នាងឃើញសៀវភៅក្នុងកាបូប។",
+        "text": "She finds the book in the bag.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ឃើញ",
-            "gloss": "see; find"
+            "gloss": "find"
           },
           {
             "word": "សៀវភៅ",
             "gloss": "book"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ក្នុង",
+            "gloss": "in"
           },
           {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "កាបូប",
+            "gloss": "bag"
           }
         ]
       },
@@ -1611,7 +1671,7 @@
           },
           {
             "word": "ឃើញ",
-            "gloss": "see; find"
+            "gloss": "see"
           },
           {
             "word": "ភ្នំ",
@@ -1645,7 +1705,7 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "បាត់",
@@ -1654,12 +1714,12 @@
         ]
       },
       {
-        "target": "គាត់បាត់កាបូប។",
-        "text": "She lost the bag.",
+        "target": "នាងបាត់កាបូប។",
+        "text": "She lost her bag.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "បាត់",
@@ -1672,8 +1732,8 @@
         ]
       },
       {
-        "target": "សៀវភៅបាត់ពីតុ។",
-        "text": "The book is missing from the table.",
+        "target": "សៀវភៅបាត់ពីធ្នើ។",
+        "text": "The book is missing from the shelf.",
         "words": [
           {
             "word": "សៀវភៅ",
@@ -1688,8 +1748,8 @@
             "gloss": "from"
           },
           {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "ធ្នើ",
+            "gloss": "shelf"
           }
         ]
       }
@@ -1702,48 +1762,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនទុកជាមួយមិត្តភក្តិ។",
-        "text": "The child keeps with a friend.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "ទុក",
-            "gloss": "keep"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
-          }
-        ]
-      },
-      {
-        "target": "គាត់ទុកយឺត។",
-        "text": "She keeps slowly.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ទុក",
-            "gloss": "keep"
-          },
-          {
-            "word": "យឺត",
-            "gloss": "slow"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទុកថ្ងៃនេះ។",
-        "text": "I keep today.",
+        "target": "ខ្ញុំទុកលុយក្នុងកាបូប។",
+        "text": "I keep money in the bag.",
         "words": [
           {
             "word": "ខ្ញុំ",
@@ -1754,8 +1774,68 @@
             "gloss": "keep"
           },
           {
-            "word": "ថ្ងៃនេះ",
-            "gloss": "today"
+            "word": "លុយ",
+            "gloss": "money"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "កាបូប",
+            "gloss": "bag"
+          }
+        ]
+      },
+      {
+        "target": "សូមទុកសៀវភៅនៅទីនេះ។",
+        "text": "Please keep the book here.",
+        "words": [
+          {
+            "word": "សូម",
+            "gloss": "please"
+          },
+          {
+            "word": "ទុក",
+            "gloss": "keep"
+          },
+          {
+            "word": "សៀវភៅ",
+            "gloss": "book"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ទីនេះ",
+            "gloss": "here"
+          }
+        ]
+      },
+      {
+        "target": "នាងទុកអាហារក្នុងទូទឹកកក។",
+        "text": "She keeps food in the fridge.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "ទុក",
+            "gloss": "keep"
+          },
+          {
+            "word": "អាហារ",
+            "gloss": "food"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ទូទឹកកក",
+            "gloss": "fridge"
           }
         ]
       }
@@ -1773,7 +1853,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "លាង",
@@ -1804,12 +1884,12 @@
         ]
       },
       {
-        "target": "គាត់លាងកែវ។",
+        "target": "នាងលាងកែវ។",
         "text": "She washes the glass.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "លាង",
@@ -1835,7 +1915,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "សម្អាត",
@@ -1848,12 +1928,12 @@
         ]
       },
       {
-        "target": "គាត់សម្អាតតុ។",
+        "target": "នាងសម្អាតតុ។",
         "text": "She cleans the table.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "សម្អាត",
@@ -1866,8 +1946,8 @@
         ]
       },
       {
-        "target": "យើងសម្អាតផ្ទះ។",
-        "text": "We clean the house.",
+        "target": "យើងសម្អាតផ្ទះរៀងរាល់សប្តាហ៍។",
+        "text": "We clean the house every week.",
         "words": [
           {
             "word": "យើង",
@@ -1880,6 +1960,14 @@
           {
             "word": "ផ្ទះ",
             "gloss": "house"
+          },
+          {
+            "word": "រៀងរាល់",
+            "gloss": "every"
+          },
+          {
+            "word": "សប្តាហ៍",
+            "gloss": "week"
           }
         ]
       }
@@ -1897,7 +1985,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ពាក់",
@@ -1914,12 +2002,12 @@
         ]
       },
       {
-        "target": "គាត់ពាក់មួក។",
+        "target": "នាងពាក់មួក។",
         "text": "She wears a hat.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ពាក់",
@@ -1963,7 +2051,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ដោះ",
@@ -1976,12 +2064,12 @@
         ]
       },
       {
-        "target": "គាត់ដោះមួក។",
+        "target": "នាងដោះមួក។",
         "text": "She takes off the hat.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ដោះ",
@@ -2025,7 +2113,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ចូល",
@@ -2056,12 +2144,12 @@
         ]
       },
       {
-        "target": "គាត់ចូលហាង។",
+        "target": "នាងចូលហាង។",
         "text": "She enters the shop.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ចូល",
@@ -2087,7 +2175,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ចេញ",
@@ -2104,12 +2192,12 @@
         ]
       },
       {
-        "target": "គាត់ចេញពីហាង។",
+        "target": "នាងចេញពីហាង។",
         "text": "She leaves the shop.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ចេញ",
@@ -2139,7 +2227,7 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
             "word": "លេង",
@@ -2161,7 +2249,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឡើង",
@@ -2174,12 +2262,12 @@
         ]
       },
       {
-        "target": "គាត់ឡើងឡានក្រុង។",
+        "target": "នាងឡើងឡានក្រុង។",
         "text": "She gets on the bus.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ឡើង",
@@ -2205,7 +2293,7 @@
           },
           {
             "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "gloss": "in the morning"
           }
         ]
       }
@@ -2223,7 +2311,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ចុះ",
@@ -2240,12 +2328,12 @@
         ]
       },
       {
-        "target": "គាត់ចុះជណ្តើរ។",
+        "target": "នាងចុះជណ្តើរ។",
         "text": "She goes down the stairs.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ចុះ",
@@ -2271,7 +2359,7 @@
           },
           {
             "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "gloss": "in the evening"
           }
         ]
       }
@@ -2289,7 +2377,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "បត់",
@@ -2297,7 +2385,7 @@
           },
           {
             "word": "ខាងឆ្វេង",
-            "gloss": "left side"
+            "gloss": "left"
           }
         ]
       },
@@ -2307,7 +2395,7 @@
         "words": [
           {
             "word": "ឡាន",
-            "gloss": "ឡាន"
+            "gloss": "car"
           },
           {
             "word": "បត់",
@@ -2315,17 +2403,17 @@
           },
           {
             "word": "ខាងស្តាំ",
-            "gloss": "right side"
+            "gloss": "right"
           }
         ]
       },
       {
-        "target": "គាត់បត់នៅផ្លូវកែង។",
+        "target": "នាងបត់នៅផ្លូវកែង។",
         "text": "She turns at the corner.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "បត់",
@@ -2355,7 +2443,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឆ្លង",
@@ -2425,7 +2513,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ជិះ",
@@ -2433,7 +2521,7 @@
           },
           {
             "word": "កង់",
-            "gloss": "កង់"
+            "gloss": "bicycle"
           }
         ]
       },
@@ -2451,11 +2539,11 @@
           },
           {
             "word": "ម៉ូតូ",
-            "gloss": "ម៉ូតូ"
+            "gloss": "motorbike"
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
             "word": "ផ្សារ",
@@ -2503,7 +2591,7 @@
           },
           {
             "word": "ឡាន",
-            "gloss": "ឡាន"
+            "gloss": "car"
           }
         ]
       },
@@ -2521,7 +2609,7 @@
           },
           {
             "word": "យឺត",
-            "gloss": "slow"
+            "gloss": "slowly"
           }
         ]
       },
@@ -2539,7 +2627,7 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
             "word": "ភ្នំពេញ",
@@ -2561,7 +2649,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ហៅ",
@@ -2574,12 +2662,12 @@
         ]
       },
       {
-        "target": "គាត់ហៅតាក់ស៊ី។",
+        "target": "នាងហៅតាក់ស៊ី។",
         "text": "She calls a taxi.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ហៅ",
@@ -2587,13 +2675,13 @@
           },
           {
             "word": "តាក់ស៊ី",
-            "gloss": "តាក់ស៊ី"
+            "gloss": "taxi"
           }
         ]
       },
       {
-        "target": "គ្រូហៅសិស្ស។",
-        "text": "The teacher calls the student.",
+        "target": "គ្រូហៅឈ្មោះសិស្ស។",
+        "text": "The teacher calls the student's name.",
         "words": [
           {
             "word": "គ្រូ",
@@ -2602,6 +2690,10 @@
           {
             "word": "ហៅ",
             "gloss": "call"
+          },
+          {
+            "word": "ឈ្មោះ",
+            "gloss": "name"
           },
           {
             "word": "សិស្ស",
@@ -2623,7 +2715,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ផ្ញើ",
@@ -2636,12 +2728,12 @@
         ]
       },
       {
-        "target": "គាត់ផ្ញើអ៊ីមែល។",
+        "target": "នាងផ្ញើអ៊ីមែល។",
         "text": "She sends an email.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ផ្ញើ",
@@ -2671,7 +2763,7 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
             "word": "មិត្តភក្តិ",
@@ -2693,7 +2785,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ថត",
@@ -2706,12 +2798,12 @@
         ]
       },
       {
-        "target": "គាត់ថតផ្ទះថ្មី។",
+        "target": "នាងថតផ្ទះថ្មី។",
         "text": "She takes a photo of the new house.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ថត",
@@ -2728,8 +2820,8 @@
         ]
       },
       {
-        "target": "យើងថតរូបភាពនៅសួនច្បារ។",
-        "text": "We take a picture in the park.",
+        "target": "យើងថតនៅមាត់ទន្លេ។",
+        "text": "We take a photo by the river.",
         "words": [
           {
             "word": "យើង",
@@ -2740,16 +2832,16 @@
             "gloss": "take a photo"
           },
           {
-            "word": "រូបភាព",
-            "gloss": "picture"
-          },
-          {
             "word": "នៅ",
             "gloss": "at"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "មាត់",
+            "gloss": "edge"
+          },
+          {
+            "word": "ទន្លេ",
+            "gloss": "river"
           }
         ]
       }
@@ -2767,7 +2859,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "លុប",
@@ -2780,12 +2872,12 @@
         ]
       },
       {
-        "target": "គាត់លុបរូបថតចាស់។",
+        "target": "នាងលុបរូបថតចាស់។",
         "text": "She deletes the old photo.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "លុប",
@@ -2819,7 +2911,7 @@
           },
           {
             "word": "ខុស",
-            "gloss": "ខុស"
+            "gloss": "wrong"
           }
         ]
       }
@@ -2837,7 +2929,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ចុច",
@@ -2850,12 +2942,12 @@
         ]
       },
       {
-        "target": "គាត់ចុចលេខលើទូរស័ព្ទ។",
+        "target": "នាងចុចលេខលើទូរស័ព្ទ។",
         "text": "She presses a number on the phone.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ចុច",
@@ -2871,7 +2963,7 @@
           },
           {
             "word": "ទូរស័ព្ទ",
-            "gloss": "telephone"
+            "gloss": "phone"
           }
         ]
       },
@@ -2889,7 +2981,7 @@
           },
           {
             "word": "កម្មវិធី",
-            "gloss": "app; program"
+            "gloss": "app"
           }
         ]
       }
@@ -2907,7 +2999,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "បង់",
@@ -2920,12 +3012,12 @@
         ]
       },
       {
-        "target": "គាត់បង់តម្លៃសំបុត្រ។",
+        "target": "នាងបង់តម្លៃសំបុត្រ។",
         "text": "She pays the ticket price.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "បង់",
@@ -2972,8 +3064,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូប្រាប់សិស្ស។",
-        "text": "The teacher tells the student.",
+        "target": "គ្រូប្រាប់សិស្សអំពីមេរៀន។",
+        "text": "The teacher tells the students about the lesson.",
         "words": [
           {
             "word": "គ្រូ",
@@ -2986,6 +3078,14 @@
           {
             "word": "សិស្ស",
             "gloss": "student"
+          },
+          {
+            "word": "អំពី",
+            "gloss": "about"
+          },
+          {
+            "word": "មេរៀន",
+            "gloss": "lesson"
           }
         ]
       },
@@ -2995,7 +3095,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ប្រាប់",
@@ -3007,17 +3107,17 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           }
         ]
       },
       {
-        "target": "គាត់ប្រាប់រឿងខ្លី។",
+        "target": "នាងប្រាប់រឿងខ្លី។",
         "text": "She tells a short story.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "ប្រាប់",
@@ -3047,7 +3147,7 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "សុំ",
@@ -3078,12 +3178,12 @@
         ]
       },
       {
-        "target": "គាត់សុំជំនួយ។",
+        "target": "នាងសុំជំនួយ។",
         "text": "She asks for help.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "សុំ",
@@ -3113,7 +3213,7 @@
           },
           {
             "word": "ខាំ",
-            "gloss": "eat"
+            "gloss": "bite"
           },
           {
             "word": "នំប៉័ង",
@@ -3131,7 +3231,7 @@
           },
           {
             "word": "ខាំ",
-            "gloss": "eat"
+            "gloss": "bite"
           },
           {
             "word": "ផ្លែប៉ោម",
@@ -3149,7 +3249,7 @@
           },
           {
             "word": "ខាំ",
-            "gloss": "eat"
+            "gloss": "bite"
           },
           {
             "word": "ប៊ិច",
@@ -3166,8 +3266,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនបឺតទឹក។",
-        "text": "The child sucks water.",
+        "target": "កូនបឺតទឹកតាមបំពង់។",
+        "text": "The child sucks water through a straw.",
         "words": [
           {
             "word": "កូន",
@@ -3175,11 +3275,19 @@
           },
           {
             "word": "បឺត",
-            "gloss": "bite"
+            "gloss": "suck"
           },
           {
             "word": "ទឹក",
             "gloss": "water"
+          },
+          {
+            "word": "តាម",
+            "gloss": "through"
+          },
+          {
+            "word": "បំពង់",
+            "gloss": "straw"
           }
         ]
       },
@@ -3189,15 +3297,15 @@
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "បឺត",
-            "gloss": "bite"
+            "gloss": "suck"
           },
           {
             "word": "ទឹកក្រូច",
-            "gloss": "orange color"
+            "gloss": "orange juice"
           }
         ]
       },
@@ -3211,7 +3319,7 @@
           },
           {
             "word": "បឺត",
-            "gloss": "bite"
+            "gloss": "suck"
           },
           {
             "word": "ម្រាមដៃ",
@@ -3267,7 +3375,7 @@
           },
           {
             "word": "ចេញ",
-            "gloss": "exit"
+            "gloss": "out"
           }
         ]
       },
@@ -3289,7 +3397,7 @@
           },
           {
             "word": "ទេ",
-            "gloss": "no"
+            "gloss": "not"
           }
         ]
       }
@@ -3319,17 +3427,17 @@
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "sick"
           }
         ]
       },
       {
-        "target": "គាត់មិនក្អួតទេ។",
+        "target": "នាងមិនក្អួតទេ។",
         "text": "She does not vomit.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "មិន",
@@ -3341,7 +3449,7 @@
           },
           {
             "word": "ទេ",
-            "gloss": "no"
+            "gloss": "not"
           }
         ]
       },
@@ -3359,7 +3467,7 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "go"
           },
           {
             "word": "មន្ទីរពេទ្យ",
@@ -3376,8 +3484,30 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំផ្លុំប៊ិច។",
-        "text": "I blow the pen.",
+        "target": "ខ្យល់ផ្លុំខ្លាំងថ្ងៃនេះ។",
+        "text": "The wind blows hard today.",
+        "words": [
+          {
+            "word": "ខ្យល់",
+            "gloss": "wind"
+          },
+          {
+            "word": "ផ្លុំ",
+            "gloss": "blow"
+          },
+          {
+            "word": "ខ្លាំង",
+            "gloss": "hard"
+          },
+          {
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំផ្លុំទៀន។",
+        "text": "I blow out the candle.",
         "words": [
           {
             "word": "ខ្ញុំ",
@@ -3388,48 +3518,26 @@
             "gloss": "blow"
           },
           {
-            "word": "ប៊ិច",
-            "gloss": "pen"
+            "word": "ទៀន",
+            "gloss": "candle"
           }
         ]
       },
       {
-        "target": "សិស្សផ្លុំនៅហាង។",
-        "text": "The student blows at the shop.",
+        "target": "កូនផ្លុំប៉េងប៉ោង។",
+        "text": "The child blows up a balloon.",
         "words": [
           {
-            "word": "សិស្ស",
-            "gloss": "student"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
             "word": "ផ្លុំ",
             "gloss": "blow"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ហាង",
-            "gloss": "shop"
-          }
-        ]
-      },
-      {
-        "target": "យើងផ្លុំពេលព្រឹក។",
-        "text": "We blow in the morning.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ផ្លុំ",
-            "gloss": "blow"
-          },
-          {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ប៉េងប៉ោង",
+            "gloss": "balloon"
           }
         ]
       }
