@@ -56,6 +56,26 @@ button {
   min-height: 98px;
 }
 
+.repo-link-row {
+  margin: 0.35rem 0 0;
+}
+
+.repo-link {
+  color: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+  opacity: 0.85;
+}
+
+.repo-link:hover,
+.repo-link:focus-visible {
+  opacity: 1;
+}
+
+
 .eyebrow,
 .panel-label {
   margin: 0 0 6px;
