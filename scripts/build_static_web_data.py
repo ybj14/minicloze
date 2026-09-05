@@ -8,15 +8,23 @@ import shutil
 import subprocess
 from pathlib import Path
 
-import pyewts
+try:
+    import pyewts
+except ImportError:  # pragma: no cover
+    pyewts = None  # type: ignore
 
-from amharic_transliteration import romanize as romanize_amharic
-from armenian_transliteration import romanize as romanize_armenian
-from burmese_okell import romanize as romanize_burmese_okell
-from georgian_transliteration import romanize as romanize_georgian
+try:
+    from amharic_transliteration import romanize as romanize_amharic
+    from armenian_transliteration import romanize as romanize_armenian
+    from burmese_okell import romanize as romanize_burmese_okell
+    from georgian_transliteration import romanize as romanize_georgian
+    from thai_paiboon import romanize as romanize_thai_paiboon
+except ImportError:  # pragma: no cover
+    romanize_amharic = romanize_armenian = romanize_burmese_okell = None  # type: ignore
+    romanize_georgian = romanize_thai_paiboon = None  # type: ignore
+
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
-from thai_paiboon import romanize as romanize_thai_paiboon
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -227,8 +235,9 @@ def build_khmer_tokens(course: str) -> None:
         tokens = []
         for word in sentence.get("words", []):
             text = word.get("word", "")
-            transliteration = word.get("transliteration") or transliterate_khmer(text)
-            transcription = word.get("transcription") or transcribe_khmer(text)
+            # Always refresh from the romanizer (do not keep stale cached values).
+            transliteration = transliterate_khmer(text)
+            transcription = transcribe_khmer(text)
             token = {"text": text}
             if transliteration:
                 token["transliteration"] = transliteration
@@ -398,8 +407,9 @@ def enrich_khmer_explanations(course: str) -> None:
     for sentence in explanations["data"]:
         for word in sentence.get("words", []):
             text = word.get("word", "")
-            transliteration = word.get("transliteration") or transliterate_khmer(text)
-            transcription = word.get("transcription") or transcribe_khmer(text)
+            # Always refresh from the romanizer (do not keep stale cached values).
+            transliteration = transliterate_khmer(text)
+            transcription = transcribe_khmer(text)
             if transliteration.strip():
                 word["transliteration"] = transliteration
             if transcription.strip():
@@ -459,6 +469,21 @@ def enrich_georgian_explanations(course: str) -> None:
     )
 
 
+def refresh_khmer_only() -> None:
+    """Copy Khmer corpora to static data, re-romanize, rebuild tokens, sync corpora."""
+    STATIC_DATA.mkdir(parents=True, exist_ok=True)
+    for course in KHMER_COURSES:
+        for suffix in ("", "_explanations", "_vocab"):
+            filename = f"{course}{suffix}.json"
+            shutil.copyfile(CORPORA / filename, STATIC_DATA / filename)
+        enrich_khmer_explanations(course)
+        build_khmer_tokens(course)
+        shutil.copyfile(
+            STATIC_DATA / f"{course}_explanations.json",
+            CORPORA / f"{course}_explanations.json",
+        )
+
+
 def main() -> None:
     copy_base_data()
     for course in TIBETAN_COURSES:
@@ -485,4 +510,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+
+    if "--khmer-only" in sys.argv:
+        refresh_khmer_only()
+    else:
+        main()
