@@ -6,42 +6,46 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំទៅផ្សារថ្ងៃព្រហស្បតិ៍។",
-        "text": "I go to the market on Thursday.",
+        "target": "ខ្ញុំមានថ្នាក់រៀនថ្ងៃព្រហស្បតិ៍។",
+        "text": "I have a class on Thursday.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ថ្នាក់រៀន",
+            "gloss": "class"
+          },
+          {
+            "word": "ថ្ងៃព្រហស្បតិ៍",
+            "gloss": "Thursday"
+          }
+        ]
+      },
+      {
+        "target": "ម្ហូបនៅផ្សារថោកថ្ងៃព្រហស្បតិ៍។",
+        "text": "Food at the market is cheap on Thursday.",
+        "words": [
+          {
+            "word": "ម្ហូប",
+            "gloss": "food"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
             "gloss": "market"
           },
           {
-            "word": "ថ្ងៃព្រហស្បតិ៍",
-            "gloss": "Thursday"
-          }
-        ]
-      },
-      {
-        "target": "យើងជួបមិត្តភក្តិថ្ងៃព្រហស្បតិ៍។",
-        "text": "We meet a friend on Thursday.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ជួប",
-            "gloss": "meet"
-          },
-          {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
+            "word": "ថោក",
+            "gloss": "cheap"
           },
           {
             "word": "ថ្ងៃព្រហស្បតិ៍",
@@ -50,20 +54,28 @@
         ]
       },
       {
-        "target": "ថ្ងៃព្រហស្បតិ៍អាកាសធាតុល្អ។",
-        "text": "The weather is good on Thursday.",
+        "target": "តើអ្នកទំនេរថ្ងៃព្រហស្បតិ៍ទេ?",
+        "text": "Are you free on Thursday?",
         "words": [
+          {
+            "word": "តើ",
+            "gloss": "question particle"
+          },
+          {
+            "word": "អ្នក",
+            "gloss": "you"
+          },
+          {
+            "word": "ទំនេរ",
+            "gloss": "free"
+          },
           {
             "word": "ថ្ងៃព្រហស្បតិ៍",
             "gloss": "Thursday"
           },
           {
-            "word": "អាកាសធាតុ",
-            "gloss": "weather"
-          },
-          {
-            "word": "ល្អ",
-            "gloss": "good"
+            "word": "ទេ",
+            "gloss": "question particle"
           }
         ]
       }
@@ -76,42 +88,28 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំទៅផ្សារថ្ងៃសុក្រ។",
-        "text": "I go to the market on Friday.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ទៅ",
-            "gloss": "go; to"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          },
-          {
-            "word": "ថ្ងៃសុក្រ",
-            "gloss": "Friday"
-          }
-        ]
-      },
-      {
-        "target": "យើងជួបមិត្តភក្តិថ្ងៃសុក្រ។",
-        "text": "We meet a friend on Friday.",
+        "target": "យើងញ៉ាំអាហារល្ងាចជាមួយគ្រួសារថ្ងៃសុក្រ។",
+        "text": "We have dinner with the family on Friday.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "ជួប",
-            "gloss": "meet"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
+            "word": "អាហារល្ងាច",
+            "gloss": "dinner"
+          },
+          {
+            "word": "ជាមួយ",
+            "gloss": "with"
+          },
+          {
+            "word": "គ្រួសារ",
+            "gloss": "family"
           },
           {
             "word": "ថ្ងៃសុក្រ",
@@ -120,20 +118,50 @@
         ]
       },
       {
-        "target": "ថ្ងៃសុក្រអាកាសធាតុល្អ។",
-        "text": "The weather is good on Friday.",
+        "target": "ហាងបិទម៉ោងប្រាំថ្ងៃសុក្រ។",
+        "text": "The shop closes at five on Friday.",
         "words": [
+          {
+            "word": "ហាង",
+            "gloss": "shop"
+          },
+          {
+            "word": "បិទ",
+            "gloss": "close"
+          },
+          {
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          },
+          {
+            "word": "ប្រាំ",
+            "gloss": "five"
+          },
           {
             "word": "ថ្ងៃសុក្រ",
             "gloss": "Friday"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំទៅលេងភ្នំពេញថ្ងៃសុក្រ។",
+        "text": "I visit Phnom Penh on Friday.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
-            "word": "អាកាសធាតុ",
-            "gloss": "weather"
+            "word": "ទៅលេង",
+            "gloss": "visit"
           },
           {
-            "word": "ល្អ",
-            "gloss": "good"
+            "word": "ភ្នំពេញ",
+            "gloss": "Phnom Penh"
+          },
+          {
+            "word": "ថ្ងៃសុក្រ",
+            "gloss": "Friday"
           }
         ]
       }
@@ -146,64 +174,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំទៅផ្សារថ្ងៃសៅរ៍។",
-        "text": "I go to the market on Saturday.",
+        "target": "ក្មេងៗលេងបាល់ទាត់ថ្ងៃសៅរ៍។",
+        "text": "The children play football on Saturday.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ក្មេងៗ",
+            "gloss": "children"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "លេង",
+            "gloss": "play"
           },
           {
-            "word": "ផ្សារ",
+            "word": "បាល់ទាត់",
+            "gloss": "football"
+          },
+          {
+            "word": "ថ្ងៃសៅរ៍",
+            "gloss": "Saturday"
+          }
+        ]
+      },
+      {
+        "target": "ឪពុកជួសជុលផ្ទះថ្ងៃសៅរ៍។",
+        "text": "Father repairs the house on Saturday.",
+        "words": [
+          {
+            "word": "ឪពុក",
+            "gloss": "father"
+          },
+          {
+            "word": "ជួសជុល",
+            "gloss": "repair"
+          },
+          {
+            "word": "ផ្ទះ",
+            "gloss": "house"
+          },
+          {
+            "word": "ថ្ងៃសៅរ៍",
+            "gloss": "Saturday"
+          }
+        ]
+      },
+      {
+        "target": "ទីផ្សារមនុស្សច្រើនថ្ងៃសៅរ៍។",
+        "text": "The market is crowded on Saturday.",
+        "words": [
+          {
+            "word": "ទីផ្សារ",
             "gloss": "market"
           },
           {
-            "word": "ថ្ងៃសៅរ៍",
-            "gloss": "Saturday"
-          }
-        ]
-      },
-      {
-        "target": "យើងជួបមិត្តភក្តិថ្ងៃសៅរ៍។",
-        "text": "We meet a friend on Saturday.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "មនុស្ស",
+            "gloss": "people"
           },
           {
-            "word": "ជួប",
-            "gloss": "meet"
-          },
-          {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
+            "word": "ច្រើន",
+            "gloss": "many"
           },
           {
             "word": "ថ្ងៃសៅរ៍",
             "gloss": "Saturday"
-          }
-        ]
-      },
-      {
-        "target": "ថ្ងៃសៅរ៍អាកាសធាតុល្អ។",
-        "text": "The weather is good on Saturday.",
-        "words": [
-          {
-            "word": "ថ្ងៃសៅរ៍",
-            "gloss": "Saturday"
-          },
-          {
-            "word": "អាកាសធាតុ",
-            "gloss": "weather"
-          },
-          {
-            "word": "ល្អ",
-            "gloss": "good"
           }
         ]
       }
@@ -216,42 +248,20 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំទៅផ្សារថ្ងៃអាទិត្យ។",
-        "text": "I go to the market on Sunday.",
+        "target": "គ្រួសារទៅវត្តថ្ងៃអាទិត្យ។",
+        "text": "The family goes to the temple on Sunday.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "គ្រួសារ",
+            "gloss": "family"
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "go"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          },
-          {
-            "word": "ថ្ងៃអាទិត្យ",
-            "gloss": "Sunday"
-          }
-        ]
-      },
-      {
-        "target": "យើងជួបមិត្តភក្តិថ្ងៃអាទិត្យ។",
-        "text": "We meet a friend on Sunday.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ជួប",
-            "gloss": "meet"
-          },
-          {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
+            "word": "វត្ត",
+            "gloss": "temple"
           },
           {
             "word": "ថ្ងៃអាទិត្យ",
@@ -260,20 +270,50 @@
         ]
       },
       {
-        "target": "ថ្ងៃអាទិត្យអាកាសធាតុល្អ។",
-        "text": "The weather is good on Sunday.",
+        "target": "ខ្ញុំសម្រាកនៅផ្ទះថ្ងៃអាទិត្យ។",
+        "text": "I rest at home on Sunday.",
         "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "សម្រាក",
+            "gloss": "rest"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ផ្ទះ",
+            "gloss": "house"
+          },
           {
             "word": "ថ្ងៃអាទិត្យ",
             "gloss": "Sunday"
+          }
+        ]
+      },
+      {
+        "target": "ភោជនីយដ្ឋានពេញអស់ថ្ងៃអាទិត្យ។",
+        "text": "The restaurant is full on Sunday.",
+        "words": [
+          {
+            "word": "ភោជនីយដ្ឋាន",
+            "gloss": "restaurant"
           },
           {
-            "word": "អាកាសធាតុ",
-            "gloss": "weather"
+            "word": "ពេញ",
+            "gloss": "full"
           },
           {
-            "word": "ល្អ",
-            "gloss": "good"
+            "word": "អស់",
+            "gloss": "completely"
+          },
+          {
+            "word": "ថ្ងៃអាទិត្យ",
+            "gloss": "Sunday"
           }
         ]
       }
@@ -286,30 +326,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម្តងខ្ញុំផឹកកាហ្វេ។",
-        "text": "I drink coffee once.",
-        "words": [
-          {
-            "word": "ម្តង",
-            "gloss": "once"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ផឹក",
-            "gloss": "drink"
-          },
-          {
-            "word": "កាហ្វេ",
-            "gloss": "coffee"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទៅសាលារៀនម្តង។",
-        "text": "I go to school once.",
+        "target": "ខ្ញុំទៅសមុទ្រម្តងក្នុងមួយឆ្នាំ។",
+        "text": "I go to the sea once a year.",
         "words": [
           {
             "word": "ខ្ញុំ",
@@ -317,33 +335,75 @@
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "go"
           },
           {
-            "word": "សាលារៀន",
-            "gloss": "school"
+            "word": "សមុទ្រ",
+            "gloss": "sea"
           },
           {
             "word": "ម្តង",
             "gloss": "once"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "មួយ",
+            "gloss": "one"
+          },
+          {
+            "word": "ឆ្នាំ",
+            "gloss": "year"
           }
         ]
       },
       {
-        "target": "ម្តងអាកាសធាតុល្អ។",
-        "text": "The weather is good once.",
+        "target": "សូមនិយាយម្តងទៀត។",
+        "text": "Please say it once more.",
         "words": [
+          {
+            "word": "សូម",
+            "gloss": "please"
+          },
+          {
+            "word": "និយាយ",
+            "gloss": "speak"
+          },
           {
             "word": "ម្តង",
             "gloss": "once"
           },
           {
-            "word": "អាកាសធាតុ",
-            "gloss": "weather"
+            "word": "ទៀត",
+            "gloss": "again"
+          }
+        ]
+      },
+      {
+        "target": "គាត់ហៅខ្ញុំតែម្តង។",
+        "text": "He called me only once.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he; she"
           },
           {
-            "word": "ល្អ",
-            "gloss": "good"
+            "word": "ហៅ",
+            "gloss": "call"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "តែ",
+            "gloss": "only"
+          },
+          {
+            "word": "ម្តង",
+            "gloss": "once"
           }
         ]
       }
@@ -356,68 +416,100 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងជួបមិត្តភក្តិពីរដង។",
-        "text": "We meet a friend twice.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ជួប",
-            "gloss": "meet"
-          },
-          {
-            "word": "មិត្តភក្តិ",
-            "gloss": "friend"
-          },
-          {
-            "word": "ពីរដង",
-            "gloss": "twice"
-          }
-        ]
-      },
-      {
-        "target": "ពីរដងខ្ញុំផឹកកាហ្វេ។",
-        "text": "I drink coffee twice.",
-        "words": [
-          {
-            "word": "ពីរដង",
-            "gloss": "twice"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ផឹក",
-            "gloss": "drink"
-          },
-          {
-            "word": "កាហ្វេ",
-            "gloss": "coffee"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទៅសាលារៀនពីរដង។",
-        "text": "I go to school twice.",
+        "target": "ខ្ញុំញ៉ាំថ្នាំពីរដងក្នុងមួយថ្ងៃ។",
+        "text": "I take medicine twice a day.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ញ៉ាំ",
+            "gloss": "eat; take"
           },
           {
-            "word": "សាលារៀន",
-            "gloss": "school"
+            "word": "ថ្នាំ",
+            "gloss": "medicine"
           },
           {
             "word": "ពីរដង",
             "gloss": "twice"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "មួយ",
+            "gloss": "one"
+          },
+          {
+            "word": "ថ្ងៃ",
+            "gloss": "day"
+          }
+        ]
+      },
+      {
+        "target": "រថភ្លើងមកដល់ពីរដងក្នុងមួយម៉ោង។",
+        "text": "The train arrives twice an hour.",
+        "words": [
+          {
+            "word": "រថភ្លើង",
+            "gloss": "train"
+          },
+          {
+            "word": "មកដល់",
+            "gloss": "arrive"
+          },
+          {
+            "word": "ពីរដង",
+            "gloss": "twice"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "មួយ",
+            "gloss": "one"
+          },
+          {
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          }
+        ]
+      },
+      {
+        "target": "នាងលាងដៃពីរដងមុនញ៉ាំបាយ។",
+        "text": "She washes her hands twice before eating.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "លាង",
+            "gloss": "wash"
+          },
+          {
+            "word": "ដៃ",
+            "gloss": "hand"
+          },
+          {
+            "word": "ពីរដង",
+            "gloss": "twice"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "បាយ",
+            "gloss": "rice; meal"
           }
         ]
       }
@@ -430,38 +522,58 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយម៉ែ។",
-        "text": "I talk with the mother.",
+        "target": "ម៉ែធ្វើសម្លនៅផ្ទះបាយ។",
+        "text": "Mother cooks soup in the kitchen.",
+        "words": [
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "make"
+          },
+          {
+            "word": "សម្ល",
+            "gloss": "soup"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "ផ្ទះបាយ",
+            "gloss": "kitchen"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំជួយម៉ែទិញបន្លែនៅផ្សារ។",
+        "text": "I help Mother buy vegetables at the market.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ជួយ",
+            "gloss": "help"
           },
           {
             "word": "ម៉ែ",
             "gloss": "mother"
-          }
-        ]
-      },
-      {
-        "target": "ម៉ែទៅផ្សារ។",
-        "text": "The mother goes to the market.",
-        "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "បន្លែ",
+            "gloss": "vegetables"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
@@ -470,8 +582,8 @@
         ]
       },
       {
-        "target": "ម៉ែអានសៀវភៅ។",
-        "text": "The mother reads a book.",
+        "target": "ម៉ែអានរឿងឱ្យប្អូនស្តាប់។",
+        "text": "Mother reads a story for my younger sibling.",
         "words": [
           {
             "word": "ម៉ែ",
@@ -482,8 +594,20 @@
             "gloss": "read"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "រឿង",
+            "gloss": "story"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
+          },
+          {
+            "word": "ប្អូន",
+            "gloss": "younger sibling"
+          },
+          {
+            "word": "ស្តាប់",
+            "gloss": "listen"
           }
         ]
       }
@@ -496,68 +620,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយម្តាយ។",
-        "text": "We eat rice with the mother.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ម្តាយ",
-            "gloss": "mother"
-          }
-        ]
-      },
-      {
-        "target": "ម្តាយនៅផ្ទះ។",
-        "text": "The mother is at home.",
+        "target": "ម្តាយធ្វើការនៅមន្ទីរពេទ្យ។",
+        "text": "My mother works at the hospital.",
         "words": [
           {
             "word": "ម្តាយ",
             "gloss": "mother"
+          },
+          {
+            "word": "ធ្វើការ",
+            "gloss": "work"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "មន្ទីរពេទ្យ",
+            "gloss": "hospital"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយម្តាយ។",
-        "text": "I talk with the mother.",
+        "target": "ខ្ញុំហៅទូរស័ព្ទទៅម្តាយរៀងរាល់យប់។",
+        "text": "I call my mother every night.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "ហៅទូរស័ព្ទ",
+            "gloss": "call by phone"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ទៅ",
+            "gloss": "to"
           },
           {
             "word": "ម្តាយ",
             "gloss": "mother"
+          },
+          {
+            "word": "រៀងរាល់",
+            "gloss": "every"
+          },
+          {
+            "word": "យប់",
+            "gloss": "night"
+          }
+        ]
+      },
+      {
+        "target": "ម្តាយរៀបចំអាហារពេលព្រឹកសម្រាប់គ្រួសារ។",
+        "text": "Mother prepares breakfast for the family.",
+        "words": [
+          {
+            "word": "ម្តាយ",
+            "gloss": "mother"
+          },
+          {
+            "word": "រៀបចំ",
+            "gloss": "prepare"
+          },
+          {
+            "word": "អាហារពេលព្រឹក",
+            "gloss": "breakfast"
+          },
+          {
+            "word": "សម្រាប់",
+            "gloss": "for"
+          },
+          {
+            "word": "គ្រួសារ",
+            "gloss": "family"
           }
         ]
       }
@@ -570,56 +706,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ឪពុកទៅផ្សារ។",
-        "text": "The father goes to the market.",
+        "target": "ឪពុកបើកឡានទៅធ្វើការ។",
+        "text": "Father drives the car to work.",
         "words": [
           {
             "word": "ឪពុក",
             "gloss": "father"
+          },
+          {
+            "word": "បើក",
+            "gloss": "drive"
+          },
+          {
+            "word": "ឡាន",
+            "gloss": "car"
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ធ្វើការ",
+            "gloss": "work"
           }
         ]
       },
       {
-        "target": "ឪពុកអានសៀវភៅ។",
-        "text": "The father reads a book.",
+        "target": "ឪពុកជួយខ្ញុំធ្វើកិច្ចការផ្ទះ។",
+        "text": "Father helps me with homework.",
         "words": [
           {
             "word": "ឪពុក",
             "gloss": "father"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ជួយ",
+            "gloss": "help"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "do"
+          },
+          {
+            "word": "កិច្ចការផ្ទះ",
+            "gloss": "homework"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយឪពុក។",
-        "text": "We eat rice with the father.",
+        "target": "យើងទៅមើលភាពយន្តជាមួយឪពុក។",
+        "text": "We go to a movie with Father.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
+            "word": "ទៅ",
+            "gloss": "go"
           },
           {
-            "word": "បាយ",
-            "gloss": "rice; meal"
+            "word": "មើល",
+            "gloss": "watch"
+          },
+          {
+            "word": "ភាពយន្ត",
+            "gloss": "movie"
           },
           {
             "word": "ជាមួយ",
@@ -640,60 +796,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ប៉ានៅផ្ទះ។",
-        "text": "The dad is at home.",
+        "target": "ប៉ាទិញនំខេកសម្រាប់ខួបកំណើត។",
+        "text": "Dad buys a cake for the birthday.",
         "words": [
           {
             "word": "ប៉ា",
             "gloss": "dad"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ទិញ",
+            "gloss": "buy"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "នំខេក",
+            "gloss": "cake"
+          },
+          {
+            "word": "សម្រាប់",
+            "gloss": "for"
+          },
+          {
+            "word": "ខួបកំណើត",
+            "gloss": "birthday"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយប៉ា។",
-        "text": "I talk with the dad.",
+        "target": "ប៉ាបង្រៀនខ្ញុំជិះកង់។",
+        "text": "Dad teaches me to ride a bicycle.",
+        "words": [
+          {
+            "word": "ប៉ា",
+            "gloss": "dad"
+          },
+          {
+            "word": "បង្រៀន",
+            "gloss": "teach"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ជិះ",
+            "gloss": "ride"
+          },
+          {
+            "word": "កង់",
+            "gloss": "bicycle"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំអង្គុយក្បែរប៉ានៅសួនច្បារ។",
+        "text": "I sit next to Dad in the park.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "អង្គុយ",
+            "gloss": "sit"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ក្បែរ",
+            "gloss": "near"
           },
-          {
-            "word": "ប៉ា",
-            "gloss": "dad"
-          }
-        ]
-      },
-      {
-        "target": "ប៉ាទៅផ្សារ។",
-        "text": "The dad goes to the market.",
-        "words": [
           {
             "word": "ប៉ា",
             "gloss": "dad"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "នៅ",
+            "gloss": "in"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "សួនច្បារ",
+            "gloss": "park"
           }
         ]
       }
@@ -706,64 +886,88 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "បងអានសៀវភៅ។",
-        "text": "The older sibling reads a book.",
+        "target": "បងជួយខ្ញុំលាងចានបន្ទាប់ពីអាហារ។",
+        "text": "My older sibling helps me wash dishes after the meal.",
         "words": [
           {
             "word": "បង",
             "gloss": "older sibling"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "លាង",
+            "gloss": "wash"
+          },
+          {
+            "word": "ចាន",
+            "gloss": "plate; bowl"
+          },
+          {
+            "word": "បន្ទាប់ពី",
+            "gloss": "after"
+          },
+          {
+            "word": "អាហារ",
+            "gloss": "meal"
+          }
+        ]
+      },
+      {
+        "target": "បងទៅសាលារៀនមុនខ្ញុំ។",
+        "text": "My older sibling goes to school before me.",
+        "words": [
+          {
+            "word": "បង",
+            "gloss": "older sibling"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "សាលារៀន",
+            "gloss": "school"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំខ្ចីសៀវភៅពីបង។",
+        "text": "I borrow a book from my older sibling.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ខ្ចី",
+            "gloss": "borrow"
           },
           {
             "word": "សៀវភៅ",
             "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយបង។",
-        "text": "We eat rice with the older sibling.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
           },
           {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ពី",
+            "gloss": "from"
           },
           {
             "word": "បង",
             "gloss": "older sibling"
-          }
-        ]
-      },
-      {
-        "target": "បងនៅផ្ទះ។",
-        "text": "The older sibling is at home.",
-        "words": [
-          {
-            "word": "បង",
-            "gloss": "older sibling"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះ",
-            "gloss": "house"
           }
         ]
       }
@@ -776,60 +980,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយប្អូន។",
-        "text": "I talk with the younger sibling.",
+        "target": "ប្អូនគូររូបនៅលើក្តារខៀន។",
+        "text": "My younger sibling draws a picture on the blackboard.",
+        "words": [
+          {
+            "word": "ប្អូន",
+            "gloss": "younger sibling"
+          },
+          {
+            "word": "គូរ",
+            "gloss": "draw"
+          },
+          {
+            "word": "រូប",
+            "gloss": "picture"
+          },
+          {
+            "word": "នៅលើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ក្តារខៀន",
+            "gloss": "blackboard"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំនាំប្អូនទៅសួនកុមារ។",
+        "text": "I take my younger sibling to the playground.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "នាំ",
+            "gloss": "take; lead"
           },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ប្អូន",
-            "gloss": "younger sibling"
-          }
-        ]
-      },
-      {
-        "target": "ប្អូនទៅផ្សារ។",
-        "text": "The younger sibling goes to the market.",
-        "words": [
           {
             "word": "ប្អូន",
             "gloss": "younger sibling"
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "to"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "សួនកុមារ",
+            "gloss": "playground"
           }
         ]
       },
       {
-        "target": "ប្អូនអានសៀវភៅ។",
-        "text": "The younger sibling reads a book.",
+        "target": "ប្អូនងងុយដេកម៉ោងប្រាំបី។",
+        "text": "My younger sibling falls asleep at eight o'clock.",
         "words": [
           {
             "word": "ប្អូន",
             "gloss": "younger sibling"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ងងុយដេក",
+            "gloss": "fall asleep"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          },
+          {
+            "word": "ប្រាំបី",
+            "gloss": "eight"
           }
         ]
       }
@@ -842,68 +1062,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយបងប្រុស។",
-        "text": "We eat rice with the older brother.",
+        "target": "បងប្រុសលេងបាល់បោះជាមួយមិត្តភក្តិ។",
+        "text": "My older brother plays basketball with friends.",
+        "words": [
+          {
+            "word": "បងប្រុស",
+            "gloss": "older brother"
+          },
+          {
+            "word": "លេង",
+            "gloss": "play"
+          },
+          {
+            "word": "បាល់បោះ",
+            "gloss": "basketball"
+          },
+          {
+            "word": "ជាមួយ",
+            "gloss": "with"
+          },
+          {
+            "word": "មិត្តភក្តិ",
+            "gloss": "friend"
+          }
+        ]
+      },
+      {
+        "target": "បងប្រុសជួសជុលកង់ឱ្យខ្ញុំ។",
+        "text": "My older brother fixes my bicycle.",
+        "words": [
+          {
+            "word": "បងប្រុស",
+            "gloss": "older brother"
+          },
+          {
+            "word": "ជួសជុល",
+            "gloss": "repair"
+          },
+          {
+            "word": "កង់",
+            "gloss": "bicycle"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          }
+        ]
+      },
+      {
+        "target": "យើងសួរបងប្រុសអំពីកិច្ចការផ្ទះ។",
+        "text": "We ask our older brother about the homework.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "សួរ",
+            "gloss": "ask"
           },
           {
             "word": "បងប្រុស",
             "gloss": "older brother"
-          }
-        ]
-      },
-      {
-        "target": "បងប្រុសនៅផ្ទះ។",
-        "text": "The older brother is at home.",
-        "words": [
-          {
-            "word": "បងប្រុស",
-            "gloss": "older brother"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "អំពី",
+            "gloss": "about"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំនិយាយជាមួយបងប្រុស។",
-        "text": "I talk with the older brother.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "បងប្រុស",
-            "gloss": "older brother"
+            "word": "កិច្ចការផ្ទះ",
+            "gloss": "homework"
           }
         ]
       }
@@ -916,60 +1148,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "បងស្រីទៅផ្សារ។",
-        "text": "The older sister goes to the market.",
+        "target": "បងស្រីចម្អិនបាយឆ្ងាញ់ណាស់។",
+        "text": "My older sister cooks very tasty rice.",
         "words": [
           {
             "word": "បងស្រី",
             "gloss": "older sister"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "បងស្រីអានសៀវភៅ។",
-        "text": "The older sister reads a book.",
-        "words": [
-          {
-            "word": "បងស្រី",
-            "gloss": "older sister"
-          },
-          {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយបងស្រី។",
-        "text": "We eat rice with the older sister.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
+            "word": "ចម្អិន",
+            "gloss": "cook"
           },
           {
             "word": "បាយ",
-            "gloss": "rice; meal"
+            "gloss": "rice"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ឆ្ងាញ់",
+            "gloss": "tasty"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
+          }
+        ]
+      },
+      {
+        "target": "បងស្រីជ្រើសរើសសម្លៀកបំពាក់នៅហាង។",
+        "text": "My older sister chooses clothes at the shop.",
+        "words": [
+          {
+            "word": "បងស្រី",
+            "gloss": "older sister"
+          },
+          {
+            "word": "ជ្រើសរើស",
+            "gloss": "choose"
+          },
+          {
+            "word": "សម្លៀកបំពាក់",
+            "gloss": "clothes"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ហាង",
+            "gloss": "shop"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំសរសេរសំបុត្រទៅបងស្រី។",
+        "text": "I write a letter to my older sister.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "សរសេរ",
+            "gloss": "write"
+          },
+          {
+            "word": "សំបុត្រ",
+            "gloss": "letter"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "to"
           },
           {
             "word": "បងស្រី",
@@ -986,60 +1234,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ប្អូនប្រុសនៅផ្ទះ។",
-        "text": "The younger brother is at home.",
+        "target": "ប្អូនប្រុសចូលចិត្តលេងហ្គេម។",
+        "text": "My younger brother likes to play games.",
         "words": [
           {
             "word": "ប្អូនប្រុស",
             "gloss": "younger brother"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ចូលចិត្ត",
+            "gloss": "like"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "លេង",
+            "gloss": "play"
+          },
+          {
+            "word": "ហ្គេម",
+            "gloss": "game"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយប្អូនប្រុស។",
-        "text": "I talk with the younger brother.",
+        "target": "ប្អូនប្រុសភ្ជាប់ស្បែកជើងដោយខ្លួនឯង។",
+        "text": "My younger brother ties his shoes by himself.",
+        "words": [
+          {
+            "word": "ប្អូនប្រុស",
+            "gloss": "younger brother"
+          },
+          {
+            "word": "ភ្ជាប់",
+            "gloss": "tie; fasten"
+          },
+          {
+            "word": "ស្បែកជើង",
+            "gloss": "shoes"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by"
+          },
+          {
+            "word": "ខ្លួនឯង",
+            "gloss": "oneself"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំបង្រៀនប្អូនប្រុសអានអក្សរ។",
+        "text": "I teach my younger brother to read letters.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "បង្រៀន",
+            "gloss": "teach"
           },
           {
             "word": "ប្អូនប្រុស",
             "gloss": "younger brother"
-          }
-        ]
-      },
-      {
-        "target": "ប្អូនប្រុសទៅផ្សារ។",
-        "text": "The younger brother goes to the market.",
-        "words": [
-          {
-            "word": "ប្អូនប្រុស",
-            "gloss": "younger brother"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "អាន",
+            "gloss": "read"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "អក្សរ",
+            "gloss": "letter; script"
           }
         ]
       }
@@ -1052,64 +1316,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ប្អូនស្រីអានសៀវភៅ។",
-        "text": "The younger sister reads a book.",
+        "target": "ប្អូនស្រីច្រៀងបទចម្រៀងនៅសាលា។",
+        "text": "My younger sister sings a song at school.",
         "words": [
           {
             "word": "ប្អូនស្រី",
             "gloss": "younger sister"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ច្រៀង",
+            "gloss": "sing"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយប្អូនស្រី។",
-        "text": "We eat rice with the younger sister.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ប្អូនស្រី",
-            "gloss": "younger sister"
-          }
-        ]
-      },
-      {
-        "target": "ប្អូនស្រីនៅផ្ទះ។",
-        "text": "The younger sister is at home.",
-        "words": [
-          {
-            "word": "ប្អូនស្រី",
-            "gloss": "younger sister"
+            "word": "បទចម្រៀង",
+            "gloss": "song"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "សាលា",
+            "gloss": "school"
+          }
+        ]
+      },
+      {
+        "target": "ប្អូនស្រីស្លៀកអាវពណ៌ផ្កាឈូក។",
+        "text": "My younger sister wears a pink shirt.",
+        "words": [
+          {
+            "word": "ប្អូនស្រី",
+            "gloss": "younger sister"
+          },
+          {
+            "word": "ស្លៀក",
+            "gloss": "wear"
+          },
+          {
+            "word": "អាវ",
+            "gloss": "shirt"
+          },
+          {
+            "word": "ពណ៌ផ្កាឈូក",
+            "gloss": "pink"
+          }
+        ]
+      },
+      {
+        "target": "ម៉ែសិតសក់ឱ្យប្អូនស្រី។",
+        "text": "Mother combs my younger sister's hair.",
+        "words": [
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother"
+          },
+          {
+            "word": "សិត",
+            "gloss": "comb"
+          },
+          {
+            "word": "សក់",
+            "gloss": "hair"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
+          },
+          {
+            "word": "ប្អូនស្រី",
+            "gloss": "younger sister"
           }
         ]
       }
@@ -1122,60 +1398,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយកូន។",
-        "text": "I talk with the child.",
+        "target": "កូនរៀនសរសេរឈ្មោះខ្លួនឯង។",
+        "text": "The child learns to write his own name.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "កូន",
             "gloss": "child"
+          },
+          {
+            "word": "រៀន",
+            "gloss": "learn"
+          },
+          {
+            "word": "សរសេរ",
+            "gloss": "write"
+          },
+          {
+            "word": "ឈ្មោះ",
+            "gloss": "name"
+          },
+          {
+            "word": "ខ្លួនឯង",
+            "gloss": "oneself"
           }
         ]
       },
       {
-        "target": "កូនទៅផ្សារ។",
-        "text": "The child goes to the market.",
+        "target": "កូនសួរឪពុកអំពីផ្កាយ។",
+        "text": "The child asks Father about the stars.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "សួរ",
+            "gloss": "ask"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ឪពុក",
+            "gloss": "father"
+          },
+          {
+            "word": "អំពី",
+            "gloss": "about"
+          },
+          {
+            "word": "ផ្កាយ",
+            "gloss": "star"
           }
         ]
       },
       {
-        "target": "កូនអានសៀវភៅ។",
-        "text": "The child reads a book.",
+        "target": "យើងទិញប្រដាប់ក្មេងលេងឱ្យកូន។",
+        "text": "We buy a toy for the child.",
         "words": [
+          {
+            "word": "យើង",
+            "gloss": "we"
+          },
+          {
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "ប្រដាប់ក្មេងលេង",
+            "gloss": "toy"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
+          },
           {
             "word": "កូន",
             "gloss": "child"
-          },
-          {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
           }
         ]
       }
@@ -1188,68 +1484,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយកូនប្រុស។",
-        "text": "We eat rice with the son.",
+        "target": "កូនប្រុសជួយដឹកទឹកពីអណ្តូង។",
+        "text": "The son helps carry water from the well.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "កូនប្រុស",
             "gloss": "son"
+          },
+          {
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "ដឹក",
+            "gloss": "carry"
+          },
+          {
+            "word": "ទឹក",
+            "gloss": "water"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
+          },
+          {
+            "word": "អណ្តូង",
+            "gloss": "well"
           }
         ]
       },
       {
-        "target": "កូនប្រុសនៅផ្ទះ។",
-        "text": "The son is at home.",
+        "target": "កូនប្រុសចង់ក្លាយជាគ្រូពេទ្យ។",
+        "text": "The son wants to become a doctor.",
         "words": [
           {
             "word": "កូនប្រុស",
             "gloss": "son"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ចង់",
+            "gloss": "want"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ក្លាយជា",
+            "gloss": "become"
+          },
+          {
+            "word": "គ្រូពេទ្យ",
+            "gloss": "doctor"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយកូនប្រុស។",
-        "text": "I talk with the son.",
+        "target": "ឪពុកអបអរសាទរកូនប្រុសថ្ងៃបញ្ចប់ការសិក្សា។",
+        "text": "Father congratulates his son on graduation day.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ឪពុក",
+            "gloss": "father"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "អបអរសាទរ",
+            "gloss": "congratulate"
           },
           {
             "word": "កូនប្រុស",
             "gloss": "son"
+          },
+          {
+            "word": "ថ្ងៃ",
+            "gloss": "day"
+          },
+          {
+            "word": "បញ្ចប់ការសិក្សា",
+            "gloss": "graduation"
           }
         ]
       }
@@ -1262,60 +1570,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនស្រីទៅផ្សារ។",
-        "text": "The daughter goes to the market.",
+        "target": "កូនស្រីរៀនចម្អិនម្ហូបខ្មែរ។",
+        "text": "The daughter learns to cook Khmer food.",
         "words": [
           {
             "word": "កូនស្រី",
             "gloss": "daughter"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "រៀន",
+            "gloss": "learn"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ចម្អិន",
+            "gloss": "cook"
+          },
+          {
+            "word": "ម្ហូប",
+            "gloss": "food"
+          },
+          {
+            "word": "ខ្មែរ",
+            "gloss": "Khmer"
           }
         ]
       },
       {
-        "target": "កូនស្រីអានសៀវភៅ។",
-        "text": "The daughter reads a book.",
+        "target": "កូនស្រីផ្ញើរូបថតពីសាលា។",
+        "text": "The daughter sends a photo from school.",
         "words": [
           {
             "word": "កូនស្រី",
             "gloss": "daughter"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ផ្ញើ",
+            "gloss": "send"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "រូបថត",
+            "gloss": "photo"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
+          },
+          {
+            "word": "សាលា",
+            "gloss": "school"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយកូនស្រី។",
-        "text": "We eat rice with the daughter.",
+        "target": "ម្តាយទិញស្បែកជើងថ្មីឱ្យកូនស្រី។",
+        "text": "Mother buys new shoes for her daughter.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ម្តាយ",
+            "gloss": "mother"
           },
           {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
+            "word": "ទិញ",
+            "gloss": "buy"
           },
           {
-            "word": "បាយ",
-            "gloss": "rice; meal"
+            "word": "ស្បែកជើង",
+            "gloss": "shoes"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ថ្មី",
+            "gloss": "new"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
           },
           {
             "word": "កូនស្រី",
@@ -1332,60 +1660,96 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "មិត្តនៅផ្ទះ។",
-        "text": "The friend is at home.",
+        "target": "មិត្តអញ្ជើញខ្ញុំទៅផ្ទះគាត់។",
+        "text": "A friend invites me to his house.",
         "words": [
           {
             "word": "មិត្ត",
             "gloss": "friend"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "អញ្ជើញ",
+            "gloss": "invite"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "to"
           },
           {
             "word": "ផ្ទះ",
             "gloss": "house"
+          },
+          {
+            "word": "គាត់",
+            "gloss": "he; she"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយមិត្ត។",
-        "text": "I talk with the friend.",
+        "target": "ខ្ញុំខ្ចីប៊ិចពីមិត្តនៅថ្នាក់។",
+        "text": "I borrow a pen from a friend in class.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "ខ្ចី",
+            "gloss": "borrow"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ប៊ិច",
+            "gloss": "pen"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
           },
           {
             "word": "មិត្ត",
             "gloss": "friend"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "ថ្នាក់",
+            "gloss": "class"
           }
         ]
       },
       {
-        "target": "មិត្តទៅផ្សារ។",
-        "text": "The friend goes to the market.",
+        "target": "មិត្តរង់ចាំខ្ញុំនៅចំណតឡានក្រុង។",
+        "text": "A friend waits for me at the bus stop.",
         "words": [
           {
             "word": "មិត្ត",
             "gloss": "friend"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "រង់ចាំ",
+            "gloss": "wait"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ចំណត",
+            "gloss": "stop"
+          },
+          {
+            "word": "ឡានក្រុង",
+            "gloss": "bus"
           }
         ]
       }
@@ -1398,42 +1762,54 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "មិត្តភក្តិអានសៀវភៅ។",
-        "text": "The friend reads a book.",
+        "target": "មិត្តភក្តិនិងខ្ញុំរៀនភាសាអង់គ្លេសជាមួយគ្នា។",
+        "text": "My friend and I study English together.",
         "words": [
           {
             "word": "មិត្តភក្តិ",
             "gloss": "friend"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "និង",
+            "gloss": "and"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "រៀន",
+            "gloss": "study"
+          },
+          {
+            "word": "ភាសាអង់គ្លេស",
+            "gloss": "English"
+          },
+          {
+            "word": "ជាមួយគ្នា",
+            "gloss": "together"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយមិត្តភក្តិ។",
-        "text": "We eat rice with the friend.",
+        "target": "ខ្ញុំផ្តល់អំណោយដល់មិត្តភក្តិ។",
+        "text": "I give a gift to my friend.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
+            "word": "ផ្តល់",
+            "gloss": "give"
           },
           {
-            "word": "បាយ",
-            "gloss": "rice; meal"
+            "word": "អំណោយ",
+            "gloss": "gift"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ដល់",
+            "gloss": "to"
           },
           {
             "word": "មិត្តភក្តិ",
@@ -1442,20 +1818,32 @@
         ]
       },
       {
-        "target": "មិត្តភក្តិនៅផ្ទះ។",
-        "text": "The friend is at home.",
+        "target": "មិត្តភក្តិជួយខ្ញុំពេលខ្ញុំឈឺ។",
+        "text": "My friend helps me when I am sick.",
         "words": [
           {
             "word": "មិត្តភក្តិ",
             "gloss": "friend"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ជួយ",
+            "gloss": "help"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ឈឺ",
+            "gloss": "sick"
           }
         ]
       }
@@ -1468,60 +1856,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយគ្រួសារ។",
-        "text": "I talk with the family.",
+        "target": "គ្រួសារញ៉ាំបាយជាមួយគ្នានៅល្ងាច។",
+        "text": "The family eats rice together in the evening.",
+        "words": [
+          {
+            "word": "គ្រួសារ",
+            "gloss": "family"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "បាយ",
+            "gloss": "rice"
+          },
+          {
+            "word": "ជាមួយគ្នា",
+            "gloss": "together"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "ល្ងាច",
+            "gloss": "evening"
+          }
+        ]
+      },
+      {
+        "target": "គ្រួសារធ្វើដំណើរទៅខេត្តសៀមរាប។",
+        "text": "The family travels to Siem Reap province.",
+        "words": [
+          {
+            "word": "គ្រួសារ",
+            "gloss": "family"
+          },
+          {
+            "word": "ធ្វើដំណើរ",
+            "gloss": "travel"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "to"
+          },
+          {
+            "word": "ខេត្ត",
+            "gloss": "province"
+          },
+          {
+            "word": "សៀមរាប",
+            "gloss": "Siem Reap"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំស្រលាញ់គ្រួសារខ្ញុំណាស់។",
+        "text": "I love my family very much.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ស្រលាញ់",
+            "gloss": "love"
           },
           {
             "word": "គ្រួសារ",
             "gloss": "family"
-          }
-        ]
-      },
-      {
-        "target": "គ្រួសារទៅផ្សារ។",
-        "text": "The family goes to the market.",
-        "words": [
-          {
-            "word": "គ្រួសារ",
-            "gloss": "family"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "គ្រួសារអានសៀវភៅ។",
-        "text": "The family reads a book.",
-        "words": [
-          {
-            "word": "គ្រួសារ",
-            "gloss": "family"
-          },
-          {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       }
@@ -1534,42 +1946,54 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយប្តី។",
-        "text": "We eat rice with the husband.",
+        "target": "ប្តីទិញផ្កាឱ្យប្រពន្ធថ្ងៃខួប។",
+        "text": "The husband buys flowers for his wife on their anniversary.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "ប្តី",
             "gloss": "husband"
+          },
+          {
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
+          },
+          {
+            "word": "ប្រពន្ធ",
+            "gloss": "wife"
+          },
+          {
+            "word": "ថ្ងៃខួប",
+            "gloss": "anniversary"
           }
         ]
       },
       {
-        "target": "ប្តីនៅផ្ទះ។",
-        "text": "The husband is at home.",
+        "target": "ប្តីចម្អិនអាហារល្ងាចនៅផ្ទះ។",
+        "text": "The husband cooks dinner at home.",
         "words": [
           {
             "word": "ប្តី",
             "gloss": "husband"
           },
           {
+            "word": "ចម្អិន",
+            "gloss": "cook"
+          },
+          {
+            "word": "អាហារល្ងាច",
+            "gloss": "dinner"
+          },
+          {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
             "word": "ផ្ទះ",
@@ -1578,24 +2002,36 @@
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយប្តី។",
-        "text": "I talk with the husband.",
+        "target": "ប្រពន្ធនិងប្តីទៅដើរលេងនៅសួនច្បារ។",
+        "text": "The wife and husband go for a walk in the park.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ប្រពន្ធ",
+            "gloss": "wife"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "និង",
+            "gloss": "and"
           },
           {
             "word": "ប្តី",
             "gloss": "husband"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "ដើរលេង",
+            "gloss": "walk for fun"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "សួនច្បារ",
+            "gloss": "park"
           }
         ]
       }
@@ -1608,64 +2044,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ប្រពន្ធទៅផ្សារ។",
-        "text": "The wife goes to the market.",
+        "target": "ប្រពន្ធគ្រប់គ្រងលុយគ្រួសារ។",
+        "text": "The wife manages the family money.",
         "words": [
           {
             "word": "ប្រពន្ធ",
             "gloss": "wife"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "គ្រប់គ្រង",
+            "gloss": "manage"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "លុយ",
+            "gloss": "money"
+          },
+          {
+            "word": "គ្រួសារ",
+            "gloss": "family"
           }
         ]
       },
       {
-        "target": "ប្រពន្ធអានសៀវភៅ។",
-        "text": "The wife reads a book.",
+        "target": "ប្រពន្ធដាំបន្លែនៅសួនផ្ទះ។",
+        "text": "The wife grows vegetables in the home garden.",
         "words": [
           {
             "word": "ប្រពន្ធ",
             "gloss": "wife"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ដាំ",
+            "gloss": "plant; grow"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "បន្លែ",
+            "gloss": "vegetables"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "សួនផ្ទះ",
+            "gloss": "home garden"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយប្រពន្ធ។",
-        "text": "We eat rice with the wife.",
+        "target": "ប្តីសរសើរប្រពន្ធថាធ្វើម្ហូបឆ្ងាញ់។",
+        "text": "The husband praises his wife for cooking well.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ប្តី",
+            "gloss": "husband"
           },
           {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "សរសើរ",
+            "gloss": "praise"
           },
           {
             "word": "ប្រពន្ធ",
             "gloss": "wife"
+          },
+          {
+            "word": "ថា",
+            "gloss": "that"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "make"
+          },
+          {
+            "word": "ម្ហូប",
+            "gloss": "food"
+          },
+          {
+            "word": "ឆ្ងាញ់",
+            "gloss": "tasty"
           }
         ]
       }
@@ -1678,60 +2134,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "តានៅផ្ទះ។",
-        "text": "The grandfather is at home.",
+        "target": "តាប្រាប់រឿងពីសម័យមុន។",
+        "text": "Grandfather tells stories from the old times.",
         "words": [
           {
             "word": "តា",
             "gloss": "grandfather"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ប្រាប់",
+            "gloss": "tell"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "រឿង",
+            "gloss": "story"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
+          },
+          {
+            "word": "សម័យមុន",
+            "gloss": "old times"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយតា។",
-        "text": "I talk with the grandfather.",
+        "target": "តាដើរយឺតៗនៅតាមទន្លេ។",
+        "text": "Grandfather walks slowly along the river.",
+        "words": [
+          {
+            "word": "តា",
+            "gloss": "grandfather"
+          },
+          {
+            "word": "ដើរ",
+            "gloss": "walk"
+          },
+          {
+            "word": "យឺតៗ",
+            "gloss": "slowly"
+          },
+          {
+            "word": "នៅតាម",
+            "gloss": "along"
+          },
+          {
+            "word": "ទន្លេ",
+            "gloss": "river"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំអង្គុយស្តាប់តាច្រៀង។",
+        "text": "I sit and listen to Grandfather sing.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "អង្គុយ",
+            "gloss": "sit"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ស្តាប់",
+            "gloss": "listen"
           },
-          {
-            "word": "តា",
-            "gloss": "grandfather"
-          }
-        ]
-      },
-      {
-        "target": "តាទៅផ្សារ។",
-        "text": "The grandfather goes to the market.",
-        "words": [
           {
             "word": "តា",
             "gloss": "grandfather"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ច្រៀង",
+            "gloss": "sing"
           }
         ]
       }
@@ -1744,64 +2220,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យាយអានសៀវភៅ។",
-        "text": "The grandmother reads a book.",
+        "target": "យាយត្បាញកន្ទេលនៅមុខផ្ទះ។",
+        "text": "Grandmother weaves a mat in front of the house.",
         "words": [
           {
             "word": "យាយ",
             "gloss": "grandmother"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ត្បាញ",
+            "gloss": "weave"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយយាយ។",
-        "text": "We eat rice with the grandmother.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "យាយ",
-            "gloss": "grandmother"
-          }
-        ]
-      },
-      {
-        "target": "យាយនៅផ្ទះ។",
-        "text": "The grandmother is at home.",
-        "words": [
-          {
-            "word": "យាយ",
-            "gloss": "grandmother"
+            "word": "កន្ទេល",
+            "gloss": "mat"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
+          },
+          {
+            "word": "មុខ",
+            "gloss": "front"
           },
           {
             "word": "ផ្ទះ",
             "gloss": "house"
+          }
+        ]
+      },
+      {
+        "target": "យាយធ្វើនំខ្មែរសម្រាប់បុណ្យ។",
+        "text": "Grandmother makes Khmer cakes for the festival.",
+        "words": [
+          {
+            "word": "យាយ",
+            "gloss": "grandmother"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "make"
+          },
+          {
+            "word": "នំខ្មែរ",
+            "gloss": "Khmer cake"
+          },
+          {
+            "word": "សម្រាប់",
+            "gloss": "for"
+          },
+          {
+            "word": "បុណ្យ",
+            "gloss": "festival"
+          }
+        ]
+      },
+      {
+        "target": "ក្មេងៗអោបយាយពេលជួប។",
+        "text": "The children hug Grandmother when they meet.",
+        "words": [
+          {
+            "word": "ក្មេងៗ",
+            "gloss": "children"
+          },
+          {
+            "word": "អោប",
+            "gloss": "hug"
+          },
+          {
+            "word": "យាយ",
+            "gloss": "grandmother"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when"
+          },
+          {
+            "word": "ជួប",
+            "gloss": "meet"
           }
         ]
       }
@@ -1814,60 +2310,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយគ្រូ។",
-        "text": "I talk with the teacher.",
+        "target": "គ្រូពន្យល់មេរៀនយ៉ាងច្បាស់។",
+        "text": "The teacher explains the lesson clearly.",
+        "words": [
+          {
+            "word": "គ្រូ",
+            "gloss": "teacher"
+          },
+          {
+            "word": "ពន្យល់",
+            "gloss": "explain"
+          },
+          {
+            "word": "មេរៀន",
+            "gloss": "lesson"
+          },
+          {
+            "word": "យ៉ាង",
+            "gloss": "manner"
+          },
+          {
+            "word": "ច្បាស់",
+            "gloss": "clear"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូសរសើរសិស្សដែលខិតខំ។",
+        "text": "The teacher praises students who work hard.",
+        "words": [
+          {
+            "word": "គ្រូ",
+            "gloss": "teacher"
+          },
+          {
+            "word": "សរសើរ",
+            "gloss": "praise"
+          },
+          {
+            "word": "សិស្ស",
+            "gloss": "student"
+          },
+          {
+            "word": "ដែល",
+            "gloss": "who"
+          },
+          {
+            "word": "ខិតខំ",
+            "gloss": "diligent"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំសួរគ្រូអំពីកិច្ចការផ្ទះ។",
+        "text": "I ask the teacher about the homework.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "សួរ",
+            "gloss": "ask"
           },
           {
             "word": "គ្រូ",
             "gloss": "teacher"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូទៅផ្សារ។",
-        "text": "The teacher goes to the market.",
-        "words": [
-          {
-            "word": "គ្រូ",
-            "gloss": "teacher"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "អំពី",
+            "gloss": "about"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូអានសៀវភៅ។",
-        "text": "The teacher reads a book.",
-        "words": [
-          {
-            "word": "គ្រូ",
-            "gloss": "teacher"
-          },
-          {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "កិច្ចការផ្ទះ",
+            "gloss": "homework"
           }
         ]
       }
@@ -1880,68 +2396,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយលោកគ្រូ។",
-        "text": "We eat rice with the male teacher.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "លោកគ្រូ",
-            "gloss": "male teacher"
-          }
-        ]
-      },
-      {
-        "target": "លោកគ្រូនៅផ្ទះ។",
-        "text": "The male teacher is at home.",
+        "target": "លោកគ្រូបង្រៀនគណិតវិទ្យានៅថ្នាក់ទីប្រាំ។",
+        "text": "The male teacher teaches math in grade five.",
         "words": [
           {
             "word": "លោកគ្រូ",
             "gloss": "male teacher"
+          },
+          {
+            "word": "បង្រៀន",
+            "gloss": "teach"
+          },
+          {
+            "word": "គណិតវិទ្យា",
+            "gloss": "mathematics"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "in"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ថ្នាក់ទី",
+            "gloss": "grade"
+          },
+          {
+            "word": "ប្រាំ",
+            "gloss": "five"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយលោកគ្រូ។",
-        "text": "I talk with the male teacher.",
+        "target": "លោកគ្រូសរសេរលើក្តារខៀន។",
+        "text": "The male teacher writes on the blackboard.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "លោកគ្រូ",
+            "gloss": "male teacher"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "សរសេរ",
+            "gloss": "write"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ក្តារខៀន",
+            "gloss": "blackboard"
+          }
+        ]
+      },
+      {
+        "target": "សិស្សគោរពលោកគ្រូណាស់។",
+        "text": "The students respect the male teacher a lot.",
+        "words": [
+          {
+            "word": "សិស្ស",
+            "gloss": "student"
+          },
+          {
+            "word": "គោរព",
+            "gloss": "respect"
           },
           {
             "word": "លោកគ្រូ",
             "gloss": "male teacher"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       }
@@ -1954,64 +2478,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អ្នកគ្រូទៅផ្សារ។",
-        "text": "The female teacher goes to the market.",
+        "target": "អ្នកគ្រូបង្រៀនភាសាខ្មែរ។",
+        "text": "The female teacher teaches Khmer language.",
         "words": [
           {
             "word": "អ្នកគ្រូ",
             "gloss": "female teacher"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "បង្រៀន",
+            "gloss": "teach"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ភាសាខ្មែរ",
+            "gloss": "Khmer language"
           }
         ]
       },
       {
-        "target": "អ្នកគ្រូអានសៀវភៅ។",
-        "text": "The female teacher reads a book.",
+        "target": "អ្នកគ្រូពិនិត្យកិច្ចការផ្ទះយ៉ាងប្រុងប្រយ័ត្ន។",
+        "text": "The female teacher checks homework carefully.",
         "words": [
           {
             "word": "អ្នកគ្រូ",
             "gloss": "female teacher"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ពិនិត្យ",
+            "gloss": "check"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "កិច្ចការផ្ទះ",
+            "gloss": "homework"
+          },
+          {
+            "word": "យ៉ាង",
+            "gloss": "manner"
+          },
+          {
+            "word": "ប្រុងប្រយ័ត្ន",
+            "gloss": "carefully"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយអ្នកគ្រូ។",
-        "text": "We eat rice with the female teacher.",
+        "target": "អ្នកគ្រូញញឹមពេលសិស្សឆ្លើយត្រូវ។",
+        "text": "The female teacher smiles when a student answers correctly.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "អ្នកគ្រូ",
             "gloss": "female teacher"
+          },
+          {
+            "word": "ញញឹម",
+            "gloss": "smile"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when"
+          },
+          {
+            "word": "សិស្ស",
+            "gloss": "student"
+          },
+          {
+            "word": "ឆ្លើយ",
+            "gloss": "answer"
+          },
+          {
+            "word": "ត្រូវ",
+            "gloss": "correct"
           }
         ]
       }
@@ -2024,60 +2560,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "សិស្សនៅផ្ទះ។",
-        "text": "The student is at home.",
+        "target": "សិស្សអានសៀវភៅនៅបណ្ណាល័យ។",
+        "text": "The student reads a book in the library.",
         "words": [
           {
             "word": "សិស្ស",
             "gloss": "student"
+          },
+          {
+            "word": "អាន",
+            "gloss": "read"
+          },
+          {
+            "word": "សៀវភៅ",
+            "gloss": "book"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "in"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "បណ្ណាល័យ",
+            "gloss": "library"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយសិស្ស។",
-        "text": "I talk with the student.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "សិស្ស",
-            "gloss": "student"
-          }
-        ]
-      },
-      {
-        "target": "សិស្សទៅផ្សារ។",
-        "text": "The student goes to the market.",
+        "target": "សិស្សលើកដៃដើម្បីសួរសំណួរ។",
+        "text": "The student raises a hand to ask a question.",
         "words": [
           {
             "word": "សិស្ស",
             "gloss": "student"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "លើក",
+            "gloss": "raise"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ដៃ",
+            "gloss": "hand"
+          },
+          {
+            "word": "ដើម្បី",
+            "gloss": "in order to"
+          },
+          {
+            "word": "សួរ",
+            "gloss": "ask"
+          },
+          {
+            "word": "សំណួរ",
+            "gloss": "question"
+          }
+        ]
+      },
+      {
+        "target": "សិស្សពាក់ឯកសណ្ឋានពណ៌ស។",
+        "text": "The student wears a white uniform.",
+        "words": [
+          {
+            "word": "សិស្ស",
+            "gloss": "student"
+          },
+          {
+            "word": "ពាក់",
+            "gloss": "wear"
+          },
+          {
+            "word": "ឯកសណ្ឋាន",
+            "gloss": "uniform"
+          },
+          {
+            "word": "ពណ៌ស",
+            "gloss": "white"
           }
         ]
       }
@@ -2090,64 +2646,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យអានសៀវភៅ។",
-        "text": "The doctor reads a book.",
+        "target": "គ្រូពេទ្យពិនិត្យសីតុណ្ហភាពអ្នកជំងឺ។",
+        "text": "The doctor checks the patient's temperature.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ពិនិត្យ",
+            "gloss": "check"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "សីតុណ្ហភាព",
+            "gloss": "temperature"
+          },
+          {
+            "word": "អ្នកជំងឺ",
+            "gloss": "patient"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយគ្រូពេទ្យ។",
-        "text": "We eat rice with the doctor.",
+        "target": "គ្រូពេទ្យផ្តល់ថ្នាំនិងដំបូន្មាន។",
+        "text": "The doctor gives medicine and advice.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
+          },
+          {
+            "word": "ផ្តល់",
+            "gloss": "give"
+          },
+          {
+            "word": "ថ្នាំ",
+            "gloss": "medicine"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ដំបូន្មាន",
+            "gloss": "advice"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យនៅផ្ទះ។",
-        "text": "The doctor is at home.",
+        "target": "ខ្ញុំណាត់ជួបគ្រូពេទ្យនៅព្រឹក។",
+        "text": "I have an appointment with the doctor in the morning.",
         "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ណាត់ជួប",
+            "gloss": "make appointment"
+          },
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "in"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ព្រឹក",
+            "gloss": "morning"
           }
         ]
       }
@@ -2160,60 +2728,72 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយវេជ្ជបណ្ឌិត។",
-        "text": "I talk with the doctor.",
+        "target": "វេជ្ជបណ្ឌិតធ្វើការវះកាត់នៅមន្ទីរពេទ្យ។",
+        "text": "The doctor performs surgery at the hospital.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "វេជ្ជបណ្ឌិត",
             "gloss": "doctor"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "do"
+          },
+          {
+            "word": "ការវះកាត់",
+            "gloss": "surgery"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "មន្ទីរពេទ្យ",
+            "gloss": "hospital"
           }
         ]
       },
       {
-        "target": "វេជ្ជបណ្ឌិតទៅផ្សារ។",
-        "text": "The doctor goes to the market.",
+        "target": "វេជ្ជបណ្ឌិតពន្យល់លទ្ធផលតេស្តឈាម។",
+        "text": "The doctor explains the blood test results.",
         "words": [
           {
             "word": "វេជ្ជបណ្ឌិត",
             "gloss": "doctor"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ពន្យល់",
+            "gloss": "explain"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "លទ្ធផល",
+            "gloss": "result"
+          },
+          {
+            "word": "តេស្តឈាម",
+            "gloss": "blood test"
           }
         ]
       },
       {
-        "target": "វេជ្ជបណ្ឌិតអានសៀវភៅ។",
-        "text": "The doctor reads a book.",
+        "target": "គ្រួសារទុកចិត្តវេជ្ជបណ្ឌិតនេះ។",
+        "text": "The family trusts this doctor.",
         "words": [
+          {
+            "word": "គ្រួសារ",
+            "gloss": "family"
+          },
+          {
+            "word": "ទុកចិត្ត",
+            "gloss": "trust"
+          },
           {
             "word": "វេជ្ជបណ្ឌិត",
             "gloss": "doctor"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "នេះ",
+            "gloss": "this"
           }
         ]
       }
@@ -2226,64 +2806,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយអ្នកលក់។",
-        "text": "We eat rice with the seller.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "អ្នកលក់",
-            "gloss": "seller"
-          }
-        ]
-      },
-      {
-        "target": "អ្នកលក់នៅផ្ទះ។",
-        "text": "The seller is at home.",
+        "target": "អ្នកលក់ថ្លឹងផ្លែឈើនៅផ្សារ។",
+        "text": "The seller weighs fruit at the market.",
         "words": [
           {
             "word": "អ្នកលក់",
             "gloss": "seller"
+          },
+          {
+            "word": "ថ្លឹង",
+            "gloss": "weigh"
+          },
+          {
+            "word": "ផ្លែឈើ",
+            "gloss": "fruit"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ផ្សារ",
+            "gloss": "market"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយអ្នកលក់។",
-        "text": "I talk with the seller.",
+        "target": "អ្នកលក់ញញឹមនិងនិយាយសំឡេងទន់។",
+        "text": "The seller smiles and speaks softly.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "អ្នកលក់",
+            "gloss": "seller"
+          },
+          {
+            "word": "ញញឹម",
+            "gloss": "smile"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
           },
           {
             "word": "និយាយ",
             "gloss": "speak"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "សំឡេង",
+            "gloss": "voice"
+          },
+          {
+            "word": "ទន់",
+            "gloss": "soft"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំសួរតម្លៃពីអ្នកលក់។",
+        "text": "I ask the price from the seller.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "សួរ",
+            "gloss": "ask"
+          },
+          {
+            "word": "តម្លៃ",
+            "gloss": "price"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
           },
           {
             "word": "អ្នកលក់",
@@ -2300,64 +2896,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អ្នកទិញទៅផ្សារ។",
-        "text": "The buyer goes to the market.",
+        "target": "អ្នកទិញជ្រើសរើសក្រណាត់ពណ៌ខៀវ។",
+        "text": "The buyer chooses blue fabric.",
         "words": [
           {
             "word": "អ្នកទិញ",
             "gloss": "buyer"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ជ្រើសរើស",
+            "gloss": "choose"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ក្រណាត់",
+            "gloss": "fabric"
+          },
+          {
+            "word": "ពណ៌ខៀវ",
+            "gloss": "blue"
           }
         ]
       },
       {
-        "target": "អ្នកទិញអានសៀវភៅ។",
-        "text": "The buyer reads a book.",
+        "target": "អ្នកទិញបង់ប្រាក់ដោយកាត។",
+        "text": "The buyer pays with a card.",
         "words": [
           {
             "word": "អ្នកទិញ",
             "gloss": "buyer"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "បង់ប្រាក់",
+            "gloss": "pay"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ដោយ",
+            "gloss": "by"
+          },
+          {
+            "word": "កាត",
+            "gloss": "card"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយអ្នកទិញ។",
-        "text": "We eat rice with the buyer.",
+        "target": "អ្នកទិញសួរថាតើមានទំហំធំទេ។",
+        "text": "The buyer asks if there is a large size.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "អ្នកទិញ",
             "gloss": "buyer"
+          },
+          {
+            "word": "សួរ",
+            "gloss": "ask"
+          },
+          {
+            "word": "ថាតើ",
+            "gloss": "whether"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ទំហំ",
+            "gloss": "size"
+          },
+          {
+            "word": "ធំ",
+            "gloss": "large"
+          },
+          {
+            "word": "ទេ",
+            "gloss": "question particle"
           }
         ]
       }
@@ -2370,60 +2982,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អ្នកបើកបរនៅផ្ទះ។",
-        "text": "The driver is at home.",
+        "target": "អ្នកបើកបរបើកឡានក្រុងយ៉ាងប្រុងប្រយ័ត្ន។",
+        "text": "The driver drives the bus carefully.",
         "words": [
           {
             "word": "អ្នកបើកបរ",
             "gloss": "driver"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "បើក",
+            "gloss": "drive"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ឡានក្រុង",
+            "gloss": "bus"
+          },
+          {
+            "word": "យ៉ាង",
+            "gloss": "manner"
+          },
+          {
+            "word": "ប្រុងប្រយ័ត្ន",
+            "gloss": "carefully"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយអ្នកបើកបរ។",
-        "text": "I talk with the driver.",
+        "target": "អ្នកបើកបររង់ចាំអ្នកដំណើរនៅស្ថានីយ។",
+        "text": "The driver waits for passengers at the station.",
+        "words": [
+          {
+            "word": "អ្នកបើកបរ",
+            "gloss": "driver"
+          },
+          {
+            "word": "រង់ចាំ",
+            "gloss": "wait"
+          },
+          {
+            "word": "អ្នកដំណើរ",
+            "gloss": "traveler"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ស្ថានីយ",
+            "gloss": "station"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំអរគុណអ្នកបើកបរសម្រាប់ការជួយ។",
+        "text": "I thank the driver for the help.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "អរគុណ",
+            "gloss": "thank"
           },
           {
             "word": "អ្នកបើកបរ",
             "gloss": "driver"
-          }
-        ]
-      },
-      {
-        "target": "អ្នកបើកបរទៅផ្សារ។",
-        "text": "The driver goes to the market.",
-        "words": [
-          {
-            "word": "អ្នកបើកបរ",
-            "gloss": "driver"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "សម្រាប់",
+            "gloss": "for"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ការជួយ",
+            "gloss": "help"
           }
         ]
       }
@@ -2436,64 +3068,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ប៉ូលិសអានសៀវភៅ។",
-        "text": "The police officer reads a book.",
+        "target": "ប៉ូលិសគ្រប់គ្រងចរាចរណ៍នៅផ្លូវធំ។",
+        "text": "The police officer directs traffic on the main road.",
         "words": [
           {
             "word": "ប៉ូលិស",
             "gloss": "police officer"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "គ្រប់គ្រង",
+            "gloss": "manage"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយប៉ូលិស។",
-        "text": "We eat rice with the police officer.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ប៉ូលិស",
-            "gloss": "police officer"
-          }
-        ]
-      },
-      {
-        "target": "ប៉ូលិសនៅផ្ទះ។",
-        "text": "The police officer is at home.",
-        "words": [
-          {
-            "word": "ប៉ូលិស",
-            "gloss": "police officer"
+            "word": "ចរាចរណ៍",
+            "gloss": "traffic"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "on"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ផ្លូវ",
+            "gloss": "road"
+          },
+          {
+            "word": "ធំ",
+            "gloss": "big"
+          }
+        ]
+      },
+      {
+        "target": "ប៉ូលិសជួយក្មេងឆ្លងផ្លូវ។",
+        "text": "The police officer helps a child cross the road.",
+        "words": [
+          {
+            "word": "ប៉ូលិស",
+            "gloss": "police officer"
+          },
+          {
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "ក្មេង",
+            "gloss": "child"
+          },
+          {
+            "word": "ឆ្លង",
+            "gloss": "cross"
+          },
+          {
+            "word": "ផ្លូវ",
+            "gloss": "road"
+          }
+        ]
+      },
+      {
+        "target": "មនុស្សសួរផ្លូវពីប៉ូលិស។",
+        "text": "People ask the police officer for directions.",
+        "words": [
+          {
+            "word": "មនុស្ស",
+            "gloss": "person"
+          },
+          {
+            "word": "សួរ",
+            "gloss": "ask"
+          },
+          {
+            "word": "ផ្លូវ",
+            "gloss": "way; road"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
+          },
+          {
+            "word": "ប៉ូលិស",
+            "gloss": "police officer"
           }
         ]
       }
@@ -2506,60 +3158,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយកសិករ។",
-        "text": "I talk with the farmer.",
+        "target": "កសិករដាំស្រូវនៅវាលស្រែ។",
+        "text": "The farmer plants rice in the paddy field.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "កសិករ",
             "gloss": "farmer"
+          },
+          {
+            "word": "ដាំ",
+            "gloss": "plant"
+          },
+          {
+            "word": "ស្រូវ",
+            "gloss": "paddy rice"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "វាលស្រែ",
+            "gloss": "paddy field"
           }
         ]
       },
       {
-        "target": "កសិករទៅផ្សារ។",
-        "text": "The farmer goes to the market.",
+        "target": "កសិករប្រមូលផលនៅរដូវប្រាំង។",
+        "text": "The farmer harvests in the dry season.",
         "words": [
           {
             "word": "កសិករ",
             "gloss": "farmer"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ប្រមូលផល",
+            "gloss": "harvest"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "រដូវប្រាំង",
+            "gloss": "dry season"
+          }
+        ]
+      },
+      {
+        "target": "កសិករលក់បន្លែនៅផ្សារភូមិ។",
+        "text": "The farmer sells vegetables at the village market.",
+        "words": [
+          {
+            "word": "កសិករ",
+            "gloss": "farmer"
+          },
+          {
+            "word": "លក់",
+            "gloss": "sell"
+          },
+          {
+            "word": "បន្លែ",
+            "gloss": "vegetables"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
             "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "កសិករអានសៀវភៅ។",
-        "text": "The farmer reads a book.",
-        "words": [
-          {
-            "word": "កសិករ",
-            "gloss": "farmer"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ភូមិ",
+            "gloss": "village"
           }
         ]
       }
@@ -2572,68 +3244,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយបុគ្គលិក។",
-        "text": "We eat rice with the employee.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "បុគ្គលិក",
-            "gloss": "employee"
-          }
-        ]
-      },
-      {
-        "target": "បុគ្គលិកនៅផ្ទះ។",
-        "text": "The employee is at home.",
+        "target": "បុគ្គលិកឆ្លើយទូរស័ព្ទនៅការិយាល័យ។",
+        "text": "The employee answers the phone at the office.",
         "words": [
           {
             "word": "បុគ្គលិក",
             "gloss": "employee"
+          },
+          {
+            "word": "ឆ្លើយ",
+            "gloss": "answer"
+          },
+          {
+            "word": "ទូរស័ព្ទ",
+            "gloss": "telephone"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ការិយាល័យ",
+            "gloss": "office"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយបុគ្គលិក។",
-        "text": "I talk with the employee.",
+        "target": "បុគ្គលិកបញ្ចប់របាយការណ៍មុនម៉ោងប្រាំ។",
+        "text": "The employee finishes the report before five o'clock.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "បុគ្គលិក",
+            "gloss": "employee"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "បញ្ចប់",
+            "gloss": "finish"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "របាយការណ៍",
+            "gloss": "report"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before"
+          },
+          {
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          },
+          {
+            "word": "ប្រាំ",
+            "gloss": "five"
+          }
+        ]
+      },
+      {
+        "target": "ក្រុមហ៊ុនបណ្តុះបណ្តាលបុគ្គលិកថ្មី។",
+        "text": "The company trains new employees.",
+        "words": [
+          {
+            "word": "ក្រុមហ៊ុន",
+            "gloss": "company"
+          },
+          {
+            "word": "បណ្តុះបណ្តាល",
+            "gloss": "train"
           },
           {
             "word": "បុគ្គលិក",
             "gloss": "employee"
+          },
+          {
+            "word": "ថ្មី",
+            "gloss": "new"
           }
         ]
       }
@@ -2646,64 +3330,72 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អ្នកធ្វើការទៅផ្សារ។",
-        "text": "The worker goes to the market.",
+        "target": "អ្នកធ្វើការសង់ផ្ទះនៅតាមផ្លូវ។",
+        "text": "The worker builds a house along the road.",
         "words": [
           {
             "word": "អ្នកធ្វើការ",
             "gloss": "worker"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "សង់",
+            "gloss": "build"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ផ្ទះ",
+            "gloss": "house"
+          },
+          {
+            "word": "នៅតាម",
+            "gloss": "along"
+          },
+          {
+            "word": "ផ្លូវ",
+            "gloss": "road"
           }
         ]
       },
       {
-        "target": "អ្នកធ្វើការអានសៀវភៅ។",
-        "text": "The worker reads a book.",
+        "target": "អ្នកធ្វើការពាក់មួកសុវត្ថិភាព។",
+        "text": "The worker wears a safety helmet.",
         "words": [
           {
             "word": "អ្នកធ្វើការ",
             "gloss": "worker"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ពាក់",
+            "gloss": "wear"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "មួកសុវត្ថិភាព",
+            "gloss": "safety helmet"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយអ្នកធ្វើការ។",
-        "text": "We eat rice with the worker.",
+        "target": "អ្នកធ្វើការផឹកទឹកពេលសម្រាក។",
+        "text": "The worker drinks water during the break.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "អ្នកធ្វើការ",
             "gloss": "worker"
+          },
+          {
+            "word": "ផឹក",
+            "gloss": "drink"
+          },
+          {
+            "word": "ទឹក",
+            "gloss": "water"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "during"
+          },
+          {
+            "word": "សម្រាក",
+            "gloss": "break; rest"
           }
         ]
       }
@@ -2716,38 +3408,54 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ភ្ញៀវនៅផ្ទះ។",
-        "text": "The guest is at home.",
+        "target": "ភ្ញៀវអង្គុយនៅបន្ទប់ទទួលភ្ញៀវ។",
+        "text": "The guest sits in the living room.",
         "words": [
           {
             "word": "ភ្ញៀវ",
             "gloss": "guest"
+          },
+          {
+            "word": "អង្គុយ",
+            "gloss": "sit"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "in"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "បន្ទប់ទទួលភ្ញៀវ",
+            "gloss": "living room"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយភ្ញៀវ។",
-        "text": "I talk with the guest.",
+        "target": "យើងថ្វាយតែនិងផ្លែឈើដល់ភ្ញៀវ។",
+        "text": "We offer tea and fruit to the guest.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "យើង",
+            "gloss": "we"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "ថ្វាយ",
+            "gloss": "offer"
           },
           {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "តែ",
+            "gloss": "tea"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ផ្លែឈើ",
+            "gloss": "fruit"
+          },
+          {
+            "word": "ដល់",
+            "gloss": "to"
           },
           {
             "word": "ភ្ញៀវ",
@@ -2756,20 +3464,28 @@
         ]
       },
       {
-        "target": "ភ្ញៀវទៅផ្សារ។",
-        "text": "The guest goes to the market.",
+        "target": "ភ្ញៀវនាំអំណោយមកពីខេត្ត។",
+        "text": "The guest brings a gift from the province.",
         "words": [
           {
             "word": "ភ្ញៀវ",
             "gloss": "guest"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "នាំ",
+            "gloss": "bring"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "អំណោយ",
+            "gloss": "gift"
+          },
+          {
+            "word": "មកពី",
+            "gloss": "from"
+          },
+          {
+            "word": "ខេត្ត",
+            "gloss": "province"
           }
         ]
       }
@@ -2782,64 +3498,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អ្នកដំណើរអានសៀវភៅ។",
-        "text": "The traveler reads a book.",
+        "target": "អ្នកដំណើរពិនិត្យផែនទីនៅស្ថានីយ។",
+        "text": "The traveler checks a map at the station.",
         "words": [
           {
             "word": "អ្នកដំណើរ",
             "gloss": "traveler"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "ពិនិត្យ",
+            "gloss": "check"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយអ្នកដំណើរ។",
-        "text": "We eat rice with the traveler.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "អ្នកដំណើរ",
-            "gloss": "traveler"
-          }
-        ]
-      },
-      {
-        "target": "អ្នកដំណើរនៅផ្ទះ។",
-        "text": "The traveler is at home.",
-        "words": [
-          {
-            "word": "អ្នកដំណើរ",
-            "gloss": "traveler"
+            "word": "ផែនទី",
+            "gloss": "map"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ស្ថានីយ",
+            "gloss": "station"
+          }
+        ]
+      },
+      {
+        "target": "អ្នកដំណើរដាក់វ៉ាលីនៅលើឡានក្រុង។",
+        "text": "The traveler puts a suitcase on the bus.",
+        "words": [
+          {
+            "word": "អ្នកដំណើរ",
+            "gloss": "traveler"
+          },
+          {
+            "word": "ដាក់",
+            "gloss": "put"
+          },
+          {
+            "word": "វ៉ាលី",
+            "gloss": "suitcase"
+          },
+          {
+            "word": "នៅលើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ឡានក្រុង",
+            "gloss": "bus"
+          }
+        ]
+      },
+      {
+        "target": "អ្នកដំណើរថតរូបនៅមុខប្រាសាទ។",
+        "text": "The traveler takes a photo in front of the temple.",
+        "words": [
+          {
+            "word": "អ្នកដំណើរ",
+            "gloss": "traveler"
+          },
+          {
+            "word": "ថតរូប",
+            "gloss": "take photo"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "មុខ",
+            "gloss": "front"
+          },
+          {
+            "word": "ប្រាសាទ",
+            "gloss": "temple"
           }
         ]
       }
@@ -2852,60 +3584,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយក្មេង។",
-        "text": "I talk with the child.",
+        "target": "ក្មេងលេងលាក់ពួននៅសួនច្បារ។",
+        "text": "The child plays hide-and-seek in the park.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "ក្មេង",
             "gloss": "child"
+          },
+          {
+            "word": "លេង",
+            "gloss": "play"
+          },
+          {
+            "word": "លាក់ពួន",
+            "gloss": "hide-and-seek"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "សួនច្បារ",
+            "gloss": "park"
           }
         ]
       },
       {
-        "target": "ក្មេងទៅផ្សារ។",
-        "text": "The child goes to the market.",
+        "target": "ក្មេងផឹកទឹកដោះគោមុនទៅសាលា។",
+        "text": "The child drinks milk before going to school.",
         "words": [
           {
             "word": "ក្មេង",
             "gloss": "child"
+          },
+          {
+            "word": "ផឹក",
+            "gloss": "drink"
+          },
+          {
+            "word": "ទឹកដោះគោ",
+            "gloss": "milk"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before"
           },
           {
             "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "go"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "សាលា",
+            "gloss": "school"
           }
         ]
       },
       {
-        "target": "ក្មេងអានសៀវភៅ។",
-        "text": "The child reads a book.",
+        "target": "ម៉ែលាងមុខឱ្យក្មេង។",
+        "text": "Mother washes the child's face.",
         "words": [
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother"
+          },
+          {
+            "word": "លាង",
+            "gloss": "wash"
+          },
+          {
+            "word": "មុខ",
+            "gloss": "face"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "for"
+          },
           {
             "word": "ក្មេង",
             "gloss": "child"
-          },
-          {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
           }
         ]
       }
@@ -2918,68 +3674,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយមនុស្ស។",
-        "text": "We eat rice with the person.",
+        "target": "មនុស្សជាច្រើនរង់ចាំឡានក្រុង។",
+        "text": "Many people wait for the bus.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "មនុស្ស",
             "gloss": "person"
+          },
+          {
+            "word": "ជាច្រើន",
+            "gloss": "many"
+          },
+          {
+            "word": "រង់ចាំ",
+            "gloss": "wait"
+          },
+          {
+            "word": "ឡានក្រុង",
+            "gloss": "bus"
           }
         ]
       },
       {
-        "target": "មនុស្សនៅផ្ទះ។",
-        "text": "The person is at home.",
+        "target": "មនុស្សនោះពាក់អាវពណ៌ក្រហម។",
+        "text": "That person wears a red shirt.",
         "words": [
           {
             "word": "មនុស្ស",
             "gloss": "person"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "នោះ",
+            "gloss": "that"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ពាក់",
+            "gloss": "wear"
+          },
+          {
+            "word": "អាវ",
+            "gloss": "shirt"
+          },
+          {
+            "word": "ពណ៌ក្រហម",
+            "gloss": "red"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយមនុស្ស។",
-        "text": "I talk with the person.",
+        "target": "មានមនុស្សម្នាក់គោះទ្វារ។",
+        "text": "There is a person knocking on the door.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "មាន",
+            "gloss": "have; there is"
           },
           {
             "word": "មនុស្ស",
             "gloss": "person"
+          },
+          {
+            "word": "ម្នាក់",
+            "gloss": "one person"
+          },
+          {
+            "word": "គោះ",
+            "gloss": "knock"
+          },
+          {
+            "word": "ទ្វារ",
+            "gloss": "door"
           }
         ]
       }
@@ -2992,26 +3756,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "បុរសទៅផ្សារ។",
-        "text": "The man goes to the market.",
-        "words": [
-          {
-            "word": "បុរស",
-            "gloss": "man"
-          },
-          {
-            "word": "ទៅ",
-            "gloss": "go; to"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "បុរសអានសៀវភៅ។",
-        "text": "The man reads a book.",
+        "target": "បុរសអានកាសែតនៅហាងកាហ្វេ។",
+        "text": "The man reads a newspaper at the cafe.",
         "words": [
           {
             "word": "បុរស",
@@ -3022,34 +3768,68 @@
             "gloss": "read"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "កាសែត",
+            "gloss": "newspaper"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ហាងកាហ្វេ",
+            "gloss": "cafe"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយបុរស។",
-        "text": "We eat rice with the man.",
+        "target": "បុរសជួយលើកថង់ធ្ងន់។",
+        "text": "The man helps lift a heavy bag.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "បុរស",
             "gloss": "man"
+          },
+          {
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "លើក",
+            "gloss": "lift"
+          },
+          {
+            "word": "ថង់",
+            "gloss": "bag"
+          },
+          {
+            "word": "ធ្ងន់",
+            "gloss": "heavy"
+          }
+        ]
+      },
+      {
+        "target": "បុរសនោះធ្វើការនៅធនាគារ។",
+        "text": "That man works at a bank.",
+        "words": [
+          {
+            "word": "បុរស",
+            "gloss": "man"
+          },
+          {
+            "word": "នោះ",
+            "gloss": "that"
+          },
+          {
+            "word": "ធ្វើការ",
+            "gloss": "work"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ធនាគារ",
+            "gloss": "bank"
           }
         ]
       }
@@ -3062,60 +3842,88 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ស្រីនៅផ្ទះ។",
-        "text": "The woman is at home.",
+        "target": "ស្រីទិញបន្លែស្រស់នៅផ្សារ។",
+        "text": "The woman buys fresh vegetables at the market.",
         "words": [
           {
             "word": "ស្រី",
             "gloss": "woman"
+          },
+          {
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "បន្លែ",
+            "gloss": "vegetables"
+          },
+          {
+            "word": "ស្រស់",
+            "gloss": "fresh"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះ",
-            "gloss": "house"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំនិយាយជាមួយស្រី។",
-        "text": "I talk with the woman.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ស្រី",
-            "gloss": "woman"
-          }
-        ]
-      },
-      {
-        "target": "ស្រីទៅផ្សារ។",
-        "text": "The woman goes to the market.",
-        "words": [
-          {
-            "word": "ស្រី",
-            "gloss": "woman"
-          },
-          {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
             "gloss": "market"
+          }
+        ]
+      },
+      {
+        "target": "ស្រីបើកហាងលក់សម្លៀកបំពាក់។",
+        "text": "The woman opens a shop selling clothes.",
+        "words": [
+          {
+            "word": "ស្រី",
+            "gloss": "woman"
+          },
+          {
+            "word": "បើក",
+            "gloss": "open"
+          },
+          {
+            "word": "ហាង",
+            "gloss": "shop"
+          },
+          {
+            "word": "លក់",
+            "gloss": "sell"
+          },
+          {
+            "word": "សម្លៀកបំពាក់",
+            "gloss": "clothes"
+          }
+        ]
+      },
+      {
+        "target": "ស្រីអង្គុយក្បែរបង្អួចអានសៀវភៅ។",
+        "text": "The woman sits by the window reading a book.",
+        "words": [
+          {
+            "word": "ស្រី",
+            "gloss": "woman"
+          },
+          {
+            "word": "អង្គុយ",
+            "gloss": "sit"
+          },
+          {
+            "word": "ក្បែរ",
+            "gloss": "near"
+          },
+          {
+            "word": "បង្អួច",
+            "gloss": "window"
+          },
+          {
+            "word": "អាន",
+            "gloss": "read"
+          },
+          {
+            "word": "សៀវភៅ",
+            "gloss": "book"
           }
         ]
       }
@@ -3128,64 +3936,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ក្មេងស្រីអានសៀវភៅ។",
-        "text": "The girl reads a book.",
+        "target": "ក្មេងស្រីលោតខ្សែរនៅសាលា។",
+        "text": "The girl jumps rope at school.",
         "words": [
           {
             "word": "ក្មេងស្រី",
             "gloss": "girl"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "លោត",
+            "gloss": "jump"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
-          }
-        ]
-      },
-      {
-        "target": "យើងញ៉ាំបាយជាមួយក្មេងស្រី។",
-        "text": "We eat rice with the girl.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ក្មេងស្រី",
-            "gloss": "girl"
-          }
-        ]
-      },
-      {
-        "target": "ក្មេងស្រីនៅផ្ទះ។",
-        "text": "The girl is at home.",
-        "words": [
-          {
-            "word": "ក្មេងស្រី",
-            "gloss": "girl"
+            "word": "ខ្សែរ",
+            "gloss": "rope"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "សាលា",
+            "gloss": "school"
+          }
+        ]
+      },
+      {
+        "target": "ក្មេងស្រីគូរផ្កានៅក្នុងសៀវភៅ។",
+        "text": "The girl draws flowers in her notebook.",
+        "words": [
+          {
+            "word": "ក្មេងស្រី",
+            "gloss": "girl"
+          },
+          {
+            "word": "គូរ",
+            "gloss": "draw"
+          },
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
+          },
+          {
+            "word": "នៅក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "សៀវភៅ",
+            "gloss": "book; notebook"
+          }
+        ]
+      },
+      {
+        "target": "ក្មេងស្រីជួយម៉ែលាងចាន។",
+        "text": "The girl helps Mother wash the dishes.",
+        "words": [
+          {
+            "word": "ក្មេងស្រី",
+            "gloss": "girl"
+          },
+          {
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother"
+          },
+          {
+            "word": "លាង",
+            "gloss": "wash"
+          },
+          {
+            "word": "ចាន",
+            "gloss": "plate; bowl"
           }
         ]
       }
@@ -3198,60 +4022,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយក្មេងប្រុស។",
-        "text": "I talk with the boy.",
+        "target": "ក្មេងប្រុសទាត់បាល់នៅវាល។",
+        "text": "The boy kicks a ball in the field.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "ក្មេងប្រុស",
             "gloss": "boy"
+          },
+          {
+            "word": "ទាត់",
+            "gloss": "kick"
+          },
+          {
+            "word": "បាល់",
+            "gloss": "ball"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "វាល",
+            "gloss": "field"
           }
         ]
       },
       {
-        "target": "ក្មេងប្រុសទៅផ្សារ។",
-        "text": "The boy goes to the market.",
+        "target": "ក្មេងប្រុសប្រមូលសត្វល្អិតក្នុងប្រអប់។",
+        "text": "The boy collects insects in a box.",
         "words": [
           {
             "word": "ក្មេងប្រុស",
             "gloss": "boy"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ប្រមូល",
+            "gloss": "collect"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "សត្វល្អិត",
+            "gloss": "insect"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ប្រអប់",
+            "gloss": "box"
           }
         ]
       },
       {
-        "target": "ក្មេងប្រុសអានសៀវភៅ។",
-        "text": "The boy reads a book.",
+        "target": "ក្មេងប្រុសសួរគ្រូអំពីផែនទី។",
+        "text": "The boy asks the teacher about the map.",
         "words": [
           {
             "word": "ក្មេងប្រុស",
             "gloss": "boy"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "សួរ",
+            "gloss": "ask"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "គ្រូ",
+            "gloss": "teacher"
+          },
+          {
+            "word": "អំពី",
+            "gloss": "about"
+          },
+          {
+            "word": "ផែនទី",
+            "gloss": "map"
           }
         ]
       }
@@ -3264,12 +4108,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយអ្នកជិតខាង។",
-        "text": "We eat rice with the neighbor.",
+        "target": "អ្នកជិតខាងឱ្យខ្ញុំខ្ចីអំបិល។",
+        "text": "The neighbor lets me borrow some salt.",
+        "words": [
+          {
+            "word": "អ្នកជិតខាង",
+            "gloss": "neighbor"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "let; give"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ខ្ចី",
+            "gloss": "borrow"
+          },
+          {
+            "word": "អំបិល",
+            "gloss": "salt"
+          }
+        ]
+      },
+      {
+        "target": "អ្នកជិតខាងមើលផ្ទះពេលយើងទៅដំណើរ។",
+        "text": "The neighbor watches the house while we travel.",
+        "words": [
+          {
+            "word": "អ្នកជិតខាង",
+            "gloss": "neighbor"
+          },
+          {
+            "word": "មើល",
+            "gloss": "watch"
+          },
+          {
+            "word": "ផ្ទះ",
+            "gloss": "house"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when"
+          },
+          {
+            "word": "យើង",
+            "gloss": "we"
+          },
+          {
+            "word": "ទៅដំណើរ",
+            "gloss": "go travel"
+          }
+        ]
+      },
+      {
+        "target": "យើងអញ្ជើញអ្នកជិតខាងមកញ៉ាំបាយ។",
+        "text": "We invite the neighbor over for a meal.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
+          },
+          {
+            "word": "អញ្ជើញ",
+            "gloss": "invite"
+          },
+          {
+            "word": "អ្នកជិតខាង",
+            "gloss": "neighbor"
+          },
+          {
+            "word": "មក",
+            "gloss": "come"
           },
           {
             "word": "ញ៉ាំ",
@@ -3278,54 +4190,6 @@
           {
             "word": "បាយ",
             "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "អ្នកជិតខាង",
-            "gloss": "neighbor"
-          }
-        ]
-      },
-      {
-        "target": "អ្នកជិតខាងនៅផ្ទះ។",
-        "text": "The neighbor is at home.",
-        "words": [
-          {
-            "word": "អ្នកជិតខាង",
-            "gloss": "neighbor"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះ",
-            "gloss": "house"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំនិយាយជាមួយអ្នកជិតខាង។",
-        "text": "I talk with the neighbor.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "អ្នកជិតខាង",
-            "gloss": "neighbor"
           }
         ]
       }
@@ -3338,64 +4202,88 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម្ចាស់ហាងទៅផ្សារ។",
-        "text": "The shop owner goes to the market.",
+        "target": "ម្ចាស់ហាងបើកទ្វារម៉ោងប្រាំពីរព្រឹក។",
+        "text": "The shop owner opens the door at seven in the morning.",
         "words": [
           {
             "word": "ម្ចាស់ហាង",
             "gloss": "shop owner"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "បើក",
+            "gloss": "open"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ទ្វារ",
+            "gloss": "door"
+          },
+          {
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          },
+          {
+            "word": "ប្រាំពីរ",
+            "gloss": "seven"
+          },
+          {
+            "word": "ព្រឹក",
+            "gloss": "morning"
           }
         ]
       },
       {
-        "target": "ម្ចាស់ហាងអានសៀវភៅ។",
-        "text": "The shop owner reads a book.",
+        "target": "ម្ចាស់ហាងរាប់ប្រាក់នៅពេលល្ងាច។",
+        "text": "The shop owner counts money in the evening.",
         "words": [
           {
             "word": "ម្ចាស់ហាង",
             "gloss": "shop owner"
           },
           {
-            "word": "អាន",
-            "gloss": "read"
+            "word": "រាប់",
+            "gloss": "count"
           },
           {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "ប្រាក់",
+            "gloss": "money"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "ពេលល្ងាច",
+            "gloss": "evening"
           }
         ]
       },
       {
-        "target": "យើងញ៉ាំបាយជាមួយម្ចាស់ហាង។",
-        "text": "We eat rice with the shop owner.",
+        "target": "ម្ចាស់ហាងណែនាំផលិតផលថ្មីដល់អតិថិជន។",
+        "text": "The shop owner recommends a new product to customers.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
           {
             "word": "ម្ចាស់ហាង",
             "gloss": "shop owner"
+          },
+          {
+            "word": "ណែនាំ",
+            "gloss": "recommend"
+          },
+          {
+            "word": "ផលិតផល",
+            "gloss": "product"
+          },
+          {
+            "word": "ថ្មី",
+            "gloss": "new"
+          },
+          {
+            "word": "ដល់",
+            "gloss": "to"
+          },
+          {
+            "word": "អតិថិជន",
+            "gloss": "customer"
           }
         ]
       }
@@ -3408,60 +4296,84 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ចុងភៅនៅផ្ទះ។",
-        "text": "The cook is at home.",
+        "target": "ចុងភៅចិតបន្លែយ៉ាងលឿន។",
+        "text": "The cook chops vegetables quickly.",
         "words": [
           {
             "word": "ចុងភៅ",
             "gloss": "cook"
+          },
+          {
+            "word": "ចិត",
+            "gloss": "chop"
+          },
+          {
+            "word": "បន្លែ",
+            "gloss": "vegetables"
+          },
+          {
+            "word": "យ៉ាង",
+            "gloss": "manner"
+          },
+          {
+            "word": "លឿន",
+            "gloss": "fast"
+          }
+        ]
+      },
+      {
+        "target": "ចុងភៅបើកចង្ក្រាននៅផ្ទះបាយ។",
+        "text": "The cook turns on the stove in the kitchen.",
+        "words": [
+          {
+            "word": "ចុងភៅ",
+            "gloss": "cook"
+          },
+          {
+            "word": "បើក",
+            "gloss": "turn on"
+          },
+          {
+            "word": "ចង្ក្រាន",
+            "gloss": "stove"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "in"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ផ្ទះបាយ",
+            "gloss": "kitchen"
           }
         ]
       },
       {
-        "target": "ខ្ញុំនិយាយជាមួយចុងភៅ។",
-        "text": "I talk with the cook.",
+        "target": "ភ្ញៀវសរសើរចុងភៅសម្រាប់ម្ហូបឆ្ងាញ់។",
+        "text": "Guests praise the cook for the tasty food.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ភ្ញៀវ",
+            "gloss": "guest"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "សរសើរ",
+            "gloss": "praise"
           },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
-            "word": "ចុងភៅ",
-            "gloss": "cook"
-          }
-        ]
-      },
-      {
-        "target": "ចុងភៅទៅផ្សារ។",
-        "text": "The cook goes to the market.",
-        "words": [
           {
             "word": "ចុងភៅ",
             "gloss": "cook"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "សម្រាប់",
+            "gloss": "for"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ម្ហូប",
+            "gloss": "food"
+          },
+          {
+            "word": "ឆ្ងាញ់",
+            "gloss": "tasty"
           }
         ]
       }

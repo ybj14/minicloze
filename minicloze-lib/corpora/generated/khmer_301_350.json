@@ -6,16 +6,16 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងមាត់។",
-        "text": "I wash my mouth.",
+        "target": "ខ្ញុំបើកមាត់។",
+        "text": "I open my mouth.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "បើក",
+            "gloss": "open"
           },
           {
             "word": "មាត់",
@@ -24,8 +24,34 @@
         ]
       },
       {
-        "target": "មាត់ខ្ញុំឈឺ។",
-        "text": "My mouth hurts.",
+        "target": "កូនដាក់អាហារក្នុងមាត់។",
+        "text": "The child puts food in his mouth.",
+        "words": [
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "ដាក់",
+            "gloss": "put"
+          },
+          {
+            "word": "អាហារ",
+            "gloss": "food"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "មាត់",
+            "gloss": "mouth"
+          }
+        ]
+      },
+      {
+        "target": "មាត់ខ្ញុំស្ងួត។",
+        "text": "My mouth is dry.",
         "words": [
           {
             "word": "មាត់",
@@ -33,29 +59,11 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលមាត់។",
-        "text": "The doctor looks at the mouth.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "មាត់",
-            "gloss": "mouth"
+            "word": "ស្ងួត",
+            "gloss": "dry"
           }
         ]
       }
@@ -68,56 +76,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងធ្មេញ។",
-        "text": "I wash my tooth.",
+        "target": "ខ្ញុំដុសធ្មេញព្រឹក។",
+        "text": "I brush my teeth in the morning.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ដុស",
+            "gloss": "brush"
           },
           {
             "word": "ធ្មេញ",
             "gloss": "tooth"
+          },
+          {
+            "word": "ព្រឹក",
+            "gloss": "morning"
           }
         ]
       },
       {
-        "target": "ធ្មេញខ្ញុំឈឺ។",
-        "text": "My tooth hurts.",
+        "target": "ធ្មេញគាត់ស្អាត។",
+        "text": "His teeth are clean.",
         "words": [
           {
             "word": "ធ្មេញ",
             "gloss": "tooth"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "គាត់",
+            "gloss": "he"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "ស្អាត",
+            "gloss": "clean"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលធ្មេញ។",
-        "text": "The doctor looks at the tooth.",
+        "target": "កូនបាត់ធ្មេញមួយ។",
+        "text": "The child lost one tooth.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "បាត់",
+            "gloss": "lose"
           },
           {
             "word": "ធ្មេញ",
             "gloss": "tooth"
+          },
+          {
+            "word": "មួយ",
+            "gloss": "one"
           }
         ]
       }
@@ -130,16 +146,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងអណ្តាត។",
-        "text": "I wash my tongue.",
+        "target": "អណ្តាតជួយនិយាយ។",
+        "text": "The tongue helps us speak.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "អណ្តាត",
+            "gloss": "tongue"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "និយាយ",
+            "gloss": "speak"
+          }
+        ]
+      },
+      {
+        "target": "កុំខាំអណ្តាត។",
+        "text": "Do not bite your tongue.",
+        "words": [
+          {
+            "word": "កុំ",
+            "gloss": "do not"
+          },
+          {
+            "word": "ខាំ",
+            "gloss": "bite"
           },
           {
             "word": "អណ្តាត",
@@ -148,34 +182,20 @@
         ]
       },
       {
-        "target": "អណ្តាតខ្ញុំឈឺ។",
-        "text": "My tongue hurts.",
-        "words": [
-          {
-            "word": "អណ្តាត",
-            "gloss": "tongue"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលអណ្តាត។",
-        "text": "The doctor looks at the tongue.",
+        "target": "គ្រូពេទ្យសួរអំពីអណ្តាត។",
+        "text": "The doctor asks about the tongue.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "សួរ",
+            "gloss": "ask"
+          },
+          {
+            "word": "អំពី",
+            "gloss": "about"
           },
           {
             "word": "អណ្តាត",
@@ -192,16 +212,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងក។",
-        "text": "I wash my neck.",
+        "target": "កខ្ញុំវែង។",
+        "text": "My neck is long.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ក",
+            "gloss": "neck"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "វែង",
+            "gloss": "long"
+          }
+        ]
+      },
+      {
+        "target": "នាងប៉ះក។",
+        "text": "She touches her neck.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "ប៉ះ",
+            "gloss": "touch"
           },
           {
             "word": "ក",
@@ -210,38 +248,28 @@
         ]
       },
       {
-        "target": "កខ្ញុំឈឺ។",
-        "text": "My neck hurts.",
+        "target": "កូនងាកកទៅឆ្វេង។",
+        "text": "The child turns his neck to the left.",
         "words": [
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "ងាក",
+            "gloss": "turn"
+          },
           {
             "word": "ក",
             "gloss": "neck"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ទៅ",
+            "gloss": "to"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលក។",
-        "text": "The doctor looks at the neck.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ក",
-            "gloss": "neck"
+            "word": "ឆ្វេង",
+            "gloss": "left"
           }
         ]
       }
@@ -254,16 +282,16 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងដៃ។",
-        "text": "I wash my hand.",
+        "target": "ខ្ញុំលើកដៃ។",
+        "text": "I raise my hand.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "លើក",
+            "gloss": "raise"
           },
           {
             "word": "ដៃ",
@@ -272,34 +300,42 @@
         ]
       },
       {
-        "target": "ដៃខ្ញុំឈឺ។",
-        "text": "My hand hurts.",
+        "target": "ដៃគាត់កខ្វក់។",
+        "text": "His hands are dirty.",
         "words": [
           {
             "word": "ដៃ",
             "gloss": "hand"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "គាត់",
+            "gloss": "he"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "កខ្វក់",
+            "gloss": "dirty"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលដៃ។",
-        "text": "The doctor looks at the hand.",
+        "target": "ម៉ែកាន់កូនដោយដៃ។",
+        "text": "Mother holds the child with her arms.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ម៉ែ",
+            "gloss": "mother"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "កាន់",
+            "gloss": "hold"
+          },
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by"
           },
           {
             "word": "ដៃ",
@@ -316,16 +352,38 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងម្រាមដៃ។",
-        "text": "I wash my finger.",
+        "target": "ម្រាមដៃខ្ញុំតូច។",
+        "text": "My fingers are small.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ម្រាមដៃ",
+            "gloss": "finger"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "តូច",
+            "gloss": "small"
+          }
+        ]
+      },
+      {
+        "target": "គាត់ចង្អុលដោយម្រាមដៃ។",
+        "text": "He points with a finger.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "ចង្អុល",
+            "gloss": "point"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by"
           },
           {
             "word": "ម្រាមដៃ",
@@ -334,34 +392,16 @@
         ]
       },
       {
-        "target": "ម្រាមដៃខ្ញុំឈឺ។",
-        "text": "My finger hurts.",
+        "target": "កូនរាប់ម្រាមដៃ។",
+        "text": "The child counts his fingers.",
         "words": [
           {
-            "word": "ម្រាមដៃ",
-            "gloss": "finger"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលម្រាមដៃ។",
-        "text": "The doctor looks at the finger.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "រាប់",
+            "gloss": "count"
           },
           {
             "word": "ម្រាមដៃ",
@@ -378,24 +418,6 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងជើង។",
-        "text": "I wash my leg.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ជើង",
-            "gloss": "foot"
-          }
-        ]
-      },
-      {
         "target": "ជើងខ្ញុំឈឺ។",
         "text": "My leg hurts.",
         "words": [
@@ -405,29 +427,51 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលជើង។",
-        "text": "The doctor looks at the leg.",
+        "target": "យើងដើរដោយជើង។",
+        "text": "We walk on foot.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "យើង",
+            "gloss": "we"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ដើរ",
+            "gloss": "walk"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by"
           },
           {
             "word": "ជើង",
             "gloss": "foot"
+          }
+        ]
+      },
+      {
+        "target": "ជើងគាត់វែង។",
+        "text": "His legs are long.",
+        "words": [
+          {
+            "word": "ជើង",
+            "gloss": "foot"
+          },
+          {
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "វែង",
+            "gloss": "long"
           }
         ]
       }
@@ -440,56 +484,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងជង្គង់។",
-        "text": "I wash my knee.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ជង្គង់",
-            "gloss": "leg"
-          }
-        ]
-      },
-      {
         "target": "ជង្គង់ខ្ញុំឈឺ។",
         "text": "My knee hurts.",
         "words": [
           {
             "word": "ជង្គង់",
-            "gloss": "leg"
+            "gloss": "knee"
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលជង្គង់។",
-        "text": "The doctor looks at the knee.",
+        "target": "កូនអង្គុយលើជង្គង់។",
+        "text": "The child sits on his knees.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "អង្គុយ",
+            "gloss": "sit"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
           },
           {
             "word": "ជង្គង់",
-            "gloss": "leg"
+            "gloss": "knee"
+          }
+        ]
+      },
+      {
+        "target": "គាត់ពត់ជង្គង់។",
+        "text": "He bends his knee.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "ពត់",
+            "gloss": "bend"
+          },
+          {
+            "word": "ជង្គង់",
+            "gloss": "knee"
           }
         ]
       }
@@ -502,16 +550,38 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលបេះដូង។",
-        "text": "The doctor checks the heart.",
+        "target": "បេះដូងខ្ញុំលោតលឿន។",
+        "text": "My heart beats fast.",
+        "words": [
+          {
+            "word": "បេះដូង",
+            "gloss": "heart"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "លោត",
+            "gloss": "beat"
+          },
+          {
+            "word": "លឿន",
+            "gloss": "fast"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូពេទ្យស្តាប់បេះដូង។",
+        "text": "The doctor listens to the heart.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ស្តាប់",
+            "gloss": "listen"
           },
           {
             "word": "បេះដូង",
@@ -520,46 +590,24 @@
         ]
       },
       {
-        "target": "បេះដូងនៅក្នុងរាងកាយ។",
-        "text": "The heart is inside the body.",
+        "target": "នាងមានបេះដូងល្អ។",
+        "text": "She has a kind heart.",
         "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
           {
             "word": "បេះដូង",
             "gloss": "heart"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
-          }
-        ]
-      },
-      {
-        "target": "យើងរៀនអំពីបេះដូង។",
-        "text": "We learn about the heart.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "រៀន",
-            "gloss": "learn"
-          },
-          {
-            "word": "អំពី",
-            "gloss": "about"
-          },
-          {
-            "word": "បេះដូង",
-            "gloss": "heart"
+            "word": "ល្អ",
+            "gloss": "good"
           }
         ]
       }
@@ -572,26 +620,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងពោះ។",
-        "text": "I wash my belly.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ពោះ",
-            "gloss": "belly"
-          }
-        ]
-      },
-      {
-        "target": "ពោះខ្ញុំឈឺ។",
-        "text": "My belly hurts.",
+        "target": "ពោះខ្ញុំឃ្លាន។",
+        "text": "My belly is hungry.",
         "words": [
           {
             "word": "ពោះ",
@@ -602,30 +632,52 @@
             "gloss": "I"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "ឃ្លាន",
+            "gloss": "hungry"
           }
         ]
       },
       {
-        "target": "កូនប៉ះពោះគាត់។",
-        "text": "The child touches his belly.",
+        "target": "កូនមានពោះធំ។",
+        "text": "The child has a big belly.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "ប៉ះ",
-            "gloss": "touch"
+            "word": "មាន",
+            "gloss": "have"
           },
           {
             "word": "ពោះ",
             "gloss": "belly"
           },
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ធំ",
+            "gloss": "big"
+          }
+        ]
+      },
+      {
+        "target": "បន្ទាប់ពីញ៉ាំពោះពេញ។",
+        "text": "After eating, the belly is full.",
+        "words": [
+          {
+            "word": "បន្ទាប់ពី",
+            "gloss": "after"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "ពោះ",
+            "gloss": "belly"
+          },
+          {
+            "word": "ពេញ",
+            "gloss": "full"
           }
         ]
       }
@@ -638,30 +690,12 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលពោះវៀន។",
-        "text": "The doctor checks the intestines.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ពោះវៀន",
-            "gloss": "guts"
-          }
-        ]
-      },
-      {
-        "target": "ពោះវៀននៅក្នុងរាងកាយ។",
-        "text": "The intestines are inside the body.",
+        "target": "ពោះវៀននៅក្នុងពោះ។",
+        "text": "The intestines are inside the belly.",
         "words": [
           {
             "word": "ពោះវៀន",
-            "gloss": "guts"
+            "gloss": "intestines"
           },
           {
             "word": "នៅ",
@@ -672,8 +706,26 @@
             "gloss": "in"
           },
           {
-            "word": "រាងកាយ",
-            "gloss": "body"
+            "word": "ពោះ",
+            "gloss": "belly"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូពេទ្យពិនិត្យពោះវៀន។",
+        "text": "The doctor checks the intestines.",
+        "words": [
+          {
+            "word": "គ្រូពេទ្យ",
+            "gloss": "doctor"
+          },
+          {
+            "word": "ពិនិត្យ",
+            "gloss": "check"
+          },
+          {
+            "word": "ពោះវៀន",
+            "gloss": "intestines"
           }
         ]
       },
@@ -695,7 +747,7 @@
           },
           {
             "word": "ពោះវៀន",
-            "gloss": "guts"
+            "gloss": "intestines"
           }
         ]
       }
@@ -708,16 +760,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលថ្លើម។",
-        "text": "The doctor checks the liver.",
+        "target": "ថ្លើមជួយរាងកាយ។",
+        "text": "The liver helps the body.",
+        "words": [
+          {
+            "word": "ថ្លើម",
+            "gloss": "liver"
+          },
+          {
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "រាងកាយ",
+            "gloss": "body"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូពេទ្យពិនិត្យថ្លើម។",
+        "text": "The doctor examines the liver.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ពិនិត្យ",
+            "gloss": "examine"
           },
           {
             "word": "ថ្លើម",
@@ -726,42 +796,28 @@
         ]
       },
       {
-        "target": "ថ្លើមនៅក្នុងរាងកាយ។",
-        "text": "The liver is inside the body.",
+        "target": "កុំញ៉ាំច្រើនពេកសម្រាប់ថ្លើម។",
+        "text": "Do not eat too much for your liver.",
         "words": [
           {
-            "word": "ថ្លើម",
-            "gloss": "liver"
+            "word": "កុំ",
+            "gloss": "do not"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
+            "word": "ច្រើន",
+            "gloss": "much"
           },
           {
-            "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
-          }
-        ]
-      },
-      {
-        "target": "យើងរៀនអំពីថ្លើម។",
-        "text": "We learn about the liver.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ពេក",
+            "gloss": "too"
           },
           {
-            "word": "រៀន",
-            "gloss": "learn"
-          },
-          {
-            "word": "អំពី",
-            "gloss": "about"
+            "word": "សម្រាប់",
+            "gloss": "for"
           },
           {
             "word": "ថ្លើម",
@@ -778,24 +834,6 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងខ្នង។",
-        "text": "I wash my back.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ខ្នង",
-            "gloss": "back"
-          }
-        ]
-      },
-      {
         "target": "ខ្នងខ្ញុំឈឺ។",
         "text": "My back hurts.",
         "words": [
@@ -805,25 +843,51 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលខ្នង។",
-        "text": "The doctor looks at the back.",
+        "target": "គាត់ដេកលើខ្នង។",
+        "text": "He lies on his back.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "គាត់",
+            "gloss": "he"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ដេក",
+            "gloss": "lie down"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ខ្នង",
+            "gloss": "back"
+          }
+        ]
+      },
+      {
+        "target": "កាបូបធ្ងន់លើខ្នង។",
+        "text": "The bag is heavy on my back.",
+        "words": [
+          {
+            "word": "កាបូប",
+            "gloss": "bag"
+          },
+          {
+            "word": "ធ្ងន់",
+            "gloss": "heavy"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
           },
           {
             "word": "ខ្នង",
@@ -840,16 +904,42 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងស្មា។",
-        "text": "I wash my shoulder.",
+        "target": "ស្មាគាត់រឹង។",
+        "text": "His shoulder is stiff.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ស្មា",
+            "gloss": "shoulder"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "រឹង",
+            "gloss": "stiff"
+          }
+        ]
+      },
+      {
+        "target": "គាត់លើកកាបូបលើស្មា។",
+        "text": "He lifts the bag onto his shoulder.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "លើក",
+            "gloss": "lift"
+          },
+          {
+            "word": "កាបូប",
+            "gloss": "bag"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
           },
           {
             "word": "ស្មា",
@@ -858,38 +948,24 @@
         ]
       },
       {
-        "target": "ស្មាខ្ញុំឈឺ។",
-        "text": "My shoulder hurts.",
+        "target": "នាងប៉ះស្មាមិត្តភក្តិ។",
+        "text": "She touches her friend's shoulder.",
         "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "ប៉ះ",
+            "gloss": "touch"
+          },
           {
             "word": "ស្មា",
             "gloss": "shoulder"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលស្មា។",
-        "text": "The doctor looks at the shoulder.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ស្មា",
-            "gloss": "shoulder"
+            "word": "មិត្តភក្តិ",
+            "gloss": "friend"
           }
         ]
       }
@@ -902,56 +978,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងទ្រូង។",
-        "text": "I wash my chest.",
+        "target": "ទ្រូងខ្ញុំតឹង។",
+        "text": "My chest feels tight.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
             "word": "ទ្រូង",
-            "gloss": "breast"
+            "gloss": "chest"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "តឹង",
+            "gloss": "tight"
           }
         ]
       },
       {
-        "target": "ទ្រូងខ្ញុំឈឺ។",
-        "text": "My chest hurts.",
-        "words": [
-          {
-            "word": "ទ្រូង",
-            "gloss": "breast"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលទ្រូង។",
-        "text": "The doctor looks at the chest.",
+        "target": "គ្រូពេទ្យស្តាប់ទ្រូង។",
+        "text": "The doctor listens to the chest.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ស្តាប់",
+            "gloss": "listen"
           },
           {
             "word": "ទ្រូង",
-            "gloss": "breast"
+            "gloss": "chest"
+          }
+        ]
+      },
+      {
+        "target": "កូនដាក់ដៃលើទ្រូង។",
+        "text": "The child puts a hand on the chest.",
+        "words": [
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "ដាក់",
+            "gloss": "put"
+          },
+          {
+            "word": "ដៃ",
+            "gloss": "hand"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ទ្រូង",
+            "gloss": "chest"
           }
         ]
       }
@@ -964,12 +1048,30 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងស្បែក។",
-        "text": "I wash my skin.",
+        "target": "ស្បែកខ្ញុំស្ងួត។",
+        "text": "My skin is dry.",
         "words": [
           {
+            "word": "ស្បែក",
+            "gloss": "skin"
+          },
+          {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
+          },
+          {
+            "word": "ស្ងួត",
+            "gloss": "dry"
+          }
+        ]
+      },
+      {
+        "target": "នាងលាងស្បែក។",
+        "text": "She washes her skin.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
           },
           {
             "word": "លាង",
@@ -982,38 +1084,20 @@
         ]
       },
       {
-        "target": "ស្បែកខ្ញុំឈឺ។",
-        "text": "My skin hurts.",
+        "target": "ស្បែកកូនទន់។",
+        "text": "The child's skin is soft.",
         "words": [
           {
             "word": "ស្បែក",
             "gloss": "skin"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលស្បែក។",
-        "text": "The doctor looks at the skin.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ស្បែក",
-            "gloss": "skin"
+            "word": "ទន់",
+            "gloss": "soft"
           }
         ]
       }
@@ -1026,16 +1110,30 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលឈាម។",
-        "text": "The doctor checks the blood.",
+        "target": "ឈាមក្រហម។",
+        "text": "Blood is red.",
+        "words": [
+          {
+            "word": "ឈាម",
+            "gloss": "blood"
+          },
+          {
+            "word": "ក្រហម",
+            "gloss": "red"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូពេទ្យយកឈាម។",
+        "text": "The doctor takes blood.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "យក",
+            "gloss": "take"
           },
           {
             "word": "ឈាម",
@@ -1044,42 +1142,20 @@
         ]
       },
       {
-        "target": "ឈាមនៅក្នុងរាងកាយ។",
-        "text": "The blood is inside the body.",
+        "target": "ម្រាមដៃខ្ញុំហូរឈាម។",
+        "text": "My finger is bleeding.",
         "words": [
           {
-            "word": "ឈាម",
-            "gloss": "blood"
+            "word": "ម្រាមដៃ",
+            "gloss": "finger"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
-          }
-        ]
-      },
-      {
-        "target": "យើងរៀនអំពីឈាម។",
-        "text": "We learn about the blood.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "រៀន",
-            "gloss": "learn"
-          },
-          {
-            "word": "អំពី",
-            "gloss": "about"
+            "word": "ហូរ",
+            "gloss": "flow"
           },
           {
             "word": "ឈាម",
@@ -1096,26 +1172,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលឆ្អឹង។",
-        "text": "The doctor checks the bone.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ឆ្អឹង",
-            "gloss": "bone"
-          }
-        ]
-      },
-      {
         "target": "ឆ្អឹងនៅក្នុងរាងកាយ។",
-        "text": "The bone is inside the body.",
+        "text": "Bones are inside the body.",
         "words": [
           {
             "word": "ឆ្អឹង",
@@ -1131,25 +1189,39 @@
           },
           {
             "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
+            "gloss": "body"
           }
         ]
       },
       {
-        "target": "យើងរៀនអំពីឆ្អឹង។",
-        "text": "We learn about the bone.",
+        "target": "ឆ្កែខាំឆ្អឹង។",
+        "text": "The dog bites a bone.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ឆ្កែ",
+            "gloss": "dog"
           },
           {
-            "word": "រៀន",
-            "gloss": "learn"
+            "word": "ខាំ",
+            "gloss": "bite"
           },
           {
-            "word": "អំពី",
-            "gloss": "about"
+            "word": "ឆ្អឹង",
+            "gloss": "bone"
+          }
+        ]
+      },
+      {
+        "target": "គាត់បាក់ឆ្អឹង។",
+        "text": "He broke a bone.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "បាក់",
+            "gloss": "break"
           },
           {
             "word": "ឆ្អឹង",
@@ -1166,60 +1238,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនប៉ះឈឺគាត់។",
-        "text": "The child touches his hurt.",
+        "target": "ក្បាលខ្ញុំឈឺ។",
+        "text": "My head hurts.",
+        "words": [
+          {
+            "word": "ក្បាល",
+            "gloss": "head"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ឈឺ",
+            "gloss": "hurt"
+          }
+        ]
+      },
+      {
+        "target": "កូនឈឺថ្ងៃនេះ។",
+        "text": "The child is sick today.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "ប៉ះ",
-            "gloss": "touch"
-          },
-          {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "sick"
           },
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលឈឺ។",
-        "text": "The doctor looks at the hurt.",
+        "target": "បើឈឺទៅពេទ្យ។",
+        "text": "If you are sick, go to the doctor.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "បើ",
+            "gloss": "if"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "ឈឺនេះស្អាត។",
-        "text": "This hurt is clean.",
-        "words": [
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "sick"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ទៅ",
+            "gloss": "go"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ពេទ្យ",
+            "gloss": "clinic"
           }
         ]
       }
@@ -1232,60 +1304,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងគ្រុន។",
-        "text": "I wash my fever.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "គ្រុន",
-            "gloss": "fever"
-          }
-        ]
-      },
-      {
-        "target": "គ្រុនខ្ញុំឈឺ។",
-        "text": "My fever hurts.",
-        "words": [
-          {
-            "word": "គ្រុន",
-            "gloss": "fever"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "កូនប៉ះគ្រុនគាត់។",
-        "text": "The child touches his fever.",
+        "target": "កូនមានគ្រុន។",
+        "text": "The child has a fever.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "ប៉ះ",
-            "gloss": "touch"
+            "word": "មាន",
+            "gloss": "have"
           },
+          {
+            "word": "គ្រុន",
+            "gloss": "fever"
+          }
+        ]
+      },
+      {
+        "target": "គ្រុនធ្វើឱ្យខ្ញុំនឿយ។",
+        "text": "The fever makes me tired.",
+        "words": [
           {
             "word": "គ្រុន",
             "gloss": "fever"
           },
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ធ្វើឱ្យ",
+            "gloss": "make"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "នឿយ",
+            "gloss": "tired"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូពេទ្យវាស់គ្រុន។",
+        "text": "The doctor measures the fever.",
+        "words": [
+          {
+            "word": "គ្រូពេទ្យ",
+            "gloss": "doctor"
+          },
+          {
+            "word": "វាស់",
+            "gloss": "measure"
+          },
+          {
+            "word": "គ្រុន",
+            "gloss": "fever"
           }
         ]
       }
@@ -1298,16 +1370,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលសុខភាព។",
-        "text": "The doctor looks at the health.",
+        "target": "សុខភាពសំខាន់ណាស់។",
+        "text": "Health is very important.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "សុខភាព",
+            "gloss": "health"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "សំខាន់",
+            "gloss": "important"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
+          }
+        ]
+      },
+      {
+        "target": "យើងថែសុខភាព។",
+        "text": "We take care of our health.",
+        "words": [
+          {
+            "word": "យើង",
+            "gloss": "we"
+          },
+          {
+            "word": "ថែ",
+            "gloss": "care for"
           },
           {
             "word": "សុខភាព",
@@ -1316,34 +1406,20 @@
         ]
       },
       {
-        "target": "សុខភាពនេះស្អាត។",
-        "text": "This health is clean.",
+        "target": "ម្ហូបល្អជួយសុខភាព។",
+        "text": "Good food helps health.",
         "words": [
           {
-            "word": "សុខភាព",
-            "gloss": "health"
+            "word": "ម្ហូប",
+            "gloss": "food"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ល្អ",
+            "gloss": "good"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំលាងសុខភាព។",
-        "text": "I wash my health.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ជួយ",
+            "gloss": "help"
           },
           {
             "word": "សុខភាព",
@@ -1360,24 +1436,24 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គាត់មានអារម្មណ៍អស់កម្លាំង។",
-        "text": "She feels tired.",
+        "target": "ខ្ញុំអស់កម្លាំងបន្ទាប់ពីធ្វើការ។",
+        "text": "I am tired after work.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
-          },
-          {
-            "word": "មាន",
-            "gloss": "have; there is"
-          },
-          {
-            "word": "អារម្មណ៍",
-            "gloss": "feeling"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
             "word": "អស់កម្លាំង",
             "gloss": "tired"
+          },
+          {
+            "word": "បន្ទាប់ពី",
+            "gloss": "after"
+          },
+          {
+            "word": "ធ្វើការ",
+            "gloss": "work"
           }
         ]
       },
@@ -1395,25 +1471,29 @@
           },
           {
             "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "gloss": "evening"
           }
         ]
       },
       {
-        "target": "ខ្ញុំអស់កម្លាំងថ្ងៃនេះ។",
-        "text": "I am tired today.",
+        "target": "បើអស់កម្លាំងសូមសម្រាក។",
+        "text": "If you are tired, please rest.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "បើ",
+            "gloss": "if"
           },
           {
             "word": "អស់កម្លាំង",
             "gloss": "tired"
           },
           {
-            "word": "ថ្ងៃនេះ",
-            "gloss": "today"
+            "word": "សូម",
+            "gloss": "please"
+          },
+          {
+            "word": "សម្រាក",
+            "gloss": "rest"
           }
         ]
       }
@@ -1426,8 +1506,44 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងមើលសត្វពេលល្ងាច។",
-        "text": "We look at the animal in the evening.",
+        "target": "សត្វនេះតូច។",
+        "text": "This animal is small.",
+        "words": [
+          {
+            "word": "សត្វ",
+            "gloss": "animal"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "តូច",
+            "gloss": "small"
+          }
+        ]
+      },
+      {
+        "target": "កូនចូលចិត្តសត្វ។",
+        "text": "The child likes animals.",
+        "words": [
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "ចូលចិត្ត",
+            "gloss": "like"
+          },
+          {
+            "word": "សត្វ",
+            "gloss": "animal"
+          }
+        ]
+      },
+      {
+        "target": "យើងមើលសត្វនៅសួនសត្វ។",
+        "text": "We watch animals at the zoo.",
         "words": [
           {
             "word": "យើង",
@@ -1435,29 +1551,7 @@
           },
           {
             "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "សត្វ",
-            "gloss": "animal"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំឃើញសត្វនៅសួនច្បារ។",
-        "text": "I see an animal in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "gloss": "watch"
           },
           {
             "word": "សត្វ",
@@ -1465,33 +1559,11 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
-          }
-        ]
-      },
-      {
-        "target": "សត្វនៅជិតទន្លេ។",
-        "text": "The animal is near the river.",
-        "words": [
-          {
-            "word": "សត្វ",
-            "gloss": "animal"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "សួនសត្វ",
+            "gloss": "zoo"
           }
         ]
       }
@@ -1504,68 +1576,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនគូរឆ្កែលើក្រដាស។",
-        "text": "The child draws a dog on paper.",
+        "target": "ឆ្កែព្រុសខ្លាំង។",
+        "text": "The dog barks loudly.",
         "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
           {
             "word": "ឆ្កែ",
             "gloss": "dog"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ព្រុស",
+            "gloss": "bark"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ខ្លាំង",
+            "gloss": "loud"
           }
         ]
       },
       {
-        "target": "ឆ្កែនេះស្អាត។",
-        "text": "This dog is beautiful.",
+        "target": "ខ្ញុំចិញ្ចឹមឆ្កែ។",
+        "text": "I keep a dog.",
         "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ចិញ្ចឹម",
+            "gloss": "raise; keep"
+          },
           {
             "word": "ឆ្កែ",
             "gloss": "dog"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
           }
         ]
       },
       {
-        "target": "យើងមើលឆ្កែពេលល្ងាច។",
-        "text": "We look at the dog in the evening.",
+        "target": "ឆ្កែរត់តាមម្ចាស់។",
+        "text": "The dog runs after its owner.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "ឆ្កែ",
             "gloss": "dog"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "រត់",
+            "gloss": "run"
+          },
+          {
+            "word": "តាម",
+            "gloss": "after"
+          },
+          {
+            "word": "ម្ចាស់",
+            "gloss": "owner"
           }
         ]
       }
@@ -1578,76 +1642,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញឆ្មានៅសួនច្បារ។",
-        "text": "I see a cat in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
-          {
-            "word": "ឆ្មា",
-            "gloss": "cat"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
-          }
-        ]
-      },
-      {
-        "target": "ឆ្មានៅជិតទន្លេ។",
-        "text": "The cat is near the river.",
+        "target": "ឆ្មាដេកលើកៅអី។",
+        "text": "The cat sleeps on the chair.",
         "words": [
           {
             "word": "ឆ្មា",
             "gloss": "cat"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរឆ្មាលើក្រដាស។",
-        "text": "The child draws a cat on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ឆ្មា",
-            "gloss": "cat"
+            "word": "ដេក",
+            "gloss": "sleep"
           },
           {
             "word": "លើ",
             "gloss": "on"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "កៅអី",
+            "gloss": "chair"
+          }
+        ]
+      },
+      {
+        "target": "ឆ្មាផឹកទឹកដោះគោ។",
+        "text": "The cat drinks milk.",
+        "words": [
+          {
+            "word": "ឆ្មា",
+            "gloss": "cat"
+          },
+          {
+            "word": "ផឹក",
+            "gloss": "drink"
+          },
+          {
+            "word": "ទឹកដោះគោ",
+            "gloss": "milk"
+          }
+        ]
+      },
+      {
+        "target": "នាងអោបឆ្មា។",
+        "text": "She hugs the cat.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "អោប",
+            "gloss": "hug"
+          },
+          {
+            "word": "ឆ្មា",
+            "gloss": "cat"
           }
         ]
       }
@@ -1660,68 +1708,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "បក្សីនេះស្អាត។",
-        "text": "This bird is beautiful.",
+        "target": "បក្សីហើរលើមេឃ។",
+        "text": "The bird flies in the sky.",
         "words": [
           {
             "word": "បក្សី",
             "gloss": "bird"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ហើរ",
+            "gloss": "fly"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "មេឃ",
+            "gloss": "sky"
           }
         ]
       },
       {
-        "target": "យើងមើលបក្សីពេលល្ងាច។",
-        "text": "We look at the bird in the evening.",
+        "target": "បក្សីច្រៀងព្រឹក។",
+        "text": "The bird sings in the morning.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "បក្សី",
             "gloss": "bird"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ច្រៀង",
+            "gloss": "sing"
+          },
+          {
+            "word": "ព្រឹក",
+            "gloss": "morning"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញបក្សីនៅសួនច្បារ។",
-        "text": "I see a bird in the park.",
+        "target": "កូនចិញ្ចឹមបក្សី។",
+        "text": "The child keeps a bird.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ចិញ្ចឹម",
+            "gloss": "keep"
           },
           {
             "word": "បក្សី",
             "gloss": "bird"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
           }
         ]
       }
@@ -1734,68 +1774,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គោនៅជិតទន្លេ។",
-        "text": "The cow is near the river.",
+        "target": "គោញ៉ាំស្មៅ។",
+        "text": "The cow eats grass.",
         "words": [
           {
             "word": "គោ",
             "gloss": "cow"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ស្មៅ",
+            "gloss": "grass"
           }
         ]
       },
       {
-        "target": "កូនគូរគោលើក្រដាស។",
-        "text": "The child draws a cow on paper.",
+        "target": "កសិករចិញ្ចឹមគោ។",
+        "text": "The farmer raises cows.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "កសិករ",
+            "gloss": "farmer"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ចិញ្ចឹម",
+            "gloss": "raise"
           },
           {
             "word": "គោ",
             "gloss": "cow"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
           }
         ]
       },
       {
-        "target": "គោនេះស្អាត។",
-        "text": "This cow is beautiful.",
+        "target": "ទឹកដោះគោមកពីគោ។",
+        "text": "Milk comes from the cow.",
         "words": [
+          {
+            "word": "ទឹកដោះគោ",
+            "gloss": "milk"
+          },
+          {
+            "word": "មក",
+            "gloss": "come"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from"
+          },
           {
             "word": "គោ",
             "gloss": "cow"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
           }
         ]
       }
@@ -1808,72 +1840,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងមើលមាន់ពេលល្ងាច។",
-        "text": "We look at the chicken in the evening.",
+        "target": "មាន់ពងរាល់ថ្ងៃ។",
+        "text": "The chicken lays eggs every day.",
+        "words": [
+          {
+            "word": "មាន់",
+            "gloss": "chicken"
+          },
+          {
+            "word": "ពង",
+            "gloss": "lay eggs"
+          },
+          {
+            "word": "រាល់ថ្ងៃ",
+            "gloss": "every day"
+          }
+        ]
+      },
+      {
+        "target": "មាន់រត់ក្នុងទីធ្លា។",
+        "text": "The chicken runs in the yard.",
+        "words": [
+          {
+            "word": "មាន់",
+            "gloss": "chicken"
+          },
+          {
+            "word": "រត់",
+            "gloss": "run"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ទីធ្លា",
+            "gloss": "yard"
+          }
+        ]
+      },
+      {
+        "target": "យើងញ៉ាំសាច់មាន់។",
+        "text": "We eat chicken meat.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "សាច់",
+            "gloss": "meat"
           },
           {
             "word": "មាន់",
             "gloss": "chicken"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំឃើញមាន់នៅសួនច្បារ។",
-        "text": "I see a chicken in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
-          {
-            "word": "មាន់",
-            "gloss": "chicken"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
-          }
-        ]
-      },
-      {
-        "target": "មាន់នៅជិតទន្លេ។",
-        "text": "The chicken is near the river.",
-        "words": [
-          {
-            "word": "មាន់",
-            "gloss": "chicken"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
           }
         ]
       }
@@ -1886,68 +1910,56 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនគូរជ្រូកលើក្រដាស។",
-        "text": "The child draws a pig on paper.",
+        "target": "ជ្រូកធាត់ណាស់។",
+        "text": "The pig is very fat.",
         "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
           {
             "word": "ជ្រូក",
             "gloss": "pig"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ធាត់",
+            "gloss": "fat"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       },
       {
-        "target": "ជ្រូកនេះស្អាត។",
-        "text": "This pig is beautiful.",
+        "target": "ជ្រូកញ៉ាំច្រើន។",
+        "text": "The pig eats a lot.",
         "words": [
           {
             "word": "ជ្រូក",
             "gloss": "pig"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ច្រើន",
+            "gloss": "a lot"
           }
         ]
       },
       {
-        "target": "យើងមើលជ្រូកពេលល្ងាច។",
-        "text": "We look at the pig in the evening.",
+        "target": "កសិករលក់ជ្រូក។",
+        "text": "The farmer sells a pig.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "កសិករ",
+            "gloss": "farmer"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "លក់",
+            "gloss": "sell"
           },
           {
             "word": "ជ្រូក",
             "gloss": "pig"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
           }
         ]
       }
@@ -1960,76 +1972,56 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញសេះនៅសួនច្បារ។",
-        "text": "I see a horse in the park.",
+        "target": "សេះរត់លឿន។",
+        "text": "The horse runs fast.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "សេះ",
             "gloss": "horse"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "រត់",
+            "gloss": "run"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "លឿន",
+            "gloss": "fast"
           }
         ]
       },
       {
-        "target": "សេះនៅជិតទន្លេ។",
-        "text": "The horse is near the river.",
+        "target": "គាត់ជិះសេះ។",
+        "text": "He rides a horse.",
         "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he"
+          },
+          {
+            "word": "ជិះ",
+            "gloss": "ride"
+          },
           {
             "word": "សេះ",
             "gloss": "horse"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
           }
         ]
       },
       {
-        "target": "កូនគូរសេះលើក្រដាស។",
-        "text": "The child draws a horse on paper.",
+        "target": "សេះញ៉ាំស្មៅ។",
+        "text": "The horse eats grass.",
         "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
           {
             "word": "សេះ",
             "gloss": "horse"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ស្មៅ",
+            "gloss": "grass"
           }
         ]
       }
@@ -2042,68 +2034,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "សត្វល្អិតនេះស្អាត។",
-        "text": "This insect is beautiful.",
+        "target": "សត្វល្អិតតូចណាស់។",
+        "text": "The insect is very small.",
         "words": [
           {
             "word": "សត្វល្អិត",
             "gloss": "insect"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "តូច",
+            "gloss": "small"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       },
       {
-        "target": "យើងមើលសត្វល្អិតពេលល្ងាច។",
-        "text": "We look at the insect in the evening.",
+        "target": "សត្វល្អិតនៅលើស្លឹក។",
+        "text": "An insect is on the leaf.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "សត្វល្អិត",
-            "gloss": "insect"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំឃើញសត្វល្អិតនៅសួនច្បារ។",
-        "text": "I see an insect in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "សត្វល្អិត",
             "gloss": "insect"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "ស្លឹក",
+            "gloss": "leaf"
+          }
+        ]
+      },
+      {
+        "target": "កុំប៉ះសត្វល្អិតនោះ។",
+        "text": "Do not touch that insect.",
+        "words": [
+          {
+            "word": "កុំ",
+            "gloss": "do not"
+          },
+          {
+            "word": "ប៉ះ",
+            "gloss": "touch"
+          },
+          {
+            "word": "សត្វល្អិត",
+            "gloss": "insect"
+          },
+          {
+            "word": "នោះ",
+            "gloss": "that"
           }
         ]
       }
@@ -2116,68 +2104,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ពស់នៅជិតទន្លេ។",
-        "text": "The snake is near the river.",
+        "target": "ពស់វែងណាស់។",
+        "text": "The snake is very long.",
         "words": [
           {
             "word": "ពស់",
             "gloss": "snake"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "វែង",
+            "gloss": "long"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       },
       {
-        "target": "កូនគូរពស់លើក្រដាស។",
-        "text": "The child draws a snake on paper.",
+        "target": "ពស់លូនលើដី។",
+        "text": "The snake crawls on the ground.",
         "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
           {
             "word": "ពស់",
             "gloss": "snake"
+          },
+          {
+            "word": "លូន",
+            "gloss": "crawl"
           },
           {
             "word": "លើ",
             "gloss": "on"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ដី",
+            "gloss": "ground"
           }
         ]
       },
       {
-        "target": "ពស់នេះស្អាត។",
-        "text": "This snake is beautiful.",
+        "target": "កុំខ្លាចពស់ទាំងអស់។",
+        "text": "Do not fear all snakes.",
         "words": [
+          {
+            "word": "កុំ",
+            "gloss": "do not"
+          },
+          {
+            "word": "ខ្លាច",
+            "gloss": "fear"
+          },
           {
             "word": "ពស់",
             "gloss": "snake"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ទាំងអស់",
+            "gloss": "all"
           }
         ]
       }
@@ -2190,72 +2174,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងមើលមេអំបៅពេលល្ងាច។",
-        "text": "We look at the butterfly in the evening.",
+        "target": "មេអំបៅមានពណ៌ស្អាត។",
+        "text": "The butterfly has pretty colors.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "មេអំបៅ",
             "gloss": "butterfly"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ពណ៌",
+            "gloss": "color"
+          },
+          {
+            "word": "ស្អាត",
+            "gloss": "pretty"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញមេអំបៅនៅសួនច្បារ។",
-        "text": "I see a butterfly in the park.",
+        "target": "មេអំបៅហើរជុំវិញផ្កា។",
+        "text": "The butterfly flies around the flower.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "មេអំបៅ",
             "gloss": "butterfly"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ហើរ",
+            "gloss": "fly"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ជុំវិញ",
+            "gloss": "around"
+          },
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
           }
         ]
       },
       {
-        "target": "មេអំបៅនៅជិតទន្លេ។",
-        "text": "The butterfly is near the river.",
+        "target": "កូនតាមមើលមេអំបៅ។",
+        "text": "The child watches the butterfly.",
         "words": [
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "តាមមើល",
+            "gloss": "watch"
+          },
           {
             "word": "មេអំបៅ",
             "gloss": "butterfly"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
           }
         ]
       }
@@ -2268,68 +2244,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនគូរដង្កូវលើក្រដាស។",
-        "text": "The child draws a worm on paper.",
+        "target": "ដង្កូវនៅក្នុងដី។",
+        "text": "The worm is in the soil.",
         "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
           {
             "word": "ដង្កូវ",
             "gloss": "worm"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "នៅ",
+            "gloss": "at"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ដី",
+            "gloss": "soil"
           }
         ]
       },
       {
-        "target": "ដង្កូវនេះស្អាត។",
-        "text": "This worm is beautiful.",
+        "target": "បក្សីញ៉ាំដង្កូវ។",
+        "text": "The bird eats a worm.",
         "words": [
+          {
+            "word": "បក្សី",
+            "gloss": "bird"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
           {
             "word": "ដង្កូវ",
             "gloss": "worm"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
           }
         ]
       },
       {
-        "target": "យើងមើលដង្កូវពេលល្ងាច។",
-        "text": "We look at the worm in the evening.",
+        "target": "ដង្កូវជួយដី។",
+        "text": "Worms help the soil.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "ដង្កូវ",
             "gloss": "worm"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ជួយ",
+            "gloss": "help"
+          },
+          {
+            "word": "ដី",
+            "gloss": "soil"
           }
         ]
       }
@@ -2342,64 +2310,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញចៃនៅសួនច្បារ។",
-        "text": "I see a louse in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
-          {
-            "word": "ចៃ",
-            "gloss": "louse"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
-          }
-        ]
-      },
-      {
-        "target": "ចៃនៅជិតទន្លេ។",
-        "text": "The louse is near the river.",
+        "target": "ចៃតូចណាស់។",
+        "text": "A louse is very small.",
         "words": [
           {
             "word": "ចៃ",
             "gloss": "louse"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "តូច",
+            "gloss": "small"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       },
       {
-        "target": "កូនគូរចៃលើក្រដាស។",
-        "text": "The child draws a louse on paper.",
+        "target": "កូនមានចៃលើក្បាល។",
+        "text": "The child has lice on the head.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "មាន",
+            "gloss": "have"
           },
           {
             "word": "ចៃ",
@@ -2410,8 +2348,38 @@
             "gloss": "on"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ក្បាល",
+            "gloss": "head"
+          }
+        ]
+      },
+      {
+        "target": "ម៉ែលាងសក់ដើម្បីកម្ចាត់ចៃ។",
+        "text": "Mother washes hair to remove lice.",
+        "words": [
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother"
+          },
+          {
+            "word": "លាង",
+            "gloss": "wash"
+          },
+          {
+            "word": "សក់",
+            "gloss": "hair"
+          },
+          {
+            "word": "ដើម្បី",
+            "gloss": "in order to"
+          },
+          {
+            "word": "កម្ចាត់",
+            "gloss": "remove"
+          },
+          {
+            "word": "ចៃ",
+            "gloss": "louse"
           }
         ]
       }
@@ -2424,8 +2392,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ដើមឈើនេះស្អាត។",
-        "text": "This tree is beautiful.",
+        "target": "ដើមឈើនេះខ្ពស់។",
+        "text": "This tree is tall.",
         "words": [
           {
             "word": "ដើមឈើ",
@@ -2436,56 +2404,56 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ខ្ពស់",
+            "gloss": "tall"
           }
         ]
       },
       {
-        "target": "យើងមើលដើមឈើពេលល្ងាច។",
-        "text": "We look at the tree in the evening.",
+        "target": "យើងអង្គុយក្រោមដើមឈើ។",
+        "text": "We sit under the tree.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "អង្គុយ",
+            "gloss": "sit"
+          },
+          {
+            "word": "ក្រោម",
+            "gloss": "under"
           },
           {
             "word": "ដើមឈើ",
             "gloss": "tree"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញដើមឈើនៅសួនច្បារ។",
-        "text": "I see a tree in the park.",
+        "target": "បក្សីធ្វើសំបុកលើដើមឈើ។",
+        "text": "Birds make nests in the tree.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "បក្សី",
+            "gloss": "bird"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ធ្វើ",
+            "gloss": "make"
+          },
+          {
+            "word": "សំបុក",
+            "gloss": "nest"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
           },
           {
             "word": "ដើមឈើ",
             "gloss": "tree"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
           }
         ]
       }
@@ -2498,56 +2466,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ផ្កានៅជិតទន្លេ។",
-        "text": "The flower is near the river.",
-        "words": [
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរផ្កាលើក្រដាស។",
-        "text": "The child draws a flower on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
-          }
-        ]
-      },
-      {
-        "target": "ផ្កានេះស្អាត។",
-        "text": "This flower is beautiful.",
+        "target": "ផ្កានេះក្រអូប។",
+        "text": "This flower smells sweet.",
         "words": [
           {
             "word": "ផ្កា",
@@ -2558,8 +2478,60 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ក្រអូប",
+            "gloss": "fragrant"
+          }
+        ]
+      },
+      {
+        "target": "នាងទិញផ្កាក្រហម។",
+        "text": "She buys a red flower.",
+        "words": [
+          {
+            "word": "នាង",
+            "gloss": "she"
+          },
+          {
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
+          },
+          {
+            "word": "ក្រហម",
+            "gloss": "red"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំដាំផ្កានៅមុខផ្ទះ។",
+        "text": "I plant flowers in front of the house.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ដាំ",
+            "gloss": "plant"
+          },
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "មុខ",
+            "gloss": "front"
+          },
+          {
+            "word": "ផ្ទះ",
+            "gloss": "house"
           }
         ]
       }
@@ -2572,72 +2544,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងមើលស្លឹកពេលល្ងាច។",
-        "text": "We look at the leaf in the evening.",
+        "target": "ស្លឹកធ្លាក់នៅរដូវស្លឹកឈើជ្រុះ។",
+        "text": "Leaves fall in autumn.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "ស្លឹក",
             "gloss": "leaf"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ធ្លាក់",
+            "gloss": "fall"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in"
+          },
+          {
+            "word": "រដូវស្លឹកឈើជ្រុះ",
+            "gloss": "autumn"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញស្លឹកនៅសួនច្បារ។",
-        "text": "I see a leaf in the park.",
+        "target": "ស្លឹកនេះបៃតង។",
+        "text": "This leaf is green.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "ស្លឹក",
             "gloss": "leaf"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "នេះ",
+            "gloss": "this"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "បៃតង",
+            "gloss": "green"
           }
         ]
       },
       {
-        "target": "ស្លឹកនៅជិតទន្លេ។",
-        "text": "The leaf is near the river.",
+        "target": "កូនរើសស្លឹក។",
+        "text": "The child picks up leaves.",
         "words": [
+          {
+            "word": "កូន",
+            "gloss": "child"
+          },
+          {
+            "word": "រើស",
+            "gloss": "pick up"
+          },
           {
             "word": "ស្លឹក",
             "gloss": "leaf"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
           }
         ]
       }
@@ -2650,34 +2610,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនគូរផ្លែលើក្រដាស។",
-        "text": "The child draws a fruit on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្លែ",
-            "gloss": "fruit"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
-          }
-        ]
-      },
-      {
-        "target": "ផ្លែនេះស្អាត។",
-        "text": "This fruit is beautiful.",
+        "target": "ផ្លែនេះឆ្ងាញ់។",
+        "text": "This fruit is delicious.",
         "words": [
           {
             "word": "ផ្លែ",
@@ -2688,30 +2622,56 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ឆ្ងាញ់",
+            "gloss": "delicious"
           }
         ]
       },
       {
-        "target": "យើងមើលផ្លែពេលល្ងាច។",
-        "text": "We look at the fruit in the evening.",
+        "target": "យើងទិញផ្លែនៅផ្សារ។",
+        "text": "We buy fruit at the market.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ទិញ",
+            "gloss": "buy"
           },
           {
             "word": "ផ្លែ",
             "gloss": "fruit"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ផ្សារ",
+            "gloss": "market"
+          }
+        ]
+      },
+      {
+        "target": "ដើមឈើមានផ្លែច្រើន។",
+        "text": "The tree has much fruit.",
+        "words": [
+          {
+            "word": "ដើមឈើ",
+            "gloss": "tree"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ផ្លែ",
+            "gloss": "fruit"
+          },
+          {
+            "word": "ច្រើន",
+            "gloss": "much"
           }
         ]
       }
@@ -2724,76 +2684,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញស្មៅនៅសួនច្បារ។",
-        "text": "I see a grass in the park.",
+        "target": "ស្មៅបៃតងបន្ទាប់ពីភ្លៀង។",
+        "text": "The grass is green after rain.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "ស្មៅ",
             "gloss": "grass"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "បៃតង",
+            "gloss": "green"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "បន្ទាប់ពី",
+            "gloss": "after"
+          },
+          {
+            "word": "ភ្លៀង",
+            "gloss": "rain"
           }
         ]
       },
       {
-        "target": "ស្មៅនៅជិតទន្លេ។",
-        "text": "The grass is near the river.",
+        "target": "គោញ៉ាំស្មៅ។",
+        "text": "Cows eat grass.",
         "words": [
+          {
+            "word": "គោ",
+            "gloss": "cow"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
           {
             "word": "ស្មៅ",
             "gloss": "grass"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
           }
         ]
       },
       {
-        "target": "កូនគូរស្មៅលើក្រដាស។",
-        "text": "The child draws a grass on paper.",
+        "target": "កុំដើរលើស្មៅថ្មី។",
+        "text": "Do not walk on the new grass.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "កុំ",
+            "gloss": "do not"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ស្មៅ",
-            "gloss": "grass"
+            "word": "ដើរ",
+            "gloss": "walk"
           },
           {
             "word": "លើ",
             "gloss": "on"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ស្មៅ",
+            "gloss": "grass"
+          },
+          {
+            "word": "ថ្មី",
+            "gloss": "new"
           }
         ]
       }
@@ -2806,68 +2758,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គ្រាប់ពូជនេះស្អាត។",
-        "text": "This seed is beautiful.",
-        "words": [
-          {
-            "word": "គ្រាប់ពូជ",
-            "gloss": "seed"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
-          }
-        ]
-      },
-      {
-        "target": "យើងមើលគ្រាប់ពូជពេលល្ងាច។",
-        "text": "We look at the seed in the evening.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "គ្រាប់ពូជ",
-            "gloss": "seed"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំឃើញគ្រាប់ពូជនៅសួនច្បារ។",
-        "text": "I see a seed in the park.",
+        "target": "ខ្ញុំដាំគ្រាប់ពូជ។",
+        "text": "I plant seeds.",
         "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ដាំ",
+            "gloss": "plant"
+          },
+          {
+            "word": "គ្រាប់ពូជ",
+            "gloss": "seed"
+          }
+        ]
+      },
+      {
+        "target": "គ្រាប់ពូជតូចណាស់។",
+        "text": "The seed is very small.",
+        "words": [
+          {
+            "word": "គ្រាប់ពូជ",
+            "gloss": "seed"
+          },
+          {
+            "word": "តូច",
+            "gloss": "small"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
+          }
+        ]
+      },
+      {
+        "target": "ពីគ្រាប់ពូជក្លាយជាដើមឈើ។",
+        "text": "From a seed comes a tree.",
+        "words": [
+          {
+            "word": "ពី",
+            "gloss": "from"
           },
           {
             "word": "គ្រាប់ពូជ",
             "gloss": "seed"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ក្លាយជា",
+            "gloss": "become"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ដើមឈើ",
+            "gloss": "tree"
           }
         ]
       }
@@ -2880,8 +2824,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ឫសនៅជិតទន្លេ។",
-        "text": "The root is near the river.",
+        "target": "ឫសនៅក្រោមដី។",
+        "text": "Roots are under the ground.",
         "words": [
           {
             "word": "ឫស",
@@ -2889,59 +2833,55 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
+            "word": "ក្រោម",
+            "gloss": "under"
           },
           {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ដី",
+            "gloss": "ground"
           }
         ]
       },
       {
-        "target": "កូនគូរឫសលើក្រដាស។",
-        "text": "The child draws a root on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ឫស",
-            "gloss": "root"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
-          }
-        ]
-      },
-      {
-        "target": "ឫសនេះស្អាត។",
-        "text": "This root is beautiful.",
+        "target": "ឫសផឹកទឹក។",
+        "text": "Roots take in water.",
         "words": [
           {
             "word": "ឫស",
             "gloss": "root"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ផឹក",
+            "gloss": "drink"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ទឹក",
+            "gloss": "water"
+          }
+        ]
+      },
+      {
+        "target": "ដើមឈើមានឫសរឹងមាំ។",
+        "text": "The tree has strong roots.",
+        "words": [
+          {
+            "word": "ដើមឈើ",
+            "gloss": "tree"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ឫស",
+            "gloss": "root"
+          },
+          {
+            "word": "រឹងមាំ",
+            "gloss": "strong"
           }
         ]
       }
@@ -2954,72 +2894,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងមើលសំបកពេលល្ងាច។",
-        "text": "We look at the bark in the evening.",
+        "target": "សំបកដើមឈើរឹង។",
+        "text": "Tree bark is hard.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "សំបក",
             "gloss": "bark"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ដើមឈើ",
+            "gloss": "tree"
+          },
+          {
+            "word": "រឹង",
+            "gloss": "hard"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញសំបកនៅសួនច្បារ។",
-        "text": "I see a bark in the park.",
+        "target": "សំបកនេះស្ងួត។",
+        "text": "This bark is dry.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "សំបក",
             "gloss": "bark"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "នេះ",
+            "gloss": "this"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ស្ងួត",
+            "gloss": "dry"
           }
         ]
       },
       {
-        "target": "សំបកនៅជិតទន្លេ។",
-        "text": "The bark is near the river.",
+        "target": "កុំបកសំបកដើមឈើ។",
+        "text": "Do not peel the tree bark.",
         "words": [
+          {
+            "word": "កុំ",
+            "gloss": "do not"
+          },
+          {
+            "word": "បក",
+            "gloss": "peel"
+          },
           {
             "word": "សំបក",
             "gloss": "bark"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ដើមឈើ",
+            "gloss": "tree"
           }
         ]
       }
@@ -3032,68 +2960,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនគូររោមលើក្រដាស។",
-        "text": "The child draws a feather on paper.",
+        "target": "បក្សីមានរោមស្អាត។",
+        "text": "The bird has pretty feathers.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "បក្សី",
+            "gloss": "bird"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "មាន",
+            "gloss": "have"
           },
           {
             "word": "រោម",
-            "gloss": "feather; hair"
+            "gloss": "feather"
+          },
+          {
+            "word": "ស្អាត",
+            "gloss": "pretty"
+          }
+        ]
+      },
+      {
+        "target": "រោមធ្លាក់លើដី។",
+        "text": "A feather falls on the ground.",
+        "words": [
+          {
+            "word": "រោម",
+            "gloss": "feather"
+          },
+          {
+            "word": "ធ្លាក់",
+            "gloss": "fall"
           },
           {
             "word": "លើ",
             "gloss": "on"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ដី",
+            "gloss": "ground"
           }
         ]
       },
       {
-        "target": "រោមនេះស្អាត។",
-        "text": "This feather is beautiful.",
+        "target": "កូនរើសរោមបក្សី។",
+        "text": "The child picks up a bird feather.",
         "words": [
           {
-            "word": "រោម",
-            "gloss": "feather; hair"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
-          }
-        ]
-      },
-      {
-        "target": "យើងមើលរោមពេលល្ងាច។",
-        "text": "We look at the feather in the evening.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "រើស",
+            "gloss": "pick up"
           },
           {
             "word": "រោម",
-            "gloss": "feather; hair"
+            "gloss": "feather"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "បក្សី",
+            "gloss": "bird"
           }
         ]
       }
@@ -3106,76 +3034,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញរោមសត្វនៅសួនច្បារ។",
-        "text": "I see an animal hair in the park.",
+        "target": "ឆ្កែមានរោមសត្វទន់។",
+        "text": "The dog has soft animal hair.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ឆ្កែ",
+            "gloss": "dog"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "មាន",
+            "gloss": "have"
           },
           {
             "word": "រោមសត្វ",
             "gloss": "animal hair"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ទន់",
+            "gloss": "soft"
           }
         ]
       },
       {
-        "target": "រោមសត្វនៅជិតទន្លេ។",
-        "text": "The animal hair is near the river.",
+        "target": "រោមសត្វឆ្មាខ្មៅ។",
+        "text": "The cat's animal hair is black.",
         "words": [
           {
             "word": "រោមសត្វ",
             "gloss": "animal hair"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ឆ្មា",
+            "gloss": "cat"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ខ្មៅ",
+            "gloss": "black"
           }
         ]
       },
       {
-        "target": "កូនគូររោមសត្វលើក្រដាស។",
-        "text": "The child draws an animal hair on paper.",
+        "target": "នាងប៉ះរោមសត្វ។",
+        "text": "She touches the animal hair.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "នាង",
+            "gloss": "she"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ប៉ះ",
+            "gloss": "touch"
           },
           {
             "word": "រោមសត្វ",
             "gloss": "animal hair"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
           }
         ]
       }
@@ -3188,68 +3100,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាកាសធាតុនេះស្អាត។",
-        "text": "This weather is beautiful.",
+        "target": "អាកាសធាតុថ្ងៃនេះក្តៅ។",
+        "text": "The weather is hot today.",
         "words": [
           {
             "word": "អាកាសធាតុ",
             "gloss": "weather"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ក្តៅ",
+            "gloss": "hot"
           }
         ]
       },
       {
-        "target": "យើងមើលអាកាសធាតុពេលល្ងាច។",
-        "text": "We look at the weather in the evening.",
+        "target": "អាកាសធាតុត្រជាក់ពេលព្រឹក។",
+        "text": "The weather is cool in the morning.",
+        "words": [
+          {
+            "word": "អាកាសធាតុ",
+            "gloss": "weather"
+          },
+          {
+            "word": "ត្រជាក់",
+            "gloss": "cool"
+          },
+          {
+            "word": "ពេលព្រឹក",
+            "gloss": "morning"
+          }
+        ]
+      },
+      {
+        "target": "យើងស្តាប់ព័ត៌មានអាកាសធាតុ។",
+        "text": "We listen to the weather news.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ស្តាប់",
+            "gloss": "listen"
+          },
+          {
+            "word": "ព័ត៌មាន",
+            "gloss": "news"
           },
           {
             "word": "អាកាសធាតុ",
             "gloss": "weather"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំឃើញអាកាសធាតុនៅសួនច្បារ។",
-        "text": "I see a weather in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
-          {
-            "word": "អាកាសធាតុ",
-            "gloss": "weather"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
           }
         ]
       }
@@ -3262,68 +3166,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ភ្លៀងនៅជិតទន្លេ។",
-        "text": "The rain is near the river.",
+        "target": "ភ្លៀងធ្លាក់ខ្លាំង។",
+        "text": "The rain falls hard.",
         "words": [
           {
             "word": "ភ្លៀង",
             "gloss": "rain"
+          },
+          {
+            "word": "ធ្លាក់",
+            "gloss": "fall"
+          },
+          {
+            "word": "ខ្លាំង",
+            "gloss": "hard"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំនៅផ្ទះពេលភ្លៀង។",
+        "text": "I stay home when it rains.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
+            "word": "ផ្ទះ",
+            "gloss": "house"
           },
           {
-            "word": "ទន្លេ",
-            "gloss": "river"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរភ្លៀងលើក្រដាស។",
-        "text": "The child draws a rain on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ពេល",
+            "gloss": "when"
           },
           {
             "word": "ភ្លៀង",
             "gloss": "rain"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
           }
         ]
       },
       {
-        "target": "ភ្លៀងនេះស្អាត។",
-        "text": "This rain is beautiful.",
+        "target": "កុមារលេងក្នុងភ្លៀង។",
+        "text": "Children play in the rain.",
         "words": [
+          {
+            "word": "កុមារ",
+            "gloss": "children"
+          },
+          {
+            "word": "លេង",
+            "gloss": "play"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
           {
             "word": "ភ្លៀង",
             "gloss": "rain"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
           }
         ]
       }
@@ -3336,72 +3240,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងមើលខ្យល់ពេលល្ងាច។",
-        "text": "We look at the wind in the evening.",
+        "target": "ខ្យល់បក់ខ្លាំង។",
+        "text": "The wind blows hard.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
           {
             "word": "ខ្យល់",
             "gloss": "wind"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "បក់",
+            "gloss": "blow"
+          },
+          {
+            "word": "ខ្លាំង",
+            "gloss": "hard"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញខ្យល់នៅសួនច្បារ។",
-        "text": "I see a wind in the park.",
+        "target": "ខ្យល់បើកបង្អួច។",
+        "text": "The wind opens the window.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
           {
             "word": "ខ្យល់",
             "gloss": "wind"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "បើក",
+            "gloss": "open"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "បង្អួច",
+            "gloss": "window"
           }
         ]
       },
       {
-        "target": "ខ្យល់នៅជិតទន្លេ។",
-        "text": "The wind is near the river.",
+        "target": "ស្លឹករេញពេលខ្យល់។",
+        "text": "Leaves move when there is wind.",
         "words": [
+          {
+            "word": "ស្លឹក",
+            "gloss": "leaf"
+          },
+          {
+            "word": "រេញ",
+            "gloss": "move"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when"
+          },
           {
             "word": "ខ្យល់",
             "gloss": "wind"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
           }
         ]
       }
@@ -3414,68 +3306,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "កូនគូរព្រះអាទិត្យលើក្រដាស។",
-        "text": "The child draws a sun on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ព្រះអាទិត្យ",
-            "gloss": "sun"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
-          }
-        ]
-      },
-      {
-        "target": "ព្រះអាទិត្យនេះស្អាត។",
-        "text": "This sun is beautiful.",
+        "target": "ព្រះអាទិត្យរះព្រឹក។",
+        "text": "The sun rises in the morning.",
         "words": [
           {
             "word": "ព្រះអាទិត្យ",
             "gloss": "sun"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "រះ",
+            "gloss": "rise"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ព្រឹក",
+            "gloss": "morning"
           }
         ]
       },
       {
-        "target": "យើងមើលព្រះអាទិត្យពេលល្ងាច។",
-        "text": "We look at the sun in the evening.",
+        "target": "ព្រះអាទិត្យក្តៅណាស់។",
+        "text": "The sun is very hot.",
+        "words": [
+          {
+            "word": "ព្រះអាទិត្យ",
+            "gloss": "sun"
+          },
+          {
+            "word": "ក្តៅ",
+            "gloss": "hot"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
+          }
+        ]
+      },
+      {
+        "target": "យើងអង្គុយក្រោមម្លប់ព្រះអាទិត្យ។",
+        "text": "We sit in the shade from the sun.",
         "words": [
           {
             "word": "យើង",
             "gloss": "we"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "អង្គុយ",
+            "gloss": "sit"
+          },
+          {
+            "word": "ក្រោម",
+            "gloss": "under"
+          },
+          {
+            "word": "ម្លប់",
+            "gloss": "shade"
           },
           {
             "word": "ព្រះអាទិត្យ",
             "gloss": "sun"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
           }
         ]
       }
@@ -3500,64 +3388,44 @@
             "gloss": "bright"
           },
           {
-            "word": "ពេល",
-            "gloss": "time; during"
-          },
-          {
-            "word": "យប់",
-            "gloss": "night"
+            "word": "ពេលយប់",
+            "gloss": "at night"
           }
         ]
       },
       {
-        "target": "យើងមើលព្រះចន្ទលើមេឃ។",
-        "text": "We look at the moon in the sky.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ព្រះចន្ទ",
-            "gloss": "moon"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "មេឃ",
-            "gloss": "sky"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរព្រះចន្ទលើក្រដាស។",
-        "text": "The child draws the moon on paper.",
+        "target": "កូនមើលព្រះចន្ទ។",
+        "text": "The child looks at the moon.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "មើល",
+            "gloss": "look"
           },
+          {
+            "word": "ព្រះចន្ទ",
+            "gloss": "moon"
+          }
+        ]
+      },
+      {
+        "target": "ព្រះចន្ទមូលថ្ងៃនេះ។",
+        "text": "The moon is full today.",
+        "words": [
           {
             "word": "ព្រះចន្ទ",
             "gloss": "moon"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "មូល",
+            "gloss": "round; full"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           }
         ]
       }
