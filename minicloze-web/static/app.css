@@ -596,3 +596,11 @@ h2 {
     min-height: 58px;
   }
 }
+
+
+.loading-hint {
+  margin: 0.75rem 0 0;
+  color: inherit;
+  opacity: 0.75;
+  font-size: 0.95rem;
+}
