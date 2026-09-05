@@ -1,9 +1,9 @@
-const CACHE_NAME = "minicloze-static-pwa-v23";
+const CACHE_NAME = "minicloze-static-pwa-v24";
 const APP_SHELL = [
   "/",
   "/index.html",
-  "/app.css?v=static-pwa-20260905-04",
-  "/app.js?v=static-pwa-20260905-04",
+  "/app.css?v=static-pwa-20260905-05",
+  "/app.js?v=static-pwa-20260905-05",
   "/manifest.webmanifest",
   "/icons/icon.svg",
   "/icons/icon-192.png",
@@ -60,10 +60,22 @@ async function networkFirst(request, fallbackPath) {
   const cache = await caches.open(CACHE_NAME);
   try {
     const response = await fetch(request);
-    cache.put(request, response.clone());
+    if (response.ok) {
+      cache.put(request, response.clone());
+    }
     return response;
   } catch {
-    return (await cache.match(request)) || cache.match(fallbackPath);
+    const cached =
+      (await cache.match(request)) ||
+      (fallbackPath ? await cache.match(fallbackPath) : undefined);
+    if (cached) {
+      return cached;
+    }
+    return new Response("Offline — this resource is not cached yet.", {
+      status: 503,
+      statusText: "Service Unavailable",
+      headers: { "Content-Type": "text/plain; charset=utf-8" },
+    });
   }
 }
 
@@ -72,10 +84,16 @@ async function staleWhileRevalidate(request) {
   const cached = await cache.match(request);
   const refresh = fetch(request)
     .then((response) => {
-      cache.put(request, response.clone());
+      if (response.ok) {
+        cache.put(request, response.clone());
+      }
       return response;
     })
     .catch(() => cached);
 
-  return cached || refresh;
+  return cached || refresh || new Response("Offline — this resource is not cached yet.", {
+    status: 503,
+    statusText: "Service Unavailable",
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
+  });
 }

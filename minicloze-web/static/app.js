@@ -353,9 +353,10 @@ function loadLanguages() {
 async function startRound() {
   setBusy(true);
   hide(els.summaryView);
-  hide(els.emptyState);
+  hide(els.cardView);
   hide(els.feedback);
   hide(els.wordExplanations);
+  showLoadingState();
   try {
     activeMode = selectedMode();
     const data = await createRound({
@@ -367,6 +368,7 @@ async function startRound() {
 
     currentSummary = data.summary;
     pendingNextCard = null;
+    hide(els.emptyState);
     renderCard(data.card);
     renderRoundSummary(data.summary);
   } catch (error) {
@@ -514,7 +516,11 @@ function answerRound(request) {
 
 async function loadCourse(course) {
   if (!courseCache.has(course.slug)) {
-    courseCache.set(course.slug, fetchCourse(course));
+    const pending = fetchCourse(course).catch((error) => {
+      courseCache.delete(course.slug);
+      throw error;
+    });
+    courseCache.set(course.slug, pending);
   }
   return courseCache.get(course.slug);
 }
@@ -542,9 +548,18 @@ async function fetchCourse(course) {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(path, { headers: { Accept: "application/json" } });
+  let response;
+  try {
+    response = await fetch(path, { headers: { Accept: "application/json" } });
+  } catch {
+    throw new Error(
+      navigator.onLine === false
+        ? "You appear offline, and this course is not cached yet."
+        : `Network error while loading ${path}`,
+    );
+  }
   if (!response.ok) {
-    throw new Error(`Could not load ${path}`);
+    throw new Error(`Could not load course data (${response.status}). Try again.`);
   }
   return response.json();
 }
@@ -1347,9 +1362,34 @@ function showEmptyError(message) {
   show(els.emptyState);
 }
 
+function showLoadingState() {
+  const course = courseForInput(els.languageSelect.value);
+  const label = course ? course.label : "course";
+  els.emptyState.innerHTML = "";
+  const panelLabel = document.createElement("p");
+  panelLabel.className = "panel-label";
+  panelLabel.textContent = "Loading";
+  const title = document.createElement("h2");
+  title.textContent = `Loading ${label}…`;
+  const hint = document.createElement("p");
+  hint.className = "loading-hint";
+  hint.textContent = "Downloading sentences for this course.";
+  els.emptyState.append(panelLabel, title, hint);
+  show(els.emptyState);
+}
+
 function setBusy(isBusy) {
   els.startButton.disabled = isBusy;
   els.startButton.textContent = isBusy ? "Starting" : "Start";
+  if (els.againButton) {
+    els.againButton.disabled = isBusy;
+  }
+  els.languageSelect.disabled = isBusy;
+  els.countSelect.disabled = isBusy;
+  els.inverseToggle.disabled = isBusy;
+  document.querySelectorAll("input[name='mode']").forEach((input) => {
+    input.disabled = isBusy;
+  });
 }
 
 function show(element) {
