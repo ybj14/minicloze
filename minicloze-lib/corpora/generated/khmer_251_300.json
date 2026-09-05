@@ -6,60 +6,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំផឹកទឹកពេលព្រឹក។",
-        "text": "I drink water in the morning.",
+        "target": "ខ្ញុំផឹកទឹកពេលស្រេក។",
+        "text": "I drink water when I am thirsty.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ផឹក",
-            "gloss": "liver"
+            "gloss": "drink"
           },
           {
             "word": "ទឹក",
             "gloss": "water"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ពេលស្រេក",
+            "gloss": "when thirsty"
           }
         ]
       },
       {
-        "target": "គាត់ទិញទឹកនៅផ្សារ។",
-        "text": "She buys water at the market.",
+        "target": "យកទឹកមកពីទូត្រជាក់។",
+        "text": "Get water from the fridge.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "យក",
+            "gloss": "take"
           },
           {
             "word": "ទឹក",
             "gloss": "water"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
+            "word": "មក",
+            "gloss": "come"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ពី",
+            "gloss": "from"
+          },
+          {
+            "word": "ទូត្រជាក់",
+            "gloss": "fridge"
           }
         ]
       },
       {
-        "target": "ទឹកនេះត្រជាក់។",
-        "text": "This water is cold.",
+        "target": "ទឹកក្នុងកែវនេះត្រជាក់។",
+        "text": "The water in this glass is cold.",
         "words": [
           {
             "word": "ទឹក",
             "gloss": "water"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "កែវ",
+            "gloss": "glass"
           },
           {
             "word": "នេះ",
@@ -80,8 +88,30 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែទិញនំប៉័ងនៅផ្សារ។",
-        "text": "Mother buys bread at the market.",
+        "target": "ញ៉ាំនំប៉័ងជាមួយទឹកដោះគោ។",
+        "text": "Eat bread with milk.",
+        "words": [
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "នំប៉័ង",
+            "gloss": "bread"
+          },
+          {
+            "word": "ជាមួយ",
+            "gloss": "with"
+          },
+          {
+            "word": "ទឹកដោះគោ",
+            "gloss": "milk"
+          }
+        ]
+      },
+      {
+        "target": "ម៉ែទិញនំប៉័ងនៅហាង។",
+        "text": "Mother buys bread at the shop.",
         "words": [
           {
             "word": "ម៉ែ",
@@ -97,17 +127,17 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ហាង",
+            "gloss": "shop"
           }
         ]
       },
       {
-        "target": "នំប៉័ងនេះឆ្ងាញ់។",
-        "text": "This bread is delicious.",
+        "target": "នំប៉័ងនេះនៅថ្មីនិងទន់។",
+        "text": "This bread is still fresh and soft.",
         "words": [
           {
             "word": "នំប៉័ង",
@@ -118,34 +148,20 @@
             "gloss": "this"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
-          }
-        ]
-      },
-      {
-        "target": "យើងចម្អិននំប៉័ងនៅផ្ទះបាយ។",
-        "text": "We cook bread in the kitchen.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
-          },
-          {
-            "word": "នំប៉័ង",
-            "gloss": "bread"
-          },
-          {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "ថ្មី",
+            "gloss": "new"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ទន់",
+            "gloss": "soft"
           }
         ]
       }
@@ -158,39 +174,31 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំផឹកកាហ្វេពេលព្រឹក។",
-        "text": "I drink coffee in the morning.",
+        "target": "ប៉ាផឹកកាហ្វេរាល់ព្រឹក។",
+        "text": "Dad drinks coffee every morning.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ប៉ា",
+            "gloss": "dad"
           },
           {
             "word": "ផឹក",
-            "gloss": "liver"
+            "gloss": "drink"
           },
           {
             "word": "កាហ្វេ",
             "gloss": "coffee"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "រាល់ព្រឹក",
+            "gloss": "every morning"
           }
         ]
       },
       {
-        "target": "គាត់ទិញកាហ្វេនៅផ្សារ។",
-        "text": "She buys coffee at the market.",
+        "target": "កាហ្វេនៅហាងនេះឆ្ងាញ់។",
+        "text": "The coffee at this shop is delicious.",
         "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
           {
             "word": "កាហ្វេ",
             "gloss": "coffee"
@@ -200,26 +208,46 @@
             "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "កាហ្វេនេះត្រជាក់។",
-        "text": "This coffee is cold.",
-        "words": [
-          {
-            "word": "កាហ្វេ",
-            "gloss": "coffee"
+            "word": "ហាង",
+            "gloss": "shop"
           },
           {
             "word": "នេះ",
             "gloss": "this"
           },
           {
-            "word": "ត្រជាក់",
-            "gloss": "cold"
+            "word": "ឆ្ងាញ់",
+            "gloss": "delicious"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំមិនផឹកកាហ្វេពេលយប់ទេ។",
+        "text": "I do not drink coffee at night.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "មិន",
+            "gloss": "not"
+          },
+          {
+            "word": "ផឹក",
+            "gloss": "drink"
+          },
+          {
+            "word": "កាហ្វេ",
+            "gloss": "coffee"
+          },
+          {
+            "word": "ពេលយប់",
+            "gloss": "night"
+          },
+          {
+            "word": "ទេ",
+            "gloss": "no"
           }
         ]
       }
@@ -232,56 +260,52 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំផឹកទឹកដោះគោពេលព្រឹក។",
-        "text": "I drink milk in the morning.",
+        "target": "ក្មេងផឹកទឹកដោះគោមុនគេង។",
+        "text": "The child drinks milk before bed.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ក្មេង",
+            "gloss": "child"
           },
           {
             "word": "ផឹក",
-            "gloss": "liver"
+            "gloss": "drink"
           },
           {
             "word": "ទឹកដោះគោ",
             "gloss": "milk"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "មុនគេង",
+            "gloss": "before sleep"
           }
         ]
       },
       {
-        "target": "គាត់ទិញទឹកដោះគោនៅផ្សារ។",
-        "text": "She buys milk at the market.",
+        "target": "ចាក់ទឹកដោះគោក្នុងកែវ។",
+        "text": "Pour milk into the glass.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "ចាក់",
+            "gloss": "pour"
           },
           {
             "word": "ទឹកដោះគោ",
             "gloss": "milk"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
+            "word": "ក្នុង",
+            "gloss": "in"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "កែវ",
+            "gloss": "glass"
           }
         ]
       },
       {
-        "target": "ទឹកដោះគោនេះត្រជាក់។",
-        "text": "This milk is cold.",
+        "target": "ទឹកដោះគោនេះផ្អែមបន្តិច។",
+        "text": "This milk is a little sweet.",
         "words": [
           {
             "word": "ទឹកដោះគោ",
@@ -292,8 +316,12 @@
             "gloss": "this"
           },
           {
-            "word": "ត្រជាក់",
-            "gloss": "cold"
+            "word": "ផ្អែម",
+            "gloss": "sweet"
+          },
+          {
+            "word": "បន្តិច",
+            "gloss": "a little"
           }
         ]
       }
@@ -306,13 +334,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំញ៉ាំស៊ុបពេលព្រឹក។",
-        "text": "I eat soup in the morning.",
+        "target": "ញ៉ាំស៊ុបក្តៅពេលល្ងាច។",
+        "text": "Eat hot soup in the evening.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ញ៉ាំ",
             "gloss": "eat"
@@ -322,40 +346,44 @@
             "gloss": "soup"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ក្តៅ",
+            "gloss": "hot"
+          },
+          {
+            "word": "ពេលល្ងាច",
+            "gloss": "evening"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញស៊ុបនៅផ្សារ។",
-        "text": "Mother buys soup at the market.",
+        "target": "ម៉ែស្ងោរស៊ុបសម្រាប់គ្រួសារ។",
+        "text": "Mother boils soup for the family.",
         "words": [
           {
             "word": "ម៉ែ",
             "gloss": "mother"
           },
           {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "ស្ងោរ",
+            "gloss": "boil"
           },
           {
             "word": "ស៊ុប",
             "gloss": "soup"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "សម្រាប់",
+            "gloss": "for"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "គ្រួសារ",
+            "gloss": "family"
           }
         ]
       },
       {
-        "target": "ស៊ុបនេះឆ្ងាញ់។",
-        "text": "This soup is delicious.",
+        "target": "ស៊ុបនេះមានបន្លែច្រើន។",
+        "text": "This soup has many vegetables.",
         "words": [
           {
             "word": "ស៊ុប",
@@ -366,8 +394,16 @@
             "gloss": "this"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "បន្លែ",
+            "gloss": "vegetables"
+          },
+          {
+            "word": "ច្រើន",
+            "gloss": "many"
           }
         ]
       }
@@ -380,9 +416,35 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងចម្អិនម្ហូបនៅផ្ទះបាយ។",
-        "text": "We cook dish in the kitchen.",
+        "target": "ម្ហូបខ្មែរឆ្ងាញ់ណាស់។",
+        "text": "Khmer food is very delicious.",
         "words": [
+          {
+            "word": "ម្ហូប",
+            "gloss": "dish"
+          },
+          {
+            "word": "ខ្មែរ",
+            "gloss": "Khmer"
+          },
+          {
+            "word": "ឆ្ងាញ់",
+            "gloss": "delicious"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
+          }
+        ]
+      },
+      {
+        "target": "ថ្ងៃនេះយើងចម្អិនម្ហូបបីមុខ។",
+        "text": "Today we cook three dishes.",
+        "words": [
+          {
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
+          },
           {
             "word": "យើង",
             "gloss": "we"
@@ -393,63 +455,49 @@
           },
           {
             "word": "ម្ហូប",
-            "gloss": "dish; food"
+            "gloss": "dish"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "បីមុខ",
+            "gloss": "three kinds"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់ម្ហូបលើតុ។",
-        "text": "She puts dish on the table.",
+        "target": "សួរថាតើម្ហូបណាហឹរ។",
+        "text": "Ask which food is spicy.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "សួរ",
+            "gloss": "ask"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ថ",
+            "gloss": "ថ"
+          },
+          {
+            "word": "ា",
+            "gloss": "ា"
+          },
+          {
+            "word": "ត",
+            "gloss": "ត"
+          },
+          {
+            "word": "ើ",
+            "gloss": "ើ"
           },
           {
             "word": "ម្ហូប",
-            "gloss": "dish; food"
+            "gloss": "dish"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ណា",
+            "gloss": "which"
           },
           {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំញ៉ាំម្ហូបពេលព្រឹក។",
-        "text": "I eat dish in the morning.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "ម្ហូប",
-            "gloss": "dish; food"
-          },
-          {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ហឹរ",
+            "gloss": "spicy"
           }
         ]
       }
@@ -479,7 +527,7 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
@@ -488,46 +536,46 @@
         ]
       },
       {
-        "target": "សាច់នេះឆ្ងាញ់។",
-        "text": "This meat is delicious.",
+        "target": "លាងសាច់មុនចម្អិន។",
+        "text": "Wash the meat before cooking.",
         "words": [
+          {
+            "word": "លាង",
+            "gloss": "wash"
+          },
           {
             "word": "សាច់",
             "gloss": "meat"
+          },
+          {
+            "word": "មុនចម្អិន",
+            "gloss": "before cooking"
+          }
+        ]
+      },
+      {
+        "target": "ម្ហូបនេះមានសាច់តិច។",
+        "text": "This dish has little meat.",
+        "words": [
+          {
+            "word": "ម្ហូប",
+            "gloss": "dish"
           },
           {
             "word": "នេះ",
             "gloss": "this"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
-          }
-        ]
-      },
-      {
-        "target": "យើងចម្អិនសាច់នៅផ្ទះបាយ។",
-        "text": "We cook meat in the kitchen.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
+            "word": "មាន",
+            "gloss": "have"
           },
           {
             "word": "សាច់",
             "gloss": "meat"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "តិច",
+            "gloss": "few"
           }
         ]
       }
@@ -540,39 +588,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គាត់ដាក់ត្រីលើតុ។",
-        "text": "She puts fish on the table.",
+        "target": "ញ៉ាំត្រីជាមួយបាយ។",
+        "text": "Eat fish with rice.",
         "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
-          {
-            "word": "ត្រី",
-            "gloss": "fish"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំញ៉ាំត្រីពេលព្រឹក។",
-        "text": "I eat fish in the morning.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ញ៉ាំ",
             "gloss": "eat"
@@ -582,18 +600,22 @@
             "gloss": "fish"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ជាមួយ",
+            "gloss": "with"
+          },
+          {
+            "word": "បាយ",
+            "gloss": "rice"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញត្រីនៅផ្សារ។",
-        "text": "Mother buys fish at the market.",
+        "target": "ប៉ាទិញត្រីស្រស់នៅផ្សារ។",
+        "text": "Dad buys fresh fish at the market.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
+            "word": "ប៉ា",
+            "gloss": "dad"
           },
           {
             "word": "ទិញ",
@@ -604,12 +626,46 @@
             "gloss": "fish"
           },
           {
+            "word": "ស្រស់",
+            "gloss": "fresh"
+          },
+          {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
             "gloss": "market"
+          }
+        ]
+      },
+      {
+        "target": "ត្រីនេះឆ្ងាញ់និងមិនហឹរ។",
+        "text": "This fish is delicious and not spicy.",
+        "words": [
+          {
+            "word": "ត្រី",
+            "gloss": "fish"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "ឆ្ងាញ់",
+            "gloss": "delicious"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "មិន",
+            "gloss": "not"
+          },
+          {
+            "word": "ហឹរ",
+            "gloss": "spicy"
           }
         ]
       }
@@ -622,72 +678,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ស៊ុតនេះឆ្ងាញ់។",
-        "text": "This egg is delicious.",
+        "target": "ចៀនស៊ុតសម្រាប់អាហារពេលព្រឹក។",
+        "text": "Fry eggs for breakfast.",
         "words": [
+          {
+            "word": "ចៀន",
+            "gloss": "fry"
+          },
           {
             "word": "ស៊ុត",
             "gloss": "egg"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "សម្រាប់",
+            "gloss": "for"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
+            "word": "អាហារពេលព្រឹក",
+            "gloss": "breakfast"
           }
         ]
       },
       {
-        "target": "យើងចម្អិនស៊ុតនៅផ្ទះបាយ។",
-        "text": "We cook egg in the kitchen.",
+        "target": "មានស៊ុតពីរនៅក្នុងទូត្រជាក់។",
+        "text": "There are two eggs in the fridge.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
+            "word": "មាន",
+            "gloss": "have"
           },
           {
             "word": "ស៊ុត",
             "gloss": "egg"
+          },
+          {
+            "word": "ពីរ",
+            "gloss": "two"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ទូត្រជាក់",
+            "gloss": "fridge"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់ស៊ុតលើតុ។",
-        "text": "She puts egg on the table.",
+        "target": "ក្មេងចូលចិត្តញ៉ាំស៊ុត។",
+        "text": "The child likes eating eggs.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ក្មេង",
+            "gloss": "child"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ចូលចិត្ត",
+            "gloss": "like"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
             "word": "ស៊ុត",
             "gloss": "egg"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
           }
         ]
       }
@@ -700,13 +760,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំញ៉ាំបន្លែពេលព្រឹក។",
-        "text": "I eat vegetables in the morning.",
+        "target": "ញ៉ាំបន្លែរាល់ថ្ងៃ។",
+        "text": "Eat vegetables every day.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ញ៉ាំ",
             "gloss": "eat"
@@ -716,52 +772,52 @@
             "gloss": "vegetables"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "រាល់ថ្ងៃ",
+            "gloss": "every day"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញបន្លែនៅផ្សារ។",
-        "text": "Mother buys vegetables at the market.",
+        "target": "លាងបន្លែមុនចម្អិន។",
+        "text": "Wash the vegetables before cooking.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
+            "word": "លាង",
+            "gloss": "wash"
           },
           {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "បន្លែ",
+            "gloss": "vegetables"
           },
+          {
+            "word": "មុនចម្អិន",
+            "gloss": "before cooking"
+          }
+        ]
+      },
+      {
+        "target": "បន្លែនៅផ្សារថ្ងៃនេះស្រស់។",
+        "text": "The vegetables at the market are fresh today.",
+        "words": [
           {
             "word": "បន្លែ",
             "gloss": "vegetables"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
             "word": "ផ្សារ",
             "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "បន្លែនេះឆ្ងាញ់។",
-        "text": "This vegetables is delicious.",
-        "words": [
-          {
-            "word": "បន្លែ",
-            "gloss": "vegetables"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
+            "word": "ស្រស់",
+            "gloss": "fresh"
           }
         ]
       }
@@ -774,65 +830,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងចម្អិនផ្លែឈើនៅផ្ទះបាយ។",
-        "text": "We cook fruit in the kitchen.",
+        "target": "ញ៉ាំផ្លែឈើក្រោយអាហារថ្ងៃត្រង់។",
+        "text": "Eat fruit after lunch.",
         "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
-          },
-          {
-            "word": "ផ្លែឈើ",
-            "gloss": "fruit"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
-          }
-        ]
-      },
-      {
-        "target": "គាត់ដាក់ផ្លែឈើលើតុ។",
-        "text": "She puts fruit on the table.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
-          {
-            "word": "ផ្លែឈើ",
-            "gloss": "fruit"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំញ៉ាំផ្លែឈើពេលព្រឹក។",
-        "text": "I eat fruit in the morning.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ញ៉ាំ",
             "gloss": "eat"
@@ -842,8 +842,60 @@
             "gloss": "fruit"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ក្រោយ",
+            "gloss": "behind"
+          },
+          {
+            "word": "អាហារថ្ងៃត្រង់",
+            "gloss": "lunch"
+          }
+        ]
+      },
+      {
+        "target": "ទិញផ្លែឈើបីមុខនៅផ្សារ។",
+        "text": "Buy three kinds of fruit at the market.",
+        "words": [
+          {
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "ផ្លែឈើ",
+            "gloss": "fruit"
+          },
+          {
+            "word": "បីមុខ",
+            "gloss": "three kinds"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ផ្សារ",
+            "gloss": "market"
+          }
+        ]
+      },
+      {
+        "target": "ផ្លែឈើនេះផ្អែមណាស់។",
+        "text": "This fruit is very sweet.",
+        "words": [
+          {
+            "word": "ផ្លែឈើ",
+            "gloss": "fruit"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "ផ្អែម",
+            "gloss": "sweet"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       }
@@ -856,16 +908,64 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែទិញចេកនៅផ្សារ។",
-        "text": "Mother buys banana at the market.",
+        "target": "ក្មេងញ៉ាំចេកពេលព្រឹក។",
+        "text": "The child eats a banana in the morning.",
+        "words": [
+          {
+            "word": "ក្មេង",
+            "gloss": "child"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "ចេក",
+            "gloss": "banana"
+          },
+          {
+            "word": "ពេលព្រឹក",
+            "gloss": "in the morning"
+          }
+        ]
+      },
+      {
+        "target": "ចេកក្នុងផ្ទះបាយទុំហើយ។",
+        "text": "The bananas in the kitchen are ripe.",
+        "words": [
+          {
+            "word": "ចេក",
+            "gloss": "banana"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ផ្ទះបាយ",
+            "gloss": "kitchen"
+          },
+          {
+            "word": "ទុំ",
+            "gloss": "ripe"
+          },
+          {
+            "word": "ហើយ",
+            "gloss": "already"
+          }
+        ]
+      },
+      {
+        "target": "ម៉ែលក់ចេកនៅមុខផ្ទះ។",
+        "text": "Mother sells bananas in front of the house.",
         "words": [
           {
             "word": "ម៉ែ",
             "gloss": "mother"
           },
           {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "លក់",
+            "gloss": "sell"
           },
           {
             "word": "ចេក",
@@ -873,55 +973,15 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ចេកនេះឆ្ងាញ់។",
-        "text": "This banana is delicious.",
-        "words": [
-          {
-            "word": "ចេក",
-            "gloss": "banana"
+            "word": "មុខ",
+            "gloss": "face"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
-          }
-        ]
-      },
-      {
-        "target": "យើងចម្អិនចេកនៅផ្ទះបាយ។",
-        "text": "We cook banana in the kitchen.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
-          },
-          {
-            "word": "ចេក",
-            "gloss": "banana"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "ផ្ទះ",
+            "gloss": "house"
           }
         ]
       }
@@ -934,60 +994,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គាត់ដាក់ផ្លែប៉ោមលើតុ។",
-        "text": "She puts apple on the table.",
+        "target": "លាងផ្លែប៉ោមមុនញ៉ាំ។",
+        "text": "Wash the apple before eating.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "លាង",
+            "gloss": "wash"
           },
           {
             "word": "ផ្លែប៉ោម",
             "gloss": "apple"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំញ៉ាំផ្លែប៉ោមពេលព្រឹក។",
-        "text": "I eat apple in the morning.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "មុន",
+            "gloss": "before"
           },
           {
             "word": "ញ៉ាំ",
             "gloss": "eat"
-          },
-          {
-            "word": "ផ្លែប៉ោម",
-            "gloss": "apple"
-          },
-          {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញផ្លែប៉ោមនៅផ្សារ។",
-        "text": "Mother buys apple at the market.",
+        "target": "ខ្ញុំទិញផ្លែប៉ោមពីរគីឡូ។",
+        "text": "I buy two kilos of apples.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
             "word": "ទិញ",
@@ -998,12 +1032,30 @@
             "gloss": "apple"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ពីរគីឡូ",
+            "gloss": "two kilos"
+          }
+        ]
+      },
+      {
+        "target": "ផ្លែប៉ោមនេះជូរបន្តិច។",
+        "text": "This apple is a little sour.",
+        "words": [
+          {
+            "word": "ផ្លែប៉ោម",
+            "gloss": "apple"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "ជូរ",
+            "gloss": "sour"
+          },
+          {
+            "word": "បន្តិច",
+            "gloss": "a little"
           }
         ]
       }
@@ -1016,72 +1068,88 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ស្វាយនេះឆ្ងាញ់។",
-        "text": "This mango is delicious.",
+        "target": "រដូវនេះស្វាយឆ្ងាញ់ណាស់។",
+        "text": "This season mangoes are very delicious.",
         "words": [
           {
-            "word": "ស្វាយ",
-            "gloss": "mango"
+            "word": "រ",
+            "gloss": "រ"
+          },
+          {
+            "word": "ដ",
+            "gloss": "ដ"
+          },
+          {
+            "word": "ូ",
+            "gloss": "ូ"
+          },
+          {
+            "word": "វ",
+            "gloss": "វ"
           },
           {
             "word": "នេះ",
             "gloss": "this"
           },
           {
+            "word": "ស្វាយ",
+            "gloss": "mango"
+          },
+          {
             "word": "ឆ្ងាញ់",
             "gloss": "delicious"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
           }
         ]
       },
       {
-        "target": "យើងចម្អិនស្វាយនៅផ្ទះបាយ។",
-        "text": "We cook mango in the kitchen.",
+        "target": "ចិតស្វាយឱ្យកូន។",
+        "text": "Peel a mango for the child.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ចិត",
+            "gloss": "peel"
           },
           {
-            "word": "ចម្អិន",
-            "gloss": "cook"
+            "word": "ស្វាយ",
+            "gloss": "mango"
           },
+          {
+            "word": "ឱ្យ",
+            "gloss": "give; to"
+          },
+          {
+            "word": "កូន",
+            "gloss": "child"
+          }
+        ]
+      },
+      {
+        "target": "ស្វាយនៅផ្សារថោកថ្ងៃនេះ។",
+        "text": "Mangoes at the market are cheap today.",
+        "words": [
           {
             "word": "ស្វាយ",
             "gloss": "mango"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
-          }
-        ]
-      },
-      {
-        "target": "គាត់ដាក់ស្វាយលើតុ។",
-        "text": "She puts mango on the table.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ផ្សារ",
+            "gloss": "market"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ថោក",
+            "gloss": "cheap"
           },
           {
-            "word": "ស្វាយ",
-            "gloss": "mango"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           }
         ]
       }
@@ -1094,56 +1162,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំញ៉ាំក្រូចពេលព្រឹក។",
-        "text": "I eat orange in the morning.",
+        "target": "ច្របាច់ក្រូចធ្វើជាទឹក។",
+        "text": "Squeeze oranges to make juice.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
+            "word": "ច្របាច់",
+            "gloss": "squeeze"
           },
           {
             "word": "ក្រូច",
             "gloss": "orange"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ធ្វើ",
+            "gloss": "do"
+          },
+          {
+            "word": "ជា",
+            "gloss": "be"
+          },
+          {
+            "word": "ទឹក",
+            "gloss": "water"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញក្រូចនៅផ្សារ។",
-        "text": "Mother buys orange at the market.",
-        "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
-          {
-            "word": "ក្រូច",
-            "gloss": "orange"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ក្រូចនេះឆ្ងាញ់។",
-        "text": "This orange is delicious.",
+        "target": "ក្រូចនេះផ្អែមនិងជូរ។",
+        "text": "This orange is sweet and sour.",
         "words": [
           {
             "word": "ក្រូច",
@@ -1154,8 +1200,38 @@
             "gloss": "this"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
+            "word": "ផ្អែម",
+            "gloss": "sweet"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ជូរ",
+            "gloss": "sour"
+          }
+        ]
+      },
+      {
+        "target": "ដាក់ក្រូចក្នុងថង់។",
+        "text": "Put the oranges in the bag.",
+        "words": [
+          {
+            "word": "ដាក់",
+            "gloss": "put"
+          },
+          {
+            "word": "ក្រូច",
+            "gloss": "orange"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ថង់",
+            "gloss": "bag"
           }
         ]
       }
@@ -1168,13 +1244,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែដាក់អំបិលក្នុងម្ហូប។",
-        "text": "Mother puts salt in the food.",
+        "target": "ដាក់អំបិលបន្តិចក្នុងស៊ុប។",
+        "text": "Put a little salt in the soup.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
           {
             "word": "ដាក់",
             "gloss": "put"
@@ -1184,45 +1256,61 @@
             "gloss": "salt"
           },
           {
+            "word": "បន្តិច",
+            "gloss": "a little"
+          },
+          {
             "word": "ក្នុង",
             "gloss": "in"
           },
           {
-            "word": "ម្ហូប",
-            "gloss": "dish; food"
+            "word": "ស៊ុប",
+            "gloss": "soup"
           }
         ]
       },
       {
-        "target": "អំបិលនៅលើតុ។",
-        "text": "The salt is on the table.",
+        "target": "ម្ហូបនេះប្រៃពេកព្រោះមានអំបិលច្រើន។",
+        "text": "This food is too salty because it has a lot of salt.",
         "words": [
+          {
+            "word": "ម្ហូប",
+            "gloss": "dish"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "ប្រៃ",
+            "gloss": "salty"
+          },
+          {
+            "word": "ពេក",
+            "gloss": "too"
+          },
+          {
+            "word": "ព្រោះ",
+            "gloss": "because"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
           {
             "word": "អំបិល",
             "gloss": "salt"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "ច្រើន",
+            "gloss": "many"
           }
         ]
       },
       {
-        "target": "ខ្ញុំទិញអំបិលនៅផ្សារ។",
-        "text": "I buy salt at the market.",
+        "target": "ទិញអំបិលមួយកញ្ចប់នៅហាង។",
+        "text": "Buy a pack of salt at the shop.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
           {
             "word": "ទិញ",
             "gloss": "buy"
@@ -1232,12 +1320,16 @@
             "gloss": "salt"
           },
           {
+            "word": "មួយកញ្ចប់",
+            "gloss": "one pack"
+          },
+          {
             "word": "នៅ",
             "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ហាង",
+            "gloss": "shop"
           }
         ]
       }
@@ -1250,13 +1342,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែដាក់ស្ករក្នុងម្ហូប។",
-        "text": "Mother puts sugar in the food.",
+        "target": "ដាក់ស្ករក្នុងកាហ្វេ។",
+        "text": "Put sugar in the coffee.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
           {
             "word": "ដាក់",
             "gloss": "put"
@@ -1270,45 +1358,45 @@
             "gloss": "in"
           },
           {
-            "word": "ម្ហូប",
-            "gloss": "dish; food"
+            "word": "កាហ្វេ",
+            "gloss": "coffee"
           }
         ]
       },
       {
-        "target": "ស្ករនៅលើតុ។",
-        "text": "The sugar is on the table.",
-        "words": [
-          {
-            "word": "ស្ករ",
-            "gloss": "sugar"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទិញស្ករនៅផ្សារ។",
-        "text": "I buy sugar at the market.",
+        "target": "ខ្ញុំមិនចូលចិត្តស្ករច្រើនទេ។",
+        "text": "I do not like a lot of sugar.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "មិន",
+            "gloss": "not"
           },
+          {
+            "word": "ចូលចិត្ត",
+            "gloss": "like"
+          },
+          {
+            "word": "ស្ករ",
+            "gloss": "sugar"
+          },
+          {
+            "word": "ច្រើន",
+            "gloss": "many"
+          },
+          {
+            "word": "ទេ",
+            "gloss": "no"
+          }
+        ]
+      },
+      {
+        "target": "ស្ករនៅក្នុងប្រអប់តូច។",
+        "text": "The sugar is in the small box.",
+        "words": [
           {
             "word": "ស្ករ",
             "gloss": "sugar"
@@ -1318,8 +1406,16 @@
             "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ប្រអប់",
+            "gloss": "box"
+          },
+          {
+            "word": "តូច",
+            "gloss": "small"
           }
         ]
       }
@@ -1332,64 +1428,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែដាក់ម្រេចក្នុងម្ហូប។",
-        "text": "Mother puts pepper in the food.",
+        "target": "បាចម្រេចលើសាច់។",
+        "text": "Sprinkle pepper on the meat.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "បាច",
+            "gloss": "sprinkle"
           },
           {
             "word": "ម្រេច",
             "gloss": "pepper"
-          },
-          {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "ម្ហូប",
-            "gloss": "dish; food"
-          }
-        ]
-      },
-      {
-        "target": "ម្រេចនៅលើតុ។",
-        "text": "The pepper is on the table.",
-        "words": [
-          {
-            "word": "ម្រេច",
-            "gloss": "pepper"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at"
           },
           {
             "word": "លើ",
             "gloss": "on"
           },
           {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "សាច់",
+            "gloss": "meat"
           }
         ]
       },
       {
-        "target": "ខ្ញុំទិញម្រេចនៅផ្សារ។",
-        "text": "I buy pepper at the market.",
+        "target": "ម្រេចធ្វើឱ្យម្ហូបហឹរ។",
+        "text": "Pepper makes the food spicy.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ម្រេច",
+            "gloss": "pepper"
           },
           {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "ធ្វើ",
+            "gloss": "do"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "give; to"
+          },
+          {
+            "word": "ម្ហូប",
+            "gloss": "dish"
+          },
+          {
+            "word": "ហឹរ",
+            "gloss": "spicy"
+          }
+        ]
+      },
+      {
+        "target": "រកម្រេចនៅក្នុងផ្ទះបាយ។",
+        "text": "Look for the pepper in the kitchen.",
+        "words": [
+          {
+            "word": "រក",
+            "gloss": "look for"
           },
           {
             "word": "ម្រេច",
@@ -1400,8 +1492,12 @@
             "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ផ្ទះបាយ",
+            "gloss": "kitchen"
           }
         ]
       }
@@ -1414,72 +1510,76 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "បង្អែមនេះឆ្ងាញ់។",
-        "text": "This dessert is delicious.",
+        "target": "ញ៉ាំបង្អែមក្រោយអាហារពេលល្ងាច។",
+        "text": "Eat dessert after dinner.",
         "words": [
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
           {
             "word": "បង្អែម",
             "gloss": "dessert"
+          },
+          {
+            "word": "ក្រោយ",
+            "gloss": "behind"
+          },
+          {
+            "word": "អាហារពេលល្ងាច",
+            "gloss": "dinner"
+          }
+        ]
+      },
+      {
+        "target": "ហាងនេះលក់បង្អែមផ្អែម។",
+        "text": "This shop sells sweet desserts.",
+        "words": [
+          {
+            "word": "ហាង",
+            "gloss": "shop"
           },
           {
             "word": "នេះ",
             "gloss": "this"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
-          }
-        ]
-      },
-      {
-        "target": "យើងចម្អិនបង្អែមនៅផ្ទះបាយ។",
-        "text": "We cook dessert in the kitchen.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
+            "word": "លក់",
+            "gloss": "sell"
           },
           {
             "word": "បង្អែម",
             "gloss": "dessert"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "ផ្អែម",
+            "gloss": "sweet"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់បង្អែមលើតុ។",
-        "text": "She puts dessert on the table.",
+        "target": "កូនចង់បានបង្អែមមួយចាន។",
+        "text": "The child wants a bowl of dessert.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "កូន",
+            "gloss": "child"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ចង់",
+            "gloss": "want"
+          },
+          {
+            "word": "បាន",
+            "gloss": "can"
           },
           {
             "word": "បង្អែម",
             "gloss": "dessert"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "មួយចាន",
+            "gloss": "one bowl"
           }
         ]
       }
@@ -1492,13 +1592,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំញ៉ាំអាហារពេលព្រឹកពេលព្រឹក។",
-        "text": "I eat breakfast in the morning.",
+        "target": "ញ៉ាំអាហារពេលព្រឹកមុនទៅសាលា។",
+        "text": "Eat breakfast before going to school.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ញ៉ាំ",
             "gloss": "eat"
@@ -1508,52 +1604,72 @@
             "gloss": "breakfast"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "មុន",
+            "gloss": "before"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "សាលា",
+            "gloss": "school"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញអាហារពេលព្រឹកនៅផ្សារ។",
-        "text": "Mother buys breakfast at the market.",
+        "target": "អាហារពេលព្រឹកថ្ងៃនេះមាននំប៉័ងនិងទឹកដោះគោ។",
+        "text": "Breakfast today has bread and milk.",
+        "words": [
+          {
+            "word": "អាហារពេលព្រឹក",
+            "gloss": "breakfast"
+          },
+          {
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "នំប៉័ង",
+            "gloss": "bread"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ទឹកដោះគោ",
+            "gloss": "milk"
+          }
+        ]
+      },
+      {
+        "target": "ម៉ែរៀបអាហារពេលព្រឹកឱ្យគ្រួសារ។",
+        "text": "Mother prepares breakfast for the family.",
         "words": [
           {
             "word": "ម៉ែ",
             "gloss": "mother"
           },
           {
-            "word": "ទិញ",
-            "gloss": "buy"
+            "word": "រៀប",
+            "gloss": "prepare"
           },
           {
             "word": "អាហារពេលព្រឹក",
             "gloss": "breakfast"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ឱ្យ",
+            "gloss": "give; to"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "អាហារពេលព្រឹកនេះឆ្ងាញ់។",
-        "text": "This breakfast is delicious.",
-        "words": [
-          {
-            "word": "អាហារពេលព្រឹក",
-            "gloss": "breakfast"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
+            "word": "គ្រួសារ",
+            "gloss": "family"
           }
         ]
       }
@@ -1566,16 +1682,12 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "យើងចម្អិនអាហារថ្ងៃត្រង់នៅផ្ទះបាយ។",
-        "text": "We cook lunch in the kitchen.",
+        "target": "ញ៉ាំអាហារថ្ងៃត្រង់នៅសាលា។",
+        "text": "Eat lunch at school.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ចម្អិន",
-            "gloss": "cook"
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
           },
           {
             "word": "អាហារថ្ងៃត្រង់",
@@ -1583,47 +1695,51 @@
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "សាលា",
+            "gloss": "school"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់អាហារថ្ងៃត្រង់លើតុ។",
-        "text": "She puts lunch on the table.",
+        "target": "អាហារថ្ងៃត្រង់សព្វថ្ងៃជាបាយនិងបន្លែ។",
+        "text": "Lunch today is rice and vegetables.",
         "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
           {
             "word": "អាហារថ្ងៃត្រង់",
             "gloss": "lunch"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "សព្វថ្ងៃ",
+            "gloss": "today"
           },
           {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "ជា",
+            "gloss": "be"
+          },
+          {
+            "word": "បាយ",
+            "gloss": "rice"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "បន្លែ",
+            "gloss": "vegetables"
           }
         ]
       },
       {
-        "target": "ខ្ញុំញ៉ាំអាហារថ្ងៃត្រង់ពេលព្រឹក។",
-        "text": "I eat lunch in the morning.",
+        "target": "យើងញ៉ាំអាហារថ្ងៃត្រង់ជាមួយគ្នា។",
+        "text": "We eat lunch together.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "យើង",
+            "gloss": "we"
           },
           {
             "word": "ញ៉ាំ",
@@ -1634,8 +1750,8 @@
             "gloss": "lunch"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ជាមួយគ្នា",
+            "gloss": "together"
           }
         ]
       }
@@ -1648,56 +1764,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែទិញអាហារពេលល្ងាចនៅផ្សារ។",
-        "text": "Mother buys dinner at the market.",
+        "target": "អាហារពេលល្ងាចនៅម៉ោងប្រាំពីរ។",
+        "text": "Dinner is at seven o'clock.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
           {
             "word": "អាហារពេលល្ងាច",
             "gloss": "dinner"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          },
+          {
+            "word": "ប្រាំពីរ",
+            "gloss": "seven"
           }
         ]
       },
       {
-        "target": "អាហារពេលល្ងាចនេះឆ្ងាញ់។",
-        "text": "This dinner is delicious.",
+        "target": "ប៉ាចម្អិនអាហារពេលល្ងាចថ្ងៃនេះ។",
+        "text": "Dad cooks dinner today.",
         "words": [
           {
-            "word": "អាហារពេលល្ងាច",
-            "gloss": "dinner"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
-          }
-        ]
-      },
-      {
-        "target": "យើងចម្អិនអាហារពេលល្ងាចនៅផ្ទះបាយ។",
-        "text": "We cook dinner in the kitchen.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ប៉ា",
+            "gloss": "dad"
           },
           {
             "word": "ចម្អិន",
@@ -1708,12 +1802,42 @@
             "gloss": "dinner"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
+          }
+        ]
+      },
+      {
+        "target": "កុំញ៉ាំអាហារពេលល្ងាចច្រើនពេក។",
+        "text": "Do not eat too much for dinner.",
+        "words": [
+          {
+            "word": "ក",
+            "gloss": "neck"
           },
           {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
+            "word": "ុ",
+            "gloss": "ុ"
+          },
+          {
+            "word": "ំ",
+            "gloss": "ំ"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "អាហារពេលល្ងាច",
+            "gloss": "dinner"
+          },
+          {
+            "word": "ច្រើន",
+            "gloss": "many"
+          },
+          {
+            "word": "ពេក",
+            "gloss": "too"
           }
         ]
       }
@@ -1726,38 +1850,12 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គាត់ដាក់ចំណីលើតុ។",
-        "text": "She puts snack on the table.",
+        "target": "ក្មេងញ៉ាំចំណីពេលសម្រាក។",
+        "text": "The child eats a snack during the break.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
-          {
-            "word": "ចំណី",
-            "gloss": "snack"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំញ៉ាំចំណីពេលព្រឹក។",
-        "text": "I eat snack in the morning.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ក្មេង",
+            "gloss": "child"
           },
           {
             "word": "ញ៉ាំ",
@@ -1768,19 +1866,15 @@
             "gloss": "snack"
           },
           {
-            "word": "ពេលព្រឹក",
-            "gloss": "ពេលព្រឹក"
+            "word": "ពេលសម្រាក",
+            "gloss": "during break"
           }
         ]
       },
       {
-        "target": "ម៉ែទិញចំណីនៅផ្សារ។",
-        "text": "Mother buys snack at the market.",
+        "target": "ទិញចំណីតិចៗនៅហាង។",
+        "text": "Buy a small snack at the shop.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
           {
             "word": "ទិញ",
             "gloss": "buy"
@@ -1790,12 +1884,50 @@
             "gloss": "snack"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "តិចៗ",
+            "gloss": "a little"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ហាង",
+            "gloss": "shop"
+          }
+        ]
+      },
+      {
+        "target": "កុំញ៉ាំចំណីមុនអាហារពេលល្ងាច។",
+        "text": "Do not eat a snack before dinner.",
+        "words": [
+          {
+            "word": "ក",
+            "gloss": "neck"
+          },
+          {
+            "word": "ុ",
+            "gloss": "ុ"
+          },
+          {
+            "word": "ំ",
+            "gloss": "ំ"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat"
+          },
+          {
+            "word": "ចំណី",
+            "gloss": "snack"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before"
+          },
+          {
+            "word": "អាហារពេលល្ងាច",
+            "gloss": "dinner"
           }
         ]
       }
@@ -1808,8 +1940,52 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "បង្អែមខ្មែរនេះឆ្ងាញ់។",
-        "text": "This Khmer dessert is delicious.",
+        "target": "ភ្ញៀវចូលចិត្តបង្អែមខ្មែរ។",
+        "text": "Guests like Khmer dessert.",
+        "words": [
+          {
+            "word": "ភ្ញៀវ",
+            "gloss": "guest"
+          },
+          {
+            "word": "ចូលចិត្ត",
+            "gloss": "like"
+          },
+          {
+            "word": "បង្អែមខ្មែរ",
+            "gloss": "Khmer dessert"
+          }
+        ]
+      },
+      {
+        "target": "ម៉ែលក់បង្អែមខ្មែរនៅផ្សារ។",
+        "text": "Mother sells Khmer dessert at the market.",
+        "words": [
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother"
+          },
+          {
+            "word": "លក់",
+            "gloss": "sell"
+          },
+          {
+            "word": "បង្អែមខ្មែរ",
+            "gloss": "Khmer dessert"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ផ្សារ",
+            "gloss": "market"
+          }
+        ]
+      },
+      {
+        "target": "បង្អែមខ្មែរនេះផ្អែមល្មម។",
+        "text": "This Khmer dessert is just sweet enough.",
         "words": [
           {
             "word": "បង្អែមខ្មែរ",
@@ -1820,60 +1996,12 @@
             "gloss": "this"
           },
           {
-            "word": "ឆ្ងាញ់",
-            "gloss": "delicious"
-          }
-        ]
-      },
-      {
-        "target": "យើងចម្អិនបង្អែមខ្មែរនៅផ្ទះបាយ។",
-        "text": "We cook Khmer dessert in the kitchen.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ផ្អែម",
+            "gloss": "sweet"
           },
           {
-            "word": "ចម្អិន",
-            "gloss": "cook"
-          },
-          {
-            "word": "បង្អែមខ្មែរ",
-            "gloss": "Khmer dessert"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះបាយ",
-            "gloss": "kitchen"
-          }
-        ]
-      },
-      {
-        "target": "គាត់ដាក់បង្អែមខ្មែរលើតុ។",
-        "text": "She puts Khmer dessert on the table.",
-        "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
-          {
-            "word": "បង្អែមខ្មែរ",
-            "gloss": "Khmer dessert"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "តុ",
-            "gloss": "table"
+            "word": "ល្មម",
+            "gloss": "moderate"
           }
         ]
       }
@@ -1886,13 +2014,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំពាក់អាវថ្មី។",
-        "text": "I wear new shirt.",
+        "target": "ពាក់អាវស្អាតទៅសាលា។",
+        "text": "Wear a clean shirt to school.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ពាក់",
             "gloss": "wear"
@@ -1902,40 +2026,48 @@
             "gloss": "shirt"
           },
           {
-            "word": "ថ្មី",
-            "gloss": "new"
+            "word": "ស្អាត",
+            "gloss": "clean"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "សាលា",
+            "gloss": "school"
           }
         ]
       },
       {
-        "target": "ម៉ែលាងអាវនៅផ្ទះ។",
-        "text": "Mother washes the shirt at home.",
+        "target": "ម៉ែបោកអាវឱ្យខ្ញុំ។",
+        "text": "Mother washes the shirt for me.",
         "words": [
           {
             "word": "ម៉ែ",
             "gloss": "mother"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "បោក",
+            "gloss": "wash (clothes)"
           },
           {
             "word": "អាវ",
             "gloss": "shirt"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ឱ្យ",
+            "gloss": "give; to"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           }
         ]
       },
       {
-        "target": "អាវនេះស្អាត។",
-        "text": "This shirt is nice.",
+        "target": "អាវនេះតូចពេក។",
+        "text": "This shirt is too small.",
         "words": [
           {
             "word": "អាវ",
@@ -1946,8 +2078,12 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "តូច",
+            "gloss": "small"
+          },
+          {
+            "word": "ពេក",
+            "gloss": "too"
           }
         ]
       }
@@ -1960,65 +2096,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គាត់ដាក់ខោក្នុងកាបូប។",
-        "text": "She puts the pants in the bag.",
+        "target": "ពាក់ខោខៀវជាមួយអាវស។",
+        "text": "Wear blue pants with a white shirt.",
         "words": [
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
-          },
-          {
-            "word": "ខោ",
-            "gloss": "pants"
-          },
-          {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "កាបូប",
-            "gloss": "bag"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទិញខោនៅផ្សារ។",
-        "text": "I buy pants at the market.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
-          {
-            "word": "ខោ",
-            "gloss": "pants"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំពាក់ខោថ្មី។",
-        "text": "I wear new pants.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ពាក់",
             "gloss": "wear"
@@ -2028,8 +2108,68 @@
             "gloss": "pants"
           },
           {
+            "word": "ខៀវ",
+            "gloss": "blue"
+          },
+          {
+            "word": "ជាមួយ",
+            "gloss": "with"
+          },
+          {
+            "word": "អាវ",
+            "gloss": "shirt"
+          },
+          {
+            "word": "ស",
+            "gloss": "white"
+          }
+        ]
+      },
+      {
+        "target": "ខោនេះវែងពេក។",
+        "text": "These pants are too long.",
+        "words": [
+          {
+            "word": "ខោ",
+            "gloss": "pants"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "វែង",
+            "gloss": "long"
+          },
+          {
+            "word": "ពេក",
+            "gloss": "too"
+          }
+        ]
+      },
+      {
+        "target": "ទិញខោថ្មីនៅហាង។",
+        "text": "Buy new pants at the shop.",
+        "words": [
+          {
+            "word": "ទិញ",
+            "gloss": "buy"
+          },
+          {
+            "word": "ខោ",
+            "gloss": "pants"
+          },
+          {
             "word": "ថ្មី",
             "gloss": "new"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ហាង",
+            "gloss": "shop"
           }
         ]
       }
@@ -2042,24 +2182,24 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែលាងស្បែកជើងនៅផ្ទះ។",
-        "text": "Mother washes the shoes at home.",
+        "target": "ដោះស្បែកជើងមុនចូលផ្ទះ។",
+        "text": "Take off your shoes before entering the house.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ដោះ",
+            "gloss": "take off"
           },
           {
             "word": "ស្បែកជើង",
             "gloss": "shoes"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "មុន",
+            "gloss": "before"
+          },
+          {
+            "word": "ចូល",
+            "gloss": "enter"
           },
           {
             "word": "ផ្ទះ",
@@ -2068,8 +2208,8 @@
         ]
       },
       {
-        "target": "ស្បែកជើងនេះស្អាត។",
-        "text": "This shoes is nice.",
+        "target": "ស្បែកជើងនេះតឹងបន្តិច។",
+        "text": "These shoes are a little tight.",
         "words": [
           {
             "word": "ស្បែកជើង",
@@ -2080,34 +2220,38 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "តឹង",
+            "gloss": "tight"
+          },
+          {
+            "word": "បន្តិច",
+            "gloss": "a little"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់ស្បែកជើងក្នុងកាបូប។",
-        "text": "She puts the shoes in the bag.",
+        "target": "ប៉ាទិញស្បែកជើងឱ្យកូន។",
+        "text": "Dad buys shoes for the child.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ប៉ា",
+            "gloss": "dad"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ទិញ",
+            "gloss": "buy"
           },
           {
             "word": "ស្បែកជើង",
             "gloss": "shoes"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
+            "word": "ឱ្យ",
+            "gloss": "give; to"
           },
           {
-            "word": "កាបូប",
-            "gloss": "bag"
+            "word": "កូន",
+            "gloss": "child"
           }
         ]
       }
@@ -2120,39 +2264,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំទិញមួកនៅផ្សារ។",
-        "text": "I buy hat at the market.",
+        "target": "ពាក់មួកពេលថ្ងៃក្តៅ។",
+        "text": "Wear a hat when the day is hot.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
-          {
-            "word": "មួក",
-            "gloss": "hat"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំពាក់មួកថ្មី។",
-        "text": "I wear new hat.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ពាក់",
             "gloss": "wear"
@@ -2162,34 +2276,56 @@
             "gloss": "hat"
           },
           {
-            "word": "ថ្មី",
-            "gloss": "new"
+            "word": "ពេលថ្ងៃក្តៅ",
+            "gloss": "when the day is hot"
           }
         ]
       },
       {
-        "target": "ម៉ែលាងមួកនៅផ្ទះ។",
-        "text": "Mother washes the hat at home.",
+        "target": "មួកនៅលើកៅអី។",
+        "text": "The hat is on the chair.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
           {
             "word": "មួក",
             "gloss": "hat"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "កៅអី",
+            "gloss": "chair"
+          }
+        ]
+      },
+      {
+        "target": "ក្មេងចូលចិត្តមួកពណ៌ក្រហម។",
+        "text": "The child likes the red hat.",
+        "words": [
+          {
+            "word": "ក្មេង",
+            "gloss": "child"
+          },
+          {
+            "word": "ចូលចិត្ត",
+            "gloss": "like"
+          },
+          {
+            "word": "មួក",
+            "gloss": "hat"
+          },
+          {
+            "word": "ពណ៌",
+            "gloss": "color"
+          },
+          {
+            "word": "ក្រហម",
+            "gloss": "red"
           }
         ]
       }
@@ -2202,8 +2338,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "សំពត់នេះស្អាត។",
-        "text": "This skirt is nice.",
+        "target": "ប្អូនស្រីពាក់សំពត់ទៅសាលា។",
+        "text": "My younger sister wears a skirt to school.",
+        "words": [
+          {
+            "word": "ប្អូនស្រី",
+            "gloss": "younger sister"
+          },
+          {
+            "word": "ពាក់",
+            "gloss": "wear"
+          },
+          {
+            "word": "សំពត់",
+            "gloss": "skirt"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "សាលា",
+            "gloss": "school"
+          }
+        ]
+      },
+      {
+        "target": "សំពត់នេះមានពណ៌បៃតង។",
+        "text": "This skirt is green.",
         "words": [
           {
             "word": "សំពត់",
@@ -2214,60 +2376,38 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ពណ៌",
+            "gloss": "color"
+          },
+          {
+            "word": "បៃតង",
+            "gloss": "green"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់សំពត់ក្នុងកាបូប។",
-        "text": "She puts the skirt in the bag.",
+        "target": "ម៉ែដេរសំពត់ថ្មី។",
+        "text": "Mother sews a new skirt.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ម៉ែ",
+            "gloss": "mother"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ដេរ",
+            "gloss": "sew"
           },
           {
             "word": "សំពត់",
             "gloss": "skirt"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "កាបូប",
-            "gloss": "bag"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទិញសំពត់នៅផ្សារ។",
-        "text": "I buy skirt at the market.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
-          {
-            "word": "សំពត់",
-            "gloss": "skirt"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
+            "word": "ថ្មី",
+            "gloss": "new"
           }
         ]
       }
@@ -2280,8 +2420,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំពាក់វ៉ែនតាថ្មី។",
-        "text": "I wear new glasses.",
+        "target": "ខ្ញុំពាក់វ៉ែនតាពេលអានសៀវភៅ។",
+        "text": "I wear glasses when I read a book.",
         "words": [
           {
             "word": "ខ្ញុំ",
@@ -2296,52 +2436,64 @@
             "gloss": "glasses"
           },
           {
-            "word": "ថ្មី",
-            "gloss": "new"
+            "word": "ពេលអានសៀវភៅ",
+            "gloss": "when reading"
           }
         ]
       },
       {
-        "target": "ម៉ែលាងវ៉ែនតានៅផ្ទះ។",
-        "text": "Mother washes the glasses at home.",
+        "target": "វ៉ែនតានៅក្នុងថង់។",
+        "text": "The glasses are in the bag.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
           {
             "word": "វ៉ែនតា",
             "gloss": "glasses"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ថង់",
+            "gloss": "bag"
           }
         ]
       },
       {
-        "target": "វ៉ែនតានេះស្អាត។",
-        "text": "This glasses is nice.",
+        "target": "គ្រូពេទ្យនិយាយថាខ្ញុំត្រូវការវ៉ែនតា។",
+        "text": "The doctor says I need glasses.",
         "words": [
+          {
+            "word": "គ្រូពេទ្យ",
+            "gloss": "doctor"
+          },
+          {
+            "word": "និយាយ",
+            "gloss": "speak"
+          },
+          {
+            "word": "ថ",
+            "gloss": "ថ"
+          },
+          {
+            "word": "ា",
+            "gloss": "ា"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ត្រូវការ",
+            "gloss": "need"
+          },
           {
             "word": "វ៉ែនតា",
             "gloss": "glasses"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
           }
         ]
       }
@@ -2354,13 +2506,27 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "គាត់ដាក់អាវធំក្នុងកាបូប។",
-        "text": "She puts the jacket in the bag.",
+        "target": "ពាក់អាវធំពេលល្ងាចត្រជាក់។",
+        "text": "Wear a jacket when the evening is cold.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ពាក់",
+            "gloss": "wear"
           },
+          {
+            "word": "អាវធំ",
+            "gloss": "jacket"
+          },
+          {
+            "word": "ពេលល្ងាចត្រជាក់",
+            "gloss": "when evening is cold"
+          }
+        ]
+      },
+      {
+        "target": "ដាក់អាវធំក្នុងកាបូប។",
+        "text": "Put the jacket in the bag.",
+        "words": [
           {
             "word": "ដាក់",
             "gloss": "put"
@@ -2380,50 +2546,28 @@
         ]
       },
       {
-        "target": "ខ្ញុំទិញអាវធំនៅផ្សារ។",
-        "text": "I buy jacket at the market.",
+        "target": "អាវធំនេះក្តៅនិងស្រាល។",
+        "text": "This jacket is warm and light.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
           {
             "word": "អាវធំ",
             "gloss": "jacket"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "នេះ",
+            "gloss": "this"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំពាក់អាវធំថ្មី។",
-        "text": "I wear new jacket.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ក្តៅ",
+            "gloss": "hot"
           },
           {
-            "word": "ពាក់",
-            "gloss": "wear"
+            "word": "និង",
+            "gloss": "and"
           },
           {
-            "word": "អាវធំ",
-            "gloss": "jacket"
-          },
-          {
-            "word": "ថ្មី",
-            "gloss": "new"
+            "word": "ស្រាល",
+            "gloss": "light"
           }
         ]
       }
@@ -2436,34 +2580,26 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែលាងអាវយឺតនៅផ្ទះ។",
-        "text": "Mother washes the T-shirt at home.",
+        "target": "ពាក់អាវយឺតពេលលេងកីឡា។",
+        "text": "Wear a T-shirt when playing sports.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ពាក់",
+            "gloss": "wear"
           },
           {
             "word": "អាវយឺត",
             "gloss": "T-shirt"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ពេលលេងកីឡា",
+            "gloss": "when playing sports"
           }
         ]
       },
       {
-        "target": "អាវយឺតនេះស្អាត។",
-        "text": "This T-shirt is nice.",
+        "target": "អាវយឺតនេះមានរូបបាល់។",
+        "text": "This T-shirt has a ball picture.",
         "words": [
           {
             "word": "អាវយឺត",
@@ -2474,34 +2610,46 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "រ",
+            "gloss": "រ"
+          },
+          {
+            "word": "ូ",
+            "gloss": "ូ"
+          },
+          {
+            "word": "ប",
+            "gloss": "ប"
+          },
+          {
+            "word": "បាល់",
+            "gloss": "ball"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់អាវយឺតក្នុងកាបូប។",
-        "text": "She puts the T-shirt in the bag.",
+        "target": "បោកអាវយឺតក្រោយហាត់ប្រាណ។",
+        "text": "Wash the T-shirt after exercise.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
-          },
-          {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "បោក",
+            "gloss": "wash (clothes)"
           },
           {
             "word": "អាវយឺត",
             "gloss": "T-shirt"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
+            "word": "ក្រោយ",
+            "gloss": "behind"
           },
           {
-            "word": "កាបូប",
-            "gloss": "bag"
+            "word": "ហាត់ប្រាណ",
+            "gloss": "exercise"
           }
         ]
       }
@@ -2514,39 +2662,9 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំទិញស្រោមជើងនៅផ្សារ។",
-        "text": "I buy socks at the market.",
+        "target": "ពាក់ស្រោមជើងជាមួយស្បែកជើង។",
+        "text": "Wear socks with your shoes.",
         "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
-          {
-            "word": "ស្រោមជើង",
-            "gloss": "socks"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំពាក់ស្រោមជើងថ្មី។",
-        "text": "I wear new socks.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
           {
             "word": "ពាក់",
             "gloss": "wear"
@@ -2556,34 +2674,52 @@
             "gloss": "socks"
           },
           {
-            "word": "ថ្មី",
-            "gloss": "new"
+            "word": "ជាមួយ",
+            "gloss": "with"
+          },
+          {
+            "word": "ស្បែកជើង",
+            "gloss": "shoes"
           }
         ]
       },
       {
-        "target": "ម៉ែលាងស្រោមជើងនៅផ្ទះ។",
-        "text": "Mother washes the socks at home.",
+        "target": "ស្រោមជើងនៅក្នុងប្រអប់។",
+        "text": "The socks are in the box.",
         "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
           {
             "word": "ស្រោមជើង",
             "gloss": "socks"
           },
           {
             "word": "នៅ",
-            "gloss": "at; in"
+            "gloss": "at"
           },
           {
-            "word": "ផ្ទះ",
-            "gloss": "house"
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ប្រអប់",
+            "gloss": "box"
+          }
+        ]
+      },
+      {
+        "target": "រកស្រោមជើងមួយគូ។",
+        "text": "Look for a pair of socks.",
+        "words": [
+          {
+            "word": "រក",
+            "gloss": "look for"
+          },
+          {
+            "word": "ស្រោមជើង",
+            "gloss": "socks"
+          },
+          {
+            "word": "មួយគូ",
+            "gloss": "one pair"
           }
         ]
       }
@@ -2596,8 +2732,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "នាឡិកាដៃនេះស្អាត។",
-        "text": "This watch is nice.",
+        "target": "មើលនាឡិកាដៃដើម្បីដឹងម៉ោង។",
+        "text": "Look at your watch to know the time.",
+        "words": [
+          {
+            "word": "មើល",
+            "gloss": "look"
+          },
+          {
+            "word": "នាឡិកាដៃ",
+            "gloss": "watch"
+          },
+          {
+            "word": "ដើម្បី",
+            "gloss": "in order to"
+          },
+          {
+            "word": "ដឹង",
+            "gloss": "know"
+          },
+          {
+            "word": "ម៉ោង",
+            "gloss": "hour"
+          }
+        ]
+      },
+      {
+        "target": "នាឡិកាដៃនេះល្អនិងថោក។",
+        "text": "This watch is nice and cheap.",
         "words": [
           {
             "word": "នាឡិកាដៃ",
@@ -2608,60 +2770,42 @@
             "gloss": "this"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ល្អ",
+            "gloss": "good"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ថោក",
+            "gloss": "cheap"
           }
         ]
       },
       {
-        "target": "គាត់ដាក់នាឡិកាដៃក្នុងកាបូប។",
-        "text": "She puts the watch in the bag.",
+        "target": "ប៉ាឱ្យនាឡិកាដៃដល់ខ្ញុំ។",
+        "text": "Dad gives me a watch.",
         "words": [
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ប៉ា",
+            "gloss": "dad"
           },
           {
-            "word": "ដាក់",
-            "gloss": "put"
+            "word": "ឱ្យ",
+            "gloss": "give; to"
           },
           {
             "word": "នាឡិកាដៃ",
             "gloss": "watch"
           },
           {
-            "word": "ក្នុង",
-            "gloss": "in"
+            "word": "ដល់",
+            "gloss": "to"
           },
-          {
-            "word": "កាបូប",
-            "gloss": "bag"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំទិញនាឡិកាដៃនៅផ្សារ។",
-        "text": "I buy watch at the market.",
-        "words": [
           {
             "word": "ខ្ញុំ",
             "gloss": "I"
-          },
-          {
-            "word": "ទិញ",
-            "gloss": "buy"
-          },
-          {
-            "word": "នាឡិកាដៃ",
-            "gloss": "watch"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្សារ",
-            "gloss": "market"
           }
         ]
       }
@@ -2674,12 +2818,38 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អ្នកចូលចិត្តពណ៌ណា។",
-        "text": "Which color do you like?",
+        "target": "អាវនេះមានពណ៌អ្វី?",
+        "text": "What color is this shirt?",
         "words": [
           {
-            "word": "អ្នក",
-            "gloss": "you"
+            "word": "អាវ",
+            "gloss": "shirt"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ពណ៌",
+            "gloss": "color"
+          },
+          {
+            "word": "អ្វី",
+            "gloss": "what"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំចូលចិត្តពណ៌ខៀវ។",
+        "text": "I like the color blue.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           },
           {
             "word": "ចូលចិត្ត",
@@ -2690,52 +2860,30 @@
             "gloss": "color"
           },
           {
-            "word": "ណា",
-            "gloss": "which"
-          }
-        ]
-      },
-      {
-        "target": "ពណ៌អាវនេះខៀវ។",
-        "text": "The color of this shirt is blue.",
-        "words": [
-          {
-            "word": "ពណ៌",
-            "gloss": "color"
-          },
-          {
-            "word": "អាវ",
-            "gloss": "shirt"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
             "word": "ខៀវ",
             "gloss": "blue"
           }
         ]
       },
       {
-        "target": "កូនគូរពណ៌ក្រហម។",
-        "text": "The child draws in red color.",
+        "target": "ជ្រើសពណ៌សម្រាប់ជញ្ជាំង។",
+        "text": "Choose a color for the wall.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ជ្រើស",
+            "gloss": "choose"
           },
           {
             "word": "ពណ៌",
             "gloss": "color"
           },
           {
-            "word": "ក្រហម",
-            "gloss": "red"
+            "word": "សម្រាប់",
+            "gloss": "for"
+          },
+          {
+            "word": "ជញ្ជាំង",
+            "gloss": "wall"
           }
         ]
       }
@@ -2748,60 +2896,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះក្រហម។",
-        "text": "This shirt is red.",
+        "target": "អាវក្រហមនៅលើគ្រែ។",
+        "text": "The red shirt is on the bed.",
         "words": [
           {
             "word": "អាវ",
             "gloss": "shirt"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
             "word": "ក្រហម",
             "gloss": "red"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "គ្រែ",
+            "gloss": "bed"
           }
         ]
       },
       {
-        "target": "កូនគូរផ្កាក្រហម។",
-        "text": "The child draws a red flower.",
+        "target": "ភ្លើងសញ្ញាក្រហមឲ្យឈប់។",
+        "text": "The red traffic light tells us to stop.",
+        "words": [
+          {
+            "word": "ភ្លើងសញ្ញា",
+            "gloss": "traffic light"
+          },
+          {
+            "word": "ក្រហម",
+            "gloss": "red"
+          },
+          {
+            "word": "ឲ្យ",
+            "gloss": "give; let"
+          },
+          {
+            "word": "ឈប់",
+            "gloss": "stop"
+          }
+        ]
+      },
+      {
+        "target": "កូនចូលចិត្តផ្កាក្រហម។",
+        "text": "The child likes red flowers.",
         "words": [
           {
             "word": "កូន",
             "gloss": "child"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "ក្រហម",
-            "gloss": "red"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ក្រហម។",
-        "text": "I like the color red.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
             "word": "ចូលចិត្ត",
             "gloss": "like"
           },
           {
-            "word": "ពណ៌",
-            "gloss": "color"
+            "word": "ផ្កា",
+            "gloss": "flower"
           },
           {
             "word": "ក្រហម",
@@ -2818,60 +2974,68 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះខៀវ។",
-        "text": "This shirt is blue.",
+        "target": "មេឃថ្ងៃនេះខៀវស្អាត។",
+        "text": "The sky is a beautiful blue today.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
+            "word": "មេឃ",
+            "gloss": "sky"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
           },
           {
             "word": "ខៀវ",
             "gloss": "blue"
+          },
+          {
+            "word": "ស្អាត",
+            "gloss": "clean"
           }
         ]
       },
       {
-        "target": "កូនគូរផ្កាខៀវ។",
-        "text": "The child draws a blue flower.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "ខៀវ",
-            "gloss": "blue"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ខៀវ។",
-        "text": "I like the color blue.",
+        "target": "ខ្ញុំពាក់ខោខៀវ។",
+        "text": "I wear blue pants.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
+            "word": "ពាក់",
+            "gloss": "wear"
           },
           {
-            "word": "ពណ៌",
-            "gloss": "color"
+            "word": "ខោ",
+            "gloss": "pants"
+          },
+          {
+            "word": "ខៀវ",
+            "gloss": "blue"
+          }
+        ]
+      },
+      {
+        "target": "ទឹកទន្លេមើលទៅខៀវ។",
+        "text": "The river water looks blue.",
+        "words": [
+          {
+            "word": "ទឹក",
+            "gloss": "water"
+          },
+          {
+            "word": "ទន្លេ",
+            "gloss": "river"
+          },
+          {
+            "word": "មើល",
+            "gloss": "look"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
           },
           {
             "word": "ខៀវ",
@@ -2888,60 +3052,60 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះបៃតង។",
-        "text": "This shirt is green.",
+        "target": "ស្លឹកឈើពណ៌បៃតង។",
+        "text": "The leaves are green.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "បៃតង",
-            "gloss": "green"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរផ្កាបៃតង។",
-        "text": "The child draws a green flower.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "បៃតង",
-            "gloss": "green"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌បៃតង។",
-        "text": "I like the color green.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
+            "word": "ស្លឹកឈើ",
+            "gloss": "leaves"
           },
           {
             "word": "ពណ៌",
             "gloss": "color"
+          },
+          {
+            "word": "បៃតង",
+            "gloss": "green"
+          }
+        ]
+      },
+      {
+        "target": "អាវយឺតបៃតងសមនឹងខ្ញុំ។",
+        "text": "The green T-shirt suits me.",
+        "words": [
+          {
+            "word": "អាវយឺត",
+            "gloss": "T-shirt"
+          },
+          {
+            "word": "បៃតង",
+            "gloss": "green"
+          },
+          {
+            "word": "សមនឹង",
+            "gloss": "suits"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          }
+        ]
+      },
+      {
+        "target": "សួនច្បារមានស្មៅបៃតង។",
+        "text": "The park has green grass.",
+        "words": [
+          {
+            "word": "សួនច្បារ",
+            "gloss": "park"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "ស្មៅ",
+            "gloss": "grass"
           },
           {
             "word": "បៃតង",
@@ -2958,56 +3122,16 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះលឿង។",
-        "text": "This shirt is yellow.",
+        "target": "ចេកទុំពណ៌លឿង។",
+        "text": "Ripe bananas are yellow.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
+            "word": "ចេក",
+            "gloss": "banana"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "លឿង",
-            "gloss": "yellow"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរផ្កាលឿង។",
-        "text": "The child draws a yellow flower.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "លឿង",
-            "gloss": "yellow"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌លឿង។",
-        "text": "I like the color yellow.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
+            "word": "ទុំ",
+            "gloss": "ripe"
           },
           {
             "word": "ពណ៌",
@@ -3016,6 +3140,58 @@
           {
             "word": "លឿង",
             "gloss": "yellow"
+          }
+        ]
+      },
+      {
+        "target": "ពាក់អាវលឿងទៅភ្ញៀវ។",
+        "text": "Wear a yellow shirt to the party.",
+        "words": [
+          {
+            "word": "ពាក់",
+            "gloss": "wear"
+          },
+          {
+            "word": "អាវ",
+            "gloss": "shirt"
+          },
+          {
+            "word": "លឿង",
+            "gloss": "yellow"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "ភ្ញៀវ",
+            "gloss": "guest"
+          }
+        ]
+      },
+      {
+        "target": "ឡានក្រុងលឿងមកដល់ហើយ។",
+        "text": "The yellow bus has arrived.",
+        "words": [
+          {
+            "word": "ឡានក្រុង",
+            "gloss": "bus"
+          },
+          {
+            "word": "លឿង",
+            "gloss": "yellow"
+          },
+          {
+            "word": "មក",
+            "gloss": "come"
+          },
+          {
+            "word": "ដល់",
+            "gloss": "to"
+          },
+          {
+            "word": "ហើយ",
+            "gloss": "already"
           }
         ]
       }
@@ -3028,16 +3204,42 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះខ្មៅ។",
-        "text": "This shirt is black.",
+        "target": "ស្បែកជើងខ្មៅស្អាតណាស់។",
+        "text": "The black shoes are very neat.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
+            "word": "ស្បែកជើង",
+            "gloss": "shoes"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ខ្មៅ",
+            "gloss": "black"
+          },
+          {
+            "word": "ស្អាត",
+            "gloss": "clean"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very"
+          }
+        ]
+      },
+      {
+        "target": "ឆ្មាមានរោមខ្មៅ។",
+        "text": "The cat has black fur.",
+        "words": [
+          {
+            "word": "ឆ្មា",
+            "gloss": "cat"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have"
+          },
+          {
+            "word": "រោម",
+            "gloss": "feather"
           },
           {
             "word": "ខ្មៅ",
@@ -3046,42 +3248,20 @@
         ]
       },
       {
-        "target": "កូនគូរផ្កាខ្មៅ។",
-        "text": "The child draws a black flower.",
+        "target": "សរសេរដោយប៊ិចខ្មៅ។",
+        "text": "Write with a black pen.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "សរសេរ",
+            "gloss": "write"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ដោយ",
+            "gloss": "by; with"
           },
           {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "ខ្មៅ",
-            "gloss": "black"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ខ្មៅ។",
-        "text": "I like the color black.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
-          },
-          {
-            "word": "ពណ៌",
-            "gloss": "color"
+            "word": "ប៊ិច",
+            "gloss": "pen"
           },
           {
             "word": "ខ្មៅ",
@@ -3098,64 +3278,80 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះស។",
-        "text": "This shirt is white.",
+        "target": "ពាក់អាវសទៅមន្ទីរពេទ្យ។",
+        "text": "Wear a white shirt to the hospital.",
         "words": [
+          {
+            "word": "ពាក់",
+            "gloss": "wear"
+          },
           {
             "word": "អាវ",
             "gloss": "shirt"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
             "word": "ស",
             "gloss": "white"
+          },
+          {
+            "word": "ទៅ",
+            "gloss": "go"
+          },
+          {
+            "word": "មន្ទីរពេទ្យ",
+            "gloss": "hospital"
           }
         ]
       },
       {
-        "target": "កូនគូរផ្កាស។",
-        "text": "The child draws a white flower.",
+        "target": "ធ្មេញគាត់សនិងស្អាត។",
+        "text": "His teeth are white and clean.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "ធ្មេញ",
+            "gloss": "tooth"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
+            "word": "គាត់",
+            "gloss": "he; she"
           },
           {
             "word": "ស",
             "gloss": "white"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ស្អាត",
+            "gloss": "clean"
           }
         ]
       },
       {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ស។",
-        "text": "I like the color white.",
+        "target": "ពពកសនៅលើមេឃ។",
+        "text": "There are white clouds in the sky.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
-          },
-          {
-            "word": "ពណ៌",
-            "gloss": "color"
+            "word": "ពពក",
+            "gloss": "cloud"
           },
           {
             "word": "ស",
             "gloss": "white"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on"
+          },
+          {
+            "word": "មេឃ",
+            "gloss": "sky"
           }
         ]
       }
@@ -3168,16 +3364,38 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះប្រផេះ។",
-        "text": "This shirt is gray.",
+        "target": "អាវធំប្រផេះក្តៅល្មម។",
+        "text": "The gray jacket is nicely warm.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
+            "word": "អាវធំ",
+            "gloss": "jacket"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ប្រផេះ",
+            "gloss": "gray"
+          },
+          {
+            "word": "ក្តៅ",
+            "gloss": "hot"
+          },
+          {
+            "word": "ល្មម",
+            "gloss": "moderate"
+          }
+        ]
+      },
+      {
+        "target": "ថ្ងៃនេះមេឃប្រផេះ។",
+        "text": "The sky is gray today.",
+        "words": [
+          {
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today"
+          },
+          {
+            "word": "មេឃ",
+            "gloss": "sky"
           },
           {
             "word": "ប្រផេះ",
@@ -3186,46 +3404,28 @@
         ]
       },
       {
-        "target": "កូនគូរផ្កាប្រផេះ។",
-        "text": "The child draws a gray flower.",
+        "target": "ឆ្កែប្រផេះដេកក្រោមតុ។",
+        "text": "The gray dog sleeps under the table.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
+            "word": "ឆ្កែ",
+            "gloss": "dog"
           },
           {
             "word": "ប្រផេះ",
             "gloss": "gray"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ប្រផេះ។",
-        "text": "I like the color gray.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
           },
           {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
+            "word": "ដេក",
+            "gloss": "sleep"
           },
           {
-            "word": "ពណ៌",
-            "gloss": "color"
+            "word": "ក្រោម",
+            "gloss": "under"
           },
           {
-            "word": "ប្រផេះ",
-            "gloss": "gray"
+            "word": "តុ",
+            "gloss": "table"
           }
         ]
       }
@@ -3238,52 +3438,12 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះផ្កាឈូក។",
-        "text": "This shirt is pink.",
+        "target": "ប្អូនស្រីចូលចិត្តពណ៌ផ្កាឈូក។",
+        "text": "My younger sister likes pink.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ផ្កាឈូក",
-            "gloss": "pink"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរផ្កាផ្កាឈូក។",
-        "text": "The child draws a pink flower.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "ផ្កាឈូក",
-            "gloss": "pink"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ផ្កាឈូក។",
-        "text": "I like the color pink.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ប្អូនស្រី",
+            "gloss": "younger sister"
           },
           {
             "word": "ចូលចិត្ត",
@@ -3296,6 +3456,54 @@
           {
             "word": "ផ្កាឈូក",
             "gloss": "pink"
+          }
+        ]
+      },
+      {
+        "target": "ផ្កានេះពណ៌ផ្កាឈូក។",
+        "text": "This flower is pink.",
+        "words": [
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
+          },
+          {
+            "word": "នេះ",
+            "gloss": "this"
+          },
+          {
+            "word": "ពណ៌",
+            "gloss": "color"
+          },
+          {
+            "word": "ផ្កាឈូក",
+            "gloss": "pink"
+          }
+        ]
+      },
+      {
+        "target": "សំពត់ផ្កាឈូកនៅក្នុងទូ។",
+        "text": "The pink skirt is in the cabinet.",
+        "words": [
+          {
+            "word": "សំពត់",
+            "gloss": "skirt"
+          },
+          {
+            "word": "ផ្កាឈូក",
+            "gloss": "pink"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in"
+          },
+          {
+            "word": "ទូ",
+            "gloss": "cabinet"
           }
         ]
       }
@@ -3308,56 +3516,34 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះត្នោត។",
-        "text": "This shirt is brown.",
+        "target": "ស្បែកជើងត្នោតថ្មី។",
+        "text": "The brown shoes are new.",
         "words": [
           {
-            "word": "អាវ",
-            "gloss": "shirt"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ស្បែកជើង",
+            "gloss": "shoes"
           },
           {
             "word": "ត្នោត",
             "gloss": "brown"
+          },
+          {
+            "word": "ថ្មី",
+            "gloss": "new"
           }
         ]
       },
       {
-        "target": "កូនគូរផ្កាត្នោត។",
-        "text": "The child draws a brown flower.",
+        "target": "សក់គាត់ពណ៌ត្នោត។",
+        "text": "Her hair is brown.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "សក់",
+            "gloss": "hair"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
-          },
-          {
-            "word": "ត្នោត",
-            "gloss": "brown"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ត្នោត។",
-        "text": "I like the color brown.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
+            "word": "គាត់",
+            "gloss": "he; she"
           },
           {
             "word": "ពណ៌",
@@ -3366,6 +3552,32 @@
           {
             "word": "ត្នោត",
             "gloss": "brown"
+          }
+        ]
+      },
+      {
+        "target": "ប្រអប់ត្នោតនៅក្រោមគ្រែ។",
+        "text": "The brown box is under the bed.",
+        "words": [
+          {
+            "word": "ប្រអប់",
+            "gloss": "box"
+          },
+          {
+            "word": "ត្នោត",
+            "gloss": "brown"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at"
+          },
+          {
+            "word": "ក្រោម",
+            "gloss": "under"
+          },
+          {
+            "word": "គ្រែ",
+            "gloss": "bed"
           }
         ]
       }
@@ -3378,7 +3590,7 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "អាវនេះទឹកក្រូច។",
+        "target": "អាវនេះពណ៌ទឹកក្រូច។",
         "text": "This shirt is orange.",
         "words": [
           {
@@ -3390,26 +3602,8 @@
             "gloss": "this"
           },
           {
-            "word": "ទឹកក្រូច",
-            "gloss": "orange color"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរផ្កាទឹកក្រូច។",
-        "text": "The child draws a orange flower.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ផ្កា",
-            "gloss": "flower"
+            "word": "ពណ៌",
+            "gloss": "color"
           },
           {
             "word": "ទឹកក្រូច",
@@ -3418,16 +3612,12 @@
         ]
       },
       {
-        "target": "ខ្ញុំចូលចិត្តពណ៌ទឹកក្រូច។",
-        "text": "I like the color orange.",
+        "target": "ឆ័ត្រពណ៌ទឹកក្រូចងាយឃើញ។",
+        "text": "An orange umbrella is easy to see.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ចូលចិត្ត",
-            "gloss": "like"
+            "word": "ឆ័ត្រ",
+            "gloss": "umbrella"
           },
           {
             "word": "ពណ៌",
@@ -3436,6 +3626,44 @@
           {
             "word": "ទឹកក្រូច",
             "gloss": "orange color"
+          },
+          {
+            "word": "ងាយ",
+            "gloss": "easy"
+          },
+          {
+            "word": "ឃើញ",
+            "gloss": "see"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំជ្រើសពណ៌ទឹកក្រូចសម្រាប់ផ្កា។",
+        "text": "I choose orange for the flowers.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ជ្រើស",
+            "gloss": "choose"
+          },
+          {
+            "word": "ពណ៌",
+            "gloss": "color"
+          },
+          {
+            "word": "ទឹកក្រូច",
+            "gloss": "orange color"
+          },
+          {
+            "word": "សម្រាប់",
+            "gloss": "for"
+          },
+          {
+            "word": "ផ្កា",
+            "gloss": "flower"
           }
         ]
       }
@@ -3448,26 +3676,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងក្បាល។",
-        "text": "I wash my head.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ក្បាល",
-            "gloss": "head"
-          }
-        ]
-      },
-      {
-        "target": "ក្បាលខ្ញុំឈឺ។",
-        "text": "My head hurts.",
+        "target": "ក្បាលខ្ញុំឈឺពេលព្រឹក។",
+        "text": "My head hurts in the morning.",
         "words": [
           {
             "word": "ក្បាល",
@@ -3475,29 +3685,71 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt"
+          },
+          {
+            "word": "ពេលព្រឹក",
+            "gloss": "in the morning"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលក្បាល។",
-        "text": "The doctor looks at the head.",
+        "target": "ពាក់មួកដើម្បីការពារក្បាល។",
+        "text": "Wear a hat to protect your head.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ពាក់",
+            "gloss": "wear"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "មួក",
+            "gloss": "hat"
+          },
+          {
+            "word": "ដើម្បី",
+            "gloss": "in order to"
+          },
+          {
+            "word": "ការពារ",
+            "gloss": "protect"
           },
           {
             "word": "ក្បាល",
             "gloss": "head"
+          }
+        ]
+      },
+      {
+        "target": "ក្មេងងក់ក្បាលថាបាទ។",
+        "text": "The child nods his head to say yes.",
+        "words": [
+          {
+            "word": "ក្មេង",
+            "gloss": "child"
+          },
+          {
+            "word": "ងក់",
+            "gloss": "nod"
+          },
+          {
+            "word": "ក្បាល",
+            "gloss": "head"
+          },
+          {
+            "word": "ថ",
+            "gloss": "ថ"
+          },
+          {
+            "word": "ា",
+            "gloss": "ា"
+          },
+          {
+            "word": "បាទ",
+            "gloss": "yes"
           }
         ]
       }
@@ -3510,20 +3762,24 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ម៉ែលាងសក់កូន។",
-        "text": "Mother washes the child’s hair.",
+        "target": "ម៉ែបាញ់សក់ឱ្យកូន។",
+        "text": "Mother ties the child's hair.",
         "words": [
           {
             "word": "ម៉ែ",
             "gloss": "mother"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "បាញ់",
+            "gloss": "tie"
           },
           {
             "word": "សក់",
             "gloss": "hair"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "give; to"
           },
           {
             "word": "កូន",
@@ -3532,8 +3788,8 @@
         ]
       },
       {
-        "target": "សក់គាត់ខ្មៅ។",
-        "text": "Her hair is black.",
+        "target": "សក់គាត់វែងនិងខ្មៅ។",
+        "text": "Her hair is long and black.",
         "words": [
           {
             "word": "សក់",
@@ -3541,7 +3797,15 @@
           },
           {
             "word": "គាត់",
-            "gloss": "he"
+            "gloss": "he; she"
+          },
+          {
+            "word": "វែង",
+            "gloss": "long"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
           },
           {
             "word": "ខ្មៅ",
@@ -3550,12 +3814,20 @@
         ]
       },
       {
-        "target": "ខ្ញុំកាត់សក់។",
-        "text": "I cut my hair.",
+        "target": "ខ្ញុំឱ្យគេកាត់សក់រាល់ខែ។",
+        "text": "I have someone cut my hair every month.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
+          },
+          {
+            "word": "ឱ្យ",
+            "gloss": "give; to"
+          },
+          {
+            "word": "គេ",
+            "gloss": "someone; they"
           },
           {
             "word": "កាត់",
@@ -3564,6 +3836,10 @@
           {
             "word": "សក់",
             "gloss": "hair"
+          },
+          {
+            "word": "រាល់ខែ",
+            "gloss": "every month"
           }
         ]
       }
@@ -3576,26 +3852,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងភ្នែក។",
-        "text": "I wash my eye.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ភ្នែក",
-            "gloss": "eye"
-          }
-        ]
-      },
-      {
-        "target": "ភ្នែកខ្ញុំឈឺ។",
-        "text": "My eye hurts.",
+        "target": "ភ្នែកខ្ញុំឈឺពេលអានយូរ។",
+        "text": "My eyes hurt when I read for a long time.",
         "words": [
           {
             "word": "ភ្នែក",
@@ -3603,29 +3861,63 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "time; when"
+          },
+          {
+            "word": "អាន",
+            "gloss": "read"
+          },
+          {
+            "word": "យូរ",
+            "gloss": "long time"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលភ្នែក។",
-        "text": "The doctor looks at the eye.",
+        "target": "បិទភ្នែកមុនគេង។",
+        "text": "Close your eyes before sleep.",
+        "words": [
+          {
+            "word": "បិទ",
+            "gloss": "close"
+          },
+          {
+            "word": "ភ្នែក",
+            "gloss": "eye"
+          },
+          {
+            "word": "មុនគេង",
+            "gloss": "before sleep"
+          }
+        ]
+      },
+      {
+        "target": "គ្រូពេទ្យពិនិត្យភ្នែកខ្ញុំ។",
+        "text": "The doctor checks my eyes.",
         "words": [
           {
             "word": "គ្រូពេទ្យ",
             "gloss": "doctor"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ពិនិត្យ",
+            "gloss": "check"
           },
           {
             "word": "ភ្នែក",
             "gloss": "eye"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
           }
         ]
       }
@@ -3638,13 +3930,31 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងត្រចៀក។",
-        "text": "I wash my ear.",
+        "target": "ត្រចៀកខ្ញុំឈឺពេលមានគ្រុន។",
+        "text": "My ear hurts when I have a fever.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ត្រចៀក",
+            "gloss": "ear"
           },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "I"
+          },
+          {
+            "word": "ឈឺ",
+            "gloss": "hurt"
+          },
+          {
+            "word": "ពេលមានគ្រុន",
+            "gloss": "when having fever"
+          }
+        ]
+      },
+      {
+        "target": "លាងត្រចៀកដោយប្រយ័ត្ន។",
+        "text": "Wash your ears carefully.",
+        "words": [
           {
             "word": "លាង",
             "gloss": "wash"
@@ -3652,42 +3962,36 @@
           {
             "word": "ត្រចៀក",
             "gloss": "ear"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by; with"
+          },
+          {
+            "word": "ប្រយ័ត្ន",
+            "gloss": "careful"
           }
         ]
       },
       {
-        "target": "ត្រចៀកខ្ញុំឈឺ។",
-        "text": "My ear hurts.",
+        "target": "ស្តាប់ដោយត្រចៀកទាំងពីរ។",
+        "text": "Listen with both ears.",
         "words": [
+          {
+            "word": "ស្តាប់",
+            "gloss": "listen"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by; with"
+          },
           {
             "word": "ត្រចៀក",
             "gloss": "ear"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលត្រចៀក។",
-        "text": "The doctor looks at the ear.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ត្រចៀក",
-            "gloss": "ear"
+            "word": "ទាំងពីរ",
+            "gloss": "both"
           }
         ]
       }
@@ -3700,26 +4004,8 @@
     "source": "Codex-authored Khmer A1",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងច្រមុះ។",
-        "text": "I wash my nose.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ច្រមុះ",
-            "gloss": "nose"
-          }
-        ]
-      },
-      {
-        "target": "ច្រមុះខ្ញុំឈឺ។",
-        "text": "My nose hurts.",
+        "target": "ច្រមុះខ្ញុំស្ទះពេលផ្តាសាយ។",
+        "text": "My nose is blocked when I have a cold.",
         "words": [
           {
             "word": "ច្រមុះ",
@@ -3727,29 +4013,59 @@
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "I"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "ស្ទះ",
+            "gloss": "blocked"
+          },
+          {
+            "word": "ពេលផ្តាសាយ",
+            "gloss": "when having a cold"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលច្រមុះ។",
-        "text": "The doctor looks at the nose.",
+        "target": "ក្មេងសង្កត់ច្រមុះពេលមានក្លិនខ្លាំង។",
+        "text": "The child pinches his nose when there is a strong smell.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ក្មេង",
+            "gloss": "child"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "សង្កត់",
+            "gloss": "press"
           },
           {
             "word": "ច្រមុះ",
             "gloss": "nose"
+          },
+          {
+            "word": "ពេលមានក្លិនខ្លាំង",
+            "gloss": "when strong smell"
+          }
+        ]
+      },
+      {
+        "target": "លាងមុខនិងច្រមុះរាល់ព្រឹក។",
+        "text": "Wash your face and nose every morning.",
+        "words": [
+          {
+            "word": "លាងមុខ",
+            "gloss": "wash face"
+          },
+          {
+            "word": "និង",
+            "gloss": "and"
+          },
+          {
+            "word": "ច្រមុះ",
+            "gloss": "nose"
+          },
+          {
+            "word": "រាល់ព្រឹក",
+            "gloss": "every morning"
           }
         ]
       }
