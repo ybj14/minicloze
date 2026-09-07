@@ -1,4 +1,4 @@
-const CACHE_NAME = "minicloze-static-pwa-v27";
+const CACHE_NAME = "minicloze-static-pwa-v28";
 const APP_SHELL = [
   "/",
   "/index.html",

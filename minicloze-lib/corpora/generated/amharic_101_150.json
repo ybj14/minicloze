@@ -3,81 +3,82 @@
     "vocab_index": 101,
     "word": "ማየት",
     "gloss": "see",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ ማየት ይፈልጋል።",
-        "text": "The teacher wants to see.",
+        "target": "ከመስኮት ውጭ ተራራ ማየት እችላለሁ።",
+        "text": "From the window I can see a mountain.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ከመስኮት",
+            "gloss": "from the window"
+          },
+          {
+            "word": "ውጭ",
+            "gloss": "outside"
+          },
+          {
+            "word": "ተራራ",
+            "gloss": "mountain"
           },
           {
             "word": "ማየት",
             "gloss": "see",
-            "transliteration": "mayet",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "እችላለሁ",
+            "gloss": "I can"
           }
         ]
       },
       {
-        "target": "ጓደኛ ማየት ይችላል።",
-        "text": "A friend can see.",
+        "target": "ዶክተሩ ዓይኔን ማየት ፈለገ።",
+        "text": "The doctor wanted to see my eye.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ዶክተሩ",
+            "gloss": "the doctor"
+          },
+          {
+            "word": "ዓይኔን",
+            "gloss": "my eye"
           },
           {
             "word": "ማየት",
             "gloss": "see",
-            "transliteration": "mayet",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "ፈለገ",
+            "gloss": "wanted"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ ማየት ይማራል።",
-        "text": "At school, the child learns to see.",
+        "target": "ፊልም ማየት ዛሬ ማታ እንሂድ።",
+        "text": "Let's go see a film tonight.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ፊልም",
+            "gloss": "film"
           },
           {
             "word": "ማየት",
             "gloss": "see",
-            "transliteration": "mayet",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ዛሬ",
+            "gloss": "today"
+          },
+          {
+            "word": "ማታ",
+            "gloss": "evening"
+          },
+          {
+            "word": "እንሂድ",
+            "gloss": "let's go"
           }
         ]
       }
@@ -87,81 +88,70 @@
     "vocab_index": 102,
     "word": "መስማት",
     "gloss": "hear",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መስማት ይማራል።",
-        "text": "The child learns to hear.",
+        "target": "ሙዚቃ መስማት እወዳለሁ።",
+        "text": "I love to hear music.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ሙዚቃ",
+            "gloss": "music"
           },
           {
             "word": "መስማት",
             "gloss": "hear",
-            "transliteration": "mesmat",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "እወዳለሁ",
+            "gloss": "I love"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መስማት እሞክራለሁ።",
-        "text": "Now I try to hear.",
+        "target": "ድምፁን በግልጽ መስማት አልቻልኩም።",
+        "text": "I could not hear his voice clearly.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
+            "word": "ድምፁን",
+            "gloss": "his voice"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በግልጽ",
+            "gloss": "clearly"
           },
           {
             "word": "መስማት",
             "gloss": "hear",
-            "transliteration": "mesmat",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "አልቻልኩም",
+            "gloss": "I could not"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መስማት እንችላለን።",
-        "text": "Tomorrow we can hear.",
+        "target": "ዜና መስማት በራዲዮ እችላለሁ።",
+        "text": "I can hear the news on the radio.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ዜና",
+            "gloss": "news"
           },
           {
             "word": "መስማት",
             "gloss": "hear",
-            "transliteration": "mesmat",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "በራዲዮ",
+            "gloss": "on the radio"
+          },
+          {
+            "word": "እችላለሁ",
+            "gloss": "I can"
           }
         ]
       }
@@ -171,101 +161,70 @@
     "vocab_index": 103,
     "word": "ማወቅ",
     "gloss": "know",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ ማወቅ እንፈልጋለን።",
-        "text": "After the lesson, we want to know.",
+        "target": "እውነቱን ማወቅ እፈልጋለሁ።",
+        "text": "I want to know the truth.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "እውነቱን",
+            "gloss": "the truth"
           },
           {
             "word": "ማወቅ",
             "gloss": "know",
-            "transliteration": "maweq",
-            "note": "target"
-          },
-          {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
-          }
-        ]
-      },
-      {
-        "target": "ቤት ውስጥ እኔ ማወቅ እሞክራለሁ።",
-        "text": "At home, I try to know.",
-        "words": [
-          {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ማወቅ",
-            "gloss": "know",
-            "transliteration": "maweq",
-            "note": "target"
-          },
-          {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ በፊት እኔ ማወቅ እፈልጋለሁ።",
-        "text": "Before the market, I want to know.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ማወቅ",
-            "gloss": "know",
-            "transliteration": "maweq",
             "note": "target"
           },
           {
             "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "gloss": "I want"
+          }
+        ]
+      },
+      {
+        "target": "አድራሻውን ማወቅ አስፈላጊ ነው።",
+        "text": "It is important to know the address.",
+        "words": [
+          {
+            "word": "አድራሻውን",
+            "gloss": "the address"
+          },
+          {
+            "word": "ማወቅ",
+            "gloss": "know",
+            "note": "target"
+          },
+          {
+            "word": "አስፈላጊ",
+            "gloss": "important"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ቋንቋ ማወቅ ሥራ ያቀልልሃል።",
+        "text": "To know a language makes work easier.",
+        "words": [
+          {
+            "word": "ቋንቋ",
+            "gloss": "language"
+          },
+          {
+            "word": "ማወቅ",
+            "gloss": "know",
+            "note": "target"
+          },
+          {
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "ያቀልልሃል",
+            "gloss": "makes easier for you"
           }
         ]
       }
@@ -275,76 +234,82 @@
     "vocab_index": 104,
     "word": "ማሰብ",
     "gloss": "think",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ማሰብ እፈልጋለሁ።",
-        "text": "I want to think.",
+        "target": "በጥንቃቄ ማሰብ ከመናገር በፊት ጥሩ ነው።",
+        "text": "It is good to think carefully before speaking.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በጥንቃቄ",
+            "gloss": "carefully"
           },
           {
             "word": "ማሰብ",
             "gloss": "think",
-            "transliteration": "maseb",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ከመናገር",
+            "gloss": "before speaking"
+          },
+          {
+            "word": "በፊት",
+            "gloss": "before"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አንተ ማሰብ ትችላለህ?",
-        "text": "Can you think?",
+        "target": "ስለ ነገ ማሰብ ጀምሬአለሁ።",
+        "text": "I have started to think about tomorrow.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ስለ",
+            "gloss": "about"
+          },
+          {
+            "word": "ነገ",
+            "gloss": "tomorrow"
           },
           {
             "word": "ማሰብ",
             "gloss": "think",
-            "transliteration": "maseb",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "ጀምሬአለሁ",
+            "gloss": "I have started"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ ማሰብ እንፈልጋለን።",
-        "text": "Today we want to think.",
+        "target": "አስተማሪው ተማሪዎቹን ማሰብ አስተማራቸው።",
+        "text": "The teacher taught the students to think.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "አስተማሪው",
+            "gloss": "the teacher"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ተማሪዎቹን",
+            "gloss": "the students"
           },
           {
             "word": "ማሰብ",
             "gloss": "think",
-            "transliteration": "maseb",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "አስተማራቸው",
+            "gloss": "taught them"
           }
         ]
       }
@@ -354,81 +319,82 @@
     "vocab_index": 105,
     "word": "ማሽተት",
     "gloss": "smell",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ ማሽተት ይፈልጋል።",
-        "text": "The teacher wants to smell.",
+        "target": "አበባውን ማሽተት እወዳለሁ።",
+        "text": "I love to smell the flower.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "አበባውን",
+            "gloss": "the flower"
           },
           {
             "word": "ማሽተት",
             "gloss": "smell",
-            "transliteration": "mashtet",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "እወዳለሁ",
+            "gloss": "I love"
           }
         ]
       },
       {
-        "target": "ጓደኛ ማሽተት ይችላል።",
-        "text": "A friend can smell.",
+        "target": "እሳት ማሽተት አደጋ ሊሆን ይችላል።",
+        "text": "To smell smoke can mean danger.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "እሳት",
+            "gloss": "fire"
           },
           {
             "word": "ማሽተት",
             "gloss": "smell",
-            "transliteration": "mashtet",
             "note": "target"
+          },
+          {
+            "word": "አደጋ",
+            "gloss": "danger"
+          },
+          {
+            "word": "ሊሆን",
+            "gloss": "can be"
           },
           {
             "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "gloss": "is able"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ ማሽተት ይማራል።",
-        "text": "At school, the child learns to smell.",
+        "target": "ምግቡን ከመብላት በፊት ማሽተት ጠቃሚ ነው።",
+        "text": "It is useful to smell the food before eating.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
+            "word": "ምግቡን",
+            "gloss": "the food"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "ከመብላት",
+            "gloss": "before eating"
           },
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በፊት",
+            "gloss": "before"
           },
           {
             "word": "ማሽተት",
             "gloss": "smell",
-            "transliteration": "mashtet",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ጠቃሚ",
+            "gloss": "useful"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -438,76 +404,70 @@
     "vocab_index": 106,
     "word": "መፍራት",
     "gloss": "fear",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መፍራት አይፈልግም።",
-        "text": "The child does not want to fear.",
+        "target": "ጨለማ መፍራት የተለመደ ነው።",
+        "text": "To fear the dark is common.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ጨለማ",
+            "gloss": "dark"
           },
           {
             "word": "መፍራት",
             "gloss": "fear",
-            "transliteration": "mefrat",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "የተለመደ",
+            "gloss": "common"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ሐኪም መፍራት አይፈልግም።",
-        "text": "The doctor does not want to fear.",
+        "target": "ልጁ ውሻ መፍራት ጀመረ።",
+        "text": "The child began to fear dogs.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ልጁ",
+            "gloss": "the child"
+          },
+          {
+            "word": "ውሻ",
+            "gloss": "dog"
           },
           {
             "word": "መፍራት",
             "gloss": "fear",
-            "transliteration": "mefrat",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ጀመረ",
+            "gloss": "began"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መፍራት አንፈልግም።",
-        "text": "Today we do not want to fear.",
+        "target": "እባብ መፍራት አያስፈልግም።",
+        "text": "There is no need to fear snakes.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "እባብ",
+            "gloss": "snake"
           },
           {
             "word": "መፍራት",
             "gloss": "fear",
-            "transliteration": "mefrat",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "አያስፈልግም",
+            "gloss": "is not necessary"
           }
         ]
       }
@@ -517,101 +477,74 @@
     "vocab_index": 107,
     "word": "መተኛት",
     "gloss": "sleep",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መተኛት እንፈልጋለን።",
-        "text": "After the lesson, we want to sleep.",
+        "target": "በጊዜ መተኛት ጤናማ ነው።",
+        "text": "To sleep on time is healthy.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
+            "word": "በጊዜ",
+            "gloss": "on time"
+          },
+          {
+            "word": "መተኛት",
+            "gloss": "sleep",
+            "note": "target"
+          },
+          {
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ህጻኑ መተኛት ፈልጎ አለቀሰ።",
+        "text": "The baby cried wanting to sleep.",
+        "words": [
+          {
+            "word": "ህጻኑ",
+            "gloss": "the baby"
+          },
+          {
+            "word": "መተኛት",
+            "gloss": "sleep",
+            "note": "target"
+          },
+          {
+            "word": "ፈልጎ",
+            "gloss": "wanting"
+          },
+          {
+            "word": "አለቀሰ",
+            "gloss": "cried"
+          }
+        ]
+      },
+      {
+        "target": "ከጉዞ በኋላ መተኛት እፈልጋለሁ።",
+        "text": "After the trip I want to sleep.",
+        "words": [
+          {
+            "word": "ከጉዞ",
+            "gloss": "after the trip"
           },
           {
             "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "gloss": "after"
           },
           {
             "word": "መተኛት",
             "gloss": "sleep",
-            "transliteration": "metenyat",
-            "note": "target"
-          },
-          {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
-          }
-        ]
-      },
-      {
-        "target": "ቤት ውስጥ እኔ መተኛት እሞክራለሁ።",
-        "text": "At home, I try to sleep.",
-        "words": [
-          {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "መተኛት",
-            "gloss": "sleep",
-            "transliteration": "metenyat",
-            "note": "target"
-          },
-          {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ በፊት እኔ መተኛት እፈልጋለሁ።",
-        "text": "Before the market, I want to sleep.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "መተኛት",
-            "gloss": "sleep",
-            "transliteration": "metenyat",
             "note": "target"
           },
           {
             "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "gloss": "I want"
           }
         ]
       }
@@ -621,76 +554,78 @@
     "vocab_index": 108,
     "word": "መኖር",
     "gloss": "live",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መኖር እፈልጋለሁ።",
-        "text": "I want to live.",
+        "target": "በከተማ መኖር ውድ ነው።",
+        "text": "To live in the city is expensive.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በከተማ",
+            "gloss": "in the city"
           },
           {
             "word": "መኖር",
             "gloss": "live",
-            "transliteration": "menor",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ውድ",
+            "gloss": "expensive"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አንተ መኖር ትችላለህ?",
-        "text": "Can you live?",
+        "target": "ከቤተሰብ ጋር መኖር ደስ ይላል።",
+        "text": "It is joyful to live with family.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ከቤተሰብ",
+            "gloss": "with family"
+          },
+          {
+            "word": "ጋር",
+            "gloss": "with"
           },
           {
             "word": "መኖር",
             "gloss": "live",
-            "transliteration": "menor",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "ደስ",
+            "gloss": "joy"
+          },
+          {
+            "word": "ይላል",
+            "gloss": "feels"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መኖር እንፈልጋለን።",
-        "text": "Today we want to live.",
+        "target": "በሰላም መኖር ሁሉም ይፈልጋል።",
+        "text": "Everyone wants to live in peace.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በሰላም",
+            "gloss": "in peace"
           },
           {
             "word": "መኖር",
             "gloss": "live",
-            "transliteration": "menor",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ሁሉም",
+            "gloss": "everyone"
+          },
+          {
+            "word": "ይፈልጋል",
+            "gloss": "wants"
           }
         ]
       }
@@ -700,81 +635,78 @@
     "vocab_index": 109,
     "word": "መሞት",
     "gloss": "die",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ መሞት አይፈልግም።",
-        "text": "A friend does not want to die.",
+        "target": "ያለ ውሃ ተክል መሞት ይችላል።",
+        "text": "Without water a plant can die.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ያለ",
+            "gloss": "without"
+          },
+          {
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "ተክል",
+            "gloss": "plant"
           },
           {
             "word": "መሞት",
             "gloss": "die",
-            "transliteration": "memot",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ይችላል",
+            "gloss": "can"
           }
         ]
       },
       {
-        "target": "አስተማሪ መሞት አይፈልግም።",
-        "text": "The teacher does not want to die.",
+        "target": "ሰዎች መሞት የተፈጥሮ ናት።",
+        "text": "For people to die is natural.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ሰዎች",
+            "gloss": "people"
           },
           {
             "word": "መሞት",
             "gloss": "die",
-            "transliteration": "memot",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "የተፈጥሮ",
+            "gloss": "natural"
+          },
+          {
+            "word": "ናት",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኛ መሞት አንፈልግም።",
-        "text": "At home, we do not want to die.",
+        "target": "ከበሽታ መሞት አሳዛኝ ነው።",
+        "text": "To die from disease is sad.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ከበሽታ",
+            "gloss": "from disease"
           },
           {
             "word": "መሞት",
             "gloss": "die",
-            "transliteration": "memot",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "አሳዛኝ",
+            "gloss": "sad"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -784,76 +716,82 @@
     "vocab_index": 110,
     "word": "መግደል",
     "gloss": "kill",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መግደል አይፈልግም።",
-        "text": "The child does not want to kill.",
+        "target": "ነፍሳት መግደል አስፈላጊ ሊሆን ይችላል።",
+        "text": "It can be necessary to kill insects.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ነፍሳት",
+            "gloss": "insects"
           },
           {
             "word": "መግደል",
             "gloss": "kill",
-            "transliteration": "megdel",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "አስፈላጊ",
+            "gloss": "necessary"
+          },
+          {
+            "word": "ሊሆን",
+            "gloss": "can be"
+          },
+          {
+            "word": "ይችላል",
+            "gloss": "is able"
           }
         ]
       },
       {
-        "target": "አስተማሪ መግደል አይፈቅድም።",
-        "text": "The teacher does not allow anyone to kill.",
+        "target": "ሕግ ሰው መግደል ይከለክላል።",
+        "text": "The law forbids killing a person.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ሕግ",
+            "gloss": "law"
+          },
+          {
+            "word": "ሰው",
+            "gloss": "person"
           },
           {
             "word": "መግደል",
             "gloss": "kill",
-            "transliteration": "megdel",
             "note": "target"
           },
           {
-            "word": "አይፈቅድም",
-            "gloss": "does not allow",
-            "transliteration": "eyfeqdm"
+            "word": "ይከለክላል",
+            "gloss": "forbids"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መግደል አንፈልግም።",
-        "text": "Today we do not want to kill.",
+        "target": "አደን ላይ እንስሳ መግደል ይፈቀዳል።",
+        "text": "On a hunt killing an animal is allowed.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "አደን",
+            "gloss": "hunt"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ላይ",
+            "gloss": "on"
+          },
+          {
+            "word": "እንስሳ",
+            "gloss": "animal"
           },
           {
             "word": "መግደል",
             "gloss": "kill",
-            "transliteration": "megdel",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "ይፈቀዳል",
+            "gloss": "is allowed"
           }
         ]
       }
@@ -863,81 +801,66 @@
     "vocab_index": 111,
     "word": "መታገል",
     "gloss": "fight",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም መታገል አይፈልግም።",
-        "text": "The doctor does not want to fight.",
+        "target": "ለፍትሕ መታገል ጥሩ ነው።",
+        "text": "It is good to fight for justice.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ለፍትሕ",
+            "gloss": "for justice"
           },
           {
             "word": "መታገል",
             "gloss": "fight",
-            "transliteration": "metagel",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ መታገል አይፈቀድም።",
-        "text": "It is not allowed to fight at home.",
+        "target": "ልጆቹ መታገል አቁመዋል።",
+        "text": "The children have stopped fighting.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "ልጆቹ",
+            "gloss": "the children"
           },
           {
             "word": "መታገል",
             "gloss": "fight",
-            "transliteration": "metagel",
             "note": "target"
           },
           {
-            "word": "አይፈቀድም",
-            "gloss": "is not allowed",
-            "transliteration": "eyfeqedm"
+            "word": "አቁመዋል",
+            "gloss": "have stopped"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ መታገል አይፈቀድም።",
-        "text": "It is not allowed to fight at school.",
+        "target": "በሽታን መታገል እንችላለን።",
+        "text": "We can fight disease.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "በሽታን",
+            "gloss": "disease"
           },
           {
             "word": "መታገል",
             "gloss": "fight",
-            "transliteration": "metagel",
             "note": "target"
           },
           {
-            "word": "አይፈቀድም",
-            "gloss": "is not allowed",
-            "transliteration": "eyfeqedm"
+            "word": "እንችላለን",
+            "gloss": "we can"
           }
         ]
       }
@@ -947,76 +870,86 @@
     "vocab_index": 112,
     "word": "ማደን",
     "gloss": "hunt",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ማደን አይፈልግም።",
-        "text": "The child does not want to hunt.",
+        "target": "በደን ውስጥ ማደን አደገኛ ነው።",
+        "text": "To hunt in the forest is dangerous.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በደን",
+            "gloss": "in the forest"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "ማደን",
             "gloss": "hunt",
-            "transliteration": "maden",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "አደገኛ",
+            "gloss": "dangerous"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ ማደን አይፈቅድም።",
-        "text": "The teacher does not allow anyone to hunt.",
+        "target": "አባቴ ከጥንት ማደን ያውቅ ነበር።",
+        "text": "My father used to know how to hunt.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "አባቴ",
+            "gloss": "my father"
+          },
+          {
+            "word": "ከጥንት",
+            "gloss": "from old times"
           },
           {
             "word": "ማደን",
             "gloss": "hunt",
-            "transliteration": "maden",
             "note": "target"
           },
           {
-            "word": "አይፈቅድም",
-            "gloss": "does not allow",
-            "transliteration": "eyfeqdm"
+            "word": "ያውቅ",
+            "gloss": "know"
+          },
+          {
+            "word": "ነበር",
+            "gloss": "used to"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ ማደን አንፈልግም።",
-        "text": "Today we do not want to hunt.",
+        "target": "ለምግብ ማደን አንዳንድ ቦታ ይደረጋል።",
+        "text": "Hunting for food is done in some places.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ለምግብ",
+            "gloss": "for food"
           },
           {
             "word": "ማደን",
             "gloss": "hunt",
-            "transliteration": "maden",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "አንዳንድ",
+            "gloss": "some"
+          },
+          {
+            "word": "ቦታ",
+            "gloss": "places"
+          },
+          {
+            "word": "ይደረጋል",
+            "gloss": "is done"
           }
         ]
       }
@@ -1026,81 +959,66 @@
     "vocab_index": 113,
     "word": "መምታት",
     "gloss": "hit",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም መምታት አይፈልግም።",
-        "text": "The doctor does not want to hit.",
+        "target": "ኳስ መምታት ተማርኩ።",
+        "text": "I learned to hit a ball.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ኳስ",
+            "gloss": "ball"
           },
           {
             "word": "መምታት",
             "gloss": "hit",
-            "transliteration": "memtat",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ተማርኩ",
+            "gloss": "I learned"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ መምታት አይፈቀድም።",
-        "text": "It is not allowed to hit at home.",
+        "target": "በርን በኃይል መምታት አያስፈልግም።",
+        "text": "There is no need to hit the door hard.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
+            "word": "በርን",
+            "gloss": "the door"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "በኃይል",
+            "gloss": "hard"
           },
           {
             "word": "መምታት",
             "gloss": "hit",
-            "transliteration": "memtat",
             "note": "target"
           },
           {
-            "word": "አይፈቀድም",
-            "gloss": "is not allowed",
-            "transliteration": "eyfeqedm"
+            "word": "አያስፈልግም",
+            "gloss": "is not necessary"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ መምታት አይፈቀድም።",
-        "text": "It is not allowed to hit at school.",
+        "target": "ከበሮ መምታት ይወዳል።",
+        "text": "He likes to hit the drum.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "ከበሮ",
+            "gloss": "drum"
           },
           {
             "word": "መምታት",
             "gloss": "hit",
-            "transliteration": "memtat",
             "note": "target"
           },
           {
-            "word": "አይፈቀድም",
-            "gloss": "is not allowed",
-            "transliteration": "eyfeqedm"
+            "word": "ይወዳል",
+            "gloss": "likes"
           }
         ]
       }
@@ -1110,76 +1028,86 @@
     "vocab_index": 114,
     "word": "መቁረጥ",
     "gloss": "cut",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መቁረጥ አይፈልግም።",
-        "text": "The child does not want to cut.",
+        "target": "እንጨት መቁረጥ ከባድ ሥራ ነው።",
+        "text": "Cutting wood is hard work.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "እንጨት",
+            "gloss": "wood"
           },
           {
             "word": "መቁረጥ",
             "gloss": "cut",
-            "transliteration": "mequreT",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ከባድ",
+            "gloss": "hard"
+          },
+          {
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ መቁረጥ አይፈቅድም።",
-        "text": "The teacher does not allow anyone to cut.",
+        "target": "ዳቦ መቁረጥ በቢላ ቀላል ነው።",
+        "text": "Cutting bread with a knife is easy.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ዳቦ",
+            "gloss": "bread"
           },
           {
             "word": "መቁረጥ",
             "gloss": "cut",
-            "transliteration": "mequreT",
             "note": "target"
           },
           {
-            "word": "አይፈቅድም",
-            "gloss": "does not allow",
-            "transliteration": "eyfeqdm"
+            "word": "በቢላ",
+            "gloss": "with a knife"
+          },
+          {
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መቁረጥ አንፈልግም።",
-        "text": "Today we do not want to cut.",
+        "target": "ጸጉር መቁረጥ ወደ ሳሎን ሄድኩ።",
+        "text": "I went to the salon to cut hair.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ጸጉር",
+            "gloss": "hair"
           },
           {
             "word": "መቁረጥ",
             "gloss": "cut",
-            "transliteration": "mequreT",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "ወደ",
+            "gloss": "to"
+          },
+          {
+            "word": "ሳሎን",
+            "gloss": "salon"
+          },
+          {
+            "word": "ሄድኩ",
+            "gloss": "I went"
           }
         ]
       }
@@ -1189,81 +1117,66 @@
     "vocab_index": 115,
     "word": "መነጣጠል",
     "gloss": "split",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም መነጣጠል አይፈልግም።",
-        "text": "The doctor does not want to split.",
+        "target": "እንጨቱን መነጣጠል አስፈለገ።",
+        "text": "It was necessary to split the wood.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "እንጨቱን",
+            "gloss": "the wood"
           },
           {
             "word": "መነጣጠል",
             "gloss": "split",
-            "transliteration": "meneTaTel",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "አስፈለገ",
+            "gloss": "was necessary"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ መነጣጠል አይፈቀድም።",
-        "text": "It is not allowed to split at home.",
+        "target": "ቡድኑን መነጣጠል አልፈለጉም።",
+        "text": "They did not want to split the group.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "ቡድኑን",
+            "gloss": "the group"
           },
           {
             "word": "መነጣጠል",
             "gloss": "split",
-            "transliteration": "meneTaTel",
             "note": "target"
           },
           {
-            "word": "አይፈቀድም",
-            "gloss": "is not allowed",
-            "transliteration": "eyfeqedm"
+            "word": "አልፈለጉም",
+            "gloss": "they did not want"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ መነጣጠል አይፈቀድም።",
-        "text": "It is not allowed to split at school.",
+        "target": "ሂሳቡን መነጣጠል ቀላል ነው።",
+        "text": "It is easy to split the bill.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "ሂሳቡን",
+            "gloss": "the bill"
           },
           {
             "word": "መነጣጠል",
             "gloss": "split",
-            "transliteration": "meneTaTel",
             "note": "target"
           },
           {
-            "word": "አይፈቀድም",
-            "gloss": "is not allowed",
-            "transliteration": "eyfeqedm"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1273,76 +1186,70 @@
     "vocab_index": 116,
     "word": "መውጋት",
     "gloss": "stab",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መውጋት አይፈልግም።",
-        "text": "The child does not want to stab.",
+        "target": "ስጋ መውጋት በሹካ ይደረጋል።",
+        "text": "Stabbing meat is done with a fork.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ስጋ",
+            "gloss": "meat"
           },
           {
             "word": "መውጋት",
             "gloss": "stab",
-            "transliteration": "mewgat",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "በሹካ",
+            "gloss": "with a fork"
+          },
+          {
+            "word": "ይደረጋል",
+            "gloss": "is done"
           }
         ]
       },
       {
-        "target": "አስተማሪ መውጋት አይፈቅድም።",
-        "text": "The teacher does not allow anyone to stab.",
+        "target": "መሬት መውጋት ለመትከል ያስፈልጋል።",
+        "text": "Stabbing the ground is needed for planting.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "መሬት",
+            "gloss": "ground"
           },
           {
             "word": "መውጋት",
             "gloss": "stab",
-            "transliteration": "mewgat",
             "note": "target"
           },
           {
-            "word": "አይፈቅድም",
-            "gloss": "does not allow",
-            "transliteration": "eyfeqdm"
+            "word": "ለመትከል",
+            "gloss": "for planting"
+          },
+          {
+            "word": "ያስፈልጋል",
+            "gloss": "is needed"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መውጋት አንፈልግም።",
-        "text": "Today we do not want to stab.",
+        "target": "በጥንቃቄ መውጋት ተማር።",
+        "text": "Learn to stab carefully.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በጥንቃቄ",
+            "gloss": "carefully"
           },
           {
             "word": "መውጋት",
             "gloss": "stab",
-            "transliteration": "mewgat",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "ተማር",
+            "gloss": "learn"
           }
         ]
       }
@@ -1352,81 +1259,70 @@
     "vocab_index": 117,
     "word": "መፋቅ",
     "gloss": "scratch",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መፋቅ ይፈልጋል።",
-        "text": "The teacher wants to scratch.",
+        "target": "ቆዳ መፋቅ አያቁም።",
+        "text": "Do not keep scratching the skin.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ቆዳ",
+            "gloss": "skin"
           },
           {
             "word": "መፋቅ",
             "gloss": "scratch",
-            "transliteration": "mefaq",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "አያቁም",
+            "gloss": "do not continue"
           }
         ]
       },
       {
-        "target": "ጓደኛ መፋቅ ይችላል።",
-        "text": "A friend can scratch.",
+        "target": "ድመቱ በር መፋቅ ጀመረ።",
+        "text": "The cat began to scratch the door.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ድመቱ",
+            "gloss": "the cat"
+          },
+          {
+            "word": "በር",
+            "gloss": "door"
           },
           {
             "word": "መፋቅ",
             "gloss": "scratch",
-            "transliteration": "mefaq",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "ጀመረ",
+            "gloss": "began"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መፋቅ ይማራል።",
-        "text": "At school, the child learns to scratch.",
+        "target": "ማሳከክ ሲሰማ መፋቅ ይከብዳል።",
+        "text": "When it itches, scratching is hard to resist.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
+            "word": "ማሳከክ",
+            "gloss": "itching"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ሲሰማ",
+            "gloss": "when felt"
           },
           {
             "word": "መፋቅ",
             "gloss": "scratch",
-            "transliteration": "mefaq",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ይከብዳል",
+            "gloss": "is hard"
           }
         ]
       }
@@ -1436,81 +1332,74 @@
     "vocab_index": 118,
     "word": "መቆፈር",
     "gloss": "dig",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መቆፈር ይማራል።",
-        "text": "The child learns to dig.",
+        "target": "ጉድጓድ መቆፈር ጀመሩ።",
+        "text": "They began to dig a hole.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ጉድጓድ",
+            "gloss": "hole"
           },
           {
             "word": "መቆፈር",
             "gloss": "dig",
-            "transliteration": "meqofer",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ጀመሩ",
+            "gloss": "they began"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መቆፈር እሞክራለሁ።",
-        "text": "Now I try to dig.",
+        "target": "አትክልት ለመትከል መቆፈር ያስፈልጋል።",
+        "text": "Digging is needed to plant vegetables.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
+            "word": "አትክልት",
+            "gloss": "vegetables"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ለመትከል",
+            "gloss": "to plant"
           },
           {
             "word": "መቆፈር",
             "gloss": "dig",
-            "transliteration": "meqofer",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ያስፈልጋል",
+            "gloss": "is needed"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መቆፈር እንችላለን።",
-        "text": "Tomorrow we can dig.",
+        "target": "ውሻው አጥንት ለማግኘት መቆፈር ይወዳል።",
+        "text": "The dog likes to dig to find a bone.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
+            "word": "ውሻው",
+            "gloss": "the dog"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "አጥንት",
+            "gloss": "bone"
+          },
+          {
+            "word": "ለማግኘት",
+            "gloss": "to find"
           },
           {
             "word": "መቆፈር",
             "gloss": "dig",
-            "transliteration": "meqofer",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ይወዳል",
+            "gloss": "likes"
           }
         ]
       }
@@ -1520,101 +1409,74 @@
     "vocab_index": 119,
     "word": "መዋኘት",
     "gloss": "swim",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መዋኘት እንፈልጋለን።",
-        "text": "After the lesson, we want to swim.",
+        "target": "በባሕር መዋኘት እወዳለሁ።",
+        "text": "I love to swim in the sea.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በባሕር",
+            "gloss": "in the sea"
           },
           {
             "word": "መዋኘት",
             "gloss": "swim",
-            "transliteration": "mewanyet",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "እወዳለሁ",
+            "gloss": "I love"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መዋኘት እሞክራለሁ።",
-        "text": "At home, I try to swim.",
+        "target": "ልጁ መዋኘት እየተማረ ነው።",
+        "text": "The child is learning to swim.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
             "word": "መዋኘት",
             "gloss": "swim",
-            "transliteration": "mewanyet",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "እየተማረ",
+            "gloss": "is learning"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ገበያ በፊት እኔ መዋኘት እፈልጋለሁ።",
-        "text": "Before the market, I want to swim.",
+        "target": "በገንዳ መዋኘት ደህንነቱ የተጠበቀ ነው።",
+        "text": "Swimming in a pool is safer.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በገንዳ",
+            "gloss": "in a pool"
           },
           {
             "word": "መዋኘት",
             "gloss": "swim",
-            "transliteration": "mewanyet",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ደህንነቱ",
+            "gloss": "its safety"
+          },
+          {
+            "word": "የተጠበቀ",
+            "gloss": "protected"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1624,76 +1486,66 @@
     "vocab_index": 120,
     "word": "መብረር",
     "gloss": "fly",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መብረር እፈልጋለሁ።",
-        "text": "I want to fly.",
+        "target": "ወፍ መብረር ይችላል።",
+        "text": "A bird can fly.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ወፍ",
+            "gloss": "bird"
           },
           {
             "word": "መብረር",
             "gloss": "fly",
-            "transliteration": "mebrer",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ይችላል",
+            "gloss": "can"
           }
         ]
       },
       {
-        "target": "አንተ መብረር ትችላለህ?",
-        "text": "Can you fly?",
+        "target": "በአውሮፕላን መብረር ፈጣን ነው።",
+        "text": "To fly by airplane is fast.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "በአውሮፕላን",
+            "gloss": "by airplane"
           },
           {
             "word": "መብረር",
             "gloss": "fly",
-            "transliteration": "mebrer",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "ፈጣን",
+            "gloss": "fast"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መብረር እንፈልጋለን።",
-        "text": "Today we want to fly.",
+        "target": "እንቁራሪት መብረር አይችልም።",
+        "text": "A frog cannot fly.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "እንቁራሪት",
+            "gloss": "frog"
           },
           {
             "word": "መብረር",
             "gloss": "fly",
-            "transliteration": "mebrer",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "አይችልም",
+            "gloss": "cannot"
           }
         ]
       }
@@ -1703,81 +1555,82 @@
     "vocab_index": 121,
     "word": "መሄድ",
     "gloss": "walk",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መሄድ ይፈልጋል።",
-        "text": "The teacher wants to walk.",
+        "target": "ወደ ገበያ መሄድ እፈልጋለሁ።",
+        "text": "I want to go to the market.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ወደ",
+            "gloss": "to"
+          },
+          {
+            "word": "ገበያ",
+            "gloss": "market"
           },
           {
             "word": "መሄድ",
             "gloss": "walk",
-            "transliteration": "mehEd",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "እፈልጋለሁ",
+            "gloss": "I want"
           }
         ]
       },
       {
-        "target": "ጓደኛ መሄድ ይችላል።",
-        "text": "A friend can walk.",
+        "target": "በእግር መሄድ ጤናማ ነው።",
+        "text": "Walking on foot is healthy.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "በእግር",
+            "gloss": "on foot"
           },
           {
             "word": "መሄድ",
             "gloss": "walk",
-            "transliteration": "mehEd",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መሄድ ይማራል።",
-        "text": "At school, the child learns to walk.",
+        "target": "ከቤት መሄድ ከፀሐይ በፊት ጥሩ ነው።",
+        "text": "Leaving home before sunrise is good.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ከቤት",
+            "gloss": "from home"
           },
           {
             "word": "መሄድ",
             "gloss": "walk",
-            "transliteration": "mehEd",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ከፀሐይ",
+            "gloss": "before sun"
+          },
+          {
+            "word": "በፊት",
+            "gloss": "before"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1787,81 +1640,74 @@
     "vocab_index": 122,
     "word": "መምጣት",
     "gloss": "come",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መምጣት ይማራል።",
-        "text": "The child learns to come.",
+        "target": "በጊዜ መምጣት አስፈላጊ ነው።",
+        "text": "Coming on time is important.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በጊዜ",
+            "gloss": "on time"
           },
           {
             "word": "መምጣት",
             "gloss": "come",
-            "transliteration": "memTat",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "አስፈላጊ",
+            "gloss": "important"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መምጣት እሞክራለሁ።",
-        "text": "Now I try to come.",
+        "target": "ጓደኛዬ መምጣት ተስፋ አድርጌአለሁ።",
+        "text": "I hoped for my friend to come.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ጓደኛዬ",
+            "gloss": "my friend"
           },
           {
             "word": "መምጣት",
             "gloss": "come",
-            "transliteration": "memTat",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ተስፋ",
+            "gloss": "hope"
+          },
+          {
+            "word": "አድርጌአለሁ",
+            "gloss": "I have done"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መምጣት እንችላለን።",
-        "text": "Tomorrow we can come.",
+        "target": "ከጉዞ በኋላ መምጣት ደክሞኛል።",
+        "text": "Coming after the trip tired me.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
+            "word": "ከጉዞ",
+            "gloss": "after the trip"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
             "word": "መምጣት",
             "gloss": "come",
-            "transliteration": "memTat",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ደክሞኛል",
+            "gloss": "tired me"
           }
         ]
       }
@@ -1871,101 +1717,70 @@
     "vocab_index": 123,
     "word": "መጋደም",
     "gloss": "lie",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መጋደም እንፈልጋለን።",
-        "text": "After the lesson, we want to lie.",
+        "target": "በአልጋ መጋደም እፈልጋለሁ።",
+        "text": "I want to lie on the bed.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በአልጋ",
+            "gloss": "on the bed"
           },
           {
             "word": "መጋደም",
             "gloss": "lie",
-            "transliteration": "megadem",
-            "note": "target"
-          },
-          {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
-          }
-        ]
-      },
-      {
-        "target": "ቤት ውስጥ እኔ መጋደም እሞክራለሁ።",
-        "text": "At home, I try to lie.",
-        "words": [
-          {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "መጋደም",
-            "gloss": "lie",
-            "transliteration": "megadem",
-            "note": "target"
-          },
-          {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ በፊት እኔ መጋደም እፈልጋለሁ።",
-        "text": "Before the market, I want to lie.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "መጋደም",
-            "gloss": "lie",
-            "transliteration": "megadem",
             "note": "target"
           },
           {
             "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "gloss": "I want"
+          }
+        ]
+      },
+      {
+        "target": "ታማሚው መጋደም አለበት።",
+        "text": "The patient must lie down.",
+        "words": [
+          {
+            "word": "ታማሚው",
+            "gloss": "the patient"
+          },
+          {
+            "word": "መጋደም",
+            "gloss": "lie",
+            "note": "target"
+          },
+          {
+            "word": "አለበት",
+            "gloss": "must"
+          }
+        ]
+      },
+      {
+        "target": "በሳር ላይ መጋደም ምቹ ነው።",
+        "text": "Lying on the grass is comfortable.",
+        "words": [
+          {
+            "word": "በሳር",
+            "gloss": "on the grass"
+          },
+          {
+            "word": "ላይ",
+            "gloss": "on"
+          },
+          {
+            "word": "መጋደም",
+            "gloss": "lie",
+            "note": "target"
+          },
+          {
+            "word": "ምቹ",
+            "gloss": "comfortable"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1975,76 +1790,78 @@
     "vocab_index": 124,
     "word": "መቀመጥ",
     "gloss": "sit",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መቀመጥ እፈልጋለሁ።",
-        "text": "I want to sit.",
+        "target": "እባክህ እዚህ መቀመጥ ትችላለህ።",
+        "text": "Please, you can sit here.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "እባክህ",
+            "gloss": "please"
+          },
+          {
+            "word": "እዚህ",
+            "gloss": "here"
           },
           {
             "word": "መቀመጥ",
             "gloss": "sit",
-            "transliteration": "meqemeT",
-            "note": "target"
-          },
-          {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
-          }
-        ]
-      },
-      {
-        "target": "አንተ መቀመጥ ትችላለህ?",
-        "text": "Can you sit?",
-        "words": [
-          {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
-          },
-          {
-            "word": "መቀመጥ",
-            "gloss": "sit",
-            "transliteration": "meqemeT",
             "note": "target"
           },
           {
             "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "gloss": "you can"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መቀመጥ እንፈልጋለን።",
-        "text": "Today we want to sit.",
+        "target": "በአውቶቡስ መቀመጥ ቦታ አላገኘሁም።",
+        "text": "I could not find a place to sit on the bus.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በአውቶቡስ",
+            "gloss": "on the bus"
           },
           {
             "word": "መቀመጥ",
             "gloss": "sit",
-            "transliteration": "meqemeT",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ቦታ",
+            "gloss": "place"
+          },
+          {
+            "word": "አላገኘሁም",
+            "gloss": "I did not find"
+          }
+        ]
+      },
+      {
+        "target": "ረጅም ጊዜ መቀመጥ ጀርባን ያሠቃያል።",
+        "text": "Sitting a long time hurts the back.",
+        "words": [
+          {
+            "word": "ረጅም",
+            "gloss": "long"
+          },
+          {
+            "word": "ጊዜ",
+            "gloss": "time"
+          },
+          {
+            "word": "መቀመጥ",
+            "gloss": "sit",
+            "note": "target"
+          },
+          {
+            "word": "ጀርባን",
+            "gloss": "the back"
+          },
+          {
+            "word": "ያሠቃያል",
+            "gloss": "hurts"
           }
         ]
       }
@@ -2054,81 +1871,70 @@
     "vocab_index": 125,
     "word": "መቆም",
     "gloss": "stand",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መቆም ይፈልጋል።",
-        "text": "The teacher wants to stand.",
+        "target": "በረድፍ መቆም እንጠብቃለን።",
+        "text": "We wait standing in line.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "በረድፍ",
+            "gloss": "in line"
           },
           {
             "word": "መቆም",
             "gloss": "stand",
-            "transliteration": "meqom",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "እንጠብቃለን",
+            "gloss": "we wait"
           }
         ]
       },
       {
-        "target": "ጓደኛ መቆም ይችላል።",
-        "text": "A friend can stand.",
+        "target": "ረጅም ጊዜ መቆም ከባድ ነው።",
+        "text": "Standing for a long time is hard.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ረጅም",
+            "gloss": "long"
+          },
+          {
+            "word": "ጊዜ",
+            "gloss": "time"
           },
           {
             "word": "መቆም",
             "gloss": "stand",
-            "transliteration": "meqom",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "ከባድ",
+            "gloss": "hard"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መቆም ይማራል።",
-        "text": "At school, the child learns to stand.",
+        "target": "ተማሪዎቹ መቆም ተጠየቁ።",
+        "text": "The students were asked to stand.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ተማሪዎቹ",
+            "gloss": "the students"
           },
           {
             "word": "መቆም",
             "gloss": "stand",
-            "transliteration": "meqom",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ተጠየቁ",
+            "gloss": "were asked"
           }
         ]
       }
@@ -2138,81 +1944,74 @@
     "vocab_index": 126,
     "word": "መታጠፍ",
     "gloss": "turn",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መታጠፍ ይማራል።",
-        "text": "The child learns to turn.",
+        "target": "በማእዘኑ መታጠፍ አስፈለገ።",
+        "text": "It was necessary to turn at the corner.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በማእዘኑ",
+            "gloss": "at the corner"
           },
           {
             "word": "መታጠፍ",
             "gloss": "turn",
-            "transliteration": "metaTef",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "አስፈለገ",
+            "gloss": "was necessary"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መታጠፍ እሞክራለሁ።",
-        "text": "Now I try to turn.",
+        "target": "ገጽ መታጠፍ ቀስ ብለህ አድርግ።",
+        "text": "Turn the page slowly.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ገጽ",
+            "gloss": "page"
           },
           {
             "word": "መታጠፍ",
             "gloss": "turn",
-            "transliteration": "metaTef",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ቀስ",
+            "gloss": "slowly"
+          },
+          {
+            "word": "ብለህ",
+            "gloss": "saying"
+          },
+          {
+            "word": "አድርግ",
+            "gloss": "do"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መታጠፍ እንችላለን።",
-        "text": "Tomorrow we can turn.",
+        "target": "ወደ ግራ መታጠፍ ይሻላል።",
+        "text": "It is better to turn left.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ግራ",
+            "gloss": "left"
           },
           {
             "word": "መታጠፍ",
             "gloss": "turn",
-            "transliteration": "metaTef",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ይሻላል",
+            "gloss": "is better"
           }
         ]
       }
@@ -2222,101 +2021,74 @@
     "vocab_index": 127,
     "word": "መውደቅ",
     "gloss": "fall",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መውደቅ እንፈልጋለን።",
-        "text": "After the lesson, we want to fall.",
+        "target": "ከዛፍ መውደቅ አደገኛ ነው።",
+        "text": "Falling from a tree is dangerous.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ከዛፍ",
+            "gloss": "from a tree"
           },
           {
             "word": "መውደቅ",
             "gloss": "fall",
-            "transliteration": "mewdeq",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "አደገኛ",
+            "gloss": "dangerous"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መውደቅ እሞክራለሁ።",
-        "text": "At home, I try to fall.",
+        "target": "ዝናብ ሲዘንብ መውደቅ ቀላል ነው።",
+        "text": "When it rains, falling is easy.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
+            "word": "ዝናብ",
+            "gloss": "rain"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሲዘንብ",
+            "gloss": "when it rains"
           },
           {
             "word": "መውደቅ",
             "gloss": "fall",
-            "transliteration": "mewdeq",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ገበያ በፊት እኔ መውደቅ እፈልጋለሁ።",
-        "text": "Before the market, I want to fall.",
+        "target": "ሕጻኑ መውደቅ ተቃረበ።",
+        "text": "The toddler nearly fell.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሕጻኑ",
+            "gloss": "the toddler"
           },
           {
             "word": "መውደቅ",
             "gloss": "fall",
-            "transliteration": "mewdeq",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ተቃረበ",
+            "gloss": "nearly happened"
           }
         ]
       }
@@ -2326,76 +2098,70 @@
     "vocab_index": 128,
     "word": "መስጠት",
     "gloss": "give",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መስጠት እፈልጋለሁ።",
-        "text": "I want to give.",
+        "target": "ስጦታ መስጠት ደስ ይላል።",
+        "text": "Giving a gift feels joyful.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ስጦታ",
+            "gloss": "gift"
           },
           {
             "word": "መስጠት",
             "gloss": "give",
-            "transliteration": "mesTet",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ደስ",
+            "gloss": "joy"
+          },
+          {
+            "word": "ይላል",
+            "gloss": "feels"
           }
         ]
       },
       {
-        "target": "አንተ መስጠት ትችላለህ?",
-        "text": "Can you give?",
+        "target": "መልስ መስጠት አልቻልኩም።",
+        "text": "I could not give an answer.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "መልስ",
+            "gloss": "answer"
           },
           {
             "word": "መስጠት",
             "gloss": "give",
-            "transliteration": "mesTet",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "አልቻልኩም",
+            "gloss": "I could not"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መስጠት እንፈልጋለን።",
-        "text": "Today we want to give.",
+        "target": "ለድሆች መስጠት በጎ ነው።",
+        "text": "Giving to the poor is good.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ለድሆች",
+            "gloss": "to the poor"
           },
           {
             "word": "መስጠት",
             "gloss": "give",
-            "transliteration": "mesTet",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "በጎ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2405,81 +2171,66 @@
     "vocab_index": 129,
     "word": "መያዝ",
     "gloss": "hold",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መያዝ ይፈልጋል።",
-        "text": "The teacher wants to hold.",
+        "target": "ህጻኑን በጥንቃቄ መያዝ አለብሽ።",
+        "text": "You must hold the baby carefully.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ህጻኑን",
+            "gloss": "the baby"
+          },
+          {
+            "word": "በጥንቃቄ",
+            "gloss": "carefully"
           },
           {
             "word": "መያዝ",
             "gloss": "hold",
-            "transliteration": "meyaz",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "አለብሽ",
+            "gloss": "you must"
           }
         ]
       },
       {
-        "target": "ጓደኛ መያዝ ይችላል።",
-        "text": "A friend can hold.",
+        "target": "ቦርሳዬን መያዝ እችላለሁ።",
+        "text": "I can hold my bag.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ቦርሳዬን",
+            "gloss": "my bag"
           },
           {
             "word": "መያዝ",
             "gloss": "hold",
-            "transliteration": "meyaz",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "እችላለሁ",
+            "gloss": "I can"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መያዝ ይማራል።",
-        "text": "At school, the child learns to hold.",
+        "target": "ገመዱን በኃይል መያዝ።",
+        "text": "Hold the rope firmly.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
+            "word": "ገመዱን",
+            "gloss": "the rope"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በኃይል",
+            "gloss": "firmly"
           },
           {
             "word": "መያዝ",
             "gloss": "hold",
-            "transliteration": "meyaz",
             "note": "target"
-          },
-          {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
           }
         ]
       }
@@ -2489,81 +2240,66 @@
     "vocab_index": 130,
     "word": "መጫን",
     "gloss": "squeeze",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መጫን ይማራል።",
-        "text": "The child learns to squeeze.",
+        "target": "ሎሚ መጫን ጭማቂ ያወጣል።",
+        "text": "Squeezing a lemon produces juice.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ሎሚ",
+            "gloss": "lemon"
           },
           {
             "word": "መጫን",
             "gloss": "squeeze",
-            "transliteration": "mech'an",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ጭማቂ",
+            "gloss": "juice"
+          },
+          {
+            "word": "ያወጣል",
+            "gloss": "produces"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መጫን እሞክራለሁ።",
-        "text": "Now I try to squeeze.",
+        "target": "እጄን መጫን አቁም።",
+        "text": "Stop squeezing my hand.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "እጄን",
+            "gloss": "my hand"
           },
           {
             "word": "መጫን",
             "gloss": "squeeze",
-            "transliteration": "mech'an",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "አቁም",
+            "gloss": "stop"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መጫን እንችላለን።",
-        "text": "Tomorrow we can squeeze.",
+        "target": "ቱቦውን መጫን ያስፈልጋል።",
+        "text": "It is necessary to squeeze the tube.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ቱቦውን",
+            "gloss": "the tube"
           },
           {
             "word": "መጫን",
             "gloss": "squeeze",
-            "transliteration": "mech'an",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ያስፈልጋል",
+            "gloss": "is necessary"
           }
         ]
       }
@@ -2573,101 +2309,70 @@
     "vocab_index": 131,
     "word": "መቦረሽ",
     "gloss": "rub",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መቦረሽ እንፈልጋለን።",
-        "text": "After the lesson, we want to rub.",
+        "target": "ዓይኔን መቦረሽ አቁም።",
+        "text": "Stop rubbing my eye.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ዓይኔን",
+            "gloss": "my eye"
           },
           {
             "word": "መቦረሽ",
             "gloss": "rub",
-            "transliteration": "meboresh",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "አቁም",
+            "gloss": "stop"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መቦረሽ እሞክራለሁ።",
-        "text": "At home, I try to rub.",
+        "target": "እንጨት መቦረሽ ለስላሳ ያደርገዋል።",
+        "text": "Rubbing wood makes it smooth.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "እንጨት",
+            "gloss": "wood"
           },
           {
             "word": "መቦረሽ",
             "gloss": "rub",
-            "transliteration": "meboresh",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ለስላሳ",
+            "gloss": "smooth"
+          },
+          {
+            "word": "ያደርገዋል",
+            "gloss": "makes it"
           }
         ]
       },
       {
-        "target": "ገበያ በፊት እኔ መቦረሽ እፈልጋለሁ።",
-        "text": "Before the market, I want to rub.",
+        "target": "ቅባት መቦረሽ ቆዳን ያለሰልሳል።",
+        "text": "Rubbing ointment softens the skin.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ቅባት",
+            "gloss": "ointment"
           },
           {
             "word": "መቦረሽ",
             "gloss": "rub",
-            "transliteration": "meboresh",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ቆዳን",
+            "gloss": "the skin"
+          },
+          {
+            "word": "ያለሰልሳል",
+            "gloss": "softens"
           }
         ]
       }
@@ -2677,76 +2382,82 @@
     "vocab_index": 132,
     "word": "ማጠብ",
     "gloss": "wash",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ማጠብ እፈልጋለሁ።",
-        "text": "I want to wash.",
+        "target": "እጅ ማጠብ ከምግብ በፊት ጥሩ ነው።",
+        "text": "Washing hands before food is good.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "እጅ",
+            "gloss": "hand"
           },
           {
             "word": "ማጠብ",
             "gloss": "wash",
-            "transliteration": "maTeb",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ከምግብ",
+            "gloss": "before food"
+          },
+          {
+            "word": "በፊት",
+            "gloss": "before"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አንተ ማጠብ ትችላለህ?",
-        "text": "Can you wash?",
+        "target": "ልብስ ማጠብ ዛሬ አለብኝ።",
+        "text": "I must wash clothes today.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ልብስ",
+            "gloss": "clothes"
           },
           {
             "word": "ማጠብ",
             "gloss": "wash",
-            "transliteration": "maTeb",
             "note": "target"
           },
-          {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
-          }
-        ]
-      },
-      {
-        "target": "ዛሬ እኛ ማጠብ እንፈልጋለን።",
-        "text": "Today we want to wash.",
-        "words": [
           {
             "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "gloss": "today"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "አለብኝ",
+            "gloss": "I must"
+          }
+        ]
+      },
+      {
+        "target": "መኪና ማጠብ ውሃ ይፈልጋል።",
+        "text": "Washing a car needs water.",
+        "words": [
+          {
+            "word": "መኪና",
+            "gloss": "car"
           },
           {
             "word": "ማጠብ",
             "gloss": "wash",
-            "transliteration": "maTeb",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "ይፈልጋል",
+            "gloss": "needs"
           }
         ]
       }
@@ -2756,81 +2467,82 @@
     "vocab_index": 133,
     "word": "ማሸት",
     "gloss": "wipe",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ ማሸት ይፈልጋል።",
-        "text": "The teacher wants to wipe.",
+        "target": "ጠረጴዛ ማሸት ከእራት በኋላ አድርግ።",
+        "text": "Wipe the table after dinner.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ጠረጴዛ",
+            "gloss": "table"
           },
           {
             "word": "ማሸት",
             "gloss": "wipe",
-            "transliteration": "mashet",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "ከእራት",
+            "gloss": "after dinner"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
+          },
+          {
+            "word": "አድርግ",
+            "gloss": "do"
           }
         ]
       },
       {
-        "target": "ጓደኛ ማሸት ይችላል።",
-        "text": "A friend can wipe.",
+        "target": "እንባ ማሸት በመሀረብ ቀላል ነው።",
+        "text": "Wiping tears with a tissue is easy.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "እንባ",
+            "gloss": "tears"
           },
           {
             "word": "ማሸት",
             "gloss": "wipe",
-            "transliteration": "mashet",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "በመሀረብ",
+            "gloss": "with a tissue"
+          },
+          {
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ ማሸት ይማራል።",
-        "text": "At school, the child learns to wipe.",
+        "target": "ሰሌዳ ማሸት ተማሪው ተጠየቀ።",
+        "text": "The student was asked to wipe the board.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ሰሌዳ",
+            "gloss": "board"
           },
           {
             "word": "ማሸት",
             "gloss": "wipe",
-            "transliteration": "mashet",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ተማሪው",
+            "gloss": "the student"
+          },
+          {
+            "word": "ተጠየቀ",
+            "gloss": "was asked"
           }
         ]
       }
@@ -2840,81 +2552,70 @@
     "vocab_index": 134,
     "word": "መጎተት",
     "gloss": "pull",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መጎተት ይማራል።",
-        "text": "The child learns to pull.",
+        "target": "በር መጎተት አልቻልኩም።",
+        "text": "I could not pull the door.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በር",
+            "gloss": "door"
           },
           {
             "word": "መጎተት",
             "gloss": "pull",
-            "transliteration": "megotet",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "አልቻልኩም",
+            "gloss": "I could not"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መጎተት እሞክራለሁ።",
-        "text": "Now I try to pull.",
+        "target": "ገመድ መጎተት በኃይል ያስፈልጋል።",
+        "text": "Pulling the rope needs force.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ገመድ",
+            "gloss": "rope"
           },
           {
             "word": "መጎተት",
             "gloss": "pull",
-            "transliteration": "megotet",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "በኃይል",
+            "gloss": "with force"
+          },
+          {
+            "word": "ያስፈልጋል",
+            "gloss": "is needed"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መጎተት እንችላለን።",
-        "text": "Tomorrow we can pull.",
+        "target": "ሣጥኑን መጎተት ከባድ ነው።",
+        "text": "Pulling the box is heavy.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ሣጥኑን",
+            "gloss": "the box"
           },
           {
             "word": "መጎተት",
             "gloss": "pull",
-            "transliteration": "megotet",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ከባድ",
+            "gloss": "heavy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2924,101 +2625,74 @@
     "vocab_index": 135,
     "word": "መግፋት",
     "gloss": "push",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መግፋት እንፈልጋለን።",
-        "text": "After the lesson, we want to push.",
+        "target": "በር መግፋት ብቻ በቂ ነው።",
+        "text": "Just pushing the door is enough.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በር",
+            "gloss": "door"
           },
           {
             "word": "መግፋት",
             "gloss": "push",
-            "transliteration": "megfat",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ብቻ",
+            "gloss": "just"
+          },
+          {
+            "word": "በቂ",
+            "gloss": "enough"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መግፋት እሞክራለሁ።",
-        "text": "At home, I try to push.",
+        "target": "ጋሪ መግፋት ረዳኝ።",
+        "text": "He helped me push the cart.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ጋሪ",
+            "gloss": "cart"
           },
           {
             "word": "መግፋት",
             "gloss": "push",
-            "transliteration": "megfat",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ረዳኝ",
+            "gloss": "helped me"
           }
         ]
       },
       {
-        "target": "ገበያ በፊት እኔ መግፋት እፈልጋለሁ።",
-        "text": "Before the market, I want to push.",
+        "target": "አዝራር መግፋት ማሽኑን ያበራል።",
+        "text": "Pushing the button turns on the machine.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "አዝራር",
+            "gloss": "button"
           },
           {
             "word": "መግፋት",
             "gloss": "push",
-            "transliteration": "megfat",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ማሽኑን",
+            "gloss": "the machine"
+          },
+          {
+            "word": "ያበራል",
+            "gloss": "turns on"
           }
         ]
       }
@@ -3028,76 +2702,66 @@
     "vocab_index": 136,
     "word": "መወርወር",
     "gloss": "throw",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መወርወር እፈልጋለሁ።",
-        "text": "I want to throw.",
+        "target": "ኳስ መወርወር እንጫወት።",
+        "text": "Let's play by throwing a ball.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ኳስ",
+            "gloss": "ball"
           },
           {
             "word": "መወርወር",
             "gloss": "throw",
-            "transliteration": "mewerwer",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "እንጫወት",
+            "gloss": "let's play"
           }
         ]
       },
       {
-        "target": "አንተ መወርወር ትችላለህ?",
-        "text": "Can you throw?",
+        "target": "ቆሻሻ መወርወር ተከልክሏል።",
+        "text": "Throwing trash is forbidden.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ቆሻሻ",
+            "gloss": "trash"
           },
           {
             "word": "መወርወር",
             "gloss": "throw",
-            "transliteration": "mewerwer",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "ተከልክሏል",
+            "gloss": "is forbidden"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መወርወር እንፈልጋለን።",
-        "text": "Today we want to throw.",
+        "target": "ድንጋይ መወርወር አደገኛ ነው።",
+        "text": "Throwing stones is dangerous.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ድንጋይ",
+            "gloss": "stone"
           },
           {
             "word": "መወርወር",
             "gloss": "throw",
-            "transliteration": "mewerwer",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "አደገኛ",
+            "gloss": "dangerous"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3107,81 +2771,74 @@
     "vocab_index": 137,
     "word": "ማሰር",
     "gloss": "tie",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ ማሰር ይፈልጋል።",
-        "text": "The teacher wants to tie.",
+        "target": "ጫማ ማሰር ተማርኩ።",
+        "text": "I learned to tie shoes.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ጫማ",
+            "gloss": "shoe"
           },
           {
             "word": "ማሰር",
             "gloss": "tie",
-            "transliteration": "maser",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "ተማርኩ",
+            "gloss": "I learned"
           }
         ]
       },
       {
-        "target": "ጓደኛ ማሰር ይችላል።",
-        "text": "A friend can tie.",
+        "target": "ገመድ ማሰር በጥብቅ አድርግ።",
+        "text": "Tie the rope tightly.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ገመድ",
+            "gloss": "rope"
           },
           {
             "word": "ማሰር",
             "gloss": "tie",
-            "transliteration": "maser",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "በጥብቅ",
+            "gloss": "tightly"
+          },
+          {
+            "word": "አድርግ",
+            "gloss": "do"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ ማሰር ይማራል።",
-        "text": "At school, the child learns to tie.",
+        "target": "ስጦታ ማሰር በሪባን ቆንጆ ነው።",
+        "text": "Tying a gift with ribbon is beautiful.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ስጦታ",
+            "gloss": "gift"
           },
           {
             "word": "ማሰር",
             "gloss": "tie",
-            "transliteration": "maser",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "በሪባን",
+            "gloss": "with ribbon"
+          },
+          {
+            "word": "ቆንጆ",
+            "gloss": "beautiful"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3191,81 +2848,74 @@
     "vocab_index": 138,
     "word": "መስፋት",
     "gloss": "sew",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መስፋት ይማራል።",
-        "text": "The child learns to sew.",
+        "target": "ልብስ መስፋት እናቴ ታውቃለች።",
+        "text": "My mother knows how to sew clothes.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ልብስ",
+            "gloss": "clothes"
           },
           {
             "word": "መስፋት",
             "gloss": "sew",
-            "transliteration": "mesfat",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "እናቴ",
+            "gloss": "my mother"
+          },
+          {
+            "word": "ታውቃለች",
+            "gloss": "knows"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መስፋት እሞክራለሁ።",
-        "text": "Now I try to sew.",
+        "target": "አዝራር መስፋት ቀላል ነው።",
+        "text": "Sewing a button is easy.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "አዝራር",
+            "gloss": "button"
           },
           {
             "word": "መስፋት",
             "gloss": "sew",
-            "transliteration": "mesfat",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መስፋት እንችላለን።",
-        "text": "Tomorrow we can sew.",
+        "target": "በማሽን መስፋት ፈጣን ነው።",
+        "text": "Sewing by machine is fast.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በማሽን",
+            "gloss": "by machine"
           },
           {
             "word": "መስፋት",
             "gloss": "sew",
-            "transliteration": "mesfat",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ፈጣን",
+            "gloss": "fast"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3275,101 +2925,74 @@
     "vocab_index": 139,
     "word": "መቁጠር",
     "gloss": "count",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መቁጠር እንፈልጋለን።",
-        "text": "After the lesson, we want to count.",
+        "target": "ገንዘብ መቁጠር ከመክፈል በፊት አድርግ።",
+        "text": "Count the money before paying.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
-          },
-          {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ገንዘብ",
+            "gloss": "money"
           },
           {
             "word": "መቁጠር",
             "gloss": "count",
-            "transliteration": "mequTer",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
-          }
-        ]
-      },
-      {
-        "target": "ቤት ውስጥ እኔ መቁጠር እሞክራለሁ።",
-        "text": "At home, I try to count.",
-        "words": [
-          {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "መቁጠር",
-            "gloss": "count",
-            "transliteration": "mequTer",
-            "note": "target"
-          },
-          {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ በፊት እኔ መቁጠር እፈልጋለሁ።",
-        "text": "Before the market, I want to count.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ከመክፈል",
+            "gloss": "before paying"
           },
           {
             "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
+            "gloss": "before"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "አድርግ",
+            "gloss": "do"
+          }
+        ]
+      },
+      {
+        "target": "ከዋክብት መቁጠር አልቻልኩም።",
+        "text": "I could not count the stars.",
+        "words": [
+          {
+            "word": "ከዋክብት",
+            "gloss": "stars"
           },
           {
             "word": "መቁጠር",
             "gloss": "count",
-            "transliteration": "mequTer",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "አልቻልኩም",
+            "gloss": "I could not"
+          }
+        ]
+      },
+      {
+        "target": "ተማሪዎችን መቁጠር አስተማሪው ጀመረ።",
+        "text": "The teacher began to count the students.",
+        "words": [
+          {
+            "word": "ተማሪዎችን",
+            "gloss": "the students"
+          },
+          {
+            "word": "መቁጠር",
+            "gloss": "count",
+            "note": "target"
+          },
+          {
+            "word": "አስተማሪው",
+            "gloss": "the teacher"
+          },
+          {
+            "word": "ጀመረ",
+            "gloss": "began"
           }
         ]
       }
@@ -3379,76 +3002,74 @@
     "vocab_index": 140,
     "word": "መናገር",
     "gloss": "say",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መናገር እፈልጋለሁ።",
-        "text": "I want to say.",
+        "target": "እውነት መናገር ጥሩ ነው።",
+        "text": "It is good to say the truth.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "እውነት",
+            "gloss": "truth"
           },
           {
             "word": "መናገር",
             "gloss": "say",
-            "transliteration": "menager",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አንተ መናገር ትችላለህ?",
-        "text": "Can you say?",
+        "target": "በአማርኛ መናገር እየተማርኩ ነው።",
+        "text": "I am learning to speak in Amharic.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "በአማርኛ",
+            "gloss": "in Amharic"
           },
           {
             "word": "መናገር",
             "gloss": "say",
-            "transliteration": "menager",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "እየተማርኩ",
+            "gloss": "I am learning"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መናገር እንፈልጋለን።",
-        "text": "Today we want to say.",
+        "target": "ቀስ ብሎ መናገር ያስፈልጋል።",
+        "text": "It is necessary to speak slowly.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "ቀስ",
+            "gloss": "slowly"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ብሎ",
+            "gloss": "saying"
           },
           {
             "word": "መናገር",
             "gloss": "say",
-            "transliteration": "menager",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ያስፈልጋል",
+            "gloss": "is necessary"
           }
         ]
       }
@@ -3458,81 +3079,74 @@
     "vocab_index": 141,
     "word": "መዘመር",
     "gloss": "sing",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መዘመር ይፈልጋል።",
-        "text": "The teacher wants to sing.",
+        "target": "በቤተ ክርስቲያን መዘመር እወዳለሁ።",
+        "text": "I love to sing at church.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "በቤተ",
+            "gloss": "at"
+          },
+          {
+            "word": "ክርስቲያን",
+            "gloss": "church"
           },
           {
             "word": "መዘመር",
             "gloss": "sing",
-            "transliteration": "mezemer",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "እወዳለሁ",
+            "gloss": "I love"
           }
         ]
       },
       {
-        "target": "ጓደኛ መዘመር ይችላል።",
-        "text": "A friend can sing.",
+        "target": "ልጆቹ መዘመር ጀመሩ።",
+        "text": "The children began to sing.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ልጆቹ",
+            "gloss": "the children"
           },
           {
             "word": "መዘመር",
             "gloss": "sing",
-            "transliteration": "mezemer",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "ጀመሩ",
+            "gloss": "began"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መዘመር ይማራል።",
-        "text": "At school, the child learns to sing.",
+        "target": "ከሙዚቃ ጋር መዘመር ቀላል ነው።",
+        "text": "Singing with music is easy.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
+            "word": "ከሙዚቃ",
+            "gloss": "with music"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ጋር",
+            "gloss": "with"
           },
           {
             "word": "መዘመር",
             "gloss": "sing",
-            "transliteration": "mezemer",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3542,81 +3156,74 @@
     "vocab_index": 142,
     "word": "መጫወት",
     "gloss": "play",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መጫወት ይማራል።",
-        "text": "The child learns to play.",
+        "target": "ውጭ መጫወት ልጆች ይወዳሉ።",
+        "text": "Children love to play outside.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ውጭ",
+            "gloss": "outside"
           },
           {
             "word": "መጫወት",
             "gloss": "play",
-            "transliteration": "mech'awet",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ልጆች",
+            "gloss": "children"
+          },
+          {
+            "word": "ይወዳሉ",
+            "gloss": "love"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መጫወት እሞክራለሁ።",
-        "text": "Now I try to play.",
+        "target": "እግር ኳስ መጫወት እንሂድ።",
+        "text": "Let's go play football.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
+            "word": "እግር",
+            "gloss": "foot"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ኳስ",
+            "gloss": "ball"
           },
           {
             "word": "መጫወት",
             "gloss": "play",
-            "transliteration": "mech'awet",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "እንሂድ",
+            "gloss": "let's go"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መጫወት እንችላለን።",
-        "text": "Tomorrow we can play.",
+        "target": "ከድመት ጋር መጫወት አቁም።",
+        "text": "Stop playing with the cat.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
+            "word": "ከድመት",
+            "gloss": "with the cat"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ጋር",
+            "gloss": "with"
           },
           {
             "word": "መጫወት",
             "gloss": "play",
-            "transliteration": "mech'awet",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "አቁም",
+            "gloss": "stop"
           }
         ]
       }
@@ -3626,101 +3233,74 @@
     "vocab_index": 143,
     "word": "መንሳፈፍ",
     "gloss": "float",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መንሳፈፍ እንፈልጋለን።",
-        "text": "After the lesson, we want to float.",
+        "target": "በውሃ ላይ መንሳፈፍ ቀላል ነው።",
+        "text": "Floating on water is easy.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
+            "word": "በውሃ",
+            "gloss": "on water"
           },
           {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ላይ",
+            "gloss": "on"
           },
           {
             "word": "መንሳፈፍ",
             "gloss": "float",
-            "transliteration": "mensafef",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መንሳፈፍ እሞክራለሁ።",
-        "text": "At home, I try to float.",
+        "target": "ጀልባ መንሳፈፍ ትችላለች።",
+        "text": "A boat can float.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ጀልባ",
+            "gloss": "boat"
           },
           {
             "word": "መንሳፈፍ",
             "gloss": "float",
-            "transliteration": "mensafef",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ትችላለች",
+            "gloss": "can"
           }
         ]
       },
       {
-        "target": "ገበያ በፊት እኔ መንሳፈፍ እፈልጋለሁ።",
-        "text": "Before the market, I want to float.",
+        "target": "ቅጠል በወንዝ መንሳፈፍ ይታያል።",
+        "text": "A leaf can be seen floating on the river.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ቅጠል",
+            "gloss": "leaf"
           },
           {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በወንዝ",
+            "gloss": "on the river"
           },
           {
             "word": "መንሳፈፍ",
             "gloss": "float",
-            "transliteration": "mensafef",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ይታያል",
+            "gloss": "is seen"
           }
         ]
       }
@@ -3730,76 +3310,82 @@
     "vocab_index": 144,
     "word": "መውረድ",
     "gloss": "flow",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መውረድ እፈልጋለሁ።",
-        "text": "I want to flow.",
+        "target": "ውሃ ከተራራ መውረድ ይጀምራል።",
+        "text": "Water begins to flow from the mountain.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "ከተራራ",
+            "gloss": "from the mountain"
           },
           {
             "word": "መውረድ",
             "gloss": "flow",
-            "transliteration": "mewred",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ይጀምራል",
+            "gloss": "begins"
           }
         ]
       },
       {
-        "target": "አንተ መውረድ ትችላለህ?",
-        "text": "Can you flow?",
+        "target": "ወንዝ መውረድ ወደ ባሕር ነው።",
+        "text": "The river's flow is toward the sea.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ወንዝ",
+            "gloss": "river"
           },
           {
             "word": "መውረድ",
             "gloss": "flow",
-            "transliteration": "mewred",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "ወደ",
+            "gloss": "toward"
+          },
+          {
+            "word": "ባሕር",
+            "gloss": "sea"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መውረድ እንፈልጋለን።",
-        "text": "Today we want to flow.",
+        "target": "ደም መውረድ ሲያቆም ጥሩ ነው።",
+        "text": "It is good when blood stops flowing.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ደም",
+            "gloss": "blood"
           },
           {
             "word": "መውረድ",
             "gloss": "flow",
-            "transliteration": "mewred",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ሲያቆም",
+            "gloss": "when it stops"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3809,81 +3395,86 @@
     "vocab_index": 145,
     "word": "መቀዝቀዝ",
     "gloss": "freeze",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መቀዝቀዝ ይፈልጋል።",
-        "text": "The teacher wants to freeze.",
+        "target": "ውሃ በክረምት መቀዝቀዝ ይችላል።",
+        "text": "Water can freeze in winter.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "በክረምት",
+            "gloss": "in winter"
           },
           {
             "word": "መቀዝቀዝ",
             "gloss": "freeze",
-            "transliteration": "meqezqez",
-            "note": "target"
-          },
-          {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
-          }
-        ]
-      },
-      {
-        "target": "ጓደኛ መቀዝቀዝ ይችላል።",
-        "text": "A friend can freeze.",
-        "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
-          {
-            "word": "መቀዝቀዝ",
-            "gloss": "freeze",
-            "transliteration": "meqezqez",
             "note": "target"
           },
           {
             "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "gloss": "can"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መቀዝቀዝ ይማራል።",
-        "text": "At school, the child learns to freeze.",
+        "target": "ስጋ መቀዝቀዝ ለማቆየት ጥሩ ነው።",
+        "text": "Freezing meat is good for keeping it.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ስጋ",
+            "gloss": "meat"
           },
           {
             "word": "መቀዝቀዝ",
             "gloss": "freeze",
-            "transliteration": "meqezqez",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ለማቆየት",
+            "gloss": "to keep"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "እጆች መቀዝቀዝ በብርድ ሲሆን ከባድ ነው።",
+        "text": "When hands freeze in the cold it is hard.",
+        "words": [
+          {
+            "word": "እጆች",
+            "gloss": "hands"
+          },
+          {
+            "word": "መቀዝቀዝ",
+            "gloss": "freeze",
+            "note": "target"
+          },
+          {
+            "word": "በብርድ",
+            "gloss": "in the cold"
+          },
+          {
+            "word": "ሲሆን",
+            "gloss": "when"
+          },
+          {
+            "word": "ከባድ",
+            "gloss": "hard"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3893,81 +3484,78 @@
     "vocab_index": 146,
     "word": "ማበጥ",
     "gloss": "swell",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ማበጥ ይማራል።",
-        "text": "The child learns to swell.",
+        "target": "እግሬ ማበጥ ጀምሯል።",
+        "text": "My foot has begun to swell.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "እግሬ",
+            "gloss": "my foot"
           },
           {
             "word": "ማበጥ",
             "gloss": "swell",
-            "transliteration": "mabeT",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ጀምሯል",
+            "gloss": "has begun"
           }
         ]
       },
       {
-        "target": "አሁን እኔ ማበጥ እሞክራለሁ።",
-        "text": "Now I try to swell.",
+        "target": "ከንፈር ማበጥ ከአለርጂ ሊሆን ይችላል።",
+        "text": "Lip swelling can be from allergy.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ከንፈር",
+            "gloss": "lip"
           },
           {
             "word": "ማበጥ",
             "gloss": "swell",
-            "transliteration": "mabeT",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ከአለርጂ",
+            "gloss": "from allergy"
+          },
+          {
+            "word": "ሊሆን",
+            "gloss": "can be"
+          },
+          {
+            "word": "ይችላል",
+            "gloss": "is able"
           }
         ]
       },
       {
-        "target": "ነገ እኛ ማበጥ እንችላለን።",
-        "text": "Tomorrow we can swell.",
+        "target": "ቁስሉ ማበጥ ካቆመ ጥሩ ነው።",
+        "text": "It is good if the wound stops swelling.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ቁስሉ",
+            "gloss": "the wound"
           },
           {
             "word": "ማበጥ",
             "gloss": "swell",
-            "transliteration": "mabeT",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ካቆመ",
+            "gloss": "if it stopped"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3977,71 +3565,70 @@
     "vocab_index": 147,
     "word": "ፀሐይ",
     "gloss": "sun",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ ፀሐይ አለ።",
-        "text": "There is sun today.",
+        "target": "ፀሐይ በጠዋት ትወጣለች።",
+        "text": "The sun rises in the morning.",
         "words": [
+          {
+            "word": "ፀሐይ",
+            "gloss": "sun",
+            "note": "target"
+          },
+          {
+            "word": "በጠዋት",
+            "gloss": "in the morning"
+          },
+          {
+            "word": "ትወጣለች",
+            "gloss": "rises"
+          }
+        ]
+      },
+      {
+        "target": "ፀሐይ ዛሬ በጣም ትሞቃለች።",
+        "text": "The sun is very hot today.",
+        "words": [
+          {
+            "word": "ፀሐይ",
+            "gloss": "sun",
+            "note": "target"
+          },
           {
             "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "gloss": "today"
           },
           {
-            "word": "ፀሐይ",
-            "gloss": "sun",
-            "transliteration": "TseHey",
-            "note": "target"
+            "word": "በጣም",
+            "gloss": "very"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ትሞቃለች",
+            "gloss": "is hot"
           }
         ]
       },
       {
-        "target": "እኔ ፀሐይ አያለሁ።",
-        "text": "I see the sun.",
+        "target": "ከ ፀሐይ ሥር አትቀመጥ።",
+        "text": "Do not sit under the sun.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ከ",
+            "gloss": "from"
           },
           {
             "word": "ፀሐይ",
             "gloss": "sun",
-            "transliteration": "TseHey",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
-          }
-        ]
-      },
-      {
-        "target": "ውጭ ፀሐይ አለ።",
-        "text": "There is sun outside.",
-        "words": [
-          {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "ሥር",
+            "gloss": "under"
           },
           {
-            "word": "ፀሐይ",
-            "gloss": "sun",
-            "transliteration": "TseHey",
-            "note": "target"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አትቀመጥ",
+            "gloss": "do not sit"
           }
         ]
       }
@@ -4051,76 +3638,66 @@
     "vocab_index": 148,
     "word": "ጨረቃ",
     "gloss": "moon",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ጨረቃ ይመለከታል።",
-        "text": "The child watches the moon.",
+        "target": "ጨረቃ ዛሬ ሙሉ ናት።",
+        "text": "The moon is full tonight.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ጨረቃ",
             "gloss": "moon",
-            "transliteration": "ch'ereqa",
             "note": "target"
           },
           {
-            "word": "ይመለከታል",
-            "gloss": "watches",
-            "transliteration": "ymeleketal"
+            "word": "ዛሬ",
+            "gloss": "today"
+          },
+          {
+            "word": "ሙሉ",
+            "gloss": "full"
+          },
+          {
+            "word": "ናት",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ጨረቃ አለ።",
-        "text": "There is moon in the picture.",
+        "target": "ጨረቃ በሌሊት ትበራለች።",
+        "text": "The moon shines at night.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ጨረቃ",
             "gloss": "moon",
-            "transliteration": "ch'ereqa",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "በሌሊት",
+            "gloss": "at night"
+          },
+          {
+            "word": "ትበራለች",
+            "gloss": "shines"
           }
         ]
       },
       {
-        "target": "ጨረቃ ቅርብ ነው።",
-        "text": "The moon is near.",
+        "target": "ልጆቹ ጨረቃ አዩ።",
+        "text": "The children saw the moon.",
         "words": [
+          {
+            "word": "ልጆቹ",
+            "gloss": "the children"
+          },
           {
             "word": "ጨረቃ",
             "gloss": "moon",
-            "transliteration": "ch'ereqa",
             "note": "target"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "አዩ",
+            "gloss": "saw"
           }
         ]
       }
@@ -4130,76 +3707,62 @@
     "vocab_index": 149,
     "word": "ኮከብ",
     "gloss": "star",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኛ ኮከብ እወዳለሁ።",
-        "text": "We like the star.",
+        "target": "ኮከብ በሰማይ ይበራል።",
+        "text": "A star shines in the sky.",
         "words": [
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
           {
             "word": "ኮከብ",
             "gloss": "star",
-            "transliteration": "kokeb",
             "note": "target"
           },
           {
-            "word": "እወዳለሁ",
-            "gloss": "I like",
-            "transliteration": "ewedalehu"
+            "word": "በሰማይ",
+            "gloss": "in the sky"
+          },
+          {
+            "word": "ይበራል",
+            "gloss": "shines"
           }
         ]
       },
       {
-        "target": "ኮከብ ውጭ ጥሩ ነው።",
-        "text": "The star outside is good.",
+        "target": "ትንሽ ኮከብ አየሁ።",
+        "text": "I saw a small star.",
         "words": [
+          {
+            "word": "ትንሽ",
+            "gloss": "small"
+          },
           {
             "word": "ኮከብ",
             "gloss": "star",
-            "transliteration": "kokeb",
             "note": "target"
           },
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
-          },
-          {
-            "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "አየሁ",
+            "gloss": "I saw"
           }
         ]
       },
       {
-        "target": "ጓደኛ ኮከብ አያለሁ።",
-        "text": "A friend sees the star.",
+        "target": "ኮከብ መቁጠር አልቻልኩም።",
+        "text": "I could not count the stars.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "ኮከብ",
             "gloss": "star",
-            "transliteration": "kokeb",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "መቁጠር",
+            "gloss": "to count"
+          },
+          {
+            "word": "አልቻልኩም",
+            "gloss": "I could not"
           }
         ]
       }
@@ -4209,71 +3772,70 @@
     "vocab_index": 150,
     "word": "ውሃ",
     "gloss": "water",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ ውሃ አለ።",
-        "text": "There is water today.",
+        "target": "ውሃ በየቀኑ መጠጣት አለብን።",
+        "text": "We must drink water every day.",
         "words": [
-          {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
           {
             "word": "ውሃ",
             "gloss": "water",
-            "transliteration": "wha",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "በየቀኑ",
+            "gloss": "every day"
+          },
+          {
+            "word": "መጠጣት",
+            "gloss": "to drink"
+          },
+          {
+            "word": "አለብን",
+            "gloss": "we must"
           }
         ]
       },
       {
-        "target": "እኔ ውሃ አያለሁ።",
-        "text": "I see the water.",
+        "target": "ንጹሕ ውሃ ከምንጭ አመጣሁ።",
+        "text": "I brought clean water from the spring.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ንጹሕ",
+            "gloss": "clean"
           },
           {
             "word": "ውሃ",
             "gloss": "water",
-            "transliteration": "wha",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "ከምንጭ",
+            "gloss": "from the spring"
+          },
+          {
+            "word": "አመጣሁ",
+            "gloss": "I brought"
           }
         ]
       },
       {
-        "target": "ውጭ ውሃ አለ።",
-        "text": "There is water outside.",
+        "target": "ውሃ ለማብሰል ያስፈልጋል።",
+        "text": "Water is needed for cooking.",
         "words": [
-          {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
-          },
           {
             "word": "ውሃ",
             "gloss": "water",
-            "transliteration": "wha",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ለማብሰል",
+            "gloss": "for cooking"
+          },
+          {
+            "word": "ያስፈልጋል",
+            "gloss": "is needed"
           }
         ]
       }
