@@ -3,8 +3,5 @@
   "type": "module",
   "scripts": {
     "build:static-data": "./.venv-tibetan/bin/python scripts/build_static_web_data.py"
-  },
-  "dependencies": {
-    "tibetan-ewts-converter": "2.0.0"
   }
 }

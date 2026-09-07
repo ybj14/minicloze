@@ -21,14 +21,4 @@ ensure_tibetan_python() {
     fi
 
     export MINICLOZE_PYTHON="$python"
-
-    if command -v node >/dev/null 2>&1 && command -v npm >/dev/null 2>&1; then
-        if ! node --input-type=module -e 'import("tibetan-ewts-converter")' >/dev/null 2>&1; then
-            echo "Installing Tibetan THL dependency: tibetan-ewts-converter..."
-            (cd "$ROOT_DIR" && npm install --no-audit --no-fund)
-        fi
-        export MINICLOZE_NODE="${MINICLOZE_NODE:-$(command -v node)}"
-    else
-        echo "Node.js and npm are optional for Tibetan THL phonetics; Wylie will still work." >&2
-    fi
 }

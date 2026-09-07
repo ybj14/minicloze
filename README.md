@@ -19,13 +19,12 @@ A command-line cloze-based language-learning game using the Tatoeba database of 
 To install `minicloze-cli`, the only currently supported frontend, use `cargo install minicloze` (more likely to be up-to-date) or just download a release.
 
 # Tibetan tokenization
-Tibetan (`minicloze tibetan`) uses [Botok](https://pypi.org/project/botok/) for word segmentation, [pyewts](https://pypi.org/project/pyewts/) for Wylie transliteration, and [tibetan-ewts-converter](https://www.npmjs.com/package/tibetan-ewts-converter) for THL phonetics, so cloze prompts hide words rather than whole sentences and show a pronunciation helper line. Install the Python and Node dependencies before playing Tibetan:
+Tibetan (`minicloze tibetan`) uses [Botok](https://pypi.org/project/botok/) for word segmentation, [pyewts](https://pypi.org/project/pyewts/) for Wylie transliteration, with learner-facing Tibetan pinyin / 藏文拼音 (ZWPY) for the pronunciation helper line. Install the Python dependencies before playing Tibetan:
 
 ```bash
 python3 -m pip install botok
 python3 -m pip install "setuptools<81" wheel
 python3 -m pip install --no-build-isolation pyewts
-npm install
 ```
 
 If Botok is installed in a non-default Python, set `MINICLOZE_PYTHON` to that interpreter. For example:
@@ -36,7 +35,7 @@ MINICLOZE_PYTHON=/path/to/python minicloze tibetan
 
 For debugging only, `MINICLOZE_TIBETAN_FALLBACK=syllable` falls back to syllable-level splitting when Botok cannot run.
 
-The local `tibetan-a1` corpus can run without Botok by using a built-in target-word fallback. Install Botok, pyewts, and the Node dependency if you want Wylie plus THL helper text.
+The local `tibetan-a1` corpus can run without Botok by using a built-in target-word fallback. Install Botok and pyewts if you want Wylie plus Tibetan pinyin (ZWPY) helper text.
 
 You can also use the one-step launcher, which runs any language or local corpus. For Tibetan targets such as `tibetan`, `tibetan-a1`, or a future `tibetan-a2`, it creates a local Python environment and installs Botok/pyewts if needed:
 
@@ -92,7 +91,7 @@ For background process control:
 ./webctl.sh logs
 ```
 
-The launchers create or reuse `.venv-tibetan`, install Botok, pyewts, and the THL Node dependency when needed, and export `MINICLOZE_PYTHON` before starting `minicloze-web`. To choose a different address:
+The launchers create or reuse `.venv-tibetan`, install Botok and pyewts when needed, and export `MINICLOZE_PYTHON` before starting `minicloze-web`. To choose a different address:
 
 ```bash
 MINICLOZE_WEB_ADDR=127.0.0.1:4000 ./webctl.sh start
@@ -109,7 +108,7 @@ minicloze tibetan-a1
 minicloze tajik-a1
 ```
 
-Answers can be typed either in the target script or as a Latin transliteration without diacritics. For example, Mongolian `дөрөв` can be answered as `dorov`, and Tibetan `བཀྲ་ཤིས` can be answered as THL `tra shi` or Wylie `bkra shis`.
+Answers can be typed either in the target script or as a Latin transliteration without diacritics. For example, Mongolian `дөрөв` can be answered as `dorov`, and Tibetan `བཀྲ་ཤིས` can be answered as Tibetan pinyin `zha xi` or Wylie `bkra shis`.
 
 ![Example of use with French](french.gif)
 
