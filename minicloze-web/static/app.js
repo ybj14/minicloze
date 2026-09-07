@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260907-2";
+const DATA_VERSION = "static-data-20260908-1";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
