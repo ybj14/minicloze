@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import json
 import shutil
-import subprocess
 from pathlib import Path
 
 try:
@@ -27,6 +26,7 @@ except ImportError:  # pragma: no cover
 
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
+from tibetan_zwpy import romanize_many as romanize_tibetan_zwpy_many
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -105,41 +105,17 @@ def convert_items(converter: pyewts.pyewts, items: list[str]) -> list[str]:
     return [converter.toWylie(item) for item in items]
 
 
-def convert_items_to_thl(items: list[str]) -> list[str]:
-    script = ROOT / "scripts" / "tibetan_thl.mjs"
-    try:
-        result = subprocess.run(
-            ["node", str(script)],
-            input=json.dumps(items, ensure_ascii=False),
-            text=True,
-            capture_output=True,
-            check=True,
-            cwd=ROOT,
-        )
-    except FileNotFoundError as err:
-        raise RuntimeError("Tibetan THL generation requires Node.js") from err
-    except subprocess.CalledProcessError as err:
-        stderr = err.stderr.strip()
-        raise RuntimeError(
-            "Tibetan THL generation requires npm dependencies. "
-            "Run `npm install` from the workspace root. "
-            f"Details: {stderr}"
-        ) from err
-
-    converted = json.loads(result.stdout)
-    if len(converted) != len(items):
-        raise RuntimeError(
-            f"THL converter returned {len(converted)} items for {len(items)} inputs"
-        )
-    return converted
+def convert_items_to_zwpy(items: list[str]) -> list[str]:
+    """Learner-facing Tibetan pinyin (ZWPY / 藏文拼音)."""
+    return romanize_tibetan_zwpy_many(items)
 
 
-def tibetan_token(text: str, wylie: str, thl: str) -> dict[str, str]:
+def tibetan_token(text: str, wylie: str, zwpy: str) -> dict[str, str]:
     token = {"text": text}
     if wylie.strip():
         token["wylie"] = wylie
-    if thl.strip():
-        token["thl"] = thl
+    if zwpy.strip():
+        token["zwpy"] = zwpy
     return token
 
 
@@ -160,16 +136,16 @@ def build_tibetan_tokens(course: str) -> None:
         all_token_texts.extend(token_texts)
 
     all_wylies = convert_items(converter, all_token_texts)
-    all_thls = convert_items_to_thl(all_token_texts)
+    all_zwpys = convert_items_to_zwpy(all_token_texts)
     offset = 0
     for sentence_id, token_texts in sentence_token_texts:
         length = len(token_texts)
         wylies = all_wylies[offset : offset + length]
-        thls = all_thls[offset : offset + length]
+        zwpys = all_zwpys[offset : offset + length]
         offset += length
         tokenized[sentence_id] = [
-            tibetan_token(text, wylie, thl)
-            for text, wylie, thl in zip(token_texts, wylies, thls, strict=True)
+            tibetan_token(text, wylie, zwpy)
+            for text, wylie, zwpy in zip(token_texts, wylies, zwpys, strict=True)
         ]
 
     output_path.write_text(
@@ -349,20 +325,21 @@ def enrich_tibetan_explanations(course: str) -> None:
         for word in sentence.get("words", [])
     ]
     all_wylies = convert_items(converter, all_words)
-    all_thls = convert_items_to_thl(all_words)
+    all_zwpys = convert_items_to_zwpy(all_words)
     offset = 0
 
     for sentence in explanations["data"]:
         words = sentence.get("words", [])
         length = len(words)
         wylies = all_wylies[offset : offset + length]
-        thls = all_thls[offset : offset + length]
+        zwpys = all_zwpys[offset : offset + length]
         offset += length
-        for word, wylie, thl in zip(words, wylies, thls, strict=True):
+        for word, wylie, zwpy in zip(words, wylies, zwpys, strict=True):
             if wylie.strip():
                 word["wylie"] = wylie
-            if thl.strip():
-                word["thl"] = thl
+            if zwpy.strip():
+                word["zwpy"] = zwpy
+            word.pop("thl", None)
 
     path.write_text(
         json.dumps(explanations, ensure_ascii=False, indent=2) + "\n",

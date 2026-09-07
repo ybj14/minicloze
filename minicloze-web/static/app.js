@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260908-1";
+const DATA_VERSION = "static-data-20260908-2";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -931,6 +931,7 @@ function promptTokens(sentence, course, inverse) {
 
 function tokenTransliteration(token) {
   const value =
+    token.zwpy ||
     token.thl ||
     token.paiboon ||
     token.okell ||
@@ -944,6 +945,7 @@ function tokenTransliteration(token) {
 
 function tokenAnswerTransliterations(token) {
   const values = [];
+  pushUniqueTransliteration(values, token.zwpy);
   pushUniqueTransliteration(values, token.thl);
   pushUniqueTransliteration(values, token.wylie);
   pushUniqueTransliteration(values, token.paiboon);
@@ -1356,7 +1358,9 @@ function explanationTransliterations(explanation) {
   if (explanation.wylie) {
     values.push(`Wylie: ${explanation.wylie}`);
   }
-  if (explanation.thl) {
+  if (explanation.zwpy) {
+    values.push(`藏文拼音: ${explanation.zwpy}`);
+  } else if (explanation.thl) {
     values.push(`THL: ${explanation.thl}`);
   }
   if (explanation.paiboon) {
