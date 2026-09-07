@@ -4,6 +4,7 @@ import re
 import sys
 from pathlib import Path
 
+from amharic_transliteration import transliterate as transliterate_amharic
 from armenian_transliteration import romanize as romanize_armenian
 from burmese_okell import romanize as romanize_burmese_okell
 from georgian_transliteration import romanize as romanize_georgian
@@ -517,6 +518,17 @@ def enrich_khmer_words(words):
     return words
 
 
+
+def enrich_amharic_words(words):
+    for word in words:
+        text = str(word.get("word", "")).strip()
+        # Always refresh from Ethi-translit (do not keep stale SERA values).
+        transliteration = transliterate_amharic(text)
+        if transliteration.strip():
+            word["transliteration"] = transliteration
+    return words
+
+
 def enrich_armenian_words(words):
     for word in words:
         text = str(word.get("word", "")).strip()
@@ -589,6 +601,8 @@ def merge_language(lang, config):
                     words = enrich_burmese_words(words)
                 elif lang.startswith("khmer"):
                     words = enrich_khmer_words(words)
+                elif lang.startswith("amharic"):
+                    words = enrich_amharic_words(words)
                 elif lang.startswith("armenian"):
                     words = enrich_armenian_words(words)
                 elif lang.startswith("georgian"):

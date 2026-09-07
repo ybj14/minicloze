@@ -3,71 +3,82 @@
     "vocab_index": 51,
     "word": "ዛፍ",
     "gloss": "tree",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ ዛፍ አለ።",
-        "text": "There is tree today.",
+        "target": "ትልቅ ዛፍ በግቢው አለ።",
+        "text": "There is a big tree in the yard.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "ትልቅ",
+            "gloss": "big"
           },
           {
             "word": "ዛፍ",
             "gloss": "tree",
-            "transliteration": "zaf",
             "note": "target"
           },
           {
+            "word": "በግቢው",
+            "gloss": "in the yard"
+          },
+          {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "እኔ ዛፍ አያለሁ።",
-        "text": "I see the tree.",
+        "target": "ወፎች በ ዛፍ ላይ ይቀመጣሉ።",
+        "text": "Birds sit on the tree.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ወፎች",
+            "gloss": "birds"
+          },
+          {
+            "word": "በ",
+            "gloss": "on"
           },
           {
             "word": "ዛፍ",
             "gloss": "tree",
-            "transliteration": "zaf",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "ላይ",
+            "gloss": "on top"
+          },
+          {
+            "word": "ይቀመጣሉ",
+            "gloss": "sit"
           }
         ]
       },
       {
-        "target": "ውጭ ዛፍ አለ።",
-        "text": "There is tree outside.",
+        "target": "ልጁ ከ ዛፍ ሥር ተቀመጠ።",
+        "text": "The child sat under the tree.",
         "words": [
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "ልጁ",
+            "gloss": "the child"
+          },
+          {
+            "word": "ከ",
+            "gloss": "from"
           },
           {
             "word": "ዛፍ",
             "gloss": "tree",
-            "transliteration": "zaf",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ሥር",
+            "gloss": "under"
+          },
+          {
+            "word": "ተቀመጠ",
+            "gloss": "sat"
           }
         ]
       }
@@ -77,76 +88,82 @@
     "vocab_index": 52,
     "word": "ደን",
     "gloss": "forest",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ደን ይመለከታል።",
-        "text": "The child watches the forest.",
+        "target": "ደን ውስጥ ብዙ እንስሳት አሉ።",
+        "text": "There are many animals in the forest.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ደን",
             "gloss": "forest",
-            "transliteration": "den",
             "note": "target"
           },
           {
-            "word": "ይመለከታል",
-            "gloss": "watches",
-            "transliteration": "ymeleketal"
+            "word": "ውስጥ",
+            "gloss": "inside"
+          },
+          {
+            "word": "ብዙ",
+            "gloss": "many"
+          },
+          {
+            "word": "እንስሳት",
+            "gloss": "animals"
+          },
+          {
+            "word": "አሉ",
+            "gloss": "there are"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ደን አለ።",
-        "text": "There is forest in the picture.",
+        "target": "እኛ ወደ ደን ለመሄድ እንፈልጋለን።",
+        "text": "We want to go to the forest.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "እኛ",
+            "gloss": "we"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
             "word": "ደን",
             "gloss": "forest",
-            "transliteration": "den",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ለመሄድ",
+            "gloss": "to go"
+          },
+          {
+            "word": "እንፈልጋለን",
+            "gloss": "we want"
           }
         ]
       },
       {
-        "target": "ደን ቅርብ ነው።",
-        "text": "The forest is near.",
+        "target": "ጨለማ ደን በሌሊት ያስፈራል።",
+        "text": "A dark forest is scary at night.",
         "words": [
+          {
+            "word": "ጨለማ",
+            "gloss": "dark"
+          },
           {
             "word": "ደን",
             "gloss": "forest",
-            "transliteration": "den",
             "note": "target"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "በሌሊት",
+            "gloss": "at night"
           },
           {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ያስፈራል",
+            "gloss": "scares"
           }
         ]
       }
@@ -156,76 +173,70 @@
     "vocab_index": 53,
     "word": "ልምጭ",
     "gloss": "stick",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኛ ልምጭ እወዳለሁ።",
-        "text": "We like the stick.",
+        "target": "ውሻው ልምጭ አመጣ።",
+        "text": "The dog brought a stick.",
         "words": [
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ውሻው",
+            "gloss": "the dog"
           },
           {
             "word": "ልምጭ",
             "gloss": "stick",
-            "transliteration": "lmch'",
             "note": "target"
           },
           {
-            "word": "እወዳለሁ",
-            "gloss": "I like",
-            "transliteration": "ewedalehu"
+            "word": "አመጣ",
+            "gloss": "brought"
           }
         ]
       },
       {
-        "target": "ልምጭ ውጭ ጥሩ ነው።",
-        "text": "The stick outside is good.",
+        "target": "ልጁ ልምጭ በእጁ ይይዛል።",
+        "text": "The child holds a stick in his hand.",
         "words": [
+          {
+            "word": "ልጁ",
+            "gloss": "the child"
+          },
           {
             "word": "ልምጭ",
             "gloss": "stick",
-            "transliteration": "lmch'",
             "note": "target"
           },
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "በእጁ",
+            "gloss": "in his hand"
           },
           {
-            "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ይይዛል",
+            "gloss": "holds"
           }
         ]
       },
       {
-        "target": "ጓደኛ ልምጭ አያለሁ።",
-        "text": "A friend sees the stick.",
+        "target": "እሳት ለማጋገር ልምጭ እንፈልጋለን።",
+        "text": "We need a stick to start a fire.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "እሳት",
+            "gloss": "fire"
+          },
+          {
+            "word": "ለማጋገር",
+            "gloss": "to light"
           },
           {
             "word": "ልምጭ",
             "gloss": "stick",
-            "transliteration": "lmch'",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "እንፈልጋለን",
+            "gloss": "we need"
           }
         ]
       }
@@ -235,71 +246,74 @@
     "vocab_index": 54,
     "word": "ፍራፍሬ",
     "gloss": "fruit",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ ፍራፍሬ አለ።",
-        "text": "There is fruit today.",
+        "target": "ገበያ ላይ ትኩስ ፍራፍሬ እገዛለሁ።",
+        "text": "I buy fresh fruit at the market.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "ገበያ",
+            "gloss": "market"
+          },
+          {
+            "word": "ላይ",
+            "gloss": "at"
+          },
+          {
+            "word": "ትኩስ",
+            "gloss": "fresh"
           },
           {
             "word": "ፍራፍሬ",
             "gloss": "fruit",
-            "transliteration": "frafrE",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "እገዛለሁ",
+            "gloss": "I buy"
           }
         ]
       },
       {
-        "target": "እኔ ፍራፍሬ አያለሁ።",
-        "text": "I see the fruit.",
+        "target": "ፍራፍሬ በቁርስ ጥሩ ነው።",
+        "text": "Fruit is good for breakfast.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ፍራፍሬ",
             "gloss": "fruit",
-            "transliteration": "frafrE",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "በቁርስ",
+            "gloss": "for breakfast"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ውጭ ፍራፍሬ አለ።",
-        "text": "There is fruit outside.",
+        "target": "እናቴ ፍራፍሬ ታጥባለች።",
+        "text": "My mother washes the fruit.",
         "words": [
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "እናቴ",
+            "gloss": "my mother"
           },
           {
             "word": "ፍራፍሬ",
             "gloss": "fruit",
-            "transliteration": "frafrE",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ታጥባለች",
+            "gloss": "washes"
           }
         ]
       }
@@ -309,76 +323,82 @@
     "vocab_index": 55,
     "word": "ዘር",
     "gloss": "seed",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ዘር ይመለከታል።",
-        "text": "The child watches the seed.",
+        "target": "ገበሬው ዘር በመሬት ላይ ይዘራል።",
+        "text": "The farmer sows seed on the ground.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ገበሬው",
+            "gloss": "the farmer"
           },
           {
             "word": "ዘር",
             "gloss": "seed",
-            "transliteration": "zer",
             "note": "target"
           },
           {
-            "word": "ይመለከታል",
-            "gloss": "watches",
-            "transliteration": "ymeleketal"
-          }
-        ]
-      },
-      {
-        "target": "ስዕል ላይ ዘር አለ።",
-        "text": "There is seed in the picture.",
-        "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "በመሬት",
+            "gloss": "on the ground"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on"
           },
           {
-            "word": "ዘር",
-            "gloss": "seed",
-            "transliteration": "zer",
-            "note": "target"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ይዘራል",
+            "gloss": "sows"
           }
         ]
       },
       {
-        "target": "ዘር ቅርብ ነው።",
-        "text": "The seed is near.",
+        "target": "ከ ዘር ትንሽ ቡቃያ ይወጣል።",
+        "text": "A small sprout grows from the seed.",
         "words": [
+          {
+            "word": "ከ",
+            "gloss": "from"
+          },
           {
             "word": "ዘር",
             "gloss": "seed",
-            "transliteration": "zer",
             "note": "target"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "ትንሽ",
+            "gloss": "small"
+          },
+          {
+            "word": "ቡቃያ",
+            "gloss": "sprout"
+          },
+          {
+            "word": "ይወጣል",
+            "gloss": "comes out"
+          }
+        ]
+      },
+      {
+        "target": "ይህ ዘር ለአትክልት ነው።",
+        "text": "This seed is for vegetables.",
+        "words": [
+          {
+            "word": "ይህ",
+            "gloss": "this"
+          },
+          {
+            "word": "ዘር",
+            "gloss": "seed",
+            "note": "target"
+          },
+          {
+            "word": "ለአትክልት",
+            "gloss": "for vegetables"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       }
@@ -388,76 +408,70 @@
     "vocab_index": 56,
     "word": "ቅጠል",
     "gloss": "leaf",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኛ ቅጠል እወዳለሁ።",
-        "text": "We like the leaf.",
+        "target": "አረንገዴ ቅጠል ከዛፉ ወደቀ።",
+        "text": "A green leaf fell from the tree.",
         "words": [
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "አረንገዴ",
+            "gloss": "green"
           },
           {
             "word": "ቅጠል",
             "gloss": "leaf",
-            "transliteration": "qTel",
             "note": "target"
           },
           {
-            "word": "እወዳለሁ",
-            "gloss": "I like",
-            "transliteration": "ewedalehu"
+            "word": "ከዛፉ",
+            "gloss": "from the tree"
+          },
+          {
+            "word": "ወደቀ",
+            "gloss": "fell"
           }
         ]
       },
       {
-        "target": "ቅጠል ውጭ ጥሩ ነው።",
-        "text": "The leaf outside is good.",
+        "target": "በመኸር ቅጠል ቢጫ ይሆናል።",
+        "text": "In autumn the leaf turns yellow.",
         "words": [
+          {
+            "word": "በመኸር",
+            "gloss": "in autumn"
+          },
           {
             "word": "ቅጠል",
             "gloss": "leaf",
-            "transliteration": "qTel",
             "note": "target"
           },
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "ቢጫ",
+            "gloss": "yellow"
           },
           {
-            "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ይሆናል",
+            "gloss": "becomes"
           }
         ]
       },
       {
-        "target": "ጓደኛ ቅጠል አያለሁ።",
-        "text": "A friend sees the leaf.",
+        "target": "ልጁ ቅጠል ሰብስቧል።",
+        "text": "The child collected leaves.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
             "word": "ቅጠል",
             "gloss": "leaf",
-            "transliteration": "qTel",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "ሰብስቧል",
+            "gloss": "has collected"
           }
         ]
       }
@@ -467,71 +481,74 @@
     "vocab_index": 57,
     "word": "ስር",
     "gloss": "root",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ ስር አለ።",
-        "text": "There is root today.",
+        "target": "ዛፉ ጥልቅ ስር አለው።",
+        "text": "The tree has a deep root.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "ዛፉ",
+            "gloss": "the tree"
+          },
+          {
+            "word": "ጥልቅ",
+            "gloss": "deep"
           },
           {
             "word": "ስር",
             "gloss": "root",
-            "transliteration": "sr",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "እኔ ስር አያለሁ።",
-        "text": "I see the root.",
+        "target": "ስር ውሃ ከመሬት ይወስዳል።",
+        "text": "The root takes water from the earth.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ስር",
             "gloss": "root",
-            "transliteration": "sr",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "ከመሬት",
+            "gloss": "from the earth"
+          },
+          {
+            "word": "ይወስዳል",
+            "gloss": "takes"
           }
         ]
       },
       {
-        "target": "ውጭ ስር አለ።",
-        "text": "There is root outside.",
+        "target": "አትክልቱን ከ ስር ነቀልን።",
+        "text": "We pulled the plant out by the root.",
         "words": [
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "አትክልቱን",
+            "gloss": "the plant"
+          },
+          {
+            "word": "ከ",
+            "gloss": "from"
           },
           {
             "word": "ስር",
             "gloss": "root",
-            "transliteration": "sr",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ነቀልን",
+            "gloss": "we pulled"
           }
         ]
       }
@@ -541,76 +558,66 @@
     "vocab_index": 58,
     "word": "ቅርፊት",
     "gloss": "bark",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ቅርፊት ይመለከታል።",
-        "text": "The child watches the bark.",
+        "target": "የዛፉ ቅርፊት ደረቅ ነው።",
+        "text": "The tree's bark is dry.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "የዛፉ",
+            "gloss": "the tree's"
           },
           {
             "word": "ቅርፊት",
             "gloss": "bark",
-            "transliteration": "qrfit",
             "note": "target"
           },
           {
-            "word": "ይመለከታል",
-            "gloss": "watches",
-            "transliteration": "ymeleketal"
-          }
-        ]
-      },
-      {
-        "target": "ስዕል ላይ ቅርፊት አለ።",
-        "text": "There is bark in the picture.",
-        "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
-          {
-            "word": "ቅርፊት",
-            "gloss": "bark",
-            "transliteration": "qrfit",
-            "note": "target"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ቅርፊት ቅርብ ነው።",
-        "text": "The bark is near.",
-        "words": [
-          {
-            "word": "ቅርፊት",
-            "gloss": "bark",
-            "transliteration": "qrfit",
-            "note": "target"
-          },
-          {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "ደረቅ",
+            "gloss": "dry"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ቅርፊት ዛፉን ይጠብቃል።",
+        "text": "Bark protects the tree.",
+        "words": [
+          {
+            "word": "ቅርፊት",
+            "gloss": "bark",
+            "note": "target"
+          },
+          {
+            "word": "ዛፉን",
+            "gloss": "the tree"
+          },
+          {
+            "word": "ይጠብቃል",
+            "gloss": "protects"
+          }
+        ]
+      },
+      {
+        "target": "ውሻው ቅርፊት ነከሰ።",
+        "text": "The dog chewed the bark.",
+        "words": [
+          {
+            "word": "ውሻው",
+            "gloss": "the dog"
+          },
+          {
+            "word": "ቅርፊት",
+            "gloss": "bark",
+            "note": "target"
+          },
+          {
+            "word": "ነከሰ",
+            "gloss": "bit"
           }
         ]
       }
@@ -620,76 +627,74 @@
     "vocab_index": 59,
     "word": "አበባ",
     "gloss": "flower",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኛ አበባ እወዳለሁ።",
-        "text": "We like the flower.",
+        "target": "በገነት ቀይ አበባ አለ።",
+        "text": "There is a red flower in the garden.",
         "words": [
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "በገነት",
+            "gloss": "in the garden"
+          },
+          {
+            "word": "ቀይ",
+            "gloss": "red"
           },
           {
             "word": "አበባ",
             "gloss": "flower",
-            "transliteration": "ebeba",
             "note": "target"
           },
           {
-            "word": "እወዳለሁ",
-            "gloss": "I like",
-            "transliteration": "ewedalehu"
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "አበባ ውጭ ጥሩ ነው።",
-        "text": "The flower outside is good.",
+        "target": "እሷ አበባ ውሃ ታጠጣለች።",
+        "text": "She waters the flower.",
+        "words": [
+          {
+            "word": "እሷ",
+            "gloss": "she"
+          },
+          {
+            "word": "አበባ",
+            "gloss": "flower",
+            "note": "target"
+          },
+          {
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "ታጠጣለች",
+            "gloss": "waters"
+          }
+        ]
+      },
+      {
+        "target": "አበባ ጥሩ ሽታ አለው።",
+        "text": "The flower has a nice smell.",
         "words": [
           {
             "word": "አበባ",
             "gloss": "flower",
-            "transliteration": "ebeba",
             "note": "target"
-          },
-          {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
           },
           {
             "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
+            "gloss": "nice"
           },
           {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
-          }
-        ]
-      },
-      {
-        "target": "ጓደኛ አበባ አያለሁ።",
-        "text": "A friend sees the flower.",
-        "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ሽታ",
+            "gloss": "smell"
           },
           {
-            "word": "አበባ",
-            "gloss": "flower",
-            "transliteration": "ebeba",
-            "note": "target"
-          },
-          {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       }
@@ -699,71 +704,78 @@
     "vocab_index": 60,
     "word": "ሳር",
     "gloss": "grass",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ ሳር አለ።",
-        "text": "There is grass today.",
+        "target": "ላሞች ሳር ይበላሉ።",
+        "text": "Cows eat grass.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "ላሞች",
+            "gloss": "cows"
           },
           {
             "word": "ሳር",
             "gloss": "grass",
-            "transliteration": "sar",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ይበላሉ",
+            "gloss": "eat"
           }
         ]
       },
       {
-        "target": "እኔ ሳር አያለሁ።",
-        "text": "I see the grass.",
+        "target": "ሳር በዝናብ በኋላ አረንገዴ ነው።",
+        "text": "The grass is green after rain.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ሳር",
             "gloss": "grass",
-            "transliteration": "sar",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "በዝናብ",
+            "gloss": "in the rain"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
+          },
+          {
+            "word": "አረንገዴ",
+            "gloss": "green"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ውጭ ሳር አለ።",
-        "text": "There is grass outside.",
+        "target": "ልጆች በ ሳር ላይ ይጫወታሉ።",
+        "text": "Children play on the grass.",
         "words": [
           {
-            "word": "ውጭ",
-            "gloss": "outside",
-            "transliteration": "wch'"
+            "word": "ልጆች",
+            "gloss": "children"
+          },
+          {
+            "word": "በ",
+            "gloss": "on"
           },
           {
             "word": "ሳር",
             "gloss": "grass",
-            "transliteration": "sar",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ላይ",
+            "gloss": "on top"
+          },
+          {
+            "word": "ይጫወታሉ",
+            "gloss": "play"
           }
         ]
       }
@@ -773,76 +785,78 @@
     "vocab_index": 61,
     "word": "ገመድ",
     "gloss": "rope",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ገመድ ይመለከታል።",
-        "text": "The child watches the rope.",
+        "target": "ገመድ ጠንካራ መሆን አለበት።",
+        "text": "A rope must be strong.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ገመድ",
             "gloss": "rope",
-            "transliteration": "gemed",
             "note": "target"
           },
           {
-            "word": "ይመለከታል",
-            "gloss": "watches",
-            "transliteration": "ymeleketal"
+            "word": "ጠንካራ",
+            "gloss": "strong"
+          },
+          {
+            "word": "መሆን",
+            "gloss": "to be"
+          },
+          {
+            "word": "አለበት",
+            "gloss": "must"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ገመድ አለ።",
-        "text": "There is rope in the picture.",
+        "target": "እሱ ሳጥኑን በ ገመድ አሰረ።",
+        "text": "He tied the box with a rope.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "እሱ",
+            "gloss": "he"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ሳጥኑን",
+            "gloss": "the box"
+          },
+          {
+            "word": "በ",
+            "gloss": "with"
           },
           {
             "word": "ገመድ",
             "gloss": "rope",
-            "transliteration": "gemed",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አሰረ",
+            "gloss": "tied"
           }
         ]
       },
       {
-        "target": "ገመድ ቅርብ ነው።",
-        "text": "The rope is near.",
+        "target": "ጀልባውን በ ገመድ ይጎትታሉ።",
+        "text": "They pull the boat with a rope.",
         "words": [
+          {
+            "word": "ጀልባውን",
+            "gloss": "the boat"
+          },
+          {
+            "word": "በ",
+            "gloss": "with"
+          },
           {
             "word": "ገመድ",
             "gloss": "rope",
-            "transliteration": "gemed",
             "note": "target"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ይጎትታሉ",
+            "gloss": "they pull"
           }
         ]
       }
@@ -852,76 +866,78 @@
     "vocab_index": 62,
     "word": "ቆዳ",
     "gloss": "skin",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ቆዳ ይመረምራል።",
-        "text": "The doctor checks the skin.",
+        "target": "የሰው ቆዳ ለስላሳ ነው።",
+        "text": "Human skin is soft.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "የሰው",
+            "gloss": "human"
           },
           {
             "word": "ቆዳ",
             "gloss": "skin",
-            "transliteration": "qoda",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ለስላሳ",
+            "gloss": "soft"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ቆዳ አለ።",
-        "text": "There is a skin in the picture.",
+        "target": "ፀሐይ ቆዳ ሊያቃጥል ይችላል።",
+        "text": "The sun can burn the skin.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "ፀሐይ",
+            "gloss": "sun"
+          },
+          {
+            "word": "ቆዳ",
+            "gloss": "skin",
+            "note": "target"
+          },
+          {
+            "word": "ሊያቃጥል",
+            "gloss": "can burn"
+          },
+          {
+            "word": "ይችላል",
+            "gloss": "is able"
+          }
+        ]
+      },
+      {
+        "target": "ክሬም በ ቆዳ ላይ እቀባለሁ።",
+        "text": "I put cream on my skin.",
+        "words": [
+          {
+            "word": "ክሬም",
+            "gloss": "cream"
+          },
+          {
+            "word": "በ",
+            "gloss": "on"
+          },
+          {
+            "word": "ቆዳ",
+            "gloss": "skin",
+            "note": "target"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on top"
           },
           {
-            "word": "ቆዳ",
-            "gloss": "skin",
-            "transliteration": "qoda",
-            "note": "target"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ልጅ ቆዳ ይነካል።",
-        "text": "The child touches the skin.",
-        "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
-          {
-            "word": "ቆዳ",
-            "gloss": "skin",
-            "transliteration": "qoda",
-            "note": "target"
-          },
-          {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "እቀባለሁ",
+            "gloss": "I apply"
           }
         ]
       }
@@ -931,71 +947,70 @@
     "vocab_index": 63,
     "word": "ስጋ",
     "gloss": "meat",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ስጋ ንጹሕ ነው።",
-        "text": "The meat is clean.",
+        "target": "በእራት ስጋ እንበላለን።",
+        "text": "We eat meat for dinner.",
         "words": [
+          {
+            "word": "በእራት",
+            "gloss": "for dinner"
+          },
           {
             "word": "ስጋ",
             "gloss": "meat",
-            "transliteration": "sga",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "እንበላለን",
+            "gloss": "we eat"
+          }
+        ]
+      },
+      {
+        "target": "ይህ ስጋ ትኩስ ነው።",
+        "text": "This meat is fresh.",
+        "words": [
+          {
+            "word": "ይህ",
+            "gloss": "this"
+          },
+          {
+            "word": "ስጋ",
+            "gloss": "meat",
+            "note": "target"
+          },
+          {
+            "word": "ትኩስ",
+            "gloss": "fresh"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ ስጋ ያሳያል።",
-        "text": "The teacher shows the meat.",
+        "target": "እሷ ስጋ በወጥ ቤት ታበስላለች።",
+        "text": "She cooks meat in the kitchen.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "እሷ",
+            "gloss": "she"
           },
           {
             "word": "ስጋ",
             "gloss": "meat",
-            "transliteration": "sga",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
-          }
-        ]
-      },
-      {
-        "target": "እኔ ስጋ እሰማለሁ።",
-        "text": "I feel my meat.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በወጥ ቤት",
+            "gloss": "in the kitchen"
           },
           {
-            "word": "ስጋ",
-            "gloss": "meat",
-            "transliteration": "sga",
-            "note": "target"
-          },
-          {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ታበስላለች",
+            "gloss": "cooks"
           }
         ]
       }
@@ -1005,76 +1020,70 @@
     "vocab_index": 64,
     "word": "ደም",
     "gloss": "blood",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ደም ይመረምራል።",
-        "text": "The doctor checks the blood.",
+        "target": "ከቁስሉ ትንሽ ደም ወጣ።",
+        "text": "A little blood came from the wound.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ከቁስሉ",
+            "gloss": "from the wound"
+          },
+          {
+            "word": "ትንሽ",
+            "gloss": "a little"
           },
           {
             "word": "ደም",
             "gloss": "blood",
-            "transliteration": "dem",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ወጣ",
+            "gloss": "came out"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ደም አለ።",
-        "text": "There is a blood in the picture.",
+        "target": "ደም ቀይ ቀለም አለው።",
+        "text": "Blood has a red color.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ደም",
             "gloss": "blood",
-            "transliteration": "dem",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ቀይ",
+            "gloss": "red"
+          },
+          {
+            "word": "ቀለም",
+            "gloss": "color"
+          },
+          {
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ልጅ ደም ይነካል።",
-        "text": "The child touches the blood.",
+        "target": "ሐኪሙ ደም መርመረ።",
+        "text": "The doctor checked the blood.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ሐኪሙ",
+            "gloss": "the doctor"
           },
           {
             "word": "ደም",
             "gloss": "blood",
-            "transliteration": "dem",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "መርመረ",
+            "gloss": "checked"
           }
         ]
       }
@@ -1084,71 +1093,66 @@
     "vocab_index": 65,
     "word": "አጥንት",
     "gloss": "bone",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አጥንት ንጹሕ ነው።",
-        "text": "The bone is clean.",
+        "target": "ውሻው አጥንት ይወዳል።",
+        "text": "The dog loves a bone.",
         "words": [
+          {
+            "word": "ውሻው",
+            "gloss": "the dog"
+          },
           {
             "word": "አጥንት",
             "gloss": "bone",
-            "transliteration": "eTnt",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ይወዳል",
+            "gloss": "loves"
           }
         ]
       },
       {
-        "target": "አስተማሪ አጥንት ያሳያል።",
-        "text": "The teacher shows the bone.",
+        "target": "በእጄ አጥንት አለ።",
+        "text": "There is a bone in my hand.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "በእጄ",
+            "gloss": "in my hand"
           },
           {
             "word": "አጥንት",
             "gloss": "bone",
-            "transliteration": "eTnt",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "እኔ አጥንት እሰማለሁ።",
-        "text": "I feel my bone.",
+        "target": "ዓሳ አጥንት ብዙ አለው።",
+        "text": "Fish has many bones.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ዓሳ",
+            "gloss": "fish"
           },
           {
             "word": "አጥንት",
             "gloss": "bone",
-            "transliteration": "eTnt",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ብዙ",
+            "gloss": "many"
+          },
+          {
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       }
@@ -1158,76 +1162,78 @@
     "vocab_index": 66,
     "word": "ሥብ",
     "gloss": "fat",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ሥብ ይመረምራል።",
-        "text": "The doctor checks the fat.",
+        "target": "ይህ ስጋ ብዙ ሥብ አለው።",
+        "text": "This meat has a lot of fat.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ይህ",
+            "gloss": "this"
+          },
+          {
+            "word": "ስጋ",
+            "gloss": "meat"
+          },
+          {
+            "word": "ብዙ",
+            "gloss": "a lot of"
           },
           {
             "word": "ሥብ",
             "gloss": "fat",
-            "transliteration": "Sb",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ሥብ አለ።",
-        "text": "There is a fat in the picture.",
+        "target": "ሥብ በምግብ ውስጥ አለ።",
+        "text": "There is fat in the food.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ሥብ",
             "gloss": "fat",
-            "transliteration": "Sb",
             "note": "target"
+          },
+          {
+            "word": "በምግብ",
+            "gloss": "in the food"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ልጅ ሥብ ይነካል።",
-        "text": "The child touches the fat.",
+        "target": "እሱ ሥብ መብላት አይወድም።",
+        "text": "He does not like to eat fat.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "እሱ",
+            "gloss": "he"
           },
           {
             "word": "ሥብ",
             "gloss": "fat",
-            "transliteration": "Sb",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "መብላት",
+            "gloss": "to eat"
+          },
+          {
+            "word": "አይወድም",
+            "gloss": "does not like"
           }
         ]
       }
@@ -1237,71 +1243,66 @@
     "vocab_index": 67,
     "word": "እንቁላል",
     "gloss": "egg",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እንቁላል ንጹሕ ነው።",
-        "text": "The egg is clean.",
+        "target": "ዶሮው እንቁላል ጣለ።",
+        "text": "The hen laid an egg.",
         "words": [
+          {
+            "word": "ዶሮው",
+            "gloss": "the hen"
+          },
           {
             "word": "እንቁላል",
             "gloss": "egg",
-            "transliteration": "enqulal",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ጣለ",
+            "gloss": "laid"
           }
         ]
       },
       {
-        "target": "አስተማሪ እንቁላል ያሳያል።",
-        "text": "The teacher shows the egg.",
+        "target": "ለቁርስ እንቁላል እበስላለሁ።",
+        "text": "I cook an egg for breakfast.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ለቁርስ",
+            "gloss": "for breakfast"
           },
           {
             "word": "እንቁላል",
             "gloss": "egg",
-            "transliteration": "enqulal",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "እበስላለሁ",
+            "gloss": "I cook"
           }
         ]
       },
       {
-        "target": "እኔ እንቁላል እሰማለሁ።",
-        "text": "I feel my egg.",
+        "target": "እንቁላል በሳጥን ውስጥ አለ።",
+        "text": "The egg is in the box.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "እንቁላል",
             "gloss": "egg",
-            "transliteration": "enqulal",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "በሳጥን",
+            "gloss": "in the box"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       }
@@ -1311,76 +1312,66 @@
     "vocab_index": 68,
     "word": "ቀንድ",
     "gloss": "horn",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ቀንድ ይመረምራል።",
-        "text": "The doctor checks the horn.",
+        "target": "በሬው ረዥም ቀንድ አለው።",
+        "text": "The ox has a long horn.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "በሬው",
+            "gloss": "the ox"
+          },
+          {
+            "word": "ረዥም",
+            "gloss": "long"
           },
           {
             "word": "ቀንድ",
             "gloss": "horn",
-            "transliteration": "qend",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ቀንድ አለ።",
-        "text": "There is a horn in the picture.",
+        "target": "ቀንድ ጠንካራ ነው።",
+        "text": "A horn is hard.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ቀንድ",
             "gloss": "horn",
-            "transliteration": "qend",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ጠንካራ",
+            "gloss": "hard"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ልጅ ቀንድ ይነካል።",
-        "text": "The child touches the horn.",
+        "target": "እሱ ቀንድ ይነፋል።",
+        "text": "He blows a horn.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "እሱ",
+            "gloss": "he"
           },
           {
             "word": "ቀንድ",
             "gloss": "horn",
-            "transliteration": "qend",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ይነፋል",
+            "gloss": "blows"
           }
         ]
       }
@@ -1390,71 +1381,74 @@
     "vocab_index": 69,
     "word": "ጅራት",
     "gloss": "tail",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጅራት ንጹሕ ነው።",
-        "text": "The tail is clean.",
+        "target": "ድመቷ ጅራት አወዛወዘች።",
+        "text": "The cat wagged its tail.",
         "words": [
+          {
+            "word": "ድመቷ",
+            "gloss": "the cat"
+          },
           {
             "word": "ጅራት",
             "gloss": "tail",
-            "transliteration": "jrat",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "አወዛወዘች",
+            "gloss": "wagged"
           }
         ]
       },
       {
-        "target": "አስተማሪ ጅራት ያሳያል።",
-        "text": "The teacher shows the tail.",
+        "target": "ውሻው በ ጅራት ደስታ ያሳያል።",
+        "text": "The dog shows joy with its tail.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ውሻው",
+            "gloss": "the dog"
+          },
+          {
+            "word": "በ",
+            "gloss": "with"
           },
           {
             "word": "ጅራት",
             "gloss": "tail",
-            "transliteration": "jrat",
             "note": "target"
+          },
+          {
+            "word": "ደስታ",
+            "gloss": "joy"
           },
           {
             "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "gloss": "shows"
           }
         ]
       },
       {
-        "target": "እኔ ጅራት እሰማለሁ።",
-        "text": "I feel my tail.",
+        "target": "አውራሪስ ረጅም ጅራት አለው።",
+        "text": "A monkey has a long tail.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "አውራሪስ",
+            "gloss": "monkey"
+          },
+          {
+            "word": "ረጅም",
+            "gloss": "long"
           },
           {
             "word": "ጅራት",
             "gloss": "tail",
-            "transliteration": "jrat",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       }
@@ -1464,76 +1458,70 @@
     "vocab_index": 70,
     "word": "ላባ",
     "gloss": "feather",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ላባ ይመረምራል።",
-        "text": "The doctor checks the feather.",
+        "target": "ወፉ ለስላሳ ላባ አለው።",
+        "text": "The bird has a soft feather.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ወፉ",
+            "gloss": "the bird"
+          },
+          {
+            "word": "ለስላሳ",
+            "gloss": "soft"
           },
           {
             "word": "ላባ",
             "gloss": "feather",
-            "transliteration": "laba",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ላባ አለ።",
-        "text": "There is a feather in the picture.",
+        "target": "ላባ በንፋስ ይበርራል።",
+        "text": "A feather flies in the wind.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ላባ",
             "gloss": "feather",
-            "transliteration": "laba",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "በንፋስ",
+            "gloss": "in the wind"
+          },
+          {
+            "word": "ይበርራል",
+            "gloss": "flies"
           }
         ]
       },
       {
-        "target": "ልጅ ላባ ይነካል።",
-        "text": "The child touches the feather.",
+        "target": "ልጁ ላባ ከመሬት አነሳ።",
+        "text": "The child picked up a feather from the ground.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
             "word": "ላባ",
             "gloss": "feather",
-            "transliteration": "laba",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ከመሬት",
+            "gloss": "from the ground"
+          },
+          {
+            "word": "አነሳ",
+            "gloss": "picked up"
           }
         ]
       }
@@ -1543,71 +1531,70 @@
     "vocab_index": 71,
     "word": "ጸጉር",
     "gloss": "hair",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጸጉር ንጹሕ ነው።",
-        "text": "The hair is clean.",
+        "target": "ጸጉር ላይ ውሃ አፈሰሰች።",
+        "text": "She poured water on her hair.",
         "words": [
           {
             "word": "ጸጉር",
             "gloss": "hair",
-            "transliteration": "tsegur",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "ላይ",
+            "gloss": "on"
+          },
+          {
+            "word": "ውሃ",
+            "gloss": "water"
+          },
+          {
+            "word": "አፈሰሰች",
+            "gloss": "she poured"
+          }
+        ]
+      },
+      {
+        "target": "የእሱ ጸጉር ጥቁር ነው።",
+        "text": "His hair is black.",
+        "words": [
+          {
+            "word": "የእሱ",
+            "gloss": "his"
+          },
+          {
+            "word": "ጸጉር",
+            "gloss": "hair",
+            "note": "target"
+          },
+          {
+            "word": "ጥቁር",
+            "gloss": "black"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ ጸጉር ያሳያል።",
-        "text": "The teacher shows the hair.",
+        "target": "እሷ ጸጉር ትቦጫለች።",
+        "text": "She combs her hair.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "እሷ",
+            "gloss": "she"
           },
           {
             "word": "ጸጉር",
             "gloss": "hair",
-            "transliteration": "tsegur",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
-          }
-        ]
-      },
-      {
-        "target": "እኔ ጸጉር እሰማለሁ።",
-        "text": "I feel my hair.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ጸጉር",
-            "gloss": "hair",
-            "transliteration": "tsegur",
-            "note": "target"
-          },
-          {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ትቦጫለች",
+            "gloss": "combs"
           }
         ]
       }
@@ -1617,76 +1604,70 @@
     "vocab_index": 72,
     "word": "ጭንቅላት",
     "gloss": "head",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ጭንቅላት ይመረምራል።",
-        "text": "The doctor checks the head.",
+        "target": "ጭንቅላት ማሳረፍ እፈልጋለሁ።",
+        "text": "I want to rest my head.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "ጭንቅላት",
             "gloss": "head",
-            "transliteration": "ch'nqlat",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ማሳረፍ",
+            "gloss": "to rest"
+          },
+          {
+            "word": "እፈልጋለሁ",
+            "gloss": "I want"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ጭንቅላት አለ።",
-        "text": "There is a head in the picture.",
+        "target": "ቆብ በ ጭንቅላት ላይ አድርጋለሁ።",
+        "text": "I put a hat on my head.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "ቆብ",
+            "gloss": "hat"
+          },
+          {
+            "word": "በ",
+            "gloss": "on"
+          },
+          {
+            "word": "ጭንቅላት",
+            "gloss": "head",
+            "note": "target"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on top"
           },
           {
-            "word": "ጭንቅላት",
-            "gloss": "head",
-            "transliteration": "ch'nqlat",
-            "note": "target"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አድርጋለሁ",
+            "gloss": "I put"
           }
         ]
       },
       {
-        "target": "ልጅ ጭንቅላት ይነካል።",
-        "text": "The child touches the head.",
+        "target": "ልጁ ጭንቅላት ነቀነቀ።",
+        "text": "The child nodded his head.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
             "word": "ጭንቅላት",
             "gloss": "head",
-            "transliteration": "ch'nqlat",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ነቀነቀ",
+            "gloss": "nodded"
           }
         ]
       }
@@ -1696,71 +1677,70 @@
     "vocab_index": 73,
     "word": "ጆሮ",
     "gloss": "ear",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጆሮ ንጹሕ ነው።",
-        "text": "The ear is clean.",
+        "target": "በ ጆሮ ድምፅ እሰማለሁ።",
+        "text": "I hear sound with my ear.",
         "words": [
           {
-            "word": "ጆሮ",
-            "gloss": "ear",
-            "transliteration": "joro",
-            "note": "target"
-          },
-          {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
-          }
-        ]
-      },
-      {
-        "target": "አስተማሪ ጆሮ ያሳያል።",
-        "text": "The teacher shows the ear.",
-        "words": [
-          {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "በ",
+            "gloss": "with"
           },
           {
             "word": "ጆሮ",
             "gloss": "ear",
-            "transliteration": "joro",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
-          }
-        ]
-      },
-      {
-        "target": "እኔ ጆሮ እሰማለሁ።",
-        "text": "I feel my ear.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ጆሮ",
-            "gloss": "ear",
-            "transliteration": "joro",
-            "note": "target"
+            "word": "ድምፅ",
+            "gloss": "sound"
           },
           {
             "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "gloss": "I hear"
+          }
+        ]
+      },
+      {
+        "target": "ጆሮ በጥንቃቄ አጽዳ።",
+        "text": "Clean the ear carefully.",
+        "words": [
+          {
+            "word": "ጆሮ",
+            "gloss": "ear",
+            "note": "target"
+          },
+          {
+            "word": "በጥንቃቄ",
+            "gloss": "carefully"
+          },
+          {
+            "word": "አጽዳ",
+            "gloss": "clean"
+          }
+        ]
+      },
+      {
+        "target": "ድመቷ ትልቅ ጆሮ አላት።",
+        "text": "The cat has big ears.",
+        "words": [
+          {
+            "word": "ድመቷ",
+            "gloss": "the cat"
+          },
+          {
+            "word": "ትልቅ",
+            "gloss": "big"
+          },
+          {
+            "word": "ጆሮ",
+            "gloss": "ear",
+            "note": "target"
+          },
+          {
+            "word": "አላት",
+            "gloss": "has"
           }
         ]
       }
@@ -1770,76 +1750,70 @@
     "vocab_index": 74,
     "word": "ዓይን",
     "gloss": "eye",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ዓይን ይመረምራል።",
-        "text": "The doctor checks the eye.",
+        "target": "ዓይን ለማየት ያስፈልጋል።",
+        "text": "The eye is needed for seeing.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "ዓይን",
             "gloss": "eye",
-            "transliteration": "'ayn",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ለማየት",
+            "gloss": "for seeing"
+          },
+          {
+            "word": "ያስፈልጋል",
+            "gloss": "is needed"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ዓይን አለ።",
-        "text": "There is a eye in the picture.",
+        "target": "የእሷ ዓይን ቡናማ ነው።",
+        "text": "Her eye is brown.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "የእሷ",
+            "gloss": "her"
           },
           {
             "word": "ዓይን",
             "gloss": "eye",
-            "transliteration": "'ayn",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ቡናማ",
+            "gloss": "brown"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ልጅ ዓይን ይነካል።",
-        "text": "The child touches the eye.",
+        "target": "አቧራ ወደ ዓይን ገባ።",
+        "text": "Dust went into the eye.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "አቧራ",
+            "gloss": "dust"
+          },
+          {
+            "word": "ወደ",
+            "gloss": "into"
           },
           {
             "word": "ዓይን",
             "gloss": "eye",
-            "transliteration": "'ayn",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ገባ",
+            "gloss": "entered"
           }
         ]
       }
@@ -1849,71 +1823,66 @@
     "vocab_index": 75,
     "word": "አፍንጫ",
     "gloss": "nose",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አፍንጫ ንጹሕ ነው።",
-        "text": "The nose is clean.",
+        "target": "በ አፍንጫ እተነፍሳለሁ።",
+        "text": "I breathe through my nose.",
+        "words": [
+          {
+            "word": "በ",
+            "gloss": "through"
+          },
+          {
+            "word": "አፍንጫ",
+            "gloss": "nose",
+            "note": "target"
+          },
+          {
+            "word": "እተነፍሳለሁ",
+            "gloss": "I breathe"
+          }
+        ]
+      },
+      {
+        "target": "አፍንጫ ቀዝቃዛ ነው።",
+        "text": "The nose is cold.",
         "words": [
           {
             "word": "አፍንጫ",
             "gloss": "nose",
-            "transliteration": "efnch'a",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "ቀዝቃዛ",
+            "gloss": "cold"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ አፍንጫ ያሳያል።",
-        "text": "The teacher shows the nose.",
+        "target": "ውሻው በ አፍንጫ ይሸታል።",
+        "text": "The dog smells with its nose.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ውሻው",
+            "gloss": "the dog"
+          },
+          {
+            "word": "በ",
+            "gloss": "with"
           },
           {
             "word": "አፍንጫ",
             "gloss": "nose",
-            "transliteration": "efnch'a",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
-          }
-        ]
-      },
-      {
-        "target": "እኔ አፍንጫ እሰማለሁ።",
-        "text": "I feel my nose.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "አፍንጫ",
-            "gloss": "nose",
-            "transliteration": "efnch'a",
-            "note": "target"
-          },
-          {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ይሸታል",
+            "gloss": "smells"
           }
         ]
       }
@@ -1923,76 +1892,66 @@
     "vocab_index": 76,
     "word": "አፍ",
     "gloss": "mouth",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም አፍ ይመረምራል።",
-        "text": "The doctor checks the mouth.",
+        "target": "አፍ መክፈት እችላለሁ።",
+        "text": "I can open my mouth.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "አፍ",
             "gloss": "mouth",
-            "transliteration": "ef",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "መክፈት",
+            "gloss": "to open"
+          },
+          {
+            "word": "እችላለሁ",
+            "gloss": "I can"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ አፍ አለ።",
-        "text": "There is a mouth in the picture.",
+        "target": "ምግብ ወደ አፍ አስገባ።",
+        "text": "He put food into his mouth.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "ምግብ",
+            "gloss": "food"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ወደ",
+            "gloss": "into"
           },
           {
             "word": "አፍ",
             "gloss": "mouth",
-            "transliteration": "ef",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አስገባ",
+            "gloss": "put in"
           }
         ]
       },
       {
-        "target": "ልጅ አፍ ይነካል።",
-        "text": "The child touches the mouth.",
+        "target": "ልጁ አፍ ዝጋ።",
+        "text": "The child closed his mouth.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
             "word": "አፍ",
             "gloss": "mouth",
-            "transliteration": "ef",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ዝጋ",
+            "gloss": "closed"
           }
         ]
       }
@@ -2002,71 +1961,70 @@
     "vocab_index": 77,
     "word": "ጥርስ",
     "gloss": "tooth",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጥርስ ንጹሕ ነው።",
-        "text": "The tooth is clean.",
+        "target": "ጥርስ ማጽዳት አስፈላጊ ነው።",
+        "text": "Cleaning the tooth is important.",
         "words": [
           {
             "word": "ጥርስ",
             "gloss": "tooth",
-            "transliteration": "Trs",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "ማጽዳት",
+            "gloss": "cleaning"
+          },
+          {
+            "word": "አስፈላጊ",
+            "gloss": "important"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ ጥርስ ያሳያል።",
-        "text": "The teacher shows the tooth.",
+        "target": "አንድ ጥርስ ያምመኛል።",
+        "text": "One tooth hurts me.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "አንድ",
+            "gloss": "one"
           },
           {
             "word": "ጥርስ",
             "gloss": "tooth",
-            "transliteration": "Trs",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "ያምመኛል",
+            "gloss": "hurts me"
           }
         ]
       },
       {
-        "target": "እኔ ጥርስ እሰማለሁ።",
-        "text": "I feel my tooth.",
+        "target": "ሕፃኑ የመጀመሪያ ጥርስ አለው።",
+        "text": "The baby has a first tooth.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሕፃኑ",
+            "gloss": "the baby"
+          },
+          {
+            "word": "የመጀመሪያ",
+            "gloss": "first"
           },
           {
             "word": "ጥርስ",
             "gloss": "tooth",
-            "transliteration": "Trs",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       }
@@ -2076,76 +2034,66 @@
     "vocab_index": 78,
     "word": "ምላስ",
     "gloss": "tongue",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ምላስ ይመረምራል።",
-        "text": "The doctor checks the tongue.",
+        "target": "በ ምላስ ጣዕም እቀምሳለሁ።",
+        "text": "I taste with my tongue.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "በ",
+            "gloss": "with"
           },
           {
             "word": "ምላስ",
             "gloss": "tongue",
-            "transliteration": "mlas",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ጣዕም",
+            "gloss": "taste"
+          },
+          {
+            "word": "እቀምሳለሁ",
+            "gloss": "I taste"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ምላስ አለ።",
-        "text": "There is a tongue in the picture.",
+        "target": "ምላስ ቀይ ነው።",
+        "text": "The tongue is red.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ምላስ",
             "gloss": "tongue",
-            "transliteration": "mlas",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ቀይ",
+            "gloss": "red"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ልጅ ምላስ ይነካል።",
-        "text": "The child touches the tongue.",
+        "target": "ድመቷ ምላስ አወጣች።",
+        "text": "The cat stuck out its tongue.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ድመቷ",
+            "gloss": "the cat"
           },
           {
             "word": "ምላስ",
             "gloss": "tongue",
-            "transliteration": "mlas",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "አወጣች",
+            "gloss": "stuck out"
           }
         ]
       }
@@ -2155,71 +2103,66 @@
     "vocab_index": 79,
     "word": "ጥፍር",
     "gloss": "nail",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጥፍር ንጹሕ ነው።",
-        "text": "The nail is clean.",
+        "target": "ጥፍር መቁረጥ አለብኝ።",
+        "text": "I need to cut my nail.",
         "words": [
           {
             "word": "ጥፍር",
             "gloss": "nail",
-            "transliteration": "Tfr",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "መቁረጥ",
+            "gloss": "to cut"
           },
           {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "አለብኝ",
+            "gloss": "I must"
           }
         ]
       },
       {
-        "target": "አስተማሪ ጥፍር ያሳያል።",
-        "text": "The teacher shows the nail.",
+        "target": "ረጅም ጥፍር አላት።",
+        "text": "She has a long nail.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ረጅም",
+            "gloss": "long"
           },
           {
             "word": "ጥፍር",
             "gloss": "nail",
-            "transliteration": "Tfr",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "አላት",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "እኔ ጥፍር እሰማለሁ።",
-        "text": "I feel my nail.",
+        "target": "ጥፍር በበር ላይ ሰበረ።",
+        "text": "The nail broke on the door.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ጥፍር",
             "gloss": "nail",
-            "transliteration": "Tfr",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "በበር",
+            "gloss": "on the door"
+          },
+          {
+            "word": "ላይ",
+            "gloss": "on"
+          },
+          {
+            "word": "ሰበረ",
+            "gloss": "broke"
           }
         ]
       }
@@ -2229,76 +2172,74 @@
     "vocab_index": 80,
     "word": "የእግር መዳፍ",
     "gloss": "foot",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም የእግር መዳፍ ይመረምራል።",
-        "text": "The doctor checks the foot.",
+        "target": "የእግር መዳፍ በአሸዋ ላይ ነው።",
+        "text": "The foot is on the sand.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "የእግር መዳፍ",
             "gloss": "foot",
-            "transliteration": "yeegr medaf",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
-          }
-        ]
-      },
-      {
-        "target": "ስዕል ላይ የእግር መዳፍ አለ።",
-        "text": "There is a foot in the picture.",
-        "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "በአሸዋ",
+            "gloss": "on the sand"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on"
           },
           {
-            "word": "የእግር መዳፍ",
-            "gloss": "foot",
-            "transliteration": "yeegr medaf",
-            "note": "target"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ልጅ የእግር መዳፍ ይነካል።",
-        "text": "The child touches the foot.",
+        "target": "የእግር መዳፍ ከረጅም መራመድ በኋላ ደክሟል።",
+        "text": "The foot is tired after a long walk.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "የእግር መዳፍ",
+            "gloss": "foot",
+            "note": "target"
+          },
+          {
+            "word": "ከረጅም",
+            "gloss": "after a long"
+          },
+          {
+            "word": "መራመድ",
+            "gloss": "walk"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
+          },
+          {
+            "word": "ደክሟል",
+            "gloss": "is tired"
+          }
+        ]
+      },
+      {
+        "target": "ጫማ የእግር መዳፍ ይከላከላል።",
+        "text": "A shoe protects the foot.",
+        "words": [
+          {
+            "word": "ጫማ",
+            "gloss": "shoe"
           },
           {
             "word": "የእግር መዳፍ",
             "gloss": "foot",
-            "transliteration": "yeegr medaf",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ይከላከላል",
+            "gloss": "protects"
           }
         ]
       }
@@ -2308,71 +2249,78 @@
     "vocab_index": 81,
     "word": "እግር",
     "gloss": "leg",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እግር ንጹሕ ነው።",
-        "text": "The leg is clean.",
+        "target": "እግር ረጅም ነው።",
+        "text": "The leg is long.",
         "words": [
           {
             "word": "እግር",
             "gloss": "leg",
-            "transliteration": "egr",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "ረጅም",
+            "gloss": "long"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ እግር ያሳያል።",
-        "text": "The teacher shows the leg.",
+        "target": "በ እግር ወደ ትምህርት ቤት እሄዳለሁ።",
+        "text": "I go to school on foot.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "በ",
+            "gloss": "by"
           },
           {
             "word": "እግር",
             "gloss": "leg",
-            "transliteration": "egr",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "ወደ",
+            "gloss": "to"
+          },
+          {
+            "word": "ትምህርት",
+            "gloss": "school"
+          },
+          {
+            "word": "ቤት",
+            "gloss": "house"
+          },
+          {
+            "word": "እሄዳለሁ",
+            "gloss": "I go"
           }
         ]
       },
       {
-        "target": "እኔ እግር እሰማለሁ።",
-        "text": "I feel my leg.",
+        "target": "እግር ከጉልበት በታች ነው።",
+        "text": "The leg is below the knee.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "እግር",
             "gloss": "leg",
-            "transliteration": "egr",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ከጉልበት",
+            "gloss": "from the knee"
+          },
+          {
+            "word": "በታች",
+            "gloss": "below"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2382,76 +2330,70 @@
     "vocab_index": 82,
     "word": "ጉልበት",
     "gloss": "knee",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ጉልበት ይመረምራል።",
-        "text": "The doctor checks the knee.",
+        "target": "ጉልበት ከሩጫ በኋላ ደክሟል።",
+        "text": "The knee is tired after running.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "ጉልበት",
             "gloss": "knee",
-            "transliteration": "gulbet",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ከሩጫ",
+            "gloss": "after running"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
+          },
+          {
+            "word": "ደክሟል",
+            "gloss": "is tired"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ጉልበት አለ።",
-        "text": "There is a knee in the picture.",
+        "target": "ልጁ በ ጉልበት ወደቀ።",
+        "text": "The child fell on his knee.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "በ",
+            "gloss": "on"
           },
           {
             "word": "ጉልበት",
             "gloss": "knee",
-            "transliteration": "gulbet",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ወደቀ",
+            "gloss": "fell"
           }
         ]
       },
       {
-        "target": "ልጅ ጉልበት ይነካል።",
-        "text": "The child touches the knee.",
+        "target": "ጉልበት መታጠፍ ይችላል።",
+        "text": "The knee can bend.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ጉልበት",
             "gloss": "knee",
-            "transliteration": "gulbet",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "መታጠፍ",
+            "gloss": "to bend"
+          },
+          {
+            "word": "ይችላል",
+            "gloss": "can"
           }
         ]
       }
@@ -2461,71 +2403,74 @@
     "vocab_index": 83,
     "word": "እጅ",
     "gloss": "hand",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እጅ ንጹሕ ነው።",
-        "text": "The hand is clean.",
+        "target": "እጅ ማጠብ አስፈላጊ ነው።",
+        "text": "Washing the hand is important.",
         "words": [
           {
             "word": "እጅ",
             "gloss": "hand",
-            "transliteration": "ej",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "ማጠብ",
+            "gloss": "washing"
+          },
+          {
+            "word": "አስፈላጊ",
+            "gloss": "important"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ እጅ ያሳያል።",
-        "text": "The teacher shows the hand.",
+        "target": "መጽሐፉን በ እጅ እይዛለሁ።",
+        "text": "I hold the book in my hand.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "መጽሐፉን",
+            "gloss": "the book"
+          },
+          {
+            "word": "በ",
+            "gloss": "in"
           },
           {
             "word": "እጅ",
             "gloss": "hand",
-            "transliteration": "ej",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "እይዛለሁ",
+            "gloss": "I hold"
           }
         ]
       },
       {
-        "target": "እኔ እጅ እሰማለሁ።",
-        "text": "I feel my hand.",
+        "target": "ቀኝ እጅ ጠንካራ ነው።",
+        "text": "The right hand is strong.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ቀኝ",
+            "gloss": "right"
           },
           {
             "word": "እጅ",
             "gloss": "hand",
-            "transliteration": "ej",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ጠንካራ",
+            "gloss": "strong"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2535,76 +2480,66 @@
     "vocab_index": 84,
     "word": "ክንፍ",
     "gloss": "wing",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ክንፍ ይመረምራል።",
-        "text": "The doctor checks the wing.",
+        "target": "ወፉ ሰፊ ክንፍ አለው።",
+        "text": "The bird has a wide wing.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ወፉ",
+            "gloss": "the bird"
+          },
+          {
+            "word": "ሰፊ",
+            "gloss": "wide"
           },
           {
             "word": "ክንፍ",
             "gloss": "wing",
-            "transliteration": "knf",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ክንፍ አለ።",
-        "text": "There is a wing in the picture.",
+        "target": "ክንፍ ለመብረር ያስፈልጋል።",
+        "text": "A wing is needed for flying.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ክንፍ",
             "gloss": "wing",
-            "transliteration": "knf",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ለመብረር",
+            "gloss": "for flying"
+          },
+          {
+            "word": "ያስፈልጋል",
+            "gloss": "is needed"
           }
         ]
       },
       {
-        "target": "ልጅ ክንፍ ይነካል።",
-        "text": "The child touches the wing.",
+        "target": "ቢራቢሮው ክንፍ አወዛወዘ።",
+        "text": "The butterfly moved its wing.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ቢራቢሮው",
+            "gloss": "the butterfly"
           },
           {
             "word": "ክንፍ",
             "gloss": "wing",
-            "transliteration": "knf",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "አወዛወዘ",
+            "gloss": "moved"
           }
         ]
       }
@@ -2614,71 +2549,70 @@
     "vocab_index": 85,
     "word": "ሆድ",
     "gloss": "belly",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሆድ ንጹሕ ነው።",
-        "text": "The belly is clean.",
+        "target": "ሆድ ጠግቧል።",
+        "text": "The belly is full.",
         "words": [
           {
             "word": "ሆድ",
             "gloss": "belly",
-            "transliteration": "hod",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ጠግቧል",
+            "gloss": "is full"
           }
         ]
       },
       {
-        "target": "አስተማሪ ሆድ ያሳያል።",
-        "text": "The teacher shows the belly.",
+        "target": "ከምግብ በኋላ ሆድ ያርፋል።",
+        "text": "After food the belly rests.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ከምግብ",
+            "gloss": "after food"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
             "word": "ሆድ",
             "gloss": "belly",
-            "transliteration": "hod",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "ያርፋል",
+            "gloss": "rests"
           }
         ]
       },
       {
-        "target": "እኔ ሆድ እሰማለሁ።",
-        "text": "I feel my belly.",
+        "target": "ከብዙ መብላት በኋላ ሆድ ይረጋጋል።",
+        "text": "After eating a lot the belly settles.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ከብዙ",
+            "gloss": "after much"
+          },
+          {
+            "word": "መብላት",
+            "gloss": "eating"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
             "word": "ሆድ",
             "gloss": "belly",
-            "transliteration": "hod",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ይረጋጋል",
+            "gloss": "settles"
           }
         ]
       }
@@ -2688,76 +2622,70 @@
     "vocab_index": 86,
     "word": "ጉሮሮ",
     "gloss": "guts",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ጉሮሮ ይመረምራል።",
-        "text": "The doctor checks the guts.",
+        "target": "ጉሮሮ ደረቅ ነው።",
+        "text": "My throat is dry.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "ጉሮሮ",
             "gloss": "guts",
-            "transliteration": "guroro",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ደረቅ",
+            "gloss": "dry"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ጉሮሮ አለ።",
-        "text": "There is a guts in the picture.",
+        "target": "ውሃ ጉሮሮ ያርሳል።",
+        "text": "Water soothes the throat.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ውሃ",
+            "gloss": "water"
           },
           {
             "word": "ጉሮሮ",
             "gloss": "guts",
-            "transliteration": "guroro",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ያርሳል",
+            "gloss": "soothes"
           }
         ]
       },
       {
-        "target": "ልጅ ጉሮሮ ይነካል።",
-        "text": "The child touches the guts.",
+        "target": "ጉሮሮ ሲያሠቃይ መናገር ከባድ ነው።",
+        "text": "When the throat hurts, speaking is hard.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ጉሮሮ",
             "gloss": "guts",
-            "transliteration": "guroro",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ሲያሠቃይ",
+            "gloss": "when it hurts"
+          },
+          {
+            "word": "መናገር",
+            "gloss": "speaking"
+          },
+          {
+            "word": "ከባድ",
+            "gloss": "hard"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2767,71 +2695,70 @@
     "vocab_index": 87,
     "word": "አንገት",
     "gloss": "neck",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አንገት ንጹሕ ነው።",
-        "text": "The neck is clean.",
+        "target": "አንገት ረጅም ነው።",
+        "text": "The neck is long.",
         "words": [
           {
             "word": "አንገት",
             "gloss": "neck",
-            "transliteration": "enget",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "ረጅም",
+            "gloss": "long"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ አንገት ያሳያል።",
-        "text": "The teacher shows the neck.",
+        "target": "ሻርፍ በ አንገት ላይ አድርጋለሁ።",
+        "text": "I put a scarf on my neck.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ሻርፍ",
+            "gloss": "scarf"
+          },
+          {
+            "word": "በ",
+            "gloss": "on"
           },
           {
             "word": "አንገት",
             "gloss": "neck",
-            "transliteration": "enget",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
+            "word": "ላይ",
+            "gloss": "on top"
+          },
+          {
+            "word": "አድርጋለሁ",
+            "gloss": "I put"
           }
         ]
       },
       {
-        "target": "እኔ አንገት እሰማለሁ።",
-        "text": "I feel my neck.",
+        "target": "አንገት ማዞር እችላለሁ።",
+        "text": "I can turn my neck.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "አንገት",
             "gloss": "neck",
-            "transliteration": "enget",
             "note": "target"
           },
           {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "ማዞር",
+            "gloss": "to turn"
+          },
+          {
+            "word": "እችላለሁ",
+            "gloss": "I can"
           }
         ]
       }
@@ -2841,76 +2768,86 @@
     "vocab_index": 88,
     "word": "ጀርባ",
     "gloss": "back",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ጀርባ ይመረምራል።",
-        "text": "The doctor checks the back.",
+        "target": "ከከባድ ሥራ በኋላ ጀርባ ማረፍ ይፈልጋል።",
+        "text": "After hard work the back needs rest.",
         "words": [
           {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
+            "word": "ከከባድ",
+            "gloss": "after hard"
+          },
+          {
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
             "word": "ጀርባ",
             "gloss": "back",
-            "transliteration": "jerba",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "ማረፍ",
+            "gloss": "to rest"
+          },
+          {
+            "word": "ይፈልጋል",
+            "gloss": "needs"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ጀርባ አለ።",
-        "text": "There is a back in the picture.",
+        "target": "መጽሐፉን በ ጀርባ ተሸክሜያለሁ።",
+        "text": "I carry the book on my back.",
         "words": [
           {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
+            "word": "መጽሐፉን",
+            "gloss": "the book"
+          },
+          {
+            "word": "በ",
+            "gloss": "on"
+          },
+          {
+            "word": "ጀርባ",
+            "gloss": "back",
+            "note": "target"
+          },
+          {
+            "word": "ተሸክሜያለሁ",
+            "gloss": "I am carrying"
+          }
+        ]
+      },
+      {
+        "target": "በ ወንበር ላይ ጀርባ አስቀምጣለሁ።",
+        "text": "I rest my back on the chair.",
+        "words": [
+          {
+            "word": "በ",
+            "gloss": "on"
+          },
+          {
+            "word": "ወንበር",
+            "gloss": "chair"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on top"
           },
           {
             "word": "ጀርባ",
             "gloss": "back",
-            "transliteration": "jerba",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ልጅ ጀርባ ይነካል።",
-        "text": "The child touches the back.",
-        "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
-          {
-            "word": "ጀርባ",
-            "gloss": "back",
-            "transliteration": "jerba",
-            "note": "target"
-          },
-          {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "አስቀምጣለሁ",
+            "gloss": "I place"
           }
         ]
       }
@@ -2920,71 +2857,70 @@
     "vocab_index": 89,
     "word": "ጡት",
     "gloss": "breast",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጡት ንጹሕ ነው።",
-        "text": "The breast is clean.",
+        "target": "እናት ሕፃን ጡት ታጠባለች።",
+        "text": "A mother nurses a baby at the breast.",
+        "words": [
+          {
+            "word": "እናት",
+            "gloss": "mother"
+          },
+          {
+            "word": "ሕፃን",
+            "gloss": "baby"
+          },
+          {
+            "word": "ጡት",
+            "gloss": "breast",
+            "note": "target"
+          },
+          {
+            "word": "ታጠባለች",
+            "gloss": "nurses"
+          }
+        ]
+      },
+      {
+        "target": "ጡት በደረት ላይ ነው።",
+        "text": "The breast is on the chest.",
         "words": [
           {
             "word": "ጡት",
             "gloss": "breast",
-            "transliteration": "Tut",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "በደረት",
+            "gloss": "on the chest"
+          },
+          {
+            "word": "ላይ",
+            "gloss": "on"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ ጡት ያሳያል።",
-        "text": "The teacher shows the breast.",
+        "target": "ሐኪሙ ጡት መረመረ።",
+        "text": "The doctor examined the breast.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ሐኪሙ",
+            "gloss": "the doctor"
           },
           {
             "word": "ጡት",
             "gloss": "breast",
-            "transliteration": "Tut",
             "note": "target"
           },
           {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
-          }
-        ]
-      },
-      {
-        "target": "እኔ ጡት እሰማለሁ።",
-        "text": "I feel my breast.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ጡት",
-            "gloss": "breast",
-            "transliteration": "Tut",
-            "note": "target"
-          },
-          {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "word": "መረመረ",
+            "gloss": "examined"
           }
         ]
       }
@@ -2994,76 +2930,66 @@
     "vocab_index": 90,
     "word": "ልብ",
     "gloss": "heart",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐኪም ልብ ይመረምራል።",
-        "text": "The doctor checks the heart.",
+        "target": "ልብ በፍጥነት ይመታል።",
+        "text": "The heart beats quickly.",
         "words": [
-          {
-            "word": "ሐኪም",
-            "gloss": "doctor",
-            "transliteration": "Hekim"
-          },
           {
             "word": "ልብ",
             "gloss": "heart",
-            "transliteration": "lb",
             "note": "target"
           },
           {
-            "word": "ይመረምራል",
-            "gloss": "checks",
-            "transliteration": "ymeremral"
+            "word": "በፍጥነት",
+            "gloss": "quickly"
+          },
+          {
+            "word": "ይመታል",
+            "gloss": "beats"
           }
         ]
       },
       {
-        "target": "ስዕል ላይ ልብ አለ።",
-        "text": "There is a heart in the picture.",
+        "target": "ልብ በደረት ውስጥ አለ።",
+        "text": "The heart is inside the chest.",
         "words": [
-          {
-            "word": "ስዕል",
-            "gloss": "picture",
-            "transliteration": "s'l"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
           {
             "word": "ልብ",
             "gloss": "heart",
-            "transliteration": "lb",
             "note": "target"
+          },
+          {
+            "word": "በደረት",
+            "gloss": "in the chest"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ልጅ ልብ ይነካል።",
-        "text": "The child touches the heart.",
+        "target": "ደስታ ልብ ያሞቃል።",
+        "text": "Joy warms the heart.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ደስታ",
+            "gloss": "joy"
           },
           {
             "word": "ልብ",
             "gloss": "heart",
-            "transliteration": "lb",
             "note": "target"
           },
           {
-            "word": "ይነካል",
-            "gloss": "touches",
-            "transliteration": "ynekal"
+            "word": "ያሞቃል",
+            "gloss": "warms"
           }
         ]
       }
@@ -3073,71 +2999,70 @@
     "vocab_index": 91,
     "word": "ጉበት",
     "gloss": "liver",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጉበት ንጹሕ ነው።",
-        "text": "The liver is clean.",
+        "target": "ጉበት በሆድ ውስጥ አለ።",
+        "text": "The liver is inside the belly.",
         "words": [
           {
             "word": "ጉበት",
             "gloss": "liver",
-            "transliteration": "gubet",
             "note": "target"
           },
           {
-            "word": "ንጹሕ",
-            "gloss": "clean",
-            "transliteration": "ntsuH"
+            "word": "በሆድ",
+            "gloss": "in the belly"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "ሐኪሙ ጉበት መረመረ።",
+        "text": "The doctor examined the liver.",
+        "words": [
+          {
+            "word": "ሐኪሙ",
+            "gloss": "the doctor"
+          },
+          {
+            "word": "ጉበት",
+            "gloss": "liver",
+            "note": "target"
+          },
+          {
+            "word": "መረመረ",
+            "gloss": "examined"
+          }
+        ]
+      },
+      {
+        "target": "ጤናማ ጉበት አስፈላጊ ነው።",
+        "text": "A healthy liver is important.",
+        "words": [
+          {
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "ጉበት",
+            "gloss": "liver",
+            "note": "target"
+          },
+          {
+            "word": "አስፈላጊ",
+            "gloss": "important"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
-          }
-        ]
-      },
-      {
-        "target": "አስተማሪ ጉበት ያሳያል።",
-        "text": "The teacher shows the liver.",
-        "words": [
-          {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
-          },
-          {
-            "word": "ጉበት",
-            "gloss": "liver",
-            "transliteration": "gubet",
-            "note": "target"
-          },
-          {
-            "word": "ያሳያል",
-            "gloss": "shows",
-            "transliteration": "yasayal"
-          }
-        ]
-      },
-      {
-        "target": "እኔ ጉበት እሰማለሁ።",
-        "text": "I feel my liver.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ጉበት",
-            "gloss": "liver",
-            "transliteration": "gubet",
-            "note": "target"
-          },
-          {
-            "word": "እሰማለሁ",
-            "gloss": "I feel",
-            "transliteration": "esemalehu"
+            "gloss": "is"
           }
         ]
       }
@@ -3147,76 +3072,78 @@
     "vocab_index": 92,
     "word": "መጠጣት",
     "gloss": "drink",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መጠጣት እፈልጋለሁ።",
-        "text": "I want to drink.",
+        "target": "ውሃ መጠጣት ጤናማ ነው።",
+        "text": "Drinking water is healthy.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ውሃ",
+            "gloss": "water"
           },
           {
             "word": "መጠጣት",
             "gloss": "drink",
-            "transliteration": "meTeTat",
+            "note": "target"
+          },
+          {
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ከስፖርት በኋላ ቡና መጠጣት እፈልጋለሁ።",
+        "text": "After sport I want to drink coffee.",
+        "words": [
+          {
+            "word": "ከስፖርት",
+            "gloss": "after sport"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
+          },
+          {
+            "word": "ቡና",
+            "gloss": "coffee"
+          },
+          {
+            "word": "መጠጣት",
+            "gloss": "drink",
             "note": "target"
           },
           {
             "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "gloss": "I want"
           }
         ]
       },
       {
-        "target": "አንተ መጠጣት ትችላለህ?",
-        "text": "Can you drink?",
+        "target": "ልጁ ወተት መጠጣት ይወዳል።",
+        "text": "The child likes to drink milk.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ልጁ",
+            "gloss": "the child"
+          },
+          {
+            "word": "ወተት",
+            "gloss": "milk"
           },
           {
             "word": "መጠጣት",
             "gloss": "drink",
-            "transliteration": "meTeTat",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
-          }
-        ]
-      },
-      {
-        "target": "ዛሬ እኛ መጠጣት እንፈልጋለን።",
-        "text": "Today we want to drink.",
-        "words": [
-          {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "መጠጣት",
-            "gloss": "drink",
-            "transliteration": "meTeTat",
-            "note": "target"
-          },
-          {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ይወዳል",
+            "gloss": "likes"
           }
         ]
       }
@@ -3226,81 +3153,66 @@
     "vocab_index": 93,
     "word": "መብላት",
     "gloss": "eat",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መብላት ይፈልጋል።",
-        "text": "The teacher wants to eat.",
+        "target": "እንጀራ መብላት እወዳለሁ።",
+        "text": "I like to eat injera.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "እንጀራ",
+            "gloss": "injera"
           },
           {
             "word": "መብላት",
             "gloss": "eat",
-            "transliteration": "meblat",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "እወዳለሁ",
+            "gloss": "I like"
           }
         ]
       },
       {
-        "target": "ጓደኛ መብላት ይችላል።",
-        "text": "A friend can eat.",
+        "target": "ጊዜው ምሳ መብላት ነው።",
+        "text": "It is time to eat lunch.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ጊዜው",
+            "gloss": "the time"
+          },
+          {
+            "word": "ምሳ",
+            "gloss": "lunch"
           },
           {
             "word": "መብላት",
             "gloss": "eat",
-            "transliteration": "meblat",
             "note": "target"
           },
           {
-            "word": "ይችላል",
-            "gloss": "can",
-            "transliteration": "ychlal"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ትምህርት ቤት ውስጥ ልጅ መብላት ይማራል።",
-        "text": "At school, the child learns to eat.",
+        "target": "በዝግታ መብላት ይሻላል።",
+        "text": "It is better to eat slowly.",
         "words": [
           {
-            "word": "ትምህርት ቤት",
-            "gloss": "school",
-            "transliteration": "tmhrt bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በዝግታ",
+            "gloss": "slowly"
           },
           {
             "word": "መብላት",
             "gloss": "eat",
-            "transliteration": "meblat",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ይሻላል",
+            "gloss": "is better"
           }
         ]
       }
@@ -3310,76 +3222,74 @@
     "vocab_index": 94,
     "word": "መንከስ",
     "gloss": "bite",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መንከስ አይፈልግም።",
-        "text": "The child does not want to bite.",
+        "target": "ውሻ መንከስ አደገኛ ነው።",
+        "text": "A dog bite is dangerous.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ውሻ",
+            "gloss": "dog"
           },
           {
             "word": "መንከስ",
             "gloss": "bite",
-            "transliteration": "menkes",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "አደገኛ",
+            "gloss": "dangerous"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አስተማሪ መንከስ አይፈቅድም።",
-        "text": "The teacher does not allow anyone to bite.",
+        "target": "እንጀራ መንከስ ቀላል ነው።",
+        "text": "It is easy to bite injera.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "እንጀራ",
+            "gloss": "injera"
           },
           {
             "word": "መንከስ",
             "gloss": "bite",
-            "transliteration": "menkes",
             "note": "target"
           },
           {
-            "word": "አይፈቅድም",
-            "gloss": "does not allow",
-            "transliteration": "eyfeqdm"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መንከስ አንፈልግም።",
-        "text": "Today we do not want to bite.",
+        "target": "ልጁ ፖም መንከስ ጀመረ።",
+        "text": "The child started to bite an apple.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ፖም",
+            "gloss": "apple"
           },
           {
             "word": "መንከስ",
             "gloss": "bite",
-            "transliteration": "menkes",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "ጀመረ",
+            "gloss": "started"
           }
         ]
       }
@@ -3389,101 +3299,74 @@
     "vocab_index": 95,
     "word": "መጥባት",
     "gloss": "suck",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መጥባት እንፈልጋለን።",
-        "text": "After the lesson, we want to suck.",
+        "target": "ሕፃን ወተት መጥባት ይወዳል።",
+        "text": "A baby likes to suck milk.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
+            "word": "ሕፃን",
+            "gloss": "baby"
           },
           {
-            "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ወተት",
+            "gloss": "milk"
           },
           {
             "word": "መጥባት",
             "gloss": "suck",
-            "transliteration": "meTbat",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ይወዳል",
+            "gloss": "likes"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መጥባት እሞክራለሁ።",
-        "text": "At home, I try to suck.",
+        "target": "ጭማቂ በገለባ መጥባት እችላለሁ።",
+        "text": "I can suck juice through a straw.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
+            "word": "ጭማቂ",
+            "gloss": "juice"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በገለባ",
+            "gloss": "with a straw"
           },
           {
             "word": "መጥባት",
             "gloss": "suck",
-            "transliteration": "meTbat",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "እችላለሁ",
+            "gloss": "I can"
           }
         ]
       },
       {
-        "target": "ገበያ በፊት እኔ መጥባት እፈልጋለሁ።",
-        "text": "Before the market, I want to suck.",
+        "target": "መጥባት ለሕፃናት ተፈጥሯዊ ነው።",
+        "text": "Sucking is natural for babies.",
         "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "መጥባት",
             "gloss": "suck",
-            "transliteration": "meTbat",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ለሕፃናት",
+            "gloss": "for babies"
+          },
+          {
+            "word": "ተፈጥሯዊ",
+            "gloss": "natural"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3493,76 +3376,74 @@
     "vocab_index": 96,
     "word": "መትፋት",
     "gloss": "spit",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መትፋት አይፈልግም።",
-        "text": "The child does not want to spit.",
+        "target": "በመንገድ ላይ መትፋት አይገባም።",
+        "text": "Spitting on the road is not proper.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በመንገድ",
+            "gloss": "on the road"
+          },
+          {
+            "word": "ላይ",
+            "gloss": "on"
           },
           {
             "word": "መትፋት",
             "gloss": "spit",
-            "transliteration": "metfat",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "አይገባም",
+            "gloss": "is not proper"
           }
         ]
       },
       {
-        "target": "አስተማሪ መትፋት አይፈቅድም።",
-        "text": "The teacher does not allow anyone to spit.",
+        "target": "መትፋት ከመጀመርህ በፊት አፍህን አጽዳ።",
+        "text": "Clean your mouth before you start to spit.",
         "words": [
-          {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
-          },
           {
             "word": "መትፋት",
             "gloss": "spit",
-            "transliteration": "metfat",
             "note": "target"
           },
           {
-            "word": "አይፈቅድም",
-            "gloss": "does not allow",
-            "transliteration": "eyfeqdm"
+            "word": "ከመጀመርህ",
+            "gloss": "before you start"
+          },
+          {
+            "word": "በፊት",
+            "gloss": "before"
+          },
+          {
+            "word": "አፍህን",
+            "gloss": "your mouth"
+          },
+          {
+            "word": "አጽዳ",
+            "gloss": "clean"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መትፋት አንፈልግም።",
-        "text": "Today we do not want to spit.",
+        "target": "ታካሚው መትፋት አስፈለገው።",
+        "text": "The patient needed to spit.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ታካሚው",
+            "gloss": "the patient"
           },
           {
             "word": "መትፋት",
             "gloss": "spit",
-            "transliteration": "metfat",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "አስፈለገው",
+            "gloss": "needed"
           }
         ]
       }
@@ -3572,81 +3453,70 @@
     "vocab_index": 97,
     "word": "ማስታወክ",
     "gloss": "vomit",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ማስታወክ አይፈልግም።",
-        "text": "A friend does not want to vomit.",
+        "target": "ሕፃኑ ማስታወክ ጀመረ።",
+        "text": "The baby started to vomit.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ሕፃኑ",
+            "gloss": "the baby"
           },
           {
             "word": "ማስታወክ",
             "gloss": "vomit",
-            "transliteration": "mastawek",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ጀመረ",
+            "gloss": "started"
           }
         ]
       },
       {
-        "target": "አስተማሪ ማስታወክ አይፈልግም።",
-        "text": "The teacher does not want to vomit.",
+        "target": "ከታመምኩ በኋላ ማስታወክ ተሰማኝ።",
+        "text": "After I got sick I felt like vomiting.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ከታመምኩ",
+            "gloss": "after I got sick"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
             "word": "ማስታወክ",
             "gloss": "vomit",
-            "transliteration": "mastawek",
             "note": "target"
           },
           {
-            "word": "አይፈልግም",
-            "gloss": "does not want",
-            "transliteration": "eyfelgm"
+            "word": "ተሰማኝ",
+            "gloss": "I felt"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኛ ማስታወክ አንፈልግም።",
-        "text": "At home, we do not want to vomit.",
+        "target": "ማስታወክ ምልክት ሊሆን ይችላል።",
+        "text": "Vomiting can be a symptom.",
         "words": [
-          {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
-          },
-          {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
           {
             "word": "ማስታወክ",
             "gloss": "vomit",
-            "transliteration": "mastawek",
             "note": "target"
           },
           {
-            "word": "አንፈልግም",
-            "gloss": "we do not want",
-            "transliteration": "enfelgm"
+            "word": "ምልክት",
+            "gloss": "symptom"
+          },
+          {
+            "word": "ሊሆን",
+            "gloss": "can be"
+          },
+          {
+            "word": "ይችላል",
+            "gloss": "is able"
           }
         ]
       }
@@ -3656,81 +3526,74 @@
     "vocab_index": 98,
     "word": "መንፋት",
     "gloss": "blow",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ መንፋት ይማራል።",
-        "text": "The child learns to blow.",
+        "target": "ሻማ መንፋት ቀላል ነው።",
+        "text": "It is easy to blow out a candle.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ሻማ",
+            "gloss": "candle"
           },
           {
             "word": "መንፋት",
             "gloss": "blow",
-            "transliteration": "menfat",
             "note": "target"
           },
           {
-            "word": "ይማራል",
-            "gloss": "learns",
-            "transliteration": "ymaral"
+            "word": "ቀላል",
+            "gloss": "easy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "አሁን እኔ መንፋት እሞክራለሁ።",
-        "text": "Now I try to blow.",
+        "target": "ንፋሱ አቧራ መንፋት ይችላል።",
+        "text": "The wind can blow dust.",
         "words": [
           {
-            "word": "አሁን",
-            "gloss": "now",
-            "transliteration": "ehun"
+            "word": "ንፋሱ",
+            "gloss": "the wind"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "አቧራ",
+            "gloss": "dust"
           },
           {
             "word": "መንፋት",
             "gloss": "blow",
-            "transliteration": "menfat",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
+            "word": "ይችላል",
+            "gloss": "can"
           }
         ]
       },
       {
-        "target": "ነገ እኛ መንፋት እንችላለን።",
-        "text": "Tomorrow we can blow.",
+        "target": "ልጁ ፊኛ መንፋት ይወዳል።",
+        "text": "The child likes to blow a balloon.",
         "words": [
           {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege"
+            "word": "ልጁ",
+            "gloss": "the child"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ፊኛ",
+            "gloss": "balloon"
           },
           {
             "word": "መንፋት",
             "gloss": "blow",
-            "transliteration": "menfat",
             "note": "target"
           },
           {
-            "word": "እንችላለን",
-            "gloss": "we can",
-            "transliteration": "enchlalen"
+            "word": "ይወዳል",
+            "gloss": "likes"
           }
         ]
       }
@@ -3740,101 +3603,78 @@
     "vocab_index": 99,
     "word": "መተንፈስ",
     "gloss": "breathe",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትምህርት በኋላ እኛ መተንፈስ እንፈልጋለን።",
-        "text": "After the lesson, we want to breathe.",
+        "target": "በጥልቀት መተንፈስ ያርፋል።",
+        "text": "Breathing deeply relaxes you.",
         "words": [
           {
-            "word": "ትምህርት",
-            "gloss": "lesson",
-            "transliteration": "tmhrt"
+            "word": "በጥልቀት",
+            "gloss": "deeply"
+          },
+          {
+            "word": "መተንፈስ",
+            "gloss": "breathe",
+            "note": "target"
+          },
+          {
+            "word": "ያርፋል",
+            "gloss": "relaxes"
+          }
+        ]
+      },
+      {
+        "target": "ከሩጫ በኋላ መተንፈስ ከባድ ነው።",
+        "text": "After a run, breathing is hard.",
+        "words": [
+          {
+            "word": "ከሩጫ",
+            "gloss": "after a run"
           },
           {
             "word": "በኋላ",
-            "gloss": "after",
-            "transliteration": "behwala"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "gloss": "after"
           },
           {
             "word": "መተንፈስ",
             "gloss": "breathe",
-            "transliteration": "metenfes",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ከባድ",
+            "gloss": "hard"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤት ውስጥ እኔ መተንፈስ እሞክራለሁ።",
-        "text": "At home, I try to breathe.",
+        "target": "ንጹህ አየር መተንፈስ ጥሩ ነው።",
+        "text": "Breathing clean air is good.",
         "words": [
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
+            "word": "ንጹህ",
+            "gloss": "clean"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "አየር",
+            "gloss": "air"
           },
           {
             "word": "መተንፈስ",
             "gloss": "breathe",
-            "transliteration": "metenfes",
             "note": "target"
           },
           {
-            "word": "እሞክራለሁ",
-            "gloss": "I try",
-            "transliteration": "emokralehu"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ በፊት እኔ መተንፈስ እፈልጋለሁ።",
-        "text": "Before the market, I want to breathe.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ጥሩ",
+            "gloss": "good"
           },
           {
-            "word": "በፊት",
-            "gloss": "before",
-            "transliteration": "befit"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "መተንፈስ",
-            "gloss": "breathe",
-            "transliteration": "metenfes",
-            "note": "target"
-          },
-          {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3844,76 +3684,66 @@
     "vocab_index": 100,
     "word": "መሳቅ",
     "gloss": "laugh",
-    "source": "Wiktionary Swadesh Amharic seed",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ መሳቅ እፈልጋለሁ።",
-        "text": "I want to laugh.",
+        "target": "ጓደኛዬ መሳቅ ይወዳል።",
+        "text": "My friend likes to laugh.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ጓደኛዬ",
+            "gloss": "my friend"
           },
           {
             "word": "መሳቅ",
             "gloss": "laugh",
-            "transliteration": "mesaq",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ይወዳል",
+            "gloss": "likes"
           }
         ]
       },
       {
-        "target": "አንተ መሳቅ ትችላለህ?",
-        "text": "Can you laugh?",
+        "target": "ፊልሙ መሳቅ አስገደደን።",
+        "text": "The film made us laugh.",
         "words": [
           {
-            "word": "አንተ",
-            "gloss": "you",
-            "transliteration": "ente"
+            "word": "ፊልሙ",
+            "gloss": "the film"
           },
           {
             "word": "መሳቅ",
             "gloss": "laugh",
-            "transliteration": "mesaq",
             "note": "target"
           },
           {
-            "word": "ትችላለህ",
-            "gloss": "you can",
-            "transliteration": "tchlaleh"
+            "word": "አስገደደን",
+            "gloss": "forced us"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ መሳቅ እንፈልጋለን።",
-        "text": "Today we want to laugh.",
+        "target": "ከልብ መሳቅ ደስ ያሰኛል።",
+        "text": "Laughing from the heart feels good.",
         "words": [
           {
-            "word": "ዛሬ",
-            "gloss": "today",
-            "transliteration": "zarE"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ከልብ",
+            "gloss": "from the heart"
           },
           {
             "word": "መሳቅ",
             "gloss": "laugh",
-            "transliteration": "mesaq",
             "note": "target"
           },
           {
-            "word": "እንፈልጋለን",
-            "gloss": "we want",
-            "transliteration": "enfelgalen"
+            "word": "ደስ",
+            "gloss": "pleasant"
+          },
+          {
+            "word": "ያሰኛል",
+            "gloss": "makes one feel"
           }
         ]
       }

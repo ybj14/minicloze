@@ -3,81 +3,74 @@
     "vocab_index": 251,
     "word": "ቤተ መጻሕፍት",
     "gloss": "library",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ቤተ መጻሕፍት ይጠብቃል።",
-        "text": "A friend waits at the library.",
+        "target": "ቤተ መጻሕፍት ጸጥ ያለ ነው።",
+        "text": "The library is quiet.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "ቤተ መጻሕፍት",
             "gloss": "library",
-            "transliteration": "bEte metsaHft",
             "note": "target"
           },
           {
-            "word": "ይጠብቃል",
-            "gloss": "waits at",
-            "transliteration": "yTebqal"
-          }
-        ]
-      },
-      {
-        "target": "ይህ ቤተ መጻሕፍት ጥሩ ነው።",
-        "text": "This library is good.",
-        "words": [
-          {
-            "word": "ይህ",
-            "gloss": "this",
-            "transliteration": "yh"
+            "word": "ጸጥ",
+            "gloss": "quiet"
           },
           {
-            "word": "ቤተ መጻሕፍት",
-            "gloss": "library",
-            "transliteration": "bEte metsaHft",
-            "note": "target"
-          },
-          {
-            "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
+            "word": "ያለ",
+            "gloss": "being"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቤተ መጻሕፍት ገበያ ቅርብ አለ።",
-        "text": "The library is near the market.",
+        "target": "መጽሐፍ ከ ቤተ መጻሕፍት ተበደርኩ።",
+        "text": "I borrowed a book from the library.",
         "words": [
+          {
+            "word": "መጽሐፍ",
+            "gloss": "book"
+          },
+          {
+            "word": "ከ",
+            "gloss": "from"
+          },
           {
             "word": "ቤተ መጻሕፍት",
             "gloss": "library",
-            "transliteration": "bEte metsaHft",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ተበደርኩ",
+            "gloss": "I borrowed"
+          }
+        ]
+      },
+      {
+        "target": "ተማሪዎች ወደ ቤተ መጻሕፍት ይሄዳሉ።",
+        "text": "Students go to the library.",
+        "words": [
+          {
+            "word": "ተማሪዎች",
+            "gloss": "students"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ቤተ መጻሕፍት",
+            "gloss": "library",
+            "note": "target"
+          },
+          {
+            "word": "ይሄዳሉ",
+            "gloss": "go"
           }
         ]
       }
@@ -87,81 +80,78 @@
     "vocab_index": 252,
     "word": "ክፍል",
     "gloss": "room",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ወደ ክፍል እሄዳለሁ።",
-        "text": "I go to the room.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ወደ",
-            "gloss": "to",
-            "transliteration": "wede"
-          },
-          {
-            "word": "ክፍል",
-            "gloss": "room",
-            "transliteration": "kfl",
-            "note": "target"
-          },
-          {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
-          }
-        ]
-      },
-      {
-        "target": "ክፍል ቅርብ ነው።",
-        "text": "The room is near.",
+        "target": "ክፍል ትልቅ እና ብሩህ ነው።",
+        "text": "The room is big and bright.",
         "words": [
           {
             "word": "ክፍል",
             "gloss": "room",
-            "transliteration": "kfl",
             "note": "target"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "ትልቅ",
+            "gloss": "big"
+          },
+          {
+            "word": "እና",
+            "gloss": "and"
+          },
+          {
+            "word": "ብሩህ",
+            "gloss": "bright"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ጓደኛ ክፍል ውስጥ አለ።",
-        "text": "A friend is inside the room.",
+        "target": "በ ክፍል ውስጥ ወንበር አለ።",
+        "text": "There is a chair in the room.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "በ",
+            "gloss": "in"
           },
           {
             "word": "ክፍል",
             "gloss": "room",
-            "transliteration": "kfl",
             "note": "target"
           },
           {
             "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "gloss": "inside"
+          },
+          {
+            "word": "ወንበር",
+            "gloss": "chair"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "ክፍል ማጽዳት አለብኝ።",
+        "text": "I must clean the room.",
+        "words": [
+          {
+            "word": "ክፍል",
+            "gloss": "room",
+            "note": "target"
+          },
+          {
+            "word": "ማጽዳት",
+            "gloss": "to clean"
+          },
+          {
+            "word": "አለብኝ",
+            "gloss": "I must"
           }
         ]
       }
@@ -171,81 +161,78 @@
     "vocab_index": 253,
     "word": "መኝታ ክፍል",
     "gloss": "bedroom",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ ወደ መኝታ ክፍል ይሄዳል።",
-        "text": "The teacher goes to the bedroom.",
+        "target": "መኝታ ክፍል ጨለማ እና ምቹ ነው።",
+        "text": "The bedroom is dark and comfortable.",
         "words": [
-          {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
-          },
-          {
-            "word": "ወደ",
-            "gloss": "to",
-            "transliteration": "wede"
-          },
           {
             "word": "መኝታ ክፍል",
             "gloss": "bedroom",
-            "transliteration": "menyta kfl",
             "note": "target"
           },
           {
-            "word": "ይሄዳል",
-            "gloss": "goes",
-            "transliteration": "yhEdal"
+            "word": "ጨለማ",
+            "gloss": "dark"
+          },
+          {
+            "word": "እና",
+            "gloss": "and"
+          },
+          {
+            "word": "ምቹ",
+            "gloss": "comfortable"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "መኝታ ክፍል መንገድ ቅርብ አለ።",
-        "text": "The bedroom is near the road.",
+        "target": "አልጋ በ መኝታ ክፍል አለ።",
+        "text": "There is a bed in the bedroom.",
         "words": [
+          {
+            "word": "አልጋ",
+            "gloss": "bed"
+          },
+          {
+            "word": "በ",
+            "gloss": "in"
+          },
           {
             "word": "መኝታ ክፍል",
             "gloss": "bedroom",
-            "transliteration": "menyta kfl",
             "note": "target"
-          },
-          {
-            "word": "መንገድ",
-            "gloss": "road",
-            "transliteration": "menged"
-          },
-          {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "እኔ መኝታ ክፍል አያለሁ።",
-        "text": "I see the bedroom.",
+        "target": "ሌሊት ወደ መኝታ ክፍል እገባለሁ።",
+        "text": "At night I enter the bedroom.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሌሊት",
+            "gloss": "night"
+          },
+          {
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
             "word": "መኝታ ክፍል",
             "gloss": "bedroom",
-            "transliteration": "menyta kfl",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "እገባለሁ",
+            "gloss": "I enter"
           }
         ]
       }
@@ -255,81 +242,70 @@
     "vocab_index": 254,
     "word": "ወጥ ቤት",
     "gloss": "kitchen",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ወጥ ቤት ይጠብቃል።",
-        "text": "A friend waits at the kitchen.",
+        "target": "ወጥ ቤት ሙቅ ነው።",
+        "text": "The kitchen is warm.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "ወጥ ቤት",
             "gloss": "kitchen",
-            "transliteration": "weT bEt",
             "note": "target"
           },
           {
-            "word": "ይጠብቃል",
-            "gloss": "waits at",
-            "transliteration": "yTebqal"
-          }
-        ]
-      },
-      {
-        "target": "ይህ ወጥ ቤት ጥሩ ነው።",
-        "text": "This kitchen is good.",
-        "words": [
-          {
-            "word": "ይህ",
-            "gloss": "this",
-            "transliteration": "yh"
-          },
-          {
-            "word": "ወጥ ቤት",
-            "gloss": "kitchen",
-            "transliteration": "weT bEt",
-            "note": "target"
-          },
-          {
-            "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
+            "word": "ሙቅ",
+            "gloss": "warm"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ወጥ ቤት ገበያ ቅርብ አለ።",
-        "text": "The kitchen is near the market.",
+        "target": "እናቴ በ ወጥ ቤት ትበስላለች።",
+        "text": "My mother cooks in the kitchen.",
         "words": [
+          {
+            "word": "እናቴ",
+            "gloss": "my mother"
+          },
+          {
+            "word": "በ",
+            "gloss": "in"
+          },
           {
             "word": "ወጥ ቤት",
             "gloss": "kitchen",
-            "transliteration": "weT bEt",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ትበስላለች",
+            "gloss": "cooks"
+          }
+        ]
+      },
+      {
+        "target": "ሳህኖች በ ወጥ ቤት አሉ።",
+        "text": "Plates are in the kitchen.",
+        "words": [
+          {
+            "word": "ሳህኖች",
+            "gloss": "plates"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "በ",
+            "gloss": "in"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ወጥ ቤት",
+            "gloss": "kitchen",
+            "note": "target"
+          },
+          {
+            "word": "አሉ",
+            "gloss": "are"
           }
         ]
       }
@@ -339,81 +315,70 @@
     "vocab_index": 255,
     "word": "መታጠቢያ ቤት",
     "gloss": "bathroom",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ወደ መታጠቢያ ቤት እሄዳለሁ።",
-        "text": "I go to the bathroom.",
-        "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "ወደ",
-            "gloss": "to",
-            "transliteration": "wede"
-          },
-          {
-            "word": "መታጠቢያ ቤት",
-            "gloss": "bathroom",
-            "transliteration": "metaTebiya bEt",
-            "note": "target"
-          },
-          {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
-          }
-        ]
-      },
-      {
-        "target": "መታጠቢያ ቤት ቅርብ ነው።",
-        "text": "The bathroom is near.",
+        "target": "መታጠቢያ ቤት ንጹህ ነው።",
+        "text": "The bathroom is clean.",
         "words": [
           {
             "word": "መታጠቢያ ቤት",
             "gloss": "bathroom",
-            "transliteration": "metaTebiya bEt",
             "note": "target"
           },
           {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
+            "word": "ንጹህ",
+            "gloss": "clean"
           },
           {
             "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ጓደኛ መታጠቢያ ቤት ውስጥ አለ።",
-        "text": "A friend is inside the bathroom.",
+        "target": "ሳሙና በ መታጠቢያ ቤት አለ።",
+        "text": "There is soap in the bathroom.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ሳሙና",
+            "gloss": "soap"
+          },
+          {
+            "word": "በ",
+            "gloss": "in"
           },
           {
             "word": "መታጠቢያ ቤት",
             "gloss": "bathroom",
-            "transliteration": "metaTebiya bEt",
             "note": "target"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "አለ",
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "እጄን በ መታጠቢያ ቤት እታጠባለሁ።",
+        "text": "I wash my hands in the bathroom.",
+        "words": [
+          {
+            "word": "እጄን",
+            "gloss": "my hands"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "በ",
+            "gloss": "in"
+          },
+          {
+            "word": "መታጠቢያ ቤት",
+            "gloss": "bathroom",
+            "note": "target"
+          },
+          {
+            "word": "እታጠባለሁ",
+            "gloss": "I wash"
           }
         ]
       }
@@ -423,81 +388,70 @@
     "vocab_index": 256,
     "word": "ግቢ",
     "gloss": "yard",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ ወደ ግቢ ይሄዳል።",
-        "text": "The teacher goes to the yard.",
+        "target": "ልጆች በ ግቢ ይጫወታሉ።",
+        "text": "Children play in the yard.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "ልጆች",
+            "gloss": "children"
           },
           {
-            "word": "ወደ",
-            "gloss": "to",
-            "transliteration": "wede"
+            "word": "በ",
+            "gloss": "in"
           },
           {
             "word": "ግቢ",
             "gloss": "yard",
-            "transliteration": "gbi",
             "note": "target"
           },
           {
-            "word": "ይሄዳል",
-            "gloss": "goes",
-            "transliteration": "yhEdal"
+            "word": "ይጫወታሉ",
+            "gloss": "play"
           }
         ]
       },
       {
-        "target": "ግቢ መንገድ ቅርብ አለ።",
-        "text": "The yard is near the road.",
+        "target": "ዛፍ በ ግቢ አለ።",
+        "text": "There is a tree in the yard.",
         "words": [
+          {
+            "word": "ዛፍ",
+            "gloss": "tree"
+          },
+          {
+            "word": "በ",
+            "gloss": "in"
+          },
           {
             "word": "ግቢ",
             "gloss": "yard",
-            "transliteration": "gbi",
             "note": "target"
-          },
-          {
-            "word": "መንገድ",
-            "gloss": "road",
-            "transliteration": "menged"
-          },
-          {
-            "word": "ቅርብ",
-            "gloss": "near",
-            "transliteration": "qrb"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "እኔ ግቢ አያለሁ።",
-        "text": "I see the yard.",
+        "target": "ግቢ ማጽዳት አለብን።",
+        "text": "We must clean the yard.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ግቢ",
             "gloss": "yard",
-            "transliteration": "gbi",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "ማጽዳት",
+            "gloss": "to clean"
+          },
+          {
+            "word": "አለብን",
+            "gloss": "we must"
           }
         ]
       }
@@ -507,71 +461,70 @@
     "vocab_index": 257,
     "word": "ዛሬ",
     "gloss": "today",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዛሬ እኔ እመጣለሁ።",
-        "text": "I come today.",
+        "target": "ዛሬ ትምህርት አለ።",
+        "text": "There is class today.",
         "words": [
           {
             "word": "ዛሬ",
             "gloss": "today",
-            "transliteration": "zarE",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ትምህርት",
+            "gloss": "class"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ዛሬ እኛ እንማራለን።",
-        "text": "We study today.",
+        "target": "ዛሬ የአየር ሁኔታ ጥሩ ነው።",
+        "text": "The weather is good today.",
         "words": [
           {
             "word": "ዛሬ",
             "gloss": "today",
-            "transliteration": "zarE",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "የአየር",
+            "gloss": "weather"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ሁኔታ",
+            "gloss": "condition"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዛሬ ገበያ እሄዳለሁ።",
-        "text": "I go to the market today.",
+        "target": "ዛሬ ጓደኛዬን አያለሁ።",
+        "text": "I see my friend today.",
         "words": [
           {
             "word": "ዛሬ",
             "gloss": "today",
-            "transliteration": "zarE",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ጓደኛዬን",
+            "gloss": "my friend"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "አያለሁ",
+            "gloss": "I see"
           }
         ]
       }
@@ -581,71 +534,70 @@
     "vocab_index": 258,
     "word": "ነገ",
     "gloss": "tomorrow",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ነገ እኔ እመጣለሁ።",
-        "text": "I come tomorrow.",
+        "target": "ነገ ወደ ገበያ እሄዳለሁ።",
+        "text": "I will go to the market tomorrow.",
         "words": [
           {
             "word": "ነገ",
             "gloss": "tomorrow",
-            "transliteration": "nege",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
-          }
-        ]
-      },
-      {
-        "target": "ነገ እኛ እንማራለን።",
-        "text": "We study tomorrow.",
-        "words": [
-          {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege",
-            "note": "target"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
-          }
-        ]
-      },
-      {
-        "target": "ነገ ገበያ እሄዳለሁ።",
-        "text": "I go to the market tomorrow.",
-        "words": [
-          {
-            "word": "ነገ",
-            "gloss": "tomorrow",
-            "transliteration": "nege",
-            "note": "target"
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
             "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "gloss": "market"
           },
           {
             "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "gloss": "I go"
+          }
+        ]
+      },
+      {
+        "target": "ነገ ፈተና አለ።",
+        "text": "There is an exam tomorrow.",
+        "words": [
+          {
+            "word": "ነገ",
+            "gloss": "tomorrow",
+            "note": "target"
+          },
+          {
+            "word": "ፈተና",
+            "gloss": "exam"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "ነገ ቀዝቃዛ ሊሆን ይችላል።",
+        "text": "Tomorrow may be cold.",
+        "words": [
+          {
+            "word": "ነገ",
+            "gloss": "tomorrow",
+            "note": "target"
+          },
+          {
+            "word": "ቀዝቃዛ",
+            "gloss": "cold"
+          },
+          {
+            "word": "ሊሆን",
+            "gloss": "may be"
+          },
+          {
+            "word": "ይችላል",
+            "gloss": "is able"
           }
         ]
       }
@@ -655,71 +607,62 @@
     "vocab_index": 259,
     "word": "ትናንት",
     "gloss": "yesterday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ትናንት እኔ እመጣለሁ።",
-        "text": "I come yesterday.",
+        "target": "ትናንት ዝናብ ዘነበ።",
+        "text": "It rained yesterday.",
         "words": [
           {
             "word": "ትናንት",
             "gloss": "yesterday",
-            "transliteration": "tnant",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ዝናብ",
+            "gloss": "rain"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ዘነበ",
+            "gloss": "rained"
           }
         ]
       },
       {
-        "target": "ትናንት እኛ እንማራለን።",
-        "text": "We study yesterday.",
+        "target": "ትናንት መጽሐፍ አነበብኩ።",
+        "text": "I read a book yesterday.",
         "words": [
           {
             "word": "ትናንት",
             "gloss": "yesterday",
-            "transliteration": "tnant",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "መጽሐፍ",
+            "gloss": "book"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "አነበብኩ",
+            "gloss": "I read"
           }
         ]
       },
       {
-        "target": "ትናንት ገበያ እሄዳለሁ።",
-        "text": "I go to the market yesterday.",
+        "target": "ትናንት ደክሜ ነበር።",
+        "text": "I was tired yesterday.",
         "words": [
           {
             "word": "ትናንት",
             "gloss": "yesterday",
-            "transliteration": "tnant",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ደክሜ",
+            "gloss": "tired"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ነበር",
+            "gloss": "was"
           }
         ]
       }
@@ -729,71 +672,62 @@
     "vocab_index": 260,
     "word": "አሁን",
     "gloss": "now",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አሁን እኔ እመጣለሁ።",
-        "text": "I come now.",
+        "target": "አሁን ቡና እጠጣለሁ።",
+        "text": "I drink coffee now.",
         "words": [
           {
             "word": "አሁን",
             "gloss": "now",
-            "transliteration": "ehun",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ቡና",
+            "gloss": "coffee"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "እጠጣለሁ",
+            "gloss": "I drink"
           }
         ]
       },
       {
-        "target": "አሁን እኛ እንማራለን።",
-        "text": "We study now.",
+        "target": "አሁን ጊዜ የለኝም።",
+        "text": "I do not have time now.",
         "words": [
           {
             "word": "አሁን",
             "gloss": "now",
-            "transliteration": "ehun",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ጊዜ",
+            "gloss": "time"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "የለኝም",
+            "gloss": "I do not have"
           }
         ]
       },
       {
-        "target": "አሁን ገበያ እሄዳለሁ።",
-        "text": "I go to the market now.",
+        "target": "እባክህ አሁን ና።",
+        "text": "Please come now.",
         "words": [
+          {
+            "word": "እባክህ",
+            "gloss": "please"
+          },
           {
             "word": "አሁን",
             "gloss": "now",
-            "transliteration": "ehun",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ና",
+            "gloss": "come"
           }
         ]
       }
@@ -803,71 +737,74 @@
     "vocab_index": 261,
     "word": "ጠዋት",
     "gloss": "morning",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጠዋት እኔ እመጣለሁ።",
-        "text": "I come morning.",
+        "target": "ጠዋት ቁርስ እንበላለን።",
+        "text": "In the morning we eat breakfast.",
         "words": [
           {
             "word": "ጠዋት",
             "gloss": "morning",
-            "transliteration": "Tewat",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ቁርስ",
+            "gloss": "breakfast"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "ጠዋት እኛ እንማራለን።",
-        "text": "We study morning.",
+        "target": "ጠዋት አየሩ ቀዝቃዛ ነው።",
+        "text": "In the morning the air is cold.",
         "words": [
           {
             "word": "ጠዋት",
             "gloss": "morning",
-            "transliteration": "Tewat",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "አየሩ",
+            "gloss": "the air"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ቀዝቃዛ",
+            "gloss": "cold"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ጠዋት ገበያ እሄዳለሁ።",
-        "text": "I go to the market morning.",
+        "target": "ከ ጠዋት ጀምሮ ሥራ አለ።",
+        "text": "There is work starting from morning.",
         "words": [
+          {
+            "word": "ከ",
+            "gloss": "from"
+          },
           {
             "word": "ጠዋት",
             "gloss": "morning",
-            "transliteration": "Tewat",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ጀምሮ",
+            "gloss": "starting"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       }
@@ -877,71 +814,66 @@
     "vocab_index": 262,
     "word": "ከሰዓት",
     "gloss": "afternoon",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ከሰዓት እኔ እመጣለሁ።",
-        "text": "I come afternoon.",
+        "target": "ከሰዓት ሻይ እንጠጣለን።",
+        "text": "In the afternoon we drink tea.",
         "words": [
           {
             "word": "ከሰዓት",
             "gloss": "afternoon",
-            "transliteration": "kese'at",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሻይ",
+            "gloss": "tea"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "እንጠጣለን",
+            "gloss": "we drink"
           }
         ]
       },
       {
-        "target": "ከሰዓት እኛ እንማራለን።",
-        "text": "We study afternoon.",
+        "target": "ከሰዓት ፀሐይ ጠንካራ ነው።",
+        "text": "In the afternoon the sun is strong.",
         "words": [
           {
             "word": "ከሰዓት",
             "gloss": "afternoon",
-            "transliteration": "kese'at",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ፀሐይ",
+            "gloss": "sun"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ጠንካራ",
+            "gloss": "strong"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ከሰዓት ገበያ እሄዳለሁ።",
-        "text": "I go to the market afternoon.",
+        "target": "ስብሰባው ከሰዓት ነው።",
+        "text": "The meeting is in the afternoon.",
         "words": [
+          {
+            "word": "ስብሰባው",
+            "gloss": "the meeting"
+          },
           {
             "word": "ከሰዓት",
             "gloss": "afternoon",
-            "transliteration": "kese'at",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -951,71 +883,62 @@
     "vocab_index": 263,
     "word": "ማታ",
     "gloss": "evening",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ማታ እኔ እመጣለሁ።",
-        "text": "I come evening.",
+        "target": "ማታ እራት እንበላለን።",
+        "text": "In the evening we eat dinner.",
         "words": [
           {
             "word": "ማታ",
             "gloss": "evening",
-            "transliteration": "mata",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "እራት",
+            "gloss": "dinner"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "ማታ እኛ እንማራለን።",
-        "text": "We study evening.",
+        "target": "ማታ ቤት እመለሳለሁ።",
+        "text": "In the evening I return home.",
         "words": [
           {
             "word": "ማታ",
             "gloss": "evening",
-            "transliteration": "mata",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ቤት",
+            "gloss": "home"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "እመለሳለሁ",
+            "gloss": "I return"
           }
         ]
       },
       {
-        "target": "ማታ ገበያ እሄዳለሁ።",
-        "text": "I go to the market evening.",
+        "target": "ማታ መብራት አብራ።",
+        "text": "In the evening turn on the light.",
         "words": [
           {
             "word": "ማታ",
             "gloss": "evening",
-            "transliteration": "mata",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "መብራት",
+            "gloss": "light"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "አብራ",
+            "gloss": "turn on"
           }
         ]
       }
@@ -1025,71 +948,82 @@
     "vocab_index": 264,
     "word": "ሳምንት",
     "gloss": "week",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሳምንት እኔ እመጣለሁ።",
-        "text": "I come week.",
+        "target": "አንድ ሳምንት ሰባት ቀን አለው።",
+        "text": "One week has seven days.",
         "words": [
+          {
+            "word": "አንድ",
+            "gloss": "one"
+          },
           {
             "word": "ሳምንት",
             "gloss": "week",
-            "transliteration": "samnt",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሰባት",
+            "gloss": "seven"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ቀን",
+            "gloss": "days"
+          },
+          {
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ሳምንት እኛ እንማራለን።",
-        "text": "We study week.",
+        "target": "በዚህ ሳምንት ብዙ ሥራ አለ።",
+        "text": "There is a lot of work this week.",
         "words": [
+          {
+            "word": "በዚህ",
+            "gloss": "in this"
+          },
           {
             "word": "ሳምንት",
             "gloss": "week",
-            "transliteration": "samnt",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ብዙ",
+            "gloss": "a lot"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ሳምንት ገበያ እሄዳለሁ።",
-        "text": "I go to the market week.",
+        "target": "ሳምንት መጨረሻ እረፍት እፈልጋለሁ።",
+        "text": "I want rest at the end of the week.",
         "words": [
           {
             "word": "ሳምንት",
             "gloss": "week",
-            "transliteration": "samnt",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "መጨረሻ",
+            "gloss": "end"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "እረፍት",
+            "gloss": "rest"
+          },
+          {
+            "word": "እፈልጋለሁ",
+            "gloss": "I want"
           }
         ]
       }
@@ -1099,71 +1033,90 @@
     "vocab_index": 265,
     "word": "ወር",
     "gloss": "month",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ወር እኔ እመጣለሁ።",
-        "text": "I come month.",
+        "target": "አንድ ወር ሠላሳ ቀን አለው።",
+        "text": "One month has thirty days.",
         "words": [
+          {
+            "word": "አንድ",
+            "gloss": "one"
+          },
           {
             "word": "ወር",
             "gloss": "month",
-            "transliteration": "wer",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሠላሳ",
+            "gloss": "thirty"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ቀን",
+            "gloss": "days"
+          },
+          {
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ወር እኛ እንማራለን።",
-        "text": "We study month.",
+        "target": "በዚህ ወር ዝናብ ብዙ ነው።",
+        "text": "There is a lot of rain this month.",
         "words": [
+          {
+            "word": "በዚህ",
+            "gloss": "in this"
+          },
           {
             "word": "ወር",
             "gloss": "month",
-            "transliteration": "wer",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ዝናብ",
+            "gloss": "rain"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ብዙ",
+            "gloss": "a lot"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ወር ገበያ እሄዳለሁ።",
-        "text": "I go to the market month.",
+        "target": "ደመወዜ በ ወር አንድ ጊዜ ይከፈላል።",
+        "text": "My salary is paid once a month.",
         "words": [
+          {
+            "word": "ደመወዜ",
+            "gloss": "my salary"
+          },
+          {
+            "word": "በ",
+            "gloss": "in"
+          },
           {
             "word": "ወር",
             "gloss": "month",
-            "transliteration": "wer",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "አንድ",
+            "gloss": "one"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ጊዜ",
+            "gloss": "time"
+          },
+          {
+            "word": "ይከፈላል",
+            "gloss": "is paid"
           }
         ]
       }
@@ -1173,71 +1126,66 @@
     "vocab_index": 266,
     "word": "ዓመት",
     "gloss": "year",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ዓመት እኔ እመጣለሁ።",
-        "text": "I come year.",
+        "target": "አዲስ ዓመት ቅርብ ነው።",
+        "text": "The new year is near.",
         "words": [
+          {
+            "word": "አዲስ",
+            "gloss": "new"
+          },
           {
             "word": "ዓመት",
             "gloss": "year",
-            "transliteration": "'amet",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ቅርብ",
+            "gloss": "near"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ዓመት እኛ እንማራለን።",
-        "text": "We study year.",
+        "target": "በዚህ ዓመት ተመረቅኩ።",
+        "text": "I graduated this year.",
         "words": [
+          {
+            "word": "በዚህ",
+            "gloss": "in this"
+          },
           {
             "word": "ዓመት",
             "gloss": "year",
-            "transliteration": "'amet",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ተመረቅኩ",
+            "gloss": "I graduated"
           }
         ]
       },
       {
-        "target": "ዓመት ገበያ እሄዳለሁ።",
-        "text": "I go to the market year.",
+        "target": "ዓመት በፈጣን ያልፋል።",
+        "text": "A year passes quickly.",
         "words": [
           {
             "word": "ዓመት",
             "gloss": "year",
-            "transliteration": "'amet",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "በፈጣን",
+            "gloss": "quickly"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ያልፋል",
+            "gloss": "passes"
           }
         ]
       }
@@ -1247,71 +1195,78 @@
     "vocab_index": 267,
     "word": "ሰዓት",
     "gloss": "hour",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሰዓት እኔ እመጣለሁ።",
-        "text": "I come hour.",
+        "target": "አንድ ሰዓት ስድሳ ደቂቃ አለው።",
+        "text": "One hour has sixty minutes.",
         "words": [
+          {
+            "word": "አንድ",
+            "gloss": "one"
+          },
           {
             "word": "ሰዓት",
             "gloss": "hour",
-            "transliteration": "se'at",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ስድሳ",
+            "gloss": "sixty"
+          },
+          {
+            "word": "ደቂቃ",
+            "gloss": "minutes"
+          },
+          {
+            "word": "አለው",
+            "gloss": "has"
+          }
+        ]
+      },
+      {
+        "target": "ከ አንድ ሰዓት በኋላ እመጣለሁ።",
+        "text": "I will come after one hour.",
+        "words": [
+          {
+            "word": "ከ",
+            "gloss": "after"
+          },
+          {
+            "word": "አንድ",
+            "gloss": "one"
+          },
+          {
+            "word": "ሰዓት",
+            "gloss": "hour",
+            "note": "target"
+          },
+          {
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
             "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "gloss": "I come"
           }
         ]
       },
       {
-        "target": "ሰዓት እኛ እንማራለን።",
-        "text": "We study hour.",
+        "target": "ሰዓት ስንት ነው?",
+        "text": "What is the hour?",
         "words": [
           {
             "word": "ሰዓት",
             "gloss": "hour",
-            "transliteration": "se'at",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ስንት",
+            "gloss": "what number"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
-          }
-        ]
-      },
-      {
-        "target": "ሰዓት ገበያ እሄዳለሁ።",
-        "text": "I go to the market hour.",
-        "words": [
-          {
-            "word": "ሰዓት",
-            "gloss": "hour",
-            "transliteration": "se'at",
-            "note": "target"
-          },
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1321,71 +1276,66 @@
     "vocab_index": 268,
     "word": "ደቂቃ",
     "gloss": "minute",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ደቂቃ እኔ እመጣለሁ።",
-        "text": "I come minute.",
+        "target": "አምስት ደቂቃ ጠብቅ።",
+        "text": "Wait five minutes.",
         "words": [
+          {
+            "word": "አምስት",
+            "gloss": "five"
+          },
           {
             "word": "ደቂቃ",
             "gloss": "minute",
-            "transliteration": "deqiqa",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ጠብቅ",
+            "gloss": "wait"
           }
         ]
       },
       {
-        "target": "ደቂቃ እኛ እንማራለን።",
-        "text": "We study minute.",
+        "target": "በ አንድ ደቂቃ እጨርሳለሁ።",
+        "text": "I will finish in one minute.",
         "words": [
+          {
+            "word": "በ",
+            "gloss": "in"
+          },
+          {
+            "word": "አንድ",
+            "gloss": "one"
+          },
           {
             "word": "ደቂቃ",
             "gloss": "minute",
-            "transliteration": "deqiqa",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "እጨርሳለሁ",
+            "gloss": "I finish"
           }
         ]
       },
       {
-        "target": "ደቂቃ ገበያ እሄዳለሁ።",
-        "text": "I go to the market minute.",
+        "target": "ደቂቃ በፍጥነት ያልፋል።",
+        "text": "A minute passes quickly.",
         "words": [
           {
             "word": "ደቂቃ",
             "gloss": "minute",
-            "transliteration": "deqiqa",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "በፍጥነት",
+            "gloss": "quickly"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ያልፋል",
+            "gloss": "passes"
           }
         ]
       }
@@ -1395,71 +1345,66 @@
     "vocab_index": 269,
     "word": "ቅዳሜ",
     "gloss": "Saturday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ቅዳሜ እኔ እመጣለሁ።",
-        "text": "I come Saturday.",
-        "words": [
-          {
-            "word": "ቅዳሜ",
-            "gloss": "Saturday",
-            "transliteration": "qdamE",
-            "note": "target"
-          },
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
-          }
-        ]
-      },
-      {
-        "target": "ቅዳሜ እኛ እንማራለን።",
-        "text": "We study Saturday.",
-        "words": [
-          {
-            "word": "ቅዳሜ",
-            "gloss": "Saturday",
-            "transliteration": "qdamE",
-            "note": "target"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
-          }
-        ]
-      },
-      {
         "target": "ቅዳሜ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Saturday.",
+        "text": "On Saturday I go to the market.",
         "words": [
           {
             "word": "ቅዳሜ",
             "gloss": "Saturday",
-            "transliteration": "qdamE",
             "note": "target"
           },
           {
             "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "gloss": "market"
           },
           {
             "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "gloss": "I go"
+          }
+        ]
+      },
+      {
+        "target": "ቅዳሜ እረፍት ቀን ነው።",
+        "text": "Saturday is a rest day.",
+        "words": [
+          {
+            "word": "ቅዳሜ",
+            "gloss": "Saturday",
+            "note": "target"
+          },
+          {
+            "word": "እረፍት",
+            "gloss": "rest"
+          },
+          {
+            "word": "ቀን",
+            "gloss": "day"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ቅዳሜ ጓደኞችን አያለሁ።",
+        "text": "On Saturday I see friends.",
+        "words": [
+          {
+            "word": "ቅዳሜ",
+            "gloss": "Saturday",
+            "note": "target"
+          },
+          {
+            "word": "ጓደኞችን",
+            "gloss": "friends"
+          },
+          {
+            "word": "አያለሁ",
+            "gloss": "I see"
           }
         ]
       }
@@ -1469,71 +1414,74 @@
     "vocab_index": 270,
     "word": "እሁድ",
     "gloss": "Sunday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እሁድ እኔ እመጣለሁ።",
-        "text": "I come Sunday.",
+        "target": "እሁድ ቤተክርስቲያን እሄዳለሁ።",
+        "text": "On Sunday I go to church.",
         "words": [
           {
             "word": "እሁድ",
             "gloss": "Sunday",
-            "transliteration": "ehud",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
-          {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
-          }
-        ]
-      },
-      {
-        "target": "እሁድ እኛ እንማራለን።",
-        "text": "We study Sunday.",
-        "words": [
-          {
-            "word": "እሁድ",
-            "gloss": "Sunday",
-            "transliteration": "ehud",
-            "note": "target"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
-          }
-        ]
-      },
-      {
-        "target": "እሁድ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Sunday.",
-        "words": [
-          {
-            "word": "እሁድ",
-            "gloss": "Sunday",
-            "transliteration": "ehud",
-            "note": "target"
-          },
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ቤተክርስቲያን",
+            "gloss": "church"
           },
           {
             "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "gloss": "I go"
+          }
+        ]
+      },
+      {
+        "target": "እሁድ ቤተሰብ አብረን እንበላለን።",
+        "text": "On Sunday we eat together as a family.",
+        "words": [
+          {
+            "word": "እሁድ",
+            "gloss": "Sunday",
+            "note": "target"
+          },
+          {
+            "word": "ቤተሰብ",
+            "gloss": "family"
+          },
+          {
+            "word": "አብረን",
+            "gloss": "together"
+          },
+          {
+            "word": "እንበላለን",
+            "gloss": "we eat"
+          }
+        ]
+      },
+      {
+        "target": "እሁድ ጸጥ ያለ ቀን ነው።",
+        "text": "Sunday is a quiet day.",
+        "words": [
+          {
+            "word": "እሁድ",
+            "gloss": "Sunday",
+            "note": "target"
+          },
+          {
+            "word": "ጸጥ",
+            "gloss": "quiet"
+          },
+          {
+            "word": "ያለ",
+            "gloss": "being"
+          },
+          {
+            "word": "ቀን",
+            "gloss": "day"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1543,71 +1491,70 @@
     "vocab_index": 271,
     "word": "ሰኞ",
     "gloss": "Monday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሰኞ እኔ እመጣለሁ።",
-        "text": "I come Monday.",
+        "target": "ሰኞ ትምህርት ይጀምራል።",
+        "text": "School starts on Monday.",
         "words": [
           {
             "word": "ሰኞ",
             "gloss": "Monday",
-            "transliteration": "senyo",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ትምህርት",
+            "gloss": "school"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ይጀምራል",
+            "gloss": "starts"
           }
         ]
       },
       {
-        "target": "ሰኞ እኛ እንማራለን።",
-        "text": "We study Monday.",
+        "target": "ሰኞ ብዙ ሥራ አለ።",
+        "text": "There is a lot of work on Monday.",
         "words": [
           {
             "word": "ሰኞ",
             "gloss": "Monday",
-            "transliteration": "senyo",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ብዙ",
+            "gloss": "a lot"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ሰኞ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Monday.",
+        "target": "ሰኞ ጠዋት ቡና እጠጣለሁ።",
+        "text": "On Monday morning I drink coffee.",
         "words": [
           {
             "word": "ሰኞ",
             "gloss": "Monday",
-            "transliteration": "senyo",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ጠዋት",
+            "gloss": "morning"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ቡና",
+            "gloss": "coffee"
+          },
+          {
+            "word": "እጠጣለሁ",
+            "gloss": "I drink"
           }
         ]
       }
@@ -1617,71 +1564,74 @@
     "vocab_index": 272,
     "word": "ማክሰኞ",
     "gloss": "Tuesday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ማክሰኞ እኔ እመጣለሁ።",
-        "text": "I come Tuesday.",
+        "target": "ማክሰኞ የሂሳብ ትምህርት አለ።",
+        "text": "There is a math lesson on Tuesday.",
         "words": [
           {
             "word": "ማክሰኞ",
             "gloss": "Tuesday",
-            "transliteration": "maksenyo",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "የሂሳብ",
+            "gloss": "math"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ትምህርት",
+            "gloss": "lesson"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ማክሰኞ እኛ እንማራለን።",
-        "text": "We study Tuesday.",
+        "target": "ማክሰኞ ወደ ሐኪም እሄዳለሁ።",
+        "text": "On Tuesday I go to the doctor.",
         "words": [
           {
             "word": "ማክሰኞ",
             "gloss": "Tuesday",
-            "transliteration": "maksenyo",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "ሐኪም",
+            "gloss": "doctor"
+          },
+          {
+            "word": "እሄዳለሁ",
+            "gloss": "I go"
           }
         ]
       },
       {
-        "target": "ማክሰኞ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Tuesday.",
+        "target": "ማክሰኞ ገበያ ትንሽ ነው።",
+        "text": "The market is small on Tuesday.",
         "words": [
           {
             "word": "ማክሰኞ",
             "gloss": "Tuesday",
-            "transliteration": "maksenyo",
             "note": "target"
           },
           {
             "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "gloss": "market"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ትንሽ",
+            "gloss": "small"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1691,71 +1641,70 @@
     "vocab_index": 273,
     "word": "ረቡዕ",
     "gloss": "Wednesday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ረቡዕ እኔ እመጣለሁ።",
-        "text": "I come Wednesday.",
+        "target": "ረቡዕ የሙዚቃ ትምህርት አለ።",
+        "text": "There is a music lesson on Wednesday.",
         "words": [
           {
             "word": "ረቡዕ",
             "gloss": "Wednesday",
-            "transliteration": "rebu'",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "የሙዚቃ",
+            "gloss": "music"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ትምህርት",
+            "gloss": "lesson"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ረቡዕ እኛ እንማራለን።",
-        "text": "We study Wednesday.",
+        "target": "ረቡዕ ጓደኛዬን አገኛለሁ።",
+        "text": "On Wednesday I meet my friend.",
         "words": [
           {
             "word": "ረቡዕ",
             "gloss": "Wednesday",
-            "transliteration": "rebu'",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ጓደኛዬን",
+            "gloss": "my friend"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
+            "word": "አገኛለሁ",
+            "gloss": "I meet"
           }
         ]
       },
       {
-        "target": "ረቡዕ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Wednesday.",
+        "target": "ረቡዕ መሃል ሳምንት ነው።",
+        "text": "Wednesday is midweek.",
         "words": [
           {
             "word": "ረቡዕ",
             "gloss": "Wednesday",
-            "transliteration": "rebu'",
             "note": "target"
           },
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "መሃል",
+            "gloss": "middle"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ሳምንት",
+            "gloss": "week"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1765,71 +1714,70 @@
     "vocab_index": 274,
     "word": "ሐሙስ",
     "gloss": "Thursday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ሐሙስ እኔ እመጣለሁ።",
-        "text": "I come Thursday.",
+        "target": "ሐሙስ የታሪክ ትምህርት አለ።",
+        "text": "There is a history lesson on Thursday.",
         "words": [
           {
             "word": "ሐሙስ",
             "gloss": "Thursday",
-            "transliteration": "Hemus",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "የታሪክ",
+            "gloss": "history"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ትምህርት",
+            "gloss": "lesson"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ሐሙስ እኛ እንማራለን።",
-        "text": "We study Thursday.",
+        "target": "ሐሙስ ገበያ ሞልቷል።",
+        "text": "The market is full on Thursday.",
         "words": [
           {
             "word": "ሐሙስ",
             "gloss": "Thursday",
-            "transliteration": "Hemus",
-            "note": "target"
-          },
-          {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
-          },
-          {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
-          }
-        ]
-      },
-      {
-        "target": "ሐሙስ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Thursday.",
-        "words": [
-          {
-            "word": "ሐሙስ",
-            "gloss": "Thursday",
-            "transliteration": "Hemus",
             "note": "target"
           },
           {
             "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "gloss": "market"
           },
           {
-            "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "word": "ሞልቷል",
+            "gloss": "is full"
+          }
+        ]
+      },
+      {
+        "target": "ሐሙስ ማታ ቤት እመለሳለሁ።",
+        "text": "On Thursday evening I return home.",
+        "words": [
+          {
+            "word": "ሐሙስ",
+            "gloss": "Thursday",
+            "note": "target"
+          },
+          {
+            "word": "ማታ",
+            "gloss": "evening"
+          },
+          {
+            "word": "ቤት",
+            "gloss": "home"
+          },
+          {
+            "word": "እመለሳለሁ",
+            "gloss": "I return"
           }
         ]
       }
@@ -1839,71 +1787,74 @@
     "vocab_index": 275,
     "word": "አርብ",
     "gloss": "Friday",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አርብ እኔ እመጣለሁ።",
-        "text": "I come Friday.",
+        "target": "አርብ ሳምንቱ ይጠናቀቃል።",
+        "text": "The week ends on Friday.",
         "words": [
           {
             "word": "አርብ",
             "gloss": "Friday",
-            "transliteration": "erb",
             "note": "target"
           },
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ሳምንቱ",
+            "gloss": "the week"
           },
           {
-            "word": "እመጣለሁ",
-            "gloss": "I come",
-            "transliteration": "emeTalehu"
+            "word": "ይጠናቀቃል",
+            "gloss": "ends"
           }
         ]
       },
       {
-        "target": "አርብ እኛ እንማራለን።",
-        "text": "We study Friday.",
+        "target": "አርብ ወደ መስጊድ እሄዳለሁ።",
+        "text": "On Friday I go to the mosque.",
         "words": [
           {
             "word": "አርብ",
             "gloss": "Friday",
-            "transliteration": "erb",
             "note": "target"
           },
           {
-            "word": "እኛ",
-            "gloss": "we",
-            "transliteration": "enya"
+            "word": "ወደ",
+            "gloss": "to"
           },
           {
-            "word": "እንማራለን",
-            "gloss": "we learn",
-            "transliteration": "enmaralen"
-          }
-        ]
-      },
-      {
-        "target": "አርብ ገበያ እሄዳለሁ።",
-        "text": "I go to the market Friday.",
-        "words": [
-          {
-            "word": "አርብ",
-            "gloss": "Friday",
-            "transliteration": "erb",
-            "note": "target"
-          },
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "መስጊድ",
+            "gloss": "mosque"
           },
           {
             "word": "እሄዳለሁ",
-            "gloss": "I go",
-            "transliteration": "ehEdalehu"
+            "gloss": "I go"
+          }
+        ]
+      },
+      {
+        "target": "አርብ ማታ ደስ የሚል ነው።",
+        "text": "Friday evening is pleasant.",
+        "words": [
+          {
+            "word": "አርብ",
+            "gloss": "Friday",
+            "note": "target"
+          },
+          {
+            "word": "ማታ",
+            "gloss": "evening"
+          },
+          {
+            "word": "ደስ",
+            "gloss": "pleasant"
+          },
+          {
+            "word": "የሚል",
+            "gloss": "feeling"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1913,71 +1864,74 @@
     "vocab_index": 276,
     "word": "ዳቦ",
     "gloss": "bread",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ዳቦ እበላለሁ።",
-        "text": "I eat bread.",
+        "target": "ትኩስ ዳቦ ገዛሁ።",
+        "text": "I bought fresh bread.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ትኩስ",
+            "gloss": "fresh"
           },
           {
             "word": "ዳቦ",
             "gloss": "bread",
-            "transliteration": "dabo",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ገዛሁ",
+            "gloss": "I bought"
           }
         ]
       },
       {
-        "target": "እናት ዳቦ ታዘጋጃለች።",
-        "text": "Mother prepares bread.",
+        "target": "ለቁርስ ዳቦ እንበላለን።",
+        "text": "For breakfast we eat bread.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "ለቁርስ",
+            "gloss": "for breakfast"
           },
           {
             "word": "ዳቦ",
             "gloss": "bread",
-            "transliteration": "dabo",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "ገበያ ዳቦ አለ።",
-        "text": "There is bread at the market.",
+        "target": "ዳቦ ትኩስ እና ሽታ ያለው ነው።",
+        "text": "The bread is fresh and fragrant.",
         "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
           {
             "word": "ዳቦ",
             "gloss": "bread",
-            "transliteration": "dabo",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ትኩስ",
+            "gloss": "fresh"
+          },
+          {
+            "word": "እና",
+            "gloss": "and"
+          },
+          {
+            "word": "ሽታ",
+            "gloss": "smell"
+          },
+          {
+            "word": "ያለው",
+            "gloss": "having"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -1987,76 +1941,70 @@
     "vocab_index": 277,
     "word": "ቡና",
     "gloss": "coffee",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ቡና እፈልጋለሁ።",
-        "text": "I want coffee for a friend.",
+        "target": "ጠዋት ቡና እጠጣለሁ።",
+        "text": "In the morning I drink coffee.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ጠዋት",
+            "gloss": "morning"
           },
           {
             "word": "ቡና",
             "gloss": "coffee",
-            "transliteration": "buna",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "እጠጣለሁ",
+            "gloss": "I drink"
           }
         ]
       },
       {
-        "target": "ቡና ጠረጴዛ ላይ አለ።",
-        "text": "The coffee is on the table.",
+        "target": "ኢትዮጵያ ቡና ታዋቂ ነው።",
+        "text": "Ethiopian coffee is famous.",
         "words": [
+          {
+            "word": "ኢትዮጵያ",
+            "gloss": "Ethiopia"
+          },
           {
             "word": "ቡና",
             "gloss": "coffee",
-            "transliteration": "buna",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "ታዋቂ",
+            "gloss": "famous"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ልጅ ቡና ይጠጣል።",
-        "text": "The child drinks coffee.",
+        "target": "ቡና ያለ ስኳር እወዳለሁ።",
+        "text": "I like coffee without sugar.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ቡና",
             "gloss": "coffee",
-            "transliteration": "buna",
             "note": "target"
           },
           {
-            "word": "ይጠጣል",
-            "gloss": "drinks",
-            "transliteration": "yTeTal"
+            "word": "ያለ",
+            "gloss": "without"
+          },
+          {
+            "word": "ስኳር",
+            "gloss": "sugar"
+          },
+          {
+            "word": "እወዳለሁ",
+            "gloss": "I like"
           }
         ]
       }
@@ -2066,71 +2014,70 @@
     "vocab_index": 278,
     "word": "ሻይ",
     "gloss": "tea",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ሻይ እጠጣለሁ።",
-        "text": "I drink tea.",
+        "target": "ማታ ሻይ እንጠጣለን።",
+        "text": "In the evening we drink tea.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ማታ",
+            "gloss": "evening"
           },
           {
             "word": "ሻይ",
             "gloss": "tea",
-            "transliteration": "shay",
             "note": "target"
           },
           {
-            "word": "እጠጣለሁ",
-            "gloss": "I drink",
-            "transliteration": "eTeTalehu"
+            "word": "እንጠጣለን",
+            "gloss": "we drink"
           }
         ]
       },
       {
-        "target": "እናት ሻይ ታዘጋጃለች።",
-        "text": "Mother prepares tea.",
+        "target": "ሻይ ሙቅ እና ጣፋጭ ነው።",
+        "text": "Tea is warm and sweet.",
         "words": [
-          {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
-          },
           {
             "word": "ሻይ",
             "gloss": "tea",
-            "transliteration": "shay",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "ሙቅ",
+            "gloss": "warm"
+          },
+          {
+            "word": "እና",
+            "gloss": "and"
+          },
+          {
+            "word": "ጣፋጭ",
+            "gloss": "sweet"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ገበያ ሻይ አለ።",
-        "text": "There is tea at the market.",
+        "target": "ጽዋ ሻይ አቅርብልኝ።",
+        "text": "Please bring me a cup of tea.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ጽዋ",
+            "gloss": "cup"
           },
           {
             "word": "ሻይ",
             "gloss": "tea",
-            "transliteration": "shay",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አቅርብልኝ",
+            "gloss": "bring me"
           }
         ]
       }
@@ -2140,76 +2087,74 @@
     "vocab_index": 279,
     "word": "ወተት",
     "gloss": "milk",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ወተት እፈልጋለሁ።",
-        "text": "I want milk for a friend.",
+        "target": "ሕፃኑ ወተት ይጠጣል።",
+        "text": "The baby drinks milk.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ሕፃኑ",
+            "gloss": "the baby"
           },
           {
             "word": "ወተት",
             "gloss": "milk",
-            "transliteration": "wetet",
-            "note": "target"
-          },
-          {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
-          }
-        ]
-      },
-      {
-        "target": "ወተት ጠረጴዛ ላይ አለ።",
-        "text": "The milk is on the table.",
-        "words": [
-          {
-            "word": "ወተት",
-            "gloss": "milk",
-            "transliteration": "wetet",
-            "note": "target"
-          },
-          {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ልጅ ወተት ይጠጣል።",
-        "text": "The child drinks milk.",
-        "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
-          {
-            "word": "ወተት",
-            "gloss": "milk",
-            "transliteration": "wetet",
             "note": "target"
           },
           {
             "word": "ይጠጣል",
-            "gloss": "drinks",
-            "transliteration": "yTeTal"
+            "gloss": "drinks"
+          }
+        ]
+      },
+      {
+        "target": "ወተት ነጭ እና ጤናማ ነው።",
+        "text": "Milk is white and healthy.",
+        "words": [
+          {
+            "word": "ወተት",
+            "gloss": "milk",
+            "note": "target"
+          },
+          {
+            "word": "ነጭ",
+            "gloss": "white"
+          },
+          {
+            "word": "እና",
+            "gloss": "and"
+          },
+          {
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ወተት በማቀዝቀዣ ውስጥ አለ።",
+        "text": "The milk is in the fridge.",
+        "words": [
+          {
+            "word": "ወተት",
+            "gloss": "milk",
+            "note": "target"
+          },
+          {
+            "word": "በማቀዝቀዣ",
+            "gloss": "in the fridge"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
           }
         ]
       }
@@ -2219,71 +2164,66 @@
     "vocab_index": 280,
     "word": "ስኳር",
     "gloss": "sugar",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ስኳር እበላለሁ።",
-        "text": "I eat sugar.",
+        "target": "በሻይ ስኳር ጨምር።",
+        "text": "Add sugar in the tea.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በሻይ",
+            "gloss": "in the tea"
           },
           {
             "word": "ስኳር",
             "gloss": "sugar",
-            "transliteration": "skwar",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ጨምር",
+            "gloss": "add"
           }
         ]
       },
       {
-        "target": "እናት ስኳር ታዘጋጃለች።",
-        "text": "Mother prepares sugar.",
+        "target": "ብዙ ስኳር ጤናማ አይደለም።",
+        "text": "Too much sugar is not healthy.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "ብዙ",
+            "gloss": "much"
           },
           {
             "word": "ስኳር",
             "gloss": "sugar",
-            "transliteration": "skwar",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "አይደለም",
+            "gloss": "is not"
           }
         ]
       },
       {
-        "target": "ገበያ ስኳር አለ።",
-        "text": "There is sugar at the market.",
+        "target": "ስኳር ጣፋጭ ነው።",
+        "text": "Sugar is sweet.",
         "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
           {
             "word": "ስኳር",
             "gloss": "sugar",
-            "transliteration": "skwar",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ጣፋጭ",
+            "gloss": "sweet"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2293,76 +2233,66 @@
     "vocab_index": 281,
     "word": "ሩዝ",
     "gloss": "rice",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ሩዝ እፈልጋለሁ።",
-        "text": "I want rice for a friend.",
+        "target": "ለምሳ ሩዝ እንበላለን።",
+        "text": "For lunch we eat rice.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ለምሳ",
+            "gloss": "for lunch"
           },
           {
             "word": "ሩዝ",
             "gloss": "rice",
-            "transliteration": "ruz",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "ሩዝ ጠረጴዛ ላይ አለ።",
-        "text": "The rice is on the table.",
+        "target": "ሩዝ በድስት ውስጥ ይበስላል።",
+        "text": "Rice cooks in the pot.",
         "words": [
           {
             "word": "ሩዝ",
             "gloss": "rice",
-            "transliteration": "ruz",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "በድስት",
+            "gloss": "in the pot"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ይበስላል",
+            "gloss": "cooks"
           }
         ]
       },
       {
-        "target": "ልጅ ሩዝ ይበላል።",
-        "text": "The child eats rice.",
+        "target": "ነጭ ሩዝ ገዛሁ።",
+        "text": "I bought white rice.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ነጭ",
+            "gloss": "white"
           },
           {
             "word": "ሩዝ",
             "gloss": "rice",
-            "transliteration": "ruz",
             "note": "target"
           },
           {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "word": "ገዛሁ",
+            "gloss": "I bought"
           }
         ]
       }
@@ -2372,71 +2302,74 @@
     "vocab_index": 282,
     "word": "ፓስታ",
     "gloss": "pasta",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ፓስታ እበላለሁ።",
-        "text": "I eat pasta.",
+        "target": "ፓስታ ከቲማቲም ጋር ጥሩ ነው።",
+        "text": "Pasta is good with tomato.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ፓስታ",
             "gloss": "pasta",
-            "transliteration": "pasta",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ከቲማቲም",
+            "gloss": "with tomato"
+          },
+          {
+            "word": "ጋር",
+            "gloss": "with"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "እናት ፓስታ ታዘጋጃለች።",
-        "text": "Mother prepares pasta.",
+        "target": "ልጆች ፓስታ ይወዳሉ።",
+        "text": "Children like pasta.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "ልጆች",
+            "gloss": "children"
           },
           {
             "word": "ፓስታ",
             "gloss": "pasta",
-            "transliteration": "pasta",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "ይወዳሉ",
+            "gloss": "like"
           }
         ]
       },
       {
-        "target": "ገበያ ፓስታ አለ።",
-        "text": "There is pasta at the market.",
+        "target": "ፓስታ በውሃ ውስጥ ቀቅያለሁ።",
+        "text": "I have boiled pasta in water.",
         "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
           {
             "word": "ፓስታ",
             "gloss": "pasta",
-            "transliteration": "pasta",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "በውሃ",
+            "gloss": "in water"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
+          },
+          {
+            "word": "ቀቅያለሁ",
+            "gloss": "I have boiled"
           }
         ]
       }
@@ -2446,76 +2379,70 @@
     "vocab_index": 283,
     "word": "እንጀራ",
     "gloss": "injera",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ እንጀራ እፈልጋለሁ።",
-        "text": "I want injera for a friend.",
+        "target": "እንጀራ ከወጥ ጋር እንበላለን።",
+        "text": "We eat injera with stew.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "እንጀራ",
             "gloss": "injera",
-            "transliteration": "enjera",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ከወጥ",
+            "gloss": "with stew"
+          },
+          {
+            "word": "ጋር",
+            "gloss": "with"
+          },
+          {
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "እንጀራ ጠረጴዛ ላይ አለ።",
-        "text": "The injera is on the table.",
+        "target": "ትኩስ እንጀራ ጣፋጭ ነው።",
+        "text": "Fresh injera is tasty.",
         "words": [
+          {
+            "word": "ትኩስ",
+            "gloss": "fresh"
+          },
           {
             "word": "እንጀራ",
             "gloss": "injera",
-            "transliteration": "enjera",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "ጣፋጭ",
+            "gloss": "tasty"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ልጅ እንጀራ ይበላል።",
-        "text": "The child eats injera.",
+        "target": "እናቴ እንጀራ ትጋግራለች።",
+        "text": "My mother bakes injera.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "እናቴ",
+            "gloss": "my mother"
           },
           {
             "word": "እንጀራ",
             "gloss": "injera",
-            "transliteration": "enjera",
             "note": "target"
           },
           {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "word": "ትጋግራለች",
+            "gloss": "bakes"
           }
         ]
       }
@@ -2525,71 +2452,70 @@
     "vocab_index": 284,
     "word": "ወጥ",
     "gloss": "stew",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ወጥ እበላለሁ።",
-        "text": "I eat stew.",
+        "target": "ወጥ ቅመም ያለው ነው።",
+        "text": "The stew is spicy.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ወጥ",
             "gloss": "stew",
-            "transliteration": "weT",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ቅመም",
+            "gloss": "spice"
+          },
+          {
+            "word": "ያለው",
+            "gloss": "having"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "እናት ወጥ ታዘጋጃለች።",
-        "text": "Mother prepares stew.",
+        "target": "በእራት ወጥ እንበላለን።",
+        "text": "At dinner we eat stew.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "በእራት",
+            "gloss": "at dinner"
           },
           {
             "word": "ወጥ",
             "gloss": "stew",
-            "transliteration": "weT",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "ገበያ ወጥ አለ።",
-        "text": "There is stew at the market.",
+        "target": "ዶሮ ወጥ ታዋቂ ነው።",
+        "text": "Chicken stew is famous.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ዶሮ",
+            "gloss": "chicken"
           },
           {
             "word": "ወጥ",
             "gloss": "stew",
-            "transliteration": "weT",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ታዋቂ",
+            "gloss": "famous"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2599,76 +2525,78 @@
     "vocab_index": 285,
     "word": "ሾርባ",
     "gloss": "soup",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ሾርባ እፈልጋለሁ።",
-        "text": "I want soup for a friend.",
+        "target": "ሙቅ ሾርባ በቀዝቃዛ ቀን ጥሩ ነው።",
+        "text": "Hot soup is good on a cold day.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ሙቅ",
+            "gloss": "hot"
           },
           {
             "word": "ሾርባ",
             "gloss": "soup",
-            "transliteration": "shorba",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "በቀዝቃዛ",
+            "gloss": "on a cold"
+          },
+          {
+            "word": "ቀን",
+            "gloss": "day"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ሾርባ ጠረጴዛ ላይ አለ።",
-        "text": "The soup is on the table.",
+        "target": "በማንኪያ ሾርባ እጠጣለሁ።",
+        "text": "I eat soup with a spoon.",
         "words": [
+          {
+            "word": "በማንኪያ",
+            "gloss": "with a spoon"
+          },
           {
             "word": "ሾርባ",
             "gloss": "soup",
-            "transliteration": "shorba",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
-          },
-          {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
-          },
-          {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "እጠጣለሁ",
+            "gloss": "I drink"
           }
         ]
       },
       {
-        "target": "ልጅ ሾርባ ይበላል።",
-        "text": "The child eats soup.",
+        "target": "አትክልት ሾርባ ጤናማ ነው።",
+        "text": "Vegetable soup is healthy.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "አትክልት",
+            "gloss": "vegetable"
           },
           {
             "word": "ሾርባ",
             "gloss": "soup",
-            "transliteration": "shorba",
             "note": "target"
           },
           {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "word": "ጤናማ",
+            "gloss": "healthy"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -2678,71 +2606,70 @@
     "vocab_index": 286,
     "word": "አትክልት",
     "gloss": "vegetables",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ አትክልት እበላለሁ።",
-        "text": "I eat vegetables.",
+        "target": "ትኩስ አትክልት ከገበያ ገዛሁ።",
+        "text": "I bought fresh vegetables from the market.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ትኩስ",
+            "gloss": "fresh"
           },
           {
             "word": "አትክልት",
             "gloss": "vegetables",
-            "transliteration": "etklt",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ከገበያ",
+            "gloss": "from the market"
+          },
+          {
+            "word": "ገዛሁ",
+            "gloss": "I bought"
           }
         ]
       },
       {
-        "target": "እናት አትክልት ታዘጋጃለች።",
-        "text": "Mother prepares vegetables.",
+        "target": "አትክልት ለጤና ጥሩ ነው።",
+        "text": "Vegetables are good for health.",
         "words": [
-          {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
-          },
           {
             "word": "አትክልት",
             "gloss": "vegetables",
-            "transliteration": "etklt",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "ለጤና",
+            "gloss": "for health"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ገበያ አትክልት አለ።",
-        "text": "There is vegetables at the market.",
+        "target": "እሷ አትክልት ታጥባለች።",
+        "text": "She washes the vegetables.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "እሷ",
+            "gloss": "she"
           },
           {
             "word": "አትክልት",
             "gloss": "vegetables",
-            "transliteration": "etklt",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ታጥባለች",
+            "gloss": "washes"
           }
         ]
       }
@@ -2752,76 +2679,70 @@
     "vocab_index": 287,
     "word": "ሙዝ",
     "gloss": "banana",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ሙዝ እፈልጋለሁ።",
-        "text": "I want banana for a friend.",
+        "target": "ቢጫ ሙዝ ጣፋጭ ነው።",
+        "text": "A yellow banana is sweet.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ቢጫ",
+            "gloss": "yellow"
           },
           {
             "word": "ሙዝ",
             "gloss": "banana",
-            "transliteration": "muz",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ጣፋጭ",
+            "gloss": "sweet"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ሙዝ ጠረጴዛ ላይ አለ።",
-        "text": "The banana is on the table.",
+        "target": "ለቁርስ ሙዝ እበላለሁ።",
+        "text": "For breakfast I eat a banana.",
+        "words": [
+          {
+            "word": "ለቁርስ",
+            "gloss": "for breakfast"
+          },
+          {
+            "word": "ሙዝ",
+            "gloss": "banana",
+            "note": "target"
+          },
+          {
+            "word": "እበላለሁ",
+            "gloss": "I eat"
+          }
+        ]
+      },
+      {
+        "target": "ሙዝ በቦርሳ ውስጥ አለ።",
+        "text": "The banana is in the bag.",
         "words": [
           {
             "word": "ሙዝ",
             "gloss": "banana",
-            "transliteration": "muz",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "በቦርሳ",
+            "gloss": "in the bag"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ልጅ ሙዝ ይበላል።",
-        "text": "The child eats banana.",
-        "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
-          {
-            "word": "ሙዝ",
-            "gloss": "banana",
-            "transliteration": "muz",
-            "note": "target"
-          },
-          {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "gloss": "there is"
           }
         ]
       }
@@ -2831,71 +2752,66 @@
     "vocab_index": 288,
     "word": "ብርቱካን",
     "gloss": "orange",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ብርቱካን እበላለሁ።",
-        "text": "I eat orange.",
+        "target": "ብርቱካን ጭማቂ ጣፋጭ ነው።",
+        "text": "Orange juice is sweet.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ብርቱካን",
             "gloss": "orange",
-            "transliteration": "brtukan",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ጭማቂ",
+            "gloss": "juice"
+          },
+          {
+            "word": "ጣፋጭ",
+            "gloss": "sweet"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "እናት ብርቱካን ታዘጋጃለች።",
-        "text": "Mother prepares orange.",
+        "target": "ሁለት ብርቱካን ገዛሁ።",
+        "text": "I bought two oranges.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "ሁለት",
+            "gloss": "two"
           },
           {
             "word": "ብርቱካን",
             "gloss": "orange",
-            "transliteration": "brtukan",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "ገዛሁ",
+            "gloss": "I bought"
           }
         ]
       },
       {
-        "target": "ገበያ ብርቱካን አለ።",
-        "text": "There is orange at the market.",
+        "target": "ብርቱካን ቫይታሚን አለው።",
+        "text": "An orange has vitamins.",
         "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
           {
             "word": "ብርቱካን",
             "gloss": "orange",
-            "transliteration": "brtukan",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ቫይታሚን",
+            "gloss": "vitamin"
+          },
+          {
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       }
@@ -2905,76 +2821,74 @@
     "vocab_index": 289,
     "word": "ፖም",
     "gloss": "apple",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ፖም እፈልጋለሁ።",
-        "text": "I want apple for a friend.",
+        "target": "ቀይ ፖም ቆንጆ ነው።",
+        "text": "A red apple is beautiful.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ቀይ",
+            "gloss": "red"
           },
           {
             "word": "ፖም",
             "gloss": "apple",
-            "transliteration": "pom",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ቆንጆ",
+            "gloss": "beautiful"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ፖም ጠረጴዛ ላይ አለ።",
+        "target": "ፖም በእያንዳንዱ ቀን እበላለሁ።",
+        "text": "I eat an apple every day.",
+        "words": [
+          {
+            "word": "ፖም",
+            "gloss": "apple",
+            "note": "target"
+          },
+          {
+            "word": "በእያንዳንዱ",
+            "gloss": "every"
+          },
+          {
+            "word": "ቀን",
+            "gloss": "day"
+          },
+          {
+            "word": "እበላለሁ",
+            "gloss": "I eat"
+          }
+        ]
+      },
+      {
+        "target": "ፖም በጠረጴዛ ላይ አለ።",
         "text": "The apple is on the table.",
         "words": [
           {
             "word": "ፖም",
             "gloss": "apple",
-            "transliteration": "pom",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "በጠረጴዛ",
+            "gloss": "on the table"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ልጅ ፖም ይበላል።",
-        "text": "The child eats apple.",
-        "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
-          {
-            "word": "ፖም",
-            "gloss": "apple",
-            "transliteration": "pom",
-            "note": "target"
-          },
-          {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "gloss": "there is"
           }
         ]
       }
@@ -2984,71 +2898,66 @@
     "vocab_index": 290,
     "word": "ድንች",
     "gloss": "potato",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ድንች እበላለሁ።",
-        "text": "I eat potato.",
+        "target": "ድንች በወጥ ውስጥ አለ።",
+        "text": "There is potato in the stew.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ድንች",
             "gloss": "potato",
-            "transliteration": "dnch",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
-          }
-        ]
-      },
-      {
-        "target": "እናት ድንች ታዘጋጃለች።",
-        "text": "Mother prepares potato.",
-        "words": [
-          {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "በወጥ",
+            "gloss": "in the stew"
           },
           {
-            "word": "ድንች",
-            "gloss": "potato",
-            "transliteration": "dnch",
-            "note": "target"
-          },
-          {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ ድንች አለ።",
-        "text": "There is potato at the market.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "ድንች",
-            "gloss": "potato",
-            "transliteration": "dnch",
-            "note": "target"
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "የተጠበሰ ድንች እወዳለሁ።",
+        "text": "I like fried potato.",
+        "words": [
+          {
+            "word": "የተጠበሰ",
+            "gloss": "fried"
+          },
+          {
+            "word": "ድንች",
+            "gloss": "potato",
+            "note": "target"
+          },
+          {
+            "word": "እወዳለሁ",
+            "gloss": "I like"
+          }
+        ]
+      },
+      {
+        "target": "ድንች ከመሬት ይወጣል።",
+        "text": "A potato comes from the earth.",
+        "words": [
+          {
+            "word": "ድንች",
+            "gloss": "potato",
+            "note": "target"
+          },
+          {
+            "word": "ከመሬት",
+            "gloss": "from the earth"
+          },
+          {
+            "word": "ይወጣል",
+            "gloss": "comes out"
           }
         ]
       }
@@ -3058,76 +2967,66 @@
     "vocab_index": 291,
     "word": "ቲማቲም",
     "gloss": "tomato",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ቲማቲም እፈልጋለሁ።",
-        "text": "I want tomato for a friend.",
+        "target": "ቀይ ቲማቲም ትኩስ ነው።",
+        "text": "A red tomato is fresh.",
         "words": [
           {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
+            "word": "ቀይ",
+            "gloss": "red"
           },
           {
             "word": "ቲማቲም",
             "gloss": "tomato",
-            "transliteration": "timatim",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ትኩስ",
+            "gloss": "fresh"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ቲማቲም ጠረጴዛ ላይ አለ።",
-        "text": "The tomato is on the table.",
+        "target": "ቲማቲም በሰላጣ ውስጥ አለ።",
+        "text": "There is tomato in the salad.",
         "words": [
           {
             "word": "ቲማቲም",
             "gloss": "tomato",
-            "transliteration": "timatim",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "በሰላጣ",
+            "gloss": "in the salad"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "ልጅ ቲማቲም ይበላል።",
-        "text": "The child eats tomato.",
+        "target": "ቲማቲም ቆርጬያለሁ።",
+        "text": "I have cut a tomato.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ቲማቲም",
             "gloss": "tomato",
-            "transliteration": "timatim",
             "note": "target"
           },
           {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "word": "ቆርጬያለሁ",
+            "gloss": "I have cut"
           }
         ]
       }
@@ -3137,71 +3036,62 @@
     "vocab_index": 292,
     "word": "ሽንኩርት",
     "gloss": "onion",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ሽንኩርት እበላለሁ።",
-        "text": "I eat onion.",
+        "target": "ሽንኩርት ዓይን ያስለቅሳል።",
+        "text": "An onion makes the eyes water.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ሽንኩርት",
             "gloss": "onion",
-            "transliteration": "shnkurt",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ዓይን",
+            "gloss": "eye"
+          },
+          {
+            "word": "ያስለቅሳል",
+            "gloss": "makes cry"
           }
         ]
       },
       {
-        "target": "እናት ሽንኩርት ታዘጋጃለች።",
-        "text": "Mother prepares onion.",
+        "target": "በወጥ ውስጥ ሽንኩርት አለ።",
+        "text": "There is onion in the stew.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "በወጥ",
+            "gloss": "in the stew"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
           },
           {
             "word": "ሽንኩርት",
             "gloss": "onion",
-            "transliteration": "shnkurt",
-            "note": "target"
-          },
-          {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ ሽንኩርት አለ።",
-        "text": "There is onion at the market.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
-          },
-          {
-            "word": "ሽንኩርት",
-            "gloss": "onion",
-            "transliteration": "shnkurt",
             "note": "target"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "ሽንኩርት ቆርጬያለሁ።",
+        "text": "I have chopped an onion.",
+        "words": [
+          {
+            "word": "ሽንኩርት",
+            "gloss": "onion",
+            "note": "target"
+          },
+          {
+            "word": "ቆርጬያለሁ",
+            "gloss": "I have chopped"
           }
         ]
       }
@@ -3211,76 +3101,70 @@
     "vocab_index": 293,
     "word": "ቅቤ",
     "gloss": "butter",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ቅቤ እፈልጋለሁ።",
-        "text": "I want butter for a friend.",
-        "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
-          {
-            "word": "ቅቤ",
-            "gloss": "butter",
-            "transliteration": "qbE",
-            "note": "target"
-          },
-          {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
-          }
-        ]
-      },
-      {
-        "target": "ቅቤ ጠረጴዛ ላይ አለ።",
-        "text": "The butter is on the table.",
+        "target": "ቅቤ በዳቦ ላይ እቀባለሁ።",
+        "text": "I spread butter on bread.",
         "words": [
           {
             "word": "ቅቤ",
             "gloss": "butter",
-            "transliteration": "qbE",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "በዳቦ",
+            "gloss": "on bread"
           },
           {
             "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "gloss": "on"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "እቀባለሁ",
+            "gloss": "I spread"
           }
         ]
       },
       {
-        "target": "ልጅ ቅቤ ይበላል።",
-        "text": "The child eats butter.",
+        "target": "ቅቤ በማቀዝቀዣ ውስጥ አለ።",
+        "text": "Butter is in the fridge.",
         "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
           {
             "word": "ቅቤ",
             "gloss": "butter",
-            "transliteration": "qbE",
             "note": "target"
           },
           {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "word": "በማቀዝቀዣ",
+            "gloss": "in the fridge"
+          },
+          {
+            "word": "ውስጥ",
+            "gloss": "inside"
+          },
+          {
+            "word": "አለ",
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "ቅቤ ለስላሳ ነው።",
+        "text": "Butter is soft.",
+        "words": [
+          {
+            "word": "ቅቤ",
+            "gloss": "butter",
+            "note": "target"
+          },
+          {
+            "word": "ለስላሳ",
+            "gloss": "soft"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3290,71 +3174,62 @@
     "vocab_index": 294,
     "word": "ማር",
     "gloss": "honey",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ማር እበላለሁ።",
-        "text": "I eat honey.",
+        "target": "ማር ጣፋጭ ነው።",
+        "text": "Honey is sweet.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ማር",
             "gloss": "honey",
-            "transliteration": "mar",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ጣፋጭ",
+            "gloss": "sweet"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "እናት ማር ታዘጋጃለች።",
-        "text": "Mother prepares honey.",
+        "target": "በሻይ ማር ጨምር።",
+        "text": "Add honey in the tea.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "በሻይ",
+            "gloss": "in the tea"
           },
           {
             "word": "ማር",
             "gloss": "honey",
-            "transliteration": "mar",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
+            "word": "ጨምር",
+            "gloss": "add"
           }
         ]
       },
       {
-        "target": "ገበያ ማር አለ።",
-        "text": "There is honey at the market.",
+        "target": "ንብ ማር ይሠራል።",
+        "text": "A bee makes honey.",
         "words": [
           {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ንብ",
+            "gloss": "bee"
           },
           {
             "word": "ማር",
             "gloss": "honey",
-            "transliteration": "mar",
             "note": "target"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ይሠራል",
+            "gloss": "makes"
           }
         ]
       }
@@ -3364,76 +3239,74 @@
     "vocab_index": 295,
     "word": "ምሳ",
     "gloss": "lunch",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ ምሳ እፈልጋለሁ።",
-        "text": "I want lunch for a friend.",
+        "target": "ምሳ በአንድ ሰዓት ነው።",
+        "text": "Lunch is at one o'clock.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "ምሳ",
             "gloss": "lunch",
-            "transliteration": "msa",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "በአንድ",
+            "gloss": "at one"
+          },
+          {
+            "word": "ሰዓት",
+            "gloss": "o'clock"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "ምሳ ጠረጴዛ ላይ አለ።",
-        "text": "The lunch is on the table.",
+        "target": "ምሳ ከትምህርት በኋላ እንበላለን።",
+        "text": "We eat lunch after class.",
         "words": [
           {
             "word": "ምሳ",
             "gloss": "lunch",
-            "transliteration": "msa",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "ከትምህርት",
+            "gloss": "after class"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "በኋላ",
+            "gloss": "after"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "ልጅ ምሳ ይበላል።",
-        "text": "The child eats lunch.",
+        "target": "ዛሬ ምሳ ቀላል ነው።",
+        "text": "Today lunch is light.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "ዛሬ",
+            "gloss": "today"
           },
           {
             "word": "ምሳ",
             "gloss": "lunch",
-            "transliteration": "msa",
             "note": "target"
           },
           {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "word": "ቀላል",
+            "gloss": "light"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3443,71 +3316,86 @@
     "vocab_index": 296,
     "word": "ቁርስ",
     "gloss": "breakfast",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ቁርስ እበላለሁ።",
-        "text": "I eat breakfast.",
+        "target": "ቁርስ ጠዋት አስፈላጊ ነው።",
+        "text": "Breakfast in the morning is important.",
         "words": [
-          {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
-          },
           {
             "word": "ቁርስ",
             "gloss": "breakfast",
-            "transliteration": "qurs",
             "note": "target"
           },
           {
-            "word": "እበላለሁ",
-            "gloss": "I eat",
-            "transliteration": "ebelalehu"
+            "word": "ጠዋት",
+            "gloss": "morning"
+          },
+          {
+            "word": "አስፈላጊ",
+            "gloss": "important"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       },
       {
-        "target": "እናት ቁርስ ታዘጋጃለች።",
-        "text": "Mother prepares breakfast.",
+        "target": "ለ ቁርስ ዳቦ እና ሻይ አለ።",
+        "text": "For breakfast there is bread and tea.",
         "words": [
           {
-            "word": "እናት",
-            "gloss": "mother",
-            "transliteration": "enat"
+            "word": "ለ",
+            "gloss": "for"
           },
           {
             "word": "ቁርስ",
             "gloss": "breakfast",
-            "transliteration": "qurs",
             "note": "target"
           },
           {
-            "word": "ታዘጋጃለች",
-            "gloss": "prepares",
-            "transliteration": "tazegajalech"
-          }
-        ]
-      },
-      {
-        "target": "ገበያ ቁርስ አለ።",
-        "text": "There is breakfast at the market.",
-        "words": [
-          {
-            "word": "ገበያ",
-            "gloss": "market",
-            "transliteration": "gebeya"
+            "word": "ዳቦ",
+            "gloss": "bread"
           },
           {
-            "word": "ቁርስ",
-            "gloss": "breakfast",
-            "transliteration": "qurs",
-            "note": "target"
+            "word": "እና",
+            "gloss": "and"
+          },
+          {
+            "word": "ሻይ",
+            "gloss": "tea"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
+          }
+        ]
+      },
+      {
+        "target": "ቁርስ ሳልበላ ወደ ሥራ አልሄድም።",
+        "text": "I do not go to work without eating breakfast.",
+        "words": [
+          {
+            "word": "ቁርስ",
+            "gloss": "breakfast",
+            "note": "target"
+          },
+          {
+            "word": "ሳልበላ",
+            "gloss": "without eating"
+          },
+          {
+            "word": "ወደ",
+            "gloss": "to"
+          },
+          {
+            "word": "ሥራ",
+            "gloss": "work"
+          },
+          {
+            "word": "አልሄድም",
+            "gloss": "I do not go"
           }
         ]
       }
@@ -3517,76 +3405,74 @@
     "vocab_index": 297,
     "word": "እራት",
     "gloss": "dinner",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ጓደኛ እራት እፈልጋለሁ።",
-        "text": "I want dinner for a friend.",
+        "target": "እራት ማታ እንበላለን።",
+        "text": "We eat dinner in the evening.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "እራት",
             "gloss": "dinner",
-            "transliteration": "erat",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ማታ",
+            "gloss": "evening"
+          },
+          {
+            "word": "እንበላለን",
+            "gloss": "we eat"
           }
         ]
       },
       {
-        "target": "እራት ጠረጴዛ ላይ አለ።",
-        "text": "The dinner is on the table.",
+        "target": "እራት ከቤተሰብ ጋር ጥሩ ነው።",
+        "text": "Dinner with family is good.",
         "words": [
           {
             "word": "እራት",
             "gloss": "dinner",
-            "transliteration": "erat",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "ከቤተሰብ",
+            "gloss": "with family"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ጋር",
+            "gloss": "with"
+          },
+          {
+            "word": "ጥሩ",
+            "gloss": "good"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
+          }
+        ]
+      },
+      {
+        "target": "ዛሬ እራት እንጀራ አለ።",
+        "text": "Today there is injera for dinner.",
+        "words": [
+          {
+            "word": "ዛሬ",
+            "gloss": "today"
+          },
+          {
+            "word": "እራት",
+            "gloss": "dinner",
+            "note": "target"
+          },
+          {
+            "word": "እንጀራ",
+            "gloss": "injera"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
-          }
-        ]
-      },
-      {
-        "target": "ልጅ እራት ይበላል።",
-        "text": "The child eats dinner.",
-        "words": [
-          {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
-          },
-          {
-            "word": "እራት",
-            "gloss": "dinner",
-            "transliteration": "erat",
-            "note": "target"
-          },
-          {
-            "word": "ይበላል",
-            "gloss": "eats",
-            "transliteration": "ybelal"
+            "gloss": "there is"
           }
         ]
       }
@@ -3596,76 +3482,70 @@
     "vocab_index": 298,
     "word": "መጽሐፍ",
     "gloss": "book",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "አስተማሪ መጽሐፍ ይጠቀማል።",
-        "text": "The teacher uses book.",
+        "target": "አዲስ መጽሐፍ አነባለሁ።",
+        "text": "I am reading a new book.",
         "words": [
           {
-            "word": "አስተማሪ",
-            "gloss": "teacher",
-            "transliteration": "estemari"
+            "word": "አዲስ",
+            "gloss": "new"
           },
           {
             "word": "መጽሐፍ",
             "gloss": "book",
-            "transliteration": "metsHef",
             "note": "target"
           },
           {
-            "word": "ይጠቀማል",
-            "gloss": "uses",
-            "transliteration": "yTeqemal"
+            "word": "አነባለሁ",
+            "gloss": "I am reading"
           }
         ]
       },
       {
-        "target": "መጽሐፍ ቦርሳ ውስጥ አለ።",
-        "text": "The book is inside the bag.",
+        "target": "መጽሐፍ በጠረጴዛ ላይ አለ።",
+        "text": "The book is on the table.",
         "words": [
           {
             "word": "መጽሐፍ",
             "gloss": "book",
-            "transliteration": "metsHef",
             "note": "target"
           },
           {
-            "word": "ቦርሳ",
-            "gloss": "bag",
-            "transliteration": "borsa"
+            "word": "በጠረጴዛ",
+            "gloss": "on the table"
           },
           {
-            "word": "ውስጥ",
-            "gloss": "inside",
-            "transliteration": "wsT"
+            "word": "ላይ",
+            "gloss": "on"
           },
           {
             "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "gloss": "there is"
           }
         ]
       },
       {
-        "target": "እኔ መጽሐፍ አያለሁ።",
-        "text": "I see book.",
+        "target": "ይህ መጽሐፍ አስደሳች ነው።",
+        "text": "This book is interesting.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "ይህ",
+            "gloss": "this"
           },
           {
             "word": "መጽሐፍ",
             "gloss": "book",
-            "transliteration": "metsHef",
             "note": "target"
           },
           {
-            "word": "አያለሁ",
-            "gloss": "I see",
-            "transliteration": "eyalehu"
+            "word": "አስደሳች",
+            "gloss": "interesting"
+          },
+          {
+            "word": "ነው",
+            "gloss": "is"
           }
         ]
       }
@@ -3675,76 +3555,74 @@
     "vocab_index": 299,
     "word": "ደብተር",
     "gloss": "notebook",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "ልጅ ደብተር ይፈልጋል።",
-        "text": "The child wants notebook.",
+        "target": "በ ደብተር ማስታወሻ እጽፋለሁ።",
+        "text": "I write notes in a notebook.",
         "words": [
           {
-            "word": "ልጅ",
-            "gloss": "child",
-            "transliteration": "lj"
+            "word": "በ",
+            "gloss": "in"
           },
           {
             "word": "ደብተር",
             "gloss": "notebook",
-            "transliteration": "debter",
             "note": "target"
           },
           {
-            "word": "ይፈልጋል",
-            "gloss": "wants",
-            "transliteration": "yfelgal"
+            "word": "ማስታወሻ",
+            "gloss": "notes"
+          },
+          {
+            "word": "እጽፋለሁ",
+            "gloss": "I write"
           }
         ]
       },
       {
-        "target": "ደብተር ቤት አለ።",
-        "text": "The notebook is at home.",
+        "target": "ደብተር እና ብዕር አስፈላጊ ናቸው።",
+        "text": "A notebook and a pen are necessary.",
         "words": [
           {
             "word": "ደብተር",
             "gloss": "notebook",
-            "transliteration": "debter",
             "note": "target"
           },
           {
-            "word": "ቤት",
-            "gloss": "home",
-            "transliteration": "bEt"
+            "word": "እና",
+            "gloss": "and"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "ብዕር",
+            "gloss": "pen"
+          },
+          {
+            "word": "አስፈላጊ",
+            "gloss": "necessary"
+          },
+          {
+            "word": "ናቸው",
+            "gloss": "are"
           }
         ]
       },
       {
-        "target": "ይህ ደብተር ጥሩ ነው።",
-        "text": "This notebook is good.",
+        "target": "አዲስ ደብተር ገዛሁ።",
+        "text": "I bought a new notebook.",
         "words": [
           {
-            "word": "ይህ",
-            "gloss": "this",
-            "transliteration": "yh"
+            "word": "አዲስ",
+            "gloss": "new"
           },
           {
             "word": "ደብተር",
             "gloss": "notebook",
-            "transliteration": "debter",
             "note": "target"
           },
           {
-            "word": "ጥሩ",
-            "gloss": "good",
-            "transliteration": "Tru"
-          },
-          {
-            "word": "ነው",
-            "gloss": "is",
-            "transliteration": "new"
+            "word": "ገዛሁ",
+            "gloss": "I bought"
           }
         ]
       }
@@ -3754,76 +3632,70 @@
     "vocab_index": 300,
     "word": "ብዕር",
     "gloss": "pen",
-    "source": "Codex-curated Amharic A1 seed list",
+    "source": "Codex-authored Amharic A1",
     "sentences": [
       {
-        "target": "እኔ ብዕር እፈልጋለሁ።",
-        "text": "I want pen.",
+        "target": "በ ብዕር ደብተር እሞላለሁ።",
+        "text": "I fill the notebook with a pen.",
         "words": [
           {
-            "word": "እኔ",
-            "gloss": "I",
-            "transliteration": "enE"
+            "word": "በ",
+            "gloss": "with"
           },
           {
             "word": "ብዕር",
             "gloss": "pen",
-            "transliteration": "b'r",
             "note": "target"
           },
           {
-            "word": "እፈልጋለሁ",
-            "gloss": "I want",
-            "transliteration": "efelgalehu"
+            "word": "ደብተር",
+            "gloss": "notebook"
+          },
+          {
+            "word": "እሞላለሁ",
+            "gloss": "I fill"
           }
         ]
       },
       {
-        "target": "ብዕር ጠረጴዛ ላይ አለ።",
-        "text": "The pen is on the table.",
+        "target": "ብዕር ሰማያዊ ቀለም አለው።",
+        "text": "The pen has blue ink.",
         "words": [
           {
             "word": "ብዕር",
             "gloss": "pen",
-            "transliteration": "b'r",
             "note": "target"
           },
           {
-            "word": "ጠረጴዛ",
-            "gloss": "table",
-            "transliteration": "TerePEza"
+            "word": "ሰማያዊ",
+            "gloss": "blue"
           },
           {
-            "word": "ላይ",
-            "gloss": "on",
-            "transliteration": "lay"
+            "word": "ቀለም",
+            "gloss": "color"
           },
           {
-            "word": "አለ",
-            "gloss": "there is",
-            "transliteration": "ele"
+            "word": "አለው",
+            "gloss": "has"
           }
         ]
       },
       {
-        "target": "ጓደኛ ብዕር አመጣ።",
-        "text": "A friend brought pen.",
+        "target": "ብዕር ከጠረጴዛ ወደቀ።",
+        "text": "The pen fell from the table.",
         "words": [
-          {
-            "word": "ጓደኛ",
-            "gloss": "friend",
-            "transliteration": "gwadenya"
-          },
           {
             "word": "ብዕር",
             "gloss": "pen",
-            "transliteration": "b'r",
             "note": "target"
           },
           {
-            "word": "አመጣ",
-            "gloss": "brought",
-            "transliteration": "emeTa"
+            "word": "ከጠረጴዛ",
+            "gloss": "from the table"
+          },
+          {
+            "word": "ወደቀ",
+            "gloss": "fell"
           }
         ]
       }
