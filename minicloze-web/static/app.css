@@ -366,6 +366,12 @@ h2 {
   white-space: nowrap;
 }
 
+.blank.filled {
+  border-bottom-color: var(--accent-dark);
+  color: var(--ink);
+  font-weight: 850;
+}
+
 .wylie-line {
   margin: 0;
   color: #334155;

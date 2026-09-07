@@ -332,6 +332,28 @@ function bindEvents() {
     }
   });
 
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" || event.isComposing || event.repeat) {
+      return;
+    }
+    // Before answer: let type-mode form submit handle Enter as today.
+    if (!answeredCurrentCard) {
+      return;
+    }
+    if (els.cardView.classList.contains("hidden")) {
+      return;
+    }
+    if (els.nextButton.classList.contains("hidden")) {
+      return;
+    }
+    // Native button activation already calls goNext when Next is focused.
+    if (event.target === els.nextButton) {
+      return;
+    }
+    event.preventDefault();
+    goNext();
+  });
+
   for (const input of document.querySelectorAll("input[name='mode']")) {
     input.addEventListener("change", renderStoredStats);
   }
@@ -396,9 +418,12 @@ async function submitAnswer(answer) {
     recordStoredStats(data.result.outcome === "correct");
     renderRoundSummary(data.summary);
     renderFeedback(data.result);
+    fillClozeBlanks(data.correctAnswer);
     markChoices(answer, data.correctAnswer, data.result);
     els.nextButton.textContent = data.summary.finished ? "Finish" : "Next";
     show(els.nextButton);
+    // After answering, prefer Next for keyboard/screen-reader flow.
+    requestAnimationFrame(() => els.nextButton.focus());
 
     try {
       await ensureExplanations(currentRound.course);
@@ -1240,6 +1265,34 @@ function blankNode(text) {
   span.className = "blank";
   span.textContent = text;
   return span;
+}
+
+function fillClozeBlanks(correctAnswer) {
+  const word = String(correctAnswer || "").trim();
+  if (!word) {
+    return;
+  }
+
+  fillBlankElement(els.promptLine.querySelector(".blank"), word);
+
+  if (!currentRound || !currentCard) {
+    return;
+  }
+  const roundCard =
+    currentRound.cards.find((item) => item.id === currentCard.id) || null;
+  const transliteration = roundCard?.prompt?.wordTransliteration;
+  if (!transliteration || els.wylieLine.classList.contains("hidden")) {
+    return;
+  }
+  fillBlankElement(els.wylieLine.querySelector(".blank"), transliteration);
+}
+
+function fillBlankElement(element, text) {
+  if (!element) {
+    return;
+  }
+  element.textContent = text;
+  element.classList.add("filled");
 }
 
 function renderChoices(options) {
