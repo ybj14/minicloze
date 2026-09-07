@@ -14,13 +14,15 @@ except ImportError:  # pragma: no cover
     pyewts = None  # type: ignore
 
 try:
+    from amharic_transliteration import transliterate as transliterate_amharic
     from amharic_transliteration import romanize as romanize_amharic
     from armenian_transliteration import romanize as romanize_armenian
     from burmese_okell import romanize as romanize_burmese_okell
     from georgian_transliteration import romanize as romanize_georgian
     from thai_paiboon import romanize as romanize_thai_paiboon
 except ImportError:  # pragma: no cover
-    romanize_amharic = romanize_armenian = romanize_burmese_okell = None  # type: ignore
+    transliterate_amharic = romanize_amharic = None  # type: ignore
+    romanize_armenian = romanize_burmese_okell = None  # type: ignore
     romanize_georgian = romanize_thai_paiboon = None  # type: ignore
 
 from khmer_romanization import transcribe as transcribe_khmer
@@ -266,7 +268,8 @@ def build_amharic_tokens(course: str) -> None:
             if index + 1 < len(words):
                 text = f"{text} "
             token = {"text": text}
-            transliteration = word.get("transliteration") or romanize_amharic(word.get("word", ""))
+            # Always refresh from Ethi-translit (do not keep stale SERA values).
+            transliteration = transliterate_amharic(word.get("word", ""))
             if transliteration.strip():
                 token["transliteration"] = transliteration
             tokens.append(token)
@@ -427,7 +430,9 @@ def enrich_amharic_explanations(course: str) -> None:
 
     for sentence in explanations["data"]:
         for word in sentence.get("words", []):
-            transliteration = word.get("transliteration") or romanize_amharic(word.get("word", ""))
+            text = word.get("word", "")
+            # Always refresh from Ethi-translit (do not keep stale SERA values).
+            transliteration = transliterate_amharic(text)
             if transliteration.strip():
                 word["transliteration"] = transliteration
 
@@ -484,6 +489,21 @@ def refresh_khmer_only() -> None:
         )
 
 
+def refresh_amharic_only() -> None:
+    """Copy Amharic corpora to static data, re-romanize, rebuild tokens, sync corpora."""
+    STATIC_DATA.mkdir(parents=True, exist_ok=True)
+    for course in AMHARIC_COURSES:
+        for suffix in ("", "_explanations", "_vocab"):
+            filename = f"{course}{suffix}.json"
+            shutil.copyfile(CORPORA / filename, STATIC_DATA / filename)
+        enrich_amharic_explanations(course)
+        build_amharic_tokens(course)
+        shutil.copyfile(
+            STATIC_DATA / f"{course}_explanations.json",
+            CORPORA / f"{course}_explanations.json",
+        )
+
+
 def main() -> None:
     copy_base_data()
     for course in TIBETAN_COURSES:
@@ -514,5 +534,7 @@ if __name__ == "__main__":
 
     if "--khmer-only" in sys.argv:
         refresh_khmer_only()
+    elif "--amharic-only" in sys.argv:
+        refresh_amharic_only()
     else:
         main()
