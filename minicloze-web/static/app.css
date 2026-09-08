@@ -517,8 +517,29 @@ h2 {
   overflow-wrap: anywhere;
 }
 
-.next-button {
-  justify-self: end;
+.after-answer {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+
+/* Collapse the toolbar row when both feedback and Next are hidden (pre-answer). */
+.after-answer:not(:has(> :not(.hidden))) {
+  display: none;
+}
+
+.after-answer .feedback {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.after-answer .next-button {
+  flex: 0 0 auto;
+  align-self: stretch;
+  width: auto;
+  min-width: 4.5rem;
+  padding: 0 14px;
+  white-space: nowrap;
 }
 
 .summary-view p:not(.panel-label) {
@@ -600,6 +621,15 @@ h2 {
 
   .choice-button {
     min-height: 58px;
+  }
+
+  .after-answer {
+    gap: 8px;
+  }
+
+  .after-answer .next-button {
+    min-width: 3.75rem;
+    padding: 0 12px;
   }
 }
 
