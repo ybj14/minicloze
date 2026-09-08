@@ -407,6 +407,11 @@ h2 {
 }
 
 .choice-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
   min-height: 64px;
   width: 100%;
   border: 1px solid var(--line);
@@ -418,6 +423,20 @@ h2 {
   font-weight: 850;
   line-height: 1.18;
   overflow-wrap: anywhere;
+}
+
+.choice-native {
+  display: block;
+  max-width: 100%;
+}
+
+.choice-transliteration {
+  display: block;
+  max-width: 100%;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 650;
+  line-height: 1.15;
 }
 
 .choice-button:hover {
@@ -621,6 +640,11 @@ h2 {
 
   .choice-button {
     min-height: 58px;
+    padding: 8px 10px;
+  }
+
+  .choice-transliteration {
+    font-size: 0.72rem;
   }
 
   .after-answer {

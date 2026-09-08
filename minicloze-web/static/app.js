@@ -216,6 +216,9 @@ const NON_SPACED_LANGUAGES = new Set([
   "lao",
   "mya",
 ]);
+
+// Courses whose target script is Cyrillic — keep MC options plain (no xlit clutter).
+const CYRILLIC_SCRIPT_LANGUAGES = new Set(["mon", "tgk"]);
 const TIBETAN_BREAKS = new Set(["་", "༌", "།", "༎", "༏", "༐", "༑", "༔"]);
 const TRANSLITERATION_TRIM = new Set([
   "(",
@@ -579,6 +582,7 @@ async function fetchCourse(course) {
     explanationsReady: false,
     explanationsPromise: null,
     tokensById: new Map(Object.entries(tokens || {})),
+    optionTransliterationByWord: buildOptionTransliterationMap(tokens),
   };
 
   loaded.explanationsPromise = fetchJson(course.explanationsPath)
@@ -963,6 +967,41 @@ function pushUniqueTransliteration(values, value) {
   }
 }
 
+
+function buildOptionTransliterationMap(tokens) {
+  const map = new Map();
+  for (const tokenList of Object.values(tokens || {})) {
+    for (const token of tokenList || []) {
+      const key = normalizeOption(removePunctuation(token.text));
+      if (!key || map.has(key)) {
+        continue;
+      }
+      const value = tokenTransliteration(token);
+      if (!value) {
+        continue;
+      }
+      map.set(key, removeTransliterationPunctuation(value));
+    }
+  }
+  return map;
+}
+
+function courseShowsOptionTransliteration(course) {
+  return Boolean(course) && !CYRILLIC_SCRIPT_LANGUAGES.has(course.baseLanguage);
+}
+
+function optionTransliterationFor(course, word) {
+  if (!courseShowsOptionTransliteration(course)) {
+    return null;
+  }
+  const map = course.optionTransliterationByWord;
+  if (!map) {
+    return null;
+  }
+  return map.get(normalizeOption(removePunctuation(word))) || null;
+}
+
+
 function preferredClozeIndex(sentence, words, candidates, inverse) {
   if (inverse || !sentence.cloze_word) {
     return null;
@@ -1298,12 +1337,28 @@ function fillBlankElement(element, text) {
 }
 
 function renderChoices(options) {
+  const course = currentRound?.course || null;
   els.choices.replaceChildren(
     ...options.map((option) => {
       const button = document.createElement("button");
       button.className = "choice-button";
       button.type = "button";
-      button.textContent = option;
+      button.dataset.answer = option;
+
+      const native = document.createElement("span");
+      native.className = "choice-native";
+      native.textContent = option;
+      button.append(native);
+
+      const transliteration = optionTransliterationFor(course, option);
+      if (transliteration) {
+        button.classList.add("has-transliteration");
+        const secondary = document.createElement("span");
+        secondary.className = "choice-transliteration";
+        secondary.textContent = transliteration;
+        button.append(secondary);
+      }
+
       button.addEventListener("click", () => submitAnswer(option));
       return button;
     }),
@@ -1387,10 +1442,11 @@ function markChoices(answer, correctAnswer, result) {
   }
 
   for (const button of els.choices.querySelectorAll("button")) {
-    if (sameAnswer(button.textContent, correctAnswer)) {
+    const value = button.dataset.answer || button.textContent;
+    if (sameAnswer(value, correctAnswer)) {
       button.classList.add("correct");
     }
-    if (sameAnswer(button.textContent, answer) && result.outcome !== "correct") {
+    if (sameAnswer(value, answer) && result.outcome !== "correct") {
       button.classList.add("wrong");
     }
   }
