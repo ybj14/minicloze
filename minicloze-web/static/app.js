@@ -305,6 +305,7 @@ const els = {
   againButton: document.querySelector("#againButton"),
   summaryViewTitle: document.querySelector("#summaryTitle"),
   summaryText: document.querySelector("#summaryText"),
+  themeToggle: document.querySelector("#themeToggle"),
 };
 
 const courseCache = new Map();
@@ -317,6 +318,7 @@ let activeMode = "multiple_choice";
 let answeredCurrentCard = false;
 
 document.addEventListener("DOMContentLoaded", async () => {
+  initTheme();
   bindEvents();
   loadLanguages();
   renderStoredStats();
@@ -362,6 +364,10 @@ function bindEvents() {
   }
   els.languageSelect.addEventListener("change", renderStoredStats);
   els.inverseToggle.addEventListener("change", renderStoredStats);
+
+  if (els.themeToggle) {
+    els.themeToggle.addEventListener("click", toggleTheme);
+  }
 }
 
 function loadLanguages() {
@@ -1630,6 +1636,53 @@ function shuffle(items) {
 
 function clamp(value, min, max) {
   return Math.min(Math.max(value, min), max);
+}
+
+
+const THEME_STORAGE_KEY = "minicloze-theme";
+
+function getPreferredTheme() {
+  try {
+    const saved = localStorage.getItem(THEME_STORAGE_KEY);
+    if (saved === "light" || saved === "dark") {
+      return saved;
+    }
+  } catch {
+    // ignore storage errors
+  }
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    return "dark";
+  }
+  return "light";
+}
+
+function applyTheme(theme) {
+  const next = theme === "dark" ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", next);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) {
+    meta.setAttribute("content", next === "dark" ? "#12161a" : "#179b72");
+  }
+  if (els.themeToggle) {
+    const label = next === "dark" ? "Light mode" : "Dark mode";
+    els.themeToggle.setAttribute("aria-label", label);
+    els.themeToggle.setAttribute("title", label);
+  }
+}
+
+function initTheme() {
+  applyTheme(getPreferredTheme());
+}
+
+function toggleTheme() {
+  const current = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+  const next = current === "dark" ? "light" : "dark";
+  try {
+    localStorage.setItem(THEME_STORAGE_KEY, next);
+  } catch {
+    // ignore storage errors
+  }
+  applyTheme(next);
 }
 
 function registerServiceWorker() {

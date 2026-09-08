@@ -11,8 +11,25 @@
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/icons/icon-192.png" />
-    <link rel="stylesheet" href="/app.css?v=static-pwa-20260908-04" />
-    <script defer src="/app.js?v=static-pwa-20260908-04"></script>
+    <script>
+      (function () {
+        try {
+          var key = "minicloze-theme";
+          var saved = localStorage.getItem(key);
+          var theme =
+            saved === "light" || saved === "dark"
+              ? saved
+              : window.matchMedia("(prefers-color-scheme: dark)").matches
+                ? "dark"
+                : "light";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/app.css?v=static-pwa-20260909-01" />
+    <script defer src="/app.js?v=static-pwa-20260909-01"></script>
   </head>
   <body>
     <div class="app">
@@ -29,15 +46,26 @@
             >GitHub</a>
           </p>
         </div>
-        <div class="script-samples" aria-hidden="true">
-          <span>Монгол</span>
-          <span>བོད་སྐད</span>
-          <span>ไทย</span>
-          <span>မြန်မာ</span>
-          <span>ខ្មែរ</span>
-          <span>አማርኛ</span>
-          <span>Հայերեն</span>
-          <span>ქართული</span>
+        <div class="topbar-aside">
+          <button
+            id="themeToggle"
+            class="theme-toggle"
+            type="button"
+            aria-label="Dark mode"
+            title="Dark mode"
+          >
+            <span class="theme-toggle-icon" aria-hidden="true"></span>
+          </button>
+          <div class="script-samples" aria-hidden="true">
+            <span>Монгол</span>
+            <span>བོད་སྐད</span>
+            <span>ไทย</span>
+            <span>မြန်မာ</span>
+            <span>ខ្មែរ</span>
+            <span>አማርኛ</span>
+            <span>Հայերեն</span>
+            <span>ქართული</span>
+          </div>
         </div>
       </header>
 
