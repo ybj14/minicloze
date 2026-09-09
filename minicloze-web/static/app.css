@@ -547,6 +547,16 @@ h2 {
   line-height: 1.15;
 }
 
+.choice-wylie {
+  display: block;
+  max-width: 100%;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 550;
+  line-height: 1.12;
+  opacity: 0.88;
+}
+
 .choice-button:hover {
   border-color: var(--blue);
   box-shadow: 0 0 0 3px var(--choice-focus);
@@ -758,6 +768,10 @@ h2 {
 
   .choice-transliteration {
     font-size: 0.72rem;
+  }
+
+  .choice-wylie {
+    font-size: 0.66rem;
   }
 
   .after-answer {
