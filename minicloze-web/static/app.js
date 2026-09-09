@@ -294,6 +294,7 @@ const els = {
   promptLabel: document.querySelector("#promptLabel"),
   promptLine: document.querySelector("#promptLine"),
   wylieLine: document.querySelector("#wylieLine"),
+  wylieOrthographyLine: document.querySelector("#wylieOrthographyLine"),
   translationLabel: document.querySelector("#translationLabel"),
   translationText: document.querySelector("#translationText"),
   choices: document.querySelector("#choices"),
@@ -858,6 +859,7 @@ function generatePrompt(sentence, course, inverse) {
   const word = words[wordIndex] || {
     text: "",
     transliteration: null,
+    wylie: null,
     answerTransliterations: [],
   };
   const trailing = trailingWhitespace(word.text);
@@ -875,6 +877,11 @@ function generatePrompt(sentence, course, inverse) {
     secondHalfTransliteration: joinPromptTokenTransliteration(
       words.slice(wordIndex + 1),
     ),
+    firstHalfWylie: joinPromptTokenWylie(words.slice(0, wordIndex)),
+    wordWylie: word.wylie
+      ? removeTransliterationPunctuation(word.wylie)
+      : null,
+    secondHalfWylie: joinPromptTokenWylie(words.slice(wordIndex + 1)),
     wordAnswerTransliterations: word.answerTransliterations || [],
   };
 }
@@ -894,6 +901,7 @@ function promptTokens(sentence, course, inverse) {
     return tokenizePromptText("eng", sentence.text || "").map((text) => ({
       text,
       transliteration: null,
+      wylie: null,
       answerTransliterations: [],
     }));
   }
@@ -903,6 +911,7 @@ function promptTokens(sentence, course, inverse) {
     return tokens.map((token) => ({
       text: token.text,
       transliteration: tokenTransliteration(token),
+      wylie: tokenSecondaryWylie(token),
       answerTransliterations: tokenAnswerTransliterations(token),
     }));
   }
@@ -911,7 +920,12 @@ function promptTokens(sentence, course, inverse) {
     return tokenizeTibetanWithTarget(
       firstTranslationText(sentence),
       sentence.cloze_word,
-    ).map((text) => ({ text, transliteration: null, answerTransliterations: [] }));
+    ).map((text) => ({
+      text,
+      transliteration: null,
+      wylie: null,
+      answerTransliterations: [],
+    }));
   }
 
   if (NON_SPACED_LANGUAGES.has(course.baseLanguage) && sentence.cloze_word) {
@@ -919,7 +933,12 @@ function promptTokens(sentence, course, inverse) {
       course.baseLanguage,
       firstTranslationText(sentence),
       sentence.cloze_word,
-    ).map((text) => ({ text, transliteration: null, answerTransliterations: [] }));
+    ).map((text) => ({
+      text,
+      transliteration: null,
+      wylie: null,
+      answerTransliterations: [],
+    }));
   }
 
   if (
@@ -931,11 +950,21 @@ function promptTokens(sentence, course, inverse) {
       course.baseLanguage,
       firstTranslationText(sentence),
       sentence.cloze_word,
-    ).map((text) => ({ text, transliteration: null, answerTransliterations: [] }));
+    ).map((text) => ({
+      text,
+      transliteration: null,
+      wylie: null,
+      answerTransliterations: [],
+    }));
   }
 
   return tokenizePromptText(course.baseLanguage, firstTranslationText(sentence)).map(
-    (text) => ({ text, transliteration: null, answerTransliterations: [] }),
+    (text) => ({
+      text,
+      transliteration: null,
+      wylie: null,
+      answerTransliterations: [],
+    }),
   );
 }
 
@@ -951,6 +980,19 @@ function tokenTransliteration(token) {
     token.wylie ||
     "";
   return value.trim() ? value : null;
+}
+
+/** Orthographic Wylie under zwpy/THL — omit when Wylie is already the primary line. */
+function tokenSecondaryWylie(token) {
+  const raw = String(token.wylie || "").trim();
+  if (!raw) {
+    return null;
+  }
+  // Only pair under learner phonetics; if primary fell back to wylie, skip duplicate.
+  if (!(token.zwpy || token.thl)) {
+    return null;
+  }
+  return raw;
 }
 
 function tokenAnswerTransliterations(token) {
@@ -1118,6 +1160,14 @@ function joinPromptTokenTransliteration(tokens) {
   return parts.length ? parts.join(" ") : null;
 }
 
+function joinPromptTokenWylie(tokens) {
+  const parts = tokens
+    .map((token) => token.wylie || "")
+    .map((token) => token.trim())
+    .filter(Boolean);
+  return parts.length ? parts.join(" ") : null;
+}
+
 function cardView(round, card, index) {
   const blank = round.inverse
     ? "?"
@@ -1127,6 +1177,13 @@ function cardView(round, card, index) {
         card.prompt.firstHalfTransliteration || "",
         "_".repeat(Math.max(Array.from(card.prompt.wordTransliteration).length, 3)),
         card.prompt.secondHalfTransliteration || "",
+      )
+    : null;
+  const wylieOrthography = card.prompt.wordWylie
+    ? spacedClozeLine(
+        card.prompt.firstHalfWylie || "",
+        "_".repeat(Math.max(Array.from(card.prompt.wordWylie).length, 3)),
+        card.prompt.secondHalfWylie || "",
       )
     : null;
 
@@ -1143,6 +1200,7 @@ function cardView(round, card, index) {
       second_half: card.prompt.secondHalf,
     },
     transliteration,
+    wylieOrthography,
     translation: card.translation,
     answer_options: card.answerOptions,
   };
@@ -1285,6 +1343,13 @@ function renderCard(card) {
     hide(els.wylieLine);
   }
 
+  if (card.wylieOrthography && els.wylieOrthographyLine) {
+    renderClozeLine(els.wylieOrthographyLine, card.wylieOrthography);
+    show(els.wylieOrthographyLine);
+  } else if (els.wylieOrthographyLine) {
+    hide(els.wylieOrthographyLine);
+  }
+
   if (activeMode === "multiple_choice") {
     renderChoices(card.answer_options);
     show(els.choices);
@@ -1328,10 +1393,18 @@ function fillClozeBlanks(correctAnswer) {
   const roundCard =
     currentRound.cards.find((item) => item.id === currentCard.id) || null;
   const transliteration = roundCard?.prompt?.wordTransliteration;
-  if (!transliteration || els.wylieLine.classList.contains("hidden")) {
-    return;
+  if (transliteration && !els.wylieLine.classList.contains("hidden")) {
+    fillBlankElement(els.wylieLine.querySelector(".blank"), transliteration);
   }
-  fillBlankElement(els.wylieLine.querySelector(".blank"), transliteration);
+
+  const wylie = roundCard?.prompt?.wordWylie;
+  if (
+    wylie &&
+    els.wylieOrthographyLine &&
+    !els.wylieOrthographyLine.classList.contains("hidden")
+  ) {
+    fillBlankElement(els.wylieOrthographyLine.querySelector(".blank"), wylie);
+  }
 }
 
 function fillBlankElement(element, text) {

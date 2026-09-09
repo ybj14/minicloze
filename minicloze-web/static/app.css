@@ -480,6 +480,14 @@ h2 {
   line-height: 1.4;
 }
 
+.wylie-orthography-line {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
 .translation-row {
   display: grid;
   gap: 5px;
