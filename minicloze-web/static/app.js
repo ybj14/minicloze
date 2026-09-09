@@ -1024,11 +1024,24 @@ function buildOptionTransliterationMap(tokens) {
       if (!key || map.has(key)) {
         continue;
       }
-      const value = tokenTransliteration(token);
-      if (!value) {
+      const primaryRaw = tokenTransliteration(token);
+      if (!primaryRaw) {
         continue;
       }
-      map.set(key, removeTransliterationPunctuation(value));
+      const primary = removeTransliterationPunctuation(primaryRaw);
+      if (!primary) {
+        continue;
+      }
+      // Secondary orthographic Wylie under zwpy/THL (same rule as cloze lines).
+      let wylie = null;
+      const secondary = tokenSecondaryWylie(token);
+      if (secondary) {
+        const cleaned = removeTransliterationPunctuation(secondary);
+        if (cleaned && cleaned !== primary) {
+          wylie = cleaned;
+        }
+      }
+      map.set(key, { primary, wylie });
     }
   }
   return map;
@@ -1429,13 +1442,19 @@ function renderChoices(options) {
       native.textContent = option;
       button.append(native);
 
-      const transliteration = optionTransliterationFor(course, option);
-      if (transliteration) {
+      const reading = optionTransliterationFor(course, option);
+      if (reading) {
         button.classList.add("has-transliteration");
         const secondary = document.createElement("span");
         secondary.className = "choice-transliteration";
-        secondary.textContent = transliteration;
+        secondary.textContent = reading.primary;
         button.append(secondary);
+        if (reading.wylie) {
+          const wylie = document.createElement("span");
+          wylie.className = "choice-wylie";
+          wylie.textContent = reading.wylie;
+          button.append(wylie);
+        }
       }
 
       button.addEventListener("click", () => submitAnswer(option));
