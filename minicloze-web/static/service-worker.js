@@ -1,9 +1,9 @@
-const CACHE_NAME = "minicloze-static-pwa-v35";
+const CACHE_NAME = "minicloze-static-pwa-v36";
 const APP_SHELL = [
   "/",
   "/index.html",
-  "/app.css?v=static-pwa-20260910-01",
-  "/app.js?v=static-pwa-20260910-01",
+  "/app.css?v=static-pwa-20260921-01",
+  "/app.js?v=static-pwa-20260921-01",
   "/manifest.webmanifest",
   "/icons/icon.svg",
   "/icons/icon-192.png",
@@ -14,7 +14,14 @@ self.addEventListener("install", (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => cache.addAll(APP_SHELL)),
   );
-  self.skipWaiting();
+  // Do not skipWaiting here — the page shows an Update toast and
+  // posts SKIP_WAITING so mobile users are not stuck on an old shell.
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener("activate", (event) => {
