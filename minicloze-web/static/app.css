@@ -791,3 +791,81 @@ h2 {
   opacity: 0.75;
   font-size: 0.95rem;
 }
+
+
+/* —— PWA update / install toasts —— */
+.pwa-toasts {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: max(12px, env(safe-area-inset-bottom));
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.pwa-toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--panel-solid);
+  color: var(--ink);
+  box-shadow: var(--shadow);
+  font-size: 0.92rem;
+  line-height: 1.35;
+}
+
+.pwa-toast p {
+  margin: 0;
+  flex: 1 1 12rem;
+}
+
+.pwa-toast-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.pwa-toast button {
+  appearance: none;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.85rem;
+  padding: 0.45rem 0.9rem;
+  cursor: pointer;
+}
+
+.pwa-toast button.pwa-toast-primary {
+  border-color: transparent;
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--button-shadow);
+}
+
+.pwa-toast button.pwa-toast-primary:hover {
+  background: var(--accent-dark);
+}
+
+.pwa-toast button.pwa-toast-dismiss {
+  opacity: 0.8;
+}
+
+@media (min-width: 640px) {
+  .pwa-toasts {
+    left: auto;
+    right: 18px;
+    bottom: 18px;
+    width: min(420px, calc(100vw - 36px));
+  }
+}

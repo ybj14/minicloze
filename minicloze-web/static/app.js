@@ -1751,9 +1751,26 @@ function getPreferredTheme() {
 function applyTheme(theme) {
   const next = theme === "dark" ? "dark" : "light";
   document.documentElement.setAttribute("data-theme", next);
-  const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) {
-    meta.setAttribute("content", next === "dark" ? "#12161a" : "#179b72");
+  const color = next === "dark" ? "#12161a" : "#179b72";
+  document.querySelectorAll('meta[name="theme-color"]').forEach((meta) => {
+    // Keep prefers-color-scheme variants as fallbacks; update the unqualified one
+    // and any without media so installed PWAs pick up the active theme.
+    if (!meta.hasAttribute("media") || meta.getAttribute("media") === "") {
+      meta.setAttribute("content", color);
+    }
+  });
+  // Ensure there is always an unqualified theme-color reflecting the active theme.
+  let activeMeta = document.querySelector('meta[name="theme-color"]:not([media])');
+  if (!activeMeta) {
+    activeMeta = document.createElement("meta");
+    activeMeta.setAttribute("name", "theme-color");
+    document.head.appendChild(activeMeta);
+  }
+  activeMeta.setAttribute("content", color);
+
+  const statusBar = document.querySelector('meta[name="apple-mobile-web-app-status-bar-style"]');
+  if (statusBar) {
+    statusBar.setAttribute("content", next === "dark" ? "black-translucent" : "default");
   }
   if (els.themeToggle) {
     const label = next === "dark" ? "Light mode" : "Dark mode";
@@ -1777,12 +1794,252 @@ function toggleTheme() {
   applyTheme(next);
 }
 
+let deferredInstallPrompt = null;
+let updateToastShown = false;
+let installToastShown = false;
+let refreshingForUpdate = false;
+let waitingForControllerReload = false;
+
+function isStandaloneDisplay() {
+  return (
+    window.matchMedia("(display-mode: standalone)").matches ||
+    window.navigator.standalone === true
+  );
+}
+
+function isIosDevice() {
+  const ua = window.navigator.userAgent || "";
+  return /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+}
+
+function getPwaToastHost() {
+  return document.querySelector("#pwaToasts");
+}
+
+function showPwaToast({ id, message, primaryLabel, onPrimary, secondaryLabel, onSecondary }) {
+  const host = getPwaToastHost();
+  if (!host) {
+    return null;
+  }
+  const existing = host.querySelector(`[data-toast-id="${id}"]`);
+  if (existing) {
+    return existing;
+  }
+
+  const toast = document.createElement("div");
+  toast.className = "pwa-toast";
+  toast.dataset.toastId = id;
+  toast.setAttribute("role", "status");
+
+  const text = document.createElement("p");
+  text.textContent = message;
+  toast.appendChild(text);
+
+  const actions = document.createElement("div");
+  actions.className = "pwa-toast-actions";
+
+  if (primaryLabel && onPrimary) {
+    const primary = document.createElement("button");
+    primary.type = "button";
+    primary.className = "pwa-toast-primary";
+    primary.textContent = primaryLabel;
+    primary.addEventListener("click", onPrimary);
+    actions.appendChild(primary);
+  }
+
+  if (secondaryLabel) {
+    const secondary = document.createElement("button");
+    secondary.type = "button";
+    secondary.className = "pwa-toast-dismiss";
+    secondary.textContent = secondaryLabel;
+    secondary.addEventListener("click", () => {
+      toast.remove();
+      if (onSecondary) {
+        onSecondary();
+      }
+    });
+    actions.appendChild(secondary);
+  }
+
+  toast.appendChild(actions);
+  host.appendChild(toast);
+  return toast;
+}
+
+function activateWaitingWorker(worker, { reload = true } = {}) {
+  if (!worker) {
+    return;
+  }
+  if (reload) {
+    waitingForControllerReload = true;
+  }
+  worker.postMessage({ type: "SKIP_WAITING" });
+}
+
+function showUpdateToast(registration) {
+  const waiting = registration.waiting;
+  if (!waiting || updateToastShown) {
+    return;
+  }
+  updateToastShown = true;
+  showPwaToast({
+    id: "update",
+    message: "Update available — reload to get the latest shell.",
+    primaryLabel: "Reload",
+    onPrimary: () => {
+      activateWaitingWorker(registration.waiting || waiting);
+    },
+    secondaryLabel: "Later",
+    onSecondary: () => {
+      updateToastShown = false;
+    },
+  });
+}
+
+function showInstallToast() {
+  if (installToastShown || isStandaloneDisplay() || !deferredInstallPrompt) {
+    return;
+  }
+  installToastShown = true;
+  showPwaToast({
+    id: "install",
+    message: "Install Minicloze for quick access offline.",
+    primaryLabel: "Install app",
+    onPrimary: async () => {
+      const promptEvent = deferredInstallPrompt;
+      deferredInstallPrompt = null;
+      const toast = document.querySelector('[data-toast-id="install"]');
+      if (toast) {
+        toast.remove();
+      }
+      if (!promptEvent) {
+        return;
+      }
+      promptEvent.prompt();
+      try {
+        await promptEvent.userChoice;
+      } catch {
+        // ignore
+      }
+    },
+    secondaryLabel: "Not now",
+    onSecondary: () => {
+      try {
+        sessionStorage.setItem("minicloze-install-dismissed", "1");
+      } catch {
+        // ignore
+      }
+    },
+  });
+}
+
+function showIosInstallHint() {
+  if (installToastShown || isStandaloneDisplay() || !isIosDevice()) {
+    return;
+  }
+  try {
+    if (sessionStorage.getItem("minicloze-ios-hint-dismissed") === "1") {
+      return;
+    }
+  } catch {
+    // ignore
+  }
+  installToastShown = true;
+  showPwaToast({
+    id: "ios-install",
+    message: "Add to Home Screen: tap Share, then “Add to Home Screen”.",
+    secondaryLabel: "Got it",
+    onSecondary: () => {
+      try {
+        sessionStorage.setItem("minicloze-ios-hint-dismissed", "1");
+      } catch {
+        // ignore
+      }
+    },
+  });
+}
+
+function trackInstallPrompt() {
+  window.addEventListener("beforeinstallprompt", (event) => {
+    event.preventDefault();
+    deferredInstallPrompt = event;
+    try {
+      if (sessionStorage.getItem("minicloze-install-dismissed") === "1") {
+        return;
+      }
+    } catch {
+      // ignore
+    }
+    // Soft delay so it does not fight the first-paint course UI.
+    window.setTimeout(showInstallToast, 2500);
+  });
+
+  window.addEventListener("appinstalled", () => {
+    deferredInstallPrompt = null;
+    const toast = document.querySelector('[data-toast-id="install"]');
+    if (toast) {
+      toast.remove();
+    }
+  });
+}
+
 function registerServiceWorker() {
+  trackInstallPrompt();
+
+  // iOS has no beforeinstallprompt — offer a one-time A2HS hint.
+  window.setTimeout(showIosInstallHint, 3200);
+
   if (!("serviceWorker" in navigator)) {
     return;
   }
 
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!waitingForControllerReload || refreshingForUpdate) {
+      return;
+    }
+    refreshingForUpdate = true;
+    window.location.reload();
+  });
+
   window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/service-worker.js").catch(() => {});
+    navigator.serviceWorker
+      .register("/service-worker.js")
+      .then((registration) => {
+        // First install: activate immediately so offline works without a toast.
+        if (registration.waiting && !navigator.serviceWorker.controller) {
+          activateWaitingWorker(registration.waiting, { reload: false });
+        } else if (registration.waiting) {
+          showUpdateToast(registration);
+        }
+
+        registration.addEventListener("updatefound", () => {
+          const installing = registration.installing;
+          if (!installing) {
+            return;
+          }
+          installing.addEventListener("statechange", () => {
+            if (installing.state !== "installed") {
+              return;
+            }
+            if (navigator.serviceWorker.controller) {
+              showUpdateToast(registration);
+            } else if (registration.waiting) {
+              activateWaitingWorker(registration.waiting, { reload: false });
+            }
+          });
+        });
+
+        // Catch updates while a long session stays open.
+        window.setInterval(() => {
+          registration.update().catch(() => {});
+        }, 60 * 60 * 1000);
+
+        document.addEventListener("visibilitychange", () => {
+          if (document.visibilityState === "visible") {
+            registration.update().catch(() => {});
+          }
+        });
+      })
+      .catch(() => {});
   });
 }
