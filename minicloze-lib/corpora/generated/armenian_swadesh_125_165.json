@@ -3,21 +3,58 @@
     "vocab_index": 125,
     "word": "կանգնել",
     "gloss": "stand",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ուզում է կանգնել։",
-        "text": "The teacher wants to stand.",
+        "target": "հերթում պետք է կանգնել համբերությամբ։",
+        "text": "In a queue one must stand patiently.",
         "words": [
           {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
+            "word": "հերթում",
+            "gloss": "in a queue",
+            "transliteration": "hert'um"
           },
           {
-            "word": "ուզում է",
-            "gloss": "wants",
-            "transliteration": "uzum e"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կանգնել",
+            "gloss": "stand",
+            "transliteration": "kangnel",
+            "note": "target"
+          },
+          {
+            "word": "համբերությամբ",
+            "gloss": "patiently",
+            "transliteration": "hamberut'yamb"
+          }
+        ]
+      },
+      {
+        "target": "ավտոբուսում կարելի է կանգնել։",
+        "text": "On the bus one may stand.",
+        "words": [
+          {
+            "word": "ավտոբուսում",
+            "gloss": "on the bus",
+            "transliteration": "avtobusum"
+          },
+          {
+            "word": "կարելի",
+            "gloss": "possible",
+            "transliteration": "kareli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կանգնել",
@@ -28,56 +65,34 @@
         ]
       },
       {
-        "target": "ընկեր կարող է կանգնել։",
-        "text": "A friend can stand.",
+        "target": "զինվորը սովորում է կանգնել ուղիղ։",
+        "text": "A soldier learns to stand straight.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "զինվորը",
+            "gloss": "soldier",
+            "transliteration": "zinvory"
           },
           {
-            "word": "կարող է",
-            "gloss": "can",
-            "transliteration": "karogh e"
-          },
-          {
-            "word": "կանգնել",
-            "gloss": "stand",
-            "transliteration": "kangnel",
-            "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "դպրոց մեջ երեխա սովորում է կանգնել։",
-        "text": "At school, the child learns to stand.",
-        "words": [
-          {
-            "word": "դպրոց",
-            "gloss": "school",
-            "transliteration": "dprots'"
-          },
-          {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "սովորում է",
+            "word": "սովորում",
             "gloss": "learns",
-            "transliteration": "sovorum e"
+            "transliteration": "sovorum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կանգնել",
             "gloss": "stand",
             "transliteration": "kangnel",
             "note": "target"
+          },
+          {
+            "word": "ուղիղ",
+            "gloss": "straight",
+            "transliteration": "ughigh"
           }
         ]
       }
@@ -87,81 +102,101 @@
     "vocab_index": 126,
     "word": "շրջվել",
     "gloss": "turn",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սովորում է շրջվել։",
-        "text": "The child learns to turn.",
+        "target": "անկյունում պետք է շրջվել դանդաղ։",
+        "text": "At the corner one must turn slowly.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "անկյունում",
+            "gloss": "at the corner",
+            "transliteration": "ankyunum"
           },
           {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "շրջվել",
             "gloss": "turn",
             "transliteration": "shrjvel",
             "note": "target"
+          },
+          {
+            "word": "դանդաղ",
+            "gloss": "slow",
+            "transliteration": "dandagh"
           }
         ]
       },
       {
-        "target": "հիմա ես փորձում եմ շրջվել։",
-        "text": "Now I try to turn.",
+        "target": "պարողը սիրում է շրջվել արագ։",
+        "text": "The dancer likes to turn quickly.",
         "words": [
           {
-            "word": "հիմա",
-            "gloss": "now",
-            "transliteration": "hima"
+            "word": "պարողը",
+            "gloss": "dancer",
+            "transliteration": "paroghy"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "շրջվել",
             "gloss": "turn",
             "transliteration": "shrjvel",
             "note": "target"
+          },
+          {
+            "word": "արագ",
+            "gloss": "fast",
+            "transliteration": "arag"
           }
         ]
       },
       {
-        "target": "վաղը մենք կարող ենք շրջվել։",
-        "text": "Tomorrow we can turn.",
+        "target": "մարմինը հեշտ է շրջվել ջրում։",
+        "text": "The body is easy to turn in water.",
         "words": [
           {
-            "word": "վաղը",
-            "gloss": "tomorrow",
-            "transliteration": "vaghy"
+            "word": "մարմինը",
+            "gloss": "body",
+            "transliteration": "marminy"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
           },
           {
-            "word": "կարող ենք",
-            "gloss": "we can",
-            "transliteration": "karogh enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "շրջվել",
             "gloss": "turn",
             "transliteration": "shrjvel",
             "note": "target"
+          },
+          {
+            "word": "ջրում",
+            "gloss": "in water",
+            "transliteration": "jrum"
           }
         ]
       }
@@ -171,31 +206,31 @@
     "vocab_index": 127,
     "word": "ընկնել",
     "gloss": "fall",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "դաս հետո մենք ուզում ենք ընկնել։",
-        "text": "After the lesson, we want to fall.",
+        "target": "սառույցի վրա հեշտ է ընկնել։",
+        "text": "On ice it is easy to fall.",
         "words": [
           {
-            "word": "դաս",
-            "gloss": "lesson",
-            "transliteration": "das"
+            "word": "սառույցի",
+            "gloss": "ice",
+            "transliteration": "sarruyts'i"
           },
           {
-            "word": "հետո",
-            "gloss": "after",
-            "transliteration": "heto"
+            "word": "վրա",
+            "gloss": "at",
+            "transliteration": "vra"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
           },
           {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ընկնել",
@@ -206,66 +241,66 @@
         ]
       },
       {
-        "target": "տուն մեջ ես փորձում եմ ընկնել։",
-        "text": "At home, I try to fall.",
+        "target": "տերևները սկսում են ընկնել աշնանը։",
+        "text": "Leaves begin to fall in autumn.",
         "words": [
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "տերևները",
+            "gloss": "leaves",
+            "transliteration": "terevnery"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "ընկնել",
             "gloss": "fall",
             "transliteration": "ynknel",
             "note": "target"
+          },
+          {
+            "word": "աշնանը",
+            "gloss": "in autumn",
+            "transliteration": "ashnany"
           }
         ]
       },
       {
-        "target": "շուկա առաջ ես ուզում եմ ընկնել։",
-        "text": "Before the market, I want to fall.",
+        "target": "զգույշ եղիր չես ընկնել աստիճաններից։",
+        "text": "Be careful so you do not fall from the stairs.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "զգույշ",
+            "gloss": "careful",
+            "transliteration": "zguysh"
           },
           {
-            "word": "առաջ",
-            "gloss": "before",
-            "transliteration": "arraj"
+            "word": "եղիր",
+            "gloss": "be",
+            "transliteration": "eghir"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "չես",
+            "gloss": "you do not",
+            "transliteration": "ch'es"
           },
           {
             "word": "ընկնել",
             "gloss": "fall",
             "transliteration": "ynknel",
             "note": "target"
+          },
+          {
+            "word": "աստիճաններից",
+            "gloss": "stairs",
+            "transliteration": "astichannerits'"
           }
         ]
       }
@@ -275,76 +310,101 @@
     "vocab_index": 128,
     "word": "տալ",
     "gloss": "give",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ուզում եմ տալ։",
-        "text": "I want to give.",
+        "target": "ընկերոջը հաճելի է տալ նվեր։",
+        "text": "It is pleasant to give a friend a gift.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ընկերոջը",
+            "gloss": "friend",
+            "transliteration": "ynkerojy"
           },
           {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "տալ",
             "gloss": "give",
             "transliteration": "tal",
             "note": "target"
+          },
+          {
+            "word": "նվեր",
+            "gloss": "gift",
+            "transliteration": "nver"
           }
         ]
       },
       {
-        "target": "դու կարող ես տալ?",
-        "text": "Can you give?",
+        "target": "ուսուցիչը սկսում է տալ առաջադրանք։",
+        "text": "The teacher begins to give a task.",
         "words": [
           {
-            "word": "դու",
-            "gloss": "you",
-            "transliteration": "du"
+            "word": "ուսուցիչը",
+            "gloss": "teacher",
+            "transliteration": "usuts'ich'y"
           },
           {
-            "word": "կարող ես",
-            "gloss": "you can",
-            "transliteration": "karogh es"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "տալ",
             "gloss": "give",
             "transliteration": "tal",
             "note": "target"
+          },
+          {
+            "word": "առաջադրանք",
+            "gloss": "task",
+            "transliteration": "arrajadrank'"
           }
         ]
       },
       {
-        "target": "այսօր մենք ուզում ենք տալ։",
-        "text": "Today we want to give.",
+        "target": "խնդրում եմ տալ ինձ գիրքը։",
+        "text": "Please give me the book.",
         "words": [
           {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
+            "word": "խնդրում",
+            "gloss": "please",
+            "transliteration": "khndrum"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "եմ",
+            "gloss": "am",
+            "transliteration": "em"
           },
           {
             "word": "տալ",
             "gloss": "give",
             "transliteration": "tal",
             "note": "target"
+          },
+          {
+            "word": "ինձ",
+            "gloss": "me",
+            "transliteration": "indz"
+          },
+          {
+            "word": "գիրքը",
+            "gloss": "book",
+            "transliteration": "girk'y"
           }
         ]
       }
@@ -354,81 +414,101 @@
     "vocab_index": 129,
     "word": "պահել",
     "gloss": "hold",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ուզում է պահել։",
-        "text": "The teacher wants to hold.",
+        "target": "պայուսակը հեշտ է պահել ձեռքով։",
+        "text": "The bag is easy to hold by hand.",
         "words": [
           {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
+            "word": "պայուսակը",
+            "gloss": "bag",
+            "transliteration": "payusaky"
           },
           {
-            "word": "ուզում է",
-            "gloss": "wants",
-            "transliteration": "uzum e"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "պահել",
             "gloss": "hold",
             "transliteration": "pahel",
             "note": "target"
+          },
+          {
+            "word": "ձեռքով",
+            "gloss": "by hand",
+            "transliteration": "dzerrk'ov"
           }
         ]
       },
       {
-        "target": "ընկեր կարող է պահել։",
-        "text": "A friend can hold.",
+        "target": "երեխան սովորում է պահել գդալը։",
+        "text": "The child learns to hold a spoon.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
-          {
-            "word": "կարող է",
-            "gloss": "can",
-            "transliteration": "karogh e"
-          },
-          {
-            "word": "պահել",
-            "gloss": "hold",
-            "transliteration": "pahel",
-            "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "դպրոց մեջ երեխա սովորում է պահել։",
-        "text": "At school, the child learns to hold.",
-        "words": [
-          {
-            "word": "դպրոց",
-            "gloss": "school",
-            "transliteration": "dprots'"
-          },
-          {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "երեխա",
+            "word": "երեխան",
             "gloss": "child",
-            "transliteration": "erekha"
+            "transliteration": "erekhan"
           },
           {
-            "word": "սովորում է",
+            "word": "սովորում",
             "gloss": "learns",
-            "transliteration": "sovorum e"
+            "transliteration": "sovorum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "պահել",
             "gloss": "hold",
             "transliteration": "pahel",
             "note": "target"
+          },
+          {
+            "word": "գդալը",
+            "gloss": "spoon",
+            "transliteration": "gdaly"
+          }
+        ]
+      },
+      {
+        "target": "պարանը պետք է պահել ամուր։",
+        "text": "One must hold the rope firmly.",
+        "words": [
+          {
+            "word": "պարանը",
+            "gloss": "rope",
+            "transliteration": "parany"
+          },
+          {
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահել",
+            "gloss": "hold",
+            "transliteration": "pahel",
+            "note": "target"
+          },
+          {
+            "word": "ամուր",
+            "gloss": "firm/strong",
+            "transliteration": "amur"
           }
         ]
       }
@@ -438,81 +518,101 @@
     "vocab_index": 130,
     "word": "սեղմել",
     "gloss": "squeeze",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սովորում է սեղմել։",
-        "text": "The child learns to squeeze.",
+        "target": "կիտրոնը հեշտ է սեղմել ձեռքով։",
+        "text": "A lemon is easy to squeeze by hand.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "կիտրոնը",
+            "gloss": "lemon",
+            "transliteration": "kitrony"
           },
           {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "սեղմել",
             "gloss": "squeeze",
             "transliteration": "seghmel",
             "note": "target"
+          },
+          {
+            "word": "ձեռքով",
+            "gloss": "by hand",
+            "transliteration": "dzerrk'ov"
           }
         ]
       },
       {
-        "target": "հիմա ես փորձում եմ սեղմել։",
-        "text": "Now I try to squeeze.",
+        "target": "կոճակը պետք է սեղմել ուժեղ։",
+        "text": "One must squeeze the button firmly.",
         "words": [
           {
-            "word": "հիմա",
-            "gloss": "now",
-            "transliteration": "hima"
+            "word": "կոճակը",
+            "gloss": "button",
+            "transliteration": "kochaky"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "սեղմել",
             "gloss": "squeeze",
             "transliteration": "seghmel",
             "note": "target"
+          },
+          {
+            "word": "ուժեղ",
+            "gloss": "strong",
+            "transliteration": "uzhegh"
           }
         ]
       },
       {
-        "target": "վաղը մենք կարող ենք սեղմել։",
-        "text": "Tomorrow we can squeeze.",
+        "target": "մի՛ սկսիր սեղմել ձեռքը շատ։",
+        "text": "Do not start to squeeze the hand too hard.",
         "words": [
           {
-            "word": "վաղը",
-            "gloss": "tomorrow",
-            "transliteration": "vaghy"
+            "word": "մի՛",
+            "gloss": "do not",
+            "transliteration": "mi"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "կարող ենք",
-            "gloss": "we can",
-            "transliteration": "karogh enk'"
+            "word": "սկսիր",
+            "gloss": "start",
+            "transliteration": "sksir"
           },
           {
             "word": "սեղմել",
             "gloss": "squeeze",
             "transliteration": "seghmel",
             "note": "target"
+          },
+          {
+            "word": "ձեռքը",
+            "gloss": "hand",
+            "transliteration": "dzerrk'y"
+          },
+          {
+            "word": "շատ",
+            "gloss": "many",
+            "transliteration": "shat"
           }
         ]
       }
@@ -522,31 +622,31 @@
     "vocab_index": 131,
     "word": "շփել",
     "gloss": "rub",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "դաս հետո մենք ուզում ենք շփել։",
-        "text": "After the lesson, we want to rub.",
+        "target": "ցուրտ ձեռքերը հաճելի է շփել։",
+        "text": "It is pleasant to rub cold hands.",
         "words": [
           {
-            "word": "դաս",
-            "gloss": "lesson",
-            "transliteration": "das"
+            "word": "ցուրտ",
+            "gloss": "cold",
+            "transliteration": "ts'urt"
           },
           {
-            "word": "հետո",
-            "gloss": "after",
-            "transliteration": "heto"
+            "word": "ձեռքերը",
+            "gloss": "hands",
+            "transliteration": "dzerrk'ery"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
           },
           {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "շփել",
@@ -557,28 +657,28 @@
         ]
       },
       {
-        "target": "տուն մեջ ես փորձում եմ շփել։",
-        "text": "At home, I try to rub.",
+        "target": "աղտոտ ապակին պետք է շփել։",
+        "text": "One must rub the dirty glass.",
         "words": [
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "աղտոտ",
+            "gloss": "dirty",
+            "transliteration": "aghtot"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "ապակին",
+            "gloss": "glass",
+            "transliteration": "apakin"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "շփել",
@@ -589,34 +689,34 @@
         ]
       },
       {
-        "target": "շուկա առաջ ես ուզում եմ շփել։",
-        "text": "Before the market, I want to rub.",
+        "target": "կատուն սիրում է շփել ոտքերիդ։",
+        "text": "The cat likes to rub against your legs.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "կատուն",
+            "gloss": "cat",
+            "transliteration": "katun"
           },
           {
-            "word": "առաջ",
-            "gloss": "before",
-            "transliteration": "arraj"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "շփել",
             "gloss": "rub",
             "transliteration": "shp'el",
             "note": "target"
+          },
+          {
+            "word": "ոտքերիդ",
+            "gloss": "your legs",
+            "transliteration": "otk'erid"
           }
         ]
       }
@@ -626,76 +726,106 @@
     "vocab_index": 132,
     "word": "լվալ",
     "gloss": "wash",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ուզում եմ լվալ։",
-        "text": "I want to wash.",
+        "target": "սպասքը պետք է լվալ երեկոյան։",
+        "text": "One must wash the dishes in the evening.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "սպասքը",
+            "gloss": "dishes",
+            "transliteration": "spask'y"
           },
           {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "լվալ",
             "gloss": "wash",
             "transliteration": "lval",
             "note": "target"
+          },
+          {
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           }
         ]
       },
       {
-        "target": "դու կարող ես լվալ?",
-        "text": "Can you wash?",
+        "target": "երեխան սովորում է լվալ ձեռքերը։",
+        "text": "The child learns to wash hands.",
         "words": [
           {
-            "word": "դու",
-            "gloss": "you",
-            "transliteration": "du"
+            "word": "երեխան",
+            "gloss": "child",
+            "transliteration": "erekhan"
           },
           {
-            "word": "կարող ես",
-            "gloss": "you can",
-            "transliteration": "karogh es"
+            "word": "սովորում",
+            "gloss": "learns",
+            "transliteration": "sovorum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "լվալ",
             "gloss": "wash",
             "transliteration": "lval",
             "note": "target"
+          },
+          {
+            "word": "ձեռքերը",
+            "gloss": "hands",
+            "transliteration": "dzerrk'ery"
           }
         ]
       },
       {
-        "target": "այսօր մենք ուզում ենք լվալ։",
-        "text": "Today we want to wash.",
+        "target": "մեքենան հաճելի է լվալ շաբաթ օրը։",
+        "text": "It is pleasant to wash the car on Saturday.",
         "words": [
           {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
+            "word": "մեքենան",
+            "gloss": "car",
+            "transliteration": "mek'enan"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
           },
           {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "լվալ",
             "gloss": "wash",
             "transliteration": "lval",
             "note": "target"
+          },
+          {
+            "word": "շաբաթ",
+            "gloss": "week",
+            "transliteration": "shabat'"
+          },
+          {
+            "word": "օրը",
+            "gloss": "day",
+            "transliteration": "ory"
           }
         ]
       }
@@ -705,21 +835,58 @@
     "vocab_index": 133,
     "word": "սրբել",
     "gloss": "wipe",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ուզում է սրբել։",
-        "text": "The teacher wants to wipe.",
+        "target": "սեղանը պետք է սրբել կտորով։",
+        "text": "One must wipe the table with a cloth.",
         "words": [
           {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
+            "word": "սեղանը",
+            "gloss": "table",
+            "transliteration": "seghany"
           },
           {
-            "word": "ուզում է",
-            "gloss": "wants",
-            "transliteration": "uzum e"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սրբել",
+            "gloss": "wipe",
+            "transliteration": "srbel",
+            "note": "target"
+          },
+          {
+            "word": "կտորով",
+            "gloss": "with a cloth",
+            "transliteration": "ktorov"
+          }
+        ]
+      },
+      {
+        "target": "արցունքները հեշտ է սրբել։",
+        "text": "Tears are easy to wipe.",
+        "words": [
+          {
+            "word": "արցունքները",
+            "gloss": "tears",
+            "transliteration": "arts'unk'nery"
+          },
+          {
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "սրբել",
@@ -730,56 +897,34 @@
         ]
       },
       {
-        "target": "ընկեր կարող է սրբել։",
-        "text": "A friend can wipe.",
+        "target": "պատուհանը սկսում են սրբել գարնանը։",
+        "text": "They begin to wipe the windows in spring.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "պատուհանը",
+            "gloss": "window",
+            "transliteration": "patuhany"
           },
           {
-            "word": "կարող է",
-            "gloss": "can",
-            "transliteration": "karogh e"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "սրբել",
             "gloss": "wipe",
             "transliteration": "srbel",
             "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "դպրոց մեջ երեխա սովորում է սրբել։",
-        "text": "At school, the child learns to wipe.",
-        "words": [
-          {
-            "word": "դպրոց",
-            "gloss": "school",
-            "transliteration": "dprots'"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
-          },
-          {
-            "word": "սրբել",
-            "gloss": "wipe",
-            "transliteration": "srbel",
-            "note": "target"
+            "word": "գարնանը",
+            "gloss": "in spring",
+            "transliteration": "garnany"
           }
         ]
       }
@@ -789,21 +934,26 @@
     "vocab_index": 134,
     "word": "քաշել",
     "gloss": "pull",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սովորում է քաշել։",
-        "text": "The child learns to pull.",
+        "target": "դուռը հեշտ է քաշել։",
+        "text": "The door is easy to pull.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "դուռը",
+            "gloss": "door",
+            "transliteration": "durry"
           },
           {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "քաշել",
@@ -814,56 +964,66 @@
         ]
       },
       {
-        "target": "հիմա ես փորձում եմ քաշել։",
-        "text": "Now I try to pull.",
+        "target": "շունը սիրում է քաշել պարանը։",
+        "text": "The dog likes to pull the rope.",
         "words": [
           {
-            "word": "հիմա",
-            "gloss": "now",
-            "transliteration": "hima"
+            "word": "շունը",
+            "gloss": "dog",
+            "transliteration": "shuny"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "քաշել",
             "gloss": "pull",
             "transliteration": "k'ashel",
             "note": "target"
+          },
+          {
+            "word": "պարանը",
+            "gloss": "rope",
+            "transliteration": "parany"
           }
         ]
       },
       {
-        "target": "վաղը մենք կարող ենք քաշել։",
-        "text": "Tomorrow we can pull.",
+        "target": "արկղը պետք է քաշել զգուշությամբ։",
+        "text": "One must pull the box carefully.",
         "words": [
           {
-            "word": "վաղը",
-            "gloss": "tomorrow",
-            "transliteration": "vaghy"
+            "word": "արկղը",
+            "gloss": "box",
+            "transliteration": "arkghy"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
           },
           {
-            "word": "կարող ենք",
-            "gloss": "we can",
-            "transliteration": "karogh enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "քաշել",
             "gloss": "pull",
             "transliteration": "k'ashel",
             "note": "target"
+          },
+          {
+            "word": "զգուշությամբ",
+            "gloss": "carefully",
+            "transliteration": "zgushut'yamb"
           }
         ]
       }
@@ -873,101 +1033,101 @@
     "vocab_index": 135,
     "word": "հրել",
     "gloss": "push",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "դաս հետո մենք ուզում ենք հրել։",
-        "text": "After the lesson, we want to push.",
+        "target": "դուռը հեշտ է հրել ներս։",
+        "text": "The door is easy to push inward.",
         "words": [
           {
-            "word": "դաս",
-            "gloss": "lesson",
-            "transliteration": "das"
+            "word": "դուռը",
+            "gloss": "door",
+            "transliteration": "durry"
           },
           {
-            "word": "հետո",
-            "gloss": "after",
-            "transliteration": "heto"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հրել",
             "gloss": "push",
             "transliteration": "hrel",
             "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "տուն մեջ ես փորձում եմ հրել։",
-        "text": "At home, I try to push.",
-        "words": [
-          {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
           },
           {
-            "word": "մեջ",
+            "word": "ներս",
             "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
-          },
-          {
-            "word": "հրել",
-            "gloss": "push",
-            "transliteration": "hrel",
-            "note": "target"
+            "transliteration": "ners"
           }
         ]
       },
       {
-        "target": "շուկա առաջ ես ուզում եմ հրել։",
-        "text": "Before the market, I want to push.",
+        "target": "սայլը պետք է հրել դանդաղ։",
+        "text": "One must push the cart slowly.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "սայլը",
+            "gloss": "cart",
+            "transliteration": "sayly"
           },
           {
-            "word": "առաջ",
-            "gloss": "before",
-            "transliteration": "arraj"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հրել",
             "gloss": "push",
             "transliteration": "hrel",
             "note": "target"
+          },
+          {
+            "word": "դանդաղ",
+            "gloss": "slow",
+            "transliteration": "dandagh"
+          }
+        ]
+      },
+      {
+        "target": "երեխաները սկսում են հրել ճոճանակը։",
+        "text": "Children begin to push the swing.",
+        "words": [
+          {
+            "word": "երեխաները",
+            "gloss": "children",
+            "transliteration": "erekhanery"
+          },
+          {
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
+          },
+          {
+            "word": "հրել",
+            "gloss": "push",
+            "transliteration": "hrel",
+            "note": "target"
+          },
+          {
+            "word": "ճոճանակը",
+            "gloss": "swing",
+            "transliteration": "chochanaky"
           }
         ]
       }
@@ -977,21 +1137,26 @@
     "vocab_index": 136,
     "word": "նետել",
     "gloss": "throw",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ուզում եմ նետել։",
-        "text": "I want to throw.",
+        "target": "գնդակը հաճելի է նետել։",
+        "text": "It is pleasant to throw a ball.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "գնդակը",
+            "gloss": "ball",
+            "transliteration": "gndaky"
           },
           {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "նետել",
@@ -1002,51 +1167,76 @@
         ]
       },
       {
-        "target": "դու կարող ես նետել?",
-        "text": "Can you throw?",
+        "target": "աղբը պետք է նետել աղբարկղը։",
+        "text": "One must throw trash into the bin.",
         "words": [
           {
-            "word": "դու",
-            "gloss": "you",
-            "transliteration": "du"
+            "word": "աղբը",
+            "gloss": "trash",
+            "transliteration": "aghby"
           },
           {
-            "word": "կարող ես",
-            "gloss": "you can",
-            "transliteration": "karogh es"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "նետել",
             "gloss": "throw",
             "transliteration": "netel",
             "note": "target"
+          },
+          {
+            "word": "աղբարկղը",
+            "gloss": "bin",
+            "transliteration": "aghbarkghy"
           }
         ]
       },
       {
-        "target": "այսօր մենք ուզում ենք նետել։",
-        "text": "Today we want to throw.",
+        "target": "ձուկ որսալու համար կարելի է նետել ցանց։",
+        "text": "To catch fish one may throw a net.",
         "words": [
           {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
+            "word": "ձուկ",
+            "gloss": "fish",
+            "transliteration": "dzuk"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "որսալու",
+            "gloss": "for hunting",
+            "transliteration": "orsalu"
           },
           {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
+          },
+          {
+            "word": "կարելի",
+            "gloss": "possible",
+            "transliteration": "kareli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "նետել",
             "gloss": "throw",
             "transliteration": "netel",
             "note": "target"
+          },
+          {
+            "word": "ցանց",
+            "gloss": "net",
+            "transliteration": "ts'ants'"
           }
         ]
       }
@@ -1056,81 +1246,101 @@
     "vocab_index": 137,
     "word": "կապել",
     "gloss": "tie",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ուզում է կապել։",
-        "text": "The teacher wants to tie.",
+        "target": "պարանը պետք է կապել ամուր։",
+        "text": "One must tie the rope tightly.",
         "words": [
           {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
+            "word": "պարանը",
+            "gloss": "rope",
+            "transliteration": "parany"
           },
           {
-            "word": "ուզում է",
-            "gloss": "wants",
-            "transliteration": "uzum e"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կապել",
             "gloss": "tie",
             "transliteration": "kapel",
             "note": "target"
+          },
+          {
+            "word": "ամուր",
+            "gloss": "firm/strong",
+            "transliteration": "amur"
           }
         ]
       },
       {
-        "target": "ընկեր կարող է կապել։",
-        "text": "A friend can tie.",
+        "target": "երեխան սովորում է կապել կոշիկները։",
+        "text": "The child learns to tie shoes.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
-          {
-            "word": "կարող է",
-            "gloss": "can",
-            "transliteration": "karogh e"
-          },
-          {
-            "word": "կապել",
-            "gloss": "tie",
-            "transliteration": "kapel",
-            "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "դպրոց մեջ երեխա սովորում է կապել։",
-        "text": "At school, the child learns to tie.",
-        "words": [
-          {
-            "word": "դպրոց",
-            "gloss": "school",
-            "transliteration": "dprots'"
-          },
-          {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "երեխա",
+            "word": "երեխան",
             "gloss": "child",
-            "transliteration": "erekha"
+            "transliteration": "erekhan"
           },
           {
-            "word": "սովորում է",
+            "word": "սովորում",
             "gloss": "learns",
-            "transliteration": "sovorum e"
+            "transliteration": "sovorum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կապել",
             "gloss": "tie",
             "transliteration": "kapel",
             "note": "target"
+          },
+          {
+            "word": "կոշիկները",
+            "gloss": "shoes",
+            "transliteration": "koshiknery"
+          }
+        ]
+      },
+      {
+        "target": "նվերը հաճելի է կապել ժապավենով։",
+        "text": "It is pleasant to tie a gift with a ribbon.",
+        "words": [
+          {
+            "word": "նվերը",
+            "gloss": "gift",
+            "transliteration": "nvery"
+          },
+          {
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կապել",
+            "gloss": "tie",
+            "transliteration": "kapel",
+            "note": "target"
+          },
+          {
+            "word": "ժապավենով",
+            "gloss": "with a ribbon",
+            "transliteration": "zhapavenov"
           }
         ]
       }
@@ -1140,21 +1350,26 @@
     "vocab_index": 138,
     "word": "կարել",
     "gloss": "sew",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սովորում է կարել։",
-        "text": "The child learns to sew.",
+        "target": "կոճակը հեշտ է կարել։",
+        "text": "A button is easy to sew.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "կոճակը",
+            "gloss": "button",
+            "transliteration": "kochaky"
           },
           {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կարել",
@@ -1165,56 +1380,66 @@
         ]
       },
       {
-        "target": "հիմա ես փորձում եմ կարել։",
-        "text": "Now I try to sew.",
+        "target": "մայրը սիրում է կարել երեկոյան։",
+        "text": "Mother likes to sew in the evening.",
         "words": [
           {
-            "word": "հիմա",
-            "gloss": "now",
-            "transliteration": "hima"
+            "word": "մայրը",
+            "gloss": "mother",
+            "transliteration": "mayry"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կարել",
             "gloss": "sew",
             "transliteration": "karel",
             "note": "target"
+          },
+          {
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           }
         ]
       },
       {
-        "target": "վաղը մենք կարող ենք կարել։",
-        "text": "Tomorrow we can sew.",
+        "target": "դերձակը սկսում է կարել վերարկու։",
+        "text": "The tailor begins to sew a coat.",
         "words": [
           {
-            "word": "վաղը",
-            "gloss": "tomorrow",
-            "transliteration": "vaghy"
+            "word": "դերձակը",
+            "gloss": "tailor",
+            "transliteration": "derdzaky"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "կարող ենք",
-            "gloss": "we can",
-            "transliteration": "karogh enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "կարել",
             "gloss": "sew",
             "transliteration": "karel",
             "note": "target"
+          },
+          {
+            "word": "վերարկու",
+            "gloss": "coat",
+            "transliteration": "verarku"
           }
         ]
       }
@@ -1224,31 +1449,26 @@
     "vocab_index": 139,
     "word": "հաշվել",
     "gloss": "count",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "դաս հետո մենք ուզում ենք հաշվել։",
-        "text": "After the lesson, we want to count.",
+        "target": "աստղերը հաճելի է հաշվել։",
+        "text": "It is pleasant to count the stars.",
         "words": [
           {
-            "word": "դաս",
-            "gloss": "lesson",
-            "transliteration": "das"
+            "word": "աստղերը",
+            "gloss": "stars",
+            "transliteration": "astghery"
           },
           {
-            "word": "հետո",
-            "gloss": "after",
-            "transliteration": "heto"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հաշվել",
@@ -1259,66 +1479,71 @@
         ]
       },
       {
-        "target": "տուն մեջ ես փորձում եմ հաշվել։",
-        "text": "At home, I try to count.",
+        "target": "երեխան սովորում է հաշվել մինչև տասը։",
+        "text": "The child learns to count to ten.",
         "words": [
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "երեխան",
+            "gloss": "child",
+            "transliteration": "erekhan"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "սովորում",
+            "gloss": "learns",
+            "transliteration": "sovorum"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հաշվել",
             "gloss": "count",
             "transliteration": "hashvel",
             "note": "target"
+          },
+          {
+            "word": "մինչև",
+            "gloss": "until",
+            "transliteration": "minch'ev"
+          },
+          {
+            "word": "տասը",
+            "gloss": "ten",
+            "transliteration": "tasy"
           }
         ]
       },
       {
-        "target": "շուկա առաջ ես ուզում եմ հաշվել։",
-        "text": "Before the market, I want to count.",
+        "target": "գումարը պետք է հաշվել ուշադիր։",
+        "text": "One must count the money carefully.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "գումարը",
+            "gloss": "money",
+            "transliteration": "gumary"
           },
           {
-            "word": "առաջ",
-            "gloss": "before",
-            "transliteration": "arraj"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հաշվել",
             "gloss": "count",
             "transliteration": "hashvel",
             "note": "target"
+          },
+          {
+            "word": "ուշադիր",
+            "gloss": "carefully",
+            "transliteration": "ushadir"
           }
         ]
       }
@@ -1328,21 +1553,26 @@
     "vocab_index": 140,
     "word": "ասել",
     "gloss": "say",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ուզում եմ ասել։",
-        "text": "I want to say.",
+        "target": "ճշմարտությունը պետք է ասել։",
+        "text": "One must say the truth.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ճշմարտությունը",
+            "gloss": "truth",
+            "transliteration": "chshmartut'yuny"
           },
           {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ասել",
@@ -1353,18 +1583,23 @@
         ]
       },
       {
-        "target": "դու կարող ես ասել?",
-        "text": "Can you say?",
+        "target": "շնորհակալություն հաճելի է ասել։",
+        "text": "It is pleasant to say thank you.",
         "words": [
           {
-            "word": "դու",
-            "gloss": "you",
-            "transliteration": "du"
+            "word": "շնորհակալություն",
+            "gloss": "thank you",
+            "transliteration": "shnorhakalut'yun"
           },
           {
-            "word": "կարող ես",
-            "gloss": "you can",
-            "transliteration": "karogh es"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ասել",
@@ -1375,29 +1610,34 @@
         ]
       },
       {
-        "target": "այսօր մենք ուզում ենք ասել։",
-        "text": "Today we want to say.",
+        "target": "ուսուցիչը սկսում է ասել կանոնները։",
+        "text": "The teacher begins to say the rules.",
         "words": [
           {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
+            "word": "ուսուցիչը",
+            "gloss": "teacher",
+            "transliteration": "usuts'ich'y"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ասել",
             "gloss": "say",
             "transliteration": "asel",
             "note": "target"
+          },
+          {
+            "word": "կանոնները",
+            "gloss": "rules",
+            "transliteration": "kanonnery"
           }
         ]
       }
@@ -1407,21 +1647,58 @@
     "vocab_index": 141,
     "word": "երգել",
     "gloss": "sing",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ուզում է երգել։",
-        "text": "The teacher wants to sing.",
+        "target": "երգչախումբը սիրում է երգել միասին։",
+        "text": "The choir likes to sing together.",
         "words": [
           {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
+            "word": "երգչախումբը",
+            "gloss": "choir",
+            "transliteration": "ergch'akhumby"
           },
           {
-            "word": "ուզում է",
-            "gloss": "wants",
-            "transliteration": "uzum e"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "երգել",
+            "gloss": "sing",
+            "transliteration": "ergel",
+            "note": "target"
+          },
+          {
+            "word": "միասին",
+            "gloss": "together",
+            "transliteration": "miasin"
+          }
+        ]
+      },
+      {
+        "target": "լոգարանում հաճելի է երգել։",
+        "text": "It is pleasant to sing in the bathroom.",
+        "words": [
+          {
+            "word": "լոգարանում",
+            "gloss": "in the bathroom",
+            "transliteration": "logaranum"
+          },
+          {
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "երգել",
@@ -1432,56 +1709,34 @@
         ]
       },
       {
-        "target": "ընկեր կարող է երգել։",
-        "text": "A friend can sing.",
+        "target": "թռչունը սկսում է երգել առավոտյան։",
+        "text": "The bird begins to sing in the morning.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "թռչունը",
+            "gloss": "bird",
+            "transliteration": "t'rrch'uny"
           },
           {
-            "word": "կարող է",
-            "gloss": "can",
-            "transliteration": "karogh e"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "երգել",
             "gloss": "sing",
             "transliteration": "ergel",
             "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "դպրոց մեջ երեխա սովորում է երգել։",
-        "text": "At school, the child learns to sing.",
-        "words": [
-          {
-            "word": "դպրոց",
-            "gloss": "school",
-            "transliteration": "dprots'"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
-          },
-          {
-            "word": "երգել",
-            "gloss": "sing",
-            "transliteration": "ergel",
-            "note": "target"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
           }
         ]
       }
@@ -1491,21 +1746,26 @@
     "vocab_index": 142,
     "word": "խաղալ",
     "gloss": "play",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սովորում է խաղալ։",
-        "text": "The child learns to play.",
+        "target": "բակում հաճելի է խաղալ։",
+        "text": "It is pleasant to play in the yard.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "բակում",
+            "gloss": "in the yard",
+            "transliteration": "bakum"
           },
           {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "խաղալ",
@@ -1516,56 +1776,66 @@
         ]
       },
       {
-        "target": "հիմա ես փորձում եմ խաղալ։",
-        "text": "Now I try to play.",
+        "target": "երեխաները սիրում են խաղալ գնդակով։",
+        "text": "Children like to play with a ball.",
         "words": [
           {
-            "word": "հիմա",
-            "gloss": "now",
-            "transliteration": "hima"
+            "word": "երեխաները",
+            "gloss": "children",
+            "transliteration": "erekhanery"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "խաղալ",
             "gloss": "play",
             "transliteration": "khaghal",
             "note": "target"
+          },
+          {
+            "word": "գնդակով",
+            "gloss": "with a ball",
+            "transliteration": "gndakov"
           }
         ]
       },
       {
-        "target": "վաղը մենք կարող ենք խաղալ։",
-        "text": "Tomorrow we can play.",
+        "target": "երեկոյան սկսում ենք խաղալ շախմատ։",
+        "text": "In the evening we begin to play chess.",
         "words": [
           {
-            "word": "վաղը",
-            "gloss": "tomorrow",
-            "transliteration": "vaghy"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "կարող ենք",
-            "gloss": "we can",
-            "transliteration": "karogh enk'"
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
           },
           {
             "word": "խաղալ",
             "gloss": "play",
             "transliteration": "khaghal",
             "note": "target"
+          },
+          {
+            "word": "շախմատ",
+            "gloss": "chess",
+            "transliteration": "shakhmat"
           }
         ]
       }
@@ -1575,31 +1845,26 @@
     "vocab_index": 143,
     "word": "ջրի վրա լողալ",
     "gloss": "float",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "դաս հետո մենք ուզում ենք ջրի վրա լողալ։",
-        "text": "After the lesson, we want to float.",
+        "target": "տերևը կարող է ջրի վրա լողալ։",
+        "text": "A leaf can float on water.",
         "words": [
           {
-            "word": "դաս",
-            "gloss": "lesson",
-            "transliteration": "das"
+            "word": "տերևը",
+            "gloss": "leaf",
+            "transliteration": "terevy"
           },
           {
-            "word": "հետո",
-            "gloss": "after",
-            "transliteration": "heto"
+            "word": "կարող",
+            "gloss": "can",
+            "transliteration": "karogh"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ջրի վրա լողալ",
@@ -1610,28 +1875,23 @@
         ]
       },
       {
-        "target": "տուն մեջ ես փորձում եմ ջրի վրա լողալ։",
-        "text": "At home, I try to float.",
+        "target": "նավակը սկսում է ջրի վրա լողալ։",
+        "text": "The boat begins to float on water.",
         "words": [
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "նավակը",
+            "gloss": "boat",
+            "transliteration": "navaky"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ջրի վրա լողալ",
@@ -1642,28 +1902,23 @@
         ]
       },
       {
-        "target": "շուկա առաջ ես ուզում եմ ջրի վրա լողալ։",
-        "text": "Before the market, I want to float.",
+        "target": "փայտը կարող է ջրի վրա լողալ։",
+        "text": "Wood can float on water.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "փայտը",
+            "gloss": "wood/stick",
+            "transliteration": "p'ayty"
           },
           {
-            "word": "առաջ",
-            "gloss": "before",
-            "transliteration": "arraj"
+            "word": "կարող",
+            "gloss": "can",
+            "transliteration": "karogh"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ջրի վրա լողալ",
@@ -1679,76 +1934,101 @@
     "vocab_index": 144,
     "word": "հոսել",
     "gloss": "flow",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ուզում եմ հոսել։",
-        "text": "I want to flow.",
+        "target": "գետը սիրում է հոսել արագ։",
+        "text": "The river likes to flow fast.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "գետը",
+            "gloss": "river",
+            "transliteration": "gety"
           },
           {
-            "word": "ուզում եմ",
-            "gloss": "I want",
-            "transliteration": "uzum em"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հոսել",
             "gloss": "flow",
             "transliteration": "hosel",
             "note": "target"
+          },
+          {
+            "word": "արագ",
+            "gloss": "fast",
+            "transliteration": "arag"
           }
         ]
       },
       {
-        "target": "դու կարող ես հոսել?",
-        "text": "Can you flow?",
+        "target": "արյունը պետք է հոսել երակներում։",
+        "text": "Blood must flow in the veins.",
         "words": [
           {
-            "word": "դու",
-            "gloss": "you",
-            "transliteration": "du"
+            "word": "արյունը",
+            "gloss": "blood",
+            "transliteration": "aryuny"
           },
           {
-            "word": "կարող ես",
-            "gloss": "you can",
-            "transliteration": "karogh es"
+            "word": "պետք",
+            "gloss": "must",
+            "transliteration": "petk'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հոսել",
             "gloss": "flow",
             "transliteration": "hosel",
             "note": "target"
+          },
+          {
+            "word": "երակներում",
+            "gloss": "in the veins",
+            "transliteration": "eraknerum"
           }
         ]
       },
       {
-        "target": "այսօր մենք ուզում ենք հոսել։",
-        "text": "Today we want to flow.",
+        "target": "ջուրը սկսում է հոսել ծորակից։",
+        "text": "Water begins to flow from the tap.",
         "words": [
           {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
+            "word": "ջուրը",
+            "gloss": "water",
+            "transliteration": "jury"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "ուզում ենք",
-            "gloss": "we want",
-            "transliteration": "uzum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հոսել",
             "gloss": "flow",
             "transliteration": "hosel",
             "note": "target"
+          },
+          {
+            "word": "ծորակից",
+            "gloss": "from the tap",
+            "transliteration": "tsorakits'"
           }
         ]
       }
@@ -1758,81 +2038,101 @@
     "vocab_index": 145,
     "word": "սառչել",
     "gloss": "freeze",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ուզում է սառչել։",
-        "text": "The teacher wants to freeze.",
+        "target": "լիճը կարող է սառչել ձմռանը։",
+        "text": "The lake may freeze in winter.",
         "words": [
           {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
+            "word": "լիճը",
+            "gloss": "lake",
+            "transliteration": "lichy"
           },
           {
-            "word": "ուզում է",
-            "gloss": "wants",
-            "transliteration": "uzum e"
-          },
-          {
-            "word": "սառչել",
-            "gloss": "freeze",
-            "transliteration": "sarrch'el",
-            "note": "target"
-          }
-        ]
-      },
-      {
-        "target": "ընկեր կարող է սառչել։",
-        "text": "A friend can freeze.",
-        "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
-          {
-            "word": "կարող է",
+            "word": "կարող",
             "gloss": "can",
-            "transliteration": "karogh e"
+            "transliteration": "karogh"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "սառչել",
             "gloss": "freeze",
             "transliteration": "sarrch'el",
             "note": "target"
+          },
+          {
+            "word": "ձմռանը",
+            "gloss": "in winter",
+            "transliteration": "dzmrrany"
           }
         ]
       },
       {
-        "target": "դպրոց մեջ երեխա սովորում է սառչել։",
-        "text": "At school, the child learns to freeze.",
+        "target": "ձեռքերը սկսում են սառչել ցրտին։",
+        "text": "Hands begin to freeze in the cold.",
         "words": [
           {
-            "word": "դպրոց",
-            "gloss": "school",
-            "transliteration": "dprots'"
+            "word": "ձեռքերը",
+            "gloss": "hands",
+            "transliteration": "dzerrk'ery"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "սառչել",
             "gloss": "freeze",
             "transliteration": "sarrch'el",
             "note": "target"
+          },
+          {
+            "word": "ցրտին",
+            "gloss": "in the cold",
+            "transliteration": "ts'rtin"
+          }
+        ]
+      },
+      {
+        "target": "կաթը հեշտ է սառչել սառնարանում։",
+        "text": "Milk is easy to freeze in the fridge.",
+        "words": [
+          {
+            "word": "կաթը",
+            "gloss": "milk",
+            "transliteration": "kat'y"
+          },
+          {
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սառչել",
+            "gloss": "freeze",
+            "transliteration": "sarrch'el",
+            "note": "target"
+          },
+          {
+            "word": "սառնարանում",
+            "gloss": "in the fridge",
+            "transliteration": "sarrnaranum"
           }
         ]
       }
@@ -1842,81 +2142,106 @@
     "vocab_index": 146,
     "word": "ուռել",
     "gloss": "swell",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սովորում է ուռել։",
-        "text": "The child learns to swell.",
+        "target": "ոտքը կարող է ուռել վնասվածքից։",
+        "text": "A foot may swell from an injury.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "ոտքը",
+            "gloss": "foot",
+            "transliteration": "otk'y"
           },
           {
-            "word": "սովորում է",
-            "gloss": "learns",
-            "transliteration": "sovorum e"
+            "word": "կարող",
+            "gloss": "can",
+            "transliteration": "karogh"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ուռել",
             "gloss": "swell",
             "transliteration": "urrel",
             "note": "target"
+          },
+          {
+            "word": "վնասվածքից",
+            "gloss": "injury",
+            "transliteration": "vnasvatsk'its'"
           }
         ]
       },
       {
-        "target": "հիմա ես փորձում եմ ուռել։",
-        "text": "Now I try to swell.",
+        "target": "աչքը սկսում է ուռել հարվածից։",
+        "text": "An eye begins to swell from a blow.",
         "words": [
           {
-            "word": "հիմա",
-            "gloss": "now",
-            "transliteration": "hima"
+            "word": "աչքը",
+            "gloss": "eye",
+            "transliteration": "ach'k'y"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "սկսում",
+            "gloss": "begins",
+            "transliteration": "sksum"
           },
           {
-            "word": "փորձում եմ",
-            "gloss": "I try",
-            "transliteration": "p'ordzum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ուռել",
             "gloss": "swell",
             "transliteration": "urrel",
             "note": "target"
+          },
+          {
+            "word": "հարվածից",
+            "gloss": "blow",
+            "transliteration": "harvatsits'"
           }
         ]
       },
       {
-        "target": "վաղը մենք կարող ենք ուռել։",
-        "text": "Tomorrow we can swell.",
+        "target": "հացը սիրում է ուռել թխելուց առաջ։",
+        "text": "Bread likes to swell before baking.",
         "words": [
           {
-            "word": "վաղը",
-            "gloss": "tomorrow",
-            "transliteration": "vaghy"
+            "word": "հացը",
+            "gloss": "bread",
+            "transliteration": "hats'y"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սիրում",
+            "gloss": "likes",
+            "transliteration": "sirum"
           },
           {
-            "word": "կարող ենք",
-            "gloss": "we can",
-            "transliteration": "karogh enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "ուռել",
             "gloss": "swell",
             "transliteration": "urrel",
             "note": "target"
+          },
+          {
+            "word": "թխելուց",
+            "gloss": "before baking",
+            "transliteration": "t'kheluts'"
+          },
+          {
+            "word": "առաջ",
+            "gloss": "before",
+            "transliteration": "arraj"
           }
         ]
       }
@@ -1926,17 +2251,12 @@
     "vocab_index": 147,
     "word": "արև",
     "gloss": "sun",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր արև կա։",
-        "text": "I see the sun today.",
+        "target": "արև լուսավորում է սենյակը։",
+        "text": "The sun lights up the room.",
         "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
-          },
           {
             "word": "արև",
             "gloss": "sun",
@@ -1944,20 +2264,30 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "լուսավորում",
+            "gloss": "lights",
+            "transliteration": "lusavorum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սենյակը",
+            "gloss": "room",
+            "transliteration": "senyaky"
           }
         ]
       },
       {
-        "target": "ես արև տեսնում եմ։",
-        "text": "I see the sun.",
+        "target": "ամռանը արև տաք է։",
+        "text": "In summer the sun is warm.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ամռանը",
+            "gloss": "in summer",
+            "transliteration": "amrrany"
           },
           {
             "word": "արև",
@@ -1966,21 +2296,21 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "դրսում արև կա։",
-        "text": "The sun is outside.",
+        "target": "արև մայր է մտնում երեկոյան։",
+        "text": "The sun sets in the evening.",
         "words": [
-          {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
           {
             "word": "արև",
             "gloss": "sun",
@@ -1988,9 +2318,24 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "մայր",
+            "gloss": "mother",
+            "transliteration": "mayr"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "մտնում",
+            "gloss": "enters",
+            "transliteration": "mtnum"
+          },
+          {
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           }
         ]
       }
@@ -2000,60 +2345,11 @@
     "vocab_index": 148,
     "word": "լուսին",
     "gloss": "moon",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա լուսին դիտում է։",
-        "text": "The child watches the moon.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "լուսին",
-            "gloss": "moon",
-            "transliteration": "lusin",
-            "note": "target"
-          },
-          {
-            "word": "դիտում է",
-            "gloss": "watches",
-            "transliteration": "ditum e"
-          }
-        ]
-      },
-      {
-        "target": "նկար վրա լուսին կա։",
-        "text": "I see the moon in the picture.",
-        "words": [
-          {
-            "word": "նկար",
-            "gloss": "picture",
-            "transliteration": "nkar"
-          },
-          {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "լուսին",
-            "gloss": "moon",
-            "transliteration": "lusin",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "լուսին մոտ է։",
-        "text": "The moon is near.",
+        "target": "լուսին փայլում է գիշերը։",
+        "text": "The moon shines at night.",
         "words": [
           {
             "word": "լուսին",
@@ -2062,14 +2358,78 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "փայլում",
+            "gloss": "shines",
+            "transliteration": "p'aylum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "գիշերը",
+            "gloss": "at night",
+            "transliteration": "gishery"
+          }
+        ]
+      },
+      {
+        "target": "լի լուսին կլոր է։",
+        "text": "A full moon is round.",
+        "words": [
+          {
+            "word": "լի",
+            "gloss": "full",
+            "transliteration": "li"
+          },
+          {
+            "word": "լուսին",
+            "gloss": "moon",
+            "transliteration": "lusin",
+            "note": "target"
+          },
+          {
+            "word": "կլոր",
+            "gloss": "round",
+            "transliteration": "klor"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "լուսին երևում է ամպերի միջից։",
+        "text": "The moon appears through the clouds.",
+        "words": [
+          {
+            "word": "լուսին",
+            "gloss": "moon",
+            "transliteration": "lusin",
+            "note": "target"
+          },
+          {
+            "word": "երևում",
+            "gloss": "is visible",
+            "transliteration": "erevum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ամպերի",
+            "gloss": "clouds",
+            "transliteration": "amperi"
+          },
+          {
+            "word": "միջից",
+            "gloss": "through",
+            "transliteration": "mijits'"
           }
         ]
       }
@@ -2079,33 +2439,11 @@
     "vocab_index": 149,
     "word": "աստղ",
     "gloss": "star",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մենք աստղ եմ սիրում։",
-        "text": "We like the star.",
-        "words": [
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "աստղ",
-            "gloss": "star",
-            "transliteration": "astgh",
-            "note": "target"
-          },
-          {
-            "word": "եմ սիրում",
-            "gloss": "I like",
-            "transliteration": "em sirum"
-          }
-        ]
-      },
-      {
-        "target": "աստղ դրսում լավ է։",
-        "text": "The star outside is good.",
+        "target": "աստղ փայլում է մութ երկնքում։",
+        "text": "A star shines in the dark sky.",
         "words": [
           {
             "word": "աստղ",
@@ -2114,31 +2452,58 @@
             "note": "target"
           },
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "փայլում",
+            "gloss": "shines",
+            "transliteration": "p'aylum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "մութ",
+            "gloss": "dark",
+            "transliteration": "mut'"
+          },
+          {
+            "word": "երկնքում",
+            "gloss": "in the sky",
+            "transliteration": "erknk'um"
           }
         ]
       },
       {
-        "target": "ընկեր աստղ տեսնում է։",
-        "text": "A friend sees the star.",
+        "target": "երեխան հաշվում է աստղ։",
+        "text": "The child counts a star.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "երեխան",
+            "gloss": "child",
+            "transliteration": "erekhan"
           },
+          {
+            "word": "հաշվում",
+            "gloss": "counts",
+            "transliteration": "hashvum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "աստղ",
+            "gloss": "star",
+            "transliteration": "astgh",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "աստղ ընկնում է ամռան գիշերը։",
+        "text": "A star falls on a summer night.",
+        "words": [
           {
             "word": "աստղ",
             "gloss": "star",
@@ -2146,9 +2511,24 @@
             "note": "target"
           },
           {
-            "word": "տեսնում է",
-            "gloss": "sees",
-            "transliteration": "tesnum e"
+            "word": "ընկնում",
+            "gloss": "falls",
+            "transliteration": "ynknum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ամռան",
+            "gloss": "summer",
+            "transliteration": "amrran"
+          },
+          {
+            "word": "գիշերը",
+            "gloss": "at night",
+            "transliteration": "gishery"
           }
         ]
       }
@@ -2158,17 +2538,12 @@
     "vocab_index": 150,
     "word": "ջուր",
     "gloss": "water",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր ջուր կա։",
-        "text": "I see the water today.",
+        "target": "ջուր հոսում է գետում։",
+        "text": "Water flows in the river.",
         "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
-          },
           {
             "word": "ջուր",
             "gloss": "water",
@@ -2176,20 +2551,40 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "հոսում",
+            "gloss": "flows",
+            "transliteration": "hosum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գետում",
+            "gloss": "in the river",
+            "transliteration": "getum"
           }
         ]
       },
       {
-        "target": "ես ջուր տեսնում եմ։",
-        "text": "I see the water.",
+        "target": "ես խմում եմ ջուր ամեն օր։",
+        "text": "I drink water every day.",
         "words": [
           {
             "word": "ես",
-            "gloss": "I",
+            "gloss": "i",
             "transliteration": "es"
+          },
+          {
+            "word": "խմում",
+            "gloss": "drinks",
+            "transliteration": "khmum"
+          },
+          {
+            "word": "եմ",
+            "gloss": "am",
+            "transliteration": "em"
           },
           {
             "word": "ջուր",
@@ -2198,21 +2593,21 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "ամեն",
+            "gloss": "every",
+            "transliteration": "amen"
+          },
+          {
+            "word": "օր",
+            "gloss": "day",
+            "transliteration": "or"
           }
         ]
       },
       {
-        "target": "դրսում ջուր կա։",
-        "text": "The water is outside.",
+        "target": "ջուր եռում է կաթսայում։",
+        "text": "Water is boiling in the pot.",
         "words": [
-          {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
           {
             "word": "ջուր",
             "gloss": "water",
@@ -2220,9 +2615,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "եռում",
+            "gloss": "boils",
+            "transliteration": "errum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կաթսայում",
+            "gloss": "in the pot",
+            "transliteration": "kat'sayum"
           }
         ]
       }
@@ -2232,16 +2637,16 @@
     "vocab_index": 151,
     "word": "անձրև",
     "gloss": "rain",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա անձրև դիտում է։",
-        "text": "The child watches the rain.",
+        "target": "ուժեղ անձրև ծեծում է տանիքին։",
+        "text": "Heavy rain beats on the roof.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "ուժեղ",
+            "gloss": "strong",
+            "transliteration": "uzhegh"
           },
           {
             "word": "անձրև",
@@ -2250,58 +2655,78 @@
             "note": "target"
           },
           {
-            "word": "դիտում է",
-            "gloss": "watches",
-            "transliteration": "ditum e"
-          }
-        ]
-      },
-      {
-        "target": "նկար վրա անձրև կա։",
-        "text": "I see the rain in the picture.",
-        "words": [
-          {
-            "word": "նկար",
-            "gloss": "picture",
-            "transliteration": "nkar"
-          },
-          {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "անձրև",
-            "gloss": "rain",
-            "transliteration": "andzrev",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "անձրև մոտ է։",
-        "text": "The rain is near.",
-        "words": [
-          {
-            "word": "անձրև",
-            "gloss": "rain",
-            "transliteration": "andzrev",
-            "note": "target"
-          },
-          {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "ծեծում",
+            "gloss": "beats",
+            "transliteration": "tsetsum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "տանիքին",
+            "gloss": "on the roof",
+            "transliteration": "tanik'in"
+          }
+        ]
+      },
+      {
+        "target": "անձրև ջրում է այգին։",
+        "text": "Rain waters the garden.",
+        "words": [
+          {
+            "word": "անձրև",
+            "gloss": "rain",
+            "transliteration": "andzrev",
+            "note": "target"
+          },
+          {
+            "word": "ջրում",
+            "gloss": "in water",
+            "transliteration": "jrum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "այգին",
+            "gloss": "garden",
+            "transliteration": "aygin"
+          }
+        ]
+      },
+      {
+        "target": "աշնանը անձրև հաճախ է գալիս։",
+        "text": "In autumn rain comes often.",
+        "words": [
+          {
+            "word": "աշնանը",
+            "gloss": "in autumn",
+            "transliteration": "ashnany"
+          },
+          {
+            "word": "անձրև",
+            "gloss": "rain",
+            "transliteration": "andzrev",
+            "note": "target"
+          },
+          {
+            "word": "հաճախ",
+            "gloss": "often",
+            "transliteration": "hachakh"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գալիս",
+            "gloss": "comes",
+            "transliteration": "galis"
           }
         ]
       }
@@ -2311,33 +2736,11 @@
     "vocab_index": 152,
     "word": "գետ",
     "gloss": "river",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մենք գետ եմ սիրում։",
-        "text": "We like the river.",
-        "words": [
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "գետ",
-            "gloss": "river",
-            "transliteration": "get",
-            "note": "target"
-          },
-          {
-            "word": "եմ սիրում",
-            "gloss": "I like",
-            "transliteration": "em sirum"
-          }
-        ]
-      },
-      {
-        "target": "գետ դրսում լավ է։",
-        "text": "The river outside is good.",
+        "target": "գետ հոսում է կամրջի տակով։",
+        "text": "A river flows under the bridge.",
         "words": [
           {
             "word": "գետ",
@@ -2346,30 +2749,45 @@
             "note": "target"
           },
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "հոսում",
+            "gloss": "flows",
+            "transliteration": "hosum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "կամրջի",
+            "gloss": "bridge",
+            "transliteration": "kamrji"
+          },
+          {
+            "word": "տակով",
+            "gloss": "under",
+            "transliteration": "takov"
           }
         ]
       },
       {
-        "target": "ընկեր գետ տեսնում է։",
-        "text": "A friend sees the river.",
+        "target": "ձկնորսները նստած են գետ ափին։",
+        "text": "Fishermen sit on the river bank.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "ձկնորսները",
+            "gloss": "fishermen",
+            "transliteration": "dzknorsnery"
+          },
+          {
+            "word": "նստած",
+            "gloss": "sitting",
+            "transliteration": "nstats"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "գետ",
@@ -2378,9 +2796,41 @@
             "note": "target"
           },
           {
-            "word": "տեսնում է",
-            "gloss": "sees",
-            "transliteration": "tesnum e"
+            "word": "ափին",
+            "gloss": "on the bank",
+            "transliteration": "ap'in"
+          }
+        ]
+      },
+      {
+        "target": "գետ խոր է այս վայրում։",
+        "text": "The river is deep at this place.",
+        "words": [
+          {
+            "word": "գետ",
+            "gloss": "river",
+            "transliteration": "get",
+            "note": "target"
+          },
+          {
+            "word": "խոր",
+            "gloss": "deeply",
+            "transliteration": "khor"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "այս",
+            "gloss": "this",
+            "transliteration": "ays"
+          },
+          {
+            "word": "վայրում",
+            "gloss": "place",
+            "transliteration": "vayrum"
           }
         ]
       }
@@ -2390,17 +2840,12 @@
     "vocab_index": 153,
     "word": "լիճ",
     "gloss": "lake",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր լիճ կա։",
-        "text": "I see the lake today.",
+        "target": "լիճ հանգիստ է առավոտյան։",
+        "text": "The lake is calm in the morning.",
         "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
-          },
           {
             "word": "լիճ",
             "gloss": "lake",
@@ -2408,20 +2853,40 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "հանգիստ",
+            "gloss": "quietly/calm",
+            "transliteration": "hangist"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
           }
         ]
       },
       {
-        "target": "ես լիճ տեսնում եմ։",
-        "text": "I see the lake.",
+        "target": "թռչունները լողում են լիճ վրա։",
+        "text": "Birds swim on the lake.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "թռչունները",
+            "gloss": "birds",
+            "transliteration": "t'rrch'unnery"
+          },
+          {
+            "word": "լողում",
+            "gloss": "swims",
+            "transliteration": "loghum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "լիճ",
@@ -2430,21 +2895,16 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "վրա",
+            "gloss": "at",
+            "transliteration": "vra"
           }
         ]
       },
       {
-        "target": "դրսում լիճ կա։",
-        "text": "The lake is outside.",
+        "target": "լիճ շրջապատված է ծառերով։",
+        "text": "The lake is surrounded by trees.",
         "words": [
-          {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
           {
             "word": "լիճ",
             "gloss": "lake",
@@ -2452,9 +2912,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "շրջապատված",
+            "gloss": "surrounded",
+            "transliteration": "shrjapatvats"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ծառերով",
+            "gloss": "by trees",
+            "transliteration": "tsarrerov"
           }
         ]
       }
@@ -2464,60 +2934,11 @@
     "vocab_index": 154,
     "word": "ծով",
     "gloss": "sea",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա ծով դիտում է։",
-        "text": "The child watches the sea.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "ծով",
-            "gloss": "sea",
-            "transliteration": "tsov",
-            "note": "target"
-          },
-          {
-            "word": "դիտում է",
-            "gloss": "watches",
-            "transliteration": "ditum e"
-          }
-        ]
-      },
-      {
-        "target": "նկար վրա ծով կա։",
-        "text": "I see the sea in the picture.",
-        "words": [
-          {
-            "word": "նկար",
-            "gloss": "picture",
-            "transliteration": "nkar"
-          },
-          {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "ծով",
-            "gloss": "sea",
-            "transliteration": "tsov",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "ծով մոտ է։",
-        "text": "The sea is near.",
+        "target": "ծով կապույտ է ամռանը։",
+        "text": "The sea is blue in summer.",
         "words": [
           {
             "word": "ծով",
@@ -2526,14 +2947,83 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "կապույտ",
+            "gloss": "blue",
+            "transliteration": "kapuyt"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "ամռանը",
+            "gloss": "in summer",
+            "transliteration": "amrrany"
+          }
+        ]
+      },
+      {
+        "target": "ալիքները խփում են ծով ափին։",
+        "text": "Waves hit the sea shore.",
+        "words": [
+          {
+            "word": "ալիքները",
+            "gloss": "waves",
+            "transliteration": "alik'nery"
+          },
+          {
+            "word": "խփում",
+            "gloss": "hits",
+            "transliteration": "khp'um"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
+          },
+          {
+            "word": "ծով",
+            "gloss": "sea",
+            "transliteration": "tsov",
+            "note": "target"
+          },
+          {
+            "word": "ափին",
+            "gloss": "on the bank",
+            "transliteration": "ap'in"
+          }
+        ]
+      },
+      {
+        "target": "նավը լողում է ծով վրա։",
+        "text": "A ship sails on the sea.",
+        "words": [
+          {
+            "word": "նավը",
+            "gloss": "ship",
+            "transliteration": "navy"
+          },
+          {
+            "word": "լողում",
+            "gloss": "swims",
+            "transliteration": "loghum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ծով",
+            "gloss": "sea",
+            "transliteration": "tsov",
+            "note": "target"
+          },
+          {
+            "word": "վրա",
+            "gloss": "at",
+            "transliteration": "vra"
           }
         ]
       }
@@ -2543,33 +3033,11 @@
     "vocab_index": 155,
     "word": "աղ",
     "gloss": "salt",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մենք աղ եմ սիրում։",
-        "text": "We like the salt.",
-        "words": [
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "աղ",
-            "gloss": "salt",
-            "transliteration": "agh",
-            "note": "target"
-          },
-          {
-            "word": "եմ սիրում",
-            "gloss": "I like",
-            "transliteration": "em sirum"
-          }
-        ]
-      },
-      {
-        "target": "աղ դրսում լավ է։",
-        "text": "The salt outside is good.",
+        "target": "աղ անհրաժեշտ է ապուրին։",
+        "text": "Salt is needed for the soup.",
         "words": [
           {
             "word": "աղ",
@@ -2578,30 +3046,40 @@
             "note": "target"
           },
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "անհրաժեշտ",
+            "gloss": "needed",
+            "transliteration": "anhrazhesht"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "ապուրին",
+            "gloss": "soup",
+            "transliteration": "apurin"
           }
         ]
       },
       {
-        "target": "ընկեր աղ տեսնում է։",
-        "text": "A friend sees the salt.",
+        "target": "ես ավելացնում եմ աղ ճաշին։",
+        "text": "I add salt to the meal.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "ես",
+            "gloss": "i",
+            "transliteration": "es"
+          },
+          {
+            "word": "ավելացնում",
+            "gloss": "adds",
+            "transliteration": "avelats'num"
+          },
+          {
+            "word": "եմ",
+            "gloss": "am",
+            "transliteration": "em"
           },
           {
             "word": "աղ",
@@ -2610,9 +3088,41 @@
             "note": "target"
           },
           {
-            "word": "տեսնում է",
-            "gloss": "sees",
-            "transliteration": "tesnum e"
+            "word": "ճաշին",
+            "gloss": "at dinner",
+            "transliteration": "chashin"
+          }
+        ]
+      },
+      {
+        "target": "աղ հալչում է տաք ջրում։",
+        "text": "Salt dissolves in hot water.",
+        "words": [
+          {
+            "word": "աղ",
+            "gloss": "salt",
+            "transliteration": "agh",
+            "note": "target"
+          },
+          {
+            "word": "հալչում",
+            "gloss": "melts",
+            "transliteration": "halch'um"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
+          },
+          {
+            "word": "ջրում",
+            "gloss": "in water",
+            "transliteration": "jrum"
           }
         ]
       }
@@ -2622,17 +3132,12 @@
     "vocab_index": 156,
     "word": "քար",
     "gloss": "stone",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր քար կա։",
-        "text": "I see the stone today.",
+        "target": "քար ընկած է ճանապարհին։",
+        "text": "A stone lies on the road.",
         "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
-          },
           {
             "word": "քար",
             "gloss": "stone",
@@ -2640,20 +3145,40 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ընկած",
+            "gloss": "lying",
+            "transliteration": "ynkats"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ճանապարհին",
+            "gloss": "on the road",
+            "transliteration": "chanaparhin"
           }
         ]
       },
       {
-        "target": "ես քար տեսնում եմ։",
-        "text": "I see the stone.",
+        "target": "երեխան նետում է քար ջուրը։",
+        "text": "A child throws a stone into the water.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "երեխան",
+            "gloss": "child",
+            "transliteration": "erekhan"
+          },
+          {
+            "word": "նետում",
+            "gloss": "throws",
+            "transliteration": "netum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "քար",
@@ -2662,21 +3187,16 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "ջուրը",
+            "gloss": "water",
+            "transliteration": "jury"
           }
         ]
       },
       {
-        "target": "դրսում քար կա։",
-        "text": "The stone is outside.",
+        "target": "քար ծանր ու սառը է։",
+        "text": "A stone is heavy and cold.",
         "words": [
-          {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
           {
             "word": "քար",
             "gloss": "stone",
@@ -2684,9 +3204,24 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ծանր",
+            "gloss": "heavy",
+            "transliteration": "tsanr"
+          },
+          {
+            "word": "ու",
+            "gloss": "and",
+            "transliteration": "u"
+          },
+          {
+            "word": "սառը",
+            "gloss": "cold",
+            "transliteration": "sarry"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2696,60 +3231,11 @@
     "vocab_index": 157,
     "word": "ավազ",
     "gloss": "sand",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա ավազ դիտում է։",
-        "text": "The child watches the sand.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "ավազ",
-            "gloss": "sand",
-            "transliteration": "avaz",
-            "note": "target"
-          },
-          {
-            "word": "դիտում է",
-            "gloss": "watches",
-            "transliteration": "ditum e"
-          }
-        ]
-      },
-      {
-        "target": "նկար վրա ավազ կա։",
-        "text": "I see the sand in the picture.",
-        "words": [
-          {
-            "word": "նկար",
-            "gloss": "picture",
-            "transliteration": "nkar"
-          },
-          {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "ավազ",
-            "gloss": "sand",
-            "transliteration": "avaz",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "ավազ մոտ է։",
-        "text": "The sand is near.",
+        "target": "ավազ տաք է արևի տակ։",
+        "text": "Sand is warm under the sun.",
         "words": [
           {
             "word": "ավազ",
@@ -2758,14 +3244,88 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "արևի",
+            "gloss": "sun",
+            "transliteration": "arevi"
+          },
+          {
+            "word": "տակ",
+            "gloss": "under",
+            "transliteration": "tak"
+          }
+        ]
+      },
+      {
+        "target": "երեխաները խաղում են ավազ մեջ։",
+        "text": "Children play in the sand.",
+        "words": [
+          {
+            "word": "երեխաները",
+            "gloss": "children",
+            "transliteration": "erekhanery"
+          },
+          {
+            "word": "խաղում",
+            "gloss": "plays",
+            "transliteration": "khaghum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
+          },
+          {
+            "word": "ավազ",
+            "gloss": "sand",
+            "transliteration": "avaz",
+            "note": "target"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          }
+        ]
+      },
+      {
+        "target": "ավազ մտնում է կոշիկի մեջ։",
+        "text": "Sand gets into the shoe.",
+        "words": [
+          {
+            "word": "ավազ",
+            "gloss": "sand",
+            "transliteration": "avaz",
+            "note": "target"
+          },
+          {
+            "word": "մտնում",
+            "gloss": "enters",
+            "transliteration": "mtnum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կոշիկի",
+            "gloss": "shoe",
+            "transliteration": "koshiki"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
           }
         ]
       }
@@ -2775,33 +3335,11 @@
     "vocab_index": 158,
     "word": "փոշի",
     "gloss": "dust",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մենք փոշի եմ սիրում։",
-        "text": "We like the dust.",
-        "words": [
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "փոշի",
-            "gloss": "dust",
-            "transliteration": "p'oshi",
-            "note": "target"
-          },
-          {
-            "word": "եմ սիրում",
-            "gloss": "I like",
-            "transliteration": "em sirum"
-          }
-        ]
-      },
-      {
-        "target": "փոշի դրսում լավ է։",
-        "text": "The dust outside is good.",
+        "target": "փոշի նստել է սեղանին։",
+        "text": "Dust has settled on the table.",
         "words": [
           {
             "word": "փոշի",
@@ -2810,30 +3348,67 @@
             "note": "target"
           },
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "նստել",
+            "gloss": "sit",
+            "transliteration": "nstel"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "սեղանին",
+            "gloss": "on the table",
+            "transliteration": "seghanin"
           }
         ]
       },
       {
-        "target": "ընկեր փոշի տեսնում է։",
-        "text": "A friend sees the dust.",
+        "target": "քամին բարձրացնում է փոշի։",
+        "text": "The wind raises dust.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "քամին",
+            "gloss": "wind",
+            "transliteration": "k'amin"
+          },
+          {
+            "word": "բարձրացնում",
+            "gloss": "lifts/raises",
+            "transliteration": "bardzrats'num"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "փոշի",
+            "gloss": "dust",
+            "transliteration": "p'oshi",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "ես սրբում եմ փոշի դարակից։",
+        "text": "I wipe dust from the shelf.",
+        "words": [
+          {
+            "word": "ես",
+            "gloss": "i",
+            "transliteration": "es"
+          },
+          {
+            "word": "սրբում",
+            "gloss": "wipes",
+            "transliteration": "srbum"
+          },
+          {
+            "word": "եմ",
+            "gloss": "am",
+            "transliteration": "em"
           },
           {
             "word": "փոշի",
@@ -2842,9 +3417,9 @@
             "note": "target"
           },
           {
-            "word": "տեսնում է",
-            "gloss": "sees",
-            "transliteration": "tesnum e"
+            "word": "դարակից",
+            "gloss": "from the shelf",
+            "transliteration": "darakits'"
           }
         ]
       }
@@ -2854,17 +3429,12 @@
     "vocab_index": 159,
     "word": "հող",
     "gloss": "earth",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր հող կա։",
-        "text": "I see the earth today.",
+        "target": "հող խոնավ է անձրևից հետո։",
+        "text": "The earth is moist after rain.",
         "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
-          },
           {
             "word": "հող",
             "gloss": "earth",
@@ -2872,42 +3442,72 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "խոնավ",
+            "gloss": "moist",
+            "transliteration": "khonav"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "անձրևից",
+            "gloss": "from rain",
+            "transliteration": "andzrevits'"
+          },
+          {
+            "word": "հետո",
+            "gloss": "after",
+            "transliteration": "heto"
           }
         ]
       },
       {
-        "target": "ես հող տեսնում եմ։",
-        "text": "I see the earth.",
+        "target": "գյուղացին փորում է հող։",
+        "text": "A farmer digs the earth.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "գյուղացին",
+            "gloss": "farmer",
+            "transliteration": "gyughats'in"
+          },
+          {
+            "word": "փորում",
+            "gloss": "digs",
+            "transliteration": "p'orum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հող",
             "gloss": "earth",
             "transliteration": "hogh",
             "note": "target"
-          },
-          {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
           }
         ]
       },
       {
-        "target": "դրսում հող կա։",
-        "text": "The earth is outside.",
+        "target": "սերմը ընկնում է հող մեջ։",
+        "text": "A seed falls into the earth.",
         "words": [
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
+            "word": "սերմը",
+            "gloss": "seed",
+            "transliteration": "sermy"
+          },
+          {
+            "word": "ընկնում",
+            "gloss": "falls",
+            "transliteration": "ynknum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
             "word": "հող",
@@ -2916,9 +3516,9 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
           }
         ]
       }
@@ -2928,60 +3528,11 @@
     "vocab_index": 160,
     "word": "ամպ",
     "gloss": "cloud",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա ամպ դիտում է։",
-        "text": "The child watches the cloud.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "ամպ",
-            "gloss": "cloud",
-            "transliteration": "amp",
-            "note": "target"
-          },
-          {
-            "word": "դիտում է",
-            "gloss": "watches",
-            "transliteration": "ditum e"
-          }
-        ]
-      },
-      {
-        "target": "նկար վրա ամպ կա։",
-        "text": "I see the cloud in the picture.",
-        "words": [
-          {
-            "word": "նկար",
-            "gloss": "picture",
-            "transliteration": "nkar"
-          },
-          {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "ամպ",
-            "gloss": "cloud",
-            "transliteration": "amp",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "ամպ մոտ է։",
-        "text": "The cloud is near.",
+        "target": "ամպ ծածկում է արևը։",
+        "text": "A cloud covers the sun.",
         "words": [
           {
             "word": "ամպ",
@@ -2990,14 +3541,83 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "ծածկում",
+            "gloss": "covers",
+            "transliteration": "tsatskum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "արևը",
+            "gloss": "sun",
+            "transliteration": "arevy"
+          }
+        ]
+      },
+      {
+        "target": "մութ ամպ բերում է անձրև։",
+        "text": "A dark cloud brings rain.",
+        "words": [
+          {
+            "word": "մութ",
+            "gloss": "dark",
+            "transliteration": "mut'"
+          },
+          {
+            "word": "ամպ",
+            "gloss": "cloud",
+            "transliteration": "amp",
+            "note": "target"
+          },
+          {
+            "word": "բերում",
+            "gloss": "brings",
+            "transliteration": "berum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "անձրև",
+            "gloss": "rain",
+            "transliteration": "andzrev"
+          }
+        ]
+      },
+      {
+        "target": "ամպ շարժվում է քամու հետ։",
+        "text": "A cloud moves with the wind.",
+        "words": [
+          {
+            "word": "ամպ",
+            "gloss": "cloud",
+            "transliteration": "amp",
+            "note": "target"
+          },
+          {
+            "word": "շարժվում",
+            "gloss": "moves",
+            "transliteration": "sharzhvum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "քամու",
+            "gloss": "wind",
+            "transliteration": "k'amu"
+          },
+          {
+            "word": "հետ",
+            "gloss": "with",
+            "transliteration": "het"
           }
         ]
       }
@@ -3007,17 +3627,12 @@
     "vocab_index": 161,
     "word": "մառախուղ",
     "gloss": "fog",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մենք մառախուղ եմ սիրում։",
-        "text": "We like the fog.",
+        "target": "մառախուղ ծածկում է գյուղը։",
+        "text": "Fog covers the village.",
         "words": [
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
           {
             "word": "մառախուղ",
             "gloss": "fog",
@@ -3025,16 +3640,31 @@
             "note": "target"
           },
           {
-            "word": "եմ սիրում",
-            "gloss": "I like",
-            "transliteration": "em sirum"
+            "word": "ծածկում",
+            "gloss": "covers",
+            "transliteration": "tsatskum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գյուղը",
+            "gloss": "village",
+            "transliteration": "gyughy"
           }
         ]
       },
       {
-        "target": "մառախուղ դրսում լավ է։",
-        "text": "The fog outside is good.",
+        "target": "առավոտյան մառախուղ խիտ է։",
+        "text": "In the morning fog is thick.",
         "words": [
+          {
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
+          },
           {
             "word": "մառախուղ",
             "gloss": "fog",
@@ -3042,14 +3672,9 @@
             "note": "target"
           },
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "խիտ",
+            "gloss": "thick",
+            "transliteration": "khit"
           },
           {
             "word": "է",
@@ -3059,14 +3684,9 @@
         ]
       },
       {
-        "target": "ընկեր մառախուղ տեսնում է։",
-        "text": "A friend sees the fog.",
+        "target": "մառախուղ դանդաղ ցրվում է։",
+        "text": "Fog slowly clears.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "մառախուղ",
             "gloss": "fog",
@@ -3074,9 +3694,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում է",
-            "gloss": "sees",
-            "transliteration": "tesnum e"
+            "word": "դանդաղ",
+            "gloss": "slow",
+            "transliteration": "dandagh"
+          },
+          {
+            "word": "ցրվում",
+            "gloss": "clears",
+            "transliteration": "ts'rvum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -3086,60 +3716,70 @@
     "vocab_index": 162,
     "word": "երկինք",
     "gloss": "sky",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր երկինք կա։",
-        "text": "I see the sky today.",
+        "target": "երկինք կապույտ է այսօր։",
+        "text": "The sky is blue today.",
         "words": [
+          {
+            "word": "երկինք",
+            "gloss": "sky",
+            "transliteration": "erkink'",
+            "note": "target"
+          },
+          {
+            "word": "կապույտ",
+            "gloss": "blue",
+            "transliteration": "kapuyt"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
           {
             "word": "այսօր",
             "gloss": "today",
             "transliteration": "aysor"
-          },
-          {
-            "word": "երկինք",
-            "gloss": "sky",
-            "transliteration": "erkink'",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
           }
         ]
       },
       {
-        "target": "ես երկինք տեսնում եմ։",
-        "text": "I see the sky.",
+        "target": "թռչունները թռչում են երկինք։",
+        "text": "Birds fly across the sky.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "թռչունները",
+            "gloss": "birds",
+            "transliteration": "t'rrch'unnery"
+          },
+          {
+            "word": "թռչում",
+            "gloss": "flies",
+            "transliteration": "t'rrch'um"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "երկինք",
             "gloss": "sky",
             "transliteration": "erkink'",
             "note": "target"
-          },
-          {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
           }
         ]
       },
       {
-        "target": "դրսում երկինք կա։",
-        "text": "The sky is outside.",
+        "target": "գիշերը երկինք լի է աստղերով։",
+        "text": "At night the sky is full of stars.",
         "words": [
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
+            "word": "գիշերը",
+            "gloss": "at night",
+            "transliteration": "gishery"
           },
           {
             "word": "երկինք",
@@ -3148,9 +3788,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "լի",
+            "gloss": "full",
+            "transliteration": "li"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "աստղերով",
+            "gloss": "with stars",
+            "transliteration": "astgherov"
           }
         ]
       }
@@ -3160,60 +3810,11 @@
     "vocab_index": 163,
     "word": "քամի",
     "gloss": "wind",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա քամի դիտում է։",
-        "text": "The child watches the wind.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "քամի",
-            "gloss": "wind",
-            "transliteration": "k'ami",
-            "note": "target"
-          },
-          {
-            "word": "դիտում է",
-            "gloss": "watches",
-            "transliteration": "ditum e"
-          }
-        ]
-      },
-      {
-        "target": "նկար վրա քամի կա։",
-        "text": "I see the wind in the picture.",
-        "words": [
-          {
-            "word": "նկար",
-            "gloss": "picture",
-            "transliteration": "nkar"
-          },
-          {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "քամի",
-            "gloss": "wind",
-            "transliteration": "k'ami",
-            "note": "target"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "քամի մոտ է։",
-        "text": "The wind is near.",
+        "target": "քամի շարժում է տերևները։",
+        "text": "Wind moves the leaves.",
         "words": [
           {
             "word": "քամի",
@@ -3222,14 +3823,83 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "շարժում",
+            "gloss": "moves",
+            "transliteration": "sharzhum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "տերևները",
+            "gloss": "leaves",
+            "transliteration": "terevnery"
+          }
+        ]
+      },
+      {
+        "target": "ուժեղ քամի փակում է դուռը։",
+        "text": "Strong wind closes the door.",
+        "words": [
+          {
+            "word": "ուժեղ",
+            "gloss": "strong",
+            "transliteration": "uzhegh"
+          },
+          {
+            "word": "քամի",
+            "gloss": "wind",
+            "transliteration": "k'ami",
+            "note": "target"
+          },
+          {
+            "word": "փակում",
+            "gloss": "closes",
+            "transliteration": "p'akum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "դուռը",
+            "gloss": "door",
+            "transliteration": "durry"
+          }
+        ]
+      },
+      {
+        "target": "քամի բերում է ծովի հոտ։",
+        "text": "Wind brings the smell of the sea.",
+        "words": [
+          {
+            "word": "քամի",
+            "gloss": "wind",
+            "transliteration": "k'ami",
+            "note": "target"
+          },
+          {
+            "word": "բերում",
+            "gloss": "brings",
+            "transliteration": "berum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ծովի",
+            "gloss": "sea",
+            "transliteration": "tsovi"
+          },
+          {
+            "word": "հոտ",
+            "gloss": "smell",
+            "transliteration": "hot"
           }
         ]
       }
@@ -3239,33 +3909,11 @@
     "vocab_index": 164,
     "word": "ձյուն",
     "gloss": "snow",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մենք ձյուն եմ սիրում։",
-        "text": "We like the snow.",
-        "words": [
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "ձյուն",
-            "gloss": "snow",
-            "transliteration": "dzyun",
-            "note": "target"
-          },
-          {
-            "word": "եմ սիրում",
-            "gloss": "I like",
-            "transliteration": "em sirum"
-          }
-        ]
-      },
-      {
-        "target": "ձյուն դրսում լավ է։",
-        "text": "The snow outside is good.",
+        "target": "ձյուն ծածկում է տանիքները։",
+        "text": "Snow covers the roofs.",
         "words": [
           {
             "word": "ձյուն",
@@ -3274,30 +3922,40 @@
             "note": "target"
           },
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "ծածկում",
+            "gloss": "covers",
+            "transliteration": "tsatskum"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "տանիքները",
+            "gloss": "roofs",
+            "transliteration": "tanik'nery"
           }
         ]
       },
       {
-        "target": "ընկեր ձյուն տեսնում է։",
-        "text": "A friend sees the snow.",
+        "target": "երեխաները խաղում են ձյուն մեջ։",
+        "text": "Children play in the snow.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "երեխաները",
+            "gloss": "children",
+            "transliteration": "erekhanery"
+          },
+          {
+            "word": "խաղում",
+            "gloss": "plays",
+            "transliteration": "khaghum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           },
           {
             "word": "ձյուն",
@@ -3306,9 +3964,36 @@
             "note": "target"
           },
           {
-            "word": "տեսնում է",
-            "gloss": "sees",
-            "transliteration": "tesnum e"
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          }
+        ]
+      },
+      {
+        "target": "ձյուն դանդաղ է հալչում։",
+        "text": "Snow melts slowly.",
+        "words": [
+          {
+            "word": "ձյուն",
+            "gloss": "snow",
+            "transliteration": "dzyun",
+            "note": "target"
+          },
+          {
+            "word": "դանդաղ",
+            "gloss": "slow",
+            "transliteration": "dandagh"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հալչում",
+            "gloss": "melts",
+            "transliteration": "halch'um"
           }
         ]
       }
@@ -3318,17 +4003,12 @@
     "vocab_index": 165,
     "word": "սառույց",
     "gloss": "ice",
-    "source": "Wiktionary Eastern Armenian Swadesh seed",
+    "source": "LLM-authored Armenian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր սառույց կա։",
-        "text": "I see the ice today.",
+        "target": "սառույց սայթաքուն է լճի վրա։",
+        "text": "Ice is slippery on the lake.",
         "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor"
-          },
           {
             "word": "սառույց",
             "gloss": "ice",
@@ -3336,21 +4016,31 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "սայթաքուն",
+            "gloss": "slippery",
+            "transliteration": "sayt'ak'un"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լճի",
+            "gloss": "lake",
+            "transliteration": "lchi"
+          },
+          {
+            "word": "վրա",
+            "gloss": "at",
+            "transliteration": "vra"
           }
         ]
       },
       {
-        "target": "ես սառույց տեսնում եմ։",
-        "text": "I see the ice.",
+        "target": "սառույց հալչում է բաժակի մեջ։",
+        "text": "Ice melts in the glass.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "սառույց",
             "gloss": "ice",
@@ -3358,20 +4048,35 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "հալչում",
+            "gloss": "melts",
+            "transliteration": "halch'um"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բաժակի",
+            "gloss": "cup",
+            "transliteration": "bazhaki"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
           }
         ]
       },
       {
-        "target": "դրսում սառույց կա։",
-        "text": "The ice is outside.",
+        "target": "ձմռանը սառույց ծածկում է գետը։",
+        "text": "In winter ice covers the river.",
         "words": [
           {
-            "word": "դրսում",
-            "gloss": "outside",
-            "transliteration": "drsum"
+            "word": "ձմռանը",
+            "gloss": "in winter",
+            "transliteration": "dzmrrany"
           },
           {
             "word": "սառույց",
@@ -3380,9 +4085,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ծածկում",
+            "gloss": "covers",
+            "transliteration": "tsatskum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գետը",
+            "gloss": "river",
+            "transliteration": "gety"
           }
         ]
       }
