@@ -3,17 +3,12 @@
     "vocab_index": 251,
     "word": "სოფელი",
     "gloss": "village",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი სოფელი ელოდება.",
-        "text": "A friend waits at the village.",
+        "target": "სოფელი მთის ძირშია.",
+        "text": "The village is at the foot of the mountain.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სოფელი",
             "gloss": "village",
@@ -21,20 +16,25 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "მთის",
+            "gloss": "mountain's",
+            "transliteration": "mtis"
+          },
+          {
+            "word": "ძირშია",
+            "gloss": "is at the foot",
+            "transliteration": "dzirshia"
           }
         ]
       },
       {
-        "target": "ეს სოფელი კარგი არის.",
-        "text": "This village is good.",
+        "target": "პატარა სოფელი მდინარესთან დგას.",
+        "text": "A small village stands by the river.",
         "words": [
           {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
+            "word": "პატარა",
+            "gloss": "small",
+            "transliteration": "p'at'ara"
           },
           {
             "word": "სოფელი",
@@ -43,20 +43,20 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "მდინარესთან",
+            "gloss": "by the river",
+            "transliteration": "mdinarestan"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დგას",
+            "gloss": "stands",
+            "transliteration": "dgas"
           }
         ]
       },
       {
-        "target": "სოფელი ბაზარი ახლოს არის.",
-        "text": "The village is near the market.",
+        "target": "სოფელი ყურძენს აწარმოებს.",
+        "text": "The village produces grapes.",
         "words": [
           {
             "word": "სოფელი",
@@ -65,19 +65,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ყურძენს",
+            "gloss": "grapes",
+            "transliteration": "q'urdzens"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "აწარმოებს",
+            "gloss": "produces",
+            "transliteration": "ats'armoebs"
           }
         ]
       }
@@ -87,17 +82,12 @@
     "vocab_index": 252,
     "word": "სასტუმრო",
     "gloss": "hotel",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე სასტუმრო მივდივარ.",
-        "text": "I go to the hotel.",
+        "target": "სასტუმრო ცენტრში მდებარეობს.",
+        "text": "The hotel is located in the center.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "სასტუმრო",
             "gloss": "hotel",
@@ -105,15 +95,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ცენტრში",
+            "gloss": "in the center",
+            "transliteration": "tsent'rshi"
+          },
+          {
+            "word": "მდებარეობს",
+            "gloss": "is located",
+            "transliteration": "mdebareobs"
           }
         ]
       },
       {
-        "target": "სასტუმრო ახლოს არის.",
-        "text": "The hotel is near.",
+        "target": "სასტუმრო ოთახს გვთავაზობს.",
+        "text": "The hotel offers us a room.",
         "words": [
           {
             "word": "სასტუმრო",
@@ -122,25 +117,25 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ოთახს",
+            "gloss": "room",
+            "transliteration": "otakhs"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გვთავაზობს",
+            "gloss": "offers us",
+            "transliteration": "gvtavazobs"
           }
         ]
       },
       {
-        "target": "მეგობარი სასტუმრო შიგნით არის.",
-        "text": "A friend is inside the hotel.",
+        "target": "ძვირი სასტუმრო ზღვის პირასაა.",
+        "text": "An expensive hotel is by the sea.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ძვირი",
+            "gloss": "expensive",
+            "transliteration": "dzviri"
           },
           {
             "word": "სასტუმრო",
@@ -149,14 +144,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "ზღვის",
+            "gloss": "sea's",
+            "transliteration": "zghvis"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "პირასაა",
+            "gloss": "is by the edge",
+            "transliteration": "p'irasaa"
           }
         ]
       }
@@ -166,17 +161,12 @@
     "vocab_index": 253,
     "word": "ბანკი",
     "gloss": "bank",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი ბანკი მიდის.",
-        "text": "The teacher goes to the bank.",
+        "target": "ბანკი დილით იხსნება.",
+        "text": "The bank opens in the morning.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "ბანკი",
             "gloss": "bank",
@@ -184,15 +174,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "დილით",
+            "gloss": "in the morning",
+            "transliteration": "dilit"
+          },
+          {
+            "word": "იხსნება",
+            "gloss": "opens",
+            "transliteration": "ikhsneba"
           }
         ]
       },
       {
-        "target": "ბანკი გზა ახლოს არის.",
-        "text": "The bank is near the road.",
+        "target": "ბანკი ფულს იცავს.",
+        "text": "The bank keeps money safe.",
         "words": [
           {
             "word": "ბანკი",
@@ -201,30 +196,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "ფულს",
+            "gloss": "money",
+            "transliteration": "puls"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იცავს",
+            "gloss": "protects",
+            "transliteration": "itsavs"
           }
         ]
       },
       {
-        "target": "მე ბანკი ვხედავ.",
-        "text": "I see the bank.",
+        "target": "ახალი ბანკი მოედანთან გაიხსნა.",
+        "text": "A new bank opened by the square.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
           },
           {
             "word": "ბანკი",
@@ -233,9 +223,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "მოედანთან",
+            "gloss": "by the square",
+            "transliteration": "moedantan"
+          },
+          {
+            "word": "გაიხსნა",
+            "gloss": "opened",
+            "transliteration": "gaikhsna"
           }
         ]
       }
@@ -245,17 +240,12 @@
     "vocab_index": 254,
     "word": "საავადმყოფო",
     "gloss": "hospital",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი საავადმყოფო ელოდება.",
-        "text": "A friend waits at the hospital.",
+        "target": "საავადმყოფო ავადმყოფებს მკურნალობს.",
+        "text": "The hospital treats sick people.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "საავადმყოფო",
             "gloss": "hospital",
@@ -263,21 +253,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "ავადმყოფებს",
+            "gloss": "sick people",
+            "transliteration": "avadmq'opebs"
+          },
+          {
+            "word": "მკურნალობს",
+            "gloss": "treats",
+            "transliteration": "mk'urnalobs"
           }
         ]
       },
       {
-        "target": "ეს საავადმყოფო კარგი არის.",
-        "text": "This hospital is good.",
+        "target": "საავადმყოფო ქუჩის ბოლოშია.",
+        "text": "The hospital is at the end of the street.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "საავადმყოფო",
             "gloss": "hospital",
@@ -285,21 +275,26 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ქუჩის",
+            "gloss": "street's",
+            "transliteration": "kuchis"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ბოლოშია",
+            "gloss": "is at the end",
+            "transliteration": "boloshia"
           }
         ]
       },
       {
-        "target": "საავადმყოფო ბაზარი ახლოს არის.",
-        "text": "The hospital is near the market.",
+        "target": "დიდი საავადმყოფო ახალი შენობაა.",
+        "text": "The big hospital is a new building.",
         "words": [
+          {
+            "word": "დიდი",
+            "gloss": "big",
+            "transliteration": "didi"
+          },
           {
             "word": "საავადმყოფო",
             "gloss": "hospital",
@@ -307,19 +302,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "შენობაა",
+            "gloss": "is a building",
+            "transliteration": "shenobaa"
           }
         ]
       }
@@ -329,17 +319,12 @@
     "vocab_index": 255,
     "word": "აფთიაქი",
     "gloss": "pharmacy",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე აფთიაქი მივდივარ.",
-        "text": "I go to the pharmacy.",
+        "target": "აფთიაქი წამალს ყიდის.",
+        "text": "The pharmacy sells medicine.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "აფთიაქი",
             "gloss": "pharmacy",
@@ -347,15 +332,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "წამალს",
+            "gloss": "medicine",
+            "transliteration": "ts'amals"
+          },
+          {
+            "word": "ყიდის",
+            "gloss": "sells",
+            "transliteration": "q'idis"
           }
         ]
       },
       {
-        "target": "აფთიაქი ახლოს არის.",
-        "text": "The pharmacy is near.",
+        "target": "აფთიაქი ღამითაც მუშაობს.",
+        "text": "The pharmacy works at night too.",
         "words": [
           {
             "word": "აფთიაქი",
@@ -364,26 +354,21 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ღამითაც",
+            "gloss": "at night too",
+            "transliteration": "ghamitats"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მუშაობს",
+            "gloss": "works",
+            "transliteration": "mushaobs"
           }
         ]
       },
       {
-        "target": "მეგობარი აფთიაქი შიგნით არის.",
-        "text": "A friend is inside the pharmacy.",
+        "target": "აფთიაქი სკოლის მოპირდაპირედაა.",
+        "text": "The pharmacy is opposite the school.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "აფთიაქი",
             "gloss": "pharmacy",
@@ -391,14 +376,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "სკოლის",
+            "gloss": "school's",
+            "transliteration": "sk'olis"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მოპირდაპირედაა",
+            "gloss": "is opposite",
+            "transliteration": "mop'irdap'iredaa"
           }
         ]
       }
@@ -408,17 +393,12 @@
     "vocab_index": 256,
     "word": "პარკი",
     "gloss": "park",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი პარკი მიდის.",
-        "text": "The teacher goes to the park.",
+        "target": "პარკი ხეებით სავსეა.",
+        "text": "The park is full of trees.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "პარკი",
             "gloss": "park",
@@ -426,15 +406,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "ხეებით",
+            "gloss": "with trees",
+            "transliteration": "kheebit"
+          },
+          {
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       },
       {
-        "target": "პარკი გზა ახლოს არის.",
-        "text": "The park is near the road.",
+        "target": "პარკი ბავშვებს იზიდავს.",
+        "text": "The park attracts children.",
         "words": [
           {
             "word": "პარკი",
@@ -443,30 +428,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "ბავშვებს",
+            "gloss": "children",
+            "transliteration": "bavshvebs"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იზიდავს",
+            "gloss": "attracts",
+            "transliteration": "izidavs"
           }
         ]
       },
       {
-        "target": "მე პარკი ვხედავ.",
-        "text": "I see the park.",
+        "target": "ცენტრალური პარკი შადრევანს აქვს.",
+        "text": "The central park has a fountain.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ცენტრალური",
+            "gloss": "central",
+            "transliteration": "tsent'raluri"
           },
           {
             "word": "პარკი",
@@ -475,9 +455,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "შადრევანს",
+            "gloss": "fountain",
+            "transliteration": "shadrevans"
+          },
+          {
+            "word": "აქვს",
+            "gloss": "has",
+            "transliteration": "akvs"
           }
         ]
       }
@@ -487,81 +472,71 @@
     "vocab_index": 257,
     "word": "გაჩერება",
     "gloss": "stop",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი გაჩერება ელოდება.",
-        "text": "A friend waits at the stop.",
+        "target": "გაჩერება ხალხით სავსეა.",
+        "text": "The stop is full of people.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "გაჩერება",
+            "gloss": "stop",
+            "transliteration": "gachereba",
+            "note": "target"
+          },
+          {
+            "word": "ხალხით",
+            "gloss": "with people",
+            "transliteration": "khalkhit"
+          },
+          {
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
+          }
+        ]
+      },
+      {
+        "target": "შემდეგი გაჩერება მუზეუმთანაა.",
+        "text": "The next stop is by the museum.",
+        "words": [
+          {
+            "word": "შემდეგი",
+            "gloss": "next",
+            "transliteration": "shemdegi"
           },
           {
             "word": "გაჩერება",
             "gloss": "stop",
             "transliteration": "gachereba",
             "note": "target"
+          },
+          {
+            "word": "მუზეუმთანაა",
+            "gloss": "is by the museum",
+            "transliteration": "muzeumtanaa"
+          }
+        ]
+      },
+      {
+        "target": "გაჩერება ავტობუსს ელოდება.",
+        "text": "The stop awaits the bus.",
+        "words": [
+          {
+            "word": "გაჩერება",
+            "gloss": "stop",
+            "transliteration": "gachereba",
+            "note": "target"
+          },
+          {
+            "word": "ავტობუსს",
+            "gloss": "bus",
+            "transliteration": "avt'obuss"
           },
           {
             "word": "ელოდება",
-            "gloss": "waits at",
+            "gloss": "awaits",
             "transliteration": "elodeba"
-          }
-        ]
-      },
-      {
-        "target": "ეს გაჩერება კარგი არის.",
-        "text": "This stop is good.",
-        "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაჩერება",
-            "gloss": "stop",
-            "transliteration": "gachereba",
-            "note": "target"
-          },
-          {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
-          }
-        ]
-      },
-      {
-        "target": "გაჩერება ბაზარი ახლოს არის.",
-        "text": "The stop is near the market.",
-        "words": [
-          {
-            "word": "გაჩერება",
-            "gloss": "stop",
-            "transliteration": "gachereba",
-            "note": "target"
-          },
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
-          {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
           }
         ]
       }
@@ -571,17 +546,12 @@
     "vocab_index": 258,
     "word": "სადგური",
     "gloss": "station",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე სადგური მივდივარ.",
-        "text": "I go to the station.",
+        "target": "სადგური მატარებელს იღებს.",
+        "text": "The station receives the train.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "სადგური",
             "gloss": "station",
@@ -589,15 +559,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "მატარებელს",
+            "gloss": "train",
+            "transliteration": "mat'arebels"
+          },
+          {
+            "word": "იღებს",
+            "gloss": "receives",
+            "transliteration": "ighebs"
           }
         ]
       },
       {
-        "target": "სადგური ახლოს არის.",
-        "text": "The station is near.",
+        "target": "სადგური ქალაქის გარეუბანშია.",
+        "text": "The station is in the city suburb.",
         "words": [
           {
             "word": "სადგური",
@@ -606,25 +581,25 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ქალაქის",
+            "gloss": "city's",
+            "transliteration": "kalakis"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გარეუბანშია",
+            "gloss": "is in the suburb",
+            "transliteration": "gareubanshia"
           }
         ]
       },
       {
-        "target": "მეგობარი სადგური შიგნით არის.",
-        "text": "A friend is inside the station.",
+        "target": "ძველი სადგური რემონტდება.",
+        "text": "The old station is being repaired.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ძველი",
+            "gloss": "old",
+            "transliteration": "dzveli"
           },
           {
             "word": "სადგური",
@@ -633,14 +608,9 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "რემონტდება",
+            "gloss": "is being repaired",
+            "transliteration": "remont'deba"
           }
         ]
       }
@@ -650,17 +620,12 @@
     "vocab_index": 259,
     "word": "ოფისი",
     "gloss": "office",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი ოფისი მიდის.",
-        "text": "The teacher goes to the office.",
+        "target": "ოფისი მეოთხე სართულზეა.",
+        "text": "The office is on the fourth floor.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "ოფისი",
             "gloss": "office",
@@ -668,15 +633,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "მეოთხე",
+            "gloss": "fourth",
+            "transliteration": "meotkhe"
+          },
+          {
+            "word": "სართულზეა",
+            "gloss": "is on the floor",
+            "transliteration": "sartulzea"
           }
         ]
       },
       {
-        "target": "ოფისი გზა ახლოს არის.",
-        "text": "The office is near the road.",
+        "target": "ოფისი კომპიუტერებით სავსეა.",
+        "text": "The office is full of computers.",
         "words": [
           {
             "word": "ოფისი",
@@ -685,30 +655,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "კომპიუტერებით",
+            "gloss": "with computers",
+            "transliteration": "k'omp'iut'erebit"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       },
       {
-        "target": "მე ოფისი ვხედავ.",
-        "text": "I see the office.",
+        "target": "ჩვენი ოფისი ხვალ იხურება.",
+        "text": "Our office closes tomorrow.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ჩვენი",
+            "gloss": "our",
+            "transliteration": "chveni"
           },
           {
             "word": "ოფისი",
@@ -717,9 +682,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ხვალ",
+            "gloss": "tomorrow",
+            "transliteration": "khval"
+          },
+          {
+            "word": "იხურება",
+            "gloss": "closes",
+            "transliteration": "ikhureba"
           }
         ]
       }
@@ -729,17 +699,12 @@
     "vocab_index": 260,
     "word": "რესტორანი",
     "gloss": "restaurant",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი რესტორანი ელოდება.",
-        "text": "A friend waits at the restaurant.",
+        "target": "რესტორანი ქართულ კერძებს სთავაზობს.",
+        "text": "The restaurant offers Georgian dishes.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "რესტორანი",
             "gloss": "restaurant",
@@ -747,21 +712,26 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "ქართულ",
+            "gloss": "Georgian",
+            "transliteration": "kartul"
+          },
+          {
+            "word": "კერძებს",
+            "gloss": "dishes",
+            "transliteration": "k'erdzebs"
+          },
+          {
+            "word": "სთავაზობს",
+            "gloss": "offers",
+            "transliteration": "stavazobs"
           }
         ]
       },
       {
-        "target": "ეს რესტორანი კარგი არის.",
-        "text": "This restaurant is good.",
+        "target": "რესტორანი საღამოს ივსება.",
+        "text": "The restaurant fills up in the evening.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "რესტორანი",
             "gloss": "restaurant",
@@ -769,21 +739,26 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "საღამოს",
+            "gloss": "in the evening",
+            "transliteration": "saghamos"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ივსება",
+            "gloss": "fills up",
+            "transliteration": "ivseba"
           }
         ]
       },
       {
-        "target": "რესტორანი ბაზარი ახლოს არის.",
-        "text": "The restaurant is near the market.",
+        "target": "პატარა რესტორანი ხიდთან დგას.",
+        "text": "A small restaurant stands by the bridge.",
         "words": [
+          {
+            "word": "პატარა",
+            "gloss": "small",
+            "transliteration": "p'at'ara"
+          },
           {
             "word": "რესტორანი",
             "gloss": "restaurant",
@@ -791,19 +766,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ხიდთან",
+            "gloss": "by the bridge",
+            "transliteration": "khidtan"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დგას",
+            "gloss": "stands",
+            "transliteration": "dgas"
           }
         ]
       }
@@ -813,17 +783,12 @@
     "vocab_index": 261,
     "word": "კაფე",
     "gloss": "cafe",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე კაფე მივდივარ.",
-        "text": "I go to the cafe.",
+        "target": "კაფე ყავას ადუღებს.",
+        "text": "The cafe brews coffee.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "კაფე",
             "gloss": "cafe",
@@ -831,15 +796,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ყავას",
+            "gloss": "coffee",
+            "transliteration": "q'avas"
+          },
+          {
+            "word": "ადუღებს",
+            "gloss": "brews",
+            "transliteration": "adughebs"
           }
         ]
       },
       {
-        "target": "კაფე ახლოს არის.",
-        "text": "The cafe is near.",
+        "target": "კაფე ტკბილეულს ყიდის.",
+        "text": "The cafe sells sweets.",
         "words": [
           {
             "word": "კაფე",
@@ -848,25 +818,25 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ტკბილეულს",
+            "gloss": "sweets",
+            "transliteration": "t'k'bileuls"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ყიდის",
+            "gloss": "sells",
+            "transliteration": "q'idis"
           }
         ]
       },
       {
-        "target": "მეგობარი კაფე შიგნით არის.",
-        "text": "A friend is inside the cafe.",
+        "target": "მყუდრო კაფე პარკის გვერდითაა.",
+        "text": "A cozy cafe is beside the park.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "მყუდრო",
+            "gloss": "cozy",
+            "transliteration": "mq'udro"
           },
           {
             "word": "კაფე",
@@ -875,14 +845,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "პარკის",
+            "gloss": "park's",
+            "transliteration": "p'ark'is"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "გვერდითაა",
+            "gloss": "is beside",
+            "transliteration": "gverditaa"
           }
         ]
       }
@@ -892,17 +862,12 @@
     "vocab_index": 262,
     "word": "მუზეუმი",
     "gloss": "museum",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი მუზეუმი მიდის.",
-        "text": "The teacher goes to the museum.",
+        "target": "მუზეუმი ძველ ნივთებს ინახავს.",
+        "text": "The museum keeps old objects.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "მუზეუმი",
             "gloss": "museum",
@@ -910,15 +875,25 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "ძველ",
+            "gloss": "old",
+            "transliteration": "dzvel"
+          },
+          {
+            "word": "ნივთებს",
+            "gloss": "objects",
+            "transliteration": "nivtebs"
+          },
+          {
+            "word": "ინახავს",
+            "gloss": "keeps",
+            "transliteration": "inakhavs"
           }
         ]
       },
       {
-        "target": "მუზეუმი გზა ახლოს არის.",
-        "text": "The museum is near the road.",
+        "target": "მუზეუმი უფასოდ იღებს სტუმრებს.",
+        "text": "The museum receives guests for free.",
         "words": [
           {
             "word": "მუზეუმი",
@@ -927,30 +902,30 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "უფასოდ",
+            "gloss": "for free",
+            "transliteration": "upasod"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "იღებს",
+            "gloss": "receives",
+            "transliteration": "ighebs"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სტუმრებს",
+            "gloss": "guests",
+            "transliteration": "st'umrebs"
           }
         ]
       },
       {
-        "target": "მე მუზეუმი ვხედავ.",
-        "text": "I see the museum.",
+        "target": "ეროვნული მუზეუმი დიდ შენობაშია.",
+        "text": "The national museum is in a large building.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ეროვნული",
+            "gloss": "national",
+            "transliteration": "erovnuli"
           },
           {
             "word": "მუზეუმი",
@@ -959,9 +934,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "დიდ",
+            "gloss": "large",
+            "transliteration": "did"
+          },
+          {
+            "word": "შენობაშია",
+            "gloss": "is in a building",
+            "transliteration": "shenobashia"
           }
         ]
       }
@@ -971,17 +951,12 @@
     "vocab_index": 263,
     "word": "ბიბლიოთეკა",
     "gloss": "library",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ბიბლიოთეკა ელოდება.",
-        "text": "A friend waits at the library.",
+        "target": "ბიბლიოთეკა წიგნებს აქირავებს.",
+        "text": "The library lends books.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ბიბლიოთეკა",
             "gloss": "library",
@@ -989,21 +964,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "წიგნებს",
+            "gloss": "books",
+            "transliteration": "ts'ignebs"
+          },
+          {
+            "word": "აქირავებს",
+            "gloss": "lends",
+            "transliteration": "akiravebs"
           }
         ]
       },
       {
-        "target": "ეს ბიბლიოთეკა კარგი არის.",
-        "text": "This library is good.",
+        "target": "ბიბლიოთეკა ჩუმი ადგილია.",
+        "text": "The library is a quiet place.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "ბიბლიოთეკა",
             "gloss": "library",
@@ -1011,21 +986,26 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ჩუმი",
+            "gloss": "quiet",
+            "transliteration": "chumi"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ადგილია",
+            "gloss": "is a place",
+            "transliteration": "adgilia"
           }
         ]
       },
       {
-        "target": "ბიბლიოთეკა ბაზარი ახლოს არის.",
-        "text": "The library is near the market.",
+        "target": "სკოლის ბიბლიოთეკა ახალ წიგნებს იღებს.",
+        "text": "The school library receives new books.",
         "words": [
+          {
+            "word": "სკოლის",
+            "gloss": "school's",
+            "transliteration": "sk'olis"
+          },
           {
             "word": "ბიბლიოთეკა",
             "gloss": "library",
@@ -1033,19 +1013,19 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ახალ",
+            "gloss": "new",
+            "transliteration": "akhal"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "წიგნებს",
+            "gloss": "books",
+            "transliteration": "ts'ignebs"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იღებს",
+            "gloss": "receives",
+            "transliteration": "ighebs"
           }
         ]
       }
@@ -1055,17 +1035,12 @@
     "vocab_index": 264,
     "word": "ოთახი",
     "gloss": "room",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ოთახი მივდივარ.",
-        "text": "I go to the room.",
+        "target": "ოთახი ფანჯრით ნათდება.",
+        "text": "The room gets light from the window.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ოთახი",
             "gloss": "room",
@@ -1073,16 +1048,26 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ფანჯრით",
+            "gloss": "by the window",
+            "transliteration": "panjrit"
+          },
+          {
+            "word": "ნათდება",
+            "gloss": "is lit",
+            "transliteration": "natdeba"
           }
         ]
       },
       {
-        "target": "ოთახი ახლოს არის.",
-        "text": "The room is near.",
+        "target": "დიდი ოთახი სამ საწოლს იტევს.",
+        "text": "The big room fits three beds.",
         "words": [
+          {
+            "word": "დიდი",
+            "gloss": "big",
+            "transliteration": "didi"
+          },
           {
             "word": "ოთახი",
             "gloss": "room",
@@ -1090,26 +1075,26 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "სამ",
+            "gloss": "three",
+            "transliteration": "sam"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "საწოლს",
+            "gloss": "bed",
+            "transliteration": "sats'ols"
+          },
+          {
+            "word": "იტევს",
+            "gloss": "fits",
+            "transliteration": "it'evs"
           }
         ]
       },
       {
-        "target": "მეგობარი ოთახი შიგნით არის.",
-        "text": "A friend is inside the room.",
+        "target": "ოთახი სუფთად გაიწმინდა.",
+        "text": "The room was cleaned thoroughly.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ოთახი",
             "gloss": "room",
@@ -1117,14 +1102,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "სუფთად",
+            "gloss": "cleanly",
+            "transliteration": "suptad"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "გაიწმინდა",
+            "gloss": "was cleaned",
+            "transliteration": "gaits'minda"
           }
         ]
       }
@@ -1134,17 +1119,12 @@
     "vocab_index": 265,
     "word": "საძინებელი",
     "gloss": "bedroom",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი საძინებელი მიდის.",
-        "text": "The teacher goes to the bedroom.",
+        "target": "საძინებელი მეორე სართულზეა.",
+        "text": "The bedroom is on the second floor.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "საძინებელი",
             "gloss": "bedroom",
@@ -1152,15 +1132,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "მეორე",
+            "gloss": "second",
+            "transliteration": "meore"
+          },
+          {
+            "word": "სართულზეა",
+            "gloss": "is on the floor",
+            "transliteration": "sartulzea"
           }
         ]
       },
       {
-        "target": "საძინებელი გზა ახლოს არის.",
-        "text": "The bedroom is near the road.",
+        "target": "საძინებელი რბილი საწოლითაა.",
+        "text": "The bedroom has a soft bed.",
         "words": [
           {
             "word": "საძინებელი",
@@ -1169,30 +1154,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "რბილი",
+            "gloss": "soft",
+            "transliteration": "rbili"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საწოლითაა",
+            "gloss": "is with a bed",
+            "transliteration": "sats'olitaa"
           }
         ]
       },
       {
-        "target": "მე საძინებელი ვხედავ.",
-        "text": "I see the bedroom.",
+        "target": "ჩვენი საძინებელი წყნარია.",
+        "text": "Our bedroom is quiet.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ჩვენი",
+            "gloss": "our",
+            "transliteration": "chveni"
           },
           {
             "word": "საძინებელი",
@@ -1201,9 +1181,9 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "წყნარია",
+            "gloss": "is quiet",
+            "transliteration": "ts'q'naria"
           }
         ]
       }
@@ -1213,17 +1193,12 @@
     "vocab_index": 266,
     "word": "სამზარეულო",
     "gloss": "kitchen",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი სამზარეულო ელოდება.",
-        "text": "A friend waits at the kitchen.",
+        "target": "სამზარეულო სურნელით სავსეა.",
+        "text": "The kitchen is full of aroma.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სამზარეულო",
             "gloss": "kitchen",
@@ -1231,21 +1206,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "სურნელით",
+            "gloss": "with aroma",
+            "transliteration": "surnelit"
+          },
+          {
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       },
       {
-        "target": "ეს სამზარეულო კარგი არის.",
-        "text": "This kitchen is good.",
+        "target": "სამზარეულო ახალ ღუმელს შეიცავს.",
+        "text": "The kitchen contains a new oven.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "სამზარეულო",
             "gloss": "kitchen",
@@ -1253,21 +1228,31 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ახალ",
+            "gloss": "new",
+            "transliteration": "akhal"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ღუმელს",
+            "gloss": "oven",
+            "transliteration": "ghumels"
+          },
+          {
+            "word": "შეიცავს",
+            "gloss": "contains",
+            "transliteration": "sheitsavs"
           }
         ]
       },
       {
-        "target": "სამზარეულო ბაზარი ახლოს არის.",
-        "text": "The kitchen is near the market.",
+        "target": "პატარა სამზარეულო მაგიდასაც იტევს.",
+        "text": "The small kitchen also fits a table.",
         "words": [
+          {
+            "word": "პატარა",
+            "gloss": "small",
+            "transliteration": "p'at'ara"
+          },
           {
             "word": "სამზარეულო",
             "gloss": "kitchen",
@@ -1275,19 +1260,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მაგიდასაც",
+            "gloss": "a table too",
+            "transliteration": "magidasats"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იტევს",
+            "gloss": "fits",
+            "transliteration": "it'evs"
           }
         ]
       }
@@ -1297,17 +1277,12 @@
     "vocab_index": 267,
     "word": "აბაზანა",
     "gloss": "bathroom",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე აბაზანა მივდივარ.",
-        "text": "I go to the bathroom.",
+        "target": "აბაზანა სარკეს შეიცავს.",
+        "text": "The bathroom contains a mirror.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "აბაზანა",
             "gloss": "bathroom",
@@ -1315,15 +1290,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "სარკეს",
+            "gloss": "mirror",
+            "transliteration": "sark'es"
+          },
+          {
+            "word": "შეიცავს",
+            "gloss": "contains",
+            "transliteration": "sheitsavs"
           }
         ]
       },
       {
-        "target": "აბაზანა ახლოს არის.",
-        "text": "The bathroom is near.",
+        "target": "აბაზანა ცხელ წყალს იძლევა.",
+        "text": "The bathroom gives hot water.",
         "words": [
           {
             "word": "აბაზანა",
@@ -1332,26 +1312,26 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ცხელ",
+            "gloss": "hot",
+            "transliteration": "tskhel"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "წყალს",
+            "gloss": "water",
+            "transliteration": "ts'q'als"
+          },
+          {
+            "word": "იძლევა",
+            "gloss": "gives",
+            "transliteration": "idzleva"
           }
         ]
       },
       {
-        "target": "მეგობარი აბაზანა შიგნით არის.",
-        "text": "A friend is inside the bathroom.",
+        "target": "აბაზანა დილით დაკავებულია.",
+        "text": "The bathroom is busy in the morning.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "აბაზანა",
             "gloss": "bathroom",
@@ -1359,14 +1339,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "დილით",
+            "gloss": "in the morning",
+            "transliteration": "dilit"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დაკავებულია",
+            "gloss": "is busy",
+            "transliteration": "dak'avebulia"
           }
         ]
       }
@@ -1376,17 +1356,12 @@
     "vocab_index": 268,
     "word": "ეზო",
     "gloss": "yard",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი ეზო მიდის.",
-        "text": "The teacher goes to the yard.",
+        "target": "ეზო ყვავილებითაა შემკული.",
+        "text": "The yard is decorated with flowers.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "ეზო",
             "gloss": "yard",
@@ -1394,15 +1369,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "ყვავილებითაა",
+            "gloss": "is with flowers",
+            "transliteration": "q'vavilebitaa"
+          },
+          {
+            "word": "შემკული",
+            "gloss": "decorated",
+            "transliteration": "shemk'uli"
           }
         ]
       },
       {
-        "target": "ეზო გზა ახლოს არის.",
-        "text": "The yard is near the road.",
+        "target": "ეზო ძაღლს სივრცეს აძლევს.",
+        "text": "The yard gives the dog space.",
         "words": [
           {
             "word": "ეზო",
@@ -1411,30 +1391,30 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "ძაღლს",
+            "gloss": "dog",
+            "transliteration": "dzaghls"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "სივრცეს",
+            "gloss": "space",
+            "transliteration": "sivrtses"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "აძლევს",
+            "gloss": "gives",
+            "transliteration": "adzlevs"
           }
         ]
       },
       {
-        "target": "მე ეზო ვხედავ.",
-        "text": "I see the yard.",
+        "target": "ფართო ეზო ბავშვებს ჰყოფნის.",
+        "text": "The wide yard is enough for the children.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ფართო",
+            "gloss": "wide",
+            "transliteration": "parto"
           },
           {
             "word": "ეზო",
@@ -1443,9 +1423,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ბავშვებს",
+            "gloss": "children",
+            "transliteration": "bavshvebs"
+          },
+          {
+            "word": "ჰყოფნის",
+            "gloss": "is enough",
+            "transliteration": "hq'opnis"
           }
         ]
       }
@@ -1455,17 +1440,12 @@
     "vocab_index": 269,
     "word": "ხიდი",
     "gloss": "bridge",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ხიდი ელოდება.",
-        "text": "A friend waits at the bridge.",
+        "target": "ხიდი მდინარეს კვეთს.",
+        "text": "The bridge crosses the river.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ხიდი",
             "gloss": "bridge",
@@ -1473,20 +1453,25 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "მდინარეს",
+            "gloss": "river",
+            "transliteration": "mdinares"
+          },
+          {
+            "word": "კვეთს",
+            "gloss": "crosses",
+            "transliteration": "k'vets"
           }
         ]
       },
       {
-        "target": "ეს ხიდი კარგი არის.",
-        "text": "This bridge is good.",
+        "target": "ძველი ხიდი ქვებითაა აგებული.",
+        "text": "The old bridge is built of stones.",
         "words": [
           {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
+            "word": "ძველი",
+            "gloss": "old",
+            "transliteration": "dzveli"
           },
           {
             "word": "ხიდი",
@@ -1495,20 +1480,20 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ქვებითაა",
+            "gloss": "is with stones",
+            "transliteration": "kvebitaa"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "აგებული",
+            "gloss": "built",
+            "transliteration": "agebuli"
           }
         ]
       },
       {
-        "target": "ხიდი ბაზარი ახლოს არის.",
-        "text": "The bridge is near the market.",
+        "target": "ხიდი მანქანებს ატარებს.",
+        "text": "The bridge carries cars.",
         "words": [
           {
             "word": "ხიდი",
@@ -1517,19 +1502,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მანქანებს",
+            "gloss": "cars",
+            "transliteration": "mankanebs"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ატარებს",
+            "gloss": "carries",
+            "transliteration": "at'arebs"
           }
         ]
       }
@@ -1539,17 +1519,12 @@
     "vocab_index": 270,
     "word": "ეკლესია",
     "gloss": "church",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ეკლესია მივდივარ.",
-        "text": "I go to the church.",
+        "target": "ეკლესია ზარებს რეკავს.",
+        "text": "The church rings its bells.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ეკლესია",
             "gloss": "church",
@@ -1557,16 +1532,26 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ზარებს",
+            "gloss": "bells",
+            "transliteration": "zarebs"
+          },
+          {
+            "word": "რეკავს",
+            "gloss": "rings",
+            "transliteration": "rek'avs"
           }
         ]
       },
       {
-        "target": "ეკლესია ახლოს არის.",
-        "text": "The church is near.",
+        "target": "ძველი ეკლესია მთაზე დგას.",
+        "text": "The old church stands on the mountain.",
         "words": [
+          {
+            "word": "ძველი",
+            "gloss": "old",
+            "transliteration": "dzveli"
+          },
           {
             "word": "ეკლესია",
             "gloss": "church",
@@ -1574,26 +1559,21 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "მთაზე",
+            "gloss": "on the mountain",
+            "transliteration": "mtaze"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დგას",
+            "gloss": "stands",
+            "transliteration": "dgas"
           }
         ]
       },
       {
-        "target": "მეგობარი ეკლესია შიგნით არის.",
-        "text": "A friend is inside the church.",
+        "target": "ეკლესია კვირას ივსება.",
+        "text": "The church fills up on Sunday.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ეკლესია",
             "gloss": "church",
@@ -1601,14 +1581,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "კვირას",
+            "gloss": "on Sunday",
+            "transliteration": "k'viras"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ივსება",
+            "gloss": "fills up",
+            "transliteration": "ivseba"
           }
         ]
       }
@@ -1618,17 +1598,12 @@
     "vocab_index": 271,
     "word": "უნივერსიტეტი",
     "gloss": "university",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი უნივერსიტეტი მიდის.",
-        "text": "The teacher goes to the university.",
+        "target": "უნივერსიტეტი სტუდენტებს იღებს.",
+        "text": "The university accepts students.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "უნივერსიტეტი",
             "gloss": "university",
@@ -1636,15 +1611,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "სტუდენტებს",
+            "gloss": "students",
+            "transliteration": "st'udent'ebs"
+          },
+          {
+            "word": "იღებს",
+            "gloss": "accepts",
+            "transliteration": "ighebs"
           }
         ]
       },
       {
-        "target": "უნივერსიტეტი გზა ახლოს არის.",
-        "text": "The university is near the road.",
+        "target": "უნივერსიტეტი კვლევას ატარებს.",
+        "text": "The university conducts research.",
         "words": [
           {
             "word": "უნივერსიტეტი",
@@ -1653,30 +1633,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "კვლევას",
+            "gloss": "research",
+            "transliteration": "k'vlevas"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ატარებს",
+            "gloss": "conducts",
+            "transliteration": "at'arebs"
           }
         ]
       },
       {
-        "target": "მე უნივერსიტეტი ვხედავ.",
-        "text": "I see the university.",
+        "target": "დიდი უნივერსიტეტი ქალაქის ცენტრშია.",
+        "text": "The big university is in the city center.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "დიდი",
+            "gloss": "big",
+            "transliteration": "didi"
           },
           {
             "word": "უნივერსიტეტი",
@@ -1685,9 +1660,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ქალაქის",
+            "gloss": "city's",
+            "transliteration": "kalakis"
+          },
+          {
+            "word": "ცენტრშია",
+            "gloss": "is in the center",
+            "transliteration": "tsent'rshia"
           }
         ]
       }
@@ -1697,17 +1677,12 @@
     "vocab_index": 272,
     "word": "ქარხანა",
     "gloss": "factory",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ქარხანა ელოდება.",
-        "text": "A friend waits at the factory.",
+        "target": "ქარხანა მანქანებს აწარმოებს.",
+        "text": "The factory produces cars.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ქარხანა",
             "gloss": "factory",
@@ -1715,21 +1690,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "მანქანებს",
+            "gloss": "cars",
+            "transliteration": "mankanebs"
+          },
+          {
+            "word": "აწარმოებს",
+            "gloss": "produces",
+            "transliteration": "ats'armoebs"
           }
         ]
       },
       {
-        "target": "ეს ქარხანა კარგი არის.",
-        "text": "This factory is good.",
+        "target": "ქარხანა დილით იწყებს ცვლას.",
+        "text": "The factory starts the shift in the morning.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "ქარხანა",
             "gloss": "factory",
@@ -1737,21 +1712,31 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "დილით",
+            "gloss": "in the morning",
+            "transliteration": "dilit"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
+          },
+          {
+            "word": "ცვლას",
+            "gloss": "shift",
+            "transliteration": "tsvlas"
           }
         ]
       },
       {
-        "target": "ქარხანა ბაზარი ახლოს არის.",
-        "text": "The factory is near the market.",
+        "target": "ახალი ქარხანა მუშებს საჭიროებს.",
+        "text": "The new factory needs workers.",
         "words": [
+          {
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
+          },
           {
             "word": "ქარხანა",
             "gloss": "factory",
@@ -1759,19 +1744,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მუშებს",
+            "gloss": "workers",
+            "transliteration": "mushebs"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საჭიროებს",
+            "gloss": "needs",
+            "transliteration": "sach'iroebs"
           }
         ]
       }
@@ -1781,17 +1761,12 @@
     "vocab_index": 273,
     "word": "მოედანი",
     "gloss": "square",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე მოედანი მივდივარ.",
-        "text": "I go to the square.",
+        "target": "მოედანი შადრევნით იმშვენება.",
+        "text": "The square is adorned with a fountain.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "მოედანი",
             "gloss": "square",
@@ -1799,15 +1774,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "შადრევნით",
+            "gloss": "with a fountain",
+            "transliteration": "shadrevnit"
+          },
+          {
+            "word": "იმშვენება",
+            "gloss": "is adorned",
+            "transliteration": "imshveneba"
           }
         ]
       },
       {
-        "target": "მოედანი ახლოს არის.",
-        "text": "The square is near.",
+        "target": "მოედანი კონცერტისთვის ემზადება.",
+        "text": "The square prepares for a concert.",
         "words": [
           {
             "word": "მოედანი",
@@ -1816,25 +1796,25 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "კონცერტისთვის",
+            "gloss": "for a concert",
+            "transliteration": "k'ontsert'istvis"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ემზადება",
+            "gloss": "prepares",
+            "transliteration": "emzadeba"
           }
         ]
       },
       {
-        "target": "მეგობარი მოედანი შიგნით არის.",
-        "text": "A friend is inside the square.",
+        "target": "ცენტრალური მოედანი ხალხით სავსეა.",
+        "text": "The central square is full of people.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ცენტრალური",
+            "gloss": "central",
+            "transliteration": "tsent'raluri"
           },
           {
             "word": "მოედანი",
@@ -1843,14 +1823,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "ხალხით",
+            "gloss": "with people",
+            "transliteration": "khalkhit"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       }
@@ -1860,17 +1840,12 @@
     "vocab_index": 274,
     "word": "აეროპორტი",
     "gloss": "airport",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი აეროპორტი მიდის.",
-        "text": "The teacher goes to the airport.",
+        "target": "აეროპორტი თვითმფრინავებს იღებს.",
+        "text": "The airport receives airplanes.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "აეროპორტი",
             "gloss": "airport",
@@ -1878,15 +1853,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "თვითმფრინავებს",
+            "gloss": "airplanes",
+            "transliteration": "tvitmprinavebs"
+          },
+          {
+            "word": "იღებს",
+            "gloss": "receives",
+            "transliteration": "ighebs"
           }
         ]
       },
       {
-        "target": "აეროპორტი გზა ახლოს არის.",
-        "text": "The airport is near the road.",
+        "target": "აეროპორტი ქალაქიდან შორსაა.",
+        "text": "The airport is far from the city.",
         "words": [
           {
             "word": "აეროპორტი",
@@ -1895,30 +1875,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "ქალაქიდან",
+            "gloss": "from the city",
+            "transliteration": "kalakidan"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "შორსაა",
+            "gloss": "is far",
+            "transliteration": "shorsaa"
           }
         ]
       },
       {
-        "target": "მე აეროპორტი ვხედავ.",
-        "text": "I see the airport.",
+        "target": "საერთაშორისო აეროპორტი ახალ ტერმინალს ხსნის.",
+        "text": "The international airport opens a new terminal.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "საერთაშორისო",
+            "gloss": "international",
+            "transliteration": "saertashoriso"
           },
           {
             "word": "აეროპორტი",
@@ -1927,9 +1902,19 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ახალ",
+            "gloss": "new",
+            "transliteration": "akhal"
+          },
+          {
+            "word": "ტერმინალს",
+            "gloss": "terminal",
+            "transliteration": "t'erminals"
+          },
+          {
+            "word": "ხსნის",
+            "gloss": "opens",
+            "transliteration": "khsnis"
           }
         ]
       }
@@ -1939,17 +1924,12 @@
     "vocab_index": 275,
     "word": "ფოსტა",
     "gloss": "post office",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ფოსტა ელოდება.",
-        "text": "A friend waits at the post office.",
+        "target": "ფოსტა წერილებს აგზავნის.",
+        "text": "The post office sends letters.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ფოსტა",
             "gloss": "post office",
@@ -1957,21 +1937,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "წერილებს",
+            "gloss": "letters",
+            "transliteration": "ts'erilebs"
+          },
+          {
+            "word": "აგზავნის",
+            "gloss": "sends",
+            "transliteration": "agzavnis"
           }
         ]
       },
       {
-        "target": "ეს ფოსტა კარგი არის.",
-        "text": "This post office is good.",
+        "target": "ფოსტა ამანათს იღებს.",
+        "text": "The post office receives a parcel.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "ფოსტა",
             "gloss": "post office",
@@ -1979,20 +1959,20 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ამანათს",
+            "gloss": "parcel",
+            "transliteration": "amanats"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "იღებს",
+            "gloss": "receives",
+            "transliteration": "ighebs"
           }
         ]
       },
       {
-        "target": "ფოსტა ბაზარი ახლოს არის.",
-        "text": "The post office is near the market.",
+        "target": "ფოსტა შაბათს ნახევარ დღეს მუშაობს.",
+        "text": "The post office works half a day on Saturday.",
         "words": [
           {
             "word": "ფოსტა",
@@ -2001,19 +1981,24 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "შაბათს",
+            "gloss": "on Saturday",
+            "transliteration": "shabats"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ნახევარ",
+            "gloss": "half",
+            "transliteration": "nakhevar"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დღეს",
+            "gloss": "day",
+            "transliteration": "dghes"
+          },
+          {
+            "word": "მუშაობს",
+            "gloss": "works",
+            "transliteration": "mushaobs"
           }
         ]
       }
@@ -2023,17 +2008,12 @@
     "vocab_index": 276,
     "word": "კლასი",
     "gloss": "classroom",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე კლასი მივდივარ.",
-        "text": "I go to the classroom.",
+        "target": "კლასი რვეულებით სავსეა.",
+        "text": "The classroom is full of notebooks.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "კლასი",
             "gloss": "classroom",
@@ -2041,15 +2021,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "რვეულებით",
+            "gloss": "with notebooks",
+            "transliteration": "rveulebit"
+          },
+          {
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       },
       {
-        "target": "კლასი ახლოს არის.",
-        "text": "The classroom is near.",
+        "target": "კლასი დაფას იყენებს.",
+        "text": "The classroom uses a blackboard.",
         "words": [
           {
             "word": "კლასი",
@@ -2058,25 +2043,25 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "დაფას",
+            "gloss": "blackboard",
+            "transliteration": "dapas"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "იყენებს",
+            "gloss": "uses",
+            "transliteration": "iq'enebs"
           }
         ]
       },
       {
-        "target": "მეგობარი კლასი შიგნით არის.",
-        "text": "A friend is inside the classroom.",
+        "target": "ჩვენი კლასი ფანჯრის გვერდითაა.",
+        "text": "Our classroom is beside the window.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ჩვენი",
+            "gloss": "our",
+            "transliteration": "chveni"
           },
           {
             "word": "კლასი",
@@ -2085,14 +2070,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "ფანჯრის",
+            "gloss": "window's",
+            "transliteration": "panjris"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "გვერდითაა",
+            "gloss": "is beside",
+            "transliteration": "gverditaa"
           }
         ]
       }
@@ -2102,17 +2087,12 @@
     "vocab_index": 277,
     "word": "აუზი",
     "gloss": "pool",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი აუზი მიდის.",
-        "text": "The teacher goes to the pool.",
+        "target": "აუზი ცივი წყლითაა.",
+        "text": "The pool has cold water.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "აუზი",
             "gloss": "pool",
@@ -2120,15 +2100,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "ცივი",
+            "gloss": "cold",
+            "transliteration": "tsivi"
+          },
+          {
+            "word": "წყლითაა",
+            "gloss": "is with water",
+            "transliteration": "ts'q'litaa"
           }
         ]
       },
       {
-        "target": "აუზი გზა ახლოს არის.",
-        "text": "The pool is near the road.",
+        "target": "აუზი ზაფხულში იხსნება.",
+        "text": "The pool opens in summer.",
         "words": [
           {
             "word": "აუზი",
@@ -2137,30 +2122,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "ზაფხულში",
+            "gloss": "in summer",
+            "transliteration": "zapkhulshi"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იხსნება",
+            "gloss": "opens",
+            "transliteration": "ikhsneba"
           }
         ]
       },
       {
-        "target": "მე აუზი ვხედავ.",
-        "text": "I see the pool.",
+        "target": "დიდი აუზი სასტუმროს ეზოშია.",
+        "text": "A big pool is in the hotel yard.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "დიდი",
+            "gloss": "big",
+            "transliteration": "didi"
           },
           {
             "word": "აუზი",
@@ -2169,9 +2149,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "სასტუმროს",
+            "gloss": "hotel's",
+            "transliteration": "sast'umros"
+          },
+          {
+            "word": "ეზოშია",
+            "gloss": "is in the yard",
+            "transliteration": "ezoshia"
           }
         ]
       }
@@ -2181,17 +2166,12 @@
     "vocab_index": 278,
     "word": "თეატრი",
     "gloss": "theater",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი თეატრი ელოდება.",
-        "text": "A friend waits at the theater.",
+        "target": "თეატრი სპექტაკლს მართავს.",
+        "text": "The theater puts on a play.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "თეატრი",
             "gloss": "theater",
@@ -2199,21 +2179,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "სპექტაკლს",
+            "gloss": "play",
+            "transliteration": "sp'ekt'ak'ls"
+          },
+          {
+            "word": "მართავს",
+            "gloss": "puts on",
+            "transliteration": "martavs"
           }
         ]
       },
       {
-        "target": "ეს თეატრი კარგი არის.",
-        "text": "This theater is good.",
+        "target": "თეატრი ბილეთებს ყიდის.",
+        "text": "The theater sells tickets.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "თეატრი",
             "gloss": "theater",
@@ -2221,21 +2201,26 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ბილეთებს",
+            "gloss": "tickets",
+            "transliteration": "biletebs"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ყიდის",
+            "gloss": "sells",
+            "transliteration": "q'idis"
           }
         ]
       },
       {
-        "target": "თეატრი ბაზარი ახლოს არის.",
-        "text": "The theater is near the market.",
+        "target": "ძველი თეატრი მოედანთან დგას.",
+        "text": "The old theater stands by the square.",
         "words": [
+          {
+            "word": "ძველი",
+            "gloss": "old",
+            "transliteration": "dzveli"
+          },
           {
             "word": "თეატრი",
             "gloss": "theater",
@@ -2243,19 +2228,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მოედანთან",
+            "gloss": "by the square",
+            "transliteration": "moedantan"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დგას",
+            "gloss": "stands",
+            "transliteration": "dgas"
           }
         ]
       }
@@ -2265,17 +2245,12 @@
     "vocab_index": 279,
     "word": "კინო",
     "gloss": "cinema",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე კინო მივდივარ.",
-        "text": "I go to the cinema.",
+        "target": "კინო ახალ ფილმს აჩვენებს.",
+        "text": "The cinema shows a new film.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "კინო",
             "gloss": "cinema",
@@ -2283,15 +2258,25 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ახალ",
+            "gloss": "new",
+            "transliteration": "akhal"
+          },
+          {
+            "word": "ფილმს",
+            "gloss": "film",
+            "transliteration": "pilms"
+          },
+          {
+            "word": "აჩვენებს",
+            "gloss": "shows",
+            "transliteration": "achvenebs"
           }
         ]
       },
       {
-        "target": "კინო ახლოს არის.",
-        "text": "The cinema is near.",
+        "target": "კინო პოპკორნს ყიდის.",
+        "text": "The cinema sells popcorn.",
         "words": [
           {
             "word": "კინო",
@@ -2300,26 +2285,21 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "პოპკორნს",
+            "gloss": "popcorn",
+            "transliteration": "p'op'k'orns"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ყიდის",
+            "gloss": "sells",
+            "transliteration": "q'idis"
           }
         ]
       },
       {
-        "target": "მეგობარი კინო შიგნით არის.",
-        "text": "A friend is inside the cinema.",
+        "target": "კინო საღამოს ივსება.",
+        "text": "The cinema fills up in the evening.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "კინო",
             "gloss": "cinema",
@@ -2327,14 +2307,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "საღამოს",
+            "gloss": "in the evening",
+            "transliteration": "saghamos"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ივსება",
+            "gloss": "fills up",
+            "transliteration": "ivseba"
           }
         ]
       }
@@ -2344,17 +2324,12 @@
     "vocab_index": 280,
     "word": "პლაჟი",
     "gloss": "beach",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი პლაჟი მიდის.",
-        "text": "The teacher goes to the beach.",
+        "target": "პლაჟი ქვიშითაა დაფარული.",
+        "text": "The beach is covered with sand.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "პლაჟი",
             "gloss": "beach",
@@ -2362,15 +2337,20 @@
             "note": "target"
           },
           {
-            "word": "მიდის",
-            "gloss": "goes",
-            "transliteration": "midis"
+            "word": "ქვიშითაა",
+            "gloss": "is with sand",
+            "transliteration": "kvishitaa"
+          },
+          {
+            "word": "დაფარული",
+            "gloss": "covered",
+            "transliteration": "daparuli"
           }
         ]
       },
       {
-        "target": "პლაჟი გზა ახლოს არის.",
-        "text": "The beach is near the road.",
+        "target": "პლაჟი ზაფხულში ხალხიანია.",
+        "text": "The beach is crowded in summer.",
         "words": [
           {
             "word": "პლაჟი",
@@ -2379,30 +2359,25 @@
             "note": "target"
           },
           {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
+            "word": "ზაფხულში",
+            "gloss": "in summer",
+            "transliteration": "zapkhulshi"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ხალხიანია",
+            "gloss": "is crowded",
+            "transliteration": "khalkhiania"
           }
         ]
       },
       {
-        "target": "მე პლაჟი ვხედავ.",
-        "text": "I see the beach.",
+        "target": "გრძელი პლაჟი ქალაქს მიუყვება.",
+        "text": "A long beach follows the city.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "გრძელი",
+            "gloss": "long",
+            "transliteration": "grdzeli"
           },
           {
             "word": "პლაჟი",
@@ -2411,9 +2386,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ქალაქს",
+            "gloss": "city",
+            "transliteration": "kalaks"
+          },
+          {
+            "word": "მიუყვება",
+            "gloss": "follows",
+            "transliteration": "miuq'veba"
           }
         ]
       }
@@ -2423,17 +2403,12 @@
     "vocab_index": 281,
     "word": "ბაღი",
     "gloss": "garden",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ბაღი ელოდება.",
-        "text": "A friend waits at the garden.",
+        "target": "ბაღი ვარდებს ზრდის.",
+        "text": "The garden grows roses.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ბაღი",
             "gloss": "garden",
@@ -2441,21 +2416,21 @@
             "note": "target"
           },
           {
-            "word": "ელოდება",
-            "gloss": "waits at",
-            "transliteration": "elodeba"
+            "word": "ვარდებს",
+            "gloss": "roses",
+            "transliteration": "vardebs"
+          },
+          {
+            "word": "ზრდის",
+            "gloss": "grows",
+            "transliteration": "zrdis"
           }
         ]
       },
       {
-        "target": "ეს ბაღი კარგი არის.",
-        "text": "This garden is good.",
+        "target": "ბაღი გაზაფხულზე ყვავის.",
+        "text": "The garden blooms in spring.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "ბაღი",
             "gloss": "garden",
@@ -2463,21 +2438,26 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "გაზაფხულზე",
+            "gloss": "in spring",
+            "transliteration": "gazapkhulze"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ყვავის",
+            "gloss": "blooms",
+            "transliteration": "q'vavis"
           }
         ]
       },
       {
-        "target": "ბაღი ბაზარი ახლოს არის.",
-        "text": "The garden is near the market.",
+        "target": "ჩვენი ბაღი ბოსტნეულს იძლევა.",
+        "text": "Our garden gives vegetables.",
         "words": [
+          {
+            "word": "ჩვენი",
+            "gloss": "our",
+            "transliteration": "chveni"
+          },
           {
             "word": "ბაღი",
             "gloss": "garden",
@@ -2485,19 +2465,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ბოსტნეულს",
+            "gloss": "vegetables",
+            "transliteration": "bost'neuls"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იძლევა",
+            "gloss": "gives",
+            "transliteration": "idzleva"
           }
         ]
       }
@@ -2507,17 +2482,12 @@
     "vocab_index": 282,
     "word": "ზოოპარკი",
     "gloss": "zoo",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ზოოპარკი მივდივარ.",
-        "text": "I go to the zoo.",
+        "target": "ზოოპარკი ცხოველებს აჩვენებს.",
+        "text": "The zoo shows animals.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ზოოპარკი",
             "gloss": "zoo",
@@ -2525,15 +2495,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ცხოველებს",
+            "gloss": "animals",
+            "transliteration": "tskhovelebs"
+          },
+          {
+            "word": "აჩვენებს",
+            "gloss": "shows",
+            "transliteration": "achvenebs"
           }
         ]
       },
       {
-        "target": "ზოოპარკი ახლოს არის.",
-        "text": "The zoo is near.",
+        "target": "ზოოპარკი ლომს ინახავს.",
+        "text": "The zoo keeps a lion.",
         "words": [
           {
             "word": "ზოოპარკი",
@@ -2542,25 +2517,25 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ლომს",
+            "gloss": "lion",
+            "transliteration": "loms"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ინახავს",
+            "gloss": "keeps",
+            "transliteration": "inakhavs"
           }
         ]
       },
       {
-        "target": "მეგობარი ზოოპარკი შიგნით არის.",
-        "text": "A friend is inside the zoo.",
+        "target": "დიდი ზოოპარკი პარკის გვერდითაა.",
+        "text": "A big zoo is beside the park.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "დიდი",
+            "gloss": "big",
+            "transliteration": "didi"
           },
           {
             "word": "ზოოპარკი",
@@ -2569,14 +2544,14 @@
             "note": "target"
           },
           {
-            "word": "შიგნით",
-            "gloss": "inside",
-            "transliteration": "shignit"
+            "word": "პარკის",
+            "gloss": "park's",
+            "transliteration": "p'ark'is"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "გვერდითაა",
+            "gloss": "is beside",
+            "transliteration": "gverditaa"
           }
         ]
       }
@@ -2586,11 +2561,11 @@
     "vocab_index": 283,
     "word": "დღეს",
     "gloss": "today",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "დღეს მე მოვდივარ.",
-        "text": "I come today.",
+        "target": "დღეს წვიმს.",
+        "text": "It is raining today.",
         "words": [
           {
             "word": "დღეს",
@@ -2599,20 +2574,15 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "წვიმს",
+            "gloss": "it rains",
+            "transliteration": "ts'vims"
           }
         ]
       },
       {
-        "target": "დღეს ჩვენ ვსწავლობთ.",
-        "text": "We study today.",
+        "target": "დღეს ბაზარში ვიყიდე პური.",
+        "text": "Today I bought bread at the market.",
         "words": [
           {
             "word": "დღეს",
@@ -2621,20 +2591,25 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ბაზარში",
+            "gloss": "at the market",
+            "transliteration": "bazarshi"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "ვიყიდე",
+            "gloss": "I bought",
+            "transliteration": "viq'ide"
+          },
+          {
+            "word": "პური",
+            "gloss": "bread",
+            "transliteration": "p'uri"
           }
         ]
       },
       {
-        "target": "დღეს ბაზარი მივდივარ.",
-        "text": "I go to the market today.",
+        "target": "დღეს გამოცდა მაქვს.",
+        "text": "I have an exam today.",
         "words": [
           {
             "word": "დღეს",
@@ -2643,14 +2618,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "გამოცდა",
+            "gloss": "exam",
+            "transliteration": "gamotsda"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       }
@@ -2660,11 +2635,11 @@
     "vocab_index": 284,
     "word": "ხვალ",
     "gloss": "tomorrow",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ხვალ მე მოვდივარ.",
-        "text": "I come tomorrow.",
+        "target": "ხვალ სკოლაში მივდივარ.",
+        "text": "Tomorrow I go to school.",
         "words": [
           {
             "word": "ხვალ",
@@ -2673,58 +2648,63 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
-          }
-        ]
-      },
-      {
-        "target": "ხვალ ჩვენ ვსწავლობთ.",
-        "text": "We study tomorrow.",
-        "words": [
-          {
-            "word": "ხვალ",
-            "gloss": "tomorrow",
-            "transliteration": "khval",
-            "note": "target"
-          },
-          {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
-          },
-          {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
-          }
-        ]
-      },
-      {
-        "target": "ხვალ ბაზარი მივდივარ.",
-        "text": "I go to the market tomorrow.",
-        "words": [
-          {
-            "word": "ხვალ",
-            "gloss": "tomorrow",
-            "transliteration": "khval",
-            "note": "target"
-          },
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "სკოლაში",
+            "gloss": "to school",
+            "transliteration": "sk'olashi"
           },
           {
             "word": "მივდივარ",
             "gloss": "I go",
             "transliteration": "mivdivar"
+          }
+        ]
+      },
+      {
+        "target": "ხვალ მეგობარს ვნახავ.",
+        "text": "Tomorrow I will see a friend.",
+        "words": [
+          {
+            "word": "ხვალ",
+            "gloss": "tomorrow",
+            "transliteration": "khval",
+            "note": "target"
+          },
+          {
+            "word": "მეგობარს",
+            "gloss": "friend",
+            "transliteration": "megobars"
+          },
+          {
+            "word": "ვნახავ",
+            "gloss": "I will see",
+            "transliteration": "vnakhav"
+          }
+        ]
+      },
+      {
+        "target": "ხვალ ამინდი კარგი იქნება.",
+        "text": "Tomorrow the weather will be good.",
+        "words": [
+          {
+            "word": "ხვალ",
+            "gloss": "tomorrow",
+            "transliteration": "khval",
+            "note": "target"
+          },
+          {
+            "word": "ამინდი",
+            "gloss": "weather",
+            "transliteration": "amindi"
+          },
+          {
+            "word": "კარგი",
+            "gloss": "good",
+            "transliteration": "k'argi"
+          },
+          {
+            "word": "იქნება",
+            "gloss": "will be",
+            "transliteration": "ikneba"
           }
         ]
       }
@@ -2734,11 +2714,11 @@
     "vocab_index": 285,
     "word": "გუშინ",
     "gloss": "yesterday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "გუშინ მე მოვდივარ.",
-        "text": "I come yesterday.",
+        "target": "გუშინ კინოში ვიყავი.",
+        "text": "Yesterday I was at the cinema.",
         "words": [
           {
             "word": "გუშინ",
@@ -2747,20 +2727,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "კინოში",
+            "gloss": "at the cinema",
+            "transliteration": "k'inoshi"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ვიყავი",
+            "gloss": "I was",
+            "transliteration": "viq'avi"
           }
         ]
       },
       {
-        "target": "გუშინ ჩვენ ვსწავლობთ.",
-        "text": "We study yesterday.",
+        "target": "გუშინ წერილი მივიღე.",
+        "text": "Yesterday I received a letter.",
         "words": [
           {
             "word": "გუშინ",
@@ -2769,20 +2749,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "წერილი",
+            "gloss": "letter",
+            "transliteration": "ts'erili"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მივიღე",
+            "gloss": "I received",
+            "transliteration": "mivighe"
           }
         ]
       },
       {
-        "target": "გუშინ ბაზარი მივდივარ.",
-        "text": "I go to the market yesterday.",
+        "target": "გუშინ დიდხანს ვიმუშავე.",
+        "text": "Yesterday I worked for a long time.",
         "words": [
           {
             "word": "გუშინ",
@@ -2791,14 +2771,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "დიდხანს",
+            "gloss": "for a long time",
+            "transliteration": "didkhans"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ვიმუშავე",
+            "gloss": "I worked",
+            "transliteration": "vimushave"
           }
         ]
       }
@@ -2808,11 +2788,11 @@
     "vocab_index": 286,
     "word": "ახლა",
     "gloss": "now",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ახლა მე მოვდივარ.",
-        "text": "I come now.",
+        "target": "ახლა ვჭამ სადილს.",
+        "text": "I am eating lunch now.",
         "words": [
           {
             "word": "ახლა",
@@ -2821,20 +2801,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ვჭამ",
+            "gloss": "I eat",
+            "transliteration": "vch'am"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "სადილს",
+            "gloss": "lunch",
+            "transliteration": "sadils"
           }
         ]
       },
       {
-        "target": "ახლა ჩვენ ვსწავლობთ.",
-        "text": "We study now.",
+        "target": "ახლა ტელეფონი რეკავს.",
+        "text": "The phone is ringing now.",
         "words": [
           {
             "word": "ახლა",
@@ -2843,20 +2823,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ტელეფონი",
+            "gloss": "phone",
+            "transliteration": "t'eleponi"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "რეკავს",
+            "gloss": "rings",
+            "transliteration": "rek'avs"
           }
         ]
       },
       {
-        "target": "ახლა ბაზარი მივდივარ.",
-        "text": "I go to the market now.",
+        "target": "ახლა სახლში ვბრუნდები.",
+        "text": "I am returning home now.",
         "words": [
           {
             "word": "ახლა",
@@ -2865,14 +2845,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "სახლში",
+            "gloss": "home",
+            "transliteration": "sakhlshi"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ვბრუნდები",
+            "gloss": "I return",
+            "transliteration": "vbrundebi"
           }
         ]
       }
@@ -2882,11 +2862,11 @@
     "vocab_index": 287,
     "word": "დილა",
     "gloss": "morning",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "დილა მე მოვდივარ.",
-        "text": "I come morning.",
+        "target": "დილა ცივია.",
+        "text": "The morning is cold.",
         "words": [
           {
             "word": "დილა",
@@ -2895,21 +2875,21 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ცივია",
+            "gloss": "is cold",
+            "transliteration": "tsivia"
           }
         ]
       },
       {
-        "target": "დილა ჩვენ ვსწავლობთ.",
-        "text": "We study morning.",
+        "target": "ადრეული დილა ჩიტებით იწყება.",
+        "text": "Early morning starts with birds.",
         "words": [
+          {
+            "word": "ადრეული",
+            "gloss": "early",
+            "transliteration": "adreuli"
+          },
           {
             "word": "დილა",
             "gloss": "morning",
@@ -2917,20 +2897,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ჩიტებით",
+            "gloss": "with birds",
+            "transliteration": "chit'ebit"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       },
       {
-        "target": "დილა ბაზარი მივდივარ.",
-        "text": "I go to the market morning.",
+        "target": "დილა ყავით მჯობს.",
+        "text": "Morning is better with coffee.",
         "words": [
           {
             "word": "დილა",
@@ -2939,14 +2919,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ყავით",
+            "gloss": "with coffee",
+            "transliteration": "q'avit"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "მჯობს",
+            "gloss": "is better",
+            "transliteration": "mjobs"
           }
         ]
       }
@@ -2956,11 +2936,11 @@
     "vocab_index": 288,
     "word": "შუადღე",
     "gloss": "noon",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "შუადღე მე მოვდივარ.",
-        "text": "I come noon.",
+        "target": "შუადღე ცხელია.",
+        "text": "Noon is hot.",
         "words": [
           {
             "word": "შუადღე",
@@ -2969,20 +2949,15 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ცხელია",
+            "gloss": "is hot",
+            "transliteration": "tskhelia"
           }
         ]
       },
       {
-        "target": "შუადღე ჩვენ ვსწავლობთ.",
-        "text": "We study noon.",
+        "target": "შუადღე სადილის დროა.",
+        "text": "Noon is lunchtime.",
         "words": [
           {
             "word": "შუადღე",
@@ -2991,20 +2966,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "სადილის",
+            "gloss": "lunch's",
+            "transliteration": "sadilis"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "დროა",
+            "gloss": "is time",
+            "transliteration": "droa"
           }
         ]
       },
       {
-        "target": "შუადღე ბაზარი მივდივარ.",
-        "text": "I go to the market noon.",
+        "target": "შუადღე მზით ნათდება.",
+        "text": "Noon is lit by the sun.",
         "words": [
           {
             "word": "შუადღე",
@@ -3013,14 +2988,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მზით",
+            "gloss": "by the sun",
+            "transliteration": "mzit"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ნათდება",
+            "gloss": "is lit",
+            "transliteration": "natdeba"
           }
         ]
       }
@@ -3030,11 +3005,11 @@
     "vocab_index": 289,
     "word": "საღამო",
     "gloss": "evening",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "საღამო მე მოვდივარ.",
-        "text": "I come evening.",
+        "target": "საღამო წყნარია.",
+        "text": "The evening is quiet.",
         "words": [
           {
             "word": "საღამო",
@@ -3043,20 +3018,15 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "წყნარია",
+            "gloss": "is quiet",
+            "transliteration": "ts'q'naria"
           }
         ]
       },
       {
-        "target": "საღამო ჩვენ ვსწავლობთ.",
-        "text": "We study evening.",
+        "target": "საღამო ვახშმით მთავრდება.",
+        "text": "Evening ends with dinner.",
         "words": [
           {
             "word": "საღამო",
@@ -3065,21 +3035,26 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ვახშმით",
+            "gloss": "with dinner",
+            "transliteration": "vakhshmit"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მთავრდება",
+            "gloss": "ends",
+            "transliteration": "mtavrdeba"
           }
         ]
       },
       {
-        "target": "საღამო ბაზარი მივდივარ.",
-        "text": "I go to the market evening.",
+        "target": "გრძელი საღამო წიგნით გავატარე.",
+        "text": "I spent a long evening with a book.",
         "words": [
+          {
+            "word": "გრძელი",
+            "gloss": "long",
+            "transliteration": "grdzeli"
+          },
           {
             "word": "საღამო",
             "gloss": "evening",
@@ -3087,14 +3062,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "წიგნით",
+            "gloss": "with a book",
+            "transliteration": "ts'ignit"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გავატარე",
+            "gloss": "I spent",
+            "transliteration": "gavat'are"
           }
         ]
       }
@@ -3104,12 +3079,17 @@
     "vocab_index": 290,
     "word": "კვირა",
     "gloss": "week",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "კვირა მე მოვდივარ.",
-        "text": "I come week.",
+        "target": "ეს კვირა დატვირთულია.",
+        "text": "This week is busy.",
         "words": [
+          {
+            "word": "ეს",
+            "gloss": "this",
+            "transliteration": "es"
+          },
           {
             "word": "კვირა",
             "gloss": "week",
@@ -3117,21 +3097,21 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "დატვირთულია",
+            "gloss": "is busy",
+            "transliteration": "dat'virtulia"
           }
         ]
       },
       {
-        "target": "კვირა ჩვენ ვსწავლობთ.",
-        "text": "We study week.",
+        "target": "ახალი კვირა ორშაბათს იწყება.",
+        "text": "A new week starts on Monday.",
         "words": [
+          {
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
+          },
           {
             "word": "კვირა",
             "gloss": "week",
@@ -3139,20 +3119,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ორშაბათს",
+            "gloss": "on Monday",
+            "transliteration": "orshabats"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       },
       {
-        "target": "კვირა ბაზარი მივდივარ.",
-        "text": "I go to the market week.",
+        "target": "კვირა შვიდი დღეა.",
+        "text": "A week is seven days.",
         "words": [
           {
             "word": "კვირა",
@@ -3161,14 +3141,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "შვიდი",
+            "gloss": "seven",
+            "transliteration": "shvidi"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "დღეა",
+            "gloss": "is days",
+            "transliteration": "dghea"
           }
         ]
       }
@@ -3178,12 +3158,17 @@
     "vocab_index": 291,
     "word": "თვე",
     "gloss": "month",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "თვე მე მოვდივარ.",
-        "text": "I come month.",
+        "target": "ეს თვე ცივია.",
+        "text": "This month is cold.",
         "words": [
+          {
+            "word": "ეს",
+            "gloss": "this",
+            "transliteration": "es"
+          },
           {
             "word": "თვე",
             "gloss": "month",
@@ -3191,21 +3176,21 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ცივია",
+            "gloss": "is cold",
+            "transliteration": "tsivia"
           }
         ]
       },
       {
-        "target": "თვე ჩვენ ვსწავლობთ.",
-        "text": "We study month.",
+        "target": "ახალი თვე ხვალ იწყება.",
+        "text": "A new month starts tomorrow.",
         "words": [
+          {
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
+          },
           {
             "word": "თვე",
             "gloss": "month",
@@ -3213,20 +3198,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ხვალ",
+            "gloss": "tomorrow",
+            "transliteration": "khval"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       },
       {
-        "target": "თვე ბაზარი მივდივარ.",
-        "text": "I go to the market month.",
+        "target": "თვე ოცდარვა დღეა.",
+        "text": "The month has twenty-eight days.",
         "words": [
           {
             "word": "თვე",
@@ -3235,14 +3220,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ოცდარვა",
+            "gloss": "twenty-eight",
+            "transliteration": "otsdarva"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "დღეა",
+            "gloss": "is days",
+            "transliteration": "dghea"
           }
         ]
       }
@@ -3252,12 +3237,17 @@
     "vocab_index": 292,
     "word": "საათი",
     "gloss": "hour",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "საათი მე მოვდივარ.",
-        "text": "I come hour.",
+        "target": "ერთი საათი სწრაფად გავიდა.",
+        "text": "One hour passed quickly.",
         "words": [
+          {
+            "word": "ერთი",
+            "gloss": "one",
+            "transliteration": "erti"
+          },
           {
             "word": "საათი",
             "gloss": "hour",
@@ -3265,20 +3255,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "სწრაფად",
+            "gloss": "quickly",
+            "transliteration": "sts'rapad"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "გავიდა",
+            "gloss": "passed",
+            "transliteration": "gavida"
           }
         ]
       },
       {
-        "target": "საათი ჩვენ ვსწავლობთ.",
-        "text": "We study hour.",
+        "target": "საათი გაკვეთილს ზომავს.",
+        "text": "An hour measures the lesson.",
         "words": [
           {
             "word": "საათი",
@@ -3287,21 +3277,26 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "გაკვეთილს",
+            "gloss": "lesson",
+            "transliteration": "gak'vetils"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "ზომავს",
+            "gloss": "measures",
+            "transliteration": "zomavs"
           }
         ]
       },
       {
-        "target": "საათი ბაზარი მივდივარ.",
-        "text": "I go to the market hour.",
+        "target": "ბოლო საათი ძალიან გრძელია.",
+        "text": "The last hour is very long.",
         "words": [
+          {
+            "word": "ბოლო",
+            "gloss": "last",
+            "transliteration": "bolo"
+          },
           {
             "word": "საათი",
             "gloss": "hour",
@@ -3309,14 +3304,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ძალიან",
+            "gloss": "very",
+            "transliteration": "dzalian"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გრძელია",
+            "gloss": "is long",
+            "transliteration": "grdzelia"
           }
         ]
       }
@@ -3326,12 +3321,17 @@
     "vocab_index": 293,
     "word": "წუთი",
     "gloss": "minute",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "წუთი მე მოვდივარ.",
-        "text": "I come minute.",
+        "target": "ერთი წუთი დამიცადე.",
+        "text": "Wait for me one minute.",
         "words": [
+          {
+            "word": "ერთი",
+            "gloss": "one",
+            "transliteration": "erti"
+          },
           {
             "word": "წუთი",
             "gloss": "minute",
@@ -3339,20 +3339,15 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "დამიცადე",
+            "gloss": "wait for me",
+            "transliteration": "damitsade"
           }
         ]
       },
       {
-        "target": "წუთი ჩვენ ვსწავლობთ.",
-        "text": "We study minute.",
+        "target": "წუთი საკმარისია.",
+        "text": "A minute is enough.",
         "words": [
           {
             "word": "წუთი",
@@ -3361,21 +3356,21 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
-          },
-          {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "საკმარისია",
+            "gloss": "is enough",
+            "transliteration": "sak'marisia"
           }
         ]
       },
       {
-        "target": "წუთი ბაზარი მივდივარ.",
-        "text": "I go to the market minute.",
+        "target": "ბოლო წუთი გადამწყვეტია.",
+        "text": "The last minute is decisive.",
         "words": [
+          {
+            "word": "ბოლო",
+            "gloss": "last",
+            "transliteration": "bolo"
+          },
           {
             "word": "წუთი",
             "gloss": "minute",
@@ -3383,14 +3378,9 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
-          {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გადამწყვეტია",
+            "gloss": "is decisive",
+            "transliteration": "gadamts'q'vet'ia"
           }
         ]
       }
@@ -3400,11 +3390,11 @@
     "vocab_index": 294,
     "word": "ორშაბათი",
     "gloss": "Monday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ორშაბათი მე მოვდივარ.",
-        "text": "I come Monday.",
+        "target": "ორშაბათი სამუშაო დღეა.",
+        "text": "Monday is a work day.",
         "words": [
           {
             "word": "ორშაბათი",
@@ -3413,20 +3403,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "სამუშაო",
+            "gloss": "work",
+            "transliteration": "samushao"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "დღეა",
+            "gloss": "is a day",
+            "transliteration": "dghea"
           }
         ]
       },
       {
-        "target": "ორშაბათი ჩვენ ვსწავლობთ.",
-        "text": "We study Monday.",
+        "target": "ორშაბათი ჩემთვის ადრეულია.",
+        "text": "Monday feels early for me.",
         "words": [
           {
             "word": "ორშაბათი",
@@ -3435,21 +3425,26 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ჩემთვის",
+            "gloss": "for me",
+            "transliteration": "chemtvis"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "ადრეულია",
+            "gloss": "is early",
+            "transliteration": "adreulia"
           }
         ]
       },
       {
-        "target": "ორშაბათი ბაზარი მივდივარ.",
-        "text": "I go to the market Monday.",
+        "target": "შემდეგი ორშაბათი დღესასწაულია.",
+        "text": "Next Monday is a holiday.",
         "words": [
+          {
+            "word": "შემდეგი",
+            "gloss": "next",
+            "transliteration": "shemdegi"
+          },
           {
             "word": "ორშაბათი",
             "gloss": "Monday",
@@ -3457,14 +3452,9 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
-          {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "დღესასწაულია",
+            "gloss": "is a holiday",
+            "transliteration": "dghesasts'aulia"
           }
         ]
       }
@@ -3474,11 +3464,11 @@
     "vocab_index": 295,
     "word": "სამშაბათი",
     "gloss": "Tuesday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "სამშაბათი მე მოვდივარ.",
-        "text": "I come Tuesday.",
+        "target": "სამშაბათი სპორტის დღეა.",
+        "text": "Tuesday is sports day.",
         "words": [
           {
             "word": "სამშაბათი",
@@ -3487,20 +3477,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "სპორტის",
+            "gloss": "sports",
+            "transliteration": "sp'ort'is"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "დღეა",
+            "gloss": "is a day",
+            "transliteration": "dghea"
           }
         ]
       },
       {
-        "target": "სამშაბათი ჩვენ ვსწავლობთ.",
-        "text": "We study Tuesday.",
+        "target": "სამშაბათი ბაზარზე მიმიწვევს.",
+        "text": "Tuesday invites me to the market.",
         "words": [
           {
             "word": "სამშაბათი",
@@ -3509,21 +3499,26 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ბაზარზე",
+            "gloss": "to the market",
+            "transliteration": "bazarze"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მიმიწვევს",
+            "gloss": "invites me",
+            "transliteration": "mimits'vevs"
           }
         ]
       },
       {
-        "target": "სამშაბათი ბაზარი მივდივარ.",
-        "text": "I go to the market Tuesday.",
+        "target": "ყოველი სამშაბათი შეხვედრა მაქვს.",
+        "text": "Every Tuesday I have a meeting.",
         "words": [
+          {
+            "word": "ყოველი",
+            "gloss": "every",
+            "transliteration": "q'oveli"
+          },
           {
             "word": "სამშაბათი",
             "gloss": "Tuesday",
@@ -3531,14 +3526,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "შეხვედრა",
+            "gloss": "meeting",
+            "transliteration": "shekhvedra"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       }
@@ -3548,11 +3543,11 @@
     "vocab_index": 296,
     "word": "ოთხშაბათი",
     "gloss": "Wednesday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთხშაბათი მე მოვდივარ.",
-        "text": "I come Wednesday.",
+        "target": "ოთხშაბათი კვირის შუაა.",
+        "text": "Wednesday is midweek.",
         "words": [
           {
             "word": "ოთხშაბათი",
@@ -3561,20 +3556,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "კვირის",
+            "gloss": "week's",
+            "transliteration": "k'viris"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "შუაა",
+            "gloss": "is the middle",
+            "transliteration": "shuaa"
           }
         ]
       },
       {
-        "target": "ოთხშაბათი ჩვენ ვსწავლობთ.",
-        "text": "We study Wednesday.",
+        "target": "ოთხშაბათი წყნარ კითხვას მპატიჟებს.",
+        "text": "Wednesday invites me to quiet reading.",
         "words": [
           {
             "word": "ოთხშაბათი",
@@ -3583,21 +3578,31 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "წყნარ",
+            "gloss": "quiet",
+            "transliteration": "ts'q'nar"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "კითხვას",
+            "gloss": "reading",
+            "transliteration": "k'itkhvas"
+          },
+          {
+            "word": "მპატიჟებს",
+            "gloss": "invites me",
+            "transliteration": "mp'at'izhebs"
           }
         ]
       },
       {
-        "target": "ოთხშაბათი ბაზარი მივდივარ.",
-        "text": "I go to the market Wednesday.",
+        "target": "ამ ოთხშაბათი წვიმიანი იყო.",
+        "text": "This Wednesday was rainy.",
         "words": [
+          {
+            "word": "ამ",
+            "gloss": "this",
+            "transliteration": "am"
+          },
           {
             "word": "ოთხშაბათი",
             "gloss": "Wednesday",
@@ -3605,14 +3610,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "წვიმიანი",
+            "gloss": "rainy",
+            "transliteration": "ts'vimiani"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "იყო",
+            "gloss": "was",
+            "transliteration": "iq'o"
           }
         ]
       }
@@ -3622,11 +3627,11 @@
     "vocab_index": 297,
     "word": "ხუთშაბათი",
     "gloss": "Thursday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ხუთშაბათი მე მოვდივარ.",
-        "text": "I come Thursday.",
+        "target": "ხუთშაბათი კონცერტია.",
+        "text": "Thursday there is a concert.",
         "words": [
           {
             "word": "ხუთშაბათი",
@@ -3635,20 +3640,15 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "კონცერტია",
+            "gloss": "is a concert",
+            "transliteration": "k'ontsert'ia"
           }
         ]
       },
       {
-        "target": "ხუთშაბათი ჩვენ ვსწავლობთ.",
-        "text": "We study Thursday.",
+        "target": "ხუთშაბათი შეხვედრას მპატიჟებს.",
+        "text": "Thursday invites me to a meeting.",
         "words": [
           {
             "word": "ხუთშაბათი",
@@ -3657,21 +3657,26 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "შეხვედრას",
+            "gloss": "meeting",
+            "transliteration": "shekhvedras"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მპატიჟებს",
+            "gloss": "invites me",
+            "transliteration": "mp'at'izhebs"
           }
         ]
       },
       {
-        "target": "ხუთშაბათი ბაზარი მივდივარ.",
-        "text": "I go to the market Thursday.",
+        "target": "შემდეგი ხუთშაბათი გამოცდაა.",
+        "text": "Next Thursday is an exam.",
         "words": [
+          {
+            "word": "შემდეგი",
+            "gloss": "next",
+            "transliteration": "shemdegi"
+          },
           {
             "word": "ხუთშაბათი",
             "gloss": "Thursday",
@@ -3679,14 +3684,9 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
-          {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გამოცდაა",
+            "gloss": "is an exam",
+            "transliteration": "gamotsdaa"
           }
         ]
       }
@@ -3696,11 +3696,11 @@
     "vocab_index": 298,
     "word": "პარასკევი",
     "gloss": "Friday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "პარასკევი მე მოვდივარ.",
-        "text": "I come Friday.",
+        "target": "პარასკევი კვირის ბოლოა.",
+        "text": "Friday is the end of the week.",
         "words": [
           {
             "word": "პარასკევი",
@@ -3709,20 +3709,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "კვირის",
+            "gloss": "week's",
+            "transliteration": "k'viris"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ბოლოა",
+            "gloss": "is the end",
+            "transliteration": "boloa"
           }
         ]
       },
       {
-        "target": "პარასკევი ჩვენ ვსწავლობთ.",
-        "text": "We study Friday.",
+        "target": "პარასკევი კინოს საღამოა.",
+        "text": "Friday is cinema evening.",
         "words": [
           {
             "word": "პარასკევი",
@@ -3731,21 +3731,26 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "კინოს",
+            "gloss": "cinema's",
+            "transliteration": "k'inos"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "საღამოა",
+            "gloss": "is evening",
+            "transliteration": "saghamoa"
           }
         ]
       },
       {
-        "target": "პარასკევი ბაზარი მივდივარ.",
-        "text": "I go to the market Friday.",
+        "target": "ყოველი პარასკევი პიცას ვჭამთ.",
+        "text": "Every Friday we eat pizza.",
         "words": [
+          {
+            "word": "ყოველი",
+            "gloss": "every",
+            "transliteration": "q'oveli"
+          },
           {
             "word": "პარასკევი",
             "gloss": "Friday",
@@ -3753,14 +3758,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "პიცას",
+            "gloss": "pizza",
+            "transliteration": "p'itsas"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ვჭამთ",
+            "gloss": "we eat",
+            "transliteration": "vch'amt"
           }
         ]
       }
@@ -3770,11 +3775,11 @@
     "vocab_index": 299,
     "word": "შაბათი",
     "gloss": "Saturday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "შაბათი მე მოვდივარ.",
-        "text": "I come Saturday.",
+        "target": "შაბათი დასვენების დღეა.",
+        "text": "Saturday is a rest day.",
         "words": [
           {
             "word": "შაბათი",
@@ -3783,20 +3788,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "დასვენების",
+            "gloss": "rest's",
+            "transliteration": "dasvenebis"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "დღეა",
+            "gloss": "is a day",
+            "transliteration": "dghea"
           }
         ]
       },
       {
-        "target": "შაბათი ჩვენ ვსწავლობთ.",
-        "text": "We study Saturday.",
+        "target": "შაბათი ბაღში მიმიწვევს.",
+        "text": "Saturday invites me into the garden.",
         "words": [
           {
             "word": "შაბათი",
@@ -3805,20 +3810,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ბაღში",
+            "gloss": "into the garden",
+            "transliteration": "baghshi"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მიმიწვევს",
+            "gloss": "invites me",
+            "transliteration": "mimits'vevs"
           }
         ]
       },
       {
-        "target": "შაბათი ბაზარი მივდივარ.",
-        "text": "I go to the market Saturday.",
+        "target": "შაბათი სტუმრებს მოიყვანს.",
+        "text": "Saturday brings guests.",
         "words": [
           {
             "word": "შაბათი",
@@ -3827,14 +3832,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "სტუმრებს",
+            "gloss": "guests",
+            "transliteration": "st'umrebs"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "მოიყვანს",
+            "gloss": "brings",
+            "transliteration": "moiq'vans"
           }
         ]
       }
@@ -3844,11 +3849,11 @@
     "vocab_index": 300,
     "word": "კვირა დღე",
     "gloss": "Sunday",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "კვირა დღე მე მოვდივარ.",
-        "text": "I come Sunday.",
+        "target": "კვირა დღე ოჯახს აერთიანებს.",
+        "text": "Sunday brings the family together.",
         "words": [
           {
             "word": "კვირა დღე",
@@ -3857,20 +3862,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ოჯახს",
+            "gloss": "family",
+            "transliteration": "ojakhs"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "აერთიანებს",
+            "gloss": "unites",
+            "transliteration": "aertianebs"
           }
         ]
       },
       {
-        "target": "კვირა დღე ჩვენ ვსწავლობთ.",
-        "text": "We study Sunday.",
+        "target": "კვირა დღე ზარების რეკვით იწყება.",
+        "text": "Sunday starts with the ringing of bells.",
         "words": [
           {
             "word": "კვირა დღე",
@@ -3879,21 +3884,31 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ზარების",
+            "gloss": "bells'",
+            "transliteration": "zarebis"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "რეკვით",
+            "gloss": "with ringing",
+            "transliteration": "rek'vit"
+          },
+          {
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       },
       {
-        "target": "კვირა დღე ბაზარი მივდივარ.",
-        "text": "I go to the market Sunday.",
+        "target": "მშვიდი კვირა დღე წიგნით გავატარე.",
+        "text": "I spent a peaceful Sunday with a book.",
         "words": [
+          {
+            "word": "მშვიდი",
+            "gloss": "peaceful",
+            "transliteration": "mshvidi"
+          },
           {
             "word": "კვირა დღე",
             "gloss": "Sunday",
@@ -3901,14 +3916,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "წიგნით",
+            "gloss": "with a book",
+            "transliteration": "ts'ignit"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გავატარე",
+            "gloss": "I spent",
+            "transliteration": "gavat'are"
           }
         ]
       }

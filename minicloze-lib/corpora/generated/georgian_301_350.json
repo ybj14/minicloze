@@ -3,11 +3,11 @@
     "vocab_index": 301,
     "word": "იანვარი",
     "gloss": "January",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "იანვარი მე მოვდივარ.",
-        "text": "I come in January.",
+        "target": "იანვარი წლის პირველი თვეა.",
+        "text": "January is the first month of the year.",
         "words": [
           {
             "word": "იანვარი",
@@ -16,20 +16,25 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "წლის",
+            "gloss": "year's",
+            "transliteration": "ts'lis"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "პირველი",
+            "gloss": "first",
+            "transliteration": "p'irveli"
+          },
+          {
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "იანვარი ჩვენ ვსწავლობთ.",
-        "text": "We study in January.",
+        "target": "იანვარი ცივი და თოვლიანია.",
+        "text": "January is cold and snowy.",
         "words": [
           {
             "word": "იანვარი",
@@ -38,20 +43,25 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ცივი",
+            "gloss": "cold",
+            "transliteration": "tsivi"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "თოვლიანია",
+            "gloss": "is snowy",
+            "transliteration": "tovliania"
           }
         ]
       },
       {
-        "target": "იანვარი ბაზარი მივდივარ.",
-        "text": "I go to the market in January.",
+        "target": "იანვარი ახალ წელს მოაქვს.",
+        "text": "January brings the new year.",
         "words": [
           {
             "word": "იანვარი",
@@ -60,14 +70,19 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ახალ",
+            "gloss": "new",
+            "transliteration": "akhal"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "წელს",
+            "gloss": "year",
+            "transliteration": "ts'els"
+          },
+          {
+            "word": "მოაქვს",
+            "gloss": "brings",
+            "transliteration": "moakvs"
           }
         ]
       }
@@ -77,11 +92,11 @@
     "vocab_index": 302,
     "word": "თებერვალი",
     "gloss": "February",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "თებერვალი მე მოვდივარ.",
-        "text": "I come in February.",
+        "target": "თებერვალი მოკლე თვეა.",
+        "text": "February is a short month.",
         "words": [
           {
             "word": "თებერვალი",
@@ -90,20 +105,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "მოკლე",
+            "gloss": "short",
+            "transliteration": "mok'le"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "თებერვალი ჩვენ ვსწავლობთ.",
-        "text": "We study in February.",
+        "target": "თებერვალი სიყვარულის დღესასწაულს იცავს.",
+        "text": "February keeps the love holiday.",
         "words": [
           {
             "word": "თებერვალი",
@@ -112,20 +127,25 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "სიყვარულის",
+            "gloss": "love's",
+            "transliteration": "siq'varulis"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "დღესასწაულს",
+            "gloss": "holiday",
+            "transliteration": "dghesasts'auls"
+          },
+          {
+            "word": "იცავს",
+            "gloss": "keeps",
+            "transliteration": "itsavs"
           }
         ]
       },
       {
-        "target": "თებერვალი ბაზარი მივდივარ.",
-        "text": "I go to the market in February.",
+        "target": "თებერვალი ჯერ კიდევ ზამთარია.",
+        "text": "February is still winter.",
         "words": [
           {
             "word": "თებერვალი",
@@ -134,14 +154,19 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ჯერ",
+            "gloss": "still",
+            "transliteration": "jer"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "კიდევ",
+            "gloss": "yet",
+            "transliteration": "k'idev"
+          },
+          {
+            "word": "ზამთარია",
+            "gloss": "is winter",
+            "transliteration": "zamtaria"
           }
         ]
       }
@@ -151,11 +176,11 @@
     "vocab_index": 303,
     "word": "მარტი",
     "gloss": "March",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მარტი მე მოვდივარ.",
-        "text": "I come in March.",
+        "target": "მარტი გაზაფხულს იწყებს.",
+        "text": "March starts spring.",
         "words": [
           {
             "word": "მარტი",
@@ -164,20 +189,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "გაზაფხულს",
+            "gloss": "spring",
+            "transliteration": "gazapkhuls"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
           }
         ]
       },
       {
-        "target": "მარტი ჩვენ ვსწავლობთ.",
-        "text": "We study in March.",
+        "target": "მარტი ქარიანი თვეა.",
+        "text": "March is a windy month.",
         "words": [
           {
             "word": "მარტი",
@@ -186,20 +211,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ქარიანი",
+            "gloss": "windy",
+            "transliteration": "kariani"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "მარტი ბაზარი მივდივარ.",
-        "text": "I go to the market in March.",
+        "target": "მარტი ყვავილების სუნს მოაქვს.",
+        "text": "March brings the scent of flowers.",
         "words": [
           {
             "word": "მარტი",
@@ -208,14 +233,19 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ყვავილების",
+            "gloss": "flowers'",
+            "transliteration": "q'vavilebis"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "სუნს",
+            "gloss": "scent",
+            "transliteration": "suns"
+          },
+          {
+            "word": "მოაქვს",
+            "gloss": "brings",
+            "transliteration": "moakvs"
           }
         ]
       }
@@ -225,11 +255,11 @@
     "vocab_index": 304,
     "word": "აპრილი",
     "gloss": "April",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "აპრილი მე მოვდივარ.",
-        "text": "I come in April.",
+        "target": "აპრილი წვიმით მოდის.",
+        "text": "April comes with rain.",
         "words": [
           {
             "word": "აპრილი",
@@ -238,20 +268,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "წვიმით",
+            "gloss": "with rain",
+            "transliteration": "ts'vimit"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "მოდის",
+            "gloss": "comes",
+            "transliteration": "modis"
           }
         ]
       },
       {
-        "target": "აპრილი ჩვენ ვსწავლობთ.",
-        "text": "We study in April.",
+        "target": "აპრილი ბაღს აღვიძებს.",
+        "text": "April wakes the garden.",
         "words": [
           {
             "word": "აპრილი",
@@ -260,20 +290,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ბაღს",
+            "gloss": "garden",
+            "transliteration": "baghs"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "აღვიძებს",
+            "gloss": "wakes",
+            "transliteration": "aghvidzebs"
           }
         ]
       },
       {
-        "target": "აპრილი ბაზარი მივდივარ.",
-        "text": "I go to the market in April.",
+        "target": "აპრილი რბილი ამინდია.",
+        "text": "April has mild weather.",
         "words": [
           {
             "word": "აპრილი",
@@ -282,14 +312,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "რბილი",
+            "gloss": "mild",
+            "transliteration": "rbili"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ამინდია",
+            "gloss": "is weather",
+            "transliteration": "amindia"
           }
         ]
       }
@@ -299,11 +329,11 @@
     "vocab_index": 305,
     "word": "მაისი",
     "gloss": "May",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მაისი მე მოვდივარ.",
-        "text": "I come in May.",
+        "target": "მაისი ყვავილებით სავსეა.",
+        "text": "May is full of flowers.",
         "words": [
           {
             "word": "მაისი",
@@ -312,20 +342,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ყვავილებით",
+            "gloss": "with flowers",
+            "transliteration": "q'vavilebit"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       },
       {
-        "target": "მაისი ჩვენ ვსწავლობთ.",
-        "text": "We study in May.",
+        "target": "მაისი თბილი და ნათელია.",
+        "text": "May is warm and bright.",
         "words": [
           {
             "word": "მაისი",
@@ -334,20 +364,25 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "თბილი",
+            "gloss": "warm",
+            "transliteration": "tbili"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "ნათელია",
+            "gloss": "is bright",
+            "transliteration": "natelia"
           }
         ]
       },
       {
-        "target": "მაისი ბაზარი მივდივარ.",
-        "text": "I go to the market in May.",
+        "target": "მაისი სკოლის ბოლო თვეა.",
+        "text": "May is the last school month.",
         "words": [
           {
             "word": "მაისი",
@@ -356,14 +391,19 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "სკოლის",
+            "gloss": "school's",
+            "transliteration": "sk'olis"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ბოლო",
+            "gloss": "last",
+            "transliteration": "bolo"
+          },
+          {
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       }
@@ -373,11 +413,11 @@
     "vocab_index": 306,
     "word": "ივნისი",
     "gloss": "June",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ივნისი მე მოვდივარ.",
-        "text": "I come in June.",
+        "target": "ივნისი ზაფხულს იწყებს.",
+        "text": "June starts summer.",
         "words": [
           {
             "word": "ივნისი",
@@ -386,20 +426,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ზაფხულს",
+            "gloss": "summer",
+            "transliteration": "zapkhuls"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
           }
         ]
       },
       {
-        "target": "ივნისი ჩვენ ვსწავლობთ.",
-        "text": "We study in June.",
+        "target": "ივნისი გამოცდების თვეა.",
+        "text": "June is exam month.",
         "words": [
           {
             "word": "ივნისი",
@@ -408,20 +448,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "გამოცდების",
+            "gloss": "exams'",
+            "transliteration": "gamotsdebis"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "ივნისი ბაზარი მივდივარ.",
-        "text": "I go to the market in June.",
+        "target": "ივნისი გრძელ დღეებს მოაქვს.",
+        "text": "June brings long days.",
         "words": [
           {
             "word": "ივნისი",
@@ -430,14 +470,19 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "გრძელ",
+            "gloss": "long",
+            "transliteration": "grdzel"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "დღეებს",
+            "gloss": "days",
+            "transliteration": "dgheebs"
+          },
+          {
+            "word": "მოაქვს",
+            "gloss": "brings",
+            "transliteration": "moakvs"
           }
         ]
       }
@@ -447,11 +492,11 @@
     "vocab_index": 307,
     "word": "ივლისი",
     "gloss": "July",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ივლისი მე მოვდივარ.",
-        "text": "I come in July.",
+        "target": "ივლისი ყველაზე ცხელია.",
+        "text": "July is the hottest.",
         "words": [
           {
             "word": "ივლისი",
@@ -460,20 +505,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ყველაზე",
+            "gloss": "the most",
+            "transliteration": "q'velaze"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ცხელია",
+            "gloss": "is hot",
+            "transliteration": "tskhelia"
           }
         ]
       },
       {
-        "target": "ივლისი ჩვენ ვსწავლობთ.",
-        "text": "We study in July.",
+        "target": "ივლისი ზღვაზე მიგვიწვევს.",
+        "text": "July invites us to the sea.",
         "words": [
           {
             "word": "ივლისი",
@@ -482,20 +527,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ზღვაზე",
+            "gloss": "to the sea",
+            "transliteration": "zghvaze"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მიგვიწვევს",
+            "gloss": "invites us",
+            "transliteration": "migvits'vevs"
           }
         ]
       },
       {
-        "target": "ივლისი ბაზარი მივდივარ.",
-        "text": "I go to the market in July.",
+        "target": "ივლისი მზით სავსეა.",
+        "text": "July is full of sun.",
         "words": [
           {
             "word": "ივლისი",
@@ -504,14 +549,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მზით",
+            "gloss": "with sun",
+            "transliteration": "mzit"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "სავსეა",
+            "gloss": "is full",
+            "transliteration": "savsea"
           }
         ]
       }
@@ -521,11 +566,11 @@
     "vocab_index": 308,
     "word": "აგვისტო",
     "gloss": "August",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "აგვისტო მე მოვდივარ.",
-        "text": "I come in August.",
+        "target": "აგვისტო მოსავლის თვეა.",
+        "text": "August is harvest month.",
         "words": [
           {
             "word": "აგვისტო",
@@ -534,20 +579,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "მოსავლის",
+            "gloss": "harvest's",
+            "transliteration": "mosavlis"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "აგვისტო ჩვენ ვსწავლობთ.",
-        "text": "We study in August.",
+        "target": "აგვისტო ხილით მდიდარია.",
+        "text": "August is rich in fruit.",
         "words": [
           {
             "word": "აგვისტო",
@@ -556,20 +601,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ხილით",
+            "gloss": "with fruit",
+            "transliteration": "khilit"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მდიდარია",
+            "gloss": "is rich",
+            "transliteration": "mdidaria"
           }
         ]
       },
       {
-        "target": "აგვისტო ბაზარი მივდივარ.",
-        "text": "I go to the market in August.",
+        "target": "აგვისტო შვებულებას გვაძლევს.",
+        "text": "August gives us vacation.",
         "words": [
           {
             "word": "აგვისტო",
@@ -578,14 +623,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "შვებულებას",
+            "gloss": "vacation",
+            "transliteration": "shvebulebas"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გვაძლევს",
+            "gloss": "gives us",
+            "transliteration": "gvadzlevs"
           }
         ]
       }
@@ -595,11 +640,11 @@
     "vocab_index": 309,
     "word": "სექტემბერი",
     "gloss": "September",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "სექტემბერი მე მოვდივარ.",
-        "text": "I come in September.",
+        "target": "სექტემბერი სკოლას ხსნის.",
+        "text": "September opens the school.",
         "words": [
           {
             "word": "სექტემბერი",
@@ -608,20 +653,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "სკოლას",
+            "gloss": "school",
+            "transliteration": "sk'olas"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ხსნის",
+            "gloss": "opens",
+            "transliteration": "khsnis"
           }
         ]
       },
       {
-        "target": "სექტემბერი ჩვენ ვსწავლობთ.",
-        "text": "We study in September.",
+        "target": "სექტემბერი ფოთლებს ღებავს.",
+        "text": "September colors the leaves.",
         "words": [
           {
             "word": "სექტემბერი",
@@ -630,20 +675,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ფოთლებს",
+            "gloss": "leaves",
+            "transliteration": "potlebs"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "ღებავს",
+            "gloss": "colors",
+            "transliteration": "ghebavs"
           }
         ]
       },
       {
-        "target": "სექტემბერი ბაზარი მივდივარ.",
-        "text": "I go to the market in September.",
+        "target": "სექტემბერი რბილად გრილდება.",
+        "text": "September cools gently.",
         "words": [
           {
             "word": "სექტემბერი",
@@ -652,14 +697,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "რბილად",
+            "gloss": "gently",
+            "transliteration": "rbilad"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "გრილდება",
+            "gloss": "cools",
+            "transliteration": "grildeba"
           }
         ]
       }
@@ -669,11 +714,11 @@
     "vocab_index": 310,
     "word": "ოქტომბერი",
     "gloss": "October",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოქტომბერი მე მოვდივარ.",
-        "text": "I come in October.",
+        "target": "ოქტომბერი ფოთოლცვენას იწყებს.",
+        "text": "October starts the leaf fall.",
         "words": [
           {
             "word": "ოქტომბერი",
@@ -682,20 +727,20 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ფოთოლცვენას",
+            "gloss": "leaf fall",
+            "transliteration": "potoltsvenas"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
           }
         ]
       },
       {
-        "target": "ოქტომბერი ჩვენ ვსწავლობთ.",
-        "text": "We study in October.",
+        "target": "ოქტომბერი წვიმიანი თვეა.",
+        "text": "October is a rainy month.",
         "words": [
           {
             "word": "ოქტომბერი",
@@ -704,20 +749,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "წვიმიანი",
+            "gloss": "rainy",
+            "transliteration": "ts'vimiani"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "ოქტომბერი ბაზარი მივდივარ.",
-        "text": "I go to the market in October.",
+        "target": "ოქტომბერი მოსავალს ასრულებს.",
+        "text": "October finishes the harvest.",
         "words": [
           {
             "word": "ოქტომბერი",
@@ -726,14 +771,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "მოსავალს",
+            "gloss": "harvest",
+            "transliteration": "mosavals"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ასრულებს",
+            "gloss": "finishes",
+            "transliteration": "asrulebs"
           }
         ]
       }
@@ -743,11 +788,11 @@
     "vocab_index": 311,
     "word": "ნოემბერი",
     "gloss": "November",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ნოემბერი მე მოვდივარ.",
-        "text": "I come in November.",
+        "target": "ნოემბერი ცივი ქარით მოდის.",
+        "text": "November comes with a cold wind.",
         "words": [
           {
             "word": "ნოემბერი",
@@ -756,20 +801,25 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ცივი",
+            "gloss": "cold",
+            "transliteration": "tsivi"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ქარით",
+            "gloss": "with wind",
+            "transliteration": "karit"
+          },
+          {
+            "word": "მოდის",
+            "gloss": "comes",
+            "transliteration": "modis"
           }
         ]
       },
       {
-        "target": "ნოემბერი ჩვენ ვსწავლობთ.",
-        "text": "We study in November.",
+        "target": "ნოემბერი დღეს ამოკლებს.",
+        "text": "November shortens the day.",
         "words": [
           {
             "word": "ნოემბერი",
@@ -778,20 +828,20 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "დღეს",
+            "gloss": "day",
+            "transliteration": "dghes"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "ამოკლებს",
+            "gloss": "shortens",
+            "transliteration": "amok'lebs"
           }
         ]
       },
       {
-        "target": "ნოემბერი ბაზარი მივდივარ.",
-        "text": "I go to the market in November.",
+        "target": "ნოემბერი ზამთარს ამზადებს.",
+        "text": "November prepares winter.",
         "words": [
           {
             "word": "ნოემბერი",
@@ -800,14 +850,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "ზამთარს",
+            "gloss": "winter",
+            "transliteration": "zamtars"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ამზადებს",
+            "gloss": "prepares",
+            "transliteration": "amzadebs"
           }
         ]
       }
@@ -817,11 +867,11 @@
     "vocab_index": 312,
     "word": "დეკემბერი",
     "gloss": "December",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "დეკემბერი მე მოვდივარ.",
-        "text": "I come in December.",
+        "target": "დეკემბერი წლის ბოლო თვეა.",
+        "text": "December is the last month of the year.",
         "words": [
           {
             "word": "დეკემბერი",
@@ -830,20 +880,25 @@
             "note": "target"
           },
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "წლის",
+            "gloss": "year's",
+            "transliteration": "ts'lis"
           },
           {
-            "word": "მოვდივარ",
-            "gloss": "I come",
-            "transliteration": "movdivar"
+            "word": "ბოლო",
+            "gloss": "last",
+            "transliteration": "bolo"
+          },
+          {
+            "word": "თვეა",
+            "gloss": "is a month",
+            "transliteration": "tvea"
           }
         ]
       },
       {
-        "target": "დეკემბერი ჩვენ ვსწავლობთ.",
-        "text": "We study in December.",
+        "target": "დეკემბერი ნაძვის ხეს მოაქვს.",
+        "text": "December brings the Christmas tree.",
         "words": [
           {
             "word": "დეკემბერი",
@@ -852,20 +907,25 @@
             "note": "target"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ნაძვის",
+            "gloss": "fir's",
+            "transliteration": "nadzvis"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "ხეს",
+            "gloss": "tree",
+            "transliteration": "khes"
+          },
+          {
+            "word": "მოაქვს",
+            "gloss": "brings",
+            "transliteration": "moakvs"
           }
         ]
       },
       {
-        "target": "დეკემბერი ბაზარი მივდივარ.",
-        "text": "I go to the market in December.",
+        "target": "დეკემბერი თოვლით იწყება.",
+        "text": "December starts with snow.",
         "words": [
           {
             "word": "დეკემბერი",
@@ -874,14 +934,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "თოვლით",
+            "gloss": "with snow",
+            "transliteration": "tovlit"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       }
@@ -891,17 +951,12 @@
     "vocab_index": 313,
     "word": "პური",
     "gloss": "bread",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი პური უნდა.",
-        "text": "A friend wants bread.",
+        "target": "პური ჯერ კიდევ თბილია.",
+        "text": "The bread is still warm.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "პური",
             "gloss": "bread",
@@ -909,16 +964,31 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ჯერ",
+            "gloss": "still",
+            "transliteration": "jer"
+          },
+          {
+            "word": "კიდევ",
+            "gloss": "yet",
+            "transliteration": "k'idev"
+          },
+          {
+            "word": "თბილია",
+            "gloss": "is warm",
+            "transliteration": "tbilia"
           }
         ]
       },
       {
-        "target": "პური მაგიდაზე არის.",
-        "text": "The bread is on the table.",
+        "target": "ახალი პური სურნელოვანია.",
+        "text": "Fresh bread is fragrant.",
         "words": [
+          {
+            "word": "ახალი",
+            "gloss": "fresh",
+            "transliteration": "akhali"
+          },
           {
             "word": "პური",
             "gloss": "bread",
@@ -926,26 +996,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სურნელოვანია",
+            "gloss": "is fragrant",
+            "transliteration": "surnelovania"
           }
         ]
       },
       {
-        "target": "ბავშვი პური ჭამს.",
-        "text": "The child eats bread.",
+        "target": "პური ყველთან კარგად მიდის.",
+        "text": "Bread goes well with cheese.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "პური",
             "gloss": "bread",
@@ -953,9 +1013,19 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "ყველთან",
+            "gloss": "with cheese",
+            "transliteration": "q'veltan"
+          },
+          {
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       }
@@ -965,17 +1035,12 @@
     "vocab_index": 314,
     "word": "ყავა",
     "gloss": "coffee",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ყავა ვსვამ.",
-        "text": "I drink coffee.",
+        "target": "ყავა დილას მაღიძებს.",
+        "text": "Coffee wakes me in the morning.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ყავა",
             "gloss": "coffee",
@@ -983,20 +1048,25 @@
             "note": "target"
           },
           {
-            "word": "ვსვამ",
-            "gloss": "I drink",
-            "transliteration": "vsvam"
+            "word": "დილას",
+            "gloss": "in the morning",
+            "transliteration": "dilas"
+          },
+          {
+            "word": "მაღიძებს",
+            "gloss": "wakes me",
+            "transliteration": "maghidzebs"
           }
         ]
       },
       {
-        "target": "დედა ყავა ამზადებს.",
-        "text": "Mother prepares coffee.",
+        "target": "შავი ყავა უშაქროდ მინდა.",
+        "text": "I want black coffee without sugar.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "შავი",
+            "gloss": "black",
+            "transliteration": "shavi"
           },
           {
             "word": "ყავა",
@@ -1005,21 +1075,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "უშაქროდ",
+            "gloss": "without sugar",
+            "transliteration": "ushakrod"
+          },
+          {
+            "word": "მინდა",
+            "gloss": "I want",
+            "transliteration": "minda"
           }
         ]
       },
       {
-        "target": "ბაზარში ყავა არის.",
-        "text": "There is coffee at the market.",
+        "target": "ყავა კაფეში მომზადდა.",
+        "text": "The coffee was made at the cafe.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ყავა",
             "gloss": "coffee",
@@ -1027,9 +1097,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "კაფეში",
+            "gloss": "at the cafe",
+            "transliteration": "k'apeshi"
+          },
+          {
+            "word": "მომზადდა",
+            "gloss": "was prepared",
+            "transliteration": "momzadda"
           }
         ]
       }
@@ -1039,17 +1114,12 @@
     "vocab_index": 315,
     "word": "ჩაი",
     "gloss": "tea",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ჩაი უნდა.",
-        "text": "A friend wants tea.",
+        "target": "ჩაი ლიმონით მომწონს.",
+        "text": "I like tea with lemon.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ჩაი",
             "gloss": "tea",
@@ -1057,16 +1127,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ლიმონით",
+            "gloss": "with lemon",
+            "transliteration": "limonit"
+          },
+          {
+            "word": "მომწონს",
+            "gloss": "I like",
+            "transliteration": "momts'ons"
           }
         ]
       },
       {
-        "target": "ჩაი მაგიდაზე არის.",
-        "text": "The tea is on the table.",
+        "target": "მწვანე ჩაი ჯანმრთელობისთვისაა.",
+        "text": "Green tea is for health.",
         "words": [
+          {
+            "word": "მწვანე",
+            "gloss": "green",
+            "transliteration": "mts'vane"
+          },
           {
             "word": "ჩაი",
             "gloss": "tea",
@@ -1074,26 +1154,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ჯანმრთელობისთვისაა",
+            "gloss": "is for health",
+            "transliteration": "janmrtelobistvisaa"
           }
         ]
       },
       {
-        "target": "ბავშვი ჩაი სვამს.",
-        "text": "The child drinks tea.",
+        "target": "ჩაი საღამოს მამშვიდებს.",
+        "text": "Tea calms me in the evening.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "ჩაი",
             "gloss": "tea",
@@ -1101,9 +1171,14 @@
             "note": "target"
           },
           {
-            "word": "სვამს",
-            "gloss": "drinks",
-            "transliteration": "svams"
+            "word": "საღამოს",
+            "gloss": "in the evening",
+            "transliteration": "saghamos"
+          },
+          {
+            "word": "მამშვიდებს",
+            "gloss": "calms me",
+            "transliteration": "mamshvidebs"
           }
         ]
       }
@@ -1113,17 +1188,12 @@
     "vocab_index": 316,
     "word": "რძე",
     "gloss": "milk",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე რძე ვსვამ.",
-        "text": "I drink milk.",
+        "target": "რძე მაცივარშია.",
+        "text": "The milk is in the fridge.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "რძე",
             "gloss": "milk",
@@ -1131,20 +1201,20 @@
             "note": "target"
           },
           {
-            "word": "ვსვამ",
-            "gloss": "I drink",
-            "transliteration": "vsvam"
+            "word": "მაცივარშია",
+            "gloss": "is in the fridge",
+            "transliteration": "matsivarshia"
           }
         ]
       },
       {
-        "target": "დედა რძე ამზადებს.",
-        "text": "Mother prepares milk.",
+        "target": "ცხელი რძე ბავშვს სძინავს.",
+        "text": "Hot milk helps the child sleep.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "ცხელი",
+            "gloss": "hot",
+            "transliteration": "tskheli"
           },
           {
             "word": "რძე",
@@ -1153,21 +1223,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ბავშვს",
+            "gloss": "child",
+            "transliteration": "bavshvs"
+          },
+          {
+            "word": "სძინავს",
+            "gloss": "helps sleep",
+            "transliteration": "sdzinavs"
           }
         ]
       },
       {
-        "target": "ბაზარში რძე არის.",
-        "text": "There is milk at the market.",
+        "target": "რძე ყავას არბილებს.",
+        "text": "Milk softens the coffee.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "რძე",
             "gloss": "milk",
@@ -1175,9 +1245,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ყავას",
+            "gloss": "coffee",
+            "transliteration": "q'avas"
+          },
+          {
+            "word": "არბილებს",
+            "gloss": "softens",
+            "transliteration": "arbilebs"
           }
         ]
       }
@@ -1187,17 +1262,12 @@
     "vocab_index": 317,
     "word": "შაქარი",
     "gloss": "sugar",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი შაქარი უნდა.",
-        "text": "A friend wants sugar.",
+        "target": "შაქარი ჩაის ატკბობს.",
+        "text": "Sugar sweetens the tea.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "შაქარი",
             "gloss": "sugar",
@@ -1205,16 +1275,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ჩაის",
+            "gloss": "tea",
+            "transliteration": "chais"
+          },
+          {
+            "word": "ატკბობს",
+            "gloss": "sweetens",
+            "transliteration": "at'k'bobs"
           }
         ]
       },
       {
-        "target": "შაქარი მაგიდაზე არის.",
-        "text": "The sugar is on the table.",
+        "target": "ცოტა შაქარი საკმარისია.",
+        "text": "A little sugar is enough.",
         "words": [
+          {
+            "word": "ცოტა",
+            "gloss": "a little",
+            "transliteration": "tsot'a"
+          },
           {
             "word": "შაქარი",
             "gloss": "sugar",
@@ -1222,26 +1302,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საკმარისია",
+            "gloss": "is enough",
+            "transliteration": "sak'marisia"
           }
         ]
       },
       {
-        "target": "ბავშვი შაქარი ჭამს.",
-        "text": "The child eats sugar.",
+        "target": "შაქარი ქილაში ინახება.",
+        "text": "Sugar is kept in a jar.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "შაქარი",
             "gloss": "sugar",
@@ -1249,9 +1319,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "ქილაში",
+            "gloss": "in a jar",
+            "transliteration": "kilashi"
+          },
+          {
+            "word": "ინახება",
+            "gloss": "is kept",
+            "transliteration": "inakheba"
           }
         ]
       }
@@ -1261,17 +1336,12 @@
     "vocab_index": 318,
     "word": "ბრინჯი",
     "gloss": "rice",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ბრინჯი ვჭამ.",
-        "text": "I eat rice.",
+        "target": "ბრინჯი ქვაბში იხარშება.",
+        "text": "Rice is cooking in the pot.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ბრინჯი",
             "gloss": "rice",
@@ -1279,20 +1349,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "ქვაბში",
+            "gloss": "in the pot",
+            "transliteration": "kvabshi"
+          },
+          {
+            "word": "იხარშება",
+            "gloss": "is cooking",
+            "transliteration": "ikharsheba"
           }
         ]
       },
       {
-        "target": "დედა ბრინჯი ამზადებს.",
-        "text": "Mother prepares rice.",
+        "target": "თეთრი ბრინჯი სუპს ემატება.",
+        "text": "White rice is added to the soup.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "თეთრი",
+            "gloss": "white",
+            "transliteration": "tetri"
           },
           {
             "word": "ბრინჯი",
@@ -1301,21 +1376,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "სუპს",
+            "gloss": "soup",
+            "transliteration": "sup's"
+          },
+          {
+            "word": "ემატება",
+            "gloss": "is added",
+            "transliteration": "emat'eba"
           }
         ]
       },
       {
-        "target": "ბაზარში ბრინჯი არის.",
-        "text": "There is rice at the market.",
+        "target": "ბრინჯი ბოსტნეულთან კარგად მიდის.",
+        "text": "Rice goes well with vegetables.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ბრინჯი",
             "gloss": "rice",
@@ -1323,9 +1398,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ბოსტნეულთან",
+            "gloss": "with vegetables",
+            "transliteration": "bost'neultan"
+          },
+          {
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       }
@@ -1335,17 +1420,12 @@
     "vocab_index": 319,
     "word": "მაკარონი",
     "gloss": "pasta",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი მაკარონი უნდა.",
-        "text": "A friend wants pasta.",
+        "target": "მაკარონი წყალში იხარშება.",
+        "text": "Pasta cooks in water.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "მაკარონი",
             "gloss": "pasta",
@@ -1353,15 +1433,20 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "წყალში",
+            "gloss": "in water",
+            "transliteration": "ts'q'alshi"
+          },
+          {
+            "word": "იხარშება",
+            "gloss": "cooks",
+            "transliteration": "ikharsheba"
           }
         ]
       },
       {
-        "target": "მაკარონი მაგიდაზე არის.",
-        "text": "The pasta is on the table.",
+        "target": "მაკარონი პომიდვრის სოუსითაა.",
+        "text": "The pasta has tomato sauce.",
         "words": [
           {
             "word": "მაკარონი",
@@ -1370,26 +1455,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "პომიდვრის",
+            "gloss": "tomato's",
+            "transliteration": "p'omidvris"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სოუსითაა",
+            "gloss": "is with sauce",
+            "transliteration": "sousitaa"
           }
         ]
       },
       {
-        "target": "ბავშვი მაკარონი ჭამს.",
-        "text": "The child eats pasta.",
+        "target": "მაკარონი ბავშვებს უყვართ.",
+        "text": "Children love pasta.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "მაკარონი",
             "gloss": "pasta",
@@ -1397,9 +1477,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "ბავშვებს",
+            "gloss": "children",
+            "transliteration": "bavshvebs"
+          },
+          {
+            "word": "უყვართ",
+            "gloss": "they love",
+            "transliteration": "uq'vart"
           }
         ]
       }
@@ -1409,17 +1494,12 @@
     "vocab_index": 320,
     "word": "სუპი",
     "gloss": "soup",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე სუპი ვჭამ.",
-        "text": "I eat soup.",
+        "target": "სუპი ცხელი და გემრიელია.",
+        "text": "The soup is hot and tasty.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "სუპი",
             "gloss": "soup",
@@ -1427,20 +1507,30 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "ცხელი",
+            "gloss": "hot",
+            "transliteration": "tskheli"
+          },
+          {
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "გემრიელია",
+            "gloss": "is tasty",
+            "transliteration": "gemrielia"
           }
         ]
       },
       {
-        "target": "დედა სუპი ამზადებს.",
-        "text": "Mother prepares soup.",
+        "target": "ქათმის სუპი ავადმყოფს ეხმარება.",
+        "text": "Chicken soup helps a sick person.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "ქათმის",
+            "gloss": "chicken's",
+            "transliteration": "katmis"
           },
           {
             "word": "სუპი",
@@ -1449,21 +1539,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ავადმყოფს",
+            "gloss": "sick person",
+            "transliteration": "avadmq'ops"
+          },
+          {
+            "word": "ეხმარება",
+            "gloss": "helps",
+            "transliteration": "ekhmareba"
           }
         ]
       },
       {
-        "target": "ბაზარში სუპი არის.",
-        "text": "There is soup at the market.",
+        "target": "სუპი საღამოს მამთბობს.",
+        "text": "Soup warms me in the evening.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "სუპი",
             "gloss": "soup",
@@ -1471,9 +1561,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საღამოს",
+            "gloss": "in the evening",
+            "transliteration": "saghamos"
+          },
+          {
+            "word": "მამთბობს",
+            "gloss": "warms me",
+            "transliteration": "mamtbobs"
           }
         ]
       }
@@ -1483,17 +1578,12 @@
     "vocab_index": 321,
     "word": "ბოსტნეული",
     "gloss": "vegetables",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ბოსტნეული უნდა.",
-        "text": "A friend wants vegetables.",
+        "target": "ბოსტნეული ჯანმრთელობისთვის კარგია.",
+        "text": "Vegetables are good for health.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ბოსტნეული",
             "gloss": "vegetables",
@@ -1501,16 +1591,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ჯანმრთელობისთვის",
+            "gloss": "for health",
+            "transliteration": "janmrtelobistvis"
+          },
+          {
+            "word": "კარგია",
+            "gloss": "are good",
+            "transliteration": "k'argia"
           }
         ]
       },
       {
-        "target": "ბოსტნეული მაგიდაზე არის.",
-        "text": "The vegetables is on the table.",
+        "target": "ახალი ბოსტნეული ბაზრიდანაა.",
+        "text": "Fresh vegetables are from the market.",
         "words": [
+          {
+            "word": "ახალი",
+            "gloss": "fresh",
+            "transliteration": "akhali"
+          },
           {
             "word": "ბოსტნეული",
             "gloss": "vegetables",
@@ -1518,26 +1618,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ბაზრიდანაა",
+            "gloss": "are from the market",
+            "transliteration": "bazridanaa"
           }
         ]
       },
       {
-        "target": "ბავშვი ბოსტნეული ჭამს.",
-        "text": "The child eats vegetables.",
+        "target": "ბოსტნეული სალათში იჭრება.",
+        "text": "Vegetables are cut into the salad.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "ბოსტნეული",
             "gloss": "vegetables",
@@ -1545,9 +1635,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "სალათში",
+            "gloss": "into the salad",
+            "transliteration": "salatshi"
+          },
+          {
+            "word": "იჭრება",
+            "gloss": "are cut",
+            "transliteration": "ich'reba"
           }
         ]
       }
@@ -1557,17 +1652,12 @@
     "vocab_index": 322,
     "word": "ბანანი",
     "gloss": "banana",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ბანანი ვჭამ.",
-        "text": "I eat banana.",
+        "target": "ბანანი ტკბილი და რბილია.",
+        "text": "The banana is sweet and soft.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ბანანი",
             "gloss": "banana",
@@ -1575,20 +1665,30 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "ტკბილი",
+            "gloss": "sweet",
+            "transliteration": "t'k'bili"
+          },
+          {
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "რბილია",
+            "gloss": "is soft",
+            "transliteration": "rbilia"
           }
         ]
       },
       {
-        "target": "დედა ბანანი ამზადებს.",
-        "text": "Mother prepares banana.",
+        "target": "ყვითელი ბანანი საუზმეზე მაქვს.",
+        "text": "I have a yellow banana for breakfast.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "ყვითელი",
+            "gloss": "yellow",
+            "transliteration": "q'viteli"
           },
           {
             "word": "ბანანი",
@@ -1597,21 +1697,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "საუზმეზე",
+            "gloss": "for breakfast",
+            "transliteration": "sauzmeze"
+          },
+          {
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       },
       {
-        "target": "ბაზარში ბანანი არის.",
-        "text": "There is banana at the market.",
+        "target": "ბანანი ჩანთაში დამეშალა.",
+        "text": "The banana got crushed in the bag.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ბანანი",
             "gloss": "banana",
@@ -1619,9 +1719,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ჩანთაში",
+            "gloss": "in the bag",
+            "transliteration": "chantashi"
+          },
+          {
+            "word": "დამეშალა",
+            "gloss": "got crushed on me",
+            "transliteration": "dameshala"
           }
         ]
       }
@@ -1631,17 +1736,12 @@
     "vocab_index": 323,
     "word": "ფორთოხალი",
     "gloss": "orange",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ფორთოხალი უნდა.",
-        "text": "A friend wants orange.",
+        "target": "ფორთოხალი წვენს იძლევა.",
+        "text": "The orange gives juice.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ფორთოხალი",
             "gloss": "orange",
@@ -1649,16 +1749,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "წვენს",
+            "gloss": "juice",
+            "transliteration": "ts'vens"
+          },
+          {
+            "word": "იძლევა",
+            "gloss": "gives",
+            "transliteration": "idzleva"
           }
         ]
       },
       {
-        "target": "ფორთოხალი მაგიდაზე არის.",
-        "text": "The orange is on the table.",
+        "target": "ტკბილი ფორთოხალი ზამთარში მომწონს.",
+        "text": "I like a sweet orange in winter.",
         "words": [
+          {
+            "word": "ტკბილი",
+            "gloss": "sweet",
+            "transliteration": "t'k'bili"
+          },
           {
             "word": "ფორთოხალი",
             "gloss": "orange",
@@ -1666,26 +1776,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "ზამთარში",
+            "gloss": "in winter",
+            "transliteration": "zamtarshi"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მომწონს",
+            "gloss": "I like",
+            "transliteration": "momts'ons"
           }
         ]
       },
       {
-        "target": "ბავშვი ფორთოხალი ჭამს.",
-        "text": "The child eats orange.",
+        "target": "ფორთოხალი ვიტამინებით მდიდარია.",
+        "text": "An orange is rich in vitamins.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "ფორთოხალი",
             "gloss": "orange",
@@ -1693,9 +1798,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "ვიტამინებით",
+            "gloss": "with vitamins",
+            "transliteration": "vit'aminebit"
+          },
+          {
+            "word": "მდიდარია",
+            "gloss": "is rich",
+            "transliteration": "mdidaria"
           }
         ]
       }
@@ -1705,17 +1815,12 @@
     "vocab_index": 324,
     "word": "ვაშლი",
     "gloss": "apple",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ვაშლი ვჭამ.",
-        "text": "I eat apple.",
+        "target": "ვაშლი ხიდან ჩამოვარდა.",
+        "text": "The apple fell from the tree.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ვაშლი",
             "gloss": "apple",
@@ -1723,20 +1828,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "ხიდან",
+            "gloss": "from the tree",
+            "transliteration": "khidan"
+          },
+          {
+            "word": "ჩამოვარდა",
+            "gloss": "fell",
+            "transliteration": "chamovarda"
           }
         ]
       },
       {
-        "target": "დედა ვაშლი ამზადებს.",
-        "text": "Mother prepares apple.",
+        "target": "წითელი ვაშლი წვნიანია.",
+        "text": "The red apple is juicy.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "წითელი",
+            "gloss": "red",
+            "transliteration": "ts'iteli"
           },
           {
             "word": "ვაშლი",
@@ -1745,21 +1855,16 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "წვნიანია",
+            "gloss": "is juicy",
+            "transliteration": "ts'vniania"
           }
         ]
       },
       {
-        "target": "ბაზარში ვაშლი არის.",
-        "text": "There is apple at the market.",
+        "target": "ვაშლი სკოლაში თან მაქვს.",
+        "text": "I have an apple with me at school.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ვაშლი",
             "gloss": "apple",
@@ -1767,9 +1872,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სკოლაში",
+            "gloss": "at school",
+            "transliteration": "sk'olashi"
+          },
+          {
+            "word": "თან",
+            "gloss": "along",
+            "transliteration": "tan"
+          },
+          {
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       }
@@ -1779,17 +1894,12 @@
     "vocab_index": 325,
     "word": "კარტოფილი",
     "gloss": "potato",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი კარტოფილი უნდა.",
-        "text": "A friend wants potato.",
+        "target": "კარტოფილი ქვაბში იხარშება.",
+        "text": "The potato cooks in the pot.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "კარტოფილი",
             "gloss": "potato",
@@ -1797,16 +1907,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ქვაბში",
+            "gloss": "in the pot",
+            "transliteration": "kvabshi"
+          },
+          {
+            "word": "იხარშება",
+            "gloss": "cooks",
+            "transliteration": "ikharsheba"
           }
         ]
       },
       {
-        "target": "კარტოფილი მაგიდაზე არის.",
-        "text": "The potato is on the table.",
+        "target": "შემწვარი კარტოფილი გემრიელია.",
+        "text": "Fried potato is tasty.",
         "words": [
+          {
+            "word": "შემწვარი",
+            "gloss": "fried",
+            "transliteration": "shemts'vari"
+          },
           {
             "word": "კარტოფილი",
             "gloss": "potato",
@@ -1814,26 +1934,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "გემრიელია",
+            "gloss": "is tasty",
+            "transliteration": "gemrielia"
           }
         ]
       },
       {
-        "target": "ბავშვი კარტოფილი ჭამს.",
-        "text": "The child eats potato.",
+        "target": "კარტოფილი სუპის საფუძველია.",
+        "text": "Potato is the base of the soup.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "კარტოფილი",
             "gloss": "potato",
@@ -1841,9 +1951,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "სუპის",
+            "gloss": "soup's",
+            "transliteration": "sup'is"
+          },
+          {
+            "word": "საფუძველია",
+            "gloss": "is the base",
+            "transliteration": "sapudzvelia"
           }
         ]
       }
@@ -1853,17 +1968,12 @@
     "vocab_index": 326,
     "word": "პომიდორი",
     "gloss": "tomato",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე პომიდორი ვჭამ.",
-        "text": "I eat tomato.",
+        "target": "პომიდორი სალათს აღებებს.",
+        "text": "The tomato colors the salad.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "პომიდორი",
             "gloss": "tomato",
@@ -1871,20 +1981,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "სალათს",
+            "gloss": "salad",
+            "transliteration": "salats"
+          },
+          {
+            "word": "აღებებს",
+            "gloss": "colors",
+            "transliteration": "aghebebs"
           }
         ]
       },
       {
-        "target": "დედა პომიდორი ამზადებს.",
-        "text": "Mother prepares tomato.",
+        "target": "წითელი პომიდორი მზეზე მომწიფდა.",
+        "text": "The red tomato ripened in the sun.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "წითელი",
+            "gloss": "red",
+            "transliteration": "ts'iteli"
           },
           {
             "word": "პომიდორი",
@@ -1893,21 +2008,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "მზეზე",
+            "gloss": "in the sun",
+            "transliteration": "mzeze"
+          },
+          {
+            "word": "მომწიფდა",
+            "gloss": "ripened",
+            "transliteration": "momts'ipda"
           }
         ]
       },
       {
-        "target": "ბაზარში პომიდორი არის.",
-        "text": "There is tomato at the market.",
+        "target": "პომიდორი პურზე კარგად მიდის.",
+        "text": "Tomato goes well on bread.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "პომიდორი",
             "gloss": "tomato",
@@ -1915,9 +2030,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "პურზე",
+            "gloss": "on bread",
+            "transliteration": "p'urze"
+          },
+          {
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       }
@@ -1927,17 +2052,12 @@
     "vocab_index": 327,
     "word": "ხახვი",
     "gloss": "onion",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ხახვი უნდა.",
-        "text": "A friend wants onion.",
+        "target": "ხახვი თვალებს ამწარებს.",
+        "text": "Onion makes the eyes sting.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ხახვი",
             "gloss": "onion",
@@ -1945,16 +2065,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "თვალებს",
+            "gloss": "eyes",
+            "transliteration": "tvalebs"
+          },
+          {
+            "word": "ამწარებს",
+            "gloss": "makes sting",
+            "transliteration": "amts'arebs"
           }
         ]
       },
       {
-        "target": "ხახვი მაგიდაზე არის.",
-        "text": "The onion is on the table.",
+        "target": "დაჭრილი ხახვი სუპში იდება.",
+        "text": "Chopped onion goes into the soup.",
         "words": [
+          {
+            "word": "დაჭრილი",
+            "gloss": "chopped",
+            "transliteration": "dach'rili"
+          },
           {
             "word": "ხახვი",
             "gloss": "onion",
@@ -1962,26 +2092,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "სუპში",
+            "gloss": "into the soup",
+            "transliteration": "sup'shi"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იდება",
+            "gloss": "is put",
+            "transliteration": "ideba"
           }
         ]
       },
       {
-        "target": "ბავშვი ხახვი ჭამს.",
-        "text": "The child eats onion.",
+        "target": "ხახვი სახლში სურნელს ავრცელებს.",
+        "text": "Onion spreads a smell in the house.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "ხახვი",
             "gloss": "onion",
@@ -1989,9 +2114,19 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "სახლში",
+            "gloss": "in the house",
+            "transliteration": "sakhlshi"
+          },
+          {
+            "word": "სურნელს",
+            "gloss": "smell",
+            "transliteration": "surnels"
+          },
+          {
+            "word": "ავრცელებს",
+            "gloss": "spreads",
+            "transliteration": "avrtselebs"
           }
         ]
       }
@@ -2001,17 +2136,12 @@
     "vocab_index": 328,
     "word": "კარაქი",
     "gloss": "butter",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე კარაქი ვჭამ.",
-        "text": "I eat butter.",
+        "target": "კარაქი პურზე იწურება.",
+        "text": "Butter is spread on bread.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "კარაქი",
             "gloss": "butter",
@@ -2019,20 +2149,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "პურზე",
+            "gloss": "on bread",
+            "transliteration": "p'urze"
+          },
+          {
+            "word": "იწურება",
+            "gloss": "is spread",
+            "transliteration": "its'ureba"
           }
         ]
       },
       {
-        "target": "დედა კარაქი ამზადებს.",
-        "text": "Mother prepares butter.",
+        "target": "რბილი კარაქი ადვილად იჭრება.",
+        "text": "Soft butter cuts easily.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "რბილი",
+            "gloss": "soft",
+            "transliteration": "rbili"
           },
           {
             "word": "კარაქი",
@@ -2041,21 +2176,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ადვილად",
+            "gloss": "easily",
+            "transliteration": "advilad"
+          },
+          {
+            "word": "იჭრება",
+            "gloss": "is cut",
+            "transliteration": "ich'reba"
           }
         ]
       },
       {
-        "target": "ბაზარში კარაქი არის.",
-        "text": "There is butter at the market.",
+        "target": "კარაქი მაცივარში გაიყინა.",
+        "text": "The butter froze in the fridge.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "კარაქი",
             "gloss": "butter",
@@ -2063,9 +2198,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მაცივარში",
+            "gloss": "in the fridge",
+            "transliteration": "matsivarshi"
+          },
+          {
+            "word": "გაიყინა",
+            "gloss": "froze",
+            "transliteration": "gaiq'ina"
           }
         ]
       }
@@ -2075,17 +2215,12 @@
     "vocab_index": 329,
     "word": "თაფლი",
     "gloss": "honey",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი თაფლი უნდა.",
-        "text": "A friend wants honey.",
+        "target": "თაფლი ჩაის ატკბობს.",
+        "text": "Honey sweetens the tea.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "თაფლი",
             "gloss": "honey",
@@ -2093,16 +2228,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ჩაის",
+            "gloss": "tea",
+            "transliteration": "chais"
+          },
+          {
+            "word": "ატკბობს",
+            "gloss": "sweetens",
+            "transliteration": "at'k'bobs"
           }
         ]
       },
       {
-        "target": "თაფლი მაგიდაზე არის.",
-        "text": "The honey is on the table.",
+        "target": "ბუნებრივი თაფლი ჯანმრთელია.",
+        "text": "Natural honey is healthy.",
         "words": [
+          {
+            "word": "ბუნებრივი",
+            "gloss": "natural",
+            "transliteration": "bunebrivi"
+          },
           {
             "word": "თაფლი",
             "gloss": "honey",
@@ -2110,26 +2255,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ჯანმრთელია",
+            "gloss": "is healthy",
+            "transliteration": "janmrtelia"
           }
         ]
       },
       {
-        "target": "ბავშვი თაფლი ჭამს.",
-        "text": "The child eats honey.",
+        "target": "თაფლი პურზე უგემრიელესია.",
+        "text": "Honey on bread is delicious.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "თაფლი",
             "gloss": "honey",
@@ -2137,9 +2272,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "პურზე",
+            "gloss": "on bread",
+            "transliteration": "p'urze"
+          },
+          {
+            "word": "უგემრიელესია",
+            "gloss": "is most delicious",
+            "transliteration": "ugemrielesia"
           }
         ]
       }
@@ -2149,17 +2289,12 @@
     "vocab_index": 330,
     "word": "ყველი",
     "gloss": "cheese",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ყველი ვჭამ.",
-        "text": "I eat cheese.",
+        "target": "ყველი პურთან კარგად მიდის.",
+        "text": "Cheese goes well with bread.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ყველი",
             "gloss": "cheese",
@@ -2167,20 +2302,30 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "პურთან",
+            "gloss": "with bread",
+            "transliteration": "p'urtan"
+          },
+          {
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       },
       {
-        "target": "დედა ყველი ამზადებს.",
-        "text": "Mother prepares cheese.",
+        "target": "მარილიანი ყველი ღვინოს მიესადაგება.",
+        "text": "Salty cheese pairs with wine.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "მარილიანი",
+            "gloss": "salty",
+            "transliteration": "mariliani"
           },
           {
             "word": "ყველი",
@@ -2189,21 +2334,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ღვინოს",
+            "gloss": "wine",
+            "transliteration": "ghvinos"
+          },
+          {
+            "word": "მიესადაგება",
+            "gloss": "pairs",
+            "transliteration": "miesadageba"
           }
         ]
       },
       {
-        "target": "ბაზარში ყველი არის.",
-        "text": "There is cheese at the market.",
+        "target": "ყველი სენდვიჩში იდება.",
+        "text": "Cheese is put in the sandwich.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ყველი",
             "gloss": "cheese",
@@ -2211,9 +2356,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სენდვიჩში",
+            "gloss": "in the sandwich",
+            "transliteration": "sendvichshi"
+          },
+          {
+            "word": "იდება",
+            "gloss": "is put",
+            "transliteration": "ideba"
           }
         ]
       }
@@ -2223,17 +2373,12 @@
     "vocab_index": 331,
     "word": "სალათი",
     "gloss": "salad",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი სალათი უნდა.",
-        "text": "A friend wants salad.",
+        "target": "სალათი ბოსტნეულითაა სავსე.",
+        "text": "The salad is full of vegetables.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სალათი",
             "gloss": "salad",
@@ -2241,16 +2386,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ბოსტნეულითაა",
+            "gloss": "is with vegetables",
+            "transliteration": "bost'neulitaa"
+          },
+          {
+            "word": "სავსე",
+            "gloss": "full",
+            "transliteration": "savse"
           }
         ]
       },
       {
-        "target": "სალათი მაგიდაზე არის.",
-        "text": "The salad is on the table.",
+        "target": "მწვანე სალათი ზეთით იწურება.",
+        "text": "Green salad is dressed with oil.",
         "words": [
+          {
+            "word": "მწვანე",
+            "gloss": "green",
+            "transliteration": "mts'vane"
+          },
           {
             "word": "სალათი",
             "gloss": "salad",
@@ -2258,26 +2413,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "ზეთით",
+            "gloss": "with oil",
+            "transliteration": "zetit"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "იწურება",
+            "gloss": "is dressed",
+            "transliteration": "its'ureba"
           }
         ]
       },
       {
-        "target": "ბავშვი სალათი ჭამს.",
-        "text": "The child eats salad.",
+        "target": "სალათი სადილის წინ მოგვაქვს.",
+        "text": "We bring salad before lunch.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "სალათი",
             "gloss": "salad",
@@ -2285,9 +2435,19 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "სადილის",
+            "gloss": "lunch's",
+            "transliteration": "sadilis"
+          },
+          {
+            "word": "წინ",
+            "gloss": "before",
+            "transliteration": "ts'in"
+          },
+          {
+            "word": "მოგვაქვს",
+            "gloss": "we bring",
+            "transliteration": "mogvakvs"
           }
         ]
       }
@@ -2297,17 +2457,12 @@
     "vocab_index": 332,
     "word": "საუზმე",
     "gloss": "breakfast",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე საუზმე ვჭამ.",
-        "text": "I eat breakfast.",
+        "target": "საუზმე დღეს კარგად იწყებს.",
+        "text": "Breakfast starts the day well.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "საუზმე",
             "gloss": "breakfast",
@@ -2315,20 +2470,30 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "დღეს",
+            "gloss": "the day",
+            "transliteration": "dghes"
+          },
+          {
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
           }
         ]
       },
       {
-        "target": "დედა საუზმე ამზადებს.",
-        "text": "Mother prepares breakfast.",
+        "target": "მსუბუქი საუზმე საკმარისია.",
+        "text": "A light breakfast is enough.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "მსუბუქი",
+            "gloss": "light",
+            "transliteration": "msubuki"
           },
           {
             "word": "საუზმე",
@@ -2337,21 +2502,16 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "საკმარისია",
+            "gloss": "is enough",
+            "transliteration": "sak'marisia"
           }
         ]
       },
       {
-        "target": "ბაზარში საუზმე არის.",
-        "text": "There is breakfast at the market.",
+        "target": "საუზმე ოჯახთან ერთად მაქვს.",
+        "text": "I have breakfast together with family.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "საუზმე",
             "gloss": "breakfast",
@@ -2359,9 +2519,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ოჯახთან",
+            "gloss": "with family",
+            "transliteration": "ojakhtan"
+          },
+          {
+            "word": "ერთად",
+            "gloss": "together",
+            "transliteration": "ertad"
+          },
+          {
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       }
@@ -2371,17 +2541,12 @@
     "vocab_index": 333,
     "word": "სადილი",
     "gloss": "lunch",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი სადილი უნდა.",
-        "text": "A friend wants lunch.",
+        "target": "სადილი შუადღეს მზადაა.",
+        "text": "Lunch is ready at noon.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სადილი",
             "gloss": "lunch",
@@ -2389,16 +2554,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "შუადღეს",
+            "gloss": "at noon",
+            "transliteration": "shuadghes"
+          },
+          {
+            "word": "მზადაა",
+            "gloss": "is ready",
+            "transliteration": "mzadaa"
           }
         ]
       },
       {
-        "target": "სადილი მაგიდაზე არის.",
-        "text": "The lunch is on the table.",
+        "target": "სწრაფი სადილი ოფისში მაქვს.",
+        "text": "I have a quick lunch at the office.",
         "words": [
+          {
+            "word": "სწრაფი",
+            "gloss": "quick",
+            "transliteration": "sts'rapi"
+          },
           {
             "word": "სადილი",
             "gloss": "lunch",
@@ -2406,26 +2581,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "ოფისში",
+            "gloss": "at the office",
+            "transliteration": "opisshi"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       },
       {
-        "target": "ბავშვი სადილი ჭამს.",
-        "text": "The child eats lunch.",
+        "target": "სადილი სუპით იწყება.",
+        "text": "Lunch starts with soup.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "სადილი",
             "gloss": "lunch",
@@ -2433,9 +2603,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "სუპით",
+            "gloss": "with soup",
+            "transliteration": "sup'it"
+          },
+          {
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       }
@@ -2445,17 +2620,12 @@
     "vocab_index": 334,
     "word": "ვახშამი",
     "gloss": "dinner",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ვახშამი ვჭამ.",
-        "text": "I eat dinner.",
+        "target": "ვახშამი საღამოს გვაერთიანებს.",
+        "text": "Dinner brings us together in the evening.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ვახშამი",
             "gloss": "dinner",
@@ -2463,20 +2633,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "საღამოს",
+            "gloss": "in the evening",
+            "transliteration": "saghamos"
+          },
+          {
+            "word": "გვაერთიანებს",
+            "gloss": "unites us",
+            "transliteration": "gvaertianebs"
           }
         ]
       },
       {
-        "target": "დედა ვახშამი ამზადებს.",
-        "text": "Mother prepares dinner.",
+        "target": "მსუბუქი ვახშამი ჯანმრთელობისთვისაა.",
+        "text": "A light dinner is for health.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "მსუბუქი",
+            "gloss": "light",
+            "transliteration": "msubuki"
           },
           {
             "word": "ვახშამი",
@@ -2485,21 +2660,16 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ჯანმრთელობისთვისაა",
+            "gloss": "is for health",
+            "transliteration": "janmrtelobistvisaa"
           }
         ]
       },
       {
-        "target": "ბაზარში ვახშამი არის.",
-        "text": "There is dinner at the market.",
+        "target": "ვახშამი რვა საათზე იწყება.",
+        "text": "Dinner starts at eight o'clock.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ვახშამი",
             "gloss": "dinner",
@@ -2507,9 +2677,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "რვა",
+            "gloss": "eight",
+            "transliteration": "rva"
+          },
+          {
+            "word": "საათზე",
+            "gloss": "at the hour",
+            "transliteration": "saatze"
+          },
+          {
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       }
@@ -2519,17 +2699,12 @@
     "vocab_index": 335,
     "word": "წვენი",
     "gloss": "juice",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი წვენი უნდა.",
-        "text": "A friend wants juice.",
+        "target": "წვენი ფორთოხლისგანაა.",
+        "text": "The juice is from oranges.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "წვენი",
             "gloss": "juice",
@@ -2537,16 +2712,21 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ფორთოხლისგანაა",
+            "gloss": "is from orange",
+            "transliteration": "portokhlisganaa"
           }
         ]
       },
       {
-        "target": "წვენი მაგიდაზე არის.",
-        "text": "The juice is on the table.",
+        "target": "ცივი წვენი წყურვილს რთავს.",
+        "text": "Cold juice quenches thirst.",
         "words": [
+          {
+            "word": "ცივი",
+            "gloss": "cold",
+            "transliteration": "tsivi"
+          },
           {
             "word": "წვენი",
             "gloss": "juice",
@@ -2554,26 +2734,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "წყურვილს",
+            "gloss": "thirst",
+            "transliteration": "ts'q'urvils"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "რთავს",
+            "gloss": "quenches",
+            "transliteration": "rtavs"
           }
         ]
       },
       {
-        "target": "ბავშვი წვენი სვამს.",
-        "text": "The child drinks juice.",
+        "target": "წვენი საუზმეზე მაქვს.",
+        "text": "I have juice at breakfast.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "წვენი",
             "gloss": "juice",
@@ -2581,9 +2756,14 @@
             "note": "target"
           },
           {
-            "word": "სვამს",
-            "gloss": "drinks",
-            "transliteration": "svams"
+            "word": "საუზმეზე",
+            "gloss": "at breakfast",
+            "transliteration": "sauzmeze"
+          },
+          {
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       }
@@ -2593,17 +2773,12 @@
     "vocab_index": 336,
     "word": "იოგურტი",
     "gloss": "yogurt",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე იოგურტი ვჭამ.",
-        "text": "I eat yogurt.",
+        "target": "იოგურტი მარწყვითაა.",
+        "text": "The yogurt has strawberries.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "იოგურტი",
             "gloss": "yogurt",
@@ -2611,20 +2786,20 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "მარწყვითაა",
+            "gloss": "is with strawberry",
+            "transliteration": "marts'q'vitaa"
           }
         ]
       },
       {
-        "target": "დედა იოგურტი ამზადებს.",
-        "text": "Mother prepares yogurt.",
+        "target": "ბუნებრივი იოგურტი უშაქროა.",
+        "text": "Natural yogurt is sugar-free.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "ბუნებრივი",
+            "gloss": "natural",
+            "transliteration": "bunebrivi"
           },
           {
             "word": "იოგურტი",
@@ -2633,21 +2808,16 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "უშაქროა",
+            "gloss": "is sugar-free",
+            "transliteration": "ushakroa"
           }
         ]
       },
       {
-        "target": "ბაზარში იოგურტი არის.",
-        "text": "There is yogurt at the market.",
+        "target": "იოგურტი საუზმეზე მჯობს.",
+        "text": "Yogurt is better for breakfast.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "იოგურტი",
             "gloss": "yogurt",
@@ -2655,9 +2825,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საუზმეზე",
+            "gloss": "for breakfast",
+            "transliteration": "sauzmeze"
+          },
+          {
+            "word": "მჯობს",
+            "gloss": "is better",
+            "transliteration": "mjobs"
           }
         ]
       }
@@ -2667,17 +2842,12 @@
     "vocab_index": 337,
     "word": "სენდვიჩი",
     "gloss": "sandwich",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი სენდვიჩი უნდა.",
-        "text": "A friend wants sandwich.",
+        "target": "სენდვიჩი ყველითაა შევსებული.",
+        "text": "The sandwich is filled with cheese.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სენდვიჩი",
             "gloss": "sandwich",
@@ -2685,16 +2855,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ყველითაა",
+            "gloss": "is with cheese",
+            "transliteration": "q'velitaa"
+          },
+          {
+            "word": "შევსებული",
+            "gloss": "filled",
+            "transliteration": "shevsebuli"
           }
         ]
       },
       {
-        "target": "სენდვიჩი მაგიდაზე არის.",
-        "text": "The sandwich is on the table.",
+        "target": "სწრაფი სენდვიჩი გზაში მირთმევს.",
+        "text": "A quick sandwich feeds me on the way.",
         "words": [
+          {
+            "word": "სწრაფი",
+            "gloss": "quick",
+            "transliteration": "sts'rapi"
+          },
           {
             "word": "სენდვიჩი",
             "gloss": "sandwich",
@@ -2702,26 +2882,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "გზაში",
+            "gloss": "on the way",
+            "transliteration": "gzashi"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მირთმევს",
+            "gloss": "feeds me",
+            "transliteration": "mirtmevs"
           }
         ]
       },
       {
-        "target": "ბავშვი სენდვიჩი ჭამს.",
-        "text": "The child eats sandwich.",
+        "target": "სენდვიჩი პურით და კარაქითაა.",
+        "text": "The sandwich has bread and butter.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "სენდვიჩი",
             "gloss": "sandwich",
@@ -2729,9 +2904,19 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "პურით",
+            "gloss": "with bread",
+            "transliteration": "p'urit"
+          },
+          {
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "კარაქითაა",
+            "gloss": "is with butter",
+            "transliteration": "k'arakitaa"
           }
         ]
       }
@@ -2741,17 +2926,12 @@
     "vocab_index": 338,
     "word": "კიტრი",
     "gloss": "cucumber",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე კიტრი ვჭამ.",
-        "text": "I eat cucumber.",
+        "target": "კიტრი სალათში იჭრება.",
+        "text": "Cucumber is cut into the salad.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "კიტრი",
             "gloss": "cucumber",
@@ -2759,20 +2939,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "სალათში",
+            "gloss": "into the salad",
+            "transliteration": "salatshi"
+          },
+          {
+            "word": "იჭრება",
+            "gloss": "is cut",
+            "transliteration": "ich'reba"
           }
         ]
       },
       {
-        "target": "დედა კიტრი ამზადებს.",
-        "text": "Mother prepares cucumber.",
+        "target": "ახალი კიტრი წყალივითაა.",
+        "text": "A fresh cucumber is like water.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "ახალი",
+            "gloss": "fresh",
+            "transliteration": "akhali"
           },
           {
             "word": "კიტრი",
@@ -2781,21 +2966,16 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "წყალივითაა",
+            "gloss": "is like water",
+            "transliteration": "ts'q'alivitaa"
           }
         ]
       },
       {
-        "target": "ბაზარში კიტრი არის.",
-        "text": "There is cucumber at the market.",
+        "target": "კიტრი სენდვიჩს აღაგივებს.",
+        "text": "Cucumber freshens the sandwich.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "კიტრი",
             "gloss": "cucumber",
@@ -2803,9 +2983,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სენდვიჩს",
+            "gloss": "sandwich",
+            "transliteration": "sendvichs"
+          },
+          {
+            "word": "აღაგივებს",
+            "gloss": "freshens",
+            "transliteration": "aghagivebs"
           }
         ]
       }
@@ -2815,17 +3000,12 @@
     "vocab_index": 339,
     "word": "სტაფილო",
     "gloss": "carrot",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი სტაფილო უნდა.",
-        "text": "A friend wants carrot.",
+        "target": "სტაფილო ნარინჯისფერია.",
+        "text": "The carrot is orange-colored.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სტაფილო",
             "gloss": "carrot",
@@ -2833,16 +3013,21 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ნარინჯისფერია",
+            "gloss": "is orange-colored",
+            "transliteration": "narinjisperia"
           }
         ]
       },
       {
-        "target": "სტაფილო მაგიდაზე არის.",
-        "text": "The carrot is on the table.",
+        "target": "ნედლი სტაფილო ხრაშუნაა.",
+        "text": "A raw carrot is crunchy.",
         "words": [
+          {
+            "word": "ნედლი",
+            "gloss": "raw",
+            "transliteration": "nedli"
+          },
           {
             "word": "სტაფილო",
             "gloss": "carrot",
@@ -2850,26 +3035,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ხრაშუნაა",
+            "gloss": "is crunchy",
+            "transliteration": "khrashunaa"
           }
         ]
       },
       {
-        "target": "ბავშვი სტაფილო ჭამს.",
-        "text": "The child eats carrot.",
+        "target": "სტაფილო კურდღელს უყვარს.",
+        "text": "The rabbit loves carrot.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "სტაფილო",
             "gloss": "carrot",
@@ -2877,9 +3052,14 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "კურდღელს",
+            "gloss": "rabbit",
+            "transliteration": "k'urdghels"
+          },
+          {
+            "word": "უყვარს",
+            "gloss": "loves",
+            "transliteration": "uq'vars"
           }
         ]
       }
@@ -2889,17 +3069,12 @@
     "vocab_index": 340,
     "word": "მარწყვი",
     "gloss": "strawberry",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე მარწყვი ვჭამ.",
-        "text": "I eat strawberry.",
+        "target": "მარწყვი ტკბილი და წვნიანია.",
+        "text": "The strawberry is sweet and juicy.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "მარწყვი",
             "gloss": "strawberry",
@@ -2907,20 +3082,30 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "ტკბილი",
+            "gloss": "sweet",
+            "transliteration": "t'k'bili"
+          },
+          {
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "წვნიანია",
+            "gloss": "is juicy",
+            "transliteration": "ts'vniania"
           }
         ]
       },
       {
-        "target": "დედა მარწყვი ამზადებს.",
-        "text": "Mother prepares strawberry.",
+        "target": "წითელი მარწყვი ზაფხულში მწიფდება.",
+        "text": "Red strawberry ripens in summer.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "წითელი",
+            "gloss": "red",
+            "transliteration": "ts'iteli"
           },
           {
             "word": "მარწყვი",
@@ -2929,21 +3114,21 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ზაფხულში",
+            "gloss": "in summer",
+            "transliteration": "zapkhulshi"
+          },
+          {
+            "word": "მწიფდება",
+            "gloss": "ripens",
+            "transliteration": "mts'ipdeba"
           }
         ]
       },
       {
-        "target": "ბაზარში მარწყვი არის.",
-        "text": "There is strawberry at the market.",
+        "target": "მარწყვი ნამცხვარზე იდება.",
+        "text": "Strawberry is put on the cake.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "მარწყვი",
             "gloss": "strawberry",
@@ -2951,9 +3136,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ნამცხვარზე",
+            "gloss": "on the cake",
+            "transliteration": "namtskhvarze"
+          },
+          {
+            "word": "იდება",
+            "gloss": "is put",
+            "transliteration": "ideba"
           }
         ]
       }
@@ -2963,17 +3153,12 @@
     "vocab_index": 341,
     "word": "ლიმონი",
     "gloss": "lemon",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მეგობარი ლიმონი უნდა.",
-        "text": "A friend wants lemon.",
+        "target": "ლიმონი ჩაის ამჟავებს.",
+        "text": "Lemon sours the tea.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ლიმონი",
             "gloss": "lemon",
@@ -2981,16 +3166,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ჩაის",
+            "gloss": "tea",
+            "transliteration": "chais"
+          },
+          {
+            "word": "ამჟავებს",
+            "gloss": "sours",
+            "transliteration": "amzhavebs"
           }
         ]
       },
       {
-        "target": "ლიმონი მაგიდაზე არის.",
-        "text": "The lemon is on the table.",
+        "target": "ყვითელი ლიმონი ვიტამინით მდიდარია.",
+        "text": "A yellow lemon is rich in vitamin.",
         "words": [
+          {
+            "word": "ყვითელი",
+            "gloss": "yellow",
+            "transliteration": "q'viteli"
+          },
           {
             "word": "ლიმონი",
             "gloss": "lemon",
@@ -2998,26 +3193,21 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "ვიტამინით",
+            "gloss": "with vitamin",
+            "transliteration": "vit'aminit"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მდიდარია",
+            "gloss": "is rich",
+            "transliteration": "mdidaria"
           }
         ]
       },
       {
-        "target": "ბავშვი ლიმონი ჭამს.",
-        "text": "The child eats lemon.",
+        "target": "ლიმონი თევზთან კარგად მიდის.",
+        "text": "Lemon goes well with fish.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "ლიმონი",
             "gloss": "lemon",
@@ -3025,9 +3215,19 @@
             "note": "target"
           },
           {
-            "word": "ჭამს",
-            "gloss": "eats",
-            "transliteration": "ch'ams"
+            "word": "თევზთან",
+            "gloss": "with fish",
+            "transliteration": "tevztan"
+          },
+          {
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       }
@@ -3037,17 +3237,12 @@
     "vocab_index": 342,
     "word": "ნამცხვარი",
     "gloss": "cake",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე ნამცხვარი ვჭამ.",
-        "text": "I eat cake.",
+        "target": "ნამცხვარი დაბადების დღეზეა.",
+        "text": "The cake is for the birthday.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ნამცხვარი",
             "gloss": "cake",
@@ -3055,20 +3250,25 @@
             "note": "target"
           },
           {
-            "word": "ვჭამ",
-            "gloss": "I eat",
-            "transliteration": "vch'am"
+            "word": "დაბადების",
+            "gloss": "birth's",
+            "transliteration": "dabadebis"
+          },
+          {
+            "word": "დღეზეა",
+            "gloss": "is on the day",
+            "transliteration": "dghezea"
           }
         ]
       },
       {
-        "target": "დედა ნამცხვარი ამზადებს.",
-        "text": "Mother prepares cake.",
+        "target": "შოკოლადის ნამცხვარი ტკბილია.",
+        "text": "Chocolate cake is sweet.",
         "words": [
           {
-            "word": "დედა",
-            "gloss": "mother",
-            "transliteration": "deda"
+            "word": "შოკოლადის",
+            "gloss": "chocolate's",
+            "transliteration": "shok'oladis"
           },
           {
             "word": "ნამცხვარი",
@@ -3077,21 +3277,16 @@
             "note": "target"
           },
           {
-            "word": "ამზადებს",
-            "gloss": "prepares",
-            "transliteration": "amzadebs"
+            "word": "ტკბილია",
+            "gloss": "is sweet",
+            "transliteration": "t'k'bilia"
           }
         ]
       },
       {
-        "target": "ბაზარში ნამცხვარი არის.",
-        "text": "There is cake at the market.",
+        "target": "ნამცხვარი სანთლებითაა შემკული.",
+        "text": "The cake is decorated with candles.",
         "words": [
-          {
-            "word": "ბაზარში",
-            "gloss": "at the market",
-            "transliteration": "bazarshi"
-          },
           {
             "word": "ნამცხვარი",
             "gloss": "cake",
@@ -3099,9 +3294,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სანთლებითაა",
+            "gloss": "is with candles",
+            "transliteration": "santlebitaa"
+          },
+          {
+            "word": "შემკული",
+            "gloss": "decorated",
+            "transliteration": "shemk'uli"
           }
         ]
       }
@@ -3111,17 +3311,12 @@
     "vocab_index": 343,
     "word": "წიგნი",
     "gloss": "book",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი წიგნი იყენებს.",
-        "text": "The teacher uses book.",
+        "target": "წიგნი მაგიდაზეა გახსნილი.",
+        "text": "The book is open on the table.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "წიგნი",
             "gloss": "book",
@@ -3129,16 +3324,26 @@
             "note": "target"
           },
           {
-            "word": "იყენებს",
-            "gloss": "uses",
-            "transliteration": "iq'enebs"
+            "word": "მაგიდაზეა",
+            "gloss": "is on the table",
+            "transliteration": "magidazea"
+          },
+          {
+            "word": "გახსნილი",
+            "gloss": "open",
+            "transliteration": "gakhsnili"
           }
         ]
       },
       {
-        "target": "წიგნი ჩანთაში არის.",
-        "text": "The book is inside the bag.",
+        "target": "საინტერესო წიგნი ბიბლიოთეკიდან მოვიტანე.",
+        "text": "I brought an interesting book from the library.",
         "words": [
+          {
+            "word": "საინტერესო",
+            "gloss": "interesting",
+            "transliteration": "saint'ereso"
+          },
           {
             "word": "წიგნი",
             "gloss": "book",
@@ -3146,26 +3351,21 @@
             "note": "target"
           },
           {
-            "word": "ჩანთაში",
-            "gloss": "in the bag",
-            "transliteration": "chantashi"
+            "word": "ბიბლიოთეკიდან",
+            "gloss": "from the library",
+            "transliteration": "bibliotek'idan"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მოვიტანე",
+            "gloss": "I brought",
+            "transliteration": "movit'ane"
           }
         ]
       },
       {
-        "target": "მე წიგნი ვხედავ.",
-        "text": "I see book.",
+        "target": "წიგნი ახალ თავს იწყებს.",
+        "text": "The book starts a new chapter.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "წიგნი",
             "gloss": "book",
@@ -3173,9 +3373,19 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ახალ",
+            "gloss": "new",
+            "transliteration": "akhal"
+          },
+          {
+            "word": "თავს",
+            "gloss": "chapter",
+            "transliteration": "tavs"
+          },
+          {
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
           }
         ]
       }
@@ -3185,17 +3395,12 @@
     "vocab_index": 344,
     "word": "რვეული",
     "gloss": "notebook",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ბავშვი რვეული უნდა.",
-        "text": "The child wants notebook.",
+        "target": "რვეული გაკვეთილის ჩანაწერებითაა.",
+        "text": "The notebook has lesson notes.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "რვეული",
             "gloss": "notebook",
@@ -3203,16 +3408,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "გაკვეთილის",
+            "gloss": "lesson's",
+            "transliteration": "gak'vetilis"
+          },
+          {
+            "word": "ჩანაწერებითაა",
+            "gloss": "is with notes",
+            "transliteration": "chanats'erebitaa"
           }
         ]
       },
       {
-        "target": "რვეული სახლში არის.",
-        "text": "The notebook is at home.",
+        "target": "ახალი რვეული სუფთა გვერდებითაა.",
+        "text": "A new notebook has clean pages.",
         "words": [
+          {
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
+          },
           {
             "word": "რვეული",
             "gloss": "notebook",
@@ -3220,26 +3435,21 @@
             "note": "target"
           },
           {
-            "word": "სახლში",
-            "gloss": "at home",
-            "transliteration": "sakhlshi"
+            "word": "სუფთა",
+            "gloss": "clean",
+            "transliteration": "supta"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "გვერდებითაა",
+            "gloss": "is with pages",
+            "transliteration": "gverdebitaa"
           }
         ]
       },
       {
-        "target": "ეს რვეული კარგი არის.",
-        "text": "This notebook is good.",
+        "target": "რვეული ჩანთაში დამავიწყდა.",
+        "text": "I forgot the notebook in the bag.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "რვეული",
             "gloss": "notebook",
@@ -3247,14 +3457,14 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ჩანთაში",
+            "gloss": "in the bag",
+            "transliteration": "chantashi"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დამავიწყდა",
+            "gloss": "I forgot",
+            "transliteration": "damavits'q'da"
           }
         ]
       }
@@ -3264,17 +3474,12 @@
     "vocab_index": 345,
     "word": "კალამი",
     "gloss": "pen",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე კალამი მინდა.",
-        "text": "I want pen.",
+        "target": "კალამი ლურჯი მელნით წერს.",
+        "text": "The pen writes with blue ink.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "კალამი",
             "gloss": "pen",
@@ -3282,15 +3487,25 @@
             "note": "target"
           },
           {
-            "word": "მინდა",
-            "gloss": "I want",
-            "transliteration": "minda"
+            "word": "ლურჯი",
+            "gloss": "blue",
+            "transliteration": "lurji"
+          },
+          {
+            "word": "მელნით",
+            "gloss": "with ink",
+            "transliteration": "melnit"
+          },
+          {
+            "word": "წერს",
+            "gloss": "writes",
+            "transliteration": "ts'ers"
           }
         ]
       },
       {
-        "target": "კალამი მაგიდაზე არის.",
-        "text": "The pen is on the table.",
+        "target": "კალამი რვეულზე დავდე.",
+        "text": "I put the pen on the notebook.",
         "words": [
           {
             "word": "კალამი",
@@ -3299,25 +3514,25 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
+            "word": "რვეულზე",
+            "gloss": "on the notebook",
+            "transliteration": "rveulze"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დავდე",
+            "gloss": "I put",
+            "transliteration": "davde"
           }
         ]
       },
       {
-        "target": "მეგობარი კალამი მოიტანა.",
-        "text": "A friend brought pen.",
+        "target": "ახალი კალამი კარგად წერს.",
+        "text": "A new pen writes well.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
           },
           {
             "word": "კალამი",
@@ -3326,9 +3541,14 @@
             "note": "target"
           },
           {
-            "word": "მოიტანა",
-            "gloss": "brought",
-            "transliteration": "moit'ana"
+            "word": "კარგად",
+            "gloss": "well",
+            "transliteration": "k'argad"
+          },
+          {
+            "word": "წერს",
+            "gloss": "writes",
+            "transliteration": "ts'ers"
           }
         ]
       }
@@ -3338,17 +3558,12 @@
     "vocab_index": 346,
     "word": "ფანქარი",
     "gloss": "pencil",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი ფანქარი იყენებს.",
-        "text": "The teacher uses pencil.",
+        "target": "ფანქარი ნახატს ხაზავს.",
+        "text": "The pencil draws a sketch.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "ფანქარი",
             "gloss": "pencil",
@@ -3356,16 +3571,26 @@
             "note": "target"
           },
           {
-            "word": "იყენებს",
-            "gloss": "uses",
-            "transliteration": "iq'enebs"
+            "word": "ნახატს",
+            "gloss": "sketch",
+            "transliteration": "nakhat's"
+          },
+          {
+            "word": "ხაზავს",
+            "gloss": "draws",
+            "transliteration": "khazavs"
           }
         ]
       },
       {
-        "target": "ფანქარი ჩანთაში არის.",
-        "text": "The pencil is inside the bag.",
+        "target": "მოკლე ფანქარი სალესს საჭიროებს.",
+        "text": "A short pencil needs a sharpener.",
         "words": [
+          {
+            "word": "მოკლე",
+            "gloss": "short",
+            "transliteration": "mok'le"
+          },
           {
             "word": "ფანქარი",
             "gloss": "pencil",
@@ -3373,26 +3598,21 @@
             "note": "target"
           },
           {
-            "word": "ჩანთაში",
-            "gloss": "in the bag",
-            "transliteration": "chantashi"
+            "word": "სალესს",
+            "gloss": "sharpener",
+            "transliteration": "saless"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საჭიროებს",
+            "gloss": "needs",
+            "transliteration": "sach'iroebs"
           }
         ]
       },
       {
-        "target": "მე ფანქარი ვხედავ.",
-        "text": "I see pencil.",
+        "target": "ფანქარი წაშლას იძლევა.",
+        "text": "A pencil allows erasing.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ფანქარი",
             "gloss": "pencil",
@@ -3400,9 +3620,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "წაშლას",
+            "gloss": "erasing",
+            "transliteration": "ts'ashlas"
+          },
+          {
+            "word": "იძლევა",
+            "gloss": "allows",
+            "transliteration": "idzleva"
           }
         ]
       }
@@ -3412,17 +3637,12 @@
     "vocab_index": 347,
     "word": "მაგიდა",
     "gloss": "table",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ბავშვი მაგიდა უნდა.",
-        "text": "The child wants table.",
+        "target": "მაგიდა სუფრითაა გადაფარული.",
+        "text": "The table is covered with a cloth.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "მაგიდა",
             "gloss": "table",
@@ -3430,16 +3650,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "სუფრითაა",
+            "gloss": "is with a cloth",
+            "transliteration": "supritaa"
+          },
+          {
+            "word": "გადაფარული",
+            "gloss": "covered",
+            "transliteration": "gadaparuli"
           }
         ]
       },
       {
-        "target": "მაგიდა სახლში არის.",
-        "text": "The table is at home.",
+        "target": "მრგვალი მაგიდა ოთახის შუაშია.",
+        "text": "A round table is in the middle of the room.",
         "words": [
+          {
+            "word": "მრგვალი",
+            "gloss": "round",
+            "transliteration": "mrgvali"
+          },
           {
             "word": "მაგიდა",
             "gloss": "table",
@@ -3447,26 +3677,21 @@
             "note": "target"
           },
           {
-            "word": "სახლში",
-            "gloss": "at home",
-            "transliteration": "sakhlshi"
+            "word": "ოთახის",
+            "gloss": "room's",
+            "transliteration": "otakhis"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "შუაშია",
+            "gloss": "is in the middle",
+            "transliteration": "shuashia"
           }
         ]
       },
       {
-        "target": "ეს მაგიდა კარგი არის.",
-        "text": "This table is good.",
+        "target": "მაგიდა ოთხ სკამს იტევს.",
+        "text": "The table fits four chairs.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "მაგიდა",
             "gloss": "table",
@@ -3474,14 +3699,19 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ოთხ",
+            "gloss": "four",
+            "transliteration": "otkh"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "სკამს",
+            "gloss": "chair",
+            "transliteration": "sk'ams"
+          },
+          {
+            "word": "იტევს",
+            "gloss": "fits",
+            "transliteration": "it'evs"
           }
         ]
       }
@@ -3491,17 +3721,12 @@
     "vocab_index": 348,
     "word": "სკამი",
     "gloss": "chair",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე სკამი მინდა.",
-        "text": "I want chair.",
+        "target": "სკამი მაგიდასთან დგას.",
+        "text": "The chair stands by the table.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "სკამი",
             "gloss": "chair",
@@ -3509,16 +3734,26 @@
             "note": "target"
           },
           {
-            "word": "მინდა",
-            "gloss": "I want",
-            "transliteration": "minda"
+            "word": "მაგიდასთან",
+            "gloss": "by the table",
+            "transliteration": "magidastan"
+          },
+          {
+            "word": "დგას",
+            "gloss": "stands",
+            "transliteration": "dgas"
           }
         ]
       },
       {
-        "target": "სკამი მაგიდაზე არის.",
-        "text": "The chair is on the table.",
+        "target": "რბილი სკამი კომფორტულია.",
+        "text": "A soft chair is comfortable.",
         "words": [
+          {
+            "word": "რბილი",
+            "gloss": "soft",
+            "transliteration": "rbili"
+          },
           {
             "word": "სკამი",
             "gloss": "chair",
@@ -3526,26 +3761,16 @@
             "note": "target"
           },
           {
-            "word": "მაგიდაზე",
-            "gloss": "on the table",
-            "transliteration": "magidaze"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "კომფორტულია",
+            "gloss": "is comfortable",
+            "transliteration": "k'omport'ulia"
           }
         ]
       },
       {
-        "target": "მეგობარი სკამი მოიტანა.",
-        "text": "A friend brought chair.",
+        "target": "სკამი ხისგანაა დამზადებული.",
+        "text": "The chair is made of wood.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სკამი",
             "gloss": "chair",
@@ -3553,9 +3778,14 @@
             "note": "target"
           },
           {
-            "word": "მოიტანა",
-            "gloss": "brought",
-            "transliteration": "moit'ana"
+            "word": "ხისგანაა",
+            "gloss": "is from wood",
+            "transliteration": "khisganaa"
+          },
+          {
+            "word": "დამზადებული",
+            "gloss": "made",
+            "transliteration": "damzadebuli"
           }
         ]
       }
@@ -3565,17 +3795,12 @@
     "vocab_index": 349,
     "word": "საწოლი",
     "gloss": "bed",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მასწავლებელი საწოლი იყენებს.",
-        "text": "The teacher uses bed.",
+        "target": "საწოლი რბილი ბალიშითაა.",
+        "text": "The bed has a soft pillow.",
         "words": [
-          {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
           {
             "word": "საწოლი",
             "gloss": "bed",
@@ -3583,16 +3808,26 @@
             "note": "target"
           },
           {
-            "word": "იყენებს",
-            "gloss": "uses",
-            "transliteration": "iq'enebs"
+            "word": "რბილი",
+            "gloss": "soft",
+            "transliteration": "rbili"
+          },
+          {
+            "word": "ბალიშითაა",
+            "gloss": "is with a pillow",
+            "transliteration": "balishitaa"
           }
         ]
       },
       {
-        "target": "საწოლი ჩანთაში არის.",
-        "text": "The bed is inside the bag.",
+        "target": "დიდი საწოლი ორ ადამიანს იტევს.",
+        "text": "A big bed fits two people.",
         "words": [
+          {
+            "word": "დიდი",
+            "gloss": "big",
+            "transliteration": "didi"
+          },
           {
             "word": "საწოლი",
             "gloss": "bed",
@@ -3600,26 +3835,26 @@
             "note": "target"
           },
           {
-            "word": "ჩანთაში",
-            "gloss": "in the bag",
-            "transliteration": "chantashi"
+            "word": "ორ",
+            "gloss": "two",
+            "transliteration": "or"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ადამიანს",
+            "gloss": "person",
+            "transliteration": "adamians"
+          },
+          {
+            "word": "იტევს",
+            "gloss": "fits",
+            "transliteration": "it'evs"
           }
         ]
       },
       {
-        "target": "მე საწოლი ვხედავ.",
-        "text": "I see bed.",
+        "target": "საწოლი საღამოს დამპატიჟებს.",
+        "text": "The bed invites me in the evening.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "საწოლი",
             "gloss": "bed",
@@ -3627,9 +3862,14 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "საღამოს",
+            "gloss": "in the evening",
+            "transliteration": "saghamos"
+          },
+          {
+            "word": "დამპატიჟებს",
+            "gloss": "invites me",
+            "transliteration": "damp'at'izhebs"
           }
         ]
       }
@@ -3639,17 +3879,12 @@
     "vocab_index": 350,
     "word": "კარი",
     "gloss": "door",
-    "source": "Codex-curated Georgian A1 seed list",
+    "source": "LLM-authored Georgian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ბავშვი კარი უნდა.",
-        "text": "The child wants door.",
+        "target": "კარი ნელა იღება.",
+        "text": "The door opens slowly.",
         "words": [
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
-          },
           {
             "word": "კარი",
             "gloss": "door",
@@ -3657,16 +3892,26 @@
             "note": "target"
           },
           {
-            "word": "უნდა",
-            "gloss": "wants",
-            "transliteration": "unda"
+            "word": "ნელა",
+            "gloss": "slowly",
+            "transliteration": "nela"
+          },
+          {
+            "word": "იღება",
+            "gloss": "opens",
+            "transliteration": "igheba"
           }
         ]
       },
       {
-        "target": "კარი სახლში არის.",
-        "text": "The door is at home.",
+        "target": "მძიმე კარი გასაღებს საჭიროებს.",
+        "text": "A heavy door needs a key.",
         "words": [
+          {
+            "word": "მძიმე",
+            "gloss": "heavy",
+            "transliteration": "mdzime"
+          },
           {
             "word": "კარი",
             "gloss": "door",
@@ -3674,26 +3919,21 @@
             "note": "target"
           },
           {
-            "word": "სახლში",
-            "gloss": "at home",
-            "transliteration": "sakhlshi"
+            "word": "გასაღებს",
+            "gloss": "key",
+            "transliteration": "gasaghebs"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "საჭიროებს",
+            "gloss": "needs",
+            "transliteration": "sach'iroebs"
           }
         ]
       },
       {
-        "target": "ეს კარი კარგი არის.",
-        "text": "This door is good.",
+        "target": "კარი ქარით დაიხურა.",
+        "text": "The door closed in the wind.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
           {
             "word": "კარი",
             "gloss": "door",
@@ -3701,14 +3941,14 @@
             "note": "target"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
+            "word": "ქარით",
+            "gloss": "with the wind",
+            "transliteration": "karit"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დაიხურა",
+            "gloss": "closed",
+            "transliteration": "daikhura"
           }
         ]
       }
