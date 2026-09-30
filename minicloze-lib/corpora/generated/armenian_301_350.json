@@ -3,17 +3,12 @@
     "vocab_index": 301,
     "word": "մակարոն",
     "gloss": "pasta",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր մակարոն է ուզում։",
-        "text": "A friend wants pasta.",
+        "target": "մակարոն կաթսայում է եփվում։",
+        "text": "Pasta is boiling in the pot.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "մակարոն",
             "gloss": "pasta",
@@ -21,15 +16,25 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "կաթսայում",
+            "gloss": "in the pot",
+            "transliteration": "kat'sayum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "եփվում",
+            "gloss": "boiling",
+            "transliteration": "ep'vum"
           }
         ]
       },
       {
-        "target": "մակարոն սեղանի վրա կա։",
-        "text": "The pasta is on the table.",
+        "target": "մակարոն պանրով եմ սիրում։",
+        "text": "I like pasta with cheese.",
         "words": [
           {
             "word": "մակարոն",
@@ -38,30 +43,30 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "պանրով",
+            "gloss": "with cheese",
+            "transliteration": "panrov"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "սիրում",
+            "gloss": "liking",
+            "transliteration": "sirum"
           }
         ]
       },
       {
-        "target": "երեխա մակարոն ուտում է։",
-        "text": "The child eats pasta.",
+        "target": "երեխան մակարոն արագ կերավ։",
+        "text": "The child ate the pasta quickly.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "երեխան",
+            "gloss": "the child",
+            "transliteration": "erekhan"
           },
           {
             "word": "մակարոն",
@@ -70,9 +75,14 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "արագ",
+            "gloss": "quickly",
+            "transliteration": "arag"
+          },
+          {
+            "word": "կերավ",
+            "gloss": "ate",
+            "transliteration": "kerav"
           }
         ]
       }
@@ -82,16 +92,16 @@
     "vocab_index": 302,
     "word": "ապուր",
     "gloss": "soup",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ապուր ուտում եմ։",
-        "text": "I eat soup.",
+        "target": "տաք ապուր ձմռանը լավ է։",
+        "text": "Hot soup is good in winter.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "տաք",
+            "gloss": "hot",
+            "transliteration": "tak'"
           },
           {
             "word": "ապուր",
@@ -100,21 +110,26 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "ձմռանը",
+            "gloss": "in winter",
+            "transliteration": "dzmrrany"
+          },
+          {
+            "word": "լավ",
+            "gloss": "good",
+            "transliteration": "lav"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "մայր ապուր պատրաստում է։",
-        "text": "Mother prepares soup.",
+        "target": "ապուր գդալով եմ ուտում։",
+        "text": "I eat soup with a spoon.",
         "words": [
-          {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
-          },
           {
             "word": "ապուր",
             "gloss": "soup",
@@ -122,20 +137,35 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "գդալով",
+            "gloss": "with a spoon",
+            "transliteration": "gdalov"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "ուտում",
+            "gloss": "eating",
+            "transliteration": "utum"
           }
         ]
       },
       {
-        "target": "շուկա ապուր կա։",
-        "text": "There is soup at the market.",
+        "target": "մայրս հավի ապուր է եփել։",
+        "text": "Mother cooked chicken soup.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "մայրս",
+            "gloss": "my mother",
+            "transliteration": "mayrs"
+          },
+          {
+            "word": "հավի",
+            "gloss": "chicken's",
+            "transliteration": "havi"
           },
           {
             "word": "ապուր",
@@ -144,9 +174,14 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "has",
+            "transliteration": "e"
+          },
+          {
+            "word": "եփել",
+            "gloss": "cooked",
+            "transliteration": "ep'el"
           }
         ]
       }
@@ -156,16 +191,16 @@
     "vocab_index": 303,
     "word": "բանջարեղեն",
     "gloss": "vegetables",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր բանջարեղեն է ուզում։",
-        "text": "A friend wants vegetables.",
+        "target": "թարմ բանջարեղեն շուկայից է։",
+        "text": "Fresh vegetables are from the market.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "թարմ",
+            "gloss": "fresh",
+            "transliteration": "t'arm"
           },
           {
             "word": "բանջարեղեն",
@@ -174,15 +209,20 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "շուկայից",
+            "gloss": "from the market",
+            "transliteration": "shukayits'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "բանջարեղեն սեղանի վրա կա։",
-        "text": "The vegetables is on the table.",
+        "target": "բանջարեղեն առողջարար է։",
+        "text": "Vegetables are healthy.",
         "words": [
           {
             "word": "բանջարեղեն",
@@ -191,30 +231,25 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "առողջարար",
+            "gloss": "healthy",
+            "transliteration": "arroghjarar"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "երեխա բանջարեղեն ուտում է։",
-        "text": "The child eats vegetables.",
+        "target": "ճաշին բանջարեղեն ենք ավելացնում։",
+        "text": "At lunch we add vegetables.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "ճաշին",
+            "gloss": "at lunch",
+            "transliteration": "chashin"
           },
           {
             "word": "բանջարեղեն",
@@ -223,9 +258,14 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
+          },
+          {
+            "word": "ավելացնում",
+            "gloss": "adding",
+            "transliteration": "avelats'num"
           }
         ]
       }
@@ -235,16 +275,16 @@
     "vocab_index": 304,
     "word": "միրգ",
     "gloss": "fruit",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես միրգ ուտում եմ։",
-        "text": "I eat fruit.",
+        "target": "քաղցր միրգ ամռանը շատ է։",
+        "text": "Sweet fruit is plentiful in summer.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "քաղցր",
+            "gloss": "sweet",
+            "transliteration": "k'aghts'r"
           },
           {
             "word": "միրգ",
@@ -253,21 +293,26 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "ամռանը",
+            "gloss": "in summer",
+            "transliteration": "amrrany"
+          },
+          {
+            "word": "շատ",
+            "gloss": "plentiful",
+            "transliteration": "shat"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "մայր միրգ պատրաստում է։",
-        "text": "Mother prepares fruit.",
+        "target": "միրգ նախաճաշից հետո եմ ուտում։",
+        "text": "I eat fruit after breakfast.",
         "words": [
-          {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
-          },
           {
             "word": "միրգ",
             "gloss": "fruit",
@@ -275,20 +320,35 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "նախաճաշից",
+            "gloss": "from breakfast",
+            "transliteration": "nakhachashits'"
+          },
+          {
+            "word": "հետո",
+            "gloss": "after",
+            "transliteration": "heto"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "ուտում",
+            "gloss": "eating",
+            "transliteration": "utum"
           }
         ]
       },
       {
-        "target": "շուկա միրգ կա։",
-        "text": "There is fruit at the market.",
+        "target": "զամբյուղը միրգ է լիքը։",
+        "text": "The basket is full of fruit.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "զամբյուղը",
+            "gloss": "the basket",
+            "transliteration": "zambyughy"
           },
           {
             "word": "միրգ",
@@ -297,9 +357,14 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լիքը",
+            "gloss": "full",
+            "transliteration": "lik'y"
           }
         ]
       }
@@ -309,16 +374,16 @@
     "vocab_index": 305,
     "word": "բանան",
     "gloss": "banana",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր բանան է ուզում։",
-        "text": "A friend wants banana.",
+        "target": "դեղին բանան հասուն է։",
+        "text": "The yellow banana is ripe.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "դեղին",
+            "gloss": "yellow",
+            "transliteration": "deghin"
           },
           {
             "word": "բանան",
@@ -327,15 +392,20 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "հասուն",
+            "gloss": "ripe",
+            "transliteration": "hasun"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "բանան սեղանի վրա կա։",
-        "text": "The banana is on the table.",
+        "target": "բանան նախաճաշին եմ ավելացնում։",
+        "text": "I add a banana to breakfast.",
         "words": [
           {
             "word": "բանան",
@@ -344,30 +414,30 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "նախաճաշին",
+            "gloss": "to breakfast",
+            "transliteration": "nakhachashin"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ավելացնում",
+            "gloss": "adding",
+            "transliteration": "avelats'num"
           }
         ]
       },
       {
-        "target": "երեխա բանան ուտում է։",
-        "text": "The child eats banana.",
+        "target": "երեխան բանան մաքրեց ու կերավ։",
+        "text": "The child peeled and ate a banana.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "երեխան",
+            "gloss": "the child",
+            "transliteration": "erekhan"
           },
           {
             "word": "բանան",
@@ -376,9 +446,19 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "մաքրեց",
+            "gloss": "peeled",
+            "transliteration": "mak'rets'"
+          },
+          {
+            "word": "ու",
+            "gloss": "and",
+            "transliteration": "u"
+          },
+          {
+            "word": "կերավ",
+            "gloss": "ate",
+            "transliteration": "kerav"
           }
         ]
       }
@@ -388,16 +468,16 @@
     "vocab_index": 306,
     "word": "նարինջ",
     "gloss": "orange",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես նարինջ ուտում եմ։",
-        "text": "I eat orange.",
+        "target": "հյութալի նարինջ առավոտյան եմ կտրում։",
+        "text": "I cut a juicy orange in the morning.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "հյութալի",
+            "gloss": "juicy",
+            "transliteration": "hyut'ali"
           },
           {
             "word": "նարինջ",
@@ -406,21 +486,26 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "կտրում",
+            "gloss": "cutting",
+            "transliteration": "ktrum"
           }
         ]
       },
       {
-        "target": "մայր նարինջ պատրաստում է։",
-        "text": "Mother prepares orange.",
+        "target": "նարինջ վիտամին է տալիս։",
+        "text": "An orange gives vitamins.",
         "words": [
-          {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
-          },
           {
             "word": "նարինջ",
             "gloss": "orange",
@@ -428,21 +513,26 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "վիտամին",
+            "gloss": "vitamin",
+            "transliteration": "vitamin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       },
       {
-        "target": "շուկա նարինջ կա։",
-        "text": "There is orange at the market.",
+        "target": "նարինջ կեղևը հաստ է։",
+        "text": "The orange peel is thick.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "նարինջ",
             "gloss": "orange",
@@ -450,9 +540,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "կեղևը",
+            "gloss": "the peel",
+            "transliteration": "keghevy"
+          },
+          {
+            "word": "հաստ",
+            "gloss": "thick",
+            "transliteration": "hast"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -462,16 +562,16 @@
     "vocab_index": 307,
     "word": "խնձոր",
     "gloss": "apple",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր խնձոր է ուզում։",
-        "text": "A friend wants apple.",
+        "target": "կարմիր խնձոր ծառից ընկավ։",
+        "text": "A red apple fell from the tree.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "կարմիր",
+            "gloss": "red",
+            "transliteration": "karmir"
           },
           {
             "word": "խնձոր",
@@ -480,15 +580,20 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "ծառից",
+            "gloss": "from the tree",
+            "transliteration": "tsarrits'"
+          },
+          {
+            "word": "ընկավ",
+            "gloss": "fell",
+            "transliteration": "ynkav"
           }
         ]
       },
       {
-        "target": "խնձոր սեղանի վրա կա։",
-        "text": "The apple is on the table.",
+        "target": "խնձոր քաղցր և խրթխրթան է։",
+        "text": "The apple is sweet and crunchy.",
         "words": [
           {
             "word": "խնձոր",
@@ -497,31 +602,31 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "քաղցր",
+            "gloss": "sweet",
+            "transliteration": "k'aghts'r"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "խրթխրթան",
+            "gloss": "crunchy",
+            "transliteration": "khrt'khrt'an"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "երեխա խնձոր ուտում է։",
-        "text": "The child eats apple.",
+        "target": "խնձոր տոպրակի մեջ դրի։",
+        "text": "Put the apple in the bag.",
         "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
           {
             "word": "խնձոր",
             "gloss": "apple",
@@ -529,9 +634,19 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "տոպրակի",
+            "gloss": "bag's",
+            "transliteration": "topraki"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          },
+          {
+            "word": "դրի",
+            "gloss": "put",
+            "transliteration": "dri"
           }
         ]
       }
@@ -541,17 +656,12 @@
     "vocab_index": 308,
     "word": "կարտոֆիլ",
     "gloss": "potato",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես կարտոֆիլ ուտում եմ։",
-        "text": "I eat potato.",
+        "target": "կարտոֆիլ կաթսայում է եփվում։",
+        "text": "Potatoes are boiling in the pot.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "կարտոֆիլ",
             "gloss": "potato",
@@ -559,20 +669,30 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "կաթսայում",
+            "gloss": "in the pot",
+            "transliteration": "kat'sayum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "եփվում",
+            "gloss": "boiling",
+            "transliteration": "ep'vum"
           }
         ]
       },
       {
-        "target": "մայր կարտոֆիլ պատրաստում է։",
-        "text": "Mother prepares potato.",
+        "target": "տապակած կարտոֆիլ համով է։",
+        "text": "Fried potatoes are tasty.",
         "words": [
           {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
+            "word": "տապակած",
+            "gloss": "fried",
+            "transliteration": "tapakats"
           },
           {
             "word": "կարտոֆիլ",
@@ -581,21 +701,21 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "համով",
+            "gloss": "tasty",
+            "transliteration": "hamov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "շուկա կարտոֆիլ կա։",
-        "text": "There is potato at the market.",
+        "target": "կարտոֆիլ հողից ենք հանում։",
+        "text": "We dig potatoes from the soil.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "կարտոֆիլ",
             "gloss": "potato",
@@ -603,9 +723,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "հողից",
+            "gloss": "from the soil",
+            "transliteration": "hoghits'"
+          },
+          {
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
+          },
+          {
+            "word": "հանում",
+            "gloss": "taking out",
+            "transliteration": "hanum"
           }
         ]
       }
@@ -615,16 +745,16 @@
     "vocab_index": 309,
     "word": "լոլիկ",
     "gloss": "tomato",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր լոլիկ է ուզում։",
-        "text": "A friend wants tomato.",
+        "target": "կարմիր լոլիկ աղցանին է գնում։",
+        "text": "A red tomato goes into the salad.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "կարմիր",
+            "gloss": "red",
+            "transliteration": "karmir"
           },
           {
             "word": "լոլիկ",
@@ -633,15 +763,25 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "աղցանին",
+            "gloss": "into the salad",
+            "transliteration": "aghts'anin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       },
       {
-        "target": "լոլիկ սեղանի վրա կա։",
-        "text": "The tomato is on the table.",
+        "target": "լոլիկ արևի տակ է հասունանում։",
+        "text": "Tomatoes ripen in the sun.",
         "words": [
           {
             "word": "լոլիկ",
@@ -650,31 +790,31 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "արևի",
+            "gloss": "sun's",
+            "transliteration": "arevi"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "տակ",
+            "gloss": "under",
+            "transliteration": "tak"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հասունանում",
+            "gloss": "ripening",
+            "transliteration": "hasunanum"
           }
         ]
       },
       {
-        "target": "երեխա լոլիկ ուտում է։",
-        "text": "The child eats tomato.",
+        "target": "լոլիկ կտրատիր դանակով։",
+        "text": "Slice the tomato with a knife.",
         "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
           {
             "word": "լոլիկ",
             "gloss": "tomato",
@@ -682,9 +822,14 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "կտրատիր",
+            "gloss": "slice",
+            "transliteration": "ktratir"
+          },
+          {
+            "word": "դանակով",
+            "gloss": "with a knife",
+            "transliteration": "danakov"
           }
         ]
       }
@@ -694,17 +839,12 @@
     "vocab_index": 310,
     "word": "սոխ",
     "gloss": "onion",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես սոխ ուտում եմ։",
-        "text": "I eat onion.",
+        "target": "սոխ աչքերս է խայթում։",
+        "text": "The onion stings my eyes.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "սոխ",
             "gloss": "onion",
@@ -712,21 +852,26 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "աչքերս",
+            "gloss": "my eyes",
+            "transliteration": "ach'k'ers"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "խայթում",
+            "gloss": "stinging",
+            "transliteration": "khayt'um"
           }
         ]
       },
       {
-        "target": "մայր սոխ պատրաստում է։",
-        "text": "Mother prepares onion.",
+        "target": "սոխ տապակի հիմքն է։",
+        "text": "Onion is the base of a fry-up.",
         "words": [
-          {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
-          },
           {
             "word": "սոխ",
             "gloss": "onion",
@@ -734,21 +879,26 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "տապակի",
+            "gloss": "fry-up's",
+            "transliteration": "tapaki"
+          },
+          {
+            "word": "հիմքն",
+            "gloss": "the base",
+            "transliteration": "himk'n"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "շուկա սոխ կա։",
-        "text": "There is onion at the market.",
+        "target": "սոխ մանր կտրատիր։",
+        "text": "Chop the onion finely.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "սոխ",
             "gloss": "onion",
@@ -756,9 +906,14 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "մանր",
+            "gloss": "finely",
+            "transliteration": "manr"
+          },
+          {
+            "word": "կտրատիր",
+            "gloss": "chop",
+            "transliteration": "ktratir"
           }
         ]
       }
@@ -768,33 +923,11 @@
     "vocab_index": 311,
     "word": "կարագ",
     "gloss": "butter",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր կարագ է ուզում։",
-        "text": "A friend wants butter.",
-        "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
-          {
-            "word": "կարագ",
-            "gloss": "butter",
-            "transliteration": "karag",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "կարագ սեղանի վրա կա։",
-        "text": "The butter is on the table.",
+        "target": "կարագ հացի վրա է քսվում։",
+        "text": "Butter is spread on bread.",
         "words": [
           {
             "word": "կարագ",
@@ -803,9 +936,9 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "հացի",
+            "gloss": "bread's",
+            "transliteration": "hats'i"
           },
           {
             "word": "վրա",
@@ -813,20 +946,25 @@
             "transliteration": "vra"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "քսվում",
+            "gloss": "spread",
+            "transliteration": "k'svum"
           }
         ]
       },
       {
-        "target": "երեխա կարագ ուտում է։",
-        "text": "The child eats butter.",
+        "target": "փափուկ կարագ հեշտ է քսել։",
+        "text": "Soft butter is easy to spread.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "փափուկ",
+            "gloss": "soft",
+            "transliteration": "p'ap'uk"
           },
           {
             "word": "կարագ",
@@ -835,9 +973,41 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "հեշտ",
+            "gloss": "easy",
+            "transliteration": "hesht"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "քսել",
+            "gloss": "to spread",
+            "transliteration": "k'sel"
+          }
+        ]
+      },
+      {
+        "target": "կարագ սառնարանից հանիր։",
+        "text": "Take the butter out of the fridge.",
+        "words": [
+          {
+            "word": "կարագ",
+            "gloss": "butter",
+            "transliteration": "karag",
+            "note": "target"
+          },
+          {
+            "word": "սառնարանից",
+            "gloss": "from the fridge",
+            "transliteration": "sarrnaranits'"
+          },
+          {
+            "word": "հանիր",
+            "gloss": "take out",
+            "transliteration": "hanir"
           }
         ]
       }
@@ -847,17 +1017,12 @@
     "vocab_index": 312,
     "word": "մեղր",
     "gloss": "honey",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես մեղր ուտում եմ։",
-        "text": "I eat honey.",
+        "target": "մեղր թեյը քաղցրացնում է։",
+        "text": "Honey sweetens the tea.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "մեղր",
             "gloss": "honey",
@@ -865,20 +1030,30 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "թեյը",
+            "gloss": "the tea",
+            "transliteration": "t'eyy"
+          },
+          {
+            "word": "քաղցրացնում",
+            "gloss": "sweetens",
+            "transliteration": "k'aghts'rats'num"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "մայր մեղր պատրաստում է։",
-        "text": "Mother prepares honey.",
+        "target": "բնական մեղր առողջարար է։",
+        "text": "Natural honey is healthy.",
         "words": [
           {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
+            "word": "բնական",
+            "gloss": "natural",
+            "transliteration": "bnakan"
           },
           {
             "word": "մեղր",
@@ -887,21 +1062,21 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "առողջարար",
+            "gloss": "healthy",
+            "transliteration": "arroghjarar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "շուկա մեղր կա։",
-        "text": "There is honey at the market.",
+        "target": "մեղր բանկայի մեջ է պահվում։",
+        "text": "Honey is kept in a jar.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "մեղր",
             "gloss": "honey",
@@ -909,9 +1084,24 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "բանկայի",
+            "gloss": "jar's",
+            "transliteration": "bankayi"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահվում",
+            "gloss": "kept",
+            "transliteration": "pahvum"
           }
         ]
       }
@@ -921,17 +1111,12 @@
     "vocab_index": 313,
     "word": "պանիր",
     "gloss": "cheese",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր պանիր է ուզում։",
-        "text": "A friend wants cheese.",
+        "target": "պանիր հացի հետ է համով։",
+        "text": "Cheese tastes good with bread.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "պանիր",
             "gloss": "cheese",
@@ -939,15 +1124,57 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "հացի",
+            "gloss": "bread's",
+            "transliteration": "hats'i"
+          },
+          {
+            "word": "հետ",
+            "gloss": "with",
+            "transliteration": "het"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "համով",
+            "gloss": "tasty",
+            "transliteration": "hamov"
           }
         ]
       },
       {
-        "target": "պանիր սեղանի վրա կա։",
-        "text": "The cheese is on the table.",
+        "target": "հայկական պանիր աղի է։",
+        "text": "Armenian cheese is salty.",
+        "words": [
+          {
+            "word": "հայկական",
+            "gloss": "Armenian",
+            "transliteration": "haykakan"
+          },
+          {
+            "word": "պանիր",
+            "gloss": "cheese",
+            "transliteration": "panir",
+            "note": "target"
+          },
+          {
+            "word": "աղի",
+            "gloss": "salty",
+            "transliteration": "aghi"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "պանիր հացի վրա դրի։",
+        "text": "Put the cheese on the bread.",
         "words": [
           {
             "word": "պանիր",
@@ -956,9 +1183,9 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "հացի",
+            "gloss": "bread's",
+            "transliteration": "hats'i"
           },
           {
             "word": "վրա",
@@ -966,31 +1193,9 @@
             "transliteration": "vra"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "երեխա պանիր ուտում է։",
-        "text": "The child eats cheese.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "պանիր",
-            "gloss": "cheese",
-            "transliteration": "panir",
-            "note": "target"
-          },
-          {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "դրի",
+            "gloss": "put",
+            "transliteration": "dri"
           }
         ]
       }
@@ -1000,17 +1205,12 @@
     "vocab_index": 314,
     "word": "աղցան",
     "gloss": "salad",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես աղցան ուտում եմ։",
-        "text": "I eat salad.",
+        "target": "աղցան թարմ բանջարեղենից է։",
+        "text": "The salad is made of fresh vegetables.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "աղցան",
             "gloss": "salad",
@@ -1018,21 +1218,26 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "թարմ",
+            "gloss": "fresh",
+            "transliteration": "t'arm"
+          },
+          {
+            "word": "բանջարեղենից",
+            "gloss": "from vegetables",
+            "transliteration": "banjareghenits'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "մայր աղցան պատրաստում է։",
-        "text": "Mother prepares salad.",
+        "target": "աղցան ճաշից առաջ ենք ուտում։",
+        "text": "We eat salad before lunch.",
         "words": [
-          {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
-          },
           {
             "word": "աղցան",
             "gloss": "salad",
@@ -1040,20 +1245,35 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "ճաշից",
+            "gloss": "from lunch",
+            "transliteration": "chashits'"
+          },
+          {
+            "word": "առաջ",
+            "gloss": "before",
+            "transliteration": "arraj"
+          },
+          {
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
+          },
+          {
+            "word": "ուտում",
+            "gloss": "eating",
+            "transliteration": "utum"
           }
         ]
       },
       {
-        "target": "շուկա աղցան կա։",
-        "text": "There is salad at the market.",
+        "target": "կանաչ աղցան ձեթով է համեմված։",
+        "text": "The green salad is dressed with oil.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "կանաչ",
+            "gloss": "green",
+            "transliteration": "kanach'"
           },
           {
             "word": "աղցան",
@@ -1062,9 +1282,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ձեթով",
+            "gloss": "with oil",
+            "transliteration": "dzet'ov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "համեմված",
+            "gloss": "dressed",
+            "transliteration": "hamemvats"
           }
         ]
       }
@@ -1074,17 +1304,12 @@
     "vocab_index": 315,
     "word": "նախաճաշ",
     "gloss": "breakfast",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր նախաճաշ է ուզում։",
-        "text": "A friend wants breakfast.",
+        "target": "նախաճաշ օրվա կարևոր սկիզբն է։",
+        "text": "Breakfast is an important start to the day.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "նախաճաշ",
             "gloss": "breakfast",
@@ -1092,15 +1317,30 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "օրվա",
+            "gloss": "day's",
+            "transliteration": "orva"
+          },
+          {
+            "word": "կարևոր",
+            "gloss": "important",
+            "transliteration": "karevor"
+          },
+          {
+            "word": "սկիզբն",
+            "gloss": "the start",
+            "transliteration": "skizbn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "նախաճաշ սեղանի վրա կա։",
-        "text": "The breakfast is on the table.",
+        "target": "նախաճաշ հաց և կաթ ունի։",
+        "text": "Breakfast has bread and milk.",
         "words": [
           {
             "word": "նախաճաշ",
@@ -1109,30 +1349,35 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "հաց",
+            "gloss": "bread",
+            "transliteration": "hats'"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "կաթ",
+            "gloss": "milk",
+            "transliteration": "kat'"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "երեխա նախաճաշ ուտում է։",
-        "text": "The child eats breakfast.",
+        "target": "շուտ նախաճաշ արեցի ու դուրս եկա։",
+        "text": "I had breakfast early and went out.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "շուտ",
+            "gloss": "early",
+            "transliteration": "shut"
           },
           {
             "word": "նախաճաշ",
@@ -1141,9 +1386,24 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "արեցի",
+            "gloss": "I did",
+            "transliteration": "arets'i"
+          },
+          {
+            "word": "ու",
+            "gloss": "and",
+            "transliteration": "u"
+          },
+          {
+            "word": "դուրս",
+            "gloss": "out",
+            "transliteration": "durs"
+          },
+          {
+            "word": "եկա",
+            "gloss": "I came",
+            "transliteration": "eka"
           }
         ]
       }
@@ -1153,17 +1413,12 @@
     "vocab_index": 316,
     "word": "ճաշ",
     "gloss": "lunch",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես ճաշ ուտում եմ։",
-        "text": "I eat lunch.",
+        "target": "ճաշ կեսօրին է լինում։",
+        "text": "Lunch is at noon.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "ճաշ",
             "gloss": "lunch",
@@ -1171,21 +1426,26 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "կեսօրին",
+            "gloss": "at noon",
+            "transliteration": "kesorin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լինում",
+            "gloss": "happening",
+            "transliteration": "linum"
           }
         ]
       },
       {
-        "target": "մայր ճաշ պատրաստում է։",
-        "text": "Mother prepares lunch.",
+        "target": "ճաշ ապուր և միս ունի։",
+        "text": "Lunch has soup and meat.",
         "words": [
-          {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
-          },
           {
             "word": "ճաշ",
             "gloss": "lunch",
@@ -1193,20 +1453,40 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "ապուր",
+            "gloss": "soup",
+            "transliteration": "apur"
+          },
+          {
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "միս",
+            "gloss": "meat",
+            "transliteration": "mis"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "շուկա ճաշ կա։",
-        "text": "There is lunch at the market.",
+        "target": "աշխատանքից հետո ճաշ ենք ուտում։",
+        "text": "After work we eat lunch.",
         "words": [
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "աշխատանքից",
+            "gloss": "from work",
+            "transliteration": "ashkhatank'its'"
+          },
+          {
+            "word": "հետո",
+            "gloss": "after",
+            "transliteration": "heto"
           },
           {
             "word": "ճաշ",
@@ -1215,9 +1495,14 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
+          },
+          {
+            "word": "ուտում",
+            "gloss": "eating",
+            "transliteration": "utum"
           }
         ]
       }
@@ -1227,17 +1512,12 @@
     "vocab_index": 317,
     "word": "ընթրիք",
     "gloss": "dinner",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր ընթրիք է ուզում։",
-        "text": "A friend wants dinner.",
+        "target": "ընթրիք երեկոյան է մատուցվում։",
+        "text": "Dinner is served in the evening.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "ընթրիք",
             "gloss": "dinner",
@@ -1245,15 +1525,25 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "մատուցվում",
+            "gloss": "served",
+            "transliteration": "matuts'vum"
           }
         ]
       },
       {
-        "target": "ընթրիք սեղանի վրա կա։",
-        "text": "The dinner is on the table.",
+        "target": "ընթրիք ընտանիքով ենք ուտում։",
+        "text": "We eat dinner as a family.",
         "words": [
           {
             "word": "ընթրիք",
@@ -1262,30 +1552,30 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "ընտանիքով",
+            "gloss": "as a family",
+            "transliteration": "yntanik'ov"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ուտում",
+            "gloss": "eating",
+            "transliteration": "utum"
           }
         ]
       },
       {
-        "target": "երեխա ընթրիք ուտում է։",
-        "text": "The child eats dinner.",
+        "target": "թեթև ընթրիք ավելի լավ է։",
+        "text": "A light dinner is better.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "թեթև",
+            "gloss": "light",
+            "transliteration": "t'et'ev"
           },
           {
             "word": "ընթրիք",
@@ -1294,9 +1584,19 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "ավելի",
+            "gloss": "more",
+            "transliteration": "aveli"
+          },
+          {
+            "word": "լավ",
+            "gloss": "good",
+            "transliteration": "lav"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -1306,17 +1606,12 @@
     "vocab_index": 318,
     "word": "գիրք",
     "gloss": "book",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես գիրք եմ ուզում։",
-        "text": "I want book.",
+        "target": "գիրք դարակից վերցրի։",
+        "text": "I took a book from the shelf.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "գիրք",
             "gloss": "book",
@@ -1324,16 +1619,26 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "դարակից",
+            "gloss": "from the shelf",
+            "transliteration": "darakits'"
+          },
+          {
+            "word": "վերցրի",
+            "gloss": "I took",
+            "transliteration": "verts'ri"
           }
         ]
       },
       {
-        "target": "գիրք սեղանի վրա կա։",
-        "text": "The book is on the table.",
+        "target": "հաստ գիրք երկար եմ կարդում։",
+        "text": "I read a thick book for a long time.",
         "words": [
+          {
+            "word": "հաստ",
+            "gloss": "thick",
+            "transliteration": "hast"
+          },
           {
             "word": "գիրք",
             "gloss": "book",
@@ -1341,31 +1646,26 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "երկար",
+            "gloss": "long",
+            "transliteration": "erkar"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "կարդում",
+            "gloss": "reading",
+            "transliteration": "kardum"
           }
         ]
       },
       {
-        "target": "ընկեր գիրք բերեց։",
-        "text": "A friend brought book.",
+        "target": "գիրք ընկերոջս եմ տալիս։",
+        "text": "I am giving the book to my friend.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "գիրք",
             "gloss": "book",
@@ -1373,9 +1673,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "ընկերոջս",
+            "gloss": "my friend",
+            "transliteration": "ynkerojs"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       }
@@ -1385,17 +1695,12 @@
     "vocab_index": 319,
     "word": "տետր",
     "gloss": "notebook",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ տետր օգտագործում է։",
-        "text": "The teacher uses notebook.",
+        "target": "տետր դասի համար է բաց։",
+        "text": "The notebook is open for class.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "տետր",
             "gloss": "notebook",
@@ -1403,16 +1708,36 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "դասի",
+            "gloss": "class's",
+            "transliteration": "dasi"
+          },
+          {
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բաց",
+            "gloss": "open",
+            "transliteration": "bats'"
           }
         ]
       },
       {
-        "target": "տետր պայուսակի մեջ կա։",
-        "text": "The notebook is inside the bag.",
+        "target": "նոր տետր մաքուր էջեր ունի։",
+        "text": "A new notebook has clean pages.",
         "words": [
+          {
+            "word": "նոր",
+            "gloss": "new",
+            "transliteration": "nor"
+          },
           {
             "word": "տետր",
             "gloss": "notebook",
@@ -1420,31 +1745,26 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "մաքուր",
+            "gloss": "clean",
+            "transliteration": "mak'ur"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "էջեր",
+            "gloss": "pages",
+            "transliteration": "ejer"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "ես տետր տեսնում եմ։",
-        "text": "I see notebook.",
+        "target": "տետր պայուսակից հանիր։",
+        "text": "Take the notebook out of the bag.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "տետր",
             "gloss": "notebook",
@@ -1452,9 +1772,14 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "պայուսակից",
+            "gloss": "from the bag",
+            "transliteration": "payusakits'"
+          },
+          {
+            "word": "հանիր",
+            "gloss": "take out",
+            "transliteration": "hanir"
           }
         ]
       }
@@ -1464,60 +1789,16 @@
     "vocab_index": 320,
     "word": "գրիչ",
     "gloss": "pen",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա գրիչ է ուզում։",
-        "text": "The child wants pen.",
+        "target": "կապույտ գրիչ լավ է գրում։",
+        "text": "The blue pen writes well.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "գրիչ",
-            "gloss": "pen",
-            "transliteration": "grich'",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "գրիչ տուն կա։",
-        "text": "The pen is at home.",
-        "words": [
-          {
-            "word": "գրիչ",
-            "gloss": "pen",
-            "transliteration": "grich'",
-            "note": "target"
-          },
-          {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա գրիչ լավ է։",
-        "text": "This pen is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "կապույտ",
+            "gloss": "blue",
+            "transliteration": "kapuyt"
           },
           {
             "word": "գրիչ",
@@ -1527,13 +1808,67 @@
           },
           {
             "word": "լավ",
-            "gloss": "good",
+            "gloss": "well",
             "transliteration": "lav"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "գրում",
+            "gloss": "writing",
+            "transliteration": "grum"
+          }
+        ]
+      },
+      {
+        "target": "գրիչ թանաքը սպառվեց։",
+        "text": "The pen ran out of ink.",
+        "words": [
+          {
+            "word": "գրիչ",
+            "gloss": "pen",
+            "transliteration": "grich'",
+            "note": "target"
+          },
+          {
+            "word": "թանաքը",
+            "gloss": "the ink",
+            "transliteration": "t'anak'y"
+          },
+          {
+            "word": "սպառվեց",
+            "gloss": "ran out",
+            "transliteration": "sparrvets'"
+          }
+        ]
+      },
+      {
+        "target": "գրիչ տետրի մոտ դրի։",
+        "text": "Put the pen by the notebook.",
+        "words": [
+          {
+            "word": "գրիչ",
+            "gloss": "pen",
+            "transliteration": "grich'",
+            "note": "target"
+          },
+          {
+            "word": "տետրի",
+            "gloss": "notebook's",
+            "transliteration": "tetri"
+          },
+          {
+            "word": "մոտ",
+            "gloss": "near",
+            "transliteration": "mot"
+          },
+          {
+            "word": "դրի",
+            "gloss": "put",
+            "transliteration": "dri"
           }
         ]
       }
@@ -1543,17 +1878,12 @@
     "vocab_index": 321,
     "word": "մատիտ",
     "gloss": "pencil",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես մատիտ եմ ուզում։",
-        "text": "I want pencil.",
+        "target": "մատիտ սրիչով սրիր։",
+        "text": "Sharpen the pencil with a sharpener.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "մատիտ",
             "gloss": "pencil",
@@ -1561,16 +1891,26 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "սրիչով",
+            "gloss": "with a sharpener",
+            "transliteration": "srich'ov"
+          },
+          {
+            "word": "սրիր",
+            "gloss": "sharpen",
+            "transliteration": "srir"
           }
         ]
       },
       {
-        "target": "մատիտ սեղանի վրա կա։",
-        "text": "The pencil is on the table.",
+        "target": "փայտե մատիտ նկարելու համար է։",
+        "text": "A wooden pencil is for drawing.",
         "words": [
+          {
+            "word": "փայտե",
+            "gloss": "wooden",
+            "transliteration": "p'ayte"
+          },
           {
             "word": "մատիտ",
             "gloss": "pencil",
@@ -1578,31 +1918,26 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "նկարելու",
+            "gloss": "for drawing",
+            "transliteration": "nkarelu"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ընկեր մատիտ բերեց։",
-        "text": "A friend brought pencil.",
+        "target": "մատիտ ջնջվում է հեշտ։",
+        "text": "A pencil erases easily.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "մատիտ",
             "gloss": "pencil",
@@ -1610,9 +1945,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "ջնջվում",
+            "gloss": "erases",
+            "transliteration": "jnjvum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հեշտ",
+            "gloss": "easily",
+            "transliteration": "hesht"
           }
         ]
       }
@@ -1622,17 +1967,12 @@
     "vocab_index": 322,
     "word": "սեղան",
     "gloss": "table",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ սեղան օգտագործում է։",
-        "text": "The teacher uses table.",
+        "target": "սեղան ճաշի համար է դրված։",
+        "text": "The table is set for lunch.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "սեղան",
             "gloss": "table",
@@ -1640,16 +1980,36 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "ճաշի",
+            "gloss": "lunch's",
+            "transliteration": "chashi"
+          },
+          {
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "դրված",
+            "gloss": "set",
+            "transliteration": "drvats"
           }
         ]
       },
       {
-        "target": "սեղան պայուսակի մեջ կա։",
-        "text": "The table is inside the bag.",
+        "target": "փայտե սեղան ամուր է։",
+        "text": "The wooden table is sturdy.",
         "words": [
+          {
+            "word": "փայտե",
+            "gloss": "wooden",
+            "transliteration": "p'ayte"
+          },
           {
             "word": "սեղան",
             "gloss": "table",
@@ -1657,31 +2017,21 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "ամուր",
+            "gloss": "sturdy",
+            "transliteration": "amur"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ես սեղան տեսնում եմ։",
-        "text": "I see table.",
+        "target": "սեղան պատուհանի մոտ տեղափոխիր։",
+        "text": "Move the table near the window.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "սեղան",
             "gloss": "table",
@@ -1689,9 +2039,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "պատուհանի",
+            "gloss": "window's",
+            "transliteration": "patuhani"
+          },
+          {
+            "word": "մոտ",
+            "gloss": "near",
+            "transliteration": "mot"
+          },
+          {
+            "word": "տեղափոխիր",
+            "gloss": "move",
+            "transliteration": "teghap'okhir"
           }
         ]
       }
@@ -1701,33 +2061,11 @@
     "vocab_index": 323,
     "word": "աթոռ",
     "gloss": "chair",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա աթոռ է ուզում։",
-        "text": "The child wants chair.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "աթոռ",
-            "gloss": "chair",
-            "transliteration": "at'orr",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "աթոռ տուն կա։",
-        "text": "The chair is at home.",
+        "target": "աթոռ սեղանի մոտ է կանգնած։",
+        "text": "The chair stands by the table.",
         "words": [
           {
             "word": "աթոռ",
@@ -1736,41 +2074,78 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "սեղանի",
+            "gloss": "table's",
+            "transliteration": "seghani"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա աթոռ լավ է։",
-        "text": "This chair is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "աթոռ",
-            "gloss": "chair",
-            "transliteration": "at'orr",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "մոտ",
+            "gloss": "near",
+            "transliteration": "mot"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "կանգնած",
+            "gloss": "standing",
+            "transliteration": "kangnats"
+          }
+        ]
+      },
+      {
+        "target": "փափուկ աթոռ հարմար է։",
+        "text": "A soft chair is comfortable.",
+        "words": [
+          {
+            "word": "փափուկ",
+            "gloss": "soft",
+            "transliteration": "p'ap'uk"
+          },
+          {
+            "word": "աթոռ",
+            "gloss": "chair",
+            "transliteration": "at'orr",
+            "note": "target"
+          },
+          {
+            "word": "հարմար",
+            "gloss": "comfortable",
+            "transliteration": "harmar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "աթոռ հետ տար սենյակ։",
+        "text": "Take the chair back to the room.",
+        "words": [
+          {
+            "word": "աթոռ",
+            "gloss": "chair",
+            "transliteration": "at'orr",
+            "note": "target"
+          },
+          {
+            "word": "հետ",
+            "gloss": "back",
+            "transliteration": "het"
+          },
+          {
+            "word": "տար",
+            "gloss": "take",
+            "transliteration": "tar"
+          },
+          {
+            "word": "սենյակ",
+            "gloss": "room",
+            "transliteration": "senyak"
           }
         ]
       }
@@ -1780,17 +2155,12 @@
     "vocab_index": 324,
     "word": "մահճակալ",
     "gloss": "bed",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես մահճակալ եմ ուզում։",
-        "text": "I want bed.",
+        "target": "մահճակալ փափուկ բարձ ունի։",
+        "text": "The bed has a soft pillow.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "մահճակալ",
             "gloss": "bed",
@@ -1798,15 +2168,25 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "փափուկ",
+            "gloss": "soft",
+            "transliteration": "p'ap'uk"
+          },
+          {
+            "word": "բարձ",
+            "gloss": "pillow",
+            "transliteration": "bardz"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "մահճակալ սեղանի վրա կա։",
-        "text": "The bed is on the table.",
+        "target": "մահճակալ պատի մոտ է դրված։",
+        "text": "The bed is placed by the wall.",
         "words": [
           {
             "word": "մահճակալ",
@@ -1815,30 +2195,35 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "պատի",
+            "gloss": "wall's",
+            "transliteration": "pati"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "մոտ",
+            "gloss": "near",
+            "transliteration": "mot"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "դրված",
+            "gloss": "placed",
+            "transliteration": "drvats"
           }
         ]
       },
       {
-        "target": "ընկեր մահճակալ բերեց։",
-        "text": "A friend brought bed.",
+        "target": "երեկոյան մահճակալ եմ գնում։",
+        "text": "In the evening I go to bed.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           },
           {
             "word": "մահճակալ",
@@ -1847,9 +2232,14 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       }
@@ -1859,17 +2249,12 @@
     "vocab_index": 325,
     "word": "դուռ",
     "gloss": "door",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ դուռ օգտագործում է։",
-        "text": "The teacher uses door.",
+        "target": "դուռ դանդաղ է բացվում։",
+        "text": "The door opens slowly.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "դուռ",
             "gloss": "door",
@@ -1877,16 +2262,31 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "դանդաղ",
+            "gloss": "slowly",
+            "transliteration": "dandagh"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բացվում",
+            "gloss": "opening",
+            "transliteration": "bats'vum"
           }
         ]
       },
       {
-        "target": "դուռ պայուսակի մեջ կա։",
-        "text": "The door is inside the bag.",
+        "target": "ծանր դուռ ուժ է պահանջում։",
+        "text": "A heavy door needs strength.",
         "words": [
+          {
+            "word": "ծանր",
+            "gloss": "heavy",
+            "transliteration": "tsanr"
+          },
           {
             "word": "դուռ",
             "gloss": "door",
@@ -1894,31 +2294,26 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "ուժ",
+            "gloss": "strength",
+            "transliteration": "uzh"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "պահանջում",
+            "gloss": "requiring",
+            "transliteration": "pahanjum"
           }
         ]
       },
       {
-        "target": "ես դուռ տեսնում եմ։",
-        "text": "I see door.",
+        "target": "դուռ բանալիով փակիր։",
+        "text": "Lock the door with a key.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "դուռ",
             "gloss": "door",
@@ -1926,9 +2321,14 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "բանալիով",
+            "gloss": "with a key",
+            "transliteration": "banaliov"
+          },
+          {
+            "word": "փակիր",
+            "gloss": "close",
+            "transliteration": "p'akir"
           }
         ]
       }
@@ -1938,33 +2338,11 @@
     "vocab_index": 326,
     "word": "պատուհան",
     "gloss": "window",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա պատուհան է ուզում։",
-        "text": "The child wants window.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "պատուհան",
-            "gloss": "window",
-            "transliteration": "patuhan",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "պատուհան տուն կա։",
-        "text": "The window is at home.",
+        "target": "պատուհան արև է թողնում։",
+        "text": "The window lets in the sun.",
         "words": [
           {
             "word": "պատուհան",
@@ -1973,41 +2351,73 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա պատուհան լավ է։",
-        "text": "This window is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "պատուհան",
-            "gloss": "window",
-            "transliteration": "patuhan",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "արև",
+            "gloss": "sun",
+            "transliteration": "arev"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "թողնում",
+            "gloss": "letting",
+            "transliteration": "t'oghnum"
+          }
+        ]
+      },
+      {
+        "target": "պատուհան գիշերով փակ է։",
+        "text": "The window is closed at night.",
+        "words": [
+          {
+            "word": "պատուհան",
+            "gloss": "window",
+            "transliteration": "patuhan",
+            "note": "target"
+          },
+          {
+            "word": "գիշերով",
+            "gloss": "at night",
+            "transliteration": "gisherov"
+          },
+          {
+            "word": "փակ",
+            "gloss": "closed",
+            "transliteration": "p'ak"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "պատուհան բացիր օդափոխության համար։",
+        "text": "Open the window for fresh air.",
+        "words": [
+          {
+            "word": "պատուհան",
+            "gloss": "window",
+            "transliteration": "patuhan",
+            "note": "target"
+          },
+          {
+            "word": "բացիր",
+            "gloss": "open",
+            "transliteration": "bats'ir"
+          },
+          {
+            "word": "օդափոխության",
+            "gloss": "ventilation's",
+            "transliteration": "odap'okhut'yan"
+          },
+          {
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
           }
         ]
       }
@@ -2017,17 +2427,12 @@
     "vocab_index": 327,
     "word": "բանալի",
     "gloss": "key",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես բանալի եմ ուզում։",
-        "text": "I want key.",
+        "target": "բանալի գրպանում եմ պահում։",
+        "text": "I keep the key in my pocket.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "բանալի",
             "gloss": "key",
@@ -2035,16 +2440,31 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "գրպանում",
+            "gloss": "in the pocket",
+            "transliteration": "grpanum"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "պահում",
+            "gloss": "keeping",
+            "transliteration": "pahum"
           }
         ]
       },
       {
-        "target": "բանալի սեղանի վրա կա։",
-        "text": "The key is on the table.",
+        "target": "կորցրած բանալի դժվար է գտնել։",
+        "text": "A lost key is hard to find.",
         "words": [
+          {
+            "word": "կորցրած",
+            "gloss": "lost",
+            "transliteration": "korts'rats"
+          },
           {
             "word": "բանալի",
             "gloss": "key",
@@ -2052,31 +2472,26 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "դժվար",
+            "gloss": "hard",
+            "transliteration": "dzhvar"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "գտնել",
+            "gloss": "to find",
+            "transliteration": "gtnel"
           }
         ]
       },
       {
-        "target": "ընկեր բանալի բերեց։",
-        "text": "A friend brought key.",
+        "target": "բանալի դռան կողպեքին դրի։",
+        "text": "Put the key in the door lock.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "բանալի",
             "gloss": "key",
@@ -2084,9 +2499,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "դռան",
+            "gloss": "door's",
+            "transliteration": "drran"
+          },
+          {
+            "word": "կողպեքին",
+            "gloss": "in the lock",
+            "transliteration": "koghpek'in"
+          },
+          {
+            "word": "դրի",
+            "gloss": "put",
+            "transliteration": "dri"
           }
         ]
       }
@@ -2096,17 +2521,12 @@
     "vocab_index": 328,
     "word": "հեռախոս",
     "gloss": "phone",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ հեռախոս օգտագործում է։",
-        "text": "The teacher uses phone.",
+        "target": "հեռախոս գրպանում է զանգում։",
+        "text": "The phone is ringing in the pocket.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "հեռախոս",
             "gloss": "phone",
@@ -2114,15 +2534,25 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "գրպանում",
+            "gloss": "in the pocket",
+            "transliteration": "grpanum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "զանգում",
+            "gloss": "ringing",
+            "transliteration": "zangum"
           }
         ]
       },
       {
-        "target": "հեռախոս պայուսակի մեջ կա։",
-        "text": "The phone is inside the bag.",
+        "target": "հեռախոս ընկերոջս եմ զանգում։",
+        "text": "I am calling my friend on the phone.",
         "words": [
           {
             "word": "հեռախոս",
@@ -2131,30 +2561,30 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "ընկերոջս",
+            "gloss": "my friend",
+            "transliteration": "ynkerojs"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "զանգում",
+            "gloss": "calling",
+            "transliteration": "zangum"
           }
         ]
       },
       {
-        "target": "ես հեռախոս տեսնում եմ։",
-        "text": "I see phone.",
+        "target": "նոր հեռախոս լուսանկար է անում։",
+        "text": "The new phone takes photos.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "նոր",
+            "gloss": "new",
+            "transliteration": "nor"
           },
           {
             "word": "հեռախոս",
@@ -2163,9 +2593,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "լուսանկար",
+            "gloss": "photo",
+            "transliteration": "lusankar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "անում",
+            "gloss": "doing",
+            "transliteration": "anum"
           }
         ]
       }
@@ -2175,17 +2615,12 @@
     "vocab_index": 329,
     "word": "համակարգիչ",
     "gloss": "computer",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա համակարգիչ է ուզում։",
-        "text": "The child wants computer.",
+        "target": "համակարգիչ սեղանի վրա է աշխատում։",
+        "text": "The computer is working on the table.",
         "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
           {
             "word": "համակարգիչ",
             "gloss": "computer",
@@ -2193,15 +2628,30 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "սեղանի",
+            "gloss": "table's",
+            "transliteration": "seghani"
+          },
+          {
+            "word": "վրա",
+            "gloss": "on",
+            "transliteration": "vra"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "աշխատում",
+            "gloss": "working",
+            "transliteration": "ashkhatum"
           }
         ]
       },
       {
-        "target": "համակարգիչ տուն կա։",
-        "text": "The computer is at home.",
+        "target": "համակարգիչ նամակ է ուղարկում։",
+        "text": "The computer sends an email.",
         "words": [
           {
             "word": "համակարգիչ",
@@ -2210,25 +2660,30 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "նամակ",
+            "gloss": "email",
+            "transliteration": "namak"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ուղարկում",
+            "gloss": "sending",
+            "transliteration": "ugharkum"
           }
         ]
       },
       {
-        "target": "սա համակարգիչ լավ է։",
-        "text": "This computer is good.",
+        "target": "դպրոցական համակարգիչ դանդաղ է։",
+        "text": "The school computer is slow.",
         "words": [
           {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "դպրոցական",
+            "gloss": "school",
+            "transliteration": "dprots'akan"
           },
           {
             "word": "համակարգիչ",
@@ -2237,9 +2692,9 @@
             "note": "target"
           },
           {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "դանդաղ",
+            "gloss": "slow",
+            "transliteration": "dandagh"
           },
           {
             "word": "է",
@@ -2254,17 +2709,12 @@
     "vocab_index": 330,
     "word": "հեռուստացույց",
     "gloss": "television",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես հեռուստացույց եմ ուզում։",
-        "text": "I want television.",
+        "target": "հեռուստացույց երեկոյան է միանում։",
+        "text": "The television turns on in the evening.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "հեռուստացույց",
             "gloss": "television",
@@ -2272,15 +2722,25 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "միանում",
+            "gloss": "turning on",
+            "transliteration": "mianum"
           }
         ]
       },
       {
-        "target": "հեռուստացույց սեղանի վրա կա։",
-        "text": "The television is on the table.",
+        "target": "հեռուստացույց նորություններ է ցույց տալիս։",
+        "text": "The television shows the news.",
         "words": [
           {
             "word": "հեռուստացույց",
@@ -2289,30 +2749,35 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "նորություններ",
+            "gloss": "news",
+            "transliteration": "norut'yunner"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ցույց",
+            "gloss": "show",
+            "transliteration": "ts'uyts'"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       },
       {
-        "target": "ընկեր հեռուստացույց բերեց։",
-        "text": "A friend brought television.",
+        "target": "մեծ հեռուստացույց պատին է կախված։",
+        "text": "A big television hangs on the wall.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "մեծ",
+            "gloss": "big",
+            "transliteration": "mets"
           },
           {
             "word": "հեռուստացույց",
@@ -2321,9 +2786,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "պատին",
+            "gloss": "on the wall",
+            "transliteration": "patin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կախված",
+            "gloss": "hanging",
+            "transliteration": "kakhvats"
           }
         ]
       }
@@ -2333,17 +2808,12 @@
     "vocab_index": 331,
     "word": "ռադիո",
     "gloss": "radio",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ռադիո օգտագործում է։",
-        "text": "The teacher uses radio.",
+        "target": "ռադիո երաժշտություն է հնչեցնում։",
+        "text": "The radio plays music.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "ռադիո",
             "gloss": "radio",
@@ -2351,15 +2821,25 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "երաժշտություն",
+            "gloss": "music",
+            "transliteration": "erazhshtut'yun"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հնչեցնում",
+            "gloss": "playing",
+            "transliteration": "hnch'ets'num"
           }
         ]
       },
       {
-        "target": "ռադիո պայուսակի մեջ կա։",
-        "text": "The radio is inside the bag.",
+        "target": "ռադիո առավոտյան նորություններ է ասում։",
+        "text": "The radio tells the news in the morning.",
         "words": [
           {
             "word": "ռադիո",
@@ -2368,30 +2848,35 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "նորություններ",
+            "gloss": "news",
+            "transliteration": "norut'yunner"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ասում",
+            "gloss": "saying",
+            "transliteration": "asum"
           }
         ]
       },
       {
-        "target": "ես ռադիո տեսնում եմ։",
-        "text": "I see radio.",
+        "target": "հին ռադիո դեռ աշխատում է։",
+        "text": "The old radio still works.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "հին",
+            "gloss": "old",
+            "transliteration": "hin"
           },
           {
             "word": "ռադիո",
@@ -2400,9 +2885,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "դեռ",
+            "gloss": "still",
+            "transliteration": "derr"
+          },
+          {
+            "word": "աշխատում",
+            "gloss": "works",
+            "transliteration": "ashkhatum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2412,17 +2907,12 @@
     "vocab_index": 332,
     "word": "պայուսակ",
     "gloss": "bag",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա պայուսակ է ուզում։",
-        "text": "The child wants bag.",
+        "target": "պայուսակ ծանր է դարձել։",
+        "text": "The bag has become heavy.",
         "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
           {
             "word": "պայուսակ",
             "gloss": "bag",
@@ -2430,15 +2920,25 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "ծանր",
+            "gloss": "heavy",
+            "transliteration": "tsanr"
+          },
+          {
+            "word": "է",
+            "gloss": "has",
+            "transliteration": "e"
+          },
+          {
+            "word": "դարձել",
+            "gloss": "become",
+            "transliteration": "dardzel"
           }
         ]
       },
       {
-        "target": "պայուսակ տուն կա։",
-        "text": "The bag is at home.",
+        "target": "պայուսակ ուսիս եմ կրում։",
+        "text": "I carry the bag on my shoulder.",
         "words": [
           {
             "word": "պայուսակ",
@@ -2447,25 +2947,30 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "ուսիս",
+            "gloss": "on my shoulder",
+            "transliteration": "usis"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "կրում",
+            "gloss": "carrying",
+            "transliteration": "krum"
           }
         ]
       },
       {
-        "target": "սա պայուսակ լավ է։",
-        "text": "This bag is good.",
+        "target": "դատարկ պայուսակ թեթև է։",
+        "text": "An empty bag is light.",
         "words": [
           {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "դատարկ",
+            "gloss": "empty",
+            "transliteration": "datark"
           },
           {
             "word": "պայուսակ",
@@ -2474,9 +2979,9 @@
             "note": "target"
           },
           {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "թեթև",
+            "gloss": "light",
+            "transliteration": "t'et'ev"
           },
           {
             "word": "է",
@@ -2491,17 +2996,12 @@
     "vocab_index": 333,
     "word": "հագուստ",
     "gloss": "clothes",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես հագուստ եմ ուզում։",
-        "text": "I want clothes.",
+        "target": "հագուստ պահարանում է կախված։",
+        "text": "Clothes hang in the wardrobe.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "հագուստ",
             "gloss": "clothes",
@@ -2509,16 +3009,31 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "պահարանում",
+            "gloss": "in the wardrobe",
+            "transliteration": "paharanum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կախված",
+            "gloss": "hanging",
+            "transliteration": "kakhvats"
           }
         ]
       },
       {
-        "target": "հագուստ սեղանի վրա կա։",
-        "text": "The clothes is on the table.",
+        "target": "մաքուր հագուստ առավոտյան եմ հագնում։",
+        "text": "I put on clean clothes in the morning.",
         "words": [
+          {
+            "word": "մաքուր",
+            "gloss": "clean",
+            "transliteration": "mak'ur"
+          },
           {
             "word": "հագուստ",
             "gloss": "clothes",
@@ -2526,31 +3041,26 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "հագնում",
+            "gloss": "putting on",
+            "transliteration": "hagnum"
           }
         ]
       },
       {
-        "target": "ընկեր հագուստ բերեց։",
-        "text": "A friend brought clothes.",
+        "target": "հագուստ լվացքի մեքենայի մեջ է։",
+        "text": "The clothes are in the washing machine.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "հագուստ",
             "gloss": "clothes",
@@ -2558,9 +3068,24 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "լվացքի",
+            "gloss": "washing",
+            "transliteration": "lvats'k'i"
+          },
+          {
+            "word": "մեքենայի",
+            "gloss": "machine's",
+            "transliteration": "mek'enayi"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2570,17 +3095,12 @@
     "vocab_index": 334,
     "word": "կոշիկ",
     "gloss": "shoes",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ կոշիկ օգտագործում է։",
-        "text": "The teacher uses shoes.",
+        "target": "կոշիկ դռան մոտ է դրված։",
+        "text": "The shoes are placed by the door.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "կոշիկ",
             "gloss": "shoes",
@@ -2588,16 +3108,36 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "դռան",
+            "gloss": "door's",
+            "transliteration": "drran"
+          },
+          {
+            "word": "մոտ",
+            "gloss": "near",
+            "transliteration": "mot"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "դրված",
+            "gloss": "placed",
+            "transliteration": "drvats"
           }
         ]
       },
       {
-        "target": "կոշիկ պայուսակի մեջ կա։",
-        "text": "The shoes is inside the bag.",
+        "target": "նոր կոշիկ ոտքս է սեղմում։",
+        "text": "New shoes pinch my feet.",
         "words": [
+          {
+            "word": "նոր",
+            "gloss": "new",
+            "transliteration": "nor"
+          },
           {
             "word": "կոշիկ",
             "gloss": "shoes",
@@ -2605,31 +3145,26 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "ոտքս",
+            "gloss": "my feet",
+            "transliteration": "otk's"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "սեղմում",
+            "gloss": "pinching",
+            "transliteration": "seghmum"
           }
         ]
       },
       {
-        "target": "ես կոշիկ տեսնում եմ։",
-        "text": "I see shoes.",
+        "target": "կոշիկ ցեխից մաքրիր։",
+        "text": "Clean the shoes of mud.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "կոշիկ",
             "gloss": "shoes",
@@ -2637,9 +3172,14 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "ցեխից",
+            "gloss": "from mud",
+            "transliteration": "ts'ekhits'"
+          },
+          {
+            "word": "մաքրիր",
+            "gloss": "clean",
+            "transliteration": "mak'rir"
           }
         ]
       }
@@ -2649,33 +3189,11 @@
     "vocab_index": 335,
     "word": "գլխարկ",
     "gloss": "hat",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա գլխարկ է ուզում։",
-        "text": "The child wants hat.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "գլխարկ",
-            "gloss": "hat",
-            "transliteration": "glkhark",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "գլխարկ տուն կա։",
-        "text": "The hat is at home.",
+        "target": "գլխարկ արևից է պաշտպանում։",
+        "text": "A hat protects from the sun.",
         "words": [
           {
             "word": "գլխարկ",
@@ -2684,41 +3202,78 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա գլխարկ լավ է։",
-        "text": "This hat is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "գլխարկ",
-            "gloss": "hat",
-            "transliteration": "glkhark",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "արևից",
+            "gloss": "from the sun",
+            "transliteration": "arevits'"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "պաշտպանում",
+            "gloss": "protecting",
+            "transliteration": "pashtpanum"
+          }
+        ]
+      },
+      {
+        "target": "տաք գլխարկ ձմռանը է պետք։",
+        "text": "A warm hat is needed in winter.",
+        "words": [
+          {
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
+          },
+          {
+            "word": "գլխարկ",
+            "gloss": "hat",
+            "transliteration": "glkhark",
+            "note": "target"
+          },
+          {
+            "word": "ձմռանը",
+            "gloss": "in winter",
+            "transliteration": "dzmrrany"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պետք",
+            "gloss": "needed",
+            "transliteration": "petk'"
+          }
+        ]
+      },
+      {
+        "target": "գլխարկ գլխից հանիր ներսում։",
+        "text": "Take the hat off indoors.",
+        "words": [
+          {
+            "word": "գլխարկ",
+            "gloss": "hat",
+            "transliteration": "glkhark",
+            "note": "target"
+          },
+          {
+            "word": "գլխից",
+            "gloss": "from the head",
+            "transliteration": "glkhits'"
+          },
+          {
+            "word": "հանիր",
+            "gloss": "take off",
+            "transliteration": "hanir"
+          },
+          {
+            "word": "ներսում",
+            "gloss": "indoors",
+            "transliteration": "nersum"
           }
         ]
       }
@@ -2728,17 +3283,12 @@
     "vocab_index": 336,
     "word": "վերնաշապիկ",
     "gloss": "shirt",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես վերնաշապիկ եմ ուզում։",
-        "text": "I want shirt.",
+        "target": "վերնաշապիկ կոճակներ ունի։",
+        "text": "The shirt has buttons.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "վերնաշապիկ",
             "gloss": "shirt",
@@ -2746,16 +3296,26 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "կոճակներ",
+            "gloss": "buttons",
+            "transliteration": "kochakner"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "վերնաշապիկ սեղանի վրա կա։",
-        "text": "The shirt is on the table.",
+        "target": "սպիտակ վերնաշապիկ մաքուր է։",
+        "text": "The white shirt is clean.",
         "words": [
+          {
+            "word": "սպիտակ",
+            "gloss": "white",
+            "transliteration": "spitak"
+          },
           {
             "word": "վերնաշապիկ",
             "gloss": "shirt",
@@ -2763,31 +3323,21 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "մաքուր",
+            "gloss": "clean",
+            "transliteration": "mak'ur"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ընկեր վերնաշապիկ բերեց։",
-        "text": "A friend brought shirt.",
+        "target": "վերնաշապիկ արդուկիր խնամքով։",
+        "text": "Iron the shirt carefully.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "վերնաշապիկ",
             "gloss": "shirt",
@@ -2795,9 +3345,14 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "արդուկիր",
+            "gloss": "iron",
+            "transliteration": "ardukir"
+          },
+          {
+            "word": "խնամքով",
+            "gloss": "carefully",
+            "transliteration": "khnamk'ov"
           }
         ]
       }
@@ -2807,17 +3362,12 @@
     "vocab_index": 337,
     "word": "տաբատ",
     "gloss": "pants",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ տաբատ օգտագործում է։",
-        "text": "The teacher uses pants.",
+        "target": "տաբատ պահարանից հանիր։",
+        "text": "Take the pants out of the wardrobe.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "տաբատ",
             "gloss": "pants",
@@ -2825,16 +3375,26 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "պահարանից",
+            "gloss": "from the wardrobe",
+            "transliteration": "paharanits'"
+          },
+          {
+            "word": "հանիր",
+            "gloss": "take out",
+            "transliteration": "hanir"
           }
         ]
       },
       {
-        "target": "տաբատ պայուսակի մեջ կա։",
-        "text": "The pants is inside the bag.",
+        "target": "կապույտ տաբատ ոտքիս է երկար։",
+        "text": "The blue pants are long on me.",
         "words": [
+          {
+            "word": "կապույտ",
+            "gloss": "blue",
+            "transliteration": "kapuyt"
+          },
           {
             "word": "տաբատ",
             "gloss": "pants",
@@ -2842,31 +3402,26 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "ոտքիս",
+            "gloss": "on my legs",
+            "transliteration": "otk'is"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "երկար",
+            "gloss": "long",
+            "transliteration": "erkar"
           }
         ]
       },
       {
-        "target": "ես տաբատ տեսնում եմ։",
-        "text": "I see pants.",
+        "target": "տաբատ գոտի է պահանջում։",
+        "text": "Pants need a belt.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "տաբատ",
             "gloss": "pants",
@@ -2874,9 +3429,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "գոտի",
+            "gloss": "belt",
+            "transliteration": "goti"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահանջում",
+            "gloss": "requiring",
+            "transliteration": "pahanjum"
           }
         ]
       }
@@ -2886,33 +3451,11 @@
     "vocab_index": 338,
     "word": "զգեստ",
     "gloss": "dress",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա զգեստ է ուզում։",
-        "text": "The child wants dress.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "զգեստ",
-            "gloss": "dress",
-            "transliteration": "zgest",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "զգեստ տուն կա։",
-        "text": "The dress is at home.",
+        "target": "զգեստ տոնի համար է կարած։",
+        "text": "The dress is sewn for a holiday.",
         "words": [
           {
             "word": "զգեստ",
@@ -2921,41 +3464,83 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "տոնի",
+            "gloss": "holiday's",
+            "transliteration": "toni"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա զգեստ լավ է։",
-        "text": "This dress is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "զգեստ",
-            "gloss": "dress",
-            "transliteration": "zgest",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "կարած",
+            "gloss": "sewn",
+            "transliteration": "karats"
+          }
+        ]
+      },
+      {
+        "target": "կարմիր զգեստ շատ է սազում։",
+        "text": "The red dress suits her well.",
+        "words": [
+          {
+            "word": "կարմիր",
+            "gloss": "red",
+            "transliteration": "karmir"
+          },
+          {
+            "word": "զգեստ",
+            "gloss": "dress",
+            "transliteration": "zgest",
+            "note": "target"
+          },
+          {
+            "word": "շատ",
+            "gloss": "very",
+            "transliteration": "shat"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սազում",
+            "gloss": "suiting",
+            "transliteration": "sazum"
+          }
+        ]
+      },
+      {
+        "target": "զգեստ հայելու դիմաց փորձիր։",
+        "text": "Try on the dress in front of the mirror.",
+        "words": [
+          {
+            "word": "զգեստ",
+            "gloss": "dress",
+            "transliteration": "zgest",
+            "note": "target"
+          },
+          {
+            "word": "հայելու",
+            "gloss": "mirror's",
+            "transliteration": "hayelu"
+          },
+          {
+            "word": "դիմաց",
+            "gloss": "in front",
+            "transliteration": "dimats'"
+          },
+          {
+            "word": "փորձիր",
+            "gloss": "try on",
+            "transliteration": "p'ordzir"
           }
         ]
       }
@@ -2965,17 +3550,12 @@
     "vocab_index": 339,
     "word": "բաճկոն",
     "gloss": "jacket",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես բաճկոն եմ ուզում։",
-        "text": "I want jacket.",
+        "target": "բաճկոն աշնանը է տաքացնում։",
+        "text": "A jacket warms you in autumn.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "բաճկոն",
             "gloss": "jacket",
@@ -2983,16 +3563,31 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "աշնանը",
+            "gloss": "in autumn",
+            "transliteration": "ashnany"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տաքացնում",
+            "gloss": "warming",
+            "transliteration": "tak'ats'num"
           }
         ]
       },
       {
-        "target": "բաճկոն սեղանի վրա կա։",
-        "text": "The jacket is on the table.",
+        "target": "թեթև բաճկոն զով երեկոյին է հերիք։",
+        "text": "A light jacket is enough on a cool evening.",
         "words": [
+          {
+            "word": "թեթև",
+            "gloss": "light",
+            "transliteration": "t'et'ev"
+          },
           {
             "word": "բաճկոն",
             "gloss": "jacket",
@@ -3000,31 +3595,31 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "զով",
+            "gloss": "cool",
+            "transliteration": "zov"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "երեկոյին",
+            "gloss": "in the evening",
+            "transliteration": "erekoyin"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հերիք",
+            "gloss": "enough",
+            "transliteration": "herik'"
           }
         ]
       },
       {
-        "target": "ընկեր բաճկոն բերեց։",
-        "text": "A friend brought jacket.",
+        "target": "բաճկոն կախիչից վերցրու։",
+        "text": "Take the jacket from the hanger.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "բաճկոն",
             "gloss": "jacket",
@@ -3032,9 +3627,14 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "կախիչից",
+            "gloss": "from the hanger",
+            "transliteration": "kakhich'its'"
+          },
+          {
+            "word": "վերցրու",
+            "gloss": "take",
+            "transliteration": "verts'ru"
           }
         ]
       }
@@ -3044,17 +3644,12 @@
     "vocab_index": 340,
     "word": "փող",
     "gloss": "money",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ փող օգտագործում է։",
-        "text": "The teacher uses money.",
+        "target": "փող դրամապանակում եմ պահում։",
+        "text": "I keep money in the wallet.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "փող",
             "gloss": "money",
@@ -3062,16 +3657,31 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "դրամապանակում",
+            "gloss": "in the wallet",
+            "transliteration": "dramapanakum"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "պահում",
+            "gloss": "keeping",
+            "transliteration": "pahum"
           }
         ]
       },
       {
-        "target": "փող պայուսակի մեջ կա։",
-        "text": "The money is inside the bag.",
+        "target": "բավարար փող տոմսի համար ունեմ։",
+        "text": "I have enough money for a ticket.",
         "words": [
+          {
+            "word": "բավարար",
+            "gloss": "enough",
+            "transliteration": "bavarar"
+          },
           {
             "word": "փող",
             "gloss": "money",
@@ -3079,31 +3689,26 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "տոմսի",
+            "gloss": "ticket's",
+            "transliteration": "tomsi"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ունեմ",
+            "gloss": "I have",
+            "transliteration": "unem"
           }
         ]
       },
       {
-        "target": "ես փող տեսնում եմ։",
-        "text": "I see money.",
+        "target": "փող խնայել է պետք։",
+        "text": "It is necessary to save money.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "փող",
             "gloss": "money",
@@ -3111,9 +3716,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "խնայել",
+            "gloss": "to save",
+            "transliteration": "khnayel"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պետք",
+            "gloss": "necessary",
+            "transliteration": "petk'"
           }
         ]
       }
@@ -3123,33 +3738,11 @@
     "vocab_index": 341,
     "word": "դրամ",
     "gloss": "dram",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա դրամ է ուզում։",
-        "text": "The child wants dram.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "դրամ",
-            "gloss": "dram",
-            "transliteration": "dram",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "դրամ տուն կա։",
-        "text": "The dram is at home.",
+        "target": "դրամ Հայաստանի արժույթն է։",
+        "text": "The dram is Armenia's currency.",
         "words": [
           {
             "word": "դրամ",
@@ -3158,41 +3751,83 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "Հայաստանի",
+            "gloss": "Armenia's",
+            "transliteration": "hayastani"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա դրամ լավ է։",
-        "text": "This dram is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "դրամ",
-            "gloss": "dram",
-            "transliteration": "dram",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "արժույթն",
+            "gloss": "the currency",
+            "transliteration": "arzhuyt'n"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "հինգ հազար դրամ եմ վճարել։",
+        "text": "I paid five thousand dram.",
+        "words": [
+          {
+            "word": "հինգ",
+            "gloss": "five",
+            "transliteration": "hing"
+          },
+          {
+            "word": "հազար",
+            "gloss": "thousand",
+            "transliteration": "hazar"
+          },
+          {
+            "word": "դրամ",
+            "gloss": "dram",
+            "transliteration": "dram",
+            "note": "target"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I have",
+            "transliteration": "em"
+          },
+          {
+            "word": "վճարել",
+            "gloss": "paid",
+            "transliteration": "vcharel"
+          }
+        ]
+      },
+      {
+        "target": "դրամ մետաղադրամ և թղթադրամ ունի։",
+        "text": "The dram has coins and banknotes.",
+        "words": [
+          {
+            "word": "դրամ",
+            "gloss": "dram",
+            "transliteration": "dram",
+            "note": "target"
+          },
+          {
+            "word": "մետաղադրամ",
+            "gloss": "coin",
+            "transliteration": "metaghadram"
+          },
+          {
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "թղթադրամ",
+            "gloss": "banknote",
+            "transliteration": "t'ght'adram"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       }
@@ -3202,17 +3837,12 @@
     "vocab_index": 342,
     "word": "տոմս",
     "gloss": "ticket",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես տոմս եմ ուզում։",
-        "text": "I want ticket.",
+        "target": "տոմս կայարանում եմ գնել։",
+        "text": "I bought the ticket at the station.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "տոմս",
             "gloss": "ticket",
@@ -3220,16 +3850,31 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "կայարանում",
+            "gloss": "at the station",
+            "transliteration": "kayaranum"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I have",
+            "transliteration": "em"
+          },
+          {
+            "word": "գնել",
+            "gloss": "bought",
+            "transliteration": "gnel"
           }
         ]
       },
       {
-        "target": "տոմս սեղանի վրա կա։",
-        "text": "The ticket is on the table.",
+        "target": "էժան տոմս դժվար է գտնել։",
+        "text": "A cheap ticket is hard to find.",
         "words": [
+          {
+            "word": "էժան",
+            "gloss": "cheap",
+            "transliteration": "ezhan"
+          },
           {
             "word": "տոմս",
             "gloss": "ticket",
@@ -3237,31 +3882,26 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "դժվար",
+            "gloss": "hard",
+            "transliteration": "dzhvar"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "գտնել",
+            "gloss": "to find",
+            "transliteration": "gtnel"
           }
         ]
       },
       {
-        "target": "ընկեր տոմս բերեց։",
-        "text": "A friend brought ticket.",
+        "target": "տոմս վերահսկիչին ցույց տուր։",
+        "text": "Show the ticket to the conductor.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "տոմս",
             "gloss": "ticket",
@@ -3269,9 +3909,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "վերահսկիչին",
+            "gloss": "to the conductor",
+            "transliteration": "verahskich'in"
+          },
+          {
+            "word": "ցույց",
+            "gloss": "show",
+            "transliteration": "ts'uyts'"
+          },
+          {
+            "word": "տուր",
+            "gloss": "give",
+            "transliteration": "tur"
           }
         ]
       }
@@ -3281,17 +3931,12 @@
     "vocab_index": 343,
     "word": "քարտեզ",
     "gloss": "map",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ քարտեզ օգտագործում է։",
-        "text": "The teacher uses map.",
+        "target": "քարտեզ ճանապարհը է ցույց տալիս։",
+        "text": "The map shows the road.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "քարտեզ",
             "gloss": "map",
@@ -3299,15 +3944,30 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "ճանապարհը",
+            "gloss": "the road",
+            "transliteration": "chanaparhy"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ցույց",
+            "gloss": "show",
+            "transliteration": "ts'uyts'"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       },
       {
-        "target": "քարտեզ պայուսակի մեջ կա։",
-        "text": "The map is inside the bag.",
+        "target": "քարտեզ սեղանին բացիր։",
+        "text": "Open the map on the table.",
         "words": [
           {
             "word": "քարտեզ",
@@ -3316,30 +3976,25 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "սեղանին",
+            "gloss": "on the table",
+            "transliteration": "seghanin"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "բացիր",
+            "gloss": "open",
+            "transliteration": "bats'ir"
           }
         ]
       },
       {
-        "target": "ես քարտեզ տեսնում եմ։",
-        "text": "I see map.",
+        "target": "հին քարտեզ թանգարանում է պահվում։",
+        "text": "An old map is kept in the museum.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "հին",
+            "gloss": "old",
+            "transliteration": "hin"
           },
           {
             "word": "քարտեզ",
@@ -3348,9 +4003,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "թանգարանում",
+            "gloss": "in the museum",
+            "transliteration": "t'angaranum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահվում",
+            "gloss": "kept",
+            "transliteration": "pahvum"
           }
         ]
       }
@@ -3360,17 +4025,12 @@
     "vocab_index": 344,
     "word": "նվեր",
     "gloss": "gift",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա նվեր է ուզում։",
-        "text": "The child wants gift.",
+        "target": "նվեր ծննդյան համար եմ փաթաթել։",
+        "text": "I wrapped a gift for the birthday.",
         "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
           {
             "word": "նվեր",
             "gloss": "gift",
@@ -3378,42 +4038,35 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "ծննդյան",
+            "gloss": "birthday's",
+            "transliteration": "tsnndyan"
+          },
+          {
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I have",
+            "transliteration": "em"
+          },
+          {
+            "word": "փաթաթել",
+            "gloss": "wrapped",
+            "transliteration": "p'at'at'el"
           }
         ]
       },
       {
-        "target": "նվեր տուն կա։",
-        "text": "The gift is at home.",
+        "target": "փոքր նվեր սրտից է գալիս։",
+        "text": "A small gift comes from the heart.",
         "words": [
           {
-            "word": "նվեր",
-            "gloss": "gift",
-            "transliteration": "nver",
-            "note": "target"
-          },
-          {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա նվեր լավ է։",
-        "text": "This gift is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "փոքր",
+            "gloss": "small",
+            "transliteration": "p'ok'r"
           },
           {
             "word": "նվեր",
@@ -3422,14 +4075,46 @@
             "note": "target"
           },
           {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "սրտից",
+            "gloss": "from the heart",
+            "transliteration": "srtits'"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "գալիս",
+            "gloss": "coming",
+            "transliteration": "galis"
+          }
+        ]
+      },
+      {
+        "target": "նվեր տուփի մեջ դրի։",
+        "text": "Put the gift in the box.",
+        "words": [
+          {
+            "word": "նվեր",
+            "gloss": "gift",
+            "transliteration": "nver",
+            "note": "target"
+          },
+          {
+            "word": "տուփի",
+            "gloss": "box's",
+            "transliteration": "tup'i"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          },
+          {
+            "word": "դրի",
+            "gloss": "put",
+            "transliteration": "dri"
           }
         ]
       }
@@ -3439,17 +4124,12 @@
     "vocab_index": 345,
     "word": "արկղ",
     "gloss": "box",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես արկղ եմ ուզում։",
-        "text": "I want box.",
+        "target": "արկղ ծանր է բարձրացնել։",
+        "text": "The box is heavy to lift.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "արկղ",
             "gloss": "box",
@@ -3457,16 +4137,31 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "ծանր",
+            "gloss": "heavy",
+            "transliteration": "tsanr"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բարձրացնել",
+            "gloss": "to lift",
+            "transliteration": "bardzrats'nel"
           }
         ]
       },
       {
-        "target": "արկղ սեղանի վրա կա։",
-        "text": "The box is on the table.",
+        "target": "փայտե արկղ նկուղում է պահվում։",
+        "text": "A wooden box is kept in the cellar.",
         "words": [
+          {
+            "word": "փայտե",
+            "gloss": "wooden",
+            "transliteration": "p'ayte"
+          },
           {
             "word": "արկղ",
             "gloss": "box",
@@ -3474,31 +4169,26 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "նկուղում",
+            "gloss": "in the cellar",
+            "transliteration": "nkughum"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "պահվում",
+            "gloss": "kept",
+            "transliteration": "pahvum"
           }
         ]
       },
       {
-        "target": "ընկեր արկղ բերեց։",
-        "text": "A friend brought box.",
+        "target": "արկղ գործիքներով է լի։",
+        "text": "The box is full of tools.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "արկղ",
             "gloss": "box",
@@ -3506,9 +4196,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "գործիքներով",
+            "gloss": "with tools",
+            "transliteration": "gortsik'nerov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լի",
+            "gloss": "full",
+            "transliteration": "li"
           }
         ]
       }
@@ -3518,17 +4218,12 @@
     "vocab_index": 346,
     "word": "օճառ",
     "gloss": "soap",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ օճառ օգտագործում է։",
-        "text": "The teacher uses soap.",
+        "target": "օճառ ձեռքերը է մաքրում։",
+        "text": "Soap cleans the hands.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "օճառ",
             "gloss": "soap",
@@ -3536,16 +4231,31 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "ձեռքերը",
+            "gloss": "the hands",
+            "transliteration": "dzerrk'ery"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "մաքրում",
+            "gloss": "cleaning",
+            "transliteration": "mak'rum"
           }
         ]
       },
       {
-        "target": "օճառ պայուսակի մեջ կա։",
-        "text": "The soap is inside the bag.",
+        "target": "բուրավետ օճառ լոգարանում է։",
+        "text": "Fragrant soap is in the bathroom.",
         "words": [
+          {
+            "word": "բուրավետ",
+            "gloss": "fragrant",
+            "transliteration": "buravet"
+          },
           {
             "word": "օճառ",
             "gloss": "soap",
@@ -3553,31 +4263,21 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "լոգարանում",
+            "gloss": "in the bathroom",
+            "transliteration": "logaranum"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ես օճառ տեսնում եմ։",
-        "text": "I see soap.",
+        "target": "օճառ ջրով լվա։",
+        "text": "Wash with soap and water.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "օճառ",
             "gloss": "soap",
@@ -3585,9 +4285,14 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "ջրով",
+            "gloss": "with water",
+            "transliteration": "jrov"
+          },
+          {
+            "word": "լվա",
+            "gloss": "wash",
+            "transliteration": "lva"
           }
         ]
       }
@@ -3597,33 +4302,11 @@
     "vocab_index": 347,
     "word": "սրբիչ",
     "gloss": "towel",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա սրբիչ է ուզում։",
-        "text": "The child wants towel.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "սրբիչ",
-            "gloss": "towel",
-            "transliteration": "srbich'",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "սրբիչ տուն կա։",
-        "text": "The towel is at home.",
+        "target": "սրբիչ լոգանքից հետո է պետք։",
+        "text": "A towel is needed after a bath.",
         "words": [
           {
             "word": "սրբիչ",
@@ -3632,41 +4315,78 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
+            "word": "լոգանքից",
+            "gloss": "from a bath",
+            "transliteration": "logank'its'"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա սրբիչ լավ է։",
-        "text": "This towel is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "սրբիչ",
-            "gloss": "towel",
-            "transliteration": "srbich'",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "հետո",
+            "gloss": "after",
+            "transliteration": "heto"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "պետք",
+            "gloss": "needed",
+            "transliteration": "petk'"
+          }
+        ]
+      },
+      {
+        "target": "փափուկ սրբիչ մարմինը է չորացնում։",
+        "text": "A soft towel dries the body.",
+        "words": [
+          {
+            "word": "փափուկ",
+            "gloss": "soft",
+            "transliteration": "p'ap'uk"
+          },
+          {
+            "word": "սրբիչ",
+            "gloss": "towel",
+            "transliteration": "srbich'",
+            "note": "target"
+          },
+          {
+            "word": "մարմինը",
+            "gloss": "the body",
+            "transliteration": "marminy"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "չորացնում",
+            "gloss": "drying",
+            "transliteration": "ch'orats'num"
+          }
+        ]
+      },
+      {
+        "target": "սրբիչ կախիչից վերցրու։",
+        "text": "Take the towel from the hanger.",
+        "words": [
+          {
+            "word": "սրբիչ",
+            "gloss": "towel",
+            "transliteration": "srbich'",
+            "note": "target"
+          },
+          {
+            "word": "կախիչից",
+            "gloss": "from the hanger",
+            "transliteration": "kakhich'its'"
+          },
+          {
+            "word": "վերցրու",
+            "gloss": "take",
+            "transliteration": "verts'ru"
           }
         ]
       }
@@ -3676,17 +4396,12 @@
     "vocab_index": 348,
     "word": "հայելի",
     "gloss": "mirror",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես հայելի եմ ուզում։",
-        "text": "I want mirror.",
+        "target": "հայելի պատին է կախված։",
+        "text": "The mirror hangs on the wall.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "հայելի",
             "gloss": "mirror",
@@ -3694,15 +4409,25 @@
             "note": "target"
           },
           {
-            "word": "եմ ուզում",
-            "gloss": "I want",
-            "transliteration": "em uzum"
+            "word": "պատին",
+            "gloss": "on the wall",
+            "transliteration": "patin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կախված",
+            "gloss": "hanging",
+            "transliteration": "kakhvats"
           }
         ]
       },
       {
-        "target": "հայելի սեղանի վրա կա։",
-        "text": "The mirror is on the table.",
+        "target": "հայելի դեմքս է ցույց տալիս։",
+        "text": "The mirror shows my face.",
         "words": [
           {
             "word": "հայելի",
@@ -3711,30 +4436,35 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "դեմքս",
+            "gloss": "my face",
+            "transliteration": "demk's"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ցույց",
+            "gloss": "show",
+            "transliteration": "ts'uyts'"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       },
       {
-        "target": "ընկեր հայելի բերեց։",
-        "text": "A friend brought mirror.",
+        "target": "կլոր հայելի սեղանին է կանգնած։",
+        "text": "A round mirror stands on the table.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "կլոր",
+            "gloss": "round",
+            "transliteration": "klor"
           },
           {
             "word": "հայելի",
@@ -3743,9 +4473,19 @@
             "note": "target"
           },
           {
-            "word": "բերեց",
-            "gloss": "brought",
-            "transliteration": "berets'"
+            "word": "սեղանին",
+            "gloss": "on the table",
+            "transliteration": "seghanin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կանգնած",
+            "gloss": "standing",
+            "transliteration": "kangnats"
           }
         ]
       }
@@ -3755,17 +4495,12 @@
     "vocab_index": 349,
     "word": "բաժակ",
     "gloss": "cup",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ բաժակ օգտագործում է։",
-        "text": "The teacher uses cup.",
+        "target": "բաժակ թեյով է լցված։",
+        "text": "The cup is filled with tea.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "բաժակ",
             "gloss": "cup",
@@ -3773,16 +4508,31 @@
             "note": "target"
           },
           {
-            "word": "օգտագործում է",
-            "gloss": "uses",
-            "transliteration": "ogtagortsum e"
+            "word": "թեյով",
+            "gloss": "with tea",
+            "transliteration": "t'eyov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լցված",
+            "gloss": "filled",
+            "transliteration": "lts'vats"
           }
         ]
       },
       {
-        "target": "բաժակ պայուսակի մեջ կա։",
-        "text": "The cup is inside the bag.",
+        "target": "կավե բաժակ ձեռքիս է տաք։",
+        "text": "The clay cup is warm in my hand.",
         "words": [
+          {
+            "word": "կավե",
+            "gloss": "clay",
+            "transliteration": "kave"
+          },
           {
             "word": "բաժակ",
             "gloss": "cup",
@@ -3790,31 +4540,26 @@
             "note": "target"
           },
           {
-            "word": "պայուսակի",
-            "gloss": "bag",
-            "transliteration": "payusaki"
+            "word": "ձեռքիս",
+            "gloss": "in my hand",
+            "transliteration": "dzerrk'is"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
           }
         ]
       },
       {
-        "target": "ես բաժակ տեսնում եմ։",
-        "text": "I see cup.",
+        "target": "բաժակ լվացարանի մոտ դրի։",
+        "text": "Put the cup by the sink.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "բաժակ",
             "gloss": "cup",
@@ -3822,9 +4567,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "լվացարանի",
+            "gloss": "sink's",
+            "transliteration": "lvats'arani"
+          },
+          {
+            "word": "մոտ",
+            "gloss": "near",
+            "transliteration": "mot"
+          },
+          {
+            "word": "դրի",
+            "gloss": "put",
+            "transliteration": "dri"
           }
         ]
       }
@@ -3834,33 +4589,11 @@
     "vocab_index": 350,
     "word": "ափսե",
     "gloss": "plate",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեխա ափսե է ուզում։",
-        "text": "The child wants plate.",
-        "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
-          {
-            "word": "ափսե",
-            "gloss": "plate",
-            "transliteration": "ap'se",
-            "note": "target"
-          },
-          {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
-          }
-        ]
-      },
-      {
-        "target": "ափսե տուն կա։",
-        "text": "The plate is at home.",
+        "target": "ափսե սեղանին է դրված։",
+        "text": "The plate is set on the table.",
         "words": [
           {
             "word": "ափսե",
@@ -3869,41 +4602,78 @@
             "note": "target"
           },
           {
-            "word": "տուն",
-            "gloss": "home",
-            "transliteration": "tun"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "սա ափսե լավ է։",
-        "text": "This plate is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "ափսե",
-            "gloss": "plate",
-            "transliteration": "ap'se",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "սեղանին",
+            "gloss": "on the table",
+            "transliteration": "seghanin"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "դրված",
+            "gloss": "set",
+            "transliteration": "drvats"
+          }
+        ]
+      },
+      {
+        "target": "խոր ափսե ապուրի համար է։",
+        "text": "A deep plate is for soup.",
+        "words": [
+          {
+            "word": "խոր",
+            "gloss": "deep",
+            "transliteration": "khor"
+          },
+          {
+            "word": "ափսե",
+            "gloss": "plate",
+            "transliteration": "ap'se",
+            "note": "target"
+          },
+          {
+            "word": "ապուրի",
+            "gloss": "soup's",
+            "transliteration": "apuri"
+          },
+          {
+            "word": "համար",
+            "gloss": "for",
+            "transliteration": "hamar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "ափսե լվա ու չորացրու։",
+        "text": "Wash the plate and dry it.",
+        "words": [
+          {
+            "word": "ափսե",
+            "gloss": "plate",
+            "transliteration": "ap'se",
+            "note": "target"
+          },
+          {
+            "word": "լվա",
+            "gloss": "wash",
+            "transliteration": "lva"
+          },
+          {
+            "word": "ու",
+            "gloss": "and",
+            "transliteration": "u"
+          },
+          {
+            "word": "չորացրու",
+            "gloss": "dry",
+            "transliteration": "ch'orats'ru"
           }
         ]
       }
