@@ -3,17 +3,12 @@
     "vocab_index": 251,
     "word": "ռեստորան",
     "gloss": "restaurant",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր ռեստորան սպասում է։",
-        "text": "A friend waits at the restaurant.",
+        "target": "ռեստորան երեկոյան լի է հաճախորդներով։",
+        "text": "The restaurant is full of customers in the evening.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "ռեստորան",
             "gloss": "restaurant",
@@ -21,42 +16,30 @@
             "note": "target"
           },
           {
-            "word": "սպասում է",
-            "gloss": "waits at",
-            "transliteration": "spasum e"
-          }
-        ]
-      },
-      {
-        "target": "սա ռեստորան լավ է։",
-        "text": "This restaurant is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           },
           {
-            "word": "ռեստորան",
-            "gloss": "restaurant",
-            "transliteration": "rrestoran",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "լի",
+            "gloss": "full",
+            "transliteration": "li"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "հաճախորդներով",
+            "gloss": "with customers",
+            "transliteration": "hachakhordnerov"
           }
         ]
       },
       {
-        "target": "ռեստորան շուկա մոտ կա։",
-        "text": "The restaurant is near the market.",
+        "target": "ռեստորան հայկական ուտեստներ է մատուցում։",
+        "text": "The restaurant serves Armenian dishes.",
         "words": [
           {
             "word": "ռեստորան",
@@ -65,19 +48,56 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "հայկական",
+            "gloss": "Armenian",
+            "transliteration": "haykakan"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "ուտեստներ",
+            "gloss": "dishes",
+            "transliteration": "utestner"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "մատուցում",
+            "gloss": "serving",
+            "transliteration": "matuts'um"
+          }
+        ]
+      },
+      {
+        "target": "նոր ռեստորան գետի ափին բացվեց։",
+        "text": "A new restaurant opened by the river.",
+        "words": [
+          {
+            "word": "նոր",
+            "gloss": "new",
+            "transliteration": "nor"
+          },
+          {
+            "word": "ռեստորան",
+            "gloss": "restaurant",
+            "transliteration": "rrestoran",
+            "note": "target"
+          },
+          {
+            "word": "գետի",
+            "gloss": "river's",
+            "transliteration": "geti"
+          },
+          {
+            "word": "ափին",
+            "gloss": "on the bank",
+            "transliteration": "ap'in"
+          },
+          {
+            "word": "բացվեց",
+            "gloss": "opened",
+            "transliteration": "bats'vets'"
           }
         ]
       }
@@ -87,17 +107,12 @@
     "vocab_index": 252,
     "word": "սրճարան",
     "gloss": "cafe",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես սրճարան եմ գնում։",
-        "text": "I go to the cafe.",
+        "target": "սրճարան լավ սուրճ է եփում։",
+        "text": "The cafe brews good coffee.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "սրճարան",
             "gloss": "cafe",
@@ -105,21 +120,41 @@
             "note": "target"
           },
           {
-            "word": "եմ գնում",
-            "gloss": "I go",
-            "transliteration": "em gnum"
+            "word": "լավ",
+            "gloss": "good",
+            "transliteration": "lav"
+          },
+          {
+            "word": "սուրճ",
+            "gloss": "coffee",
+            "transliteration": "surch"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "եփում",
+            "gloss": "brewing",
+            "transliteration": "ep'um"
           }
         ]
       },
       {
-        "target": "սրճարան մոտ է։",
-        "text": "The cafe is near.",
+        "target": "սրճարան պատուհանի մոտ սեղաններ ունի։",
+        "text": "The cafe has tables by the window.",
         "words": [
           {
             "word": "սրճարան",
             "gloss": "cafe",
             "transliteration": "srcharan",
             "note": "target"
+          },
+          {
+            "word": "պատուհանի",
+            "gloss": "window's",
+            "transliteration": "patuhani"
           },
           {
             "word": "մոտ",
@@ -127,20 +162,25 @@
             "transliteration": "mot"
           },
           {
-            "word": "է",
-            "gloss": "is",
-            "transliteration": "e"
+            "word": "սեղաններ",
+            "gloss": "tables",
+            "transliteration": "seghanner"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "ընկեր սրճարան մեջ կա։",
-        "text": "A friend is inside the cafe.",
+        "target": "ընկերներս սրճարան հավաքվեցին։",
+        "text": "My friends gathered at the cafe.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "ընկերներս",
+            "gloss": "my friends",
+            "transliteration": "ynkerners"
           },
           {
             "word": "սրճարան",
@@ -149,14 +189,9 @@
             "note": "target"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "հավաքվեցին",
+            "gloss": "gathered",
+            "transliteration": "havak'vets'in"
           }
         ]
       }
@@ -166,17 +201,12 @@
     "vocab_index": 253,
     "word": "թանգարան",
     "gloss": "museum",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ թանգարան գնում է։",
-        "text": "The teacher goes to the museum.",
+        "target": "թանգարան հին իրեր է ցուցադրում։",
+        "text": "The museum displays old objects.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "թանգարան",
             "gloss": "museum",
@@ -184,15 +214,30 @@
             "note": "target"
           },
           {
-            "word": "գնում է",
-            "gloss": "goes",
-            "transliteration": "gnum e"
+            "word": "հին",
+            "gloss": "old",
+            "transliteration": "hin"
+          },
+          {
+            "word": "իրեր",
+            "gloss": "objects",
+            "transliteration": "irer"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "ցուցադրում",
+            "gloss": "displaying",
+            "transliteration": "ts'uts'adrum"
           }
         ]
       },
       {
-        "target": "թանգարան ճանապարհի մոտ կա։",
-        "text": "The museum is near the road.",
+        "target": "թանգարան կիրակի անվճար է։",
+        "text": "The museum is free on Sunday.",
         "words": [
           {
             "word": "թանգարան",
@@ -201,9 +246,41 @@
             "note": "target"
           },
           {
-            "word": "ճանապարհի",
-            "gloss": "road",
-            "transliteration": "chanaparhi"
+            "word": "կիրակի",
+            "gloss": "Sunday",
+            "transliteration": "kiraki"
+          },
+          {
+            "word": "անվճար",
+            "gloss": "free",
+            "transliteration": "anvchar"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          }
+        ]
+      },
+      {
+        "target": "ազգային թանգարան հրապարակի մոտ է։",
+        "text": "The national museum is near the square.",
+        "words": [
+          {
+            "word": "ազգային",
+            "gloss": "national",
+            "transliteration": "azgayin"
+          },
+          {
+            "word": "թանգարան",
+            "gloss": "museum",
+            "transliteration": "t'angaran",
+            "note": "target"
+          },
+          {
+            "word": "հրապարակի",
+            "gloss": "square's",
+            "transliteration": "hraparaki"
           },
           {
             "word": "մոտ",
@@ -211,31 +288,9 @@
             "transliteration": "mot"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
-          }
-        ]
-      },
-      {
-        "target": "ես թանգարան տեսնում եմ։",
-        "text": "I see the museum.",
-        "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "թանգարան",
-            "gloss": "museum",
-            "transliteration": "t'angaran",
-            "note": "target"
-          },
-          {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -245,17 +300,12 @@
     "vocab_index": 254,
     "word": "գրադարան",
     "gloss": "library",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր գրադարան սպասում է։",
-        "text": "A friend waits at the library.",
+        "target": "գրադարան լուռ է և լուսավոր։",
+        "text": "The library is quiet and bright.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "գրադարան",
             "gloss": "library",
@@ -263,42 +313,30 @@
             "note": "target"
           },
           {
-            "word": "սպասում է",
-            "gloss": "waits at",
-            "transliteration": "spasum e"
-          }
-        ]
-      },
-      {
-        "target": "սա գրադարան լավ է։",
-        "text": "This library is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
-          {
-            "word": "գրադարան",
-            "gloss": "library",
-            "transliteration": "gradaran",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "լուռ",
+            "gloss": "quiet",
+            "transliteration": "lurr"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "լուսավոր",
+            "gloss": "bright",
+            "transliteration": "lusavor"
           }
         ]
       },
       {
-        "target": "գրադարան շուկա մոտ կա։",
-        "text": "The library is near the market.",
+        "target": "գրադարան գրքեր է տալիս։",
+        "text": "The library lends books.",
         "words": [
           {
             "word": "գրադարան",
@@ -307,19 +345,46 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "գրքեր",
+            "gloss": "books",
+            "transliteration": "grk'er"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
+          }
+        ]
+      },
+      {
+        "target": "ուսանողները գրադարան են գնում։",
+        "text": "Students go to the library.",
+        "words": [
+          {
+            "word": "ուսանողները",
+            "gloss": "the students",
+            "transliteration": "usanoghnery"
+          },
+          {
+            "word": "գրադարան",
+            "gloss": "library",
+            "transliteration": "gradaran",
+            "note": "target"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       }
@@ -329,17 +394,12 @@
     "vocab_index": 255,
     "word": "սենյակ",
     "gloss": "room",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես սենյակ եմ գնում։",
-        "text": "I go to the room.",
+        "target": "սենյակ պատուհան ունի։",
+        "text": "The room has a window.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "սենյակ",
             "gloss": "room",
@@ -347,15 +407,52 @@
             "note": "target"
           },
           {
-            "word": "եմ գնում",
-            "gloss": "I go",
-            "transliteration": "em gnum"
+            "word": "պատուհան",
+            "gloss": "window",
+            "transliteration": "patuhan"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "սենյակ մոտ է։",
-        "text": "The room is near.",
+        "target": "մեծ սենյակ երկու մահճակալ ունի։",
+        "text": "The big room has two beds.",
+        "words": [
+          {
+            "word": "մեծ",
+            "gloss": "big",
+            "transliteration": "mets"
+          },
+          {
+            "word": "սենյակ",
+            "gloss": "room",
+            "transliteration": "senyak",
+            "note": "target"
+          },
+          {
+            "word": "երկու",
+            "gloss": "two",
+            "transliteration": "erku"
+          },
+          {
+            "word": "մահճակալ",
+            "gloss": "bed",
+            "transliteration": "mahchakal"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
+          }
+        ]
+      },
+      {
+        "target": "սենյակ մաքուր և տաք է։",
+        "text": "The room is clean and warm.",
         "words": [
           {
             "word": "սենյակ",
@@ -364,41 +461,24 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "մաքուր",
+            "gloss": "clean",
+            "transliteration": "mak'ur"
+          },
+          {
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
-          }
-        ]
-      },
-      {
-        "target": "ընկեր սենյակ մեջ կա։",
-        "text": "A friend is inside the room.",
-        "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
-          {
-            "word": "սենյակ",
-            "gloss": "room",
-            "transliteration": "senyak",
-            "note": "target"
-          },
-          {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
           }
         ]
       }
@@ -408,17 +488,12 @@
     "vocab_index": 256,
     "word": "ննջասենյակ",
     "gloss": "bedroom",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ ննջասենյակ գնում է։",
-        "text": "The teacher goes to the bedroom.",
+        "target": "ննջասենյակ հանգիստ է գիշերով։",
+        "text": "The bedroom is peaceful at night.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "ննջասենյակ",
             "gloss": "bedroom",
@@ -426,15 +501,25 @@
             "note": "target"
           },
           {
-            "word": "գնում է",
-            "gloss": "goes",
-            "transliteration": "gnum e"
+            "word": "հանգիստ",
+            "gloss": "peaceful",
+            "transliteration": "hangist"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գիշերով",
+            "gloss": "at night",
+            "transliteration": "gisherov"
           }
         ]
       },
       {
-        "target": "ննջասենյակ ճանապարհի մոտ կա։",
-        "text": "The bedroom is near the road.",
+        "target": "ննջասենյակ փոքր լամպ ունի։",
+        "text": "The bedroom has a small lamp.",
         "words": [
           {
             "word": "ննջասենյակ",
@@ -443,30 +528,30 @@
             "note": "target"
           },
           {
-            "word": "ճանապարհի",
-            "gloss": "road",
-            "transliteration": "chanaparhi"
+            "word": "փոքր",
+            "gloss": "small",
+            "transliteration": "p'ok'r"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "լամպ",
+            "gloss": "lamp",
+            "transliteration": "lamp"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "ես ննջասենյակ տեսնում եմ։",
-        "text": "I see the bedroom.",
+        "target": "երեխան ննջասենյակ քնեց։",
+        "text": "The child fell asleep in the bedroom.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "երեխան",
+            "gloss": "the child",
+            "transliteration": "erekhan"
           },
           {
             "word": "ննջասենյակ",
@@ -475,9 +560,9 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "քնեց",
+            "gloss": "fell asleep",
+            "transliteration": "k'nets'"
           }
         ]
       }
@@ -487,17 +572,12 @@
     "vocab_index": 257,
     "word": "խոհանոց",
     "gloss": "kitchen",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր խոհանոց սպասում է։",
-        "text": "A friend waits at the kitchen.",
+        "target": "խոհանոց համեղ հոտ է տարածում։",
+        "text": "The kitchen spreads a tasty smell.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "խոհանոց",
             "gloss": "kitchen",
@@ -505,42 +585,62 @@
             "note": "target"
           },
           {
-            "word": "սպասում է",
-            "gloss": "waits at",
-            "transliteration": "spasum e"
-          }
-        ]
-      },
-      {
-        "target": "սա խոհանոց լավ է։",
-        "text": "This kitchen is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "համեղ",
+            "gloss": "tasty",
+            "transliteration": "hamegh"
           },
           {
-            "word": "խոհանոց",
-            "gloss": "kitchen",
-            "transliteration": "khohanots'",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "հոտ",
+            "gloss": "smell",
+            "transliteration": "hot"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "տարածում",
+            "gloss": "spreading",
+            "transliteration": "taratsum"
           }
         ]
       },
       {
-        "target": "խոհանոց շուկա մոտ կա։",
-        "text": "The kitchen is near the market.",
+        "target": "մայրս խոհանոց ճաշ է եփում։",
+        "text": "Mother cooks lunch in the kitchen.",
+        "words": [
+          {
+            "word": "մայրս",
+            "gloss": "my mother",
+            "transliteration": "mayrs"
+          },
+          {
+            "word": "խոհանոց",
+            "gloss": "kitchen",
+            "transliteration": "khohanots'",
+            "note": "target"
+          },
+          {
+            "word": "ճաշ",
+            "gloss": "lunch",
+            "transliteration": "chash"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "եփում",
+            "gloss": "cooking",
+            "transliteration": "ep'um"
+          }
+        ]
+      },
+      {
+        "target": "խոհանոց լայն սեղան ունի։",
+        "text": "The kitchen has a wide table.",
         "words": [
           {
             "word": "խոհանոց",
@@ -549,19 +649,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "լայն",
+            "gloss": "wide",
+            "transliteration": "layn"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "սեղան",
+            "gloss": "table",
+            "transliteration": "seghan"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       }
@@ -571,17 +671,12 @@
     "vocab_index": 258,
     "word": "լոգարան",
     "gloss": "bathroom",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես լոգարան եմ գնում։",
-        "text": "I go to the bathroom.",
+        "target": "լոգարան հայելի ունի։",
+        "text": "The bathroom has a mirror.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "լոգարան",
             "gloss": "bathroom",
@@ -589,15 +684,20 @@
             "note": "target"
           },
           {
-            "word": "եմ գնում",
-            "gloss": "I go",
-            "transliteration": "em gnum"
+            "word": "հայելի",
+            "gloss": "mirror",
+            "transliteration": "hayeli"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "լոգարան մոտ է։",
-        "text": "The bathroom is near.",
+        "target": "լոգարան տաք ջուր ունի։",
+        "text": "The bathroom has hot water.",
         "words": [
           {
             "word": "լոգարան",
@@ -606,41 +706,46 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "տաք",
+            "gloss": "hot",
+            "transliteration": "tak'"
+          },
+          {
+            "word": "ջուր",
+            "gloss": "water",
+            "transliteration": "jur"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
+          }
+        ]
+      },
+      {
+        "target": "առավոտյան լոգարան զբաղված է։",
+        "text": "In the morning the bathroom is busy.",
+        "words": [
+          {
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
+          },
+          {
+            "word": "լոգարան",
+            "gloss": "bathroom",
+            "transliteration": "logaran",
+            "note": "target"
+          },
+          {
+            "word": "զբաղված",
+            "gloss": "busy",
+            "transliteration": "zbaghvats"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
-          }
-        ]
-      },
-      {
-        "target": "ընկեր լոգարան մեջ կա։",
-        "text": "A friend is inside the bathroom.",
-        "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
-          {
-            "word": "լոգարան",
-            "gloss": "bathroom",
-            "transliteration": "logaran",
-            "note": "target"
-          },
-          {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
           }
         ]
       }
@@ -650,17 +755,12 @@
     "vocab_index": 259,
     "word": "բակ",
     "gloss": "yard",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ բակ գնում է։",
-        "text": "The teacher goes to the yard.",
+        "target": "բակ ծառերով է շրջապատված։",
+        "text": "The yard is surrounded by trees.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "բակ",
             "gloss": "yard",
@@ -668,16 +768,31 @@
             "note": "target"
           },
           {
-            "word": "գնում է",
-            "gloss": "goes",
-            "transliteration": "gnum e"
+            "word": "ծառերով",
+            "gloss": "with trees",
+            "transliteration": "tsarrerov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "շրջապատված",
+            "gloss": "surrounded",
+            "transliteration": "shrjapatvats"
           }
         ]
       },
       {
-        "target": "բակ ճանապարհի մոտ կա։",
-        "text": "The yard is near the road.",
+        "target": "երեխաները բակ խաղում են։",
+        "text": "The children play in the yard.",
         "words": [
+          {
+            "word": "երեխաները",
+            "gloss": "the children",
+            "transliteration": "erekhanery"
+          },
           {
             "word": "բակ",
             "gloss": "yard",
@@ -685,31 +800,21 @@
             "note": "target"
           },
           {
-            "word": "ճանապարհի",
-            "gloss": "road",
-            "transliteration": "chanaparhi"
+            "word": "խաղում",
+            "gloss": "play",
+            "transliteration": "khaghum"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           }
         ]
       },
       {
-        "target": "ես բակ տեսնում եմ։",
-        "text": "I see the yard.",
+        "target": "բակ ծաղիկներով է զարդարված։",
+        "text": "The yard is decorated with flowers.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "բակ",
             "gloss": "yard",
@@ -717,9 +822,19 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "ծաղիկներով",
+            "gloss": "with flowers",
+            "transliteration": "tsaghiknerov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "զարդարված",
+            "gloss": "decorated",
+            "transliteration": "zardarvats"
           }
         ]
       }
@@ -729,17 +844,12 @@
     "vocab_index": 260,
     "word": "կամուրջ",
     "gloss": "bridge",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր կամուրջ սպասում է։",
-        "text": "A friend waits at the bridge.",
+        "target": "կամուրջ գետի վրայով է անցնում։",
+        "text": "The bridge crosses over the river.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "կամուրջ",
             "gloss": "bridge",
@@ -747,42 +857,62 @@
             "note": "target"
           },
           {
-            "word": "սպասում է",
-            "gloss": "waits at",
-            "transliteration": "spasum e"
-          }
-        ]
-      },
-      {
-        "target": "սա կամուրջ լավ է։",
-        "text": "This bridge is good.",
-        "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
+            "word": "գետի",
+            "gloss": "river's",
+            "transliteration": "geti"
           },
           {
-            "word": "կամուրջ",
-            "gloss": "bridge",
-            "transliteration": "kamurj",
-            "note": "target"
-          },
-          {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "վրայով",
+            "gloss": "over",
+            "transliteration": "vrayov"
           },
           {
             "word": "է",
             "gloss": "is",
             "transliteration": "e"
+          },
+          {
+            "word": "անցնում",
+            "gloss": "crossing",
+            "transliteration": "ants'num"
           }
         ]
       },
       {
-        "target": "կամուրջ շուկա մոտ կա։",
-        "text": "The bridge is near the market.",
+        "target": "հին կամուրջ քարից է կառուցված։",
+        "text": "The old bridge is built of stone.",
+        "words": [
+          {
+            "word": "հին",
+            "gloss": "old",
+            "transliteration": "hin"
+          },
+          {
+            "word": "կամուրջ",
+            "gloss": "bridge",
+            "transliteration": "kamurj",
+            "note": "target"
+          },
+          {
+            "word": "քարից",
+            "gloss": "of stone",
+            "transliteration": "k'arits'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "կառուցված",
+            "gloss": "built",
+            "transliteration": "karruts'vats"
+          }
+        ]
+      },
+      {
+        "target": "կամուրջ երեկոյան լուսավորվում է։",
+        "text": "The bridge lights up in the evening.",
         "words": [
           {
             "word": "կամուրջ",
@@ -791,19 +921,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "լուսավորվում",
+            "gloss": "lights up",
+            "transliteration": "lusavorvum"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -813,17 +943,12 @@
     "vocab_index": 261,
     "word": "եկեղեցի",
     "gloss": "church",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես եկեղեցի եմ գնում։",
-        "text": "I go to the church.",
+        "target": "եկեղեցի կիրակի զանգեր է հնչեցնում։",
+        "text": "The church rings bells on Sunday.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "եկեղեցի",
             "gloss": "church",
@@ -831,16 +956,36 @@
             "note": "target"
           },
           {
-            "word": "եմ գնում",
-            "gloss": "I go",
-            "transliteration": "em gnum"
+            "word": "կիրակի",
+            "gloss": "Sunday",
+            "transliteration": "kiraki"
+          },
+          {
+            "word": "զանգեր",
+            "gloss": "bells",
+            "transliteration": "zanger"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հնչեցնում",
+            "gloss": "ringing",
+            "transliteration": "hnch'ets'num"
           }
         ]
       },
       {
-        "target": "եկեղեցի մոտ է։",
-        "text": "The church is near.",
+        "target": "հին եկեղեցի բլրի վրա է։",
+        "text": "The old church is on the hill.",
         "words": [
+          {
+            "word": "հին",
+            "gloss": "old",
+            "transliteration": "hin"
+          },
           {
             "word": "եկեղեցի",
             "gloss": "church",
@@ -848,9 +993,14 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "բլրի",
+            "gloss": "hill's",
+            "transliteration": "blri"
+          },
+          {
+            "word": "վրա",
+            "gloss": "on",
+            "transliteration": "vra"
           },
           {
             "word": "է",
@@ -860,14 +1010,9 @@
         ]
       },
       {
-        "target": "ընկեր եկեղեցի մեջ կա։",
-        "text": "A friend is inside the church.",
+        "target": "եկեղեցի մոմեր է վառում։",
+        "text": "The church lights candles.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "եկեղեցի",
             "gloss": "church",
@@ -875,14 +1020,19 @@
             "note": "target"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "մոմեր",
+            "gloss": "candles",
+            "transliteration": "momer"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "վառում",
+            "gloss": "lighting",
+            "transliteration": "varrum"
           }
         ]
       }
@@ -892,17 +1042,12 @@
     "vocab_index": 262,
     "word": "համալսարան",
     "gloss": "university",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուսուցիչ համալսարան գնում է։",
-        "text": "The teacher goes to the university.",
+        "target": "համալսարան գիտելիք է տալիս։",
+        "text": "The university gives knowledge.",
         "words": [
-          {
-            "word": "ուսուցիչ",
-            "gloss": "teacher",
-            "transliteration": "usuts'ich'"
-          },
           {
             "word": "համալսարան",
             "gloss": "university",
@@ -910,15 +1055,25 @@
             "note": "target"
           },
           {
-            "word": "գնում է",
-            "gloss": "goes",
-            "transliteration": "gnum e"
+            "word": "գիտելիք",
+            "gloss": "knowledge",
+            "transliteration": "gitelik'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       },
       {
-        "target": "համալսարան ճանապարհի մոտ կա։",
-        "text": "The university is near the road.",
+        "target": "համալսարան մեծ գրադարան ունի։",
+        "text": "The university has a large library.",
         "words": [
           {
             "word": "համալսարան",
@@ -927,30 +1082,30 @@
             "note": "target"
           },
           {
-            "word": "ճանապարհի",
-            "gloss": "road",
-            "transliteration": "chanaparhi"
+            "word": "մեծ",
+            "gloss": "large",
+            "transliteration": "mets"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "գրադարան",
+            "gloss": "library",
+            "transliteration": "gradaran"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "ես համալսարան տեսնում եմ։",
-        "text": "I see the university.",
+        "target": "երիտասարդները համալսարան են ընդունվում։",
+        "text": "Young people enter the university.",
         "words": [
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "երիտասարդները",
+            "gloss": "the young people",
+            "transliteration": "eritasardnery"
           },
           {
             "word": "համալսարան",
@@ -959,9 +1114,14 @@
             "note": "target"
           },
           {
-            "word": "տեսնում եմ",
-            "gloss": "I see",
-            "transliteration": "tesnum em"
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
+          },
+          {
+            "word": "ընդունվում",
+            "gloss": "entering",
+            "transliteration": "yndunvum"
           }
         ]
       }
@@ -971,17 +1131,12 @@
     "vocab_index": 263,
     "word": "գործարան",
     "gloss": "factory",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր գործարան սպասում է։",
-        "text": "A friend waits at the factory.",
+        "target": "գործարան մեքենաներ է արտադրում։",
+        "text": "The factory produces machines.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "գործարան",
             "gloss": "factory",
@@ -989,21 +1144,26 @@
             "note": "target"
           },
           {
-            "word": "սպասում է",
-            "gloss": "waits at",
-            "transliteration": "spasum e"
+            "word": "մեքենաներ",
+            "gloss": "machines",
+            "transliteration": "mek'enaner"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "արտադրում",
+            "gloss": "producing",
+            "transliteration": "artadrum"
           }
         ]
       },
       {
-        "target": "սա գործարան լավ է։",
-        "text": "This factory is good.",
+        "target": "գործարան քաղաքի եզրին է։",
+        "text": "The factory is at the edge of the city.",
         "words": [
-          {
-            "word": "սա",
-            "gloss": "this",
-            "transliteration": "sa"
-          },
           {
             "word": "գործարան",
             "gloss": "factory",
@@ -1011,9 +1171,14 @@
             "note": "target"
           },
           {
-            "word": "լավ",
-            "gloss": "good",
-            "transliteration": "lav"
+            "word": "քաղաքի",
+            "gloss": "city's",
+            "transliteration": "k'aghak'i"
+          },
+          {
+            "word": "եզրին",
+            "gloss": "at the edge",
+            "transliteration": "ezrin"
           },
           {
             "word": "է",
@@ -1023,8 +1188,8 @@
         ]
       },
       {
-        "target": "գործարան շուկա մոտ կա։",
-        "text": "The factory is near the market.",
+        "target": "գործարան առավոտյան աղմուկ է բարձրացնում։",
+        "text": "The factory raises noise in the morning.",
         "words": [
           {
             "word": "գործարան",
@@ -1033,19 +1198,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "աղմուկ",
+            "gloss": "noise",
+            "transliteration": "aghmuk"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բարձրացնում",
+            "gloss": "raising",
+            "transliteration": "bardzrats'num"
           }
         ]
       }
@@ -1055,33 +1225,11 @@
     "vocab_index": 264,
     "word": "հրապարակ",
     "gloss": "square",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես հրապարակ եմ գնում։",
-        "text": "I go to the square.",
-        "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "հրապարակ",
-            "gloss": "square",
-            "transliteration": "hraparak",
-            "note": "target"
-          },
-          {
-            "word": "եմ գնում",
-            "gloss": "I go",
-            "transliteration": "em gnum"
-          }
-        ]
-      },
-      {
-        "target": "հրապարակ մոտ է։",
-        "text": "The square is near.",
+        "target": "հրապարակ երեկոյան մարդաշատ է։",
+        "text": "The square fills with people in the evening.",
         "words": [
           {
             "word": "հրապարակ",
@@ -1090,9 +1238,14 @@
             "note": "target"
           },
           {
-            "word": "մոտ",
-            "gloss": "near",
-            "transliteration": "mot"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
+          },
+          {
+            "word": "մարդաշատ",
+            "gloss": "crowded",
+            "transliteration": "mardashat"
           },
           {
             "word": "է",
@@ -1102,13 +1255,35 @@
         ]
       },
       {
-        "target": "ընկեր հրապարակ մեջ կա։",
-        "text": "A friend is inside the square.",
+        "target": "հրապարակ շատրվան ունի։",
+        "text": "The square has a fountain.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "հրապարակ",
+            "gloss": "square",
+            "transliteration": "hraparak",
+            "note": "target"
+          },
+          {
+            "word": "շատրվան",
+            "gloss": "fountain",
+            "transliteration": "shatrvan"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
+          }
+        ]
+      },
+      {
+        "target": "կենտրոնական հրապարակ տոներ է նշում։",
+        "text": "The central square celebrates holidays.",
+        "words": [
+          {
+            "word": "կենտրոնական",
+            "gloss": "central",
+            "transliteration": "kentronakan"
           },
           {
             "word": "հրապարակ",
@@ -1117,14 +1292,19 @@
             "note": "target"
           },
           {
-            "word": "մեջ",
-            "gloss": "inside",
-            "transliteration": "mej"
+            "word": "տոներ",
+            "gloss": "holidays",
+            "transliteration": "toner"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "նշում",
+            "gloss": "celebrating",
+            "transliteration": "nshum"
           }
         ]
       }
@@ -1134,11 +1314,11 @@
     "vocab_index": 265,
     "word": "այսօր",
     "gloss": "today",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "այսօր ես գալիս եմ։",
-        "text": "I come today.",
+        "target": "այսօր արևոտ օր է։",
+        "text": "Today is a sunny day.",
         "words": [
           {
             "word": "այսօր",
@@ -1147,42 +1327,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "արևոտ",
+            "gloss": "sunny",
+            "transliteration": "arevot"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "օր",
+            "gloss": "day",
+            "transliteration": "or"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "այսօր մենք սովորում ենք։",
-        "text": "We study today.",
-        "words": [
-          {
-            "word": "այսօր",
-            "gloss": "today",
-            "transliteration": "aysor",
-            "note": "target"
-          },
-          {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
-          },
-          {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
-          }
-        ]
-      },
-      {
-        "target": "այսօր շուկա գնում եմ։",
-        "text": "I go to the market today.",
+        "target": "այսօր շուկա եմ գնում։",
+        "text": "Today I am going to the market.",
         "words": [
           {
             "word": "այսօր",
@@ -1196,9 +1359,41 @@
             "transliteration": "shuka"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
+          }
+        ]
+      },
+      {
+        "target": "այսօր ընկերս է գալիս։",
+        "text": "Today my friend is coming.",
+        "words": [
+          {
+            "word": "այսօր",
+            "gloss": "today",
+            "transliteration": "aysor",
+            "note": "target"
+          },
+          {
+            "word": "ընկերս",
+            "gloss": "my friend",
+            "transliteration": "ynkers"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գալիս",
+            "gloss": "coming",
+            "transliteration": "galis"
           }
         ]
       }
@@ -1208,11 +1403,11 @@
     "vocab_index": 266,
     "word": "վաղը",
     "gloss": "tomorrow",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "վաղը ես գալիս եմ։",
-        "text": "I come tomorrow.",
+        "target": "վաղը քննություն ունեմ։",
+        "text": "Tomorrow I have an exam.",
         "words": [
           {
             "word": "վաղը",
@@ -1221,20 +1416,20 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "քննություն",
+            "gloss": "exam",
+            "transliteration": "k'nnut'yun"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ունեմ",
+            "gloss": "I have",
+            "transliteration": "unem"
           }
         ]
       },
       {
-        "target": "վաղը մենք սովորում ենք։",
-        "text": "We study tomorrow.",
+        "target": "վաղը վաղ եմ վեր կենալու։",
+        "text": "Tomorrow I will get up early.",
         "words": [
           {
             "word": "վաղը",
@@ -1243,20 +1438,30 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "վաղ",
+            "gloss": "early",
+            "transliteration": "vagh"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "վեր",
+            "gloss": "up",
+            "transliteration": "ver"
+          },
+          {
+            "word": "կենալու",
+            "gloss": "going to get",
+            "transliteration": "kenalu"
           }
         ]
       },
       {
-        "target": "վաղը շուկա գնում եմ։",
-        "text": "I go to the market tomorrow.",
+        "target": "վաղը մայրս տուն է գալիս։",
+        "text": "Tomorrow mother is coming home.",
         "words": [
           {
             "word": "վաղը",
@@ -1265,14 +1470,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "մայրս",
+            "gloss": "my mother",
+            "transliteration": "mayrs"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "տուն",
+            "gloss": "home",
+            "transliteration": "tun"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գալիս",
+            "gloss": "coming",
+            "transliteration": "galis"
           }
         ]
       }
@@ -1282,11 +1497,11 @@
     "vocab_index": 267,
     "word": "երեկ",
     "gloss": "yesterday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեկ ես գալիս եմ։",
-        "text": "I come yesterday.",
+        "target": "երեկ անձրև եկավ։",
+        "text": "Yesterday it rained.",
         "words": [
           {
             "word": "երեկ",
@@ -1295,20 +1510,20 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "անձրև",
+            "gloss": "rain",
+            "transliteration": "andzrev"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "եկավ",
+            "gloss": "came",
+            "transliteration": "ekav"
           }
         ]
       },
       {
-        "target": "երեկ մենք սովորում ենք։",
-        "text": "We study yesterday.",
+        "target": "երեկ ֆիլմ նայեցինք։",
+        "text": "Yesterday we watched a film.",
         "words": [
           {
             "word": "երեկ",
@@ -1317,20 +1532,20 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ֆիլմ",
+            "gloss": "film",
+            "transliteration": "film"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "նայեցինք",
+            "gloss": "we watched",
+            "transliteration": "nayets'ink'"
           }
         ]
       },
       {
-        "target": "երեկ շուկա գնում եմ։",
-        "text": "I go to the market yesterday.",
+        "target": "երեկ շուկայից միրգ գնեցի։",
+        "text": "Yesterday I bought fruit from the market.",
         "words": [
           {
             "word": "երեկ",
@@ -1339,14 +1554,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "շուկայից",
+            "gloss": "from the market",
+            "transliteration": "shukayits'"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "միրգ",
+            "gloss": "fruit",
+            "transliteration": "mirg"
+          },
+          {
+            "word": "գնեցի",
+            "gloss": "I bought",
+            "transliteration": "gnets'i"
           }
         ]
       }
@@ -1356,11 +1576,11 @@
     "vocab_index": 268,
     "word": "հիմա",
     "gloss": "now",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "հիմա ես գալիս եմ։",
-        "text": "I come now.",
+        "target": "հիմա ժամանակ չունեմ։",
+        "text": "I do not have time now.",
         "words": [
           {
             "word": "հիմա",
@@ -1369,20 +1589,20 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ժամանակ",
+            "gloss": "time",
+            "transliteration": "zhamanak"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "չունեմ",
+            "gloss": "I do not have",
+            "transliteration": "ch'unem"
           }
         ]
       },
       {
-        "target": "հիմա մենք սովորում ենք։",
-        "text": "We study now.",
+        "target": "հիմա ճաշում եմ։",
+        "text": "I am having lunch now.",
         "words": [
           {
             "word": "հիմա",
@@ -1391,20 +1611,20 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ճաշում",
+            "gloss": "having lunch",
+            "transliteration": "chashum"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
           }
         ]
       },
       {
-        "target": "հիմա շուկա գնում եմ։",
-        "text": "I go to the market now.",
+        "target": "հիմա դուռը բաց է։",
+        "text": "The door is open now.",
         "words": [
           {
             "word": "հիմա",
@@ -1413,14 +1633,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "դուռը",
+            "gloss": "the door",
+            "transliteration": "durry"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "բաց",
+            "gloss": "open",
+            "transliteration": "bats'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -1430,11 +1655,11 @@
     "vocab_index": 269,
     "word": "առավոտ",
     "gloss": "morning",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "առավոտ ես գալիս եմ։",
-        "text": "I come morning.",
+        "target": "առավոտ թարմ օդ է բերում։",
+        "text": "Morning brings fresh air.",
         "words": [
           {
             "word": "առավոտ",
@@ -1443,20 +1668,30 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "թարմ",
+            "gloss": "fresh",
+            "transliteration": "t'arm"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "օդ",
+            "gloss": "air",
+            "transliteration": "od"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բերում",
+            "gloss": "bringing",
+            "transliteration": "berum"
           }
         ]
       },
       {
-        "target": "առավոտ մենք սովորում ենք։",
-        "text": "We study morning.",
+        "target": "առավոտ սուրճ եմ խմում։",
+        "text": "In the morning I drink coffee.",
         "words": [
           {
             "word": "առավոտ",
@@ -1465,21 +1700,31 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սուրճ",
+            "gloss": "coffee",
+            "transliteration": "surch"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "խմում",
+            "gloss": "drinking",
+            "transliteration": "khmum"
           }
         ]
       },
       {
-        "target": "առավոտ շուկա գնում եմ։",
-        "text": "I go to the market morning.",
+        "target": "ցուրտ առավոտ շուտ արթնացանք։",
+        "text": "On a cold morning we woke early.",
         "words": [
+          {
+            "word": "ցուրտ",
+            "gloss": "cold",
+            "transliteration": "ts'urt"
+          },
           {
             "word": "առավոտ",
             "gloss": "morning",
@@ -1487,14 +1732,14 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "շուտ",
+            "gloss": "early",
+            "transliteration": "shut"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "արթնացանք",
+            "gloss": "we woke",
+            "transliteration": "art'nats'ank'"
           }
         ]
       }
@@ -1504,11 +1749,11 @@
     "vocab_index": 270,
     "word": "կեսօր",
     "gloss": "noon",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "կեսօր ես գալիս եմ։",
-        "text": "I come noon.",
+        "target": "կեսօր արևը բարձր է։",
+        "text": "At noon the sun is high.",
         "words": [
           {
             "word": "կեսօր",
@@ -1517,20 +1762,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "արևը",
+            "gloss": "the sun",
+            "transliteration": "arevy"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "բարձր",
+            "gloss": "high",
+            "transliteration": "bardzr"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "կեսօր մենք սովորում ենք։",
-        "text": "We study noon.",
+        "target": "կեսօր ճաշի ժամ է։",
+        "text": "Noon is lunch time.",
         "words": [
           {
             "word": "կեսօր",
@@ -1539,20 +1789,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ճաշի",
+            "gloss": "lunch's",
+            "transliteration": "chashi"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ժամ",
+            "gloss": "time",
+            "transliteration": "zham"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "կեսօր շուկա գնում եմ։",
-        "text": "I go to the market noon.",
+        "target": "կեսօր ստվերը կարճ է լինում։",
+        "text": "At noon the shadow becomes short.",
         "words": [
           {
             "word": "կեսօր",
@@ -1561,14 +1816,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "ստվերը",
+            "gloss": "the shadow",
+            "transliteration": "stvery"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "կարճ",
+            "gloss": "short",
+            "transliteration": "karch"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լինում",
+            "gloss": "becoming",
+            "transliteration": "linum"
           }
         ]
       }
@@ -1578,11 +1843,11 @@
     "vocab_index": 271,
     "word": "երեկո",
     "gloss": "evening",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեկո ես գալիս եմ։",
-        "text": "I come evening.",
+        "target": "երեկո լույսերը վառվում են։",
+        "text": "In the evening the lights turn on.",
         "words": [
           {
             "word": "երեկո",
@@ -1591,20 +1856,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "լույսերը",
+            "gloss": "the lights",
+            "transliteration": "luysery"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "վառվում",
+            "gloss": "turn on",
+            "transliteration": "varrvum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           }
         ]
       },
       {
-        "target": "երեկո մենք սովորում ենք։",
-        "text": "We study evening.",
+        "target": "երեկո ընտանիքով զբոսնում ենք։",
+        "text": "In the evening we walk as a family.",
         "words": [
           {
             "word": "երեկո",
@@ -1613,21 +1883,31 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ընտանիքով",
+            "gloss": "as a family",
+            "transliteration": "yntanik'ov"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "զբոսնում",
+            "gloss": "walk",
+            "transliteration": "zbosnum"
+          },
+          {
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
           }
         ]
       },
       {
-        "target": "երեկո շուկա գնում եմ։",
-        "text": "I go to the market evening.",
+        "target": "հանգիստ երեկո գիրք եմ կարդում։",
+        "text": "On a quiet evening I read a book.",
         "words": [
+          {
+            "word": "հանգիստ",
+            "gloss": "quiet",
+            "transliteration": "hangist"
+          },
           {
             "word": "երեկո",
             "gloss": "evening",
@@ -1635,14 +1915,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "գիրք",
+            "gloss": "book",
+            "transliteration": "girk'"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "կարդում",
+            "gloss": "reading",
+            "transliteration": "kardum"
           }
         ]
       }
@@ -1652,11 +1937,11 @@
     "vocab_index": 272,
     "word": "շաբաթ",
     "gloss": "week",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "շաբաթ ես գալիս եմ։",
-        "text": "I come week.",
+        "target": "շաբաթ յոթ օր ունի։",
+        "text": "A week has seven days.",
         "words": [
           {
             "word": "շաբաթ",
@@ -1665,21 +1950,31 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "յոթ",
+            "gloss": "seven",
+            "transliteration": "yot'"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "օր",
+            "gloss": "days",
+            "transliteration": "or"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "շաբաթ մենք սովորում ենք։",
-        "text": "We study week.",
+        "target": "այս շաբաթ շատ աշխատանք ունեմ։",
+        "text": "This week I have a lot of work.",
         "words": [
+          {
+            "word": "այս",
+            "gloss": "this",
+            "transliteration": "ays"
+          },
           {
             "word": "շաբաթ",
             "gloss": "week",
@@ -1687,21 +1982,31 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "շատ",
+            "gloss": "a lot",
+            "transliteration": "shat"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "աշխատանք",
+            "gloss": "work",
+            "transliteration": "ashkhatank'"
+          },
+          {
+            "word": "ունեմ",
+            "gloss": "I have",
+            "transliteration": "unem"
           }
         ]
       },
       {
-        "target": "շաբաթ շուկա գնում եմ։",
-        "text": "I go to the market week.",
+        "target": "հաջորդ շաբաթ արձակուրդ է։",
+        "text": "Next week is vacation.",
         "words": [
+          {
+            "word": "հաջորդ",
+            "gloss": "next",
+            "transliteration": "hajord"
+          },
           {
             "word": "շաբաթ",
             "gloss": "week",
@@ -1709,14 +2014,14 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "արձակուրդ",
+            "gloss": "vacation",
+            "transliteration": "ardzakurd"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -1726,11 +2031,11 @@
     "vocab_index": 273,
     "word": "ամիս",
     "gloss": "month",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ամիս ես գալիս եմ։",
-        "text": "I come month.",
+        "target": "ամիս երեսուն օր ունի։",
+        "text": "A month has thirty days.",
         "words": [
           {
             "word": "ամիս",
@@ -1739,21 +2044,31 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "երեսուն",
+            "gloss": "thirty",
+            "transliteration": "eresun"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "օր",
+            "gloss": "days",
+            "transliteration": "or"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "ամիս մենք սովորում ենք։",
-        "text": "We study month.",
+        "target": "այս ամիս ծնունդս է։",
+        "text": "This month is my birthday.",
         "words": [
+          {
+            "word": "այս",
+            "gloss": "this",
+            "transliteration": "ays"
+          },
           {
             "word": "ամիս",
             "gloss": "month",
@@ -1761,21 +2076,26 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ծնունդս",
+            "gloss": "my birthday",
+            "transliteration": "tsnunds"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ամիս շուկա գնում եմ։",
-        "text": "I go to the market month.",
+        "target": "անցած ամիս անձրև շատ եղավ։",
+        "text": "Last month there was a lot of rain.",
         "words": [
+          {
+            "word": "անցած",
+            "gloss": "last",
+            "transliteration": "ants'ats"
+          },
           {
             "word": "ամիս",
             "gloss": "month",
@@ -1783,14 +2103,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "անձրև",
+            "gloss": "rain",
+            "transliteration": "andzrev"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "շատ",
+            "gloss": "a lot",
+            "transliteration": "shat"
+          },
+          {
+            "word": "եղավ",
+            "gloss": "there was",
+            "transliteration": "eghav"
           }
         ]
       }
@@ -1800,12 +2125,17 @@
     "vocab_index": 274,
     "word": "ժամ",
     "gloss": "hour",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ժամ ես գալիս եմ։",
-        "text": "I come hour.",
+        "target": "մեկ ժամ սպասեցի։",
+        "text": "I waited one hour.",
         "words": [
+          {
+            "word": "մեկ",
+            "gloss": "one",
+            "transliteration": "mek"
+          },
           {
             "word": "ժամ",
             "gloss": "hour",
@@ -1813,20 +2143,15 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "սպասեցի",
+            "gloss": "I waited",
+            "transliteration": "spasets'i"
           }
         ]
       },
       {
-        "target": "ժամ մենք սովորում ենք։",
-        "text": "We study hour.",
+        "target": "ժամ ուշ է արդեն։",
+        "text": "The hour is already late.",
         "words": [
           {
             "word": "ժամ",
@@ -1835,21 +2160,31 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ուշ",
+            "gloss": "late",
+            "transliteration": "ush"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "արդեն",
+            "gloss": "already",
+            "transliteration": "arden"
           }
         ]
       },
       {
-        "target": "ժամ շուկա գնում եմ։",
-        "text": "I go to the market hour.",
+        "target": "երկու ժամ ճանապարհ ընկանք։",
+        "text": "We traveled for two hours.",
         "words": [
+          {
+            "word": "երկու",
+            "gloss": "two",
+            "transliteration": "erku"
+          },
           {
             "word": "ժամ",
             "gloss": "hour",
@@ -1857,14 +2192,14 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "ճանապարհ",
+            "gloss": "road",
+            "transliteration": "chanaparh"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "ընկանք",
+            "gloss": "we set out",
+            "transliteration": "ynkank'"
           }
         ]
       }
@@ -1874,12 +2209,17 @@
     "vocab_index": 275,
     "word": "րոպե",
     "gloss": "minute",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "րոպե ես գալիս եմ։",
-        "text": "I come minute.",
+        "target": "հինգ րոպե սպասիր։",
+        "text": "Wait five minutes.",
         "words": [
+          {
+            "word": "հինգ",
+            "gloss": "five",
+            "transliteration": "hing"
+          },
           {
             "word": "րոպե",
             "gloss": "minute",
@@ -1887,20 +2227,15 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
-          {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "սպասիր",
+            "gloss": "wait",
+            "transliteration": "spasir"
           }
         ]
       },
       {
-        "target": "րոպե մենք սովորում ենք։",
-        "text": "We study minute.",
+        "target": "րոպե արագ անցավ։",
+        "text": "The minute passed quickly.",
         "words": [
           {
             "word": "րոպե",
@@ -1909,21 +2244,26 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "արագ",
+            "gloss": "quickly",
+            "transliteration": "arag"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "անցավ",
+            "gloss": "passed",
+            "transliteration": "ants'av"
           }
         ]
       },
       {
-        "target": "րոպե շուկա գնում եմ։",
-        "text": "I go to the market minute.",
+        "target": "տասը րոպե ուշացա։",
+        "text": "I was ten minutes late.",
         "words": [
+          {
+            "word": "տասը",
+            "gloss": "ten",
+            "transliteration": "tasy"
+          },
           {
             "word": "րոպե",
             "gloss": "minute",
@@ -1931,14 +2271,9 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
-          {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "ուշացա",
+            "gloss": "I was late",
+            "transliteration": "ushats'a"
           }
         ]
       }
@@ -1948,11 +2283,11 @@
     "vocab_index": 276,
     "word": "երկուշաբթի",
     "gloss": "Monday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երկուշաբթի ես գալիս եմ։",
-        "text": "I come Monday.",
+        "target": "երկուշաբթի աշխատանքային շաբաթ է սկսվում։",
+        "text": "On Monday the work week begins.",
         "words": [
           {
             "word": "երկուշաբթի",
@@ -1961,20 +2296,30 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "աշխատանքային",
+            "gloss": "work",
+            "transliteration": "ashkhatank'ayin"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "շաբաթ",
+            "gloss": "week",
+            "transliteration": "shabat'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սկսվում",
+            "gloss": "beginning",
+            "transliteration": "sksvum"
           }
         ]
       },
       {
-        "target": "երկուշաբթի մենք սովորում ենք։",
-        "text": "We study Monday.",
+        "target": "երկուշաբթի դպրոց եմ գնում։",
+        "text": "On Monday I go to school.",
         "words": [
           {
             "word": "երկուշաբթի",
@@ -1983,20 +2328,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "դպրոց",
+            "gloss": "school",
+            "transliteration": "dprots'"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       },
       {
-        "target": "երկուշաբթի շուկա գնում եմ։",
-        "text": "I go to the market Monday.",
+        "target": "երկուշաբթի շուկան փակ է։",
+        "text": "On Monday the market is closed.",
         "words": [
           {
             "word": "երկուշաբթի",
@@ -2005,14 +2355,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "շուկան",
+            "gloss": "the market",
+            "transliteration": "shukan"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "փակ",
+            "gloss": "closed",
+            "transliteration": "p'ak"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2022,11 +2377,11 @@
     "vocab_index": 277,
     "word": "երեքշաբթի",
     "gloss": "Tuesday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "երեքշաբթի ես գալիս եմ։",
-        "text": "I come Tuesday.",
+        "target": "երեքշաբթի մարզանք ունեմ։",
+        "text": "On Tuesday I have sports.",
         "words": [
           {
             "word": "երեքշաբթի",
@@ -2035,20 +2390,20 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "մարզանք",
+            "gloss": "sports",
+            "transliteration": "marzank'"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ունեմ",
+            "gloss": "I have",
+            "transliteration": "unem"
           }
         ]
       },
       {
-        "target": "երեքշաբթի մենք սովորում ենք։",
-        "text": "We study Tuesday.",
+        "target": "երեքշաբթի գրադարան եմ գնում։",
+        "text": "On Tuesday I go to the library.",
         "words": [
           {
             "word": "երեքշաբթի",
@@ -2057,20 +2412,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "գրադարան",
+            "gloss": "library",
+            "transliteration": "gradaran"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       },
       {
-        "target": "երեքշաբթի շուկա գնում եմ։",
-        "text": "I go to the market Tuesday.",
+        "target": "երեքշաբթի հանդիպում է նշանակված։",
+        "text": "A meeting is set for Tuesday.",
         "words": [
           {
             "word": "երեքշաբթի",
@@ -2079,14 +2439,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "հանդիպում",
+            "gloss": "meeting",
+            "transliteration": "handipum"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "նշանակված",
+            "gloss": "scheduled",
+            "transliteration": "nshanakvats"
           }
         ]
       }
@@ -2096,11 +2461,11 @@
     "vocab_index": 278,
     "word": "չորեքշաբթի",
     "gloss": "Wednesday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "չորեքշաբթի ես գալիս եմ։",
-        "text": "I come Wednesday.",
+        "target": "չորեքշաբթի շաբաթվա կեսն է։",
+        "text": "Wednesday is the middle of the week.",
         "words": [
           {
             "word": "չորեքշաբթի",
@@ -2109,20 +2474,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "շաբաթվա",
+            "gloss": "week's",
+            "transliteration": "shabat'va"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "կեսն",
+            "gloss": "the middle",
+            "transliteration": "kesn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "չորեքշաբթի մենք սովորում ենք։",
-        "text": "We study Wednesday.",
+        "target": "չորեքշաբթի երաժշտության դաս ունեմ։",
+        "text": "On Wednesday I have a music lesson.",
         "words": [
           {
             "word": "չորեքշաբթի",
@@ -2131,20 +2501,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "երաժշտության",
+            "gloss": "music's",
+            "transliteration": "erazhshtut'yan"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "դաս",
+            "gloss": "lesson",
+            "transliteration": "das"
+          },
+          {
+            "word": "ունեմ",
+            "gloss": "I have",
+            "transliteration": "unem"
           }
         ]
       },
       {
-        "target": "չորեքշաբթի շուկա գնում եմ։",
-        "text": "I go to the market Wednesday.",
+        "target": "չորեքշաբթի շուկա եմ գնում։",
+        "text": "On Wednesday I go to the market.",
         "words": [
           {
             "word": "չորեքշաբթի",
@@ -2158,9 +2533,14 @@
             "transliteration": "shuka"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       }
@@ -2170,11 +2550,11 @@
     "vocab_index": 279,
     "word": "հինգշաբթի",
     "gloss": "Thursday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "հինգշաբթի ես գալիս եմ։",
-        "text": "I come Thursday.",
+        "target": "հինգշաբթի գրեթե ուրբաթ է։",
+        "text": "Thursday is almost Friday.",
         "words": [
           {
             "word": "հինգշաբթի",
@@ -2183,20 +2563,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "գրեթե",
+            "gloss": "almost",
+            "transliteration": "gret'e"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ուրբաթ",
+            "gloss": "Friday",
+            "transliteration": "urbat'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "հինգշաբթի մենք սովորում ենք։",
-        "text": "We study Thursday.",
+        "target": "հինգշաբթի ընկերոջս եմ այցելում։",
+        "text": "On Thursday I visit my friend.",
         "words": [
           {
             "word": "հինգշաբթի",
@@ -2205,20 +2590,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ընկերոջս",
+            "gloss": "my friend",
+            "transliteration": "ynkerojs"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "այցելում",
+            "gloss": "visiting",
+            "transliteration": "ayts'elum"
           }
         ]
       },
       {
-        "target": "հինգշաբթի շուկա գնում եմ։",
-        "text": "I go to the market Thursday.",
+        "target": "հինգշաբթի երկար դասեր ունենք։",
+        "text": "On Thursday we have long classes.",
         "words": [
           {
             "word": "հինգշաբթի",
@@ -2227,14 +2617,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "երկար",
+            "gloss": "long",
+            "transliteration": "erkar"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "դասեր",
+            "gloss": "classes",
+            "transliteration": "daser"
+          },
+          {
+            "word": "ունենք",
+            "gloss": "we have",
+            "transliteration": "unenk'"
           }
         ]
       }
@@ -2244,11 +2639,11 @@
     "vocab_index": 280,
     "word": "ուրբաթ",
     "gloss": "Friday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ուրբաթ ես գալիս եմ։",
-        "text": "I come Friday.",
+        "target": "ուրբաթ շաբաթվա վերջին աշխատանքային օրն է։",
+        "text": "Friday is the last workday of the week.",
         "words": [
           {
             "word": "ուրբաթ",
@@ -2257,20 +2652,35 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "շաբաթվա",
+            "gloss": "week's",
+            "transliteration": "shabat'va"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "վերջին",
+            "gloss": "last",
+            "transliteration": "verjin"
+          },
+          {
+            "word": "աշխատանքային",
+            "gloss": "work",
+            "transliteration": "ashkhatank'ayin"
+          },
+          {
+            "word": "օրն",
+            "gloss": "the day",
+            "transliteration": "orn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ուրբաթ մենք սովորում ենք։",
-        "text": "We study Friday.",
+        "target": "ուրբաթ երեկոյան ֆիլմ ենք նայում։",
+        "text": "On Friday evening we watch a film.",
         "words": [
           {
             "word": "ուրբաթ",
@@ -2279,20 +2689,30 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ֆիլմ",
+            "gloss": "film",
+            "transliteration": "film"
+          },
+          {
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
+          },
+          {
+            "word": "նայում",
+            "gloss": "watching",
+            "transliteration": "nayum"
           }
         ]
       },
       {
-        "target": "ուրբաթ շուկա գնում եմ։",
-        "text": "I go to the market Friday.",
+        "target": "ուրբաթ ընկերները հավաքվում են։",
+        "text": "On Friday friends gather.",
         "words": [
           {
             "word": "ուրբաթ",
@@ -2301,14 +2721,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "ընկերները",
+            "gloss": "the friends",
+            "transliteration": "ynkernery"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "հավաքվում",
+            "gloss": "gather",
+            "transliteration": "havak'vum"
+          },
+          {
+            "word": "են",
+            "gloss": "are",
+            "transliteration": "en"
           }
         ]
       }
@@ -2318,11 +2743,11 @@
     "vocab_index": 281,
     "word": "շաբաթ օր",
     "gloss": "Saturday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "շաբաթ օր ես գալիս եմ։",
-        "text": "I come Saturday.",
+        "target": "շաբաթ օր հանգստյան օր է։",
+        "text": "Saturday is a day off.",
         "words": [
           {
             "word": "շաբաթ օր",
@@ -2331,20 +2756,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "հանգստյան",
+            "gloss": "rest",
+            "transliteration": "hangstyan"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "օր",
+            "gloss": "day",
+            "transliteration": "or"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "շաբաթ օր մենք սովորում ենք։",
-        "text": "We study Saturday.",
+        "target": "շաբաթ օր ընտանիքով զբոսնում ենք։",
+        "text": "On Saturday we walk as a family.",
         "words": [
           {
             "word": "շաբաթ օր",
@@ -2353,20 +2783,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ընտանիքով",
+            "gloss": "as a family",
+            "transliteration": "yntanik'ov"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "զբոսնում",
+            "gloss": "walk",
+            "transliteration": "zbosnum"
+          },
+          {
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
           }
         ]
       },
       {
-        "target": "շաբաթ օր շուկա գնում եմ։",
-        "text": "I go to the market Saturday.",
+        "target": "շաբաթ օր շուկան մարդաշատ է։",
+        "text": "On Saturday the market is crowded.",
         "words": [
           {
             "word": "շաբաթ օր",
@@ -2375,14 +2810,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "շուկան",
+            "gloss": "the market",
+            "transliteration": "shukan"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "մարդաշատ",
+            "gloss": "crowded",
+            "transliteration": "mardashat"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2392,11 +2832,11 @@
     "vocab_index": 282,
     "word": "կիրակի",
     "gloss": "Sunday",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "կիրակի ես գալիս եմ։",
-        "text": "I come Sunday.",
+        "target": "կիրակի եկեղեցի ենք գնում։",
+        "text": "On Sunday we go to church.",
         "words": [
           {
             "word": "կիրակի",
@@ -2405,20 +2845,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "եկեղեցի",
+            "gloss": "church",
+            "transliteration": "ekeghets'i"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ենք",
+            "gloss": "we are",
+            "transliteration": "enk'"
+          },
+          {
+            "word": "գնում",
+            "gloss": "going",
+            "transliteration": "gnum"
           }
         ]
       },
       {
-        "target": "կիրակի մենք սովորում ենք։",
-        "text": "We study Sunday.",
+        "target": "կիրակի ընտանիքը հավաքվում է։",
+        "text": "On Sunday the family gathers.",
         "words": [
           {
             "word": "կիրակի",
@@ -2427,21 +2872,31 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ընտանիքը",
+            "gloss": "the family",
+            "transliteration": "yntanik'y"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "հավաքվում",
+            "gloss": "gathers",
+            "transliteration": "havak'vum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "կիրակի շուկա գնում եմ։",
-        "text": "I go to the market Sunday.",
+        "target": "հանգիստ կիրակի գիրք եմ կարդում։",
+        "text": "On a quiet Sunday I read a book.",
         "words": [
+          {
+            "word": "հանգիստ",
+            "gloss": "quiet",
+            "transliteration": "hangist"
+          },
           {
             "word": "կիրակի",
             "gloss": "Sunday",
@@ -2449,14 +2904,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "գիրք",
+            "gloss": "book",
+            "transliteration": "girk'"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "կարդում",
+            "gloss": "reading",
+            "transliteration": "kardum"
           }
         ]
       }
@@ -2466,11 +2926,11 @@
     "vocab_index": 283,
     "word": "հունվար",
     "gloss": "January",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "հունվար ես գալիս եմ։",
-        "text": "I come in January.",
+        "target": "հունվար տարվա առաջին ամիսն է։",
+        "text": "January is the first month of the year.",
         "words": [
           {
             "word": "հունվար",
@@ -2479,20 +2939,30 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "տարվա",
+            "gloss": "year's",
+            "transliteration": "tarva"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "առաջին",
+            "gloss": "first",
+            "transliteration": "arrajin"
+          },
+          {
+            "word": "ամիսն",
+            "gloss": "the month",
+            "transliteration": "amisn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "հունվար մենք սովորում ենք։",
-        "text": "We study in January.",
+        "target": "հունվար ցուրտ և ձյունառատ է։",
+        "text": "January is cold and snowy.",
         "words": [
           {
             "word": "հունվար",
@@ -2501,20 +2971,30 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ցուրտ",
+            "gloss": "cold",
+            "transliteration": "ts'urt"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "ձյունառատ",
+            "gloss": "snowy",
+            "transliteration": "dzyunarrat"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "հունվար շուկա գնում եմ։",
-        "text": "I go to the market in January.",
+        "target": "հունվար Նոր տարին է բերում։",
+        "text": "January brings the New Year.",
         "words": [
           {
             "word": "հունվար",
@@ -2523,14 +3003,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "Նոր",
+            "gloss": "New",
+            "transliteration": "nor"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "տարին",
+            "gloss": "the year",
+            "transliteration": "tarin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բերում",
+            "gloss": "bringing",
+            "transliteration": "berum"
           }
         ]
       }
@@ -2540,11 +3030,11 @@
     "vocab_index": 284,
     "word": "փետրվար",
     "gloss": "February",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "փետրվար ես գալիս եմ։",
-        "text": "I come in February.",
+        "target": "փետրվար կարճ ամիս է։",
+        "text": "February is a short month.",
         "words": [
           {
             "word": "փետրվար",
@@ -2553,20 +3043,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "կարճ",
+            "gloss": "short",
+            "transliteration": "karch"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ամիս",
+            "gloss": "month",
+            "transliteration": "amis"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "փետրվար մենք սովորում ենք։",
-        "text": "We study in February.",
+        "target": "փետրվար սիրո տոն ունի։",
+        "text": "February has a love holiday.",
         "words": [
           {
             "word": "փետրվար",
@@ -2575,20 +3070,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "սիրո",
+            "gloss": "love's",
+            "transliteration": "siro"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "տոն",
+            "gloss": "holiday",
+            "transliteration": "ton"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       },
       {
-        "target": "փետրվար շուկա գնում եմ։",
-        "text": "I go to the market in February.",
+        "target": "փետրվար դեռ ձմեռ է։",
+        "text": "February is still winter.",
         "words": [
           {
             "word": "փետրվար",
@@ -2597,14 +3097,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "դեռ",
+            "gloss": "still",
+            "transliteration": "derr"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "ձմեռ",
+            "gloss": "winter",
+            "transliteration": "dzmerr"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2614,11 +3119,11 @@
     "vocab_index": 285,
     "word": "մարտ",
     "gloss": "March",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մարտ ես գալիս եմ։",
-        "text": "I come in March.",
+        "target": "մարտ գարուն է սկսում։",
+        "text": "March starts spring.",
         "words": [
           {
             "word": "մարտ",
@@ -2627,20 +3132,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "գարուն",
+            "gloss": "spring",
+            "transliteration": "garun"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սկսում",
+            "gloss": "starting",
+            "transliteration": "sksum"
           }
         ]
       },
       {
-        "target": "մարտ մենք սովորում ենք։",
-        "text": "We study in March.",
+        "target": "մարտ քամոտ ամիս է։",
+        "text": "March is a windy month.",
         "words": [
           {
             "word": "մարտ",
@@ -2649,20 +3159,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "քամոտ",
+            "gloss": "windy",
+            "transliteration": "k'amot"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ամիս",
+            "gloss": "month",
+            "transliteration": "amis"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "մարտ շուկա գնում եմ։",
-        "text": "I go to the market in March.",
+        "target": "մարտ ծաղիկների բույր է բերում։",
+        "text": "March brings the scent of flowers.",
         "words": [
           {
             "word": "մարտ",
@@ -2671,14 +3186,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "ծաղիկների",
+            "gloss": "flowers'",
+            "transliteration": "tsaghikneri"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "բույր",
+            "gloss": "scent",
+            "transliteration": "buyr"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բերում",
+            "gloss": "bringing",
+            "transliteration": "berum"
           }
         ]
       }
@@ -2688,11 +3213,11 @@
     "vocab_index": 286,
     "word": "ապրիլ",
     "gloss": "April",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ապրիլ ես գալիս եմ։",
-        "text": "I come in April.",
+        "target": "ապրիլ անձրևով է գալիս։",
+        "text": "April comes with rain.",
         "words": [
           {
             "word": "ապրիլ",
@@ -2701,20 +3226,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "անձրևով",
+            "gloss": "with rain",
+            "transliteration": "andzrevov"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գալիս",
+            "gloss": "coming",
+            "transliteration": "galis"
           }
         ]
       },
       {
-        "target": "ապրիլ մենք սովորում ենք։",
-        "text": "We study in April.",
+        "target": "ապրիլ այգին արթնացնում է։",
+        "text": "April wakes the garden.",
         "words": [
           {
             "word": "ապրիլ",
@@ -2723,20 +3253,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "այգին",
+            "gloss": "the garden",
+            "transliteration": "aygin"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "արթնացնում",
+            "gloss": "wakes",
+            "transliteration": "art'nats'num"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "ապրիլ շուկա գնում եմ։",
-        "text": "I go to the market in April.",
+        "target": "ապրիլ մեղմ եղանակ ունի։",
+        "text": "April has mild weather.",
         "words": [
           {
             "word": "ապրիլ",
@@ -2745,14 +3280,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "մեղմ",
+            "gloss": "mild",
+            "transliteration": "meghm"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "եղանակ",
+            "gloss": "weather",
+            "transliteration": "eghanak"
+          },
+          {
+            "word": "ունի",
+            "gloss": "has",
+            "transliteration": "uni"
           }
         ]
       }
@@ -2762,11 +3302,11 @@
     "vocab_index": 287,
     "word": "մայիս",
     "gloss": "May",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "մայիս ես գալիս եմ։",
-        "text": "I come in May.",
+        "target": "մայիս ծաղիկներով է լի։",
+        "text": "May is full of flowers.",
         "words": [
           {
             "word": "մայիս",
@@ -2775,20 +3315,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ծաղիկներով",
+            "gloss": "with flowers",
+            "transliteration": "tsaghiknerov"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լի",
+            "gloss": "full",
+            "transliteration": "li"
           }
         ]
       },
       {
-        "target": "մայիս մենք սովորում ենք։",
-        "text": "We study in May.",
+        "target": "մայիս տաք և պայծառ է։",
+        "text": "May is warm and bright.",
         "words": [
           {
             "word": "մայիս",
@@ -2797,20 +3342,30 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "տաք",
+            "gloss": "warm",
+            "transliteration": "tak'"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "պայծառ",
+            "gloss": "bright",
+            "transliteration": "paytsarr"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "մայիս շուկա գնում եմ։",
-        "text": "I go to the market in May.",
+        "target": "մայիս դպրոցի վերջին ամիսն է։",
+        "text": "May is the last school month.",
         "words": [
           {
             "word": "մայիս",
@@ -2819,14 +3374,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "դպրոցի",
+            "gloss": "school's",
+            "transliteration": "dprots'i"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "վերջին",
+            "gloss": "last",
+            "transliteration": "verjin"
+          },
+          {
+            "word": "ամիսն",
+            "gloss": "the month",
+            "transliteration": "amisn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -2836,11 +3401,11 @@
     "vocab_index": 288,
     "word": "հունիս",
     "gloss": "June",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "հունիս ես գալիս եմ։",
-        "text": "I come in June.",
+        "target": "հունիս ամառ է սկսում։",
+        "text": "June starts summer.",
         "words": [
           {
             "word": "հունիս",
@@ -2849,20 +3414,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ամառ",
+            "gloss": "summer",
+            "transliteration": "amarr"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սկսում",
+            "gloss": "starting",
+            "transliteration": "sksum"
           }
         ]
       },
       {
-        "target": "հունիս մենք սովորում ենք։",
-        "text": "We study in June.",
+        "target": "հունիս քննությունների ամիս է։",
+        "text": "June is exam month.",
         "words": [
           {
             "word": "հունիս",
@@ -2871,20 +3441,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "քննությունների",
+            "gloss": "exams'",
+            "transliteration": "k'nnut'yunneri"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ամիս",
+            "gloss": "month",
+            "transliteration": "amis"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "հունիս շուկա գնում եմ։",
-        "text": "I go to the market in June.",
+        "target": "հունիս երկար օրեր է բերում։",
+        "text": "June brings long days.",
         "words": [
           {
             "word": "հունիս",
@@ -2893,14 +3468,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "երկար",
+            "gloss": "long",
+            "transliteration": "erkar"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "օրեր",
+            "gloss": "days",
+            "transliteration": "orer"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բերում",
+            "gloss": "bringing",
+            "transliteration": "berum"
           }
         ]
       }
@@ -2910,11 +3495,11 @@
     "vocab_index": 289,
     "word": "հուլիս",
     "gloss": "July",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "հուլիս ես գալիս եմ։",
-        "text": "I come in July.",
+        "target": "հուլիս ամենատաք ամիսն է։",
+        "text": "July is the hottest month.",
         "words": [
           {
             "word": "հուլիս",
@@ -2923,20 +3508,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "ամենատաք",
+            "gloss": "hottest",
+            "transliteration": "amenatak'"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ամիսն",
+            "gloss": "the month",
+            "transliteration": "amisn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "հուլիս մենք սովորում ենք։",
-        "text": "We study in July.",
+        "target": "հուլիս մեզ ծով է հրավիրում։",
+        "text": "July invites us to the sea.",
         "words": [
           {
             "word": "հուլիս",
@@ -2945,20 +3535,30 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "մեզ",
+            "gloss": "us",
+            "transliteration": "mez"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ծով",
+            "gloss": "sea",
+            "transliteration": "tsov"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հրավիրում",
+            "gloss": "inviting",
+            "transliteration": "hravirum"
           }
         ]
       },
       {
-        "target": "հուլիս շուկա գնում եմ։",
-        "text": "I go to the market in July.",
+        "target": "հուլիս արևով է լի։",
+        "text": "July is full of sun.",
         "words": [
           {
             "word": "հուլիս",
@@ -2967,14 +3567,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "արևով",
+            "gloss": "with sun",
+            "transliteration": "arevov"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "լի",
+            "gloss": "full",
+            "transliteration": "li"
           }
         ]
       }
@@ -2984,11 +3589,11 @@
     "vocab_index": 290,
     "word": "օգոստոս",
     "gloss": "August",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "օգոստոս ես գալիս եմ։",
-        "text": "I come in August.",
+        "target": "օգոստոս բերքի ամիս է։",
+        "text": "August is harvest month.",
         "words": [
           {
             "word": "օգոստոս",
@@ -2997,20 +3602,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "բերքի",
+            "gloss": "harvest's",
+            "transliteration": "berk'i"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "ամիս",
+            "gloss": "month",
+            "transliteration": "amis"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "օգոստոս մենք սովորում ենք։",
-        "text": "We study in August.",
+        "target": "օգոստոս մրգերով է հարուստ։",
+        "text": "August is rich in fruit.",
         "words": [
           {
             "word": "օգոստոս",
@@ -3019,20 +3629,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "մրգերով",
+            "gloss": "with fruit",
+            "transliteration": "mrgerov"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հարուստ",
+            "gloss": "rich",
+            "transliteration": "harust"
           }
         ]
       },
       {
-        "target": "օգոստոս շուկա գնում եմ։",
-        "text": "I go to the market in August.",
+        "target": "օգոստոս արձակուրդ է տալիս։",
+        "text": "August gives vacation.",
         "words": [
           {
             "word": "օգոստոս",
@@ -3041,14 +3656,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "արձակուրդ",
+            "gloss": "vacation",
+            "transliteration": "ardzakurd"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       }
@@ -3058,11 +3678,11 @@
     "vocab_index": 291,
     "word": "սեպտեմբեր",
     "gloss": "September",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "սեպտեմբեր ես գալիս եմ։",
-        "text": "I come in September.",
+        "target": "սեպտեմբեր դպրոց է բացում։",
+        "text": "September opens school.",
         "words": [
           {
             "word": "սեպտեմբեր",
@@ -3071,20 +3691,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "դպրոց",
+            "gloss": "school",
+            "transliteration": "dprots'"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բացում",
+            "gloss": "opening",
+            "transliteration": "bats'um"
           }
         ]
       },
       {
-        "target": "սեպտեմբեր մենք սովորում ենք։",
-        "text": "We study in September.",
+        "target": "սեպտեմբեր տերևները ներկում է։",
+        "text": "September colors the leaves.",
         "words": [
           {
             "word": "սեպտեմբեր",
@@ -3093,20 +3718,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "տերևները",
+            "gloss": "the leaves",
+            "transliteration": "terevnery"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ներկում",
+            "gloss": "colors",
+            "transliteration": "nerkum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "սեպտեմբեր շուկա գնում եմ։",
-        "text": "I go to the market in September.",
+        "target": "սեպտեմբեր մեղմորեն սառչում է։",
+        "text": "September cools gently.",
         "words": [
           {
             "word": "սեպտեմբեր",
@@ -3115,14 +3745,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "մեղմորեն",
+            "gloss": "gently",
+            "transliteration": "meghmoren"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "սառչում",
+            "gloss": "cools",
+            "transliteration": "sarrch'um"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -3132,11 +3767,11 @@
     "vocab_index": 292,
     "word": "հոկտեմբեր",
     "gloss": "October",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "հոկտեմբեր ես գալիս եմ։",
-        "text": "I come in October.",
+        "target": "հոկտեմբեր տերևաթափ է սկսում։",
+        "text": "October starts the leaf fall.",
         "words": [
           {
             "word": "հոկտեմբեր",
@@ -3145,20 +3780,25 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "տերևաթափ",
+            "gloss": "leaf fall",
+            "transliteration": "terevat'ap'"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սկսում",
+            "gloss": "starting",
+            "transliteration": "sksum"
           }
         ]
       },
       {
-        "target": "հոկտեմբեր մենք սովորում ենք։",
-        "text": "We study in October.",
+        "target": "հոկտեմբեր անձրևոտ ամիս է։",
+        "text": "October is a rainy month.",
         "words": [
           {
             "word": "հոկտեմբեր",
@@ -3167,20 +3807,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "անձրևոտ",
+            "gloss": "rainy",
+            "transliteration": "andzrevot"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "ամիս",
+            "gloss": "month",
+            "transliteration": "amis"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "հոկտեմբեր շուկա գնում եմ։",
-        "text": "I go to the market in October.",
+        "target": "հոկտեմբեր բաճկոն է պահանջում։",
+        "text": "October requires a jacket.",
         "words": [
           {
             "word": "հոկտեմբեր",
@@ -3189,14 +3834,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "բաճկոն",
+            "gloss": "jacket",
+            "transliteration": "bachkon"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահանջում",
+            "gloss": "requiring",
+            "transliteration": "pahanjum"
           }
         ]
       }
@@ -3206,11 +3856,11 @@
     "vocab_index": 293,
     "word": "նոյեմբեր",
     "gloss": "November",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "նոյեմբեր ես գալիս եմ։",
-        "text": "I come in November.",
+        "target": "նոյեմբեր մութ օրեր է բերում։",
+        "text": "November brings dark days.",
         "words": [
           {
             "word": "նոյեմբեր",
@@ -3219,20 +3869,30 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "մութ",
+            "gloss": "dark",
+            "transliteration": "mut'"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "օրեր",
+            "gloss": "days",
+            "transliteration": "orer"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բերում",
+            "gloss": "bringing",
+            "transliteration": "berum"
           }
         ]
       },
       {
-        "target": "նոյեմբեր մենք սովորում ենք։",
-        "text": "We study in November.",
+        "target": "նոյեմբեր ցուրտ է դառնում։",
+        "text": "November becomes cold.",
         "words": [
           {
             "word": "նոյեմբեր",
@@ -3241,20 +3901,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "ցուրտ",
+            "gloss": "cold",
+            "transliteration": "ts'urt"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "դառնում",
+            "gloss": "becoming",
+            "transliteration": "darrnum"
           }
         ]
       },
       {
-        "target": "նոյեմբեր շուկա գնում եմ։",
-        "text": "I go to the market in November.",
+        "target": "նոյեմբեր աշնան վերջին ամիսն է։",
+        "text": "November is the last autumn month.",
         "words": [
           {
             "word": "նոյեմբեր",
@@ -3263,14 +3928,24 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "աշնան",
+            "gloss": "autumn's",
+            "transliteration": "ashnan"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "վերջին",
+            "gloss": "last",
+            "transliteration": "verjin"
+          },
+          {
+            "word": "ամիսն",
+            "gloss": "the month",
+            "transliteration": "amisn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       }
@@ -3280,11 +3955,11 @@
     "vocab_index": 294,
     "word": "դեկտեմբեր",
     "gloss": "December",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "դեկտեմբեր ես գալիս եմ։",
-        "text": "I come in December.",
+        "target": "դեկտեմբեր տարվա վերջին ամիսն է։",
+        "text": "December is the last month of the year.",
         "words": [
           {
             "word": "դեկտեմբեր",
@@ -3293,20 +3968,30 @@
             "note": "target"
           },
           {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
+            "word": "տարվա",
+            "gloss": "year's",
+            "transliteration": "tarva"
           },
           {
-            "word": "գալիս եմ",
-            "gloss": "I come",
-            "transliteration": "galis em"
+            "word": "վերջին",
+            "gloss": "last",
+            "transliteration": "verjin"
+          },
+          {
+            "word": "ամիսն",
+            "gloss": "the month",
+            "transliteration": "amisn"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "դեկտեմբեր մենք սովորում ենք։",
-        "text": "We study in December.",
+        "target": "դեկտեմբեր տոներ է բերում։",
+        "text": "December brings holidays.",
         "words": [
           {
             "word": "դեկտեմբեր",
@@ -3315,20 +4000,25 @@
             "note": "target"
           },
           {
-            "word": "մենք",
-            "gloss": "we",
-            "transliteration": "menk'"
+            "word": "տոներ",
+            "gloss": "holidays",
+            "transliteration": "toner"
           },
           {
-            "word": "սովորում ենք",
-            "gloss": "we learn",
-            "transliteration": "sovorum enk'"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "բերում",
+            "gloss": "bringing",
+            "transliteration": "berum"
           }
         ]
       },
       {
-        "target": "դեկտեմբեր շուկա գնում եմ։",
-        "text": "I go to the market in December.",
+        "target": "դեկտեմբեր ձյուն է տեղում։",
+        "text": "In December snow falls.",
         "words": [
           {
             "word": "դեկտեմբեր",
@@ -3337,14 +4027,19 @@
             "note": "target"
           },
           {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
+            "word": "ձյուն",
+            "gloss": "snow",
+            "transliteration": "dzyun"
           },
           {
-            "word": "գնում եմ",
-            "gloss": "I go",
-            "transliteration": "gnum em"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տեղում",
+            "gloss": "falling",
+            "transliteration": "teghum"
           }
         ]
       }
@@ -3354,16 +4049,16 @@
     "vocab_index": 295,
     "word": "հաց",
     "gloss": "bread",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր հաց է ուզում։",
-        "text": "A friend wants bread.",
+        "target": "թարմ հաց հոտ է գալիս։",
+        "text": "Fresh bread smells good.",
         "words": [
           {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
+            "word": "թարմ",
+            "gloss": "fresh",
+            "transliteration": "t'arm"
           },
           {
             "word": "հաց",
@@ -3372,15 +4067,25 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "հոտ",
+            "gloss": "smell",
+            "transliteration": "hot"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գալիս",
+            "gloss": "coming",
+            "transliteration": "galis"
           }
         ]
       },
       {
-        "target": "հաց սեղանի վրա կա։",
-        "text": "The bread is on the table.",
+        "target": "հաց վառարանից հանեցի։",
+        "text": "I took the bread out of the oven.",
         "words": [
           {
             "word": "հաց",
@@ -3389,30 +4094,25 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "վառարանից",
+            "gloss": "from the oven",
+            "transliteration": "varraranits'"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "հանեցի",
+            "gloss": "I took out",
+            "transliteration": "hanets'i"
           }
         ]
       },
       {
-        "target": "երեխա հաց ուտում է։",
-        "text": "The child eats bread.",
+        "target": "առավոտյան հաց և կարագ եմ ուտում։",
+        "text": "In the morning I eat bread and butter.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
           },
           {
             "word": "հաց",
@@ -3421,9 +4121,24 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "և",
+            "gloss": "and",
+            "transliteration": "ev"
+          },
+          {
+            "word": "կարագ",
+            "gloss": "butter",
+            "transliteration": "karag"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "ուտում",
+            "gloss": "eating",
+            "transliteration": "utum"
           }
         ]
       }
@@ -3433,17 +4148,12 @@
     "vocab_index": 296,
     "word": "սուրճ",
     "gloss": "coffee",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես սուրճ խմում եմ։",
-        "text": "I drink coffee.",
+        "target": "սուրճ առավոտյան է արթնացնում։",
+        "text": "Coffee wakes me in the morning.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "սուրճ",
             "gloss": "coffee",
@@ -3451,20 +4161,30 @@
             "note": "target"
           },
           {
-            "word": "խմում եմ",
-            "gloss": "I drink",
-            "transliteration": "khmum em"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "արթնացնում",
+            "gloss": "waking",
+            "transliteration": "art'nats'num"
           }
         ]
       },
       {
-        "target": "մայր սուրճ պատրաստում է։",
-        "text": "Mother prepares coffee.",
+        "target": "թունդ սուրճ եմ խմում։",
+        "text": "I drink strong coffee.",
         "words": [
           {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
+            "word": "թունդ",
+            "gloss": "strong",
+            "transliteration": "t'und"
           },
           {
             "word": "սուրճ",
@@ -3473,21 +4193,21 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "խմում",
+            "gloss": "drinking",
+            "transliteration": "khmum"
           }
         ]
       },
       {
-        "target": "շուկա սուրճ կա։",
-        "text": "There is coffee at the market.",
+        "target": "սուրճ բաժակի մեջ է սառչում։",
+        "text": "The coffee is cooling in the cup.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "սուրճ",
             "gloss": "coffee",
@@ -3495,9 +4215,24 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "բաժակի",
+            "gloss": "cup's",
+            "transliteration": "bazhaki"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "սառչում",
+            "gloss": "cooling",
+            "transliteration": "sarrch'um"
           }
         ]
       }
@@ -3507,17 +4242,12 @@
     "vocab_index": 297,
     "word": "թեյ",
     "gloss": "tea",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր թեյ է ուզում։",
-        "text": "A friend wants tea.",
+        "target": "թեյ երեկոյան է հանգստացնում։",
+        "text": "Tea relaxes in the evening.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "թեյ",
             "gloss": "tea",
@@ -3525,16 +4255,31 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հանգստացնում",
+            "gloss": "relaxing",
+            "transliteration": "hangstats'num"
           }
         ]
       },
       {
-        "target": "թեյ սեղանի վրա կա։",
-        "text": "The tea is on the table.",
+        "target": "կանաչ թեյ առողջարար է։",
+        "text": "Green tea is healthy.",
         "words": [
+          {
+            "word": "կանաչ",
+            "gloss": "green",
+            "transliteration": "kanach'"
+          },
           {
             "word": "թեյ",
             "gloss": "tea",
@@ -3542,30 +4287,25 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "առողջարար",
+            "gloss": "healthy",
+            "transliteration": "arroghjarar"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "երեխա թեյ խմում է։",
-        "text": "The child drinks tea.",
+        "target": "տաք թեյ երեկոյան է հաճելի։",
+        "text": "Hot tea is pleasant in the evening.",
         "words": [
           {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
+            "word": "տաք",
+            "gloss": "hot",
+            "transliteration": "tak'"
           },
           {
             "word": "թեյ",
@@ -3574,9 +4314,19 @@
             "note": "target"
           },
           {
-            "word": "խմում է",
-            "gloss": "drinks",
-            "transliteration": "khmum e"
+            "word": "երեկոյան",
+            "gloss": "in the evening",
+            "transliteration": "erekoyan"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "հաճելի",
+            "gloss": "pleasant",
+            "transliteration": "hacheli"
           }
         ]
       }
@@ -3586,17 +4336,12 @@
     "vocab_index": 298,
     "word": "կաթ",
     "gloss": "milk",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես կաթ խմում եմ։",
-        "text": "I drink milk.",
+        "target": "կաթ երեխաներին ուժ է տալիս։",
+        "text": "Milk gives children strength.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "կաթ",
             "gloss": "milk",
@@ -3604,20 +4349,35 @@
             "note": "target"
           },
           {
-            "word": "խմում եմ",
-            "gloss": "I drink",
-            "transliteration": "khmum em"
+            "word": "երեխաներին",
+            "gloss": "to children",
+            "transliteration": "erekhanerin"
+          },
+          {
+            "word": "ուժ",
+            "gloss": "strength",
+            "transliteration": "uzh"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "տալիս",
+            "gloss": "giving",
+            "transliteration": "talis"
           }
         ]
       },
       {
-        "target": "մայր կաթ պատրաստում է։",
-        "text": "Mother prepares milk.",
+        "target": "թարմ կաթ առավոտյան եմ խմում։",
+        "text": "I drink fresh milk in the morning.",
         "words": [
           {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
+            "word": "թարմ",
+            "gloss": "fresh",
+            "transliteration": "t'arm"
           },
           {
             "word": "կաթ",
@@ -3626,21 +4386,26 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "առավոտյան",
+            "gloss": "in the morning",
+            "transliteration": "arravotyan"
+          },
+          {
+            "word": "եմ",
+            "gloss": "I am",
+            "transliteration": "em"
+          },
+          {
+            "word": "խմում",
+            "gloss": "drinking",
+            "transliteration": "khmum"
           }
         ]
       },
       {
-        "target": "շուկա կաթ կա։",
-        "text": "There is milk at the market.",
+        "target": "կաթ սառնարանում է պահվում։",
+        "text": "Milk is kept in the fridge.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "կաթ",
             "gloss": "milk",
@@ -3648,9 +4413,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "սառնարանում",
+            "gloss": "in the fridge",
+            "transliteration": "sarrnaranum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահվում",
+            "gloss": "kept",
+            "transliteration": "pahvum"
           }
         ]
       }
@@ -3660,17 +4435,12 @@
     "vocab_index": 299,
     "word": "շաքար",
     "gloss": "sugar",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ընկեր շաքար է ուզում։",
-        "text": "A friend wants sugar.",
+        "target": "շաքար թեյը քաղցրացնում է։",
+        "text": "Sugar sweetens the tea.",
         "words": [
-          {
-            "word": "ընկեր",
-            "gloss": "friend",
-            "transliteration": "ynker"
-          },
           {
             "word": "շաքար",
             "gloss": "sugar",
@@ -3678,15 +4448,25 @@
             "note": "target"
           },
           {
-            "word": "է ուզում",
-            "gloss": "wants",
-            "transliteration": "e uzum"
+            "word": "թեյը",
+            "gloss": "the tea",
+            "transliteration": "t'eyy"
+          },
+          {
+            "word": "քաղցրացնում",
+            "gloss": "sweetens",
+            "transliteration": "k'aghts'rats'num"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
           }
         ]
       },
       {
-        "target": "շաքար սեղանի վրա կա։",
-        "text": "The sugar is on the table.",
+        "target": "շաքար քիչ ավելացրու։",
+        "text": "Add a little sugar.",
         "words": [
           {
             "word": "շաքար",
@@ -3695,31 +4475,21 @@
             "note": "target"
           },
           {
-            "word": "սեղանի",
-            "gloss": "table",
-            "transliteration": "seghani"
+            "word": "քիչ",
+            "gloss": "a little",
+            "transliteration": "k'ich'"
           },
           {
-            "word": "վրա",
-            "gloss": "on",
-            "transliteration": "vra"
-          },
-          {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "ավելացրու",
+            "gloss": "add",
+            "transliteration": "avelats'ru"
           }
         ]
       },
       {
-        "target": "երեխա շաքար ուտում է։",
-        "text": "The child eats sugar.",
+        "target": "շաքար տուփի մեջ է պահվում։",
+        "text": "Sugar is kept in a box.",
         "words": [
-          {
-            "word": "երեխա",
-            "gloss": "child",
-            "transliteration": "erekha"
-          },
           {
             "word": "շաքար",
             "gloss": "sugar",
@@ -3727,9 +4497,24 @@
             "note": "target"
           },
           {
-            "word": "ուտում է",
-            "gloss": "eats",
-            "transliteration": "utum e"
+            "word": "տուփի",
+            "gloss": "box's",
+            "transliteration": "tup'i"
+          },
+          {
+            "word": "մեջ",
+            "gloss": "in",
+            "transliteration": "mej"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "պահվում",
+            "gloss": "kept",
+            "transliteration": "pahvum"
           }
         ]
       }
@@ -3739,17 +4524,12 @@
     "vocab_index": 300,
     "word": "բրինձ",
     "gloss": "rice",
-    "source": "Codex-curated Armenian A1 seed list",
+    "source": "LLM-authored Armenian A1 meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ես բրինձ ուտում եմ։",
-        "text": "I eat rice.",
+        "target": "բրինձ կաթսայում է եփվում։",
+        "text": "Rice is cooking in the pot.",
         "words": [
-          {
-            "word": "ես",
-            "gloss": "I",
-            "transliteration": "es"
-          },
           {
             "word": "բրինձ",
             "gloss": "rice",
@@ -3757,20 +4537,30 @@
             "note": "target"
           },
           {
-            "word": "ուտում եմ",
-            "gloss": "I eat",
-            "transliteration": "utum em"
+            "word": "կաթսայում",
+            "gloss": "in the pot",
+            "transliteration": "kat'sayum"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "եփվում",
+            "gloss": "cooking",
+            "transliteration": "ep'vum"
           }
         ]
       },
       {
-        "target": "մայր բրինձ պատրաստում է։",
-        "text": "Mother prepares rice.",
+        "target": "սպիտակ բրինձ ճաշին է մատուցվում։",
+        "text": "White rice is served at lunch.",
         "words": [
           {
-            "word": "մայր",
-            "gloss": "mother",
-            "transliteration": "mayr"
+            "word": "սպիտակ",
+            "gloss": "white",
+            "transliteration": "spitak"
           },
           {
             "word": "բրինձ",
@@ -3779,21 +4569,26 @@
             "note": "target"
           },
           {
-            "word": "պատրաստում է",
-            "gloss": "prepares",
-            "transliteration": "patrastum e"
+            "word": "ճաշին",
+            "gloss": "at lunch",
+            "transliteration": "chashin"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "մատուցվում",
+            "gloss": "served",
+            "transliteration": "matuts'vum"
           }
         ]
       },
       {
-        "target": "շուկա բրինձ կա։",
-        "text": "There is rice at the market.",
+        "target": "բրինձ շուկայից է գնված։",
+        "text": "The rice was bought from the market.",
         "words": [
-          {
-            "word": "շուկա",
-            "gloss": "market",
-            "transliteration": "shuka"
-          },
           {
             "word": "բրինձ",
             "gloss": "rice",
@@ -3801,9 +4596,19 @@
             "note": "target"
           },
           {
-            "word": "կա",
-            "gloss": "there is",
-            "transliteration": "ka"
+            "word": "շուկայից",
+            "gloss": "from the market",
+            "transliteration": "shukayits'"
+          },
+          {
+            "word": "է",
+            "gloss": "is",
+            "transliteration": "e"
+          },
+          {
+            "word": "գնված",
+            "gloss": "bought",
+            "transliteration": "gnvats"
           }
         ]
       }
