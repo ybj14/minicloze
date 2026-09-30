@@ -3,63 +3,98 @@
     "vocab_index": 42,
     "word": "ម៉ែ",
     "gloss": "mother",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំនិយាយជាមួយម៉ែ។",
-        "text": "I talk with the mother.",
+        "target": "ម៉ែដាស់ខ្ញុំព្រឹក។",
+        "text": "Mother wakes me early.",
+        "words": [
+          {
+            "word": "ម៉ែ",
+            "gloss": "mother",
+            "transliteration": "m″ae",
+            "transcription": "mae",
+            "note": "target"
+          },
+          {
+            "word": "ដាស់",
+            "gloss": "wake",
+            "transliteration": "ṭās´",
+            "transcription": "dah"
+          },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
+          },
+          {
+            "word": "ព្រឹក",
+            "gloss": "morning",
+            "transliteration": "b̥rẏk",
+            "transcription": "prɨk"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំជួយម៉ែនៅផ្ទះបាយ។",
+        "text": "I help mother in the kitchen.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "I"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
+            "word": "ជួយ",
+            "gloss": "help",
+            "transliteration": "juay",
+            "transcription": "cuəy"
           },
           {
             "word": "ម៉ែ",
-            "gloss": "mother"
+            "gloss": "mother",
+            "transliteration": "m″ae",
+            "transcription": "mae",
+            "note": "target"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "at",
+            "transliteration": "nau",
+            "transcription": "nɨw"
+          },
+          {
+            "word": "ផ្ទះបាយ",
+            "gloss": "kitchen",
+            "transliteration": "p̥ʰdḥpāy",
+            "transcription": "phtĕəhbaay"
           }
         ]
       },
       {
-        "target": "ម៉ែទៅផ្សារ។",
-        "text": "The mother goes to the market.",
+        "target": "ម៉ែទិញអង្ករ។",
+        "text": "Mother buys rice.",
         "words": [
           {
             "word": "ម៉ែ",
-            "gloss": "mother"
+            "gloss": "mother",
+            "transliteration": "m″ae",
+            "transcription": "mae",
+            "note": "target"
           },
           {
-            "word": "ទៅ",
-            "gloss": "go; to"
+            "word": "ទិញ",
+            "gloss": "buy",
+            "transliteration": "diñ",
+            "transcription": "tɨñ"
           },
           {
-            "word": "ផ្សារ",
-            "gloss": "market"
-          }
-        ]
-      },
-      {
-        "target": "ម៉ែអានសៀវភៅ។",
-        "text": "The mother reads a book.",
-        "words": [
-          {
-            "word": "ម៉ែ",
-            "gloss": "mother"
-          },
-          {
-            "word": "អាន",
-            "gloss": "read"
-          },
-          {
-            "word": "សៀវភៅ",
-            "gloss": "book"
+            "word": "អង្ករ",
+            "gloss": "rice grain",
+            "transliteration": "ʼṅ̥kr",
+            "transcription": "ʼɑngkɑɑ"
           }
         ]
       }
@@ -69,71 +104,92 @@
     "vocab_index": 43,
     "word": "ឪពុក",
     "gloss": "father",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "យើងញ៉ាំបាយជាមួយឪពុក។",
-        "text": "We eat rice with the father.",
+        "target": "ឪពុកអានកាសែត។",
+        "text": "Father reads the newspaper.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "ញ៉ាំ",
-            "gloss": "eat"
-          },
-          {
-            "word": "បាយ",
-            "gloss": "rice; meal"
-          },
-          {
-            "word": "ជាមួយ",
-            "gloss": "with"
-          },
-          {
             "word": "ឪពុក",
-            "gloss": "father"
+            "gloss": "father",
+            "transliteration": "uvbuk",
+            "transcription": "ʼəwpuk",
+            "note": "target"
+          },
+          {
+            "word": "អាន",
+            "gloss": "read",
+            "transliteration": "ʼān",
+            "transcription": "ʼaan"
+          },
+          {
+            "word": "កាសែត",
+            "gloss": "newspaper",
+            "transliteration": "kāsaet",
+            "transcription": "kaasaet"
           }
         ]
       },
       {
-        "target": "ឪពុកនៅផ្ទះ។",
-        "text": "The father is at home.",
-        "words": [
-          {
-            "word": "ឪពុក",
-            "gloss": "father"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ផ្ទះ",
-            "gloss": "house"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំនិយាយជាមួយឪពុក។",
-        "text": "I talk with the father.",
+        "target": "ខ្ញុំទៅផ្សារជាមួយឪពុក។",
+        "text": "I go with father to the market.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "I"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "និយាយ",
-            "gloss": "speak"
+            "word": "ទៅ",
+            "gloss": "go",
+            "transliteration": "dau",
+            "transcription": "tɨw"
+          },
+          {
+            "word": "ផ្សារ",
+            "gloss": "market",
+            "transliteration": "p̥ʰsār",
+            "transcription": "phsaa"
           },
           {
             "word": "ជាមួយ",
-            "gloss": "with"
+            "gloss": "with",
+            "transliteration": "jāmuay",
+            "transcription": "ciəmuəy"
           },
           {
             "word": "ឪពុក",
-            "gloss": "father"
+            "gloss": "father",
+            "transliteration": "uvbuk",
+            "transcription": "ʼəwpuk",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "ឪពុកជួសជុលកង់។",
+        "text": "Father repairs the bike.",
+        "words": [
+          {
+            "word": "ឪពុក",
+            "gloss": "father",
+            "transliteration": "uvbuk",
+            "transcription": "ʼəwpuk",
+            "note": "target"
+          },
+          {
+            "word": "ជួសជុល",
+            "gloss": "repair",
+            "transliteration": "juasjul",
+            "transcription": "cuəhcul"
+          },
+          {
+            "word": "កង់",
+            "gloss": "bike",
+            "transliteration": "kṅ´",
+            "transcription": "kɑng"
           }
         ]
       }
@@ -143,71 +199,92 @@
     "vocab_index": 44,
     "word": "សត្វ",
     "gloss": "animal",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "កូនគូរសត្វលើក្រដាស។",
-        "text": "The child draws an animal on paper.",
+        "target": "សត្វរស់នៅក្នុងព្រៃ។",
+        "text": "Animals live in the forest.",
+        "words": [
+          {
+            "word": "សត្វ",
+            "gloss": "animal",
+            "transliteration": "st̥v",
+            "transcription": "sɑtvɔɔ",
+            "note": "target"
+          },
+          {
+            "word": "រស់នៅ",
+            "gloss": "live",
+            "transliteration": "rs´nau",
+            "transcription": "rŭəhnɨw"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
+          },
+          {
+            "word": "ព្រៃ",
+            "gloss": "forest",
+            "transliteration": "b̥rai",
+            "transcription": "prɨy"
+          }
+        ]
+      },
+      {
+        "target": "កូនចូលចិត្តសត្វ។",
+        "text": "Children like animals.",
         "words": [
           {
             "word": "កូន",
-            "gloss": "child"
+            "gloss": "child",
+            "transliteration": "kūn",
+            "transcription": "koun"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ចូលចិត្ត",
+            "gloss": "like",
+            "transliteration": "cūlcit̥t",
+            "transcription": "coulcəttɑɑ"
           },
           {
             "word": "សត្វ",
-            "gloss": "animal"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "gloss": "animal",
+            "transliteration": "st̥v",
+            "transcription": "sɑtvɔɔ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "សត្វនេះស្អាត។",
-        "text": "This animal is beautiful.",
+        "target": "សត្វនេះញ៉ាំស្លឹក។",
+        "text": "This animal eats leaves.",
         "words": [
           {
             "word": "សត្វ",
-            "gloss": "animal"
+            "gloss": "animal",
+            "transliteration": "st̥v",
+            "transcription": "sɑtvɔɔ",
+            "note": "target"
           },
           {
             "word": "នេះ",
-            "gloss": "this"
+            "gloss": "this",
+            "transliteration": "neḥ",
+            "transcription": "nih"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
-          }
-        ]
-      },
-      {
-        "target": "យើងមើលសត្វពេលល្ងាច។",
-        "text": "We look at the animal in the evening.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "សត្វ",
-            "gloss": "animal"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ស្លឹក",
+            "gloss": "leaf",
+            "transliteration": "s̥lẏk",
+            "transcription": "slək"
           }
         ]
       }
@@ -217,79 +294,86 @@
     "vocab_index": 45,
     "word": "ត្រី",
     "gloss": "fish",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញត្រីនៅសួនច្បារ។",
-        "text": "I see a fish in the park.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
-          {
-            "word": "ត្រី",
-            "gloss": "fish"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
-          }
-        ]
-      },
-      {
-        "target": "ត្រីនៅជិតទន្លេ។",
-        "text": "The fish is near the river.",
+        "target": "ត្រីហែលក្នុងទន្លេ។",
+        "text": "Fish swim in the river.",
         "words": [
           {
             "word": "ត្រី",
-            "gloss": "fish"
+            "gloss": "fish",
+            "transliteration": "t̥rī",
+            "transcription": "trəy",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ហែល",
+            "gloss": "swim",
+            "transliteration": "hael",
+            "transcription": "hael"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
           },
           {
             "word": "ទន្លេ",
-            "gloss": "river"
+            "gloss": "river",
+            "transliteration": "dn̥le",
+            "transcription": "tŭənlei"
           }
         ]
       },
       {
-        "target": "កូនគូរត្រីលើក្រដាស។",
-        "text": "The child draws a fish on paper.",
+        "target": "ម៉ែចៀនត្រី។",
+        "text": "Mother fries fish.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "ម៉ែ",
+            "gloss": "mother",
+            "transliteration": "m″ae",
+            "transcription": "mae"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ចៀន",
+            "gloss": "fry",
+            "transliteration": "cian",
+            "transcription": "ciən"
           },
           {
             "word": "ត្រី",
-            "gloss": "fish"
+            "gloss": "fish",
+            "transliteration": "t̥rī",
+            "transcription": "trəy",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "គាត់ចាប់ត្រី។",
+        "text": "He catches a fish.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ចាប់",
+            "gloss": "catch",
+            "transliteration": "cāp´",
+            "transcription": "cap"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ត្រី",
+            "gloss": "fish",
+            "transliteration": "t̥rī",
+            "transcription": "trəy",
+            "note": "target"
           }
         ]
       }
@@ -299,71 +383,86 @@
     "vocab_index": 46,
     "word": "បក្សី",
     "gloss": "bird",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "បក្សីនេះស្អាត។",
-        "text": "This bird is beautiful.",
+        "target": "បក្សីច្រៀងពេលព្រឹក។",
+        "text": "Birds sing in the morning.",
         "words": [
           {
             "word": "បក្សី",
-            "gloss": "bird"
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ច្រៀង",
+            "gloss": "sing",
+            "transliteration": "c̥riaṅ",
+            "transcription": "criəng"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ពេលព្រឹក",
+            "gloss": "morning",
+            "transliteration": "belb̥rẏk",
+            "transcription": "peilprɨk"
           }
         ]
       },
       {
-        "target": "យើងមើលបក្សីពេលល្ងាច។",
-        "text": "We look at the bird in the evening.",
+        "target": "បក្សីធ្វើសំបុក។",
+        "text": "A bird builds a nest.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "បក្សី",
-            "gloss": "bird"
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ធ្វើ",
+            "gloss": "make",
+            "transliteration": "d̥ʰvoe",
+            "transcription": "thvəə"
+          },
+          {
+            "word": "សំបុក",
+            "gloss": "nest",
+            "transliteration": "sṃpuk",
+            "transcription": "sɑmbok"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញបក្សីនៅសួនច្បារ។",
-        "text": "I see a bird in the park.",
+        "target": "ខ្ញុំឮបក្សីខាងក្រៅ។",
+        "text": "I hear a bird outside.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "I"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ឮ",
+            "gloss": "hear",
+            "transliteration": "ḹ",
+            "transcription": "lɨɨ"
           },
           {
             "word": "បក្សី",
-            "gloss": "bird"
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ខាងក្រៅ",
+            "gloss": "outside",
+            "transliteration": "kʰāṅk̥rau",
+            "transcription": "khaangkraw"
           }
         ]
       }
@@ -373,71 +472,92 @@
     "vocab_index": 47,
     "word": "ឆ្កែ",
     "gloss": "dog",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ឆ្កែនៅជិតទន្លេ។",
-        "text": "The dog is near the river.",
+        "target": "ឆ្កែយាមផ្ទះ។",
+        "text": "The dog guards the house.",
         "words": [
           {
             "word": "ឆ្កែ",
-            "gloss": "dog"
+            "gloss": "dog",
+            "transliteration": "c̥ʰkae",
+            "transcription": "chkae",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "យាម",
+            "gloss": "guard",
+            "transliteration": "yām",
+            "transcription": "yiəm"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ផ្ទះ",
+            "gloss": "house",
+            "transliteration": "p̥ʰdḥ",
+            "transcription": "phtĕəh"
           }
         ]
       },
       {
-        "target": "កូនគូរឆ្កែលើក្រដាស។",
-        "text": "The child draws a dog on paper.",
+        "target": "កូនឲ្យអាហារឆ្កែ។",
+        "text": "Children feed the dog.",
         "words": [
           {
             "word": "កូន",
-            "gloss": "child"
+            "gloss": "child",
+            "transliteration": "kūn",
+            "transcription": "koun"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ឲ្យ",
+            "gloss": "give",
+            "transliteration": "o̥y",
+            "transcription": "ʼaoy"
+          },
+          {
+            "word": "អាហារ",
+            "gloss": "food",
+            "transliteration": "ʼāhār",
+            "transcription": "ʼaahaa"
           },
           {
             "word": "ឆ្កែ",
-            "gloss": "dog"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "gloss": "dog",
+            "transliteration": "c̥ʰkae",
+            "transcription": "chkae",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ឆ្កែនេះស្អាត។",
-        "text": "This dog is beautiful.",
+        "target": "ឆ្កែយើងរត់លឿន។",
+        "text": "Our dog runs fast.",
         "words": [
           {
             "word": "ឆ្កែ",
-            "gloss": "dog"
+            "gloss": "dog",
+            "transliteration": "c̥ʰkae",
+            "transcription": "chkae",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "យើង",
+            "gloss": "our",
+            "transliteration": "yoeṅ",
+            "transcription": "yəəng"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "រត់",
+            "gloss": "run",
+            "transliteration": "rt´",
+            "transcription": "rŭət"
+          },
+          {
+            "word": "លឿន",
+            "gloss": "fast",
+            "transliteration": "lẏan",
+            "transcription": "lɨən"
           }
         ]
       }
@@ -447,75 +567,104 @@
     "vocab_index": 48,
     "word": "ចៃ",
     "gloss": "louse",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "យើងមើលចៃពេលល្ងាច។",
-        "text": "We look at the louse in the evening.",
+        "target": "ចៃតូចណាស់។",
+        "text": "A louse is tiny.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "ចៃ",
-            "gloss": "louse"
+            "gloss": "louse",
+            "transliteration": "cai",
+            "transcription": "cay",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "តូច",
+            "gloss": "small",
+            "transliteration": "tūc",
+            "transcription": "touc"
+          },
+          {
+            "word": "ណាស់",
+            "gloss": "very",
+            "transliteration": "ṇās´",
+            "transcription": "nah"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញចៃនៅសួនច្បារ។",
-        "text": "I see a louse in the park.",
+        "target": "ម៉ែពិនិត្យរកចៃ។",
+        "text": "Mother checks for lice.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ម៉ែ",
+            "gloss": "mother",
+            "transliteration": "m″ae",
+            "transcription": "mae"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ពិនិត្យ",
+            "gloss": "check",
+            "transliteration": "binit̥y",
+            "transcription": "pinɨtyɔɔ"
+          },
+          {
+            "word": "រក",
+            "gloss": "look for",
+            "transliteration": "rk",
+            "transcription": "rɔɔk"
           },
           {
             "word": "ចៃ",
-            "gloss": "louse"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "gloss": "louse",
+            "transliteration": "cai",
+            "transcription": "cay",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ចៃនៅជិតទន្លេ។",
-        "text": "The louse is near the river.",
+        "target": "លាងសក់ដើម្បីយកចៃចេញ។",
+        "text": "Wash hair to remove lice.",
         "words": [
           {
+            "word": "លាង",
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
+          },
+          {
+            "word": "សក់",
+            "gloss": "hair",
+            "transliteration": "sk´",
+            "transcription": "sɑk"
+          },
+          {
+            "word": "ដើម្បី",
+            "gloss": "in order to",
+            "transliteration": "ṭoem̥pī",
+            "transcription": "daəmbəy"
+          },
+          {
+            "word": "យក",
+            "gloss": "take",
+            "transliteration": "yk",
+            "transcription": "yɔɔk"
+          },
+          {
             "word": "ចៃ",
-            "gloss": "louse"
+            "gloss": "louse",
+            "transliteration": "cai",
+            "transcription": "cay",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ចេញ",
+            "gloss": "out",
+            "transliteration": "ceñ",
+            "transcription": "cəñ"
           }
         ]
       }
@@ -525,71 +674,86 @@
     "vocab_index": 49,
     "word": "អហិ",
     "gloss": "snake",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "កូនគូរអហិលើក្រដាស។",
-        "text": "The child draws a snake on paper.",
+        "target": "អហិលាក់ក្នុងស្មៅ។",
+        "text": "A snake hides in the grass.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
             "word": "អហិ",
-            "gloss": "snake"
+            "gloss": "snake",
+            "transliteration": "ʼhi",
+            "transcription": "ʼɑheʼ",
+            "note": "target"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "លាក់",
+            "gloss": "hide",
+            "transliteration": "lāk´",
+            "transcription": "lĕək"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
+          },
+          {
+            "word": "ស្មៅ",
+            "gloss": "grass",
+            "transliteration": "s̥mau",
+            "transcription": "smaw"
           }
         ]
       },
       {
-        "target": "អហិនេះស្អាត។",
-        "text": "This snake is beautiful.",
+        "target": "កុំប៉ះអហិ។",
+        "text": "Do not touch the snake.",
         "words": [
           {
+            "word": "កុំ",
+            "gloss": "do not",
+            "transliteration": "kuṃ",
+            "transcription": "kom"
+          },
+          {
+            "word": "ប៉ះ",
+            "gloss": "touch",
+            "transliteration": "p″ḥ",
+            "transcription": "pah"
+          },
+          {
             "word": "អហិ",
-            "gloss": "snake"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "gloss": "snake",
+            "transliteration": "ʼhi",
+            "transcription": "ʼɑheʼ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "យើងមើលអហិពេលល្ងាច។",
-        "text": "We look at the snake in the evening.",
+        "target": "កសិករខ្លាចអហិ។",
+        "text": "Farmers fear snakes.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "កសិករ",
+            "gloss": "farmer",
+            "transliteration": "ksikr",
+            "transcription": "kɑɑsəkrɔɔ"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ខ្លាច",
+            "gloss": "fear",
+            "transliteration": "k̥ʰlāc",
+            "transcription": "khlaac"
           },
           {
             "word": "អហិ",
-            "gloss": "snake"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "gloss": "snake",
+            "transliteration": "ʼhi",
+            "transcription": "ʼɑheʼ",
+            "note": "target"
           }
         ]
       }
@@ -599,79 +763,98 @@
     "vocab_index": 50,
     "word": "ដង្កូវ",
     "gloss": "worm",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញដង្កូវនៅសួនច្បារ។",
-        "text": "I see a worm in the park.",
+        "target": "ដង្កូវរស់ក្នុងដីសើម។",
+        "text": "Worms live in wet soil.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
-          },
-          {
             "word": "ដង្កូវ",
-            "gloss": "worm"
+            "gloss": "worm",
+            "transliteration": "ṭṅ̥kūv",
+            "transcription": "dɑngkəw",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "រស់",
+            "gloss": "live",
+            "transliteration": "rs´",
+            "transcription": "rŭəh"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
+          },
+          {
+            "word": "ដី",
+            "gloss": "soil",
+            "transliteration": "ṭī",
+            "transcription": "dəy"
+          },
+          {
+            "word": "សើម",
+            "gloss": "wet",
+            "transliteration": "soem",
+            "transcription": "saəm"
           }
         ]
       },
       {
-        "target": "ដង្កូវនៅជិតទន្លេ។",
-        "text": "The worm is near the river.",
+        "target": "បក្សីញ៉ាំដង្កូវ។",
+        "text": "A bird eats a worm.",
         "words": [
           {
+            "word": "បក្សី",
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
+          },
+          {
             "word": "ដង្កូវ",
-            "gloss": "worm"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "gloss": "worm",
+            "transliteration": "ṭṅ̥kūv",
+            "transcription": "dɑngkəw",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "កូនគូរដង្កូវលើក្រដាស។",
-        "text": "The child draws a worm on paper.",
+        "target": "ក្រោយភ្លៀងដង្កូវងើប។",
+        "text": "After rain, worms come up.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "ក្រោយ",
+            "gloss": "after",
+            "transliteration": "k̥roy",
+            "transcription": "kraoy"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ភ្លៀង",
+            "gloss": "rain",
+            "transliteration": "b̥ʰliaṅ",
+            "transcription": "phliəng"
           },
           {
             "word": "ដង្កូវ",
-            "gloss": "worm"
+            "gloss": "worm",
+            "transliteration": "ṭṅ̥kūv",
+            "transcription": "dɑngkəw",
+            "note": "target"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ងើប",
+            "gloss": "rise",
+            "transliteration": "ṅoep",
+            "transcription": "ngəəp"
           }
         ]
       }
@@ -681,71 +864,98 @@
     "vocab_index": 51,
     "word": "ដើមឈើ",
     "gloss": "tree",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ដើមឈើនេះស្អាត។",
-        "text": "This tree is beautiful.",
+        "target": "ដើមឈើខ្ពស់ឲ្យម្លប់។",
+        "text": "A tall tree gives shade.",
         "words": [
           {
             "word": "ដើមឈើ",
-            "gloss": "tree"
+            "gloss": "tree",
+            "transliteration": "ṭoemjʰoe",
+            "transcription": "daəmchəə",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ខ្ពស់",
+            "gloss": "tall",
+            "transliteration": "k̥ʰbs´",
+            "transcription": "khpŭəh"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ឲ្យ",
+            "gloss": "give",
+            "transliteration": "o̥y",
+            "transcription": "ʼaoy"
+          },
+          {
+            "word": "ម្លប់",
+            "gloss": "shade",
+            "transliteration": "m̥lp´",
+            "transcription": "mlup"
           }
         ]
       },
       {
-        "target": "យើងមើលដើមឈើពេលល្ងាច។",
-        "text": "We look at the tree in the evening.",
+        "target": "យើងដាំដើមឈើថ្ងៃនេះ។",
+        "text": "We plant a tree today.",
         "words": [
           {
             "word": "យើង",
-            "gloss": "we"
+            "gloss": "we",
+            "transliteration": "yoeṅ",
+            "transcription": "yəəng"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ដាំ",
+            "gloss": "plant",
+            "transliteration": "ṭāṃ",
+            "transcription": "dam"
           },
           {
             "word": "ដើមឈើ",
-            "gloss": "tree"
+            "gloss": "tree",
+            "transliteration": "ṭoemjʰoe",
+            "transcription": "daəmchəə",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ថ្ងៃនេះ",
+            "gloss": "today",
+            "transliteration": "t̥ʰṅaineḥ",
+            "transcription": "thngaynih"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញដើមឈើនៅសួនច្បារ។",
-        "text": "I see a tree in the park.",
+        "target": "ផ្លែឈើព្យួរលើដើមឈើ។",
+        "text": "Fruit hangs on the tree.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ផ្លែឈើ",
+            "gloss": "fruit",
+            "transliteration": "p̥ʰlaejʰoe",
+            "transcription": "phlaechəə"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ព្យួរ",
+            "gloss": "hang",
+            "transliteration": "b̥yuar",
+            "transcription": "pyuə"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on",
+            "transliteration": "loe",
+            "transcription": "ləə"
           },
           {
             "word": "ដើមឈើ",
-            "gloss": "tree"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "gloss": "tree",
+            "transliteration": "ṭoemjʰoe",
+            "transcription": "daəmchəə",
+            "note": "target"
           }
         ]
       }
@@ -755,71 +965,98 @@
     "vocab_index": 52,
     "word": "ព្រៃ",
     "gloss": "forest",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ព្រៃនៅជិតទន្លេ។",
-        "text": "The forest is near the river.",
+        "target": "ព្រៃងងឹតនិងត្រជាក់។",
+        "text": "The forest is dark and cool.",
         "words": [
           {
             "word": "ព្រៃ",
-            "gloss": "forest"
+            "gloss": "forest",
+            "transliteration": "b̥rai",
+            "transcription": "prɨy",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ងងឹត",
+            "gloss": "dark",
+            "transliteration": "ṅṅẏt",
+            "transcription": "ngɔngɨt"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
+            "word": "និង",
+            "gloss": "and",
+            "transliteration": "niṅ",
+            "transcription": "nɨng"
           },
           {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ត្រជាក់",
+            "gloss": "cool",
+            "transliteration": "t̥rjāk´",
+            "transcription": "trɑcĕək"
           }
         ]
       },
       {
-        "target": "កូនគូរព្រៃលើក្រដាស។",
-        "text": "The child draws a forest on paper.",
+        "target": "អ្នកប្រមាញ់ចូលព្រៃ។",
+        "text": "Hunters enter the forest.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "អ្នកប្រមាញ់",
+            "gloss": "hunter",
+            "transliteration": "ʼ̥nkp̥rmāñ´",
+            "transcription": "nĕək prɑmŏəñ"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ចូល",
+            "gloss": "enter",
+            "transliteration": "cūl",
+            "transcription": "coul"
           },
           {
             "word": "ព្រៃ",
-            "gloss": "forest"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "gloss": "forest",
+            "transliteration": "b̥rai",
+            "transcription": "prɨy",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ព្រៃនេះស្អាត។",
-        "text": "This forest is beautiful.",
+        "target": "បក្សីធ្វើសំបុកក្នុងព្រៃ។",
+        "text": "Birds nest in the forest.",
         "words": [
           {
+            "word": "បក្សី",
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "make",
+            "transliteration": "d̥ʰvoe",
+            "transcription": "thvəə"
+          },
+          {
+            "word": "សំបុក",
+            "gloss": "nest",
+            "transliteration": "sṃpuk",
+            "transcription": "sɑmbok"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
+          },
+          {
             "word": "ព្រៃ",
-            "gloss": "forest"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "gloss": "forest",
+            "transliteration": "b̥rai",
+            "transcription": "prɨy",
+            "note": "target"
           }
         ]
       }
@@ -829,75 +1066,86 @@
     "vocab_index": 53,
     "word": "ដំបង",
     "gloss": "stick",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "យើងមើលដំបងពេលល្ងាច។",
-        "text": "We look at the stick in the evening.",
+        "target": "គាត់ដើរដោយដំបង។",
+        "text": "He walks with a stick.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "គាត់",
+            "gloss": "he",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ដើរ",
+            "gloss": "walk",
+            "transliteration": "ṭoer",
+            "transcription": "daə"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "by",
+            "transliteration": "ṭoy",
+            "transcription": "daoy"
           },
           {
             "word": "ដំបង",
-            "gloss": "stick"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "gloss": "stick",
+            "transliteration": "ṭṃpṅ",
+            "transcription": "dɑmpngɔɔ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញដំបងនៅសួនច្បារ។",
-        "text": "I see a stick in the park.",
+        "target": "កូនរើសដំបង។",
+        "text": "The child picks up a stick.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "កូន",
+            "gloss": "child",
+            "transliteration": "kūn",
+            "transcription": "koun"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "រើស",
+            "gloss": "pick up",
+            "transliteration": "roes",
+            "transcription": "rəəh"
           },
           {
             "word": "ដំបង",
-            "gloss": "stick"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "gloss": "stick",
+            "transliteration": "ṭṃpṅ",
+            "transcription": "dɑmpngɔɔ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ដំបងនៅជិតទន្លេ។",
-        "text": "The stick is near the river.",
+        "target": "បំបែកដំបងស្ងួត។",
+        "text": "Break the dry stick.",
         "words": [
           {
+            "word": "បំបែក",
+            "gloss": "break",
+            "transliteration": "pṃpaek",
+            "transcription": "bɑmbaek"
+          },
+          {
             "word": "ដំបង",
-            "gloss": "stick"
+            "gloss": "stick",
+            "transliteration": "ṭṃpṅ",
+            "transcription": "dɑmpngɔɔ",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ស្ងួត",
+            "gloss": "dry",
+            "transliteration": "s̥ṅuat",
+            "transcription": "snguət"
           }
         ]
       }
@@ -907,71 +1155,86 @@
     "vocab_index": 54,
     "word": "ផល",
     "gloss": "fruit",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "កូនគូរផលលើក្រដាស។",
-        "text": "The child draws a fruit on paper.",
+        "target": "ផលផ្អែមលក់ដាច់។",
+        "text": "Sweet fruit sells well.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
             "word": "ផល",
-            "gloss": "fruit"
+            "gloss": "fruit",
+            "transliteration": "pʰl",
+            "transcription": "phɑɑl",
+            "note": "target"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ផ្អែម",
+            "gloss": "sweet",
+            "transliteration": "p̥ʰʼaem",
+            "transcription": "phʼaem"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "លក់ដាច់",
+            "gloss": "sells well",
+            "transliteration": "lk´ṭāc´",
+            "transcription": "lŭəkdac"
           }
         ]
       },
       {
-        "target": "ផលនេះស្អាត។",
-        "text": "This fruit is beautiful.",
+        "target": "ខ្ញុំលាងផលមុន។",
+        "text": "I wash the fruit first.",
+        "words": [
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
+          },
+          {
+            "word": "លាង",
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
+          },
+          {
+            "word": "ផល",
+            "gloss": "fruit",
+            "transliteration": "pʰl",
+            "transcription": "phɑɑl",
+            "note": "target"
+          },
+          {
+            "word": "មុន",
+            "gloss": "first",
+            "transliteration": "mun",
+            "transcription": "mun"
+          }
+        ]
+      },
+      {
+        "target": "ផលនេះទុំ។",
+        "text": "This fruit is ripe.",
         "words": [
           {
             "word": "ផល",
-            "gloss": "fruit"
+            "gloss": "fruit",
+            "transliteration": "pʰl",
+            "transcription": "phɑɑl",
+            "note": "target"
           },
           {
             "word": "នេះ",
-            "gloss": "this"
+            "gloss": "this",
+            "transliteration": "neḥ",
+            "transcription": "nih"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
-          }
-        ]
-      },
-      {
-        "target": "យើងមើលផលពេលល្ងាច។",
-        "text": "We look at the fruit in the evening.",
-        "words": [
-          {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ផល",
-            "gloss": "fruit"
-          },
-          {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ទុំ",
+            "gloss": "ripe",
+            "transliteration": "duṃ",
+            "transcription": "tum"
           }
         ]
       }
@@ -981,79 +1244,92 @@
     "vocab_index": 55,
     "word": "គ្រាប់ពូជ",
     "gloss": "seed",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញគ្រាប់ពូជនៅសួនច្បារ។",
-        "text": "I see a seed in the park.",
+        "target": "ដាំគ្រាប់ពូជក្នុងដី។",
+        "text": "Plant the seed in soil.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ដាំ",
+            "gloss": "plant",
+            "transliteration": "ṭāṃ",
+            "transcription": "dam"
           },
           {
             "word": "គ្រាប់ពូជ",
-            "gloss": "seed"
+            "gloss": "seed",
+            "transliteration": "g̥rāp´būj",
+            "transcription": "krŏəppuuc",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
           },
           {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ដី",
+            "gloss": "soil",
+            "transliteration": "ṭī",
+            "transcription": "dəy"
           }
         ]
       },
       {
-        "target": "គ្រាប់ពូជនៅជិតទន្លេ។",
-        "text": "The seed is near the river.",
+        "target": "គ្រាប់ពូជត្រូវការទឹក។",
+        "text": "A seed needs water.",
         "words": [
           {
             "word": "គ្រាប់ពូជ",
-            "gloss": "seed"
+            "gloss": "seed",
+            "transliteration": "g̥rāp´būj",
+            "transcription": "krŏəppuuc",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ត្រូវការ",
+            "gloss": "need",
+            "transliteration": "t̥rūvkār",
+            "transcription": "trəwkaa"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ទឹក",
+            "gloss": "water",
+            "transliteration": "dẏk",
+            "transcription": "tɨk"
           }
         ]
       },
       {
-        "target": "កូនគូរគ្រាប់ពូជលើក្រដាស។",
-        "text": "The child draws a seed on paper.",
+        "target": "បក្សីញ៉ាំគ្រាប់ពូជស្រូវ។",
+        "text": "Birds eat rice seeds.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "បក្សី",
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
           },
           {
             "word": "គ្រាប់ពូជ",
-            "gloss": "seed"
+            "gloss": "seed",
+            "transliteration": "g̥rāp´būj",
+            "transcription": "krŏəppuuc",
+            "note": "target"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ស្រូវ",
+            "gloss": "rice plant",
+            "transliteration": "s̥rūv",
+            "transcription": "srəw"
           }
         ]
       }
@@ -1063,71 +1339,98 @@
     "vocab_index": 56,
     "word": "ស្លឹក",
     "gloss": "leaf",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ស្លឹកនេះស្អាត។",
-        "text": "This leaf is beautiful.",
+        "target": "ស្លឹកបៃតងគ្របមែក។",
+        "text": "Green leaves cover the branch.",
         "words": [
           {
             "word": "ស្លឹក",
-            "gloss": "leaf"
+            "gloss": "leaf",
+            "transliteration": "s̥lẏk",
+            "transcription": "slək",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "បៃតង",
+            "gloss": "green",
+            "transliteration": "paitṅ",
+            "transcription": "baytngɔɔ"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "គ្រប",
+            "gloss": "cover",
+            "transliteration": "g̥rp",
+            "transcription": "krɔɔp"
+          },
+          {
+            "word": "មែក",
+            "gloss": "branch",
+            "transliteration": "maek",
+            "transcription": "mɛɛk"
           }
         ]
       },
       {
-        "target": "យើងមើលស្លឹកពេលល្ងាច។",
-        "text": "We look at the leaf in the evening.",
+        "target": "ខ្យល់ធ្វើឲ្យស្លឹករំកិល។",
+        "text": "Wind moves the leaves.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ខ្យល់",
+            "gloss": "wind",
+            "transliteration": "k̥ʰyl´",
+            "transcription": "khyɑl"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ធ្វើឲ្យ",
+            "gloss": "make",
+            "transliteration": "d̥ʰvoeo̥y",
+            "transcription": "thvəəʼaoy"
           },
           {
             "word": "ស្លឹក",
-            "gloss": "leaf"
+            "gloss": "leaf",
+            "transliteration": "s̥lẏk",
+            "transcription": "slək",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "រំកិល",
+            "gloss": "move",
+            "transliteration": "rṃkil",
+            "transcription": "rumkəl"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញស្លឹកនៅសួនច្បារ។",
-        "text": "I see a leaf in the park.",
+        "target": "ខ្ញុំបោសស្លឹកស្ងួត។",
+        "text": "I sweep dry leaves.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "I"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "បោស",
+            "gloss": "sweep",
+            "transliteration": "pos",
+            "transcription": "baoh"
           },
           {
             "word": "ស្លឹក",
-            "gloss": "leaf"
+            "gloss": "leaf",
+            "transliteration": "s̥lẏk",
+            "transcription": "slək",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "ស្ងួត",
+            "gloss": "dry",
+            "transliteration": "s̥ṅuat",
+            "transcription": "snguət"
           }
         ]
       }
@@ -1137,71 +1440,98 @@
     "vocab_index": 57,
     "word": "ឫស",
     "gloss": "root",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ឫសនៅជិតទន្លេ។",
-        "text": "The root is near the river.",
+        "target": "ឫសដើមឈើទប់ដី។",
+        "text": "Tree roots hold the soil.",
         "words": [
           {
             "word": "ឫស",
-            "gloss": "root"
+            "gloss": "root",
+            "transliteration": "ṛs",
+            "transcription": "rɨsɑɑ",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ដើមឈើ",
+            "gloss": "tree",
+            "transliteration": "ṭoemjʰoe",
+            "transcription": "daəmchəə"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
+            "word": "ទប់",
+            "gloss": "hold",
+            "transliteration": "dp´",
+            "transcription": "tup"
           },
           {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "ដី",
+            "gloss": "soil",
+            "transliteration": "ṭī",
+            "transcription": "dəy"
           }
         ]
       },
       {
-        "target": "កូនគូរឫសលើក្រដាស។",
-        "text": "The child draws a root on paper.",
+        "target": "ទាញស្មៅតាមឫស។",
+        "text": "Pull the weed by the root.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "ទាញ",
+            "gloss": "pull",
+            "transliteration": "dāñ",
+            "transcription": "tiəñ"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ស្មៅ",
+            "gloss": "weed",
+            "transliteration": "s̥mau",
+            "transcription": "smaw"
+          },
+          {
+            "word": "តាម",
+            "gloss": "by",
+            "transliteration": "tām",
+            "transcription": "taam"
           },
           {
             "word": "ឫស",
-            "gloss": "root"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "gloss": "root",
+            "transliteration": "ṛs",
+            "transcription": "rɨsɑɑ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ឫសនេះស្អាត។",
-        "text": "This root is beautiful.",
+        "target": "ឫសជ្រៅត្រូវការភ្លៀង។",
+        "text": "Deep roots need rain.",
         "words": [
           {
             "word": "ឫស",
-            "gloss": "root"
+            "gloss": "root",
+            "transliteration": "ṛs",
+            "transcription": "rɨsɑɑ",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ជ្រៅ",
+            "gloss": "deep",
+            "transliteration": "j̥rau",
+            "transcription": "crɨw"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ត្រូវការ",
+            "gloss": "need",
+            "transliteration": "t̥rūvkār",
+            "transcription": "trəwkaa"
+          },
+          {
+            "word": "ភ្លៀង",
+            "gloss": "rain",
+            "transliteration": "b̥ʰliaṅ",
+            "transcription": "phliəng"
           }
         ]
       }
@@ -1211,75 +1541,98 @@
     "vocab_index": 58,
     "word": "សំបក",
     "gloss": "bark",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "យើងមើលសំបកពេលល្ងាច។",
-        "text": "We look at the bark in the evening.",
+        "target": "សំបកការពារដើមឈើ។",
+        "text": "Bark protects the tree.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "សំបក",
-            "gloss": "bark"
+            "gloss": "bark",
+            "transliteration": "sṃpk",
+            "transcription": "sɑmpkɑɑ",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ការពារ",
+            "gloss": "protect",
+            "transliteration": "kārbār",
+            "transcription": "kaapiə"
+          },
+          {
+            "word": "ដើមឈើ",
+            "gloss": "tree",
+            "transliteration": "ṭoemjʰoe",
+            "transcription": "daəmchəə"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញសំបកនៅសួនច្បារ។",
-        "text": "I see a bark in the park.",
+        "target": "សត្វល្អិតរស់ក្រោមសំបក។",
+        "text": "Insects live under bark.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "សត្វល្អិត",
+            "gloss": "insect",
+            "transliteration": "st̥vl̥ʼit",
+            "transcription": "sɑɑtvɔɔlʼət"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "រស់",
+            "gloss": "live",
+            "transliteration": "rs´",
+            "transcription": "rŭəh"
+          },
+          {
+            "word": "ក្រោម",
+            "gloss": "under",
+            "transliteration": "k̥rom",
+            "transcription": "kraom"
           },
           {
             "word": "សំបក",
-            "gloss": "bark"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "gloss": "bark",
+            "transliteration": "sṃpk",
+            "transcription": "sɑmpkɑɑ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "សំបកនៅជិតទន្លេ។",
-        "text": "The bark is near the river.",
+        "target": "កុំបកសំបកដើមរស់។",
+        "text": "Do not peel living bark.",
         "words": [
           {
+            "word": "កុំ",
+            "gloss": "do not",
+            "transliteration": "kuṃ",
+            "transcription": "kom"
+          },
+          {
+            "word": "បក",
+            "gloss": "peel",
+            "transliteration": "pk",
+            "transcription": "bɑɑk"
+          },
+          {
             "word": "សំបក",
-            "gloss": "bark"
+            "gloss": "bark",
+            "transliteration": "sṃpk",
+            "transcription": "sɑmpkɑɑ",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ដើម",
+            "gloss": "trunk",
+            "transliteration": "ṭoem",
+            "transcription": "daəm"
           },
           {
-            "word": "ជិត",
-            "gloss": "near"
-          },
-          {
-            "word": "ទន្លេ",
-            "gloss": "river"
+            "word": "រស់",
+            "gloss": "living",
+            "transliteration": "rs´",
+            "transcription": "rŭəh"
           }
         ]
       }
@@ -1289,71 +1642,104 @@
     "vocab_index": 59,
     "word": "ផ្កា",
     "gloss": "flower",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "កូនគូរផ្កាលើក្រដាស។",
-        "text": "The child draws a flower on paper.",
+        "target": "គាត់ដាក់ផ្កាក្នុងថូ។",
+        "text": "She puts flowers in a vase.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "គូរ",
-            "gloss": "draw"
+            "word": "ដាក់",
+            "gloss": "put",
+            "transliteration": "ṭāk´",
+            "transcription": "dak"
           },
           {
             "word": "ផ្កា",
-            "gloss": "flower"
+            "gloss": "flower",
+            "transliteration": "p̥ʰkā",
+            "transcription": "phkaa",
+            "note": "target"
           },
           {
-            "word": "លើ",
-            "gloss": "on"
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
           },
           {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ថូ",
+            "gloss": "vase",
+            "transliteration": "tʰū",
+            "transcription": "thou"
           }
         ]
       },
       {
-        "target": "ផ្កានេះស្អាត។",
-        "text": "This flower is beautiful.",
+        "target": "សួនមានផ្កាច្រើន។",
+        "text": "The garden has many flowers.",
         "words": [
           {
+            "word": "សួន",
+            "gloss": "garden",
+            "transliteration": "suan",
+            "transcription": "suən"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have",
+            "transliteration": "mān",
+            "transcription": "miən"
+          },
+          {
             "word": "ផ្កា",
-            "gloss": "flower"
+            "gloss": "flower",
+            "transliteration": "p̥ʰkā",
+            "transcription": "phkaa",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ច្រើន",
+            "gloss": "many",
+            "transliteration": "c̥roen",
+            "transcription": "craən"
           }
         ]
       },
       {
-        "target": "យើងមើលផ្កាពេលល្ងាច។",
-        "text": "We look at the flower in the evening.",
+        "target": "ខ្ញុំហិតផ្កាថ្មី។",
+        "text": "I smell a fresh flower.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "ខ្ញុំ",
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ហិត",
+            "gloss": "smell",
+            "transliteration": "hit",
+            "transcription": "hət"
           },
           {
             "word": "ផ្កា",
-            "gloss": "flower"
+            "gloss": "flower",
+            "transliteration": "p̥ʰkā",
+            "transcription": "phkaa",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "ថ្មី",
+            "gloss": "fresh",
+            "transliteration": "t̥ʰmī",
+            "transcription": "thməy"
           }
         ]
       }
@@ -1363,79 +1749,98 @@
     "vocab_index": 60,
     "word": "ស្មៅ",
     "gloss": "grass",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំឃើញស្មៅនៅសួនច្បារ។",
-        "text": "I see a grass in the park.",
+        "target": "គោញ៉ាំស្មៅ។",
+        "text": "Cows eat grass.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "គោ",
+            "gloss": "cow",
+            "transliteration": "go",
+            "transcription": "koo"
           },
           {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
           },
           {
             "word": "ស្មៅ",
-            "gloss": "grass"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "gloss": "grass",
+            "transliteration": "s̥mau",
+            "transcription": "smaw",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ស្មៅនៅជិតទន្លេ។",
-        "text": "The grass is near the river.",
+        "target": "ស្មៅដុះក្រោយភ្លៀង។",
+        "text": "Grass grows after rain.",
         "words": [
           {
             "word": "ស្មៅ",
-            "gloss": "grass"
+            "gloss": "grass",
+            "transliteration": "s̥mau",
+            "transcription": "smaw",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
+            "word": "ដុះ",
+            "gloss": "grow",
+            "transliteration": "ṭuḥ",
+            "transcription": "doh"
+          },
+          {
+            "word": "ក្រោយ",
+            "gloss": "after",
+            "transliteration": "k̥roy",
+            "transcription": "kraoy"
+          },
+          {
+            "word": "ភ្លៀង",
+            "gloss": "rain",
+            "transliteration": "b̥ʰliaṅ",
+            "transcription": "phliəng"
+          }
+        ]
+      },
+      {
+        "target": "យើងកាត់ស្មៅជិតផ្ទះ។",
+        "text": "We cut grass near the house.",
+        "words": [
+          {
+            "word": "យើង",
+            "gloss": "we",
+            "transliteration": "yoeṅ",
+            "transcription": "yəəng"
+          },
+          {
+            "word": "កាត់",
+            "gloss": "cut",
+            "transliteration": "kāt´",
+            "transcription": "kat"
+          },
+          {
+            "word": "ស្មៅ",
+            "gloss": "grass",
+            "transliteration": "s̥mau",
+            "transcription": "smaw",
+            "note": "target"
           },
           {
             "word": "ជិត",
-            "gloss": "near"
+            "gloss": "near",
+            "transliteration": "jit",
+            "transcription": "cɨt"
           },
           {
-            "word": "ទន្លេ",
-            "gloss": "river"
-          }
-        ]
-      },
-      {
-        "target": "កូនគូរស្មៅលើក្រដាស។",
-        "text": "The child draws a grass on paper.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "គូរ",
-            "gloss": "draw"
-          },
-          {
-            "word": "ស្មៅ",
-            "gloss": "grass"
-          },
-          {
-            "word": "លើ",
-            "gloss": "on"
-          },
-          {
-            "word": "ក្រដាស",
-            "gloss": "paper"
+            "word": "ផ្ទះ",
+            "gloss": "house",
+            "transliteration": "p̥ʰdḥ",
+            "transcription": "phtĕəh"
           }
         ]
       }
@@ -1445,71 +1850,80 @@
     "vocab_index": 61,
     "word": "ខ្សែ",
     "gloss": "rope",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្សែនេះស្អាត។",
-        "text": "This rope is beautiful.",
+        "target": "ចងប្រអប់ដោយខ្សែ។",
+        "text": "Tie the box with rope.",
         "words": [
           {
+            "word": "ចង",
+            "gloss": "tie",
+            "transliteration": "cṅ",
+            "transcription": "cɑɑng"
+          },
+          {
+            "word": "ប្រអប់",
+            "gloss": "box",
+            "transliteration": "p̥rʼp´",
+            "transcription": "prɑʼɑp"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "with",
+            "transliteration": "ṭoy",
+            "transcription": "daoy"
+          },
+          {
             "word": "ខ្សែ",
-            "gloss": "rope"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "gloss": "rope",
+            "transliteration": "k̥ʰsae",
+            "transcription": "khsae",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "យើងមើលខ្សែពេលល្ងាច។",
-        "text": "We look at the rope in the evening.",
+        "target": "ខ្សែរឹងមាំ។",
+        "text": "The rope is strong.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "ខ្សែ",
-            "gloss": "rope"
+            "gloss": "rope",
+            "transliteration": "k̥ʰsae",
+            "transcription": "khsae",
+            "note": "target"
           },
           {
-            "word": "ពេលល្ងាច",
-            "gloss": "ពេលល្ងាច"
+            "word": "រឹងមាំ",
+            "gloss": "strong",
+            "transliteration": "rẏṅmāṃ",
+            "transcription": "rɨngmŏəm"
           }
         ]
       },
       {
-        "target": "ខ្ញុំឃើញខ្សែនៅសួនច្បារ។",
-        "text": "I see a rope in the park.",
+        "target": "ទាញខ្សែយឺតៗ។",
+        "text": "Pull the rope slowly.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឃើញ",
-            "gloss": "see; find"
+            "word": "ទាញ",
+            "gloss": "pull",
+            "transliteration": "dāñ",
+            "transcription": "tiəñ"
           },
           {
             "word": "ខ្សែ",
-            "gloss": "rope"
+            "gloss": "rope",
+            "transliteration": "k̥ʰsae",
+            "transcription": "khsae",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at; in"
-          },
-          {
-            "word": "សួនច្បារ",
-            "gloss": "park"
+            "word": "យឺតៗ",
+            "gloss": "slowly",
+            "transliteration": "yȳt«",
+            "transcription": ""
           }
         ]
       }
@@ -1519,59 +1933,92 @@
     "vocab_index": 62,
     "word": "ស្បែក",
     "gloss": "skin",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងស្បែក។",
-        "text": "I wash my skin.",
+        "target": "ស្បែកទន់ក្រោយលាប។",
+        "text": "Skin feels soft after lotion.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ស្បែក",
+            "gloss": "skin",
+            "transliteration": "s̥paek",
+            "transcription": "sbaek",
+            "note": "target"
           },
+          {
+            "word": "ទន់",
+            "gloss": "soft",
+            "transliteration": "dn´",
+            "transcription": "tŭən"
+          },
+          {
+            "word": "ក្រោយ",
+            "gloss": "after",
+            "transliteration": "k̥roy",
+            "transcription": "kraoy"
+          },
+          {
+            "word": "លាប",
+            "gloss": "apply",
+            "transliteration": "lāp",
+            "transcription": "liəp"
+          }
+        ]
+      },
+      {
+        "target": "លាងស្បែកថ្នមៗ។",
+        "text": "Wash your skin gently.",
+        "words": [
           {
             "word": "លាង",
-            "gloss": "wash"
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
           },
           {
             "word": "ស្បែក",
-            "gloss": "skin"
+            "gloss": "skin",
+            "transliteration": "s̥paek",
+            "transcription": "sbaek",
+            "note": "target"
+          },
+          {
+            "word": "ថ្នមៗ",
+            "gloss": "gently",
+            "transliteration": "t̥ʰnm«",
+            "transcription": ""
           }
         ]
       },
       {
-        "target": "ស្បែកខ្ញុំឈឺ។",
-        "text": "My skin hurts.",
+        "target": "ថ្ងៃដុតស្បែកស។",
+        "text": "Sun burns fair skin.",
         "words": [
           {
-            "word": "ស្បែក",
-            "gloss": "skin"
+            "word": "ថ្ងៃ",
+            "gloss": "sun",
+            "transliteration": "t̥ʰṅai",
+            "transcription": "thngay"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលស្បែក។",
-        "text": "The doctor looks at the skin.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ដុត",
+            "gloss": "burn",
+            "transliteration": "ṭut",
+            "transcription": "dot"
           },
           {
             "word": "ស្បែក",
-            "gloss": "skin"
+            "gloss": "skin",
+            "transliteration": "s̥paek",
+            "transcription": "sbaek",
+            "note": "target"
+          },
+          {
+            "word": "ស",
+            "gloss": "fair",
+            "transliteration": "s",
+            "transcription": "sɑɑ"
           }
         ]
       }
@@ -1581,59 +2028,98 @@
     "vocab_index": 63,
     "word": "សាច់",
     "gloss": "meat",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "សាច់នេះស្អាត។",
-        "text": "This meat is clean.",
+        "target": "យើងធ្វើសាច់សម្រាប់អាហារល្ងាច។",
+        "text": "We cook meat for dinner.",
+        "words": [
+          {
+            "word": "យើង",
+            "gloss": "we",
+            "transliteration": "yoeṅ",
+            "transcription": "yəəng"
+          },
+          {
+            "word": "ធ្វើ",
+            "gloss": "cook",
+            "transliteration": "d̥ʰvoe",
+            "transcription": "thvəə"
+          },
+          {
+            "word": "សាច់",
+            "gloss": "meat",
+            "transliteration": "sāc´",
+            "transcription": "sac",
+            "note": "target"
+          },
+          {
+            "word": "សម្រាប់",
+            "gloss": "for",
+            "transliteration": "sm̥rāp´",
+            "transcription": "sɑmrŏəp"
+          },
+          {
+            "word": "អាហារល្ងាច",
+            "gloss": "dinner",
+            "transliteration": "ʼāhārl̥ṅāc",
+            "transcription": "ʼaahaalngiəc"
+          }
+        ]
+      },
+      {
+        "target": "សាច់នេះស្រស់។",
+        "text": "This meat is fresh.",
         "words": [
           {
             "word": "សាច់",
-            "gloss": "meat"
+            "gloss": "meat",
+            "transliteration": "sāc´",
+            "transcription": "sac",
+            "note": "target"
           },
           {
             "word": "នេះ",
-            "gloss": "this"
+            "gloss": "this",
+            "transliteration": "neḥ",
+            "transcription": "nih"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ស្រស់",
+            "gloss": "fresh",
+            "transliteration": "s̥rs´",
+            "transcription": "srɑh"
           }
         ]
       },
       {
-        "target": "ខ្ញុំលាងសាច់។",
-        "text": "I wash my meat.",
+        "target": "កុំទុកសាច់ខាងក្រៅ។",
+        "text": "Do not leave meat outside.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "កុំ",
+            "gloss": "do not",
+            "transliteration": "kuṃ",
+            "transcription": "kom"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ទុក",
+            "gloss": "leave",
+            "transliteration": "duk",
+            "transcription": "tuk"
           },
           {
             "word": "សាច់",
-            "gloss": "meat"
-          }
-        ]
-      },
-      {
-        "target": "សាច់ខ្ញុំឈឺ។",
-        "text": "My meat hurts.",
-        "words": [
-          {
-            "word": "សាច់",
-            "gloss": "meat"
+            "gloss": "meat",
+            "transliteration": "sāc´",
+            "transcription": "sac",
+            "note": "target"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "ខាងក្រៅ",
+            "gloss": "outside",
+            "transliteration": "kʰāṅk̥rau",
+            "transcription": "khaangkraw"
           }
         ]
       }
@@ -1643,67 +2129,86 @@
     "vocab_index": 64,
     "word": "ឈាម",
     "gloss": "blood",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលឈាម។",
-        "text": "The doctor checks the blood.",
+        "target": "ឈាមចេញពីរបួស។",
+        "text": "Blood comes from the cut.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "ឈាម",
-            "gloss": "blood"
+            "gloss": "blood",
+            "transliteration": "jʰām",
+            "transcription": "chiəm",
+            "note": "target"
+          },
+          {
+            "word": "ចេញ",
+            "gloss": "come out",
+            "transliteration": "ceñ",
+            "transcription": "cəñ"
+          },
+          {
+            "word": "ពី",
+            "gloss": "from",
+            "transliteration": "bī",
+            "transcription": "pii"
+          },
+          {
+            "word": "របួស",
+            "gloss": "wound",
+            "transliteration": "rpuas",
+            "transcription": "rɔbuəh"
           }
         ]
       },
       {
-        "target": "ឈាមនៅក្នុងរាងកាយ។",
-        "text": "The blood is inside the body.",
+        "target": "គិលានុបដ្ឋាយិកាពិនិត្យឈាម។",
+        "text": "The nurse checks blood.",
         "words": [
           {
+            "word": "គិលានុបដ្ឋាយិកា",
+            "gloss": "nurse",
+            "transliteration": "gilānupṭ̥ṭʰāyikā",
+            "transcription": "kiliənupdthaayikaa"
+          },
+          {
+            "word": "ពិនិត្យ",
+            "gloss": "check",
+            "transliteration": "binit̥y",
+            "transcription": "pinɨtyɔɔ"
+          },
+          {
             "word": "ឈាម",
-            "gloss": "blood"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
+            "gloss": "blood",
+            "transliteration": "jʰām",
+            "transcription": "chiəm",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "យើងរៀនអំពីឈាម។",
-        "text": "We learn about the blood.",
+        "target": "លាងឈាមចេញ។",
+        "text": "Wash away the blood.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "រៀន",
-            "gloss": "learn"
-          },
-          {
-            "word": "អំពី",
-            "gloss": "about"
+            "word": "លាង",
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
           },
           {
             "word": "ឈាម",
-            "gloss": "blood"
+            "gloss": "blood",
+            "transliteration": "jʰām",
+            "transcription": "chiəm",
+            "note": "target"
+          },
+          {
+            "word": "ចេញ",
+            "gloss": "away",
+            "transliteration": "ceñ",
+            "transcription": "cəñ"
           }
         ]
       }
@@ -1713,67 +2218,86 @@
     "vocab_index": 65,
     "word": "ឆ្អឹង",
     "gloss": "bone",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលឆ្អឹង។",
-        "text": "The doctor checks the bone.",
+        "target": "ឆ្អឹងបាក់ពេលធ្លាក់។",
+        "text": "A bone breaks in the fall.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "ឆ្អឹង",
-            "gloss": "bone"
+            "gloss": "bone",
+            "transliteration": "c̥ʰʼẏṅ",
+            "transcription": "chʼəng",
+            "note": "target"
+          },
+          {
+            "word": "បាក់",
+            "gloss": "break",
+            "transliteration": "pāk´",
+            "transcription": "bak"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when",
+            "transliteration": "bel",
+            "transcription": "peil"
+          },
+          {
+            "word": "ធ្លាក់",
+            "gloss": "fall",
+            "transliteration": "d̥ʰlāk´",
+            "transcription": "thlĕək"
           }
         ]
       },
       {
-        "target": "ឆ្អឹងនៅក្នុងរាងកាយ។",
-        "text": "The bone is inside the body.",
+        "target": "ឆ្កែទំពារឆ្អឹង។",
+        "text": "Dogs chew on a bone.",
         "words": [
           {
+            "word": "ឆ្កែ",
+            "gloss": "dog",
+            "transliteration": "c̥ʰkae",
+            "transcription": "chkae"
+          },
+          {
+            "word": "ទំពារ",
+            "gloss": "chew",
+            "transliteration": "dṃbār",
+            "transcription": "tumpiə"
+          },
+          {
             "word": "ឆ្អឹង",
-            "gloss": "bone"
-          },
-          {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
+            "gloss": "bone",
+            "transliteration": "c̥ʰʼẏṅ",
+            "transcription": "chʼəng",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "យើងរៀនអំពីឆ្អឹង។",
-        "text": "We learn about the bone.",
+        "target": "ឆ្អឹងត្រីមុត។",
+        "text": "Fish bones are sharp.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
-          },
-          {
-            "word": "រៀន",
-            "gloss": "learn"
-          },
-          {
-            "word": "អំពី",
-            "gloss": "about"
-          },
-          {
             "word": "ឆ្អឹង",
-            "gloss": "bone"
+            "gloss": "bone",
+            "transliteration": "c̥ʰʼẏṅ",
+            "transcription": "chʼəng",
+            "note": "target"
+          },
+          {
+            "word": "ត្រី",
+            "gloss": "fish",
+            "transliteration": "t̥rī",
+            "transcription": "trəy"
+          },
+          {
+            "word": "មុត",
+            "gloss": "sharp",
+            "transliteration": "mut",
+            "transcription": "mut"
           }
         ]
       }
@@ -1783,67 +2307,98 @@
     "vocab_index": 66,
     "word": "ខ្លាញ់",
     "gloss": "fat",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "គ្រូពេទ្យមើលខ្លាញ់។",
-        "text": "The doctor checks the fat.",
+        "target": "កុំញ៉ាំខ្លាញ់ច្រើនពេក។",
+        "text": "Do not eat too much fat.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "កុំ",
+            "gloss": "do not",
+            "transliteration": "kuṃ",
+            "transcription": "kom"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
           },
           {
             "word": "ខ្លាញ់",
-            "gloss": "fat"
+            "gloss": "fat",
+            "transliteration": "k̥ʰlāñ´",
+            "transcription": "khlañ",
+            "note": "target"
+          },
+          {
+            "word": "ច្រើនពេក",
+            "gloss": "too much",
+            "transliteration": "c̥roenbek",
+            "transcription": "craənpeik"
           }
         ]
       },
       {
-        "target": "ខ្លាញ់នៅក្នុងរាងកាយ។",
-        "text": "The fat is inside the body.",
+        "target": "សាច់មានខ្លាញ់ស។",
+        "text": "Meat has white fat.",
         "words": [
           {
+            "word": "សាច់",
+            "gloss": "meat",
+            "transliteration": "sāc´",
+            "transcription": "sac"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have",
+            "transliteration": "mān",
+            "transcription": "miən"
+          },
+          {
             "word": "ខ្លាញ់",
-            "gloss": "fat"
+            "gloss": "fat",
+            "transliteration": "k̥ʰlāñ´",
+            "transcription": "khlañ",
+            "note": "target"
           },
           {
-            "word": "នៅ",
-            "gloss": "at"
-          },
-          {
-            "word": "ក្នុង",
-            "gloss": "in"
-          },
-          {
-            "word": "រាងកាយ",
-            "gloss": "រាងកាយ"
+            "word": "ស",
+            "gloss": "white",
+            "transliteration": "s",
+            "transcription": "sɑɑ"
           }
         ]
       },
       {
-        "target": "យើងរៀនអំពីខ្លាញ់។",
-        "text": "We learn about the fat.",
+        "target": "គាត់កាត់ខ្លាញ់ចេញ។",
+        "text": "She cuts off the fat.",
         "words": [
           {
-            "word": "យើង",
-            "gloss": "we"
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "រៀន",
-            "gloss": "learn"
-          },
-          {
-            "word": "អំពី",
-            "gloss": "about"
+            "word": "កាត់",
+            "gloss": "cut",
+            "transliteration": "kāt´",
+            "transcription": "kat"
           },
           {
             "word": "ខ្លាញ់",
-            "gloss": "fat"
+            "gloss": "fat",
+            "transliteration": "k̥ʰlāñ´",
+            "transcription": "khlañ",
+            "note": "target"
+          },
+          {
+            "word": "ចេញ",
+            "gloss": "off",
+            "transliteration": "ceñ",
+            "transcription": "cəñ"
           }
         ]
       }
@@ -1853,63 +2408,92 @@
     "vocab_index": 67,
     "word": "ពង",
     "gloss": "egg",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ពងខ្ញុំឈឺ។",
-        "text": "My egg hurts.",
+        "target": "ដាំពងពីរ។",
+        "text": "Boil two eggs.",
         "words": [
           {
-            "word": "ពង",
-            "gloss": "egg"
+            "word": "ដាំ",
+            "gloss": "boil",
+            "transliteration": "ṭāṃ",
+            "transcription": "dam"
           },
+          {
+            "word": "ពង",
+            "gloss": "egg",
+            "transliteration": "bṅ",
+            "transcription": "pɔɔng",
+            "note": "target"
+          },
+          {
+            "word": "ពីរ",
+            "gloss": "two",
+            "transliteration": "bīr",
+            "transcription": "pii"
+          }
+        ]
+      },
+      {
+        "target": "មាន់ដាក់ពង។",
+        "text": "The hen lays an egg.",
+        "words": [
+          {
+            "word": "មាន់",
+            "gloss": "hen",
+            "transliteration": "mān´",
+            "transcription": "mŏən"
+          },
+          {
+            "word": "ដាក់",
+            "gloss": "put/lay",
+            "transliteration": "ṭāk´",
+            "transcription": "dak"
+          },
+          {
+            "word": "ពង",
+            "gloss": "egg",
+            "transliteration": "bṅ",
+            "transcription": "pɔɔng",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "ខ្ញុំញ៉ាំពងពេលអាហារពេលព្រឹក។",
+        "text": "I eat an egg at breakfast.",
+        "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "I"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "កូនប៉ះពងគាត់។",
-        "text": "The child touches his egg.",
-        "words": [
-          {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "ប៉ះ",
-            "gloss": "touch"
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
           },
           {
             "word": "ពង",
-            "gloss": "egg"
+            "gloss": "egg",
+            "transliteration": "bṅ",
+            "transcription": "pɔɔng",
+            "note": "target"
           },
           {
-            "word": "គាត់",
-            "gloss": "he; she"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលពង។",
-        "text": "The doctor looks at the egg.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ពេល",
+            "gloss": "at",
+            "transliteration": "bel",
+            "transcription": "peil"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
-            "word": "ពង",
-            "gloss": "egg"
+            "word": "អាហារពេលព្រឹក",
+            "gloss": "breakfast",
+            "transliteration": "ʼāhārbelb̥rẏk",
+            "transcription": "ʼaahaapeilprɨk"
           }
         ]
       }
@@ -1919,59 +2503,80 @@
     "vocab_index": 68,
     "word": "ស្នែង",
     "gloss": "horn",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ស្នែងនេះស្អាត។",
-        "text": "This horn is clean.",
+        "target": "ក្របីមានស្នែង។",
+        "text": "The buffalo has horns.",
         "words": [
           {
+            "word": "ក្របី",
+            "gloss": "buffalo",
+            "transliteration": "k̥rpī",
+            "transcription": "krɑbəy"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have",
+            "transliteration": "mān",
+            "transcription": "miən"
+          },
+          {
             "word": "ស្នែង",
-            "gloss": "horn"
-          },
-          {
-            "word": "នេះ",
-            "gloss": "this"
-          },
-          {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "gloss": "horn",
+            "transliteration": "s̥naeṅ",
+            "transcription": "snaeng",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ខ្ញុំលាងស្នែង។",
-        "text": "I wash my horn.",
+        "target": "កុំចាប់ស្នែង។",
+        "text": "Do not grab the horn.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "កុំ",
+            "gloss": "do not",
+            "transliteration": "kuṃ",
+            "transcription": "kom"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ចាប់",
+            "gloss": "grab",
+            "transliteration": "cāp´",
+            "transcription": "cap"
           },
           {
             "word": "ស្នែង",
-            "gloss": "horn"
+            "gloss": "horn",
+            "transliteration": "s̥naeṅ",
+            "transcription": "snaeng",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ស្នែងខ្ញុំឈឺ។",
-        "text": "My horn hurts.",
+        "target": "ស្នែងដុះយឺត។",
+        "text": "Horns grow slowly.",
         "words": [
           {
             "word": "ស្នែង",
-            "gloss": "horn"
+            "gloss": "horn",
+            "transliteration": "s̥naeṅ",
+            "transcription": "snaeng",
+            "note": "target"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "ដុះ",
+            "gloss": "grow",
+            "transliteration": "ṭuḥ",
+            "transcription": "doh"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "យឺត",
+            "gloss": "slowly",
+            "transliteration": "yȳt",
+            "transcription": "yɨɨt"
           }
         ]
       }
@@ -1981,63 +2586,86 @@
     "vocab_index": 69,
     "word": "កន្ទុយ",
     "gloss": "tail",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "កូនប៉ះកន្ទុយគាត់។",
-        "text": "The child touches his tail.",
+        "target": "ឆ្កែគ្រវីកន្ទុយ។",
+        "text": "The dog wags its tail.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "ឆ្កែ",
+            "gloss": "dog",
+            "transliteration": "c̥ʰkae",
+            "transcription": "chkae"
           },
           {
-            "word": "ប៉ះ",
-            "gloss": "touch"
+            "word": "គ្រវី",
+            "gloss": "wag",
+            "transliteration": "g̥rvī",
+            "transcription": "krɔvii"
           },
           {
             "word": "កន្ទុយ",
-            "gloss": "tail"
-          },
-          {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "gloss": "tail",
+            "transliteration": "kn̥duy",
+            "transcription": "kɑntuy",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលកន្ទុយ។",
-        "text": "The doctor looks at the tail.",
+        "target": "ឆ្មាមានកន្ទុយវែង។",
+        "text": "A cat has a long tail.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ឆ្មា",
+            "gloss": "cat",
+            "transliteration": "c̥ʰmā",
+            "transcription": "chmaa"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "មាន",
+            "gloss": "have",
+            "transliteration": "mān",
+            "transcription": "miən"
           },
           {
             "word": "កន្ទុយ",
-            "gloss": "tail"
+            "gloss": "tail",
+            "transliteration": "kn̥duy",
+            "transcription": "kɑntuy",
+            "note": "target"
+          },
+          {
+            "word": "វែង",
+            "gloss": "long",
+            "transliteration": "vaeṅ",
+            "transcription": "vɛɛng"
           }
         ]
       },
       {
-        "target": "កន្ទុយនេះស្អាត។",
-        "text": "This tail is clean.",
+        "target": "កន្ទុយបក្សីខ្លី។",
+        "text": "The bird's tail is short.",
         "words": [
           {
             "word": "កន្ទុយ",
-            "gloss": "tail"
+            "gloss": "tail",
+            "transliteration": "kn̥duy",
+            "transcription": "kɑntuy",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "បក្សី",
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ខ្លី",
+            "gloss": "short",
+            "transliteration": "k̥ʰlī",
+            "transcription": "khləy"
           }
         ]
       }
@@ -2047,63 +2675,98 @@
     "vocab_index": 70,
     "word": "រោមសត្វ",
     "gloss": "feather",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងរោមសត្វ។",
-        "text": "I wash my feather.",
+        "target": "រោមសត្វទន់ធ្លាក់ចុះ។",
+        "text": "A soft feather falls down.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
             "word": "រោមសត្វ",
-            "gloss": "feather"
+            "gloss": "feather",
+            "transliteration": "romst̥v",
+            "transcription": "roomsɑɑtvɔɔ",
+            "note": "target"
+          },
+          {
+            "word": "ទន់",
+            "gloss": "soft",
+            "transliteration": "dn´",
+            "transcription": "tŭən"
+          },
+          {
+            "word": "ធ្លាក់",
+            "gloss": "fall",
+            "transliteration": "d̥ʰlāk´",
+            "transcription": "thlĕək"
+          },
+          {
+            "word": "ចុះ",
+            "gloss": "down",
+            "transliteration": "cuḥ",
+            "transcription": "coh"
           }
         ]
       },
       {
-        "target": "រោមសត្វខ្ញុំឈឺ។",
-        "text": "My feather hurts.",
+        "target": "បក្សីសម្អាតរោមសត្វ។",
+        "text": "Birds clean their feathers.",
         "words": [
           {
+            "word": "បក្សី",
+            "gloss": "bird",
+            "transliteration": "pk̥sī",
+            "transcription": "bɑksəy"
+          },
+          {
+            "word": "សម្អាត",
+            "gloss": "clean",
+            "transliteration": "sm̥ʼāt",
+            "transcription": "sɑmʼaat"
+          },
+          {
             "word": "រោមសត្វ",
-            "gloss": "feather"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "feather",
+            "transliteration": "romst̥v",
+            "transcription": "roomsɑɑtvɔɔ",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "កូនប៉ះរោមសត្វគាត់។",
-        "text": "The child touches his feather.",
+        "target": "ខ្ញុំឃើញរោមសត្វលើផ្លូវ។",
+        "text": "I find a feather on the path.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
+            "word": "ខ្ញុំ",
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "ប៉ះ",
-            "gloss": "touch"
+            "word": "ឃើញ",
+            "gloss": "see",
+            "transliteration": "gʰoeñ",
+            "transcription": "khəəñ"
           },
           {
             "word": "រោមសត្វ",
-            "gloss": "feather"
+            "gloss": "feather",
+            "transliteration": "romst̥v",
+            "transcription": "roomsɑɑtvɔɔ",
+            "note": "target"
           },
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "លើ",
+            "gloss": "on",
+            "transliteration": "loe",
+            "transcription": "ləə"
+          },
+          {
+            "word": "ផ្លូវ",
+            "gloss": "path",
+            "transliteration": "p̥ʰlūv",
+            "transcription": "phləw"
           }
         ]
       }
@@ -2113,63 +2776,98 @@
     "vocab_index": 71,
     "word": "សក់",
     "gloss": "hair",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ម៉ែលាងសក់កូន។",
-        "text": "Mother washes the child’s hair.",
+        "target": "គាត់សិតសក់។",
+        "text": "She combs her hair.",
         "words": [
           {
-            "word": "ម៉ែ",
-            "gloss": "mother"
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "សិត",
+            "gloss": "comb",
+            "transliteration": "sit",
+            "transcription": "sət"
           },
           {
             "word": "សក់",
-            "gloss": "hair"
-          },
-          {
-            "word": "កូន",
-            "gloss": "child"
+            "gloss": "hair",
+            "transliteration": "sk´",
+            "transcription": "sɑk",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "សក់គាត់ខ្មៅ។",
-        "text": "Her hair is black.",
+        "target": "សក់សើមស្ងួតនៅថ្ងៃ។",
+        "text": "Wet hair dries in the sun.",
         "words": [
           {
             "word": "សក់",
-            "gloss": "hair"
+            "gloss": "hair",
+            "transliteration": "sk´",
+            "transcription": "sɑk",
+            "note": "target"
           },
           {
-            "word": "គាត់",
-            "gloss": "he"
+            "word": "សើម",
+            "gloss": "wet",
+            "transliteration": "soem",
+            "transcription": "saəm"
+          },
+          {
+            "word": "ស្ងួត",
+            "gloss": "dry",
+            "transliteration": "s̥ṅuat",
+            "transcription": "snguət"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "in",
+            "transliteration": "nau",
+            "transcription": "nɨw"
+          },
+          {
+            "word": "ថ្ងៃ",
+            "gloss": "sun",
+            "transliteration": "t̥ʰṅai",
+            "transcription": "thngay"
+          }
+        ]
+      },
+      {
+        "target": "កូនមានសក់ខ្មៅ។",
+        "text": "The child has black hair.",
+        "words": [
+          {
+            "word": "កូន",
+            "gloss": "child",
+            "transliteration": "kūn",
+            "transcription": "koun"
+          },
+          {
+            "word": "មាន",
+            "gloss": "have",
+            "transliteration": "mān",
+            "transcription": "miən"
+          },
+          {
+            "word": "សក់",
+            "gloss": "hair",
+            "transliteration": "sk´",
+            "transcription": "sɑk",
+            "note": "target"
           },
           {
             "word": "ខ្មៅ",
-            "gloss": "black"
-          }
-        ]
-      },
-      {
-        "target": "ខ្ញុំកាត់សក់។",
-        "text": "I cut my hair.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "កាត់",
-            "gloss": "cut"
-          },
-          {
-            "word": "សក់",
-            "gloss": "hair"
+            "gloss": "black",
+            "transliteration": "k̥ʰmau",
+            "transcription": "khmaw"
           }
         ]
       }
@@ -2179,59 +2877,86 @@
     "vocab_index": 72,
     "word": "ក្បាល",
     "gloss": "head",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
-      {
-        "target": "ខ្ញុំលាងក្បាល។",
-        "text": "I wash my head.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ក្បាល",
-            "gloss": "head"
-          }
-        ]
-      },
       {
         "target": "ក្បាលខ្ញុំឈឺ។",
         "text": "My head hurts.",
         "words": [
           {
             "word": "ក្បាល",
-            "gloss": "head"
+            "gloss": "head",
+            "transliteration": "k̥pāl",
+            "transcription": "kbaal",
+            "note": "target"
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt",
+            "transliteration": "jʰȳ",
+            "transcription": "chɨɨ"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលក្បាល។",
-        "text": "The doctor looks at the head.",
+        "target": "ពាក់មួកលើក្បាល។",
+        "text": "Wear a hat on your head.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ពាក់",
+            "gloss": "wear",
+            "transliteration": "bāk´",
+            "transcription": "pĕək"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "មួក",
+            "gloss": "hat",
+            "transliteration": "muak",
+            "transcription": "muək"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on",
+            "transliteration": "loe",
+            "transcription": "ləə"
           },
           {
             "word": "ក្បាល",
-            "gloss": "head"
+            "gloss": "head",
+            "transliteration": "k̥pāl",
+            "transcription": "kbaal",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "គាត់ងក់ក្បាល។",
+        "text": "He nods his head.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "he",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
+          },
+          {
+            "word": "ងក់",
+            "gloss": "nod",
+            "transliteration": "ṅk´",
+            "transcription": "ngŭək"
+          },
+          {
+            "word": "ក្បាល",
+            "gloss": "head",
+            "transliteration": "k̥pāl",
+            "transcription": "kbaal",
+            "note": "target"
           }
         ]
       }
@@ -2241,59 +2966,122 @@
     "vocab_index": 73,
     "word": "ត្រចៀក",
     "gloss": "ear",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងត្រចៀក។",
-        "text": "I wash my ear.",
+        "target": "ខ្ញុំលាងត្រចៀកដោយប្រុងប្រយ័ត្ន។",
+        "text": "I wash my ears carefully.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
             "word": "លាង",
-            "gloss": "wash"
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
           },
           {
             "word": "ត្រចៀក",
-            "gloss": "ear"
+            "gloss": "ear",
+            "transliteration": "t̥rciak",
+            "transcription": "trɑciək",
+            "note": "target"
+          },
+          {
+            "word": "ដោយ",
+            "gloss": "with",
+            "transliteration": "ṭoy",
+            "transcription": "daoy"
+          },
+          {
+            "word": "ប្រុងប្រយ័ត្ន",
+            "gloss": "care",
+            "transliteration": "p̥ruṅp̥ry˘t̥n",
+            "transcription": "prongprɑɑyŏətnɔɔ"
           }
         ]
       },
       {
-        "target": "ត្រចៀកខ្ញុំឈឺ។",
-        "text": "My ear hurts.",
+        "target": "សំឡេងខ្លាំងធ្វើឲ្យត្រចៀកឈឺ។",
+        "text": "Loud noise hurts the ear.",
         "words": [
           {
-            "word": "ត្រចៀក",
-            "gloss": "ear"
+            "word": "សំឡេង",
+            "gloss": "sound",
+            "transliteration": "sṃḷeṅ",
+            "transcription": "sɑmleeng"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ខ្លាំង",
+            "gloss": "loud",
+            "transliteration": "k̥ʰlāṃṅ",
+            "transcription": "khlang"
+          },
+          {
+            "word": "ធ្វើឲ្យ",
+            "gloss": "make",
+            "transliteration": "d̥ʰvoeo̥y",
+            "transcription": "thvəəʼaoy"
+          },
+          {
+            "word": "ត្រចៀក",
+            "gloss": "ear",
+            "transliteration": "t̥rciak",
+            "transcription": "trɑciək",
+            "note": "target"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt",
+            "transliteration": "jʰȳ",
+            "transcription": "chɨɨ"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលត្រចៀក។",
-        "text": "The doctor looks at the ear.",
+        "target": "គាត់ពាក់ក្រវិលនៅត្រចៀកទាំងពីរ។",
+        "text": "She wears earrings on both ears.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ពាក់",
+            "gloss": "wear",
+            "transliteration": "bāk´",
+            "transcription": "pĕək"
+          },
+          {
+            "word": "ក្រវិល",
+            "gloss": "earring",
+            "transliteration": "k̥rvil",
+            "transcription": "krɑvɨl"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "on",
+            "transliteration": "nau",
+            "transcription": "nɨw"
           },
           {
             "word": "ត្រចៀក",
-            "gloss": "ear"
+            "gloss": "ear",
+            "transliteration": "t̥rciak",
+            "transcription": "trɑciək",
+            "note": "target"
+          },
+          {
+            "word": "ទាំងពីរ",
+            "gloss": "both",
+            "transliteration": "dāṃṅbīr",
+            "transcription": "tĕəngpii"
           }
         ]
       }
@@ -2303,59 +3091,92 @@
     "vocab_index": 74,
     "word": "ភ្នែក",
     "gloss": "eye",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងភ្នែក។",
-        "text": "I wash my eye.",
+        "target": "បិទភ្នែកហើយសម្រាក។",
+        "text": "Close your eyes and rest.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "បិទ",
+            "gloss": "close",
+            "transliteration": "pid",
+            "transcription": "bət"
           },
           {
             "word": "ភ្នែក",
-            "gloss": "eye"
+            "gloss": "eye",
+            "transliteration": "b̥ʰnaek",
+            "transcription": "phnɛɛk",
+            "note": "target"
+          },
+          {
+            "word": "ហើយ",
+            "gloss": "and",
+            "transliteration": "hoey",
+            "transcription": "haəy"
+          },
+          {
+            "word": "សម្រាក",
+            "gloss": "rest",
+            "transliteration": "sm̥rāk",
+            "transcription": "sɑmriək"
           }
         ]
       },
       {
-        "target": "ភ្នែកខ្ញុំឈឺ។",
-        "text": "My eye hurts.",
+        "target": "ធូលីចូលភ្នែកខ្ញុំ។",
+        "text": "Dust enters my eye.",
         "words": [
           {
+            "word": "ធូលី",
+            "gloss": "dust",
+            "transliteration": "dʰūlī",
+            "transcription": "thuulii"
+          },
+          {
+            "word": "ចូល",
+            "gloss": "enter",
+            "transliteration": "cūl",
+            "transcription": "coul"
+          },
+          {
             "word": "ភ្នែក",
-            "gloss": "eye"
+            "gloss": "eye",
+            "transliteration": "b̥ʰnaek",
+            "transcription": "phnɛɛk",
+            "note": "target"
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលភ្នែក។",
-        "text": "The doctor looks at the eye.",
+        "target": "ភ្នែកគាត់នឿយ។",
+        "text": "Her eyes are tired.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
-          },
-          {
             "word": "ភ្នែក",
-            "gloss": "eye"
+            "gloss": "eye",
+            "transliteration": "b̥ʰnaek",
+            "transcription": "phnɛɛk",
+            "note": "target"
+          },
+          {
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
+          },
+          {
+            "word": "នឿយ",
+            "gloss": "tired",
+            "transliteration": "nẏay",
+            "transcription": "nɨəy"
           }
         ]
       }
@@ -2365,59 +3186,80 @@
     "vocab_index": 75,
     "word": "ច្រមុះ",
     "gloss": "nose",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងច្រមុះ។",
-        "text": "I wash my nose.",
+        "target": "ខ្ញុំជូតច្រមុះ។",
+        "text": "I wipe my nose.",
         "words": [
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ជូត",
+            "gloss": "wipe",
+            "transliteration": "jūt",
+            "transcription": "cuut"
           },
           {
             "word": "ច្រមុះ",
-            "gloss": "nose"
+            "gloss": "nose",
+            "transliteration": "c̥rmuḥ",
+            "transcription": "crɑmuh",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ច្រមុះខ្ញុំឈឺ។",
-        "text": "My nose hurts.",
+        "target": "ផ្តាសាយស្ទះច្រមុះ។",
+        "text": "A cold blocks the nose.",
         "words": [
           {
+            "word": "ផ្តាសាយ",
+            "gloss": "cold",
+            "transliteration": "p̥ʰtāsāy",
+            "transcription": "phtaasaay"
+          },
+          {
+            "word": "ស្ទះ",
+            "gloss": "block",
+            "transliteration": "s̥dḥ",
+            "transcription": "stĕəh"
+          },
+          {
             "word": "ច្រមុះ",
-            "gloss": "nose"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "nose",
+            "transliteration": "c̥rmuḥ",
+            "transcription": "crɑmuh",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលច្រមុះ។",
-        "text": "The doctor looks at the nose.",
+        "target": "ទារកប៉ះច្រមុះ។",
+        "text": "The baby touches its nose.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ទារក",
+            "gloss": "baby",
+            "transliteration": "dārk",
+            "transcription": "tiəkɑɑ"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ប៉ះ",
+            "gloss": "touch",
+            "transliteration": "p″ḥ",
+            "transcription": "pah"
           },
           {
             "word": "ច្រមុះ",
-            "gloss": "nose"
+            "gloss": "nose",
+            "transliteration": "c̥rmuḥ",
+            "transcription": "crɑmuh",
+            "note": "target"
           }
         ]
       }
@@ -2427,59 +3269,98 @@
     "vocab_index": 76,
     "word": "មាត់",
     "gloss": "mouth",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងមាត់។",
-        "text": "I wash my mouth.",
+        "target": "បើកមាត់ធំ។",
+        "text": "Open your mouth wide.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "បើក",
+            "gloss": "open",
+            "transliteration": "poek",
+            "transcription": "baək"
           },
           {
             "word": "មាត់",
-            "gloss": "mouth"
+            "gloss": "mouth",
+            "transliteration": "māt´",
+            "transcription": "mŏət",
+            "note": "target"
+          },
+          {
+            "word": "ធំ",
+            "gloss": "wide",
+            "transliteration": "dʰṃ",
+            "transcription": "thom"
           }
         ]
       },
       {
-        "target": "មាត់ខ្ញុំឈឺ។",
-        "text": "My mouth hurts.",
+        "target": "អាហារនៅក្នុងមាត់។",
+        "text": "Food stays in the mouth.",
         "words": [
           {
+            "word": "អាហារ",
+            "gloss": "food",
+            "transliteration": "ʼāhār",
+            "transcription": "ʼaahaa"
+          },
+          {
+            "word": "នៅ",
+            "gloss": "stay",
+            "transliteration": "nau",
+            "transcription": "nɨw"
+          },
+          {
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
+          },
+          {
             "word": "មាត់",
-            "gloss": "mouth"
-          },
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "mouth",
+            "transliteration": "māt´",
+            "transcription": "mŏət",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលមាត់។",
-        "text": "The doctor looks at the mouth.",
+        "target": "គាត់បិទមាត់ពេលក្អក។",
+        "text": "He covers his mouth when coughing.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "គាត់",
+            "gloss": "he",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "បិទ",
+            "gloss": "cover",
+            "transliteration": "pid",
+            "transcription": "bət"
           },
           {
             "word": "មាត់",
-            "gloss": "mouth"
+            "gloss": "mouth",
+            "transliteration": "māt´",
+            "transcription": "mŏət",
+            "note": "target"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when",
+            "transliteration": "bel",
+            "transcription": "peil"
+          },
+          {
+            "word": "ក្អក",
+            "gloss": "cough",
+            "transliteration": "k̥ʼk",
+            "transcription": "kʼɑɑk"
           }
         ]
       }
@@ -2489,59 +3370,80 @@
     "vocab_index": 77,
     "word": "ធ្មេញ",
     "gloss": "tooth",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងធ្មេញ។",
-        "text": "I wash my tooth.",
+        "target": "ដុសធ្មេញយប់នេះ។",
+        "text": "Brush your teeth tonight.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ដុស",
+            "gloss": "brush",
+            "transliteration": "ṭus",
+            "transcription": "doh"
           },
           {
             "word": "ធ្មេញ",
-            "gloss": "tooth"
+            "gloss": "tooth",
+            "transliteration": "d̥ʰmeñ",
+            "transcription": "thmɨñ",
+            "note": "target"
+          },
+          {
+            "word": "យប់នេះ",
+            "gloss": "tonight",
+            "transliteration": "yp´neḥ",
+            "transcription": "yupnih"
           }
         ]
       },
       {
-        "target": "ធ្មេញខ្ញុំឈឺ។",
-        "text": "My tooth hurts.",
+        "target": "ធ្មេញរលុង។",
+        "text": "A tooth feels loose.",
         "words": [
           {
             "word": "ធ្មេញ",
-            "gloss": "tooth"
+            "gloss": "tooth",
+            "transliteration": "d̥ʰmeñ",
+            "transcription": "thmɨñ",
+            "note": "target"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "រលុង",
+            "gloss": "loose",
+            "transliteration": "rluṅ",
+            "transcription": "rɔlung"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលធ្មេញ។",
-        "text": "The doctor looks at the tooth.",
+        "target": "អាហារផ្អែមប៉ះពាល់ធ្មេញ។",
+        "text": "Sweet food harms teeth.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "អាហារ",
+            "gloss": "food",
+            "transliteration": "ʼāhār",
+            "transcription": "ʼaahaa"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ផ្អែម",
+            "gloss": "sweet",
+            "transliteration": "p̥ʰʼaem",
+            "transcription": "phʼaem"
+          },
+          {
+            "word": "ប៉ះពាល់",
+            "gloss": "affect",
+            "transliteration": "p″ḥbāl´",
+            "transcription": "pahpŏəl"
           },
           {
             "word": "ធ្មេញ",
-            "gloss": "tooth"
+            "gloss": "tooth",
+            "transliteration": "d̥ʰmeñ",
+            "transcription": "thmɨñ",
+            "note": "target"
           }
         ]
       }
@@ -2551,59 +3453,86 @@
     "vocab_index": 78,
     "word": "អណ្ដាត",
     "gloss": "tongue",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "អណ្ដាតនេះស្អាត។",
-        "text": "This tongue is clean.",
+        "target": "អណ្ដាតភ្លក់អំបិល។",
+        "text": "The tongue tastes salt.",
         "words": [
           {
             "word": "អណ្ដាត",
-            "gloss": "tongue"
+            "gloss": "tongue",
+            "transliteration": "ʼṇ̥ṭāt",
+            "transcription": "ʼɑndaat",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "ភ្លក់",
+            "gloss": "taste",
+            "transliteration": "b̥ʰlk´",
+            "transcription": "phlŭək"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "អំបិល",
+            "gloss": "salt",
+            "transliteration": "ʼṃpil",
+            "transcription": "ʼɑmbəl"
           }
         ]
       },
       {
-        "target": "ខ្ញុំលាងអណ្ដាត។",
-        "text": "I wash my tongue.",
+        "target": "កុំខាំអណ្ដាត។",
+        "text": "Do not bite your tongue.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
+            "word": "កុំ",
+            "gloss": "do not",
+            "transliteration": "kuṃ",
+            "transcription": "kom"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ខាំ",
+            "gloss": "bite",
+            "transliteration": "kʰāṃ",
+            "transcription": "kham"
           },
           {
             "word": "អណ្ដាត",
-            "gloss": "tongue"
+            "gloss": "tongue",
+            "transliteration": "ʼṇ̥ṭāt",
+            "transcription": "ʼɑndaat",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "អណ្ដាតខ្ញុំឈឺ។",
-        "text": "My tongue hurts.",
+        "target": "គាត់លៀនអណ្ដាតលេង។",
+        "text": "She sticks out her tongue playfully.",
         "words": [
           {
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
+          },
+          {
+            "word": "លៀន",
+            "gloss": "stick out",
+            "transliteration": "lian",
+            "transcription": "liən"
+          },
+          {
             "word": "អណ្ដាត",
-            "gloss": "tongue"
+            "gloss": "tongue",
+            "transliteration": "ʼṇ̥ṭāt",
+            "transcription": "ʼɑndaat",
+            "note": "target"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "I"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "លេង",
+            "gloss": "play",
+            "transliteration": "leṅ",
+            "transcription": "leing"
           }
         ]
       }
@@ -2613,63 +3542,86 @@
     "vocab_index": 79,
     "word": "ក្រចកដៃ",
     "gloss": "fingernail",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "កូនប៉ះក្រចកដៃគាត់។",
-        "text": "The child touches his fingernail.",
+        "target": "កាត់ក្រចកដៃខ្លី។",
+        "text": "Cut the fingernail short.",
         "words": [
           {
-            "word": "កូន",
-            "gloss": "child"
-          },
-          {
-            "word": "ប៉ះ",
-            "gloss": "touch"
+            "word": "កាត់",
+            "gloss": "cut",
+            "transliteration": "kāt´",
+            "transcription": "kat"
           },
           {
             "word": "ក្រចកដៃ",
-            "gloss": "fingernail"
+            "gloss": "fingernail",
+            "transliteration": "k̥rckṭai",
+            "transcription": "krɑɑcɑɑkday",
+            "note": "target"
           },
           {
-            "word": "គាត់",
-            "gloss": "he; she"
+            "word": "ខ្លី",
+            "gloss": "short",
+            "transliteration": "k̥ʰlī",
+            "transcription": "khləy"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលក្រចកដៃ។",
-        "text": "The doctor looks at the fingernail.",
+        "target": "ភាពកខ្វក់នៅក្រោមក្រចកដៃ។",
+        "text": "Dirt stays under the fingernail.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ភាពកខ្វក់",
+            "gloss": "dirt",
+            "transliteration": "bʰābkk̥ʰvk´",
+            "transcription": "phiəpkɑɑkvɔɔkɑ"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "នៅ",
+            "gloss": "stay",
+            "transliteration": "nau",
+            "transcription": "nɨw"
+          },
+          {
+            "word": "ក្រោម",
+            "gloss": "under",
+            "transliteration": "k̥rom",
+            "transcription": "kraom"
           },
           {
             "word": "ក្រចកដៃ",
-            "gloss": "fingernail"
+            "gloss": "fingernail",
+            "transliteration": "k̥rckṭai",
+            "transcription": "krɑɑcɑɑkday",
+            "note": "target"
           }
         ]
       },
       {
-        "target": "ក្រចកដៃនេះស្អាត។",
-        "text": "This fingernail is clean.",
+        "target": "ក្រចកដៃបាក់ឈឺ។",
+        "text": "A broken fingernail hurts.",
         "words": [
           {
             "word": "ក្រចកដៃ",
-            "gloss": "fingernail"
+            "gloss": "fingernail",
+            "transliteration": "k̥rckṭai",
+            "transcription": "krɑɑcɑɑkday",
+            "note": "target"
           },
           {
-            "word": "នេះ",
-            "gloss": "this"
+            "word": "បាក់",
+            "gloss": "broken",
+            "transliteration": "pāk´",
+            "transcription": "bak"
           },
           {
-            "word": "ស្អាត",
-            "gloss": "beautiful; clean"
+            "word": "ឈឺ",
+            "gloss": "hurt",
+            "transliteration": "jʰȳ",
+            "transcription": "chɨɨ"
           }
         ]
       }
@@ -2679,59 +3631,104 @@
     "vocab_index": 80,
     "word": "ជើង",
     "gloss": "foot",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងជើង។",
-        "text": "I wash my leg.",
+        "target": "ជើងខ្ញុំនឿយក្រោយដើរ។",
+        "text": "My foot is tired after walking.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "ជើង",
+            "gloss": "foot",
+            "transliteration": "joeṅ",
+            "transcription": "cəəng",
+            "note": "target"
           },
+          {
+            "word": "ខ្ញុំ",
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
+          },
+          {
+            "word": "នឿយ",
+            "gloss": "tired",
+            "transliteration": "nẏay",
+            "transcription": "nɨəy"
+          },
+          {
+            "word": "ក្រោយ",
+            "gloss": "after",
+            "transliteration": "k̥roy",
+            "transcription": "kraoy"
+          },
+          {
+            "word": "ដើរ",
+            "gloss": "walk",
+            "transliteration": "ṭoer",
+            "transcription": "daə"
+          }
+        ]
+      },
+      {
+        "target": "លាងជើងមុនគេង។",
+        "text": "Wash your feet before bed.",
+        "words": [
           {
             "word": "លាង",
-            "gloss": "wash"
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
           },
           {
             "word": "ជើង",
-            "gloss": "foot"
+            "gloss": "foot",
+            "transliteration": "joeṅ",
+            "transcription": "cəəng",
+            "note": "target"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before",
+            "transliteration": "mun",
+            "transcription": "mun"
+          },
+          {
+            "word": "គេង",
+            "gloss": "sleep",
+            "transliteration": "geṅ",
+            "transcription": "keing"
           }
         ]
       },
       {
-        "target": "ជើងខ្ញុំឈឺ។",
-        "text": "My leg hurts.",
+        "target": "ថ្មប៉ះជើងគាត់។",
+        "text": "A stone hits his foot.",
         "words": [
           {
-            "word": "ជើង",
-            "gloss": "foot"
+            "word": "ថ្ម",
+            "gloss": "stone",
+            "transliteration": "t̥ʰm",
+            "transcription": "thmɑɑ"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលជើង។",
-        "text": "The doctor looks at the leg.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ប៉ះ",
+            "gloss": "hit",
+            "transliteration": "p″ḥ",
+            "transcription": "pah"
           },
           {
             "word": "ជើង",
-            "gloss": "foot"
+            "gloss": "foot",
+            "transliteration": "joeṅ",
+            "transcription": "cəəng",
+            "note": "target"
+          },
+          {
+            "word": "គាត់",
+            "gloss": "he",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           }
         ]
       }
@@ -2741,59 +3738,98 @@
     "vocab_index": 81,
     "word": "ជង្គង់",
     "gloss": "leg",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងជង្គង់។",
-        "text": "I wash my knee.",
-        "words": [
-          {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "លាង",
-            "gloss": "wash"
-          },
-          {
-            "word": "ជង្គង់",
-            "gloss": "leg"
-          }
-        ]
-      },
-      {
-        "target": "ជង្គង់ខ្ញុំឈឺ។",
-        "text": "My knee hurts.",
+        "target": "ជង្គង់ខ្ញុំឈឺពេលឡើង។",
+        "text": "My knee hurts when I climb.",
         "words": [
           {
             "word": "ជង្គង់",
-            "gloss": "leg"
+            "gloss": "knee",
+            "transliteration": "jṅ̥gṅ´",
+            "transcription": "cŭəngkŭəng",
+            "note": "target"
           },
           {
             "word": "ខ្ញុំ",
-            "gloss": "i"
+            "gloss": "i",
+            "transliteration": "k̥ʰñuṃ",
+            "transcription": "khñom"
           },
           {
             "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "gloss": "hurt",
+            "transliteration": "jʰȳ",
+            "transcription": "chɨɨ"
+          },
+          {
+            "word": "ពេល",
+            "gloss": "when",
+            "transliteration": "bel",
+            "transcription": "peil"
+          },
+          {
+            "word": "ឡើង",
+            "gloss": "climb",
+            "transliteration": "ḷoeṅ",
+            "transcription": "laəng"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលជង្គង់។",
-        "text": "The doctor looks at the knee.",
+        "target": "បត់ជង្គង់យឺត។",
+        "text": "Bend your knee slowly.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "បត់",
+            "gloss": "bend",
+            "transliteration": "pt´",
+            "transcription": "bɑt"
           },
           {
             "word": "ជង្គង់",
-            "gloss": "leg"
+            "gloss": "knee",
+            "transliteration": "jṅ̥gṅ´",
+            "transcription": "cŭəngkŭəng",
+            "note": "target"
+          },
+          {
+            "word": "យឺត",
+            "gloss": "slowly",
+            "transliteration": "yȳt",
+            "transcription": "yɨɨt"
+          }
+        ]
+      },
+      {
+        "target": "គាត់ធ្លាក់លើជង្គង់។",
+        "text": "She falls on her knee.",
+        "words": [
+          {
+            "word": "គាត់",
+            "gloss": "she",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
+          },
+          {
+            "word": "ធ្លាក់",
+            "gloss": "fall",
+            "transliteration": "d̥ʰlāk´",
+            "transcription": "thlĕək"
+          },
+          {
+            "word": "លើ",
+            "gloss": "on",
+            "transliteration": "loe",
+            "transcription": "ləə"
+          },
+          {
+            "word": "ជង្គង់",
+            "gloss": "knee",
+            "transliteration": "jṅ̥gṅ´",
+            "transcription": "cŭəngkŭəng",
+            "note": "target"
           }
         ]
       }
@@ -2803,59 +3839,110 @@
     "vocab_index": 82,
     "word": "ដៃ",
     "gloss": "knee",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងដៃ។",
-        "text": "I wash my hand.",
+        "target": "លើកដៃដើម្បីឆ្លើយ។",
+        "text": "Raise your hand to answer.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "លើក",
+            "gloss": "raise",
+            "transliteration": "loek",
+            "transcription": "ləək"
           },
+          {
+            "word": "ដៃ",
+            "gloss": "hand",
+            "transliteration": "ṭai",
+            "transcription": "day",
+            "note": "target"
+          },
+          {
+            "word": "ដើម្បី",
+            "gloss": "to",
+            "transliteration": "ṭoem̥pī",
+            "transcription": "daəmbəy"
+          },
+          {
+            "word": "ឆ្លើយ",
+            "gloss": "answer",
+            "transliteration": "c̥ʰloey",
+            "transcription": "chlaəy"
+          }
+        ]
+      },
+      {
+        "target": "លាងដៃមុនញ៉ាំ។",
+        "text": "Wash your hands before eating.",
+        "words": [
           {
             "word": "លាង",
-            "gloss": "wash"
+            "gloss": "wash",
+            "transliteration": "lāṅ",
+            "transcription": "liəng"
           },
           {
             "word": "ដៃ",
-            "gloss": "hand"
+            "gloss": "hand",
+            "transliteration": "ṭai",
+            "transcription": "day",
+            "note": "target"
+          },
+          {
+            "word": "មុន",
+            "gloss": "before",
+            "transliteration": "mun",
+            "transcription": "mun"
+          },
+          {
+            "word": "ញ៉ាំ",
+            "gloss": "eat",
+            "transliteration": "ñ″āṃ",
+            "transcription": "ñam"
           }
         ]
       },
       {
-        "target": "ដៃខ្ញុំឈឺ។",
-        "text": "My hand hurts.",
+        "target": "គាត់កាន់ពែងក្នុងដៃមួយ។",
+        "text": "He holds the cup in one hand.",
         "words": [
           {
-            "word": "ដៃ",
-            "gloss": "hand"
+            "word": "គាត់",
+            "gloss": "he",
+            "transliteration": "gāt´",
+            "transcription": "kŏət"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "កាន់",
+            "gloss": "hold",
+            "transliteration": "kān´",
+            "transcription": "kan"
           },
           {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
-          }
-        ]
-      },
-      {
-        "target": "គ្រូពេទ្យមើលដៃ។",
-        "text": "The doctor looks at the hand.",
-        "words": [
-          {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
+            "word": "ពែង",
+            "gloss": "cup",
+            "transliteration": "baeṅ",
+            "transcription": "pɛɛng"
           },
           {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ក្នុង",
+            "gloss": "in",
+            "transliteration": "k̥nuṅ",
+            "transcription": "knong"
           },
           {
             "word": "ដៃ",
-            "gloss": "hand"
+            "gloss": "hand",
+            "transliteration": "ṭai",
+            "transcription": "day",
+            "note": "target"
+          },
+          {
+            "word": "មួយ",
+            "gloss": "one",
+            "transliteration": "muay",
+            "transcription": "muəy"
           }
         ]
       }
@@ -2865,59 +3952,98 @@
     "vocab_index": 83,
     "word": "ដៃ",
     "gloss": "hand",
-    "source": "Wiktionary Appendix:Khmer Swadesh list; Codex A1 override where noted",
+    "source": "LLM-authored Khmer Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ខ្ញុំលាងដៃ។",
-        "text": "I wash my hand.",
+        "target": "សរសេរដោយដៃស្តាំ។",
+        "text": "Write with your right hand.",
         "words": [
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
+            "word": "សរសេរ",
+            "gloss": "write",
+            "transliteration": "srser",
+            "transcription": "sɑsee"
           },
           {
-            "word": "លាង",
-            "gloss": "wash"
+            "word": "ដោយ",
+            "gloss": "with",
+            "transliteration": "ṭoy",
+            "transcription": "daoy"
           },
           {
             "word": "ដៃ",
-            "gloss": "hand"
+            "gloss": "hand",
+            "transliteration": "ṭai",
+            "transcription": "day",
+            "note": "target"
+          },
+          {
+            "word": "ស្តាំ",
+            "gloss": "right",
+            "transliteration": "s̥tāṃ",
+            "transcription": "stam"
           }
         ]
       },
       {
-        "target": "ដៃខ្ញុំឈឺ។",
-        "text": "My hand hurts.",
+        "target": "ទឹកត្រជាក់ធ្វើឲ្យដៃត្រជាក់។",
+        "text": "Cold water cools the hands.",
         "words": [
           {
+            "word": "ទឹក",
+            "gloss": "water",
+            "transliteration": "dẏk",
+            "transcription": "tɨk"
+          },
+          {
+            "word": "ត្រជាក់",
+            "gloss": "cold",
+            "transliteration": "t̥rjāk´",
+            "transcription": "trɑcĕək"
+          },
+          {
+            "word": "ធ្វើឲ្យ",
+            "gloss": "make",
+            "transliteration": "d̥ʰvoeo̥y",
+            "transcription": "thvəəʼaoy"
+          },
+          {
             "word": "ដៃ",
-            "gloss": "hand"
+            "gloss": "hand",
+            "transliteration": "ṭai",
+            "transcription": "day",
+            "note": "target"
           },
           {
-            "word": "ខ្ញុំ",
-            "gloss": "i"
-          },
-          {
-            "word": "ឈឺ",
-            "gloss": "hurt; sick"
+            "word": "ត្រជាក់",
+            "gloss": "cool",
+            "transliteration": "t̥rjāk´",
+            "transcription": "trɑcĕək"
           }
         ]
       },
       {
-        "target": "គ្រូពេទ្យមើលដៃ។",
-        "text": "The doctor looks at the hand.",
+        "target": "ទះដៃជាមួយគ្នា។",
+        "text": "Clap your hands together.",
         "words": [
           {
-            "word": "គ្រូពេទ្យ",
-            "gloss": "doctor"
-          },
-          {
-            "word": "មើល",
-            "gloss": "look; watch"
+            "word": "ទះ",
+            "gloss": "clap",
+            "transliteration": "dḥ",
+            "transcription": "tĕəh"
           },
           {
             "word": "ដៃ",
-            "gloss": "hand"
+            "gloss": "hand",
+            "transliteration": "ṭai",
+            "transcription": "day",
+            "note": "target"
+          },
+          {
+            "word": "ជាមួយគ្នា",
+            "gloss": "together",
+            "transliteration": "jāmuayg̥nā",
+            "transcription": "ciəmuəykniə"
           }
         ]
       }

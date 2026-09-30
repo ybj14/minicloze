@@ -3,16 +3,16 @@
     "vocab_index": 166,
     "word": "კვამლი",
     "gloss": "smoke",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ბავშვი კვამლი უყურებს.",
-        "text": "The child watches the smoke.",
+        "target": "ნაცრისფერი კვამლი ბუხრიდან მოდის",
+        "text": "Grey smoke comes from the chimney.",
         "words": [
           {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
+            "word": "ნაცრისფერი",
+            "gloss": "grey",
+            "transliteration": "natsrisperi"
           },
           {
             "word": "კვამლი",
@@ -21,26 +21,21 @@
             "note": "target"
           },
           {
-            "word": "უყურებს",
-            "gloss": "watches",
-            "transliteration": "uq'urebs"
+            "word": "ბუხრიდან",
+            "gloss": "from the chimney",
+            "transliteration": "bukhridan"
+          },
+          {
+            "word": "მოდის",
+            "gloss": "comes",
+            "transliteration": "modis"
           }
         ]
       },
       {
-        "target": "სურათი ზედ კვამლი არის.",
-        "text": "I see the smoke in the picture.",
+        "target": "კვამლი ცაში იშლება",
+        "text": "Smoke scatters in the sky.",
         "words": [
-          {
-            "word": "სურათი",
-            "gloss": "picture",
-            "transliteration": "surati"
-          },
-          {
-            "word": "ზედ",
-            "gloss": "on",
-            "transliteration": "zed"
-          },
           {
             "word": "კვამლი",
             "gloss": "smoke",
@@ -48,16 +43,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ცაში",
+            "gloss": "in the sky",
+            "transliteration": "tsashi"
+          },
+          {
+            "word": "იშლება",
+            "gloss": "clears/crumbles",
+            "transliteration": "ishleba"
           }
         ]
       },
       {
-        "target": "კვამლი ახლოს არის.",
-        "text": "The smoke is near.",
+        "target": "სამზარეულოში კვამლი სქელია",
+        "text": "Smoke is thick in the kitchen.",
         "words": [
+          {
+            "word": "სამზარეულოში",
+            "gloss": "in the kitchen",
+            "transliteration": "samzareuloshi"
+          },
           {
             "word": "კვამლი",
             "gloss": "smoke",
@@ -65,14 +70,9 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "სქელია",
+            "gloss": "is thick",
+            "transliteration": "skelia"
           }
         ]
       }
@@ -82,16 +82,16 @@
     "vocab_index": 167,
     "word": "ცეცხლი",
     "gloss": "fire",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩვენ ცეცხლი მომწონს.",
-        "text": "We like the fire.",
+        "target": "თბილი ცეცხლი კოცონში იწვის",
+        "text": "A warm fire burns in the campfire.",
         "words": [
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "თბილი",
+            "gloss": "warm",
+            "transliteration": "tbili"
           },
           {
             "word": "ცეცხლი",
@@ -100,15 +100,20 @@
             "note": "target"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "კოცონში",
+            "gloss": "in the campfire",
+            "transliteration": "k'otsonshi"
+          },
+          {
+            "word": "იწვის",
+            "gloss": "burns",
+            "transliteration": "its'vis"
           }
         ]
       },
       {
-        "target": "ცეცხლი გარეთ კარგი არის.",
-        "text": "The fire outside is good.",
+        "target": "ცეცხლი სიბნელეს ანათებს",
+        "text": "Fire lights up the dark.",
         "words": [
           {
             "word": "ცეცხლი",
@@ -117,31 +122,21 @@
             "note": "target"
           },
           {
-            "word": "გარეთ",
-            "gloss": "outside",
-            "transliteration": "garet"
+            "word": "სიბნელეს",
+            "gloss": "the dark",
+            "transliteration": "sibneles"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ანათებს",
+            "gloss": "shines/lets light",
+            "transliteration": "anatebs"
           }
         ]
       },
       {
-        "target": "მეგობარი ცეცხლი ხედავს.",
-        "text": "A friend sees the fire.",
+        "target": "ცეცხლი შეშას ჭამს",
+        "text": "Fire consumes the firewood.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ცეცხლი",
             "gloss": "fire",
@@ -149,9 +144,14 @@
             "note": "target"
           },
           {
-            "word": "ხედავს",
-            "gloss": "sees",
-            "transliteration": "khedavs"
+            "word": "შეშას",
+            "gloss": "firewood",
+            "transliteration": "sheshas"
+          },
+          {
+            "word": "ჭამს",
+            "gloss": "eats",
+            "transliteration": "ch'ams"
           }
         ]
       }
@@ -161,16 +161,16 @@
     "vocab_index": 168,
     "word": "ფერფლი",
     "gloss": "ash",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "დღეს ფერფლი არის.",
-        "text": "I see the ash today.",
+        "target": "ნაცრისფერი ფერფლი კოცონთანაა",
+        "text": "Grey ash is by the campfire.",
         "words": [
           {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
+            "word": "ნაცრისფერი",
+            "gloss": "grey",
+            "transliteration": "natsrisperi"
           },
           {
             "word": "ფერფლი",
@@ -179,21 +179,16 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "კოცონთანაა",
+            "gloss": "is by the campfire",
+            "transliteration": "k'otsontanaa"
           }
         ]
       },
       {
-        "target": "მე ფერფლი ვხედავ.",
-        "text": "I see the ash.",
+        "target": "ფერფლი ქარმა გააბნია",
+        "text": "The wind scattered the ash.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ფერფლი",
             "gloss": "ash",
@@ -201,20 +196,25 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ქარმა",
+            "gloss": "wind",
+            "transliteration": "karma"
+          },
+          {
+            "word": "გააბნია",
+            "gloss": "scattered",
+            "transliteration": "gaabnia"
           }
         ]
       },
       {
-        "target": "გარეთ ფერფლი არის.",
-        "text": "The ash is outside.",
+        "target": "ცივი ფერფლი აღარ იწვის",
+        "text": "Cold ash no longer burns.",
         "words": [
           {
-            "word": "გარეთ",
-            "gloss": "outside",
-            "transliteration": "garet"
+            "word": "ცივი",
+            "gloss": "cold",
+            "transliteration": "tsivi"
           },
           {
             "word": "ფერფლი",
@@ -223,9 +223,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "აღარ",
+            "gloss": "no longer",
+            "transliteration": "aghar"
+          },
+          {
+            "word": "იწვის",
+            "gloss": "burns",
+            "transliteration": "its'vis"
           }
         ]
       }
@@ -235,16 +240,16 @@
     "vocab_index": 169,
     "word": "წვა",
     "gloss": "burn",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ბავშვი წვა უყურებს.",
-        "text": "The child watches the burn.",
+        "target": "შეშის წვა სითბოს იძლევა",
+        "text": "Burning of firewood gives heat.",
         "words": [
           {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
+            "word": "შეშის",
+            "gloss": "firewood's",
+            "transliteration": "sheshis"
           },
           {
             "word": "წვა",
@@ -253,26 +258,21 @@
             "note": "target"
           },
           {
-            "word": "უყურებს",
-            "gloss": "watches",
-            "transliteration": "uq'urebs"
+            "word": "სითბოს",
+            "gloss": "heat",
+            "transliteration": "sitbos"
+          },
+          {
+            "word": "იძლევა",
+            "gloss": "gives",
+            "transliteration": "idzleva"
           }
         ]
       },
       {
-        "target": "სურათი ზედ წვა არის.",
-        "text": "I see the burn in the picture.",
+        "target": "წვა ნელა მიმდინარეობს",
+        "text": "The burning goes slowly.",
         "words": [
-          {
-            "word": "სურათი",
-            "gloss": "picture",
-            "transliteration": "surati"
-          },
-          {
-            "word": "ზედ",
-            "gloss": "on",
-            "transliteration": "zed"
-          },
           {
             "word": "წვა",
             "gloss": "burn",
@@ -280,16 +280,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ნელა",
+            "gloss": "slowly",
+            "transliteration": "nela"
+          },
+          {
+            "word": "მიმდინარეობს",
+            "gloss": "goes on",
+            "transliteration": "mimdinareobs"
           }
         ]
       },
       {
-        "target": "წვა ახლოს არის.",
-        "text": "The burn is near.",
+        "target": "სანთლის წვა ოთახს ანათებს",
+        "text": "Burning of a candle lights the room.",
         "words": [
+          {
+            "word": "სანთლის",
+            "gloss": "candle's",
+            "transliteration": "santlis"
+          },
           {
             "word": "წვა",
             "gloss": "burn",
@@ -297,14 +307,14 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
+            "word": "ოთახს",
+            "gloss": "room",
+            "transliteration": "otakhs"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ანათებს",
+            "gloss": "shines/lets light",
+            "transliteration": "anatebs"
           }
         ]
       }
@@ -314,16 +324,16 @@
     "vocab_index": 170,
     "word": "გზა",
     "gloss": "road",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩვენ გზა მომწონს.",
-        "text": "We like the road.",
+        "target": "ფართო გზა ქალაქამდე მიდის",
+        "text": "A wide road goes to the city.",
         "words": [
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ფართო",
+            "gloss": "wide",
+            "transliteration": "parto"
           },
           {
             "word": "გზა",
@@ -332,15 +342,20 @@
             "note": "target"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "ქალაქამდე",
+            "gloss": "to the city",
+            "transliteration": "kalakamde"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       },
       {
-        "target": "გზა გარეთ კარგი არის.",
-        "text": "The road outside is good.",
+        "target": "გზა მთაზე ციცაბოა",
+        "text": "The road up the mountain is steep.",
         "words": [
           {
             "word": "გზა",
@@ -349,30 +364,25 @@
             "note": "target"
           },
           {
-            "word": "გარეთ",
-            "gloss": "outside",
-            "transliteration": "garet"
+            "word": "მთაზე",
+            "gloss": "on the mountain",
+            "transliteration": "mtaze"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ციცაბოა",
+            "gloss": "is steep",
+            "transliteration": "tsitsaboa"
           }
         ]
       },
       {
-        "target": "მეგობარი გზა ხედავს.",
-        "text": "A friend sees the road.",
+        "target": "ძველი გზა ტყეში იკარგება",
+        "text": "An old road disappears in the forest.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ძველი",
+            "gloss": "old",
+            "transliteration": "dzveli"
           },
           {
             "word": "გზა",
@@ -381,9 +391,14 @@
             "note": "target"
           },
           {
-            "word": "ხედავს",
-            "gloss": "sees",
-            "transliteration": "khedavs"
+            "word": "ტყეში",
+            "gloss": "in the forest",
+            "transliteration": "t'q'eshi"
+          },
+          {
+            "word": "იკარგება",
+            "gloss": "disappears",
+            "transliteration": "ik'argeba"
           }
         ]
       }
@@ -393,16 +408,16 @@
     "vocab_index": 171,
     "word": "მთა",
     "gloss": "mountain",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "დღეს მთა არის.",
-        "text": "I see the mountain today.",
+        "target": "მაღალი მთა თოვლითაა დაფარული",
+        "text": "A high mountain is covered with snow.",
         "words": [
           {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
+            "word": "მაღალი",
+            "gloss": "tall",
+            "transliteration": "maghali"
           },
           {
             "word": "მთა",
@@ -411,21 +426,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "თოვლითაა",
+            "gloss": "with snow",
+            "transliteration": "tovlitaa"
+          },
+          {
+            "word": "დაფარული",
+            "gloss": "covered",
+            "transliteration": "daparuli"
           }
         ]
       },
       {
-        "target": "მე მთა ვხედავ.",
-        "text": "I see the mountain.",
+        "target": "მთა ჰორიზონტზე ჩანს",
+        "text": "A mountain is visible on the horizon.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "მთა",
             "gloss": "mountain",
@@ -433,20 +448,25 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "ჰორიზონტზე",
+            "gloss": "on the horizon",
+            "transliteration": "horizont'ze"
+          },
+          {
+            "word": "ჩანს",
+            "gloss": "seems/is visible",
+            "transliteration": "chans"
           }
         ]
       },
       {
-        "target": "გარეთ მთა არის.",
-        "text": "The mountain is outside.",
+        "target": "ბილიკი მთა ასვლას იწყებს",
+        "text": "The path starts the climb of the mountain.",
         "words": [
           {
-            "word": "გარეთ",
-            "gloss": "outside",
-            "transliteration": "garet"
+            "word": "ბილიკი",
+            "gloss": "path",
+            "transliteration": "bilik'i"
           },
           {
             "word": "მთა",
@@ -455,9 +475,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ასვლას",
+            "gloss": "climb",
+            "transliteration": "asvlas"
+          },
+          {
+            "word": "იწყებს",
+            "gloss": "starts",
+            "transliteration": "its'q'ebs"
           }
         ]
       }
@@ -467,17 +492,12 @@
     "vocab_index": 172,
     "word": "წითელი",
     "gloss": "red",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა წითელი არის.",
-        "text": "The bag is red.",
+        "target": "წითელი ვაშლი კალათაშია",
+        "text": "A red apple is in the basket.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "წითელი",
             "gloss": "red",
@@ -485,26 +505,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ვაშლი",
+            "gloss": "apple",
+            "transliteration": "vashli"
+          },
+          {
+            "word": "კალათაშია",
+            "gloss": "is in the basket",
+            "transliteration": "k'alatashia"
           }
         ]
       },
       {
-        "target": "ეს კაბა წითელი არის.",
-        "text": "This dress is red.",
+        "target": "წითელი მანქანა გაჩერდა",
+        "text": "A red car stopped.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "კაბა",
-            "gloss": "dress",
-            "transliteration": "k'aba"
-          },
           {
             "word": "წითელი",
             "gloss": "red",
@@ -512,16 +527,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მანქანა",
+            "gloss": "car",
+            "transliteration": "mankana"
+          },
+          {
+            "word": "გაჩერდა",
+            "gloss": "stopped",
+            "transliteration": "gacherda"
           }
         ]
       },
       {
-        "target": "წითელი ფერი მომწონს.",
-        "text": "I like the color red.",
+        "target": "ცა წითელი გახდა მზის ჩასვლისას",
+        "text": "The sky became red at sunset.",
         "words": [
+          {
+            "word": "ცა",
+            "gloss": "sky",
+            "transliteration": "tsa"
+          },
           {
             "word": "წითელი",
             "gloss": "red",
@@ -529,14 +554,19 @@
             "note": "target"
           },
           {
-            "word": "ფერი",
-            "gloss": "color",
-            "transliteration": "peri"
+            "word": "გახდა",
+            "gloss": "became",
+            "transliteration": "gakhda"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "მზის",
+            "gloss": "sun's",
+            "transliteration": "mzis"
+          },
+          {
+            "word": "ჩასვლისას",
+            "gloss": "at setting",
+            "transliteration": "chasvlisas"
           }
         ]
       }
@@ -546,17 +576,12 @@
     "vocab_index": 173,
     "word": "მწვანე",
     "gloss": "green",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა მწვანე არის.",
-        "text": "The bag is green.",
+        "target": "მწვანე ბალახი რბილია",
+        "text": "Green grass is soft.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "მწვანე",
             "gloss": "green",
@@ -564,20 +589,48 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ბალახი",
+            "gloss": "grass",
+            "transliteration": "balakhi"
+          },
+          {
+            "word": "რბილია",
+            "gloss": "is soft",
+            "transliteration": "rbilia"
           }
         ]
       },
       {
-        "target": "ეს კაბა მწვანე არის.",
-        "text": "This dress is green.",
+        "target": "მწვანე ფოთოლი ტოტზეა",
+        "text": "A green leaf is on the branch.",
         "words": [
           {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
+            "word": "მწვანე",
+            "gloss": "green",
+            "transliteration": "mts'vane",
+            "note": "target"
+          },
+          {
+            "word": "ფოთოლი",
+            "gloss": "leaf",
+            "transliteration": "potoli"
+          },
+          {
+            "word": "ტოტზეა",
+            "gloss": "is on a branch",
+            "transliteration": "t'ot'zea"
+          }
+        ]
+      },
+      {
+        "target": "მწვანე კაბა ლამაზია",
+        "text": "A green dress is beautiful.",
+        "words": [
+          {
+            "word": "მწვანე",
+            "gloss": "green",
+            "transliteration": "mts'vane",
+            "note": "target"
           },
           {
             "word": "კაბა",
@@ -585,37 +638,9 @@
             "transliteration": "k'aba"
           },
           {
-            "word": "მწვანე",
-            "gloss": "green",
-            "transliteration": "mts'vane",
-            "note": "target"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
-          }
-        ]
-      },
-      {
-        "target": "მწვანე ფერი მომწონს.",
-        "text": "I like the color green.",
-        "words": [
-          {
-            "word": "მწვანე",
-            "gloss": "green",
-            "transliteration": "mts'vane",
-            "note": "target"
-          },
-          {
-            "word": "ფერი",
-            "gloss": "color",
-            "transliteration": "peri"
-          },
-          {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "ლამაზია",
+            "gloss": "is beautiful",
+            "transliteration": "lamazia"
           }
         ]
       }
@@ -625,17 +650,12 @@
     "vocab_index": 174,
     "word": "ყვითელი",
     "gloss": "yellow",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა ყვითელი არის.",
-        "text": "The bag is yellow.",
+        "target": "ყვითელი მზესუმზირა ბაღშია",
+        "text": "A yellow sunflower is in the garden.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "ყვითელი",
             "gloss": "yellow",
@@ -643,26 +663,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მზესუმზირა",
+            "gloss": "sunflower",
+            "transliteration": "mzesumzira"
+          },
+          {
+            "word": "ბაღშია",
+            "gloss": "is in the garden",
+            "transliteration": "baghshia"
           }
         ]
       },
       {
-        "target": "ეს კაბა ყვითელი არის.",
-        "text": "This dress is yellow.",
+        "target": "ყვითელი ავტობუსი მოდის",
+        "text": "A yellow bus is coming.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "კაბა",
-            "gloss": "dress",
-            "transliteration": "k'aba"
-          },
           {
             "word": "ყვითელი",
             "gloss": "yellow",
@@ -670,15 +685,20 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ავტობუსი",
+            "gloss": "bus",
+            "transliteration": "avt'obusi"
+          },
+          {
+            "word": "მოდის",
+            "gloss": "comes",
+            "transliteration": "modis"
           }
         ]
       },
       {
-        "target": "ყვითელი ფერი მომწონს.",
-        "text": "I like the color yellow.",
+        "target": "ყვითელი ფოთოლი მიწაზეა",
+        "text": "A yellow leaf is on the ground.",
         "words": [
           {
             "word": "ყვითელი",
@@ -687,14 +707,14 @@
             "note": "target"
           },
           {
-            "word": "ფერი",
-            "gloss": "color",
-            "transliteration": "peri"
+            "word": "ფოთოლი",
+            "gloss": "leaf",
+            "transliteration": "potoli"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "მიწაზეა",
+            "gloss": "is on the ground",
+            "transliteration": "mits'azea"
           }
         ]
       }
@@ -704,17 +724,12 @@
     "vocab_index": 175,
     "word": "თეთრი",
     "gloss": "white",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა თეთრი არის.",
-        "text": "The bag is white.",
+        "target": "თეთრი თოვლი ეზოს ფარავს",
+        "text": "White snow covers the yard.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "თეთრი",
             "gloss": "white",
@@ -722,26 +737,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "თოვლი",
+            "gloss": "snow",
+            "transliteration": "tovli"
+          },
+          {
+            "word": "ეზოს",
+            "gloss": "yard",
+            "transliteration": "ezos"
+          },
+          {
+            "word": "ფარავს",
+            "gloss": "covers",
+            "transliteration": "paravs"
           }
         ]
       },
       {
-        "target": "ეს კაბა თეთრი არის.",
-        "text": "This dress is white.",
+        "target": "თეთრი პერანგი სუფთაა",
+        "text": "A white shirt is clean.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "კაბა",
-            "gloss": "dress",
-            "transliteration": "k'aba"
-          },
           {
             "word": "თეთრი",
             "gloss": "white",
@@ -749,15 +764,20 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "პერანგი",
+            "gloss": "shirt",
+            "transliteration": "p'erangi"
+          },
+          {
+            "word": "სუფთაა",
+            "gloss": "is clean",
+            "transliteration": "suptaa"
           }
         ]
       },
       {
-        "target": "თეთრი ფერი მომწონს.",
-        "text": "I like the color white.",
+        "target": "თეთრი კატა ფანჯარასთან ზის",
+        "text": "A white cat sits by the window.",
         "words": [
           {
             "word": "თეთრი",
@@ -766,14 +786,19 @@
             "note": "target"
           },
           {
-            "word": "ფერი",
-            "gloss": "color",
-            "transliteration": "peri"
+            "word": "კატა",
+            "gloss": "cat",
+            "transliteration": "k'at'a"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "ფანჯარასთან",
+            "gloss": "by the window",
+            "transliteration": "panjarastan"
+          },
+          {
+            "word": "ზის",
+            "gloss": "sits",
+            "transliteration": "zis"
           }
         ]
       }
@@ -783,17 +808,12 @@
     "vocab_index": 176,
     "word": "შავი",
     "gloss": "black",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა შავი არის.",
-        "text": "The bag is black.",
+        "target": "შავი ძაღლი ეზოში დარბის",
+        "text": "A black dog runs in the yard.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "შავი",
             "gloss": "black",
@@ -801,26 +821,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ძაღლი",
+            "gloss": "dog",
+            "transliteration": "dzaghli"
+          },
+          {
+            "word": "ეზოში",
+            "gloss": "in the yard",
+            "transliteration": "ezoshi"
+          },
+          {
+            "word": "დარბის",
+            "gloss": "runs",
+            "transliteration": "darbis"
           }
         ]
       },
       {
-        "target": "ეს კაბა შავი არის.",
-        "text": "This dress is black.",
+        "target": "შავი ღრუბელი წვიმას მოაქვს",
+        "text": "A black cloud brings rain.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "კაბა",
-            "gloss": "dress",
-            "transliteration": "k'aba"
-          },
           {
             "word": "შავი",
             "gloss": "black",
@@ -828,15 +848,25 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ღრუბელი",
+            "gloss": "cloud",
+            "transliteration": "ghrubeli"
+          },
+          {
+            "word": "წვიმას",
+            "gloss": "rain",
+            "transliteration": "ts'vimas"
+          },
+          {
+            "word": "მოაქვს",
+            "gloss": "brings",
+            "transliteration": "moakvs"
           }
         ]
       },
       {
-        "target": "შავი ფერი მომწონს.",
-        "text": "I like the color black.",
+        "target": "შავი ყავა ფინჯანშია",
+        "text": "Black coffee is in the cup.",
         "words": [
           {
             "word": "შავი",
@@ -845,14 +875,14 @@
             "note": "target"
           },
           {
-            "word": "ფერი",
-            "gloss": "color",
-            "transliteration": "peri"
+            "word": "ყავა",
+            "gloss": "coffee",
+            "transliteration": "q'ava"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "ფინჯანშია",
+            "gloss": "is in the cup",
+            "transliteration": "pinjanshia"
           }
         ]
       }
@@ -862,16 +892,16 @@
     "vocab_index": 177,
     "word": "ღამე",
     "gloss": "night",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "დღეს ღამე არის.",
-        "text": "I see the night today.",
+        "target": "მშვიდი ღამე ვარსკვლავებითაა სავსე",
+        "text": "A quiet night is full of stars.",
         "words": [
           {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
+            "word": "მშვიდი",
+            "gloss": "calm",
+            "transliteration": "mshvidi"
           },
           {
             "word": "ღამე",
@@ -880,21 +910,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ვარსკვლავებითაა",
+            "gloss": "with stars",
+            "transliteration": "varsk'vlavebitaa"
+          },
+          {
+            "word": "სავსე",
+            "gloss": "full",
+            "transliteration": "savse"
           }
         ]
       },
       {
-        "target": "მე ღამე ვხედავ.",
-        "text": "I see the night.",
+        "target": "ღამე გრძელი ჩანს ზამთარში",
+        "text": "Night seems long in winter.",
         "words": [
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
           {
             "word": "ღამე",
             "gloss": "night",
@@ -902,21 +932,26 @@
             "note": "target"
           },
           {
-            "word": "ვხედავ",
-            "gloss": "I see",
-            "transliteration": "vkhedav"
+            "word": "გრძელი",
+            "gloss": "long",
+            "transliteration": "grdzeli"
+          },
+          {
+            "word": "ჩანს",
+            "gloss": "seems/is visible",
+            "transliteration": "chans"
+          },
+          {
+            "word": "ზამთარში",
+            "gloss": "in winter",
+            "transliteration": "zamtarshi"
           }
         ]
       },
       {
-        "target": "გარეთ ღამე არის.",
-        "text": "The night is outside.",
+        "target": "ღამე ქუჩები ცარიელია",
+        "text": "At night the streets are empty.",
         "words": [
-          {
-            "word": "გარეთ",
-            "gloss": "outside",
-            "transliteration": "garet"
-          },
           {
             "word": "ღამე",
             "gloss": "night",
@@ -924,9 +959,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ქუჩები",
+            "gloss": "streets",
+            "transliteration": "kuchebi"
+          },
+          {
+            "word": "ცარიელია",
+            "gloss": "are empty",
+            "transliteration": "tsarielia"
           }
         ]
       }
@@ -936,16 +976,16 @@
     "vocab_index": 178,
     "word": "დღე",
     "gloss": "day",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ბავშვი დღე უყურებს.",
-        "text": "The child watches the day.",
+        "target": "მზიანი დღე პარკში გვიწვევს",
+        "text": "A sunny day invites us to the park.",
         "words": [
           {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
+            "word": "მზიანი",
+            "gloss": "sunny",
+            "transliteration": "mziani"
           },
           {
             "word": "დღე",
@@ -954,26 +994,21 @@
             "note": "target"
           },
           {
-            "word": "უყურებს",
-            "gloss": "watches",
-            "transliteration": "uq'urebs"
+            "word": "პარკში",
+            "gloss": "to the park",
+            "transliteration": "p'ark'shi"
+          },
+          {
+            "word": "გვიწვევს",
+            "gloss": "invites us",
+            "transliteration": "gvits'vevs"
           }
         ]
       },
       {
-        "target": "სურათი ზედ დღე არის.",
-        "text": "I see the day in the picture.",
+        "target": "დღე სამუშაოთი ივსება",
+        "text": "The day fills with work.",
         "words": [
-          {
-            "word": "სურათი",
-            "gloss": "picture",
-            "transliteration": "surati"
-          },
-          {
-            "word": "ზედ",
-            "gloss": "on",
-            "transliteration": "zed"
-          },
           {
             "word": "დღე",
             "gloss": "day",
@@ -981,16 +1016,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სამუშაოთი",
+            "gloss": "with work",
+            "transliteration": "samushaoti"
+          },
+          {
+            "word": "ივსება",
+            "gloss": "fills",
+            "transliteration": "ivseba"
           }
         ]
       },
       {
-        "target": "დღე ახლოს არის.",
-        "text": "The day is near.",
+        "target": "გრძელი დღე ზაფხულშია",
+        "text": "A long day is in summer.",
         "words": [
+          {
+            "word": "გრძელი",
+            "gloss": "long",
+            "transliteration": "grdzeli"
+          },
           {
             "word": "დღე",
             "gloss": "day",
@@ -998,14 +1043,9 @@
             "note": "target"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ზაფხულშია",
+            "gloss": "is in summer",
+            "transliteration": "zapkhulshia"
           }
         ]
       }
@@ -1015,16 +1055,16 @@
     "vocab_index": 179,
     "word": "წელი",
     "gloss": "year",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩვენ წელი მომწონს.",
-        "text": "We like the year.",
+        "target": "ახალი წელი სიხარულით იწყება",
+        "text": "The new year starts with joy.",
         "words": [
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
           },
           {
             "word": "წელი",
@@ -1033,15 +1073,20 @@
             "note": "target"
           },
           {
-            "word": "მომწონს",
-            "gloss": "I like",
-            "transliteration": "momts'ons"
+            "word": "სიხარულით",
+            "gloss": "with joy",
+            "transliteration": "sikharulit"
+          },
+          {
+            "word": "იწყება",
+            "gloss": "starts",
+            "transliteration": "its'q'eba"
           }
         ]
       },
       {
-        "target": "წელი გარეთ კარგი არის.",
-        "text": "The year outside is good.",
+        "target": "წელი სწრაფად გადის",
+        "text": "A year passes quickly.",
         "words": [
           {
             "word": "წელი",
@@ -1050,30 +1095,25 @@
             "note": "target"
           },
           {
-            "word": "გარეთ",
-            "gloss": "outside",
-            "transliteration": "garet"
+            "word": "სწრაფად",
+            "gloss": "quickly",
+            "transliteration": "sts'rapad"
           },
           {
-            "word": "კარგი",
-            "gloss": "good",
-            "transliteration": "k'argi"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გადის",
+            "gloss": "passes",
+            "transliteration": "gadis"
           }
         ]
       },
       {
-        "target": "მეგობარი წელი ხედავს.",
-        "text": "A friend sees the year.",
+        "target": "ამ წელი ბევრი რამ შევცვალე",
+        "text": "This year I changed many things.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "ამ",
+            "gloss": "this",
+            "transliteration": "am"
           },
           {
             "word": "წელი",
@@ -1082,9 +1122,19 @@
             "note": "target"
           },
           {
-            "word": "ხედავს",
-            "gloss": "sees",
-            "transliteration": "khedavs"
+            "word": "ბევრი",
+            "gloss": "many",
+            "transliteration": "bevri"
+          },
+          {
+            "word": "რამ",
+            "gloss": "thing",
+            "transliteration": "ram"
+          },
+          {
+            "word": "შევცვალე",
+            "gloss": "I changed",
+            "transliteration": "shevtsvale"
           }
         ]
       }
@@ -1094,17 +1144,12 @@
     "vocab_index": 180,
     "word": "თბილი",
     "gloss": "warm",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა თბილი არის.",
-        "text": "The bag is warm.",
+        "target": "თბილი ჩაი ხელებს ათბობს",
+        "text": "Warm tea warms the hands.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "თბილი",
             "gloss": "warm",
@@ -1112,26 +1157,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ჩაი",
+            "gloss": "tea",
+            "transliteration": "chai"
+          },
+          {
+            "word": "ხელებს",
+            "gloss": "hands",
+            "transliteration": "khelebs"
+          },
+          {
+            "word": "ათბობს",
+            "gloss": "warms",
+            "transliteration": "atbobs"
           }
         ]
       },
       {
-        "target": "ეს გაკვეთილი თბილი არის.",
-        "text": "This lesson is warm.",
+        "target": "თბილი ქარი ზღვიდან მოდის",
+        "text": "A warm wind comes from the sea.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
           {
             "word": "თბილი",
             "gloss": "warm",
@@ -1139,25 +1184,30 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ქარი",
+            "gloss": "wind",
+            "transliteration": "kari"
+          },
+          {
+            "word": "ზღვიდან",
+            "gloss": "from the sea",
+            "transliteration": "zghvidan"
+          },
+          {
+            "word": "მოდის",
+            "gloss": "comes",
+            "transliteration": "modis"
           }
         ]
       },
       {
-        "target": "ეს წიგნი თბილი არის.",
-        "text": "This book is warm.",
+        "target": "ოთახი თბილი და მყუდროა",
+        "text": "The room is warm and cozy.",
         "words": [
           {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
+            "word": "ოთახი",
+            "gloss": "room",
+            "transliteration": "otakhi"
           },
           {
             "word": "თბილი",
@@ -1166,9 +1216,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "მყუდროა",
+            "gloss": "is cozy",
+            "transliteration": "mq'udroa"
           }
         ]
       }
@@ -1178,17 +1233,12 @@
     "vocab_index": 181,
     "word": "ცივი",
     "gloss": "cold",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი ცივი არის.",
-        "text": "The room is cold.",
+        "target": "ცივი წყალი სახეს აღვიძებს",
+        "text": "Cold water wakes the face.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "ცივი",
             "gloss": "cold",
@@ -1196,21 +1246,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "წყალი",
+            "gloss": "water",
+            "transliteration": "ts'q'ali"
+          },
+          {
+            "word": "სახეს",
+            "gloss": "face",
+            "transliteration": "sakhes"
+          },
+          {
+            "word": "აღვიძებს",
+            "gloss": "wakes",
+            "transliteration": "aghvidzebs"
           }
         ]
       },
       {
-        "target": "ყავა ცივი არის.",
-        "text": "The coffee is cold.",
+        "target": "ცივი დილა ქურთუკს მოითხოვს",
+        "text": "A cold morning needs a coat.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "ცივი",
             "gloss": "cold",
@@ -1218,21 +1273,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დილა",
+            "gloss": "morning",
+            "transliteration": "dila"
+          },
+          {
+            "word": "ქურთუკს",
+            "gloss": "coat",
+            "transliteration": "kurtuk's"
+          },
+          {
+            "word": "მოითხოვს",
+            "gloss": "requires",
+            "transliteration": "moitkhovs"
           }
         ]
       },
       {
-        "target": "ბაზარი ცივი არის.",
-        "text": "The market is cold.",
+        "target": "ცივი ქარი ძვალამდე აღწევს",
+        "text": "Cold wind reaches the bone.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "ცივი",
             "gloss": "cold",
@@ -1240,9 +1300,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ქარი",
+            "gloss": "wind",
+            "transliteration": "kari"
+          },
+          {
+            "word": "ძვალამდე",
+            "gloss": "to the bone",
+            "transliteration": "dzvalamde"
+          },
+          {
+            "word": "აღწევს",
+            "gloss": "reaches",
+            "transliteration": "aghts'evs"
           }
         ]
       }
@@ -1252,22 +1322,12 @@
     "vocab_index": 182,
     "word": "სავსე",
     "gloss": "full",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ეს საქმე სავსე არის.",
-        "text": "This work is full.",
+        "target": "სავსე კალათა ხილითაა",
+        "text": "A full basket has fruit.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "საქმე",
-            "gloss": "work",
-            "transliteration": "sakme"
-          },
           {
             "word": "სავსე",
             "gloss": "full",
@@ -1275,26 +1335,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "კალათა",
+            "gloss": "basket",
+            "transliteration": "k'alata"
+          },
+          {
+            "word": "ხილითაა",
+            "gloss": "with fruit",
+            "transliteration": "khilitaa"
           }
         ]
       },
       {
-        "target": "დღეს მოგზაურობა სავსე არის.",
-        "text": "The trip is full today.",
+        "target": "სავსე ავტობუსი ნელა მიდის",
+        "text": "A full bus moves slowly.",
         "words": [
-          {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
-          },
-          {
-            "word": "მოგზაურობა",
-            "gloss": "trip",
-            "transliteration": "mogzauroba"
-          },
           {
             "word": "სავსე",
             "gloss": "full",
@@ -1302,20 +1357,30 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ავტობუსი",
+            "gloss": "bus",
+            "transliteration": "avt'obusi"
+          },
+          {
+            "word": "ნელა",
+            "gloss": "slowly",
+            "transliteration": "nela"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       },
       {
-        "target": "მეგობარი სავსე არის.",
-        "text": "The friend is full.",
+        "target": "მთვარე სავსე და კაშკაშაა",
+        "text": "The moon is full and bright.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "მთვარე",
+            "gloss": "moon",
+            "transliteration": "mtvare"
           },
           {
             "word": "სავსე",
@@ -1324,9 +1389,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "კაშკაშაა",
+            "gloss": "is bright",
+            "transliteration": "k'ashk'ashaa"
           }
         ]
       }
@@ -1336,65 +1406,17 @@
     "vocab_index": 183,
     "word": "ახალი",
     "gloss": "new",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა ახალი არის.",
-        "text": "The bag is new.",
+        "target": "ახალი წიგნი ჩანთაში მაქვს",
+        "text": "I have a new book in my bag.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "ახალი",
             "gloss": "new",
             "transliteration": "akhali",
             "note": "target"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
-          }
-        ]
-      },
-      {
-        "target": "ეს გაკვეთილი ახალი არის.",
-        "text": "This lesson is new.",
-        "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
-          {
-            "word": "ახალი",
-            "gloss": "new",
-            "transliteration": "akhali",
-            "note": "target"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
-          }
-        ]
-      },
-      {
-        "target": "ეს წიგნი ახალი არის.",
-        "text": "This book is new.",
-        "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
           },
           {
             "word": "წიგნი",
@@ -1402,15 +1424,63 @@
             "transliteration": "ts'igni"
           },
           {
+            "word": "ჩანთაში",
+            "gloss": "in the bag",
+            "transliteration": "chantashi"
+          },
+          {
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
+          }
+        ]
+      },
+      {
+        "target": "ახალი სახლი ქუჩის ბოლოშია",
+        "text": "A new house is at the end of the street.",
+        "words": [
+          {
             "word": "ახალი",
             "gloss": "new",
             "transliteration": "akhali",
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "სახლი",
+            "gloss": "house",
+            "transliteration": "sakhli"
+          },
+          {
+            "word": "ქუჩის",
+            "gloss": "street's",
+            "transliteration": "kuchis"
+          },
+          {
+            "word": "ბოლოშია",
+            "gloss": "is at the end",
+            "transliteration": "boloshia"
+          }
+        ]
+      },
+      {
+        "target": "ახალი პური სურნელებს",
+        "text": "New bread smells good.",
+        "words": [
+          {
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali",
+            "note": "target"
+          },
+          {
+            "word": "პური",
+            "gloss": "bread",
+            "transliteration": "p'uri"
+          },
+          {
+            "word": "სურნელებს",
+            "gloss": "smells sweet",
+            "transliteration": "surnelebs"
           }
         ]
       }
@@ -1420,17 +1490,12 @@
     "vocab_index": 184,
     "word": "ძველი",
     "gloss": "old",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი ძველი არის.",
-        "text": "The room is old.",
+        "target": "ძველი ხიდი მდინარეზეა",
+        "text": "An old bridge is over the river.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "ძველი",
             "gloss": "old",
@@ -1438,21 +1503,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხიდი",
+            "gloss": "bridge",
+            "transliteration": "khidi"
+          },
+          {
+            "word": "მდინარეზეა",
+            "gloss": "is over the river",
+            "transliteration": "mdinarezea"
           }
         ]
       },
       {
-        "target": "ყავა ძველი არის.",
-        "text": "The coffee is old.",
+        "target": "ძველი წიგნი მტვრიანია",
+        "text": "An old book is dusty.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "ძველი",
             "gloss": "old",
@@ -1460,21 +1525,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "წიგნი",
+            "gloss": "book",
+            "transliteration": "ts'igni"
+          },
+          {
+            "word": "მტვრიანია",
+            "gloss": "is dusty",
+            "transliteration": "mt'vriania"
           }
         ]
       },
       {
-        "target": "ბაზარი ძველი არის.",
-        "text": "The market is old.",
+        "target": "ძველი ხე ეზოს შუაშია",
+        "text": "An old tree is in the middle of the yard.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "ძველი",
             "gloss": "old",
@@ -1482,9 +1547,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხე",
+            "gloss": "tree",
+            "transliteration": "khe"
+          },
+          {
+            "word": "ეზოს",
+            "gloss": "yard",
+            "transliteration": "ezos"
+          },
+          {
+            "word": "შუაშია",
+            "gloss": "is in the middle",
+            "transliteration": "shuashia"
           }
         ]
       }
@@ -1494,22 +1569,12 @@
     "vocab_index": 185,
     "word": "კარგი",
     "gloss": "good",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ეს საქმე კარგი არის.",
-        "text": "This work is good.",
+        "target": "კარგი ამბავი ყველას ახარებს",
+        "text": "Good news makes everyone glad.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "საქმე",
-            "gloss": "work",
-            "transliteration": "sakme"
-          },
           {
             "word": "კარგი",
             "gloss": "good",
@@ -1517,58 +1582,68 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ამბავი",
+            "gloss": "story",
+            "transliteration": "ambavi"
+          },
+          {
+            "word": "ყველას",
+            "gloss": "everyone",
+            "transliteration": "q'velas"
+          },
+          {
+            "word": "ახარებს",
+            "gloss": "makes glad",
+            "transliteration": "akharebs"
           }
         ]
       },
       {
-        "target": "დღეს მოგზაურობა კარგი არის.",
-        "text": "The trip is good today.",
+        "target": "კარგი მეგობარი გვერდშია",
+        "text": "A good friend is at your side.",
         "words": [
-          {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
-          },
-          {
-            "word": "მოგზაურობა",
-            "gloss": "trip",
-            "transliteration": "mogzauroba"
-          },
           {
             "word": "კარგი",
             "gloss": "good",
             "transliteration": "k'argi",
             "note": "target"
           },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
-          }
-        ]
-      },
-      {
-        "target": "მეგობარი კარგი არის.",
-        "text": "The friend is good.",
-        "words": [
           {
             "word": "მეგობარი",
             "gloss": "friend",
             "transliteration": "megobari"
           },
           {
+            "word": "გვერდშია",
+            "gloss": "is at your side",
+            "transliteration": "gverdshia"
+          }
+        ]
+      },
+      {
+        "target": "კარგი ამინდი გასეირნებას იძლევა",
+        "text": "Good weather allows a walk.",
+        "words": [
+          {
             "word": "კარგი",
             "gloss": "good",
             "transliteration": "k'argi",
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ამინდი",
+            "gloss": "weather",
+            "transliteration": "amindi"
+          },
+          {
+            "word": "გასეირნებას",
+            "gloss": "a walk",
+            "transliteration": "gaseirnebas"
+          },
+          {
+            "word": "იძლევა",
+            "gloss": "gives",
+            "transliteration": "idzleva"
           }
         ]
       }
@@ -1578,17 +1653,12 @@
     "vocab_index": 186,
     "word": "ცუდი",
     "gloss": "bad",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა ცუდი არის.",
-        "text": "The bag is bad.",
+        "target": "ცუდი ამინდი გეგმას არღვევს",
+        "text": "Bad weather breaks the plan.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "ცუდი",
             "gloss": "bad",
@@ -1596,26 +1666,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ამინდი",
+            "gloss": "weather",
+            "transliteration": "amindi"
+          },
+          {
+            "word": "გეგმას",
+            "gloss": "plan",
+            "transliteration": "gegmas"
+          },
+          {
+            "word": "არღვევს",
+            "gloss": "breaks",
+            "transliteration": "arghvevs"
           }
         ]
       },
       {
-        "target": "ეს გაკვეთილი ცუდი არის.",
-        "text": "This lesson is bad.",
+        "target": "ცუდი ამბავი ნელა ვრცელდება",
+        "text": "Bad news spreads slowly.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
           {
             "word": "ცუდი",
             "gloss": "bad",
@@ -1623,26 +1693,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ამბავი",
+            "gloss": "story",
+            "transliteration": "ambavi"
+          },
+          {
+            "word": "ნელა",
+            "gloss": "slowly",
+            "transliteration": "nela"
+          },
+          {
+            "word": "ვრცელდება",
+            "gloss": "spreads",
+            "transliteration": "vrtseldeba"
           }
         ]
       },
       {
-        "target": "ეს წიგნი ცუდი არის.",
-        "text": "This book is bad.",
+        "target": "ცუდი გზა მანქანას აზიანებს",
+        "text": "A bad road damages the car.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
-          },
           {
             "word": "ცუდი",
             "gloss": "bad",
@@ -1650,9 +1720,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გზა",
+            "gloss": "road",
+            "transliteration": "gza"
+          },
+          {
+            "word": "მანქანას",
+            "gloss": "car",
+            "transliteration": "mankanas"
+          },
+          {
+            "word": "აზიანებს",
+            "gloss": "damages",
+            "transliteration": "azianebs"
           }
         ]
       }
@@ -1662,17 +1742,12 @@
     "vocab_index": 187,
     "word": "დამპალი",
     "gloss": "rotten",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი დამპალი არის.",
-        "text": "The room is rotten.",
+        "target": "დამპალი ხილი უსიამოვნოდ სდის",
+        "text": "Rotten fruit smells unpleasant.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "დამპალი",
             "gloss": "rotten",
@@ -1680,21 +1755,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხილი",
+            "gloss": "fruit",
+            "transliteration": "khili"
+          },
+          {
+            "word": "უსიამოვნოდ",
+            "gloss": "unpleasantly",
+            "transliteration": "usiamovnod"
+          },
+          {
+            "word": "სდის",
+            "gloss": "smells",
+            "transliteration": "sdis"
           }
         ]
       },
       {
-        "target": "ყავა დამპალი არის.",
-        "text": "The coffee is rotten.",
+        "target": "დამპალი ხე ტყეში წევს",
+        "text": "A rotten tree lies in the forest.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "დამპალი",
             "gloss": "rotten",
@@ -1702,21 +1782,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხე",
+            "gloss": "tree",
+            "transliteration": "khe"
+          },
+          {
+            "word": "ტყეში",
+            "gloss": "in the forest",
+            "transliteration": "t'q'eshi"
+          },
+          {
+            "word": "წევს",
+            "gloss": "lies",
+            "transliteration": "ts'evs"
           }
         ]
       },
       {
-        "target": "ბაზარი დამპალი არის.",
-        "text": "The market is rotten.",
+        "target": "დამპალი პური ფრინველებს არ უყვართ",
+        "text": "Birds do not like rotten bread.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "დამპალი",
             "gloss": "rotten",
@@ -1724,9 +1809,24 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "პური",
+            "gloss": "bread",
+            "transliteration": "p'uri"
+          },
+          {
+            "word": "ფრინველებს",
+            "gloss": "birds",
+            "transliteration": "prinvelebs"
+          },
+          {
+            "word": "არ",
+            "gloss": "not",
+            "transliteration": "ar"
+          },
+          {
+            "word": "უყვართ",
+            "gloss": "like",
+            "transliteration": "uq'vart"
           }
         ]
       }
@@ -1736,22 +1836,12 @@
     "vocab_index": 188,
     "word": "ჭუჭყიანი",
     "gloss": "dirty",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ეს საქმე ჭუჭყიანი არის.",
-        "text": "This work is dirty.",
+        "target": "ჭუჭყიანი ფეხსაცმელი კარებთანაა",
+        "text": "Dirty shoes are by the door.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "საქმე",
-            "gloss": "work",
-            "transliteration": "sakme"
-          },
           {
             "word": "ჭუჭყიანი",
             "gloss": "dirty",
@@ -1759,26 +1849,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფეხსაცმელი",
+            "gloss": "shoes",
+            "transliteration": "pekhsatsmeli"
+          },
+          {
+            "word": "კარებთანაა",
+            "gloss": "are by the door",
+            "transliteration": "k'arebtanaa"
           }
         ]
       },
       {
-        "target": "დღეს მოგზაურობა ჭუჭყიანი არის.",
-        "text": "The trip is dirty today.",
+        "target": "ჭუჭყიანი ხელები დაიბანე",
+        "text": "Wash the dirty hands.",
         "words": [
-          {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
-          },
-          {
-            "word": "მოგზაურობა",
-            "gloss": "trip",
-            "transliteration": "mogzauroba"
-          },
           {
             "word": "ჭუჭყიანი",
             "gloss": "dirty",
@@ -1786,21 +1871,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხელები",
+            "gloss": "hands",
+            "transliteration": "khelebi"
+          },
+          {
+            "word": "დაიბანე",
+            "gloss": "wash",
+            "transliteration": "daibane"
           }
         ]
       },
       {
-        "target": "მეგობარი ჭუჭყიანი არის.",
-        "text": "The friend is dirty.",
+        "target": "ჭუჭყიანი ფანჯარა ნაკლებად ანათებს",
+        "text": "A dirty window lets in less light.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ჭუჭყიანი",
             "gloss": "dirty",
@@ -1808,9 +1893,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფანჯარა",
+            "gloss": "window",
+            "transliteration": "panjara"
+          },
+          {
+            "word": "ნაკლებად",
+            "gloss": "less",
+            "transliteration": "nak'lebad"
+          },
+          {
+            "word": "ანათებს",
+            "gloss": "shines/lets light",
+            "transliteration": "anatebs"
           }
         ]
       }
@@ -1820,17 +1915,12 @@
     "vocab_index": 189,
     "word": "სწორი",
     "gloss": "straight",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა სწორი არის.",
-        "text": "The bag is straight.",
+        "target": "სწორი გზა სოფელამდე მიდის",
+        "text": "A straight road goes to the village.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "სწორი",
             "gloss": "straight",
@@ -1838,26 +1928,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გზა",
+            "gloss": "road",
+            "transliteration": "gza"
+          },
+          {
+            "word": "სოფელამდე",
+            "gloss": "to the village",
+            "transliteration": "sopelamde"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       },
       {
-        "target": "ეს გაკვეთილი სწორი არის.",
-        "text": "This lesson is straight.",
+        "target": "სწორი ხაზი რვეულზეა",
+        "text": "A straight line is on the notebook.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
           {
             "word": "სწორი",
             "gloss": "straight",
@@ -1865,26 +1955,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხაზი",
+            "gloss": "line",
+            "transliteration": "khazi"
+          },
+          {
+            "word": "რვეულზეა",
+            "gloss": "is on the notebook",
+            "transliteration": "rveulzea"
           }
         ]
       },
       {
-        "target": "ეს წიგნი სწორი არის.",
-        "text": "This book is straight.",
+        "target": "სწორი პასუხი დაფაზეა",
+        "text": "The straight answer is on the board.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
-          },
           {
             "word": "სწორი",
             "gloss": "straight",
@@ -1892,9 +1977,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "პასუხი",
+            "gloss": "answer",
+            "transliteration": "p'asukhi"
+          },
+          {
+            "word": "დაფაზეა",
+            "gloss": "is on the board",
+            "transliteration": "dapazea"
           }
         ]
       }
@@ -1904,17 +1994,12 @@
     "vocab_index": 190,
     "word": "მრგვალი",
     "gloss": "round",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი მრგვალი არის.",
-        "text": "The room is round.",
+        "target": "მრგვალი მაგიდა ოთახის შუაშია",
+        "text": "A round table is in the middle of the room.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "მრგვალი",
             "gloss": "round",
@@ -1922,21 +2007,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მაგიდა",
+            "gloss": "table",
+            "transliteration": "magida"
+          },
+          {
+            "word": "ოთახის",
+            "gloss": "room's",
+            "transliteration": "otakhis"
+          },
+          {
+            "word": "შუაშია",
+            "gloss": "is in the middle",
+            "transliteration": "shuashia"
           }
         ]
       },
       {
-        "target": "ყავა მრგვალი არის.",
-        "text": "The coffee is round.",
+        "target": "მრგვალი ქვა მდინარეშია",
+        "text": "A round stone is in the river.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "მრგვალი",
             "gloss": "round",
@@ -1944,21 +2034,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ქვა",
+            "gloss": "stone",
+            "transliteration": "kva"
+          },
+          {
+            "word": "მდინარეშია",
+            "gloss": "is in the river",
+            "transliteration": "mdinareshia"
           }
         ]
       },
       {
-        "target": "ბაზარი მრგვალი არის.",
-        "text": "The market is round.",
+        "target": "მრგვალი მთვარე ცაზეა",
+        "text": "A round moon is in the sky.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "მრგვალი",
             "gloss": "round",
@@ -1966,9 +2056,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მთვარე",
+            "gloss": "moon",
+            "transliteration": "mtvare"
+          },
+          {
+            "word": "ცაზეა",
+            "gloss": "is in the sky",
+            "transliteration": "tsazea"
           }
         ]
       }
@@ -1978,22 +2073,12 @@
     "vocab_index": 191,
     "word": "ბასრი",
     "gloss": "sharp",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ეს საქმე ბასრი არის.",
-        "text": "This work is sharp.",
+        "target": "ბასრი დანა პურს ჭრის",
+        "text": "A sharp knife cuts bread.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "საქმე",
-            "gloss": "work",
-            "transliteration": "sakme"
-          },
           {
             "word": "ბასრი",
             "gloss": "sharp",
@@ -2001,26 +2086,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დანა",
+            "gloss": "knife",
+            "transliteration": "dana"
+          },
+          {
+            "word": "პურს",
+            "gloss": "bread",
+            "transliteration": "p'urs"
+          },
+          {
+            "word": "ჭრის",
+            "gloss": "cuts",
+            "transliteration": "ch'ris"
           }
         ]
       },
       {
-        "target": "დღეს მოგზაურობა ბასრი არის.",
-        "text": "The trip is sharp today.",
+        "target": "ბასრი ფანქარი ნათლად წერს",
+        "text": "A sharp pencil writes clearly.",
         "words": [
-          {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
-          },
-          {
-            "word": "მოგზაურობა",
-            "gloss": "trip",
-            "transliteration": "mogzauroba"
-          },
           {
             "word": "ბასრი",
             "gloss": "sharp",
@@ -2028,21 +2113,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფანქარი",
+            "gloss": "pencil",
+            "transliteration": "pankari"
+          },
+          {
+            "word": "ნათლად",
+            "gloss": "clearly",
+            "transliteration": "natlad"
+          },
+          {
+            "word": "წერს",
+            "gloss": "writes",
+            "transliteration": "ts'ers"
           }
         ]
       },
       {
-        "target": "მეგობარი ბასრი არის.",
-        "text": "The friend is sharp.",
+        "target": "ბასრი ქვა ფეხს ჭრის",
+        "text": "A sharp stone cuts the foot.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "ბასრი",
             "gloss": "sharp",
@@ -2050,9 +2140,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ქვა",
+            "gloss": "stone",
+            "transliteration": "kva"
+          },
+          {
+            "word": "ფეხს",
+            "gloss": "foot",
+            "transliteration": "pekhs"
+          },
+          {
+            "word": "ჭრის",
+            "gloss": "cuts",
+            "transliteration": "ch'ris"
           }
         ]
       }
@@ -2062,17 +2162,12 @@
     "vocab_index": 192,
     "word": "ბლაგვი",
     "gloss": "dull",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა ბლაგვი არის.",
-        "text": "The bag is dull.",
+        "target": "ბლაგვი დანა ცუდად ჭრის",
+        "text": "A dull knife cuts poorly.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "ბლაგვი",
             "gloss": "dull",
@@ -2080,26 +2175,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "დანა",
+            "gloss": "knife",
+            "transliteration": "dana"
+          },
+          {
+            "word": "ცუდად",
+            "gloss": "poorly",
+            "transliteration": "tsudad"
+          },
+          {
+            "word": "ჭრის",
+            "gloss": "cuts",
+            "transliteration": "ch'ris"
           }
         ]
       },
       {
-        "target": "ეს გაკვეთილი ბლაგვი არის.",
-        "text": "This lesson is dull.",
+        "target": "ბლაგვი ფანქარი აცლის ქაღალდს",
+        "text": "A dull pencil tears the paper.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
           {
             "word": "ბლაგვი",
             "gloss": "dull",
@@ -2107,26 +2202,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფანქარი",
+            "gloss": "pencil",
+            "transliteration": "pankari"
+          },
+          {
+            "word": "აცლის",
+            "gloss": "tears",
+            "transliteration": "atslis"
+          },
+          {
+            "word": "ქაღალდს",
+            "gloss": "paper",
+            "transliteration": "kaghalds"
           }
         ]
       },
       {
-        "target": "ეს წიგნი ბლაგვი არის.",
-        "text": "This book is dull.",
+        "target": "ბლაგვი პირი სიფრთხილეს მოითხოვს",
+        "text": "A dull blade needs caution.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
-          },
           {
             "word": "ბლაგვი",
             "gloss": "dull",
@@ -2134,9 +2229,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "პირი",
+            "gloss": "mouth",
+            "transliteration": "p'iri"
+          },
+          {
+            "word": "სიფრთხილეს",
+            "gloss": "caution",
+            "transliteration": "siprtkhiles"
+          },
+          {
+            "word": "მოითხოვს",
+            "gloss": "requires",
+            "transliteration": "moitkhovs"
           }
         ]
       }
@@ -2146,17 +2251,12 @@
     "vocab_index": 193,
     "word": "გლუვი",
     "gloss": "smooth",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი გლუვი არის.",
-        "text": "The room is smooth.",
+        "target": "გლუვი ქვა წყალშია",
+        "text": "A smooth stone is in the water.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "გლუვი",
             "gloss": "smooth",
@@ -2164,21 +2264,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ქვა",
+            "gloss": "stone",
+            "transliteration": "kva"
+          },
+          {
+            "word": "წყალშია",
+            "gloss": "is in the water",
+            "transliteration": "ts'q'alshia"
           }
         ]
       },
       {
-        "target": "ყავა გლუვი არის.",
-        "text": "The coffee is smooth.",
+        "target": "გლუვი მაგიდა ადვილად იწმინდება",
+        "text": "A smooth table is easy to wipe.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "გლუვი",
             "gloss": "smooth",
@@ -2186,21 +2286,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მაგიდა",
+            "gloss": "table",
+            "transliteration": "magida"
+          },
+          {
+            "word": "ადვილად",
+            "gloss": "easily",
+            "transliteration": "advilad"
+          },
+          {
+            "word": "იწმინდება",
+            "gloss": "is wiped",
+            "transliteration": "its'mindeba"
           }
         ]
       },
       {
-        "target": "ბაზარი გლუვი არის.",
-        "text": "The market is smooth.",
+        "target": "გლუვი გზა სიარულს ამარტივებს",
+        "text": "A smooth road makes walking easier.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "გლუვი",
             "gloss": "smooth",
@@ -2208,9 +2313,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გზა",
+            "gloss": "road",
+            "transliteration": "gza"
+          },
+          {
+            "word": "სიარულს",
+            "gloss": "walking",
+            "transliteration": "siaruls"
+          },
+          {
+            "word": "ამარტივებს",
+            "gloss": "makes easier",
+            "transliteration": "amart'ivebs"
           }
         ]
       }
@@ -2220,22 +2335,12 @@
     "vocab_index": 194,
     "word": "სველი",
     "gloss": "wet",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ეს საქმე სველი არის.",
-        "text": "This work is wet.",
+        "target": "სველი ქურთუკი გასაშრობადაა",
+        "text": "A wet coat is hung to dry.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "საქმე",
-            "gloss": "work",
-            "transliteration": "sakme"
-          },
           {
             "word": "სველი",
             "gloss": "wet",
@@ -2243,26 +2348,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ქურთუკი",
+            "gloss": "jacket",
+            "transliteration": "kurtuk'i"
+          },
+          {
+            "word": "გასაშრობადაა",
+            "gloss": "is to dry",
+            "transliteration": "gasashrobadaa"
           }
         ]
       },
       {
-        "target": "დღეს მოგზაურობა სველი არის.",
-        "text": "The trip is wet today.",
+        "target": "სველი ბალახი ფეხებს ასველებს",
+        "text": "Wet grass wets the feet.",
         "words": [
-          {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
-          },
-          {
-            "word": "მოგზაურობა",
-            "gloss": "trip",
-            "transliteration": "mogzauroba"
-          },
           {
             "word": "სველი",
             "gloss": "wet",
@@ -2270,21 +2370,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ბალახი",
+            "gloss": "grass",
+            "transliteration": "balakhi"
+          },
+          {
+            "word": "ფეხებს",
+            "gloss": "feet",
+            "transliteration": "pekhebs"
+          },
+          {
+            "word": "ასველებს",
+            "gloss": "wets",
+            "transliteration": "asvelebs"
           }
         ]
       },
       {
-        "target": "მეგობარი სველი არის.",
-        "text": "The friend is wet.",
+        "target": "სველი იატაკი სრიალაა",
+        "text": "A wet floor is slippery.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "სველი",
             "gloss": "wet",
@@ -2292,9 +2397,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "იატაკი",
+            "gloss": "floor",
+            "transliteration": "iat'ak'i"
+          },
+          {
+            "word": "სრიალაა",
+            "gloss": "is slippery",
+            "transliteration": "srialaa"
           }
         ]
       }
@@ -2304,17 +2414,12 @@
     "vocab_index": 195,
     "word": "მშრალი",
     "gloss": "dry",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა მშრალი არის.",
-        "text": "The bag is dry.",
+        "target": "მშრალი ფოთოლი იშლება",
+        "text": "A dry leaf crumbles.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "მშრალი",
             "gloss": "dry",
@@ -2322,26 +2427,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფოთოლი",
+            "gloss": "leaf",
+            "transliteration": "potoli"
+          },
+          {
+            "word": "იშლება",
+            "gloss": "clears/crumbles",
+            "transliteration": "ishleba"
           }
         ]
       },
       {
-        "target": "ეს გაკვეთილი მშრალი არის.",
-        "text": "This lesson is dry.",
+        "target": "მშრალი მიწა წყალს სვამს",
+        "text": "Dry earth drinks water.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
           {
             "word": "მშრალი",
             "gloss": "dry",
@@ -2349,26 +2449,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მიწა",
+            "gloss": "earth",
+            "transliteration": "mits'a"
+          },
+          {
+            "word": "წყალს",
+            "gloss": "water",
+            "transliteration": "ts'q'als"
+          },
+          {
+            "word": "სვამს",
+            "gloss": "drinks/takes in",
+            "transliteration": "svams"
           }
         ]
       },
       {
-        "target": "ეს წიგნი მშრალი არის.",
-        "text": "This book is dry.",
+        "target": "მშრალი პური ჯერ კიდევ საკვებია",
+        "text": "Dry bread is still food.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
-          },
           {
             "word": "მშრალი",
             "gloss": "dry",
@@ -2376,9 +2476,24 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "პური",
+            "gloss": "bread",
+            "transliteration": "p'uri"
+          },
+          {
+            "word": "ჯერ",
+            "gloss": "still",
+            "transliteration": "jer"
+          },
+          {
+            "word": "კიდევ",
+            "gloss": "still",
+            "transliteration": "k'idev"
+          },
+          {
+            "word": "საკვებია",
+            "gloss": "is food",
+            "transliteration": "sak'vebia"
           }
         ]
       }
@@ -2388,17 +2503,12 @@
     "vocab_index": 196,
     "word": "მართალი",
     "gloss": "right",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი მართალი არის.",
-        "text": "The room is right.",
+        "target": "მართალი პასუხი მოკლეა",
+        "text": "The right answer is short.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "მართალი",
             "gloss": "right",
@@ -2406,21 +2516,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "პასუხი",
+            "gloss": "answer",
+            "transliteration": "p'asukhi"
+          },
+          {
+            "word": "მოკლეა",
+            "gloss": "is short",
+            "transliteration": "mok'lea"
           }
         ]
       },
       {
-        "target": "ყავა მართალი არის.",
-        "text": "The coffee is right.",
+        "target": "მართალი ამბავი ყველას გააინტერესებს",
+        "text": "A true story will interest everyone.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "მართალი",
             "gloss": "right",
@@ -2428,21 +2538,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ამბავი",
+            "gloss": "story",
+            "transliteration": "ambavi"
+          },
+          {
+            "word": "ყველას",
+            "gloss": "everyone",
+            "transliteration": "q'velas"
+          },
+          {
+            "word": "გააინტერესებს",
+            "gloss": "will interest",
+            "transliteration": "gaaint'eresebs"
           }
         ]
       },
       {
-        "target": "ბაზარი მართალი არის.",
-        "text": "The market is right.",
+        "target": "მართალი მეგობარი გეხმარება",
+        "text": "A truthful friend helps you.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "მართალი",
             "gloss": "right",
@@ -2450,9 +2565,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "მეგობარი",
+            "gloss": "friend",
+            "transliteration": "megobari"
+          },
+          {
+            "word": "გეხმარება",
+            "gloss": "helps you",
+            "transliteration": "gekhmareba"
           }
         ]
       }
@@ -2462,11 +2582,38 @@
     "vocab_index": 197,
     "word": "ახლო",
     "gloss": "near",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "სკოლა ბაზარი ახლო არის.",
-        "text": "The school is near the market.",
+        "target": "ახლო მაღაზია ქუჩის კუთხეშია",
+        "text": "A nearby shop is at the street corner.",
+        "words": [
+          {
+            "word": "ახლო",
+            "gloss": "near",
+            "transliteration": "akhlo",
+            "note": "target"
+          },
+          {
+            "word": "მაღაზია",
+            "gloss": "shop",
+            "transliteration": "maghazia"
+          },
+          {
+            "word": "ქუჩის",
+            "gloss": "street's",
+            "transliteration": "kuchis"
+          },
+          {
+            "word": "კუთხეშია",
+            "gloss": "is at the corner",
+            "transliteration": "k'utkheshia"
+          }
+        ]
+      },
+      {
+        "target": "სკოლა ახლო და მოსახერხებელია",
+        "text": "The school is near and convenient.",
         "words": [
           {
             "word": "სკოლა",
@@ -2474,74 +2621,47 @@
             "transliteration": "sk'ola"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
-          {
             "word": "ახლო",
             "gloss": "near",
             "transliteration": "akhlo",
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "და",
+            "gloss": "and",
+            "transliteration": "da"
+          },
+          {
+            "word": "მოსახერხებელია",
+            "gloss": "is convenient",
+            "transliteration": "mosakherkhebelia"
           }
         ]
       },
       {
-        "target": "სახლი გზა ახლო არის.",
-        "text": "The house is near the road.",
+        "target": "ახლო მეგობარი ხშირად მოდის",
+        "text": "A close friend comes often.",
         "words": [
-          {
-            "word": "სახლი",
-            "gloss": "home",
-            "transliteration": "sakhli"
-          },
-          {
-            "word": "გზა",
-            "gloss": "road",
-            "transliteration": "gza"
-          },
           {
             "word": "ახლო",
             "gloss": "near",
             "transliteration": "akhlo",
             "note": "target"
           },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
-          }
-        ]
-      },
-      {
-        "target": "მეგობარი კართან ახლო არის.",
-        "text": "A friend is near the door.",
-        "words": [
           {
             "word": "მეგობარი",
             "gloss": "friend",
             "transliteration": "megobari"
           },
           {
-            "word": "კართან",
-            "gloss": "near the door",
-            "transliteration": "k'artan"
+            "word": "ხშირად",
+            "gloss": "often",
+            "transliteration": "khshirad"
           },
           {
-            "word": "ახლო",
-            "gloss": "near",
-            "transliteration": "akhlo",
-            "note": "target"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მოდის",
+            "gloss": "comes",
+            "transliteration": "modis"
           }
         ]
       }
@@ -2551,17 +2671,12 @@
     "vocab_index": 198,
     "word": "შორი",
     "gloss": "far",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ჩანთა შორი არის.",
-        "text": "The bag is far.",
+        "target": "შორი სოფელი მთებს მიღმაა",
+        "text": "A far village is beyond the mountains.",
         "words": [
-          {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
-          },
           {
             "word": "შორი",
             "gloss": "far",
@@ -2569,26 +2684,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "სოფელი",
+            "gloss": "village",
+            "transliteration": "sopeli"
+          },
+          {
+            "word": "მთებს",
+            "gloss": "mountains",
+            "transliteration": "mtebs"
+          },
+          {
+            "word": "მიღმაა",
+            "gloss": "is beyond",
+            "transliteration": "mighmaa"
           }
         ]
       },
       {
-        "target": "ეს გაკვეთილი შორი არის.",
-        "text": "This lesson is far.",
+        "target": "შორი გზა დღეს ვერ გავივლით",
+        "text": "We cannot finish the far road today.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "გაკვეთილი",
-            "gloss": "lesson",
-            "transliteration": "gak'vetili"
-          },
           {
             "word": "შორი",
             "gloss": "far",
@@ -2596,26 +2711,31 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გზა",
+            "gloss": "road",
+            "transliteration": "gza"
+          },
+          {
+            "word": "დღეს",
+            "gloss": "today",
+            "transliteration": "dghes"
+          },
+          {
+            "word": "ვერ",
+            "gloss": "cannot",
+            "transliteration": "ver"
+          },
+          {
+            "word": "გავივლით",
+            "gloss": "we will finish",
+            "transliteration": "gavivlit"
           }
         ]
       },
       {
-        "target": "ეს წიგნი შორი არის.",
-        "text": "This book is far.",
+        "target": "შორი ვარსკვლავი ძლივს ჩანს",
+        "text": "A far star is barely visible.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
-          },
           {
             "word": "შორი",
             "gloss": "far",
@@ -2623,9 +2743,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ვარსკვლავი",
+            "gloss": "star",
+            "transliteration": "varsk'vlavi"
+          },
+          {
+            "word": "ძლივს",
+            "gloss": "barely",
+            "transliteration": "dzlivs"
+          },
+          {
+            "word": "ჩანს",
+            "gloss": "seems/is visible",
+            "transliteration": "chans"
           }
         ]
       }
@@ -2635,17 +2765,12 @@
     "vocab_index": 199,
     "word": "მარჯვენა",
     "gloss": "right",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ოთახი მარჯვენა არის.",
-        "text": "The room is right.",
+        "target": "მარჯვენა ხელი კალამს უჭირავს",
+        "text": "The right hand holds a pen.",
         "words": [
-          {
-            "word": "ოთახი",
-            "gloss": "room",
-            "transliteration": "otakhi"
-          },
           {
             "word": "მარჯვენა",
             "gloss": "right",
@@ -2653,21 +2778,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხელი",
+            "gloss": "hand",
+            "transliteration": "kheli"
+          },
+          {
+            "word": "კალამს",
+            "gloss": "pen",
+            "transliteration": "k'alams"
+          },
+          {
+            "word": "უჭირავს",
+            "gloss": "holds",
+            "transliteration": "uch'iravs"
           }
         ]
       },
       {
-        "target": "ყავა მარჯვენა არის.",
-        "text": "The coffee is right.",
+        "target": "მარჯვენა გზა ხიდამდე მიდის",
+        "text": "The right road goes to the bridge.",
         "words": [
-          {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
           {
             "word": "მარჯვენა",
             "gloss": "right",
@@ -2675,21 +2805,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "გზა",
+            "gloss": "road",
+            "transliteration": "gza"
+          },
+          {
+            "word": "ხიდამდე",
+            "gloss": "to the bridge",
+            "transliteration": "khidamde"
+          },
+          {
+            "word": "მიდის",
+            "gloss": "goes",
+            "transliteration": "midis"
           }
         ]
       },
       {
-        "target": "ბაზარი მარჯვენა არის.",
-        "text": "The market is right.",
+        "target": "მარჯვენა ფანჯარა ღიაა",
+        "text": "The right window is open.",
         "words": [
-          {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
-          },
           {
             "word": "მარჯვენა",
             "gloss": "right",
@@ -2697,9 +2832,14 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფანჯარა",
+            "gloss": "window",
+            "transliteration": "panjara"
+          },
+          {
+            "word": "ღიაა",
+            "gloss": "is open",
+            "transliteration": "ghiaa"
           }
         ]
       }
@@ -2709,22 +2849,12 @@
     "vocab_index": 200,
     "word": "მარცხენა",
     "gloss": "left",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ეს საქმე მარცხენა არის.",
-        "text": "This work is left.",
+        "target": "მარცხენა ხელი ჩანთას უჭირავს",
+        "text": "The left hand holds a bag.",
         "words": [
-          {
-            "word": "ეს",
-            "gloss": "this",
-            "transliteration": "es"
-          },
-          {
-            "word": "საქმე",
-            "gloss": "work",
-            "transliteration": "sakme"
-          },
           {
             "word": "მარცხენა",
             "gloss": "left",
@@ -2732,26 +2862,26 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ხელი",
+            "gloss": "hand",
+            "transliteration": "kheli"
+          },
+          {
+            "word": "ჩანთას",
+            "gloss": "bag",
+            "transliteration": "chantas"
+          },
+          {
+            "word": "უჭირავს",
+            "gloss": "holds",
+            "transliteration": "uch'iravs"
           }
         ]
       },
       {
-        "target": "დღეს მოგზაურობა მარცხენა არის.",
-        "text": "The trip is left today.",
+        "target": "მარცხენა კარი სამზარეულოშია",
+        "text": "The left door leads to the kitchen.",
         "words": [
-          {
-            "word": "დღეს",
-            "gloss": "today",
-            "transliteration": "dghes"
-          },
-          {
-            "word": "მოგზაურობა",
-            "gloss": "trip",
-            "transliteration": "mogzauroba"
-          },
           {
             "word": "მარცხენა",
             "gloss": "left",
@@ -2759,21 +2889,21 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "კარი",
+            "gloss": "door",
+            "transliteration": "k'ari"
+          },
+          {
+            "word": "სამზარეულოშია",
+            "gloss": "is in the kitchen",
+            "transliteration": "samzareuloshia"
           }
         ]
       },
       {
-        "target": "მეგობარი მარცხენა არის.",
-        "text": "The friend is left.",
+        "target": "მარცხენა ფეხი წინ გადადგი",
+        "text": "Step forward with the left foot.",
         "words": [
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
           {
             "word": "მარცხენა",
             "gloss": "left",
@@ -2781,9 +2911,19 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ფეხი",
+            "gloss": "leg",
+            "transliteration": "pekhi"
+          },
+          {
+            "word": "წინ",
+            "gloss": "forward",
+            "transliteration": "ts'in"
+          },
+          {
+            "word": "გადადგი",
+            "gloss": "step",
+            "transliteration": "gadadgi"
           }
         ]
       }
@@ -2793,11 +2933,11 @@
     "vocab_index": 201,
     "word": "თან",
     "gloss": "at",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "წიგნი ჩანთაში თან არის.",
-        "text": "The book is inside the bag.",
+        "target": "წიგნი თან მაქვს.",
+        "text": "I have the book with me.",
         "words": [
           {
             "word": "წიგნი",
@@ -2805,36 +2945,26 @@
             "transliteration": "ts'igni"
           },
           {
-            "word": "ჩანთაში",
-            "gloss": "in the bag",
-            "transliteration": "chantashi"
-          },
-          {
             "word": "თან",
             "gloss": "at",
             "transliteration": "tan",
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "მაქვს",
+            "gloss": "I have",
+            "transliteration": "makvs"
           }
         ]
       },
       {
-        "target": "მეგობარი სახლში თან არის.",
-        "text": "A friend is at home.",
+        "target": "ქოლგა თან წავიღე.",
+        "text": "I took the umbrella along.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
-          {
-            "word": "სახლში",
-            "gloss": "at home",
-            "transliteration": "sakhlshi"
+            "word": "ქოლგა",
+            "gloss": "umbrella",
+            "transliteration": "kolga"
           },
           {
             "word": "თან",
@@ -2843,25 +2973,20 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "წავიღე",
+            "gloss": "I took",
+            "transliteration": "ts'avighe"
           }
         ]
       },
       {
-        "target": "მასწავლებელი სკოლაში თან არის.",
-        "text": "The teacher is at school.",
+        "target": "ფული თან დამრჩა.",
+        "text": "I still have money with me.",
         "words": [
           {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
-          {
-            "word": "სკოლაში",
-            "gloss": "at school",
-            "transliteration": "sk'olashi"
+            "word": "ფული",
+            "gloss": "money",
+            "transliteration": "puli"
           },
           {
             "word": "თან",
@@ -2870,9 +2995,9 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დამრჩა",
+            "gloss": "remained with me",
+            "transliteration": "damrcha"
           }
         ]
       }
@@ -2882,22 +3007,12 @@
     "vocab_index": 202,
     "word": "შიგნით",
     "gloss": "in",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "წიგნი ჩანთაში შიგნით არის.",
-        "text": "The book is inside the bag.",
+        "target": "შიგნით სითბოა.",
+        "text": "It is warm inside.",
         "words": [
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
-          },
-          {
-            "word": "ჩანთაში",
-            "gloss": "in the bag",
-            "transliteration": "chantashi"
-          },
           {
             "word": "შიგნით",
             "gloss": "in",
@@ -2905,25 +3020,20 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სითბოა",
+            "gloss": "it is warm",
+            "transliteration": "sitboa"
           }
         ]
       },
       {
-        "target": "მეგობარი სახლში შიგნით არის.",
-        "text": "A friend is at home.",
+        "target": "კატა შიგნით შევიდა.",
+        "text": "The cat went inside.",
         "words": [
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
-          },
-          {
-            "word": "სახლში",
-            "gloss": "at home",
-            "transliteration": "sakhlshi"
+            "word": "კატა",
+            "gloss": "cat",
+            "transliteration": "k'at'a"
           },
           {
             "word": "შიგნით",
@@ -2932,25 +3042,20 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "შევიდა",
+            "gloss": "went in",
+            "transliteration": "shevida"
           }
         ]
       },
       {
-        "target": "მასწავლებელი სკოლაში შიგნით არის.",
-        "text": "The teacher is at school.",
+        "target": "გთხოვ შიგნით შემოდი.",
+        "text": "Please come inside.",
         "words": [
           {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
-          {
-            "word": "სკოლაში",
-            "gloss": "at school",
-            "transliteration": "sk'olashi"
+            "word": "გთხოვ",
+            "gloss": "please",
+            "transliteration": "gtkhov"
           },
           {
             "word": "შიგნით",
@@ -2959,9 +3064,9 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "შემოდი",
+            "gloss": "come in",
+            "transliteration": "shemodi"
           }
         ]
       }
@@ -2971,21 +3076,16 @@
     "vocab_index": 203,
     "word": "ერთად",
     "gloss": "with",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე მეგობარი ერთად მივდივარ.",
-        "text": "I go with a friend.",
+        "target": "დედასთან ერთად ვსაუზმობ.",
+        "text": "I have breakfast together with mother.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "დედასთან",
+            "gloss": "with mother",
+            "transliteration": "dedastan"
           },
           {
             "word": "ერთად",
@@ -2994,25 +3094,20 @@
             "note": "target"
           },
           {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ვსაუზმობ",
+            "gloss": "I breakfast",
+            "transliteration": "vsauzmob"
           }
         ]
       },
       {
-        "target": "მასწავლებელი ბავშვი ერთად სწავლობს.",
-        "text": "The teacher studies with the child.",
+        "target": "მეგობრები ერთად მღერიან.",
+        "text": "Friends sing together.",
         "words": [
           {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
-          },
-          {
-            "word": "ბავშვი",
-            "gloss": "child",
-            "transliteration": "bavshvi"
+            "word": "მეგობრები",
+            "gloss": "friends",
+            "transliteration": "megobrebi"
           },
           {
             "word": "ერთად",
@@ -3021,25 +3116,25 @@
             "note": "target"
           },
           {
-            "word": "სწავლობს",
-            "gloss": "studies",
-            "transliteration": "sts'avlobs"
+            "word": "მღერიან",
+            "gloss": "they sing",
+            "transliteration": "mgherian"
           }
         ]
       },
       {
-        "target": "ყავა შაქარი ერთად არის.",
-        "text": "The coffee is with sugar.",
+        "target": "ჩაი ორნი ერთად ვსვამთ.",
+        "text": "The two of us drink tea together.",
         "words": [
           {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
+            "word": "ჩაი",
+            "gloss": "tea",
+            "transliteration": "chai"
           },
           {
-            "word": "შაქარი",
-            "gloss": "sugar",
-            "transliteration": "shakari"
+            "word": "ორნი",
+            "gloss": "two people",
+            "transliteration": "orni"
           },
           {
             "word": "ერთად",
@@ -3048,9 +3143,9 @@
             "note": "target"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ვსვამთ",
+            "gloss": "we drink",
+            "transliteration": "vsvamt"
           }
         ]
       }
@@ -3060,16 +3155,16 @@
     "vocab_index": 204,
     "word": "და",
     "gloss": "and",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "ყავა და წყალი მინდა.",
-        "text": "I want coffee and water.",
+        "target": "პური და ყველი ვიყიდე.",
+        "text": "I bought bread and cheese.",
         "words": [
           {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
+            "word": "პური",
+            "gloss": "bread",
+            "transliteration": "p'uri"
           },
           {
             "word": "და",
@@ -3078,20 +3173,20 @@
             "note": "target"
           },
           {
-            "word": "წყალი",
-            "gloss": "water",
-            "transliteration": "ts'q'ali"
+            "word": "ყველი",
+            "gloss": "cheese",
+            "transliteration": "q'veli"
           },
           {
-            "word": "მინდა",
-            "gloss": "I want",
-            "transliteration": "minda"
+            "word": "ვიყიდე",
+            "gloss": "I bought",
+            "transliteration": "viq'ide"
           }
         ]
       },
       {
-        "target": "დედა და მეგობარი მოვიდა.",
-        "text": "Mother and a friend came.",
+        "target": "დედა და მამა სახლში არიან.",
+        "text": "Mother and father are at home.",
         "words": [
           {
             "word": "დედა",
@@ -3105,20 +3200,25 @@
             "note": "target"
           },
           {
-            "word": "მეგობარი",
-            "gloss": "friend",
-            "transliteration": "megobari"
+            "word": "მამა",
+            "gloss": "father",
+            "transliteration": "mama"
           },
           {
-            "word": "მოვიდა",
-            "gloss": "came",
-            "transliteration": "movida"
+            "word": "სახლში",
+            "gloss": "at home",
+            "transliteration": "sakhlshi"
+          },
+          {
+            "word": "არიან",
+            "gloss": "are",
+            "transliteration": "arian"
           }
         ]
       },
       {
-        "target": "წიგნი და ჩანთა არის.",
-        "text": "There are a book and a bag.",
+        "target": "წიგნი და რვეული ჩანთაშია.",
+        "text": "The book and notebook are in the bag.",
         "words": [
           {
             "word": "წიგნი",
@@ -3132,14 +3232,14 @@
             "note": "target"
           },
           {
-            "word": "ჩანთა",
-            "gloss": "bag",
-            "transliteration": "chanta"
+            "word": "რვეული",
+            "gloss": "notebook",
+            "transliteration": "rveuli"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "ჩანთაშია",
+            "gloss": "are in the bag",
+            "transliteration": "chantashia"
           }
         ]
       }
@@ -3149,11 +3249,11 @@
     "vocab_index": 205,
     "word": "თუ",
     "gloss": "if",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "თუ წყალი არის ყავა ვსვამ.",
-        "text": "If there is water, I drink coffee.",
+        "target": "თუ წვიმს სახლში დავრჩები.",
+        "text": "If it rains I will stay home.",
         "words": [
           {
             "word": "თუ",
@@ -3162,30 +3262,25 @@
             "note": "target"
           },
           {
-            "word": "წყალი",
-            "gloss": "water",
-            "transliteration": "ts'q'ali"
+            "word": "წვიმს",
+            "gloss": "it rains",
+            "transliteration": "ts'vims"
           },
           {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "სახლში",
+            "gloss": "at home",
+            "transliteration": "sakhlshi"
           },
           {
-            "word": "ყავა",
-            "gloss": "coffee",
-            "transliteration": "q'ava"
-          },
-          {
-            "word": "ვსვამ",
-            "gloss": "I drink",
-            "transliteration": "vsvam"
+            "word": "დავრჩები",
+            "gloss": "I will stay",
+            "transliteration": "davrchebi"
           }
         ]
       },
       {
-        "target": "თუ მასწავლებელი მოვა ჩვენ ვსწავლობთ.",
-        "text": "If the teacher comes, we study.",
+        "target": "თუ გინდა ჩაი მოგცემ.",
+        "text": "If you want I will give you tea.",
         "words": [
           {
             "word": "თუ",
@@ -3194,30 +3289,25 @@
             "note": "target"
           },
           {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
+            "word": "გინდა",
+            "gloss": "you want",
+            "transliteration": "ginda"
           },
           {
-            "word": "მოვა",
-            "gloss": "comes",
-            "transliteration": "mova"
+            "word": "ჩაი",
+            "gloss": "tea",
+            "transliteration": "chai"
           },
           {
-            "word": "ჩვენ",
-            "gloss": "we",
-            "transliteration": "chven"
-          },
-          {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "მოგცემ",
+            "gloss": "I will give you",
+            "transliteration": "mogtsem"
           }
         ]
       },
       {
-        "target": "თუ ბაზარი ახლოს არის მე მივდივარ.",
-        "text": "If the market is near, I go.",
+        "target": "თუ დაგვიანდები დამირეკე.",
+        "text": "If you are late call me.",
         "words": [
           {
             "word": "თუ",
@@ -3226,29 +3316,14 @@
             "note": "target"
           },
           {
-            "word": "ბაზარი",
-            "gloss": "market",
-            "transliteration": "bazari"
+            "word": "დაგვიანდები",
+            "gloss": "you will be late",
+            "transliteration": "dagviandebi"
           },
           {
-            "word": "ახლოს",
-            "gloss": "near",
-            "transliteration": "akhlos"
-          },
-          {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
-          },
-          {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
-          },
-          {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "დამირეკე",
+            "gloss": "call me",
+            "transliteration": "damirek'e"
           }
         ]
       }
@@ -3258,21 +3333,21 @@
     "vocab_index": 206,
     "word": "რადგან",
     "gloss": "because",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "წყალი ვსვამ რადგან თბილი არის.",
-        "text": "I drink water because it is warm.",
+        "target": "სახლში ვრჩები რადგან ავად ვარ.",
+        "text": "I stay home because I am sick.",
         "words": [
           {
-            "word": "წყალი",
-            "gloss": "water",
-            "transliteration": "ts'q'ali"
+            "word": "სახლში",
+            "gloss": "at home",
+            "transliteration": "sakhlshi"
           },
           {
-            "word": "ვსვამ",
-            "gloss": "I drink",
-            "transliteration": "vsvam"
+            "word": "ვრჩები",
+            "gloss": "I stay",
+            "transliteration": "vrchebi"
           },
           {
             "word": "რადგან",
@@ -3281,30 +3356,25 @@
             "note": "target"
           },
           {
-            "word": "თბილი",
-            "gloss": "warm",
-            "transliteration": "tbili"
+            "word": "ავად",
+            "gloss": "sick",
+            "transliteration": "avad"
           },
           {
-            "word": "არის",
-            "gloss": "is",
-            "transliteration": "aris"
+            "word": "ვარ",
+            "gloss": "I am",
+            "transliteration": "var"
           }
         ]
       },
       {
-        "target": "სახლი მივდივარ რადგან დაღლილი ვარ.",
-        "text": "I go home because I am tired.",
+        "target": "ვმუშაობ რადგან ფული მინდა.",
+        "text": "I work because I want money.",
         "words": [
           {
-            "word": "სახლი",
-            "gloss": "home",
-            "transliteration": "sakhli"
-          },
-          {
-            "word": "მივდივარ",
-            "gloss": "I go",
-            "transliteration": "mivdivar"
+            "word": "ვმუშაობ",
+            "gloss": "I work",
+            "transliteration": "vmushaob"
           },
           {
             "word": "რადგან",
@@ -3313,25 +3383,30 @@
             "note": "target"
           },
           {
-            "word": "დაღლილი ვარ",
-            "gloss": "I am tired",
-            "transliteration": "daghlili var"
-          }
-        ]
-      },
-      {
-        "target": "წიგნი მინდა რადგან ვსწავლობთ.",
-        "text": "I want a book because we study.",
-        "words": [
-          {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
+            "word": "ფული",
+            "gloss": "money",
+            "transliteration": "puli"
           },
           {
             "word": "მინდა",
             "gloss": "I want",
             "transliteration": "minda"
+          }
+        ]
+      },
+      {
+        "target": "ბედნიერი ვარ რადგან შენ მოხვედი.",
+        "text": "I am happy because you came.",
+        "words": [
+          {
+            "word": "ბედნიერი",
+            "gloss": "happy",
+            "transliteration": "bednieri"
+          },
+          {
+            "word": "ვარ",
+            "gloss": "I am",
+            "transliteration": "var"
           },
           {
             "word": "რადგან",
@@ -3340,9 +3415,14 @@
             "note": "target"
           },
           {
-            "word": "ვსწავლობთ",
-            "gloss": "we learn",
-            "transliteration": "vsts'avlobt"
+            "word": "შენ",
+            "gloss": "you",
+            "transliteration": "shen"
+          },
+          {
+            "word": "მოხვედი",
+            "gloss": "came",
+            "transliteration": "mokhvedi"
           }
         ]
       }
@@ -3352,16 +3432,16 @@
     "vocab_index": 207,
     "word": "სახელი",
     "gloss": "name",
-    "source": "Wiktionary Georgian Swadesh seed",
+    "source": "LLM-authored Georgian Swadesh meaning rewrite 2026-09-30",
     "sentences": [
       {
-        "target": "მე სახელი ვწერ.",
-        "text": "I write my name.",
+        "target": "ჩემი სახელი ანიაა.",
+        "text": "My name is Ania.",
         "words": [
           {
-            "word": "მე",
-            "gloss": "I",
-            "transliteration": "me"
+            "word": "ჩემი",
+            "gloss": "my",
+            "transliteration": "chemi"
           },
           {
             "word": "სახელი",
@@ -3370,15 +3450,15 @@
             "note": "target"
           },
           {
-            "word": "ვწერ",
-            "gloss": "I write",
-            "transliteration": "vts'er"
+            "word": "ანიაა",
+            "gloss": "is Ania",
+            "transliteration": "aniaa"
           }
         ]
       },
       {
-        "target": "სახელი წიგნი ზედ არის.",
-        "text": "The name is on the book.",
+        "target": "სახელი რვეულზე დაწერე.",
+        "text": "Write the name on the notebook.",
         "words": [
           {
             "word": "სახელი",
@@ -3387,30 +3467,25 @@
             "note": "target"
           },
           {
-            "word": "წიგნი",
-            "gloss": "book",
-            "transliteration": "ts'igni"
+            "word": "რვეულზე",
+            "gloss": "on the notebook",
+            "transliteration": "rveulze"
           },
           {
-            "word": "ზედ",
-            "gloss": "on",
-            "transliteration": "zed"
-          },
-          {
-            "word": "არის",
-            "gloss": "there is",
-            "transliteration": "aris"
+            "word": "დაწერე",
+            "gloss": "write",
+            "transliteration": "dats'ere"
           }
         ]
       },
       {
-        "target": "მასწავლებელი სახელი კითხულობს.",
-        "text": "The teacher asks for the name.",
+        "target": "ახალი სახელი ავარჩიე.",
+        "text": "I chose a new name.",
         "words": [
           {
-            "word": "მასწავლებელი",
-            "gloss": "teacher",
-            "transliteration": "masts'avlebeli"
+            "word": "ახალი",
+            "gloss": "new",
+            "transliteration": "akhali"
           },
           {
             "word": "სახელი",
@@ -3419,9 +3494,9 @@
             "note": "target"
           },
           {
-            "word": "კითხულობს",
-            "gloss": "asks",
-            "transliteration": "k'itkhulobs"
+            "word": "ავარჩიე",
+            "gloss": "I chose",
+            "transliteration": "avarchie"
           }
         ]
       }
