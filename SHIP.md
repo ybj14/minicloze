@@ -4,6 +4,12 @@
 **Courses:** `mongolian_a1`, `mongolian_swadesh`  
 **Display order:** **Cyrillic → Traditional bichig → Poppe** (mirrors Tibetan native → zwpy → Wylie)
 
+## PR
+
+- **URL:** https://github.com/ybj14/minicloze/pull/25
+- **Merge SHA:** `15d13909693ad92d163d68026152025faf740ba1` (squash)
+- **Merged at:** 2026-10-02 19:21 CST (UTC+8)
+
 ## Conversion choice
 
 **Source:** top candidate `classical` from `@gege-mn/gege-converter` (same path that builds bichig).  
