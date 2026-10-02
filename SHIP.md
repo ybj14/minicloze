@@ -6,7 +6,9 @@
 
 ## PR
 
-(filled after open)
+- **URL:** https://github.com/ybj14/minicloze/pull/24
+- **Merge SHA:** `17414240d37d7fcfed83c3964c2253dd0ac52c5c` (squash)
+- **Merged at:** 2026-10-02 19:16 CST (UTC+8)
 
 ## What shipped
 
