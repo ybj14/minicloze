@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20260930-3";
+const DATA_VERSION = "static-data-20261002-1";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -11,6 +11,7 @@ const COURSES = [
     corpusPath: dataPath("/data/mongolian_a1.json"),
     vocabularyPath: dataPath("/data/mongolian_a1_vocab.json"),
     explanationsPath: dataPath("/data/mongolian_a1_explanations.json"),
+    tokensPath: dataPath("/data/mongolian_a1_tokens.json"),
   },
   {
     code: "mon-swadesh",
@@ -21,6 +22,7 @@ const COURSES = [
     corpusPath: dataPath("/data/mongolian_swadesh.json"),
     vocabularyPath: dataPath("/data/mongolian_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/mongolian_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/mongolian_swadesh_tokens.json"),
   },
   {
     code: "bod-a1",
@@ -217,7 +219,8 @@ const NON_SPACED_LANGUAGES = new Set([
   "mya",
 ]);
 
-// Courses whose target script is Cyrillic — keep MC options plain (no xlit clutter).
+// Courses whose target script is Cyrillic — suppress Latin xlit under MC options.
+// Mongolian is special-cased in courseShowsOptionTransliteration to show Traditional bichig.
 const CYRILLIC_SCRIPT_LANGUAGES = new Set(["mon", "tgk"]);
 const TIBETAN_BREAKS = new Set(["་", "༌", "།", "༎", "༏", "༐", "༑", "༔"]);
 const TRANSLITERATION_TRIM = new Set([
@@ -970,6 +973,7 @@ function promptTokens(sentence, course, inverse) {
 
 function tokenTransliteration(token) {
   const value =
+    token.bichig ||
     token.zwpy ||
     token.thl ||
     token.paiboon ||
@@ -1048,7 +1052,14 @@ function buildOptionTransliterationMap(tokens) {
 }
 
 function courseShowsOptionTransliteration(course) {
-  return Boolean(course) && !CYRILLIC_SCRIPT_LANGUAGES.has(course.baseLanguage);
+  if (!course) {
+    return false;
+  }
+  // Mongolian: show Traditional Mongolian (bichig) under Cyrillic options.
+  if (course.baseLanguage === "mon") {
+    return Boolean(course.tokensPath);
+  }
+  return !CYRILLIC_SCRIPT_LANGUAGES.has(course.baseLanguage);
 }
 
 function optionTransliterationFor(course, word) {
@@ -1350,9 +1361,14 @@ function renderCard(card) {
   els.translationText.textContent = card.translation;
 
   if (card.transliteration) {
+    els.wylieLine.classList.toggle(
+      "bichig-line",
+      currentRound?.course?.baseLanguage === "mon",
+    );
     renderClozeLine(els.wylieLine, card.transliteration);
     show(els.wylieLine);
   } else {
+    els.wylieLine.classList.remove("bichig-line");
     hide(els.wylieLine);
   }
 
@@ -1446,7 +1462,10 @@ function renderChoices(options) {
       if (reading) {
         button.classList.add("has-transliteration");
         const secondary = document.createElement("span");
-        secondary.className = "choice-transliteration";
+        const isBichig = course?.baseLanguage === "mon";
+        secondary.className = isBichig
+          ? "choice-transliteration choice-bichig"
+          : "choice-transliteration";
         secondary.textContent = reading.primary;
         button.append(secondary);
         if (reading.wylie) {
@@ -1488,6 +1507,13 @@ function renderWordExplanations(explanations) {
   for (const explanation of explanations) {
     const term = document.createElement("dt");
     term.append(document.createTextNode(explanation.word));
+    if (explanation.bichig) {
+      const bichigElement = document.createElement("span");
+      bichigElement.className =
+        "word-explanations-transliteration word-explanations-bichig";
+      bichigElement.textContent = explanation.bichig;
+      term.append(bichigElement);
+    }
     for (const transliteration of explanationTransliterations(explanation)) {
       const transliterationElement = document.createElement("span");
       transliterationElement.className = "word-explanations-transliteration";

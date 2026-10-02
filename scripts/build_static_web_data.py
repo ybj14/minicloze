@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import json
 import shutil
+import subprocess
+import sys
 from pathlib import Path
 
 try:
@@ -66,6 +68,7 @@ KHMER_COURSES = ["khmer_a1", "khmer_swadesh"]
 AMHARIC_COURSES = ["amharic_a1", "amharic_swadesh"]
 ARMENIAN_COURSES = ["armenian_a1", "armenian_swadesh"]
 GEORGIAN_COURSES = ["georgian_a1", "georgian_swadesh"]
+MONGOLIAN_COURSES = ["mongolian_a1", "mongolian_swadesh"]
 
 
 def tokenize_syllables(text: str) -> list[str]:
@@ -481,6 +484,30 @@ def refresh_amharic_only() -> None:
         )
 
 
+
+def run_mongolian_bichig(courses: list[str] | None = None) -> None:
+    """Shell out to Node @gege-mn/gege-converter for Traditional Mongolian fields.
+
+    Enriches explanations with `bichig`, writes mongolian_*_tokens.json to
+    static/data and corpora, and writes a QA log under scripts/data/.
+    """
+    script = ROOT / "scripts" / "mongolian_bichig.mjs"
+    cmd = ["node", str(script)]
+    for course in courses or MONGOLIAN_COURSES:
+        cmd.extend(["--course", course])
+    subprocess.run(cmd, check=True, cwd=ROOT)
+
+
+def refresh_mongolian_only() -> None:
+    """Copy Mongolian corpora to static data, convert bichig, rebuild tokens, sync corpora."""
+    STATIC_DATA.mkdir(parents=True, exist_ok=True)
+    for course in MONGOLIAN_COURSES:
+        for suffix in ("", "_explanations", "_vocab"):
+            filename = f"{course}{suffix}.json"
+            shutil.copyfile(CORPORA / filename, STATIC_DATA / filename)
+    run_mongolian_bichig(MONGOLIAN_COURSES)
+
+
 def main() -> None:
     copy_base_data()
     for course in TIBETAN_COURSES:
@@ -513,5 +540,7 @@ if __name__ == "__main__":
         refresh_khmer_only()
     elif "--amharic-only" in sys.argv:
         refresh_amharic_only()
+    elif "--mongolian-only" in sys.argv:
+        refresh_mongolian_only()
     else:
         main()

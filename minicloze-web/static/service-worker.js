@@ -1,13 +1,14 @@
-const CACHE_NAME = "minicloze-static-pwa-v39";
+const CACHE_NAME = "minicloze-static-pwa-v40";
 const APP_SHELL = [
   "/",
   "/index.html",
-  "/app.css?v=static-pwa-20260930-03",
-  "/app.js?v=static-pwa-20260930-03",
+  "/app.css?v=static-pwa-20261002-01",
+  "/app.js?v=static-pwa-20261002-01",
   "/manifest.webmanifest",
   "/icons/icon.svg",
   "/icons/icon-192.png",
   "/icons/icon-512.png",
+  "/fonts/noto-sans-mongolian-400.woff2",
 ];
 
 self.addEventListener("install", (event) => {

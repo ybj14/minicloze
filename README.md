@@ -69,6 +69,9 @@ editing `minicloze-lib/corpora`, run:
 
 ```bash
 ./.venv-tibetan/bin/python scripts/build_static_web_data.py
+
+# Mongolian Traditional (Hudum) only (needs npm install):
+python3 scripts/build_static_web_data.py --mongolian-only
 ```
 
 Vercel can deploy the static app from this workspace using `vercel.json`; it has

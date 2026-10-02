@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: "Noto Sans Mongolian";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/noto-sans-mongolian-400.woff2") format("woff2");
+  unicode-range: U+1800-18AF, U+11660-1167F, U+202F, U+180E;
+}
+
 :root,
 [data-theme="light"] {
   color-scheme: light;
@@ -488,6 +498,36 @@ h2 {
   line-height: 1.35;
 }
 
+/* Traditional Mongolian (Hudum) — horizontal LTR secondary line (not vertical-lr). */
+.bichig-line,
+.choice-bichig,
+.word-explanations-bichig {
+  font-family: "Noto Sans Mongolian", "Mongolian Baiti", "Noto Sans", sans-serif;
+  direction: ltr;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+}
+
+.bichig-line {
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.02em;
+}
+
+.choice-bichig {
+  font-size: 0.84rem;
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+.word-explanations-bichig {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+
 .translation-row {
   display: grid;
   gap: 5px;
@@ -868,4 +908,10 @@ h2 {
     bottom: 18px;
     width: min(420px, calc(100vw - 36px));
   }
+}
+
+.script-samples .bichig-sample {
+  font-family: "Noto Sans Mongolian", "Mongolian Baiti", sans-serif;
+  writing-mode: horizontal-tb;
+  direction: ltr;
 }
