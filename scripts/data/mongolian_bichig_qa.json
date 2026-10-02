@@ -1,0 +1,690 @@
+{
+  "converter": "@gege-mn/gege-converter",
+  "courses": [
+    {
+      "course": "mongolian_a1",
+      "sentences": 1500,
+      "words": 6580,
+      "withBichig": 6580,
+      "guessSurfaceUses": 201,
+      "uniqueGuesses": 89
+    },
+    {
+      "course": "mongolian_swadesh",
+      "sentences": 621,
+      "words": 2695,
+      "withBichig": 2695,
+      "guessSurfaceUses": 82,
+      "uniqueGuesses": 22
+    }
+  ],
+  "uniqueSurfaces": 1835,
+  "guessTierUnique": [
+    {
+      "course": "mongolian_a1",
+      "word": "аваарай",
+      "bichig": "ᠠᠪᠠᠷᠠᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "аваачив",
+      "bichig": "ᠠᠪᠠᠴᠢᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "авбал",
+      "bichig": "ᠠᠪᠪᠠᠯ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "авмаар",
+      "bichig": "ᠠᠪᠮ᠎ᠢᠶᠠᠷ",
+      "confidence": 0.35
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амардаг",
+      "bichig": "ᠠᠮᠠᠷᠳᠠᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амарлаа",
+      "bichig": "ᠠᠮᠠᠷᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амарна",
+      "bichig": "ᠠᠮᠠᠷᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амарсан",
+      "bichig": "ᠠᠮᠠᠷᠰᠠᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амраадаг",
+      "bichig": "ᠠᠮᠷᠠᠳᠠᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амьдардаг",
+      "bichig": "ᠠᠮᠢᠳᠠᠷᠳᠠᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амьдарна",
+      "bichig": "ᠠᠮᠢᠳᠠᠷᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "амьдарч",
+      "bichig": "ᠠᠮᠢᠳᠠᠷᠴᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "асаалаа",
+      "bichig": "ᠠᠰᠠᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "байшинг",
+      "bichig": "ᠪᠠᠢᠱᠢᠩᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "барьдаг",
+      "bichig": "ᠪᠠᠷᠢᠳᠠᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "битүүрсэн",
+      "bichig": "ᠪᠢᠲᠦᠷᠰᠡᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "гаталж",
+      "bichig": "ᠭᠠᠲᠠᠯᠵᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "Гүйсний",
+      "bichig": "ᠭᠦᠢᠰ᠎ᠦᠨ",
+      "confidence": 0.35
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "Гэмтсэн",
+      "bichig": "ᠭᠡᠮᠲᠰᠡᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "дуугарч",
+      "bichig": "ᠳᠤᠭᠠᠷᠴᠢ",
+      "confidence": 0.5172413793103449
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "завиар",
+      "bichig": "ᠵᠠᠪᠢ᠎ᠪᠠᠷ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "засуулав",
+      "bichig": "ᠵᠠᠰᠤᠯᠠᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "зур",
+      "bichig": "ᠵᠤᠷ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "зуржээ",
+      "bichig": "ᠵᠤᠷᠵᠡ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "зүүв",
+      "bichig": "ᠵᠦᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "илааршсан",
+      "bichig": "ᠢᠯᠠᠷᠱᠰᠠᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "инээлгэв",
+      "bichig": "ᠢᠨᠡᠯᠭᠡᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "ирээрэй",
+      "bichig": "ᠢᠷᠡᠷᠡᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "манай",
+      "bichig": "ᠮᠠᠨᠠᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "Манай",
+      "bichig": "ᠮᠠᠨᠠᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "мэдрэгдэв",
+      "bichig": "ᠮᠡᠳᠷᠡᠭᠳᠡᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "мэдэрлээ",
+      "bichig": "ᠮᠡᠳᠡᠷᠯ᠎ᠢᠶᠡᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "мэндэлнэ",
+      "bichig": "ᠮᠡᠨᠳᠡᠯᠨᠡ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "найзтайгаа",
+      "bichig": "ᠨᠠᠢᠵᠲᠠᠢ᠎ᠪᠠᠨ",
+      "confidence": 0.21943573667711597
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "Найзтайгаа",
+      "bichig": "ᠨᠠᠢᠵᠲᠠᠢ᠎ᠪᠠᠨ",
+      "confidence": 0.21943573667711597
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "нисэж",
+      "bichig": "ᠨᠢᠰᠡᠵᠢ",
+      "confidence": 0.72
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "нэмээрэй",
+      "bichig": "ᠨᠡᠮᠡᠷᠡᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "нээгээд",
+      "bichig": "ᠨᠡᠭᠡ᠎ᠳᠦ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "олдлоо",
+      "bichig": "ᠣᠯᠳᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "орвол",
+      "bichig": "ᠣᠷᠪᠤᠯ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "оржээ",
+      "bichig": "ᠣᠷᠵᠡ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "орө",
+      "bichig": "ᠣᠷᠦ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өвдвөл",
+      "bichig": "ᠥᠪᠳᠪᠦᠯ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өвдөж",
+      "bichig": "ᠥᠪᠳᠦᠵᠢ",
+      "confidence": 0.72
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өвтгөнө",
+      "bichig": "ᠥᠪᠲᠭᠦᠨᠦ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өвтгөсөн",
+      "bichig": "ᠥᠪᠲᠭᠦᠰᠦᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өлсөж",
+      "bichig": "ᠥᠯᠰᠦᠵᠢ",
+      "confidence": 0.72
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өнгөрөөлөө",
+      "bichig": "ᠥᠩᠭᠦᠷᠦᠯ᠎ᠢᠶᠡᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "өнгөртөл",
+      "bichig": "ᠥᠩᠭᠦᠷᠲᠦᠯ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "порттой",
+      "bichig": "ᠫᠣᠷᠲᠲᠤᠢ",
+      "confidence": 0.5214368482039398
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "салхинд",
+      "bichig": "ᠰᠠᠯᠬᠢᠨ᠎ᠳᠤ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "санагдав",
+      "bichig": "ᠰᠠᠨᠠᠭᠳᠠᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "сонсогдов",
+      "bichig": "ᠰᠣᠨᠰᠤᠭᠳᠤᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "сонсогдож",
+      "bichig": "ᠰᠣᠨᠰᠤᠭᠳᠤᠵᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "сонсогдоно",
+      "bichig": "ᠰᠣᠨᠰᠤᠭᠳᠤᠨᠤ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "сонсож",
+      "bichig": "ᠰᠣᠨᠰᠤᠵᠢ",
+      "confidence": 0.9
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "сонсооч",
+      "bichig": "ᠰᠣᠨᠰᠤᠴᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "сэрүүцүүлэв",
+      "bichig": "ᠰᠡᠷᠦᠴᠦᠯᠡᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "тавганд",
+      "bichig": "ᠲᠠᠪᠭᠠᠨ᠎ᠳᠤ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "Тамирчид",
+      "bichig": "ᠲᠠᠮᠢᠷᠴᠢ᠎ᠳᠤ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "тасарлаа",
+      "bichig": "ᠲᠠᠰᠠᠷᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "тийш",
+      "bichig": "ᠲᠢᠢᠰᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "толбыг",
+      "bichig": "ᠲᠣᠯᠪ᠎ᠢ",
+      "confidence": 0.35
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "тусална",
+      "bichig": "ᠲᠤᠰᠠᠯᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "түлдэг",
+      "bichig": "ᠲᠦᠯᠳᠡᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "түүв",
+      "bichig": "ᠲᠦᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "тэвэрлээ",
+      "bichig": "ᠲᠡᠪᠡᠷᠯ᠎ᠢᠶᠡᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "Унасны",
+      "bichig": "ᠤᠨᠠᠰ᠎ᠤᠨ",
+      "confidence": 0.35
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "уншаад",
+      "bichig": "ᠤᠨᠱᠠ᠎ᠳᠤ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "Урагдсан",
+      "bichig": "ᠤᠷᠠᠭᠳᠰᠠᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "ургадаг",
+      "bichig": "ᠤᠷᠭᠠᠳᠠᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "ургажээ",
+      "bichig": "ᠤᠷᠭᠠᠵᠡ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "ургана",
+      "bichig": "ᠤᠷᠭᠠᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "урсаж",
+      "bichig": "ᠤᠷᠰᠠᠵᠢ",
+      "confidence": 0.9
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "усаллаа",
+      "bichig": "ᠤᠰᠠᠯᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "уулзъя",
+      "bichig": "ᠤᠯᠵᠶᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "үндес",
+      "bichig": "ᠦᠨᠳᠡᠰ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "үргэлжилнэ",
+      "bichig": "ᠦᠷᠭᠡᠯᠵᠢᠯᠨᠡ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хаагаарай",
+      "bichig": "ᠬᠠᠭᠠᠷᠠᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "Хазуулсан",
+      "bichig": "ᠬᠠᠵᠤᠯᠰᠠᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "ханын",
+      "bichig": "ᠬᠠᠨᠢᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "харив",
+      "bichig": "ᠬᠠᠷᠢᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "харина",
+      "bichig": "ᠬᠠᠷᠢᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хашхирав",
+      "bichig": "ᠬᠠᠱᠬᠢᠷᠠᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хийгдсэн",
+      "bichig": "ᠬᠢᠢᠭᠳᠰᠡᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хоцордог",
+      "bichig": "ᠬᠣᠴᠤᠷᠳᠤᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хоцорлоо",
+      "bichig": "ᠬᠣᠴᠤᠷᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "хөдөлдөг",
+      "bichig": "ᠬᠥᠳᠦᠯᠳᠦᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "хөдөлнө",
+      "bichig": "ᠬᠥᠳᠦᠯᠨᠦ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хувцаслан",
+      "bichig": "ᠬᠤᠪᠴᠠᠰᠯᠠᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хүлээгээрэй",
+      "bichig": "ᠬᠦᠯᠡᠭᠡᠷᠡᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "хэлсэндээ",
+      "bichig": "ᠬᠡᠯᠰᠡᠨᠳ᠎ᠢᠶᠡᠨ",
+      "confidence": 0.3910614525139665
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "цаана",
+      "bichig": "ᠴᠠᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "цайнд",
+      "bichig": "ᠴᠠᠢᠨ᠎ᠳᠤ",
+      "confidence": 0.3910614525139665
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "Цайнд",
+      "bichig": "ᠴᠠᠢᠨ᠎ᠳᠤ",
+      "confidence": 0.3910614525139665
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "цахилаа",
+      "bichig": "ᠴᠠᠬᠢᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "чанав",
+      "bichig": "ᠴᠠᠨᠠᠪ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "чанаж",
+      "bichig": "ᠴᠠᠨᠠᠵᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "чангална",
+      "bichig": "ᠴᠠᠩᠭᠠᠯᠨᠠ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "чинийхтэй",
+      "bichig": "ᠴᠢᠨᠢᠢᠬᠲᠡᠢ",
+      "confidence": 0.6507592190889372
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "чулуулгийн",
+      "bichig": "ᠴᠤᠯᠤᠯᠭ᠎ᠤᠨ",
+      "confidence": 0.35
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "шоу",
+      "bichig": "ᠱᠣᠤ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "эмэгтэйтэй",
+      "bichig": "ᠡᠮᠡᠭᠲᠡᠢᠲᠡᠢ",
+      "confidence": 0.45054064877853417
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "эхэлдэг",
+      "bichig": "ᠡᠬᠡᠯᠳᠡᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "эхэллээ",
+      "bichig": "ᠡᠬᠡᠯᠯ᠎ᠢᠶᠡᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "эхэлнэ",
+      "bichig": "ᠡᠬᠡᠯᠨᠡ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_swadesh",
+      "word": "ядарлаа",
+      "bichig": "ᠶᠠᠳᠠᠷᠯ᠎ᠢᠶᠠᠨ",
+      "confidence": 0.5384615384615384
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "яриарай",
+      "bichig": "ᠶᠠᠷᠢᠠᠷᠠᠢ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "ярьдаг",
+      "bichig": "ᠶᠠᠷᠢᠳᠠᠭ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "ярьсан",
+      "bichig": "ᠶᠠᠷᠢᠰᠠᠨ",
+      "confidence": 1
+    },
+    {
+      "course": "mongolian_a1",
+      "word": "ярья",
+      "bichig": "ᠶᠠᠷᠢᠶᠠ",
+      "confidence": 1
+    }
+  ]
+}
