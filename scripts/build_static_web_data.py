@@ -488,7 +488,7 @@ def refresh_amharic_only() -> None:
 def run_mongolian_bichig(courses: list[str] | None = None) -> None:
     """Shell out to Node @gege-mn/gege-converter for Traditional Mongolian fields.
 
-    Enriches explanations with `bichig`, writes mongolian_*_tokens.json to
+    Enriches explanations with `bichig` + `poppe`, writes mongolian_*_tokens.json to
     static/data and corpora, and writes a QA log under scripts/data/.
     """
     script = ROOT / "scripts" / "mongolian_bichig.mjs"

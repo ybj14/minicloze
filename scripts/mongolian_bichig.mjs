@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 /**
- * Build-time Cyrillic → Traditional Mongolian (Hudum / Mongol bichig) converter.
+ * Build-time Cyrillic → Traditional Mongolian (Hudum / Mongol bichig) + Poppe
+ * (Classical / scholarly Latin, 鲍培转写) converter.
  *
- * Uses @gege-mn/gege-converter. Enrich explanations with `bichig`, emit
- * mongolian_*_tokens.json, and log guess-tier lemmas for QA.
+ * Uses @gege-mn/gege-converter. Prefer the top candidate's `classical` field
+ * (lexicon/harvested Classical romanization ≈ Poppe/VPMC scholarly Latin:
+ * č š ǰ γ ö ü q/k). Fallback: fromScript(bichig) via @gege-mn/mongol-bichig.
+ *
+ * Display order (UI): Cyrillic → bichig → poppe (mirrors Tibetan native → zwpy → Wylie).
  *
  * Usage:
  *   node scripts/mongolian_bichig.mjs [--course mongolian_a1] [--log PATH]
@@ -17,6 +21,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { analyze, convert } from "@gege-mn/gege-converter";
+import { fromScript, harmonyOf } from "@gege-mn/mongol-bichig";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -46,8 +51,24 @@ function parseArgs(argv) {
 }
 
 /**
+ * Join Classical romanization segments from analyze() parts.
+ * Skip empty/whitespace-only parts; separate with a single space.
+ */
+function classicalFromParts(parts) {
+  const segments = [];
+  for (const part of parts) {
+    const top = part.candidates?.[0];
+    const classical = String(top?.classical || "").trim();
+    if (classical) {
+      segments.push(classical);
+    }
+  }
+  return segments.join(" ");
+}
+
+/**
  * Top-1 conversion for a single surface form.
- * Returns { bichig, provenance, confidence } or null if empty/punct.
+ * Returns { bichig, poppe, provenance, confidence } or null if empty/punct.
  */
 function convertWord(raw) {
   const text = String(raw || "").trim();
@@ -57,8 +78,9 @@ function convertWord(raw) {
 
   let provenance = "unknown";
   let confidence = null;
+  let parts = [];
   try {
-    const parts = analyze(text);
+    parts = analyze(text);
     // Prefer worst provenance across tokens (guess < toli < harvested < lexicon).
     const rank = { guess: 0, toli: 1, harvested: 2, lexicon: 3, unknown: -1 };
     let worst = "lexicon";
@@ -80,6 +102,7 @@ function convertWord(raw) {
     confidence = confN ? confSum / confN : null;
   } catch {
     provenance = "error";
+    parts = [];
   }
 
   let bichig = "";
@@ -90,11 +113,26 @@ function convertWord(raw) {
     provenance = "error";
   }
 
-  if (!bichig.trim()) {
+  let poppe = classicalFromParts(parts);
+  if (!poppe && bichig.trim()) {
+    try {
+      const harmony = harmonyOf(bichig) || undefined;
+      poppe = fromScript(bichig, harmony) || "";
+    } catch {
+      poppe = "";
+    }
+  }
+
+  if (!bichig.trim() && !poppe.trim()) {
     return null;
   }
 
-  return { bichig, provenance, confidence };
+  return {
+    bichig: bichig.trim() || null,
+    poppe: poppe.trim() || null,
+    provenance,
+    confidence,
+  };
 }
 
 function loadJson(filePath) {
@@ -119,6 +157,7 @@ function processCourse(course, cache, guessLog) {
   const tokenized = {};
   let wordCount = 0;
   let withBichig = 0;
+  let withPoppe = 0;
   let guessCount = 0;
 
   for (const sentence of explanations.data || []) {
@@ -139,6 +178,7 @@ function processCourse(course, cache, guessLog) {
             course,
             word: surface,
             bichig: cached.bichig,
+            poppe: cached.poppe,
             confidence: cached.confidence,
           });
         }
@@ -154,6 +194,13 @@ function processCourse(course, cache, guessLog) {
         delete word.bichig;
       }
 
+      if (cached?.poppe) {
+        word.poppe = cached.poppe;
+        withPoppe += 1;
+      } else {
+        delete word.poppe;
+      }
+
       let text = surface;
       if (index + 1 < words.length) {
         text = `${text} `;
@@ -161,6 +208,9 @@ function processCourse(course, cache, guessLog) {
       const token = { text };
       if (cached?.bichig) {
         token.bichig = cached.bichig;
+      }
+      if (cached?.poppe) {
+        token.poppe = cached.poppe;
       }
       tokens.push(token);
     }
@@ -182,6 +232,7 @@ function processCourse(course, cache, guessLog) {
     sentences: (explanations.data || []).length,
     words: wordCount,
     withBichig,
+    withPoppe,
     guessSurfaceUses: guessCount,
     uniqueGuesses: guessLog.filter((g) => g.course === course).length,
   };
@@ -210,6 +261,8 @@ function main() {
 
   const report = {
     converter: "@gege-mn/gege-converter",
+    poppeSource:
+      "candidate.classical (Poppe/VPMC scholarly Classical romanization); fallback fromScript(bichig)",
     courses: summaries,
     uniqueSurfaces: cache.size,
     guessTierUnique: [...uniqueGuesses.values()].sort((a, b) =>
@@ -222,10 +275,10 @@ function main() {
   fs.mkdirSync(path.dirname(outLog), { recursive: true });
   writeJsonPretty(outLog, report);
 
-  console.log("Mongolian bichig build complete:");
+  console.log("Mongolian bichig + Poppe build complete:");
   for (const s of summaries) {
     console.log(
-      `  ${s.course}: ${s.withBichig}/${s.words} words with bichig; guess uses=${s.guessSurfaceUses}; unique guesses=${s.uniqueGuesses}`,
+      `  ${s.course}: bichig ${s.withBichig}/${s.words}; poppe ${s.withPoppe}/${s.words}; guess uses=${s.guessSurfaceUses}; unique guesses=${s.uniqueGuesses}`,
     );
   }
   console.log(`  unique surfaces cached: ${cache.size}`);
@@ -244,11 +297,14 @@ function main() {
     "од",
     "нар",
     "тэнгэр",
+    "монгол",
   ];
-  console.log("  samples:");
+  console.log("  samples (Cyrillic → bichig → poppe):");
   for (const w of samples) {
     const c = cache.get(w) || convertWord(w);
-    console.log(`    ${w} → ${c?.bichig || "(none)"} [${c?.provenance || "?"}]`);
+    console.log(
+      `    ${w} → ${c?.bichig || "(none)"} → ${c?.poppe || "(none)"} [${c?.provenance || "?"}]`,
+    );
   }
 }
 

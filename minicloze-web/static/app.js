@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20261002-1";
+const DATA_VERSION = "static-data-20261002-2";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -220,7 +220,7 @@ const NON_SPACED_LANGUAGES = new Set([
 ]);
 
 // Courses whose target script is Cyrillic — suppress Latin xlit under MC options.
-// Mongolian is special-cased in courseShowsOptionTransliteration to show Traditional bichig.
+// Mongolian is special-cased in courseShowsOptionTransliteration to show Traditional bichig (+ Poppe).
 const CYRILLIC_SCRIPT_LANGUAGES = new Set(["mon", "tgk"]);
 const TIBETAN_BREAKS = new Set(["་", "༌", "།", "༎", "༏", "༐", "༑", "༔"]);
 const TRANSLITERATION_TRIM = new Set([
@@ -986,8 +986,19 @@ function tokenTransliteration(token) {
   return value.trim() ? value : null;
 }
 
-/** Orthographic Wylie under zwpy/THL — omit when Wylie is already the primary line. */
+/**
+ * Third reading line under the secondary transliteration:
+ * - Tibetan: orthographic Wylie under zwpy/THL
+ * - Mongolian: Poppe (Classical) romanization under bichig
+ * Omit when the third form is already the primary secondary line.
+ */
 function tokenSecondaryWylie(token) {
+  // Mongolian: Poppe under Traditional bichig (Cyrillic → bichig → poppe).
+  const poppe = String(token.poppe || "").trim();
+  if (poppe && token.bichig) {
+    return poppe;
+  }
+
   const raw = String(token.wylie || "").trim();
   if (!raw) {
     return null;
@@ -1055,7 +1066,7 @@ function courseShowsOptionTransliteration(course) {
   if (!course) {
     return false;
   }
-  // Mongolian: show Traditional Mongolian (bichig) under Cyrillic options.
+  // Mongolian: show Traditional Mongolian (bichig) + Poppe under Cyrillic options.
   if (course.baseLanguage === "mon") {
     return Boolean(course.tokensPath);
   }
@@ -1373,9 +1384,14 @@ function renderCard(card) {
   }
 
   if (card.wylieOrthography && els.wylieOrthographyLine) {
+    els.wylieOrthographyLine.classList.toggle(
+      "poppe-line",
+      currentRound?.course?.baseLanguage === "mon",
+    );
     renderClozeLine(els.wylieOrthographyLine, card.wylieOrthography);
     show(els.wylieOrthographyLine);
   } else if (els.wylieOrthographyLine) {
+    els.wylieOrthographyLine.classList.remove("poppe-line");
     hide(els.wylieOrthographyLine);
   }
 
@@ -1470,7 +1486,7 @@ function renderChoices(options) {
         button.append(secondary);
         if (reading.wylie) {
           const wylie = document.createElement("span");
-          wylie.className = "choice-wylie";
+          wylie.className = isBichig ? "choice-wylie choice-poppe" : "choice-wylie";
           wylie.textContent = reading.wylie;
           button.append(wylie);
         }
@@ -1513,6 +1529,13 @@ function renderWordExplanations(explanations) {
         "word-explanations-transliteration word-explanations-bichig";
       bichigElement.textContent = explanation.bichig;
       term.append(bichigElement);
+    }
+    if (explanation.poppe) {
+      const poppeElement = document.createElement("span");
+      poppeElement.className =
+        "word-explanations-transliteration word-explanations-poppe";
+      poppeElement.textContent = explanation.poppe;
+      term.append(poppeElement);
     }
     for (const transliteration of explanationTransliterations(explanation)) {
       const transliterationElement = document.createElement("span");

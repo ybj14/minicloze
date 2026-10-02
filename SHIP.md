@@ -1,51 +1,48 @@
-# Ship: Traditional Mongolian (Hudum / bichig) dual display
+# Ship: Poppe romanization (鲍培转写) third line for Mongolian
 
-**Branch:** `feat/mongolian-traditional-bichig`  
+**Branch:** `feat/mongolian-poppe-romanization`  
 **Courses:** `mongolian_a1`, `mongolian_swadesh`  
-**Display:** Cyrillic primary + Traditional secondary, **horizontal LTR** (not `vertical-lr`)
+**Display order:** **Cyrillic → Traditional bichig → Poppe** (mirrors Tibetan native → zwpy → Wylie)
 
-## PR
+## Conversion choice
 
-- **URL:** https://github.com/ybj14/minicloze/pull/24
-- **Merge SHA:** `17414240d37d7fcfed83c3964c2253dd0ac52c5c` (squash)
-- **Merged at:** 2026-10-02 19:16 CST (UTC+8)
+**Source:** top candidate `classical` from `@gege-mn/gege-converter` (same path that builds bichig).  
+This Classical romanization is the scholarly / VPMC-style Latin used in Mongolian studies and matches **Poppe** (鲍培转写) conventions: `č š ǰ γ ö ü`, harmony-conditioned `q`/`k` and `γ`/`g`.
+
+**Why Classical from the converter (not a fresh Cyrillic→Latin table):**
+
+1. Deterministic at build time and already aligned with the bichig top-1 candidate.
+2. More accurate than letter-by-letter Cyrillic mapping (Written Mongolian restores unstable -n, classical stems like `tngri` / `naran` / `odu`).
+3. Fallback if `classical` is missing: `fromScript(bichig)` via `@gege-mn/mongol-bichig`.
+
+**Field name:** `poppe` on tokens and explanation words.
+
+Poppe is display-only (not in `tokenAnswerTransliterations`); cloze keys stay Cyrillic.
 
 ## What shipped
 
-1. **Build:** `scripts/mongolian_bichig.mjs` + `@gege-mn/gege-converter` (npm). Wired via `scripts/build_static_web_data.py` (`--mongolian-only` or full build).
-2. **Data:** `mongolian_{a1,swadesh}_tokens.json` in `minicloze-lib/corpora/` and `minicloze-web/static/data/`; explanations enriched with `bichig`.
-3. **UI:** `tokensPath` on mon courses; prompt secondary line (`#wylieLine` + `.bichig-line`); MC `.choice-bichig`; explanation `.word-explanations-bichig`.
-4. **Font:** self-hosted `static/fonts/noto-sans-mongolian-400.woff2` (Noto Sans Mongolian).
-5. **Cache:** `DATA_VERSION=static-data-20261002-1`, SW `minicloze-static-pwa-v40`, asset `?v=static-pwa-20261002-01`.
+1. **Build:** `scripts/mongolian_bichig.mjs` now emits `bichig` + `poppe`.
+2. **Data:** regenerated `mongolian_{a1,swadesh}_{tokens,explanations}.json` (static + corpora).
+3. **UI:** third line via existing `#wylieOrthographyLine` / MC tertiary / explanation span; CSS `.poppe-line`, `.choice-poppe`, `.word-explanations-poppe`.
+4. **Cache:** `DATA_VERSION=static-data-20261002-2`, SW `minicloze-static-pwa-v41`, asset `?v=static-pwa-20261002-02`.
 
-Cyrillic remains the cloze answer key and typed Latin normalize path (`CYRILLIC_LATIN`). Traditional is display-only (not in `tokenAnswerTransliterations`).
+## Examples (Cyrillic / bichig / Poppe)
 
-## Before / after examples
-
-| Course | Cyrillic (primary) | Traditional (bichig) | Provenance |
+| Course | Cyrillic | Traditional (bichig) | Poppe |
 |---|---|---|---|
-| A1 | Хүү сансар руу харав. | ᠬᠦᠦ ᠰᠠᠨᠰᠠᠷ ᠤᠷᠤᠭᠤ ᠬᠠᠷᠠᠪᠠ | lexicon / harvested |
-| Swadesh | Өглөө би цай уудаг. | ᠥᠷᠯᠦᠭᠡ ᠪᠢ ᠴᠠᠢ ᠤᠭᠤᠳᠠᠭ | lexicon / harvested |
-| Vocab | од / нар / тэнгэр | ᠣᠳᠤ / ᠨᠠᠷᠠᠨ / ᠲᠩᠷᠢ | lexicon |
+| A1 | Хүү | ᠬᠦᠦ | qüü |
+| A1 | сансар | ᠰᠠᠨᠰᠠᠷ | sansar |
+| A1 | харав | ᠬᠠᠷᠠᠪᠠ | qaraba |
+| Swadesh | Өглөө | ᠥᠷᠯᠦᠭᠡ | örlüge |
+| Swadesh | цай | ᠴᠠᠢ | čai |
+| Swadesh | уудаг | ᠤᠭᠤᠳᠠᠭ | uγudaγ |
+| Vocab | од / нар / тэнгэр | ᠣᠳᠤ / ᠨᠠᠷᠠᠨ / ᠲᠩᠷᠢ | odu / naran / tngri |
 
-## Converter coverage / gaps
-
-QA log: `scripts/data/mongolian_bichig_qa.json`
-
-| Set | Notes |
-|---|---|
-| A1 explanation surfaces | 6580/6580 with bichig; **89** unique guess-tier lemmas (201 surface uses) |
-| Swadesh | 2695/2695; **22** unique guesses (82 uses) |
-| Combined unique guesses | **111** |
-
-Guess-tier stems are mostly inflected verbs / productive morphology (e.g. `аваарай`, `амардаг`, `амьдарч`, `гаталж`). Converter is a candidate generator (~74% top-1 on held-out running text per upstream). Display still shows top-1; cloze scoring never uses bichig.
-
-**Known limitations:** no curated override map yet; Todo/Clear script out of scope; vertical Traditional layout intentionally not used (user confirmed LTR horizontal).
+Coverage: A1 6580/6580 poppe; Swadesh 2695/2695 poppe (same surfaces as bichig).
 
 ## Rebuild
 
 ```bash
 npm install
 python3 scripts/build_static_web_data.py --mongolian-only
-# or full: ./.venv-tibetan/bin/python scripts/build_static_web_data.py
 ```

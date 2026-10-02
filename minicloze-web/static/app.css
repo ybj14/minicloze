@@ -527,6 +527,34 @@ h2 {
   line-height: 1.4;
 }
 
+/* Poppe / Classical scholarly romanization (鲍培转写) — third line under bichig. */
+.poppe-line,
+.choice-poppe,
+.word-explanations-poppe {
+  font-family: "IBM Plex Sans", "Noto Sans", system-ui, sans-serif;
+  font-style: italic;
+}
+
+.poppe-line {
+  font-size: 0.92rem;
+  font-weight: 550;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+.choice-poppe {
+  font-size: 0.68rem;
+  font-weight: 500;
+  line-height: 1.12;
+  opacity: 0.9;
+}
+
+.word-explanations-poppe {
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
 
 .translation-row {
   display: grid;

@@ -1,11 +1,13 @@
 {
   "converter": "@gege-mn/gege-converter",
+  "poppeSource": "candidate.classical (Poppe/VPMC scholarly Classical romanization); fallback fromScript(bichig)",
   "courses": [
     {
       "course": "mongolian_a1",
       "sentences": 1500,
       "words": 6580,
       "withBichig": 6580,
+      "withPoppe": 6580,
       "guessSurfaceUses": 201,
       "uniqueGuesses": 89
     },
@@ -14,6 +16,7 @@
       "sentences": 621,
       "words": 2695,
       "withBichig": 2695,
+      "withPoppe": 2695,
       "guessSurfaceUses": 82,
       "uniqueGuesses": 22
     }
@@ -24,666 +27,777 @@
       "course": "mongolian_a1",
       "word": "аваарай",
       "bichig": "ᠠᠪᠠᠷᠠᠢ",
+      "poppe": "abarai",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "аваачив",
       "bichig": "ᠠᠪᠠᠴᠢᠪ",
+      "poppe": "abačib",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "авбал",
       "bichig": "ᠠᠪᠪᠠᠯ",
+      "poppe": "abbal",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "авмаар",
       "bichig": "ᠠᠪᠮ᠎ᠢᠶᠠᠷ",
+      "poppe": "abm-iyar",
       "confidence": 0.35
     },
     {
       "course": "mongolian_a1",
       "word": "амардаг",
       "bichig": "ᠠᠮᠠᠷᠳᠠᠭ",
+      "poppe": "amardaγ",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "амарлаа",
       "bichig": "ᠠᠮᠠᠷᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "amarl-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "амарна",
       "bichig": "ᠠᠮᠠᠷᠨᠠ",
+      "poppe": "amarna",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "амарсан",
       "bichig": "ᠠᠮᠠᠷᠰᠠᠨ",
+      "poppe": "amarsan",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "амраадаг",
       "bichig": "ᠠᠮᠷᠠᠳᠠᠭ",
+      "poppe": "amradaγ",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "амьдардаг",
       "bichig": "ᠠᠮᠢᠳᠠᠷᠳᠠᠭ",
+      "poppe": "amidardaγ",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "амьдарна",
       "bichig": "ᠠᠮᠢᠳᠠᠷᠨᠠ",
+      "poppe": "amidarna",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "амьдарч",
       "bichig": "ᠠᠮᠢᠳᠠᠷᠴᠢ",
+      "poppe": "amidarči",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "асаалаа",
       "bichig": "ᠠᠰᠠᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "asal-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_swadesh",
       "word": "байшинг",
       "bichig": "ᠪᠠᠢᠱᠢᠩᠭ",
+      "poppe": "baišingγ",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "барьдаг",
       "bichig": "ᠪᠠᠷᠢᠳᠠᠭ",
+      "poppe": "baridaγ",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "битүүрсэн",
       "bichig": "ᠪᠢᠲᠦᠷᠰᠡᠨ",
+      "poppe": "bitürsen",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "гаталж",
       "bichig": "ᠭᠠᠲᠠᠯᠵᠢ",
+      "poppe": "γatalǰi",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "Гүйсний",
       "bichig": "ᠭᠦᠢᠰ᠎ᠦᠨ",
+      "poppe": "güis-ün",
       "confidence": 0.35
     },
     {
       "course": "mongolian_swadesh",
       "word": "Гэмтсэн",
       "bichig": "ᠭᠡᠮᠲᠰᠡᠨ",
+      "poppe": "gemtsen",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "дуугарч",
       "bichig": "ᠳᠤᠭᠠᠷᠴᠢ",
+      "poppe": "duγarči",
       "confidence": 0.5172413793103449
     },
     {
       "course": "mongolian_a1",
       "word": "завиар",
       "bichig": "ᠵᠠᠪᠢ᠎ᠪᠠᠷ",
+      "poppe": "ǰabi-bar",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "засуулав",
       "bichig": "ᠵᠠᠰᠤᠯᠠᠪ",
+      "poppe": "ǰasulab",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "зур",
       "bichig": "ᠵᠤᠷ",
+      "poppe": "ǰur",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "зуржээ",
       "bichig": "ᠵᠤᠷᠵᠡ",
+      "poppe": "ǰurǰe",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "зүүв",
       "bichig": "ᠵᠦᠪ",
+      "poppe": "ǰüb",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "илааршсан",
       "bichig": "ᠢᠯᠠᠷᠱᠰᠠᠨ",
+      "poppe": "ilaršsan",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "инээлгэв",
       "bichig": "ᠢᠨᠡᠯᠭᠡᠪ",
+      "poppe": "inelgeb",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "ирээрэй",
       "bichig": "ᠢᠷᠡᠷᠡᠢ",
+      "poppe": "irerei",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "манай",
       "bichig": "ᠮᠠᠨᠠᠢ",
+      "poppe": "manai",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "Манай",
       "bichig": "ᠮᠠᠨᠠᠢ",
+      "poppe": "manai",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "мэдрэгдэв",
       "bichig": "ᠮᠡᠳᠷᠡᠭᠳᠡᠪ",
+      "poppe": "medregdeb",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "мэдэрлээ",
       "bichig": "ᠮᠡᠳᠡᠷᠯ᠎ᠢᠶᠡᠨ",
+      "poppe": "mederl-iyen",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "мэндэлнэ",
       "bichig": "ᠮᠡᠨᠳᠡᠯᠨᠡ",
+      "poppe": "mendelne",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "найзтайгаа",
       "bichig": "ᠨᠠᠢᠵᠲᠠᠢ᠎ᠪᠠᠨ",
+      "poppe": "naiǰtai-ban",
       "confidence": 0.21943573667711597
     },
     {
       "course": "mongolian_a1",
       "word": "Найзтайгаа",
       "bichig": "ᠨᠠᠢᠵᠲᠠᠢ᠎ᠪᠠᠨ",
+      "poppe": "naiǰtai-ban",
       "confidence": 0.21943573667711597
     },
     {
       "course": "mongolian_a1",
       "word": "нисэж",
       "bichig": "ᠨᠢᠰᠡᠵᠢ",
+      "poppe": "niseǰi",
       "confidence": 0.72
     },
     {
       "course": "mongolian_a1",
       "word": "нэмээрэй",
       "bichig": "ᠨᠡᠮᠡᠷᠡᠢ",
+      "poppe": "nemerei",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "нээгээд",
       "bichig": "ᠨᠡᠭᠡ᠎ᠳᠦ",
+      "poppe": "nege-dü",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "олдлоо",
       "bichig": "ᠣᠯᠳᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "oldl-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "орвол",
       "bichig": "ᠣᠷᠪᠤᠯ",
+      "poppe": "orbul",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "оржээ",
       "bichig": "ᠣᠷᠵᠡ",
+      "poppe": "orǰe",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "орө",
       "bichig": "ᠣᠷᠦ",
+      "poppe": "orü",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "өвдвөл",
       "bichig": "ᠥᠪᠳᠪᠦᠯ",
+      "poppe": "öbdbül",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "өвдөж",
       "bichig": "ᠥᠪᠳᠦᠵᠢ",
+      "poppe": "öbdüǰi",
       "confidence": 0.72
     },
     {
       "course": "mongolian_a1",
       "word": "өвтгөнө",
       "bichig": "ᠥᠪᠲᠭᠦᠨᠦ",
+      "poppe": "öbtgünü",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "өвтгөсөн",
       "bichig": "ᠥᠪᠲᠭᠦᠰᠦᠨ",
+      "poppe": "öbtgüsün",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "өлсөж",
       "bichig": "ᠥᠯᠰᠦᠵᠢ",
+      "poppe": "ölsüǰi",
       "confidence": 0.72
     },
     {
       "course": "mongolian_a1",
       "word": "өнгөрөөлөө",
       "bichig": "ᠥᠩᠭᠦᠷᠦᠯ᠎ᠢᠶᠡᠨ",
+      "poppe": "önggürül-iyen",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "өнгөртөл",
       "bichig": "ᠥᠩᠭᠦᠷᠲᠦᠯ",
+      "poppe": "önggürtül",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "порттой",
       "bichig": "ᠫᠣᠷᠲᠲᠤᠢ",
+      "poppe": "porttui",
       "confidence": 0.5214368482039398
     },
     {
       "course": "mongolian_swadesh",
       "word": "салхинд",
       "bichig": "ᠰᠠᠯᠬᠢᠨ᠎ᠳᠤ",
+      "poppe": "salqin-du",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "санагдав",
       "bichig": "ᠰᠠᠨᠠᠭᠳᠠᠪ",
+      "poppe": "sanaγdab",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "сонсогдов",
       "bichig": "ᠰᠣᠨᠰᠤᠭᠳᠤᠪ",
+      "poppe": "sonsuγdub",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "сонсогдож",
       "bichig": "ᠰᠣᠨᠰᠤᠭᠳᠤᠵᠢ",
+      "poppe": "sonsuγduǰi",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "сонсогдоно",
       "bichig": "ᠰᠣᠨᠰᠤᠭᠳᠤᠨᠤ",
+      "poppe": "sonsuγdunu",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "сонсож",
       "bichig": "ᠰᠣᠨᠰᠤᠵᠢ",
+      "poppe": "sonsuǰi",
       "confidence": 0.9
     },
     {
       "course": "mongolian_a1",
       "word": "сонсооч",
       "bichig": "ᠰᠣᠨᠰᠤᠴᠢ",
+      "poppe": "sonsuči",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "сэрүүцүүлэв",
       "bichig": "ᠰᠡᠷᠦᠴᠦᠯᠡᠪ",
+      "poppe": "serüčüleb",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "тавганд",
       "bichig": "ᠲᠠᠪᠭᠠᠨ᠎ᠳᠤ",
+      "poppe": "tabγan-du",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_swadesh",
       "word": "Тамирчид",
       "bichig": "ᠲᠠᠮᠢᠷᠴᠢ᠎ᠳᠤ",
+      "poppe": "tamirči-du",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "тасарлаа",
       "bichig": "ᠲᠠᠰᠠᠷᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "tasarl-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "тийш",
       "bichig": "ᠲᠢᠢᠰᠢ",
+      "poppe": "tiisi",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "толбыг",
       "bichig": "ᠲᠣᠯᠪ᠎ᠢ",
+      "poppe": "tolb-i",
       "confidence": 0.35
     },
     {
       "course": "mongolian_a1",
       "word": "тусална",
       "bichig": "ᠲᠤᠰᠠᠯᠨᠠ",
+      "poppe": "tusalna",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "түлдэг",
       "bichig": "ᠲᠦᠯᠳᠡᠭ",
+      "poppe": "tüldeg",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "түүв",
       "bichig": "ᠲᠦᠪ",
+      "poppe": "tüb",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "тэвэрлээ",
       "bichig": "ᠲᠡᠪᠡᠷᠯ᠎ᠢᠶᠡᠨ",
+      "poppe": "teberl-iyen",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_swadesh",
       "word": "Унасны",
       "bichig": "ᠤᠨᠠᠰ᠎ᠤᠨ",
+      "poppe": "unas-un",
       "confidence": 0.35
     },
     {
       "course": "mongolian_a1",
       "word": "уншаад",
       "bichig": "ᠤᠨᠱᠠ᠎ᠳᠤ",
+      "poppe": "unša-du",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_swadesh",
       "word": "Урагдсан",
       "bichig": "ᠤᠷᠠᠭᠳᠰᠠᠨ",
+      "poppe": "uraγdsan",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "ургадаг",
       "bichig": "ᠤᠷᠭᠠᠳᠠᠭ",
+      "poppe": "urγadaγ",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "ургажээ",
       "bichig": "ᠤᠷᠭᠠᠵᠡ",
+      "poppe": "urγaǰe",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "ургана",
       "bichig": "ᠤᠷᠭᠠᠨᠠ",
+      "poppe": "urγana",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "урсаж",
       "bichig": "ᠤᠷᠰᠠᠵᠢ",
+      "poppe": "ursaǰi",
       "confidence": 0.9
     },
     {
       "course": "mongolian_a1",
       "word": "усаллаа",
       "bichig": "ᠤᠰᠠᠯᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "usall-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "уулзъя",
       "bichig": "ᠤᠯᠵᠶᠠ",
+      "poppe": "ulǰya",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "үндес",
       "bichig": "ᠦᠨᠳᠡᠰ",
+      "poppe": "ündes",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "үргэлжилнэ",
       "bichig": "ᠦᠷᠭᠡᠯᠵᠢᠯᠨᠡ",
+      "poppe": "ürgelǰilne",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хаагаарай",
       "bichig": "ᠬᠠᠭᠠᠷᠠᠢ",
+      "poppe": "qaγarai",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "Хазуулсан",
       "bichig": "ᠬᠠᠵᠤᠯᠰᠠᠨ",
+      "poppe": "qaǰulsan",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "ханын",
       "bichig": "ᠬᠠᠨᠢᠨ",
+      "poppe": "qanin",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "харив",
       "bichig": "ᠬᠠᠷᠢᠪ",
+      "poppe": "qarib",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "харина",
       "bichig": "ᠬᠠᠷᠢᠨᠠ",
+      "poppe": "qarina",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хашхирав",
       "bichig": "ᠬᠠᠱᠬᠢᠷᠠᠪ",
+      "poppe": "qašqirab",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хийгдсэн",
       "bichig": "ᠬᠢᠢᠭᠳᠰᠡᠨ",
+      "poppe": "kiigdsen",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хоцордог",
       "bichig": "ᠬᠣᠴᠤᠷᠳᠤᠭ",
+      "poppe": "qočurduγ",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хоцорлоо",
       "bichig": "ᠬᠣᠴᠤᠷᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "qočurl-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_swadesh",
       "word": "хөдөлдөг",
       "bichig": "ᠬᠥᠳᠦᠯᠳᠦᠭ",
+      "poppe": "ködüldüg",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "хөдөлнө",
       "bichig": "ᠬᠥᠳᠦᠯᠨᠦ",
+      "poppe": "ködülnü",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хувцаслан",
       "bichig": "ᠬᠤᠪᠴᠠᠰᠯᠠᠨ",
+      "poppe": "qubčaslan",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хүлээгээрэй",
       "bichig": "ᠬᠦᠯᠡᠭᠡᠷᠡᠢ",
+      "poppe": "külegerei",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "хэлсэндээ",
       "bichig": "ᠬᠡᠯᠰᠡᠨᠳ᠎ᠢᠶᠡᠨ",
+      "poppe": "kelsend-iyen",
       "confidence": 0.3910614525139665
     },
     {
       "course": "mongolian_swadesh",
       "word": "цаана",
       "bichig": "ᠴᠠᠨᠠ",
+      "poppe": "čana",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "цайнд",
       "bichig": "ᠴᠠᠢᠨ᠎ᠳᠤ",
+      "poppe": "čain-du",
       "confidence": 0.3910614525139665
     },
     {
       "course": "mongolian_a1",
       "word": "Цайнд",
       "bichig": "ᠴᠠᠢᠨ᠎ᠳᠤ",
+      "poppe": "čain-du",
       "confidence": 0.3910614525139665
     },
     {
       "course": "mongolian_a1",
       "word": "цахилаа",
       "bichig": "ᠴᠠᠬᠢᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "čaqil-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_swadesh",
       "word": "чанав",
       "bichig": "ᠴᠠᠨᠠᠪ",
+      "poppe": "čanab",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "чанаж",
       "bichig": "ᠴᠠᠨᠠᠵᠢ",
+      "poppe": "čanaǰi",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "чангална",
       "bichig": "ᠴᠠᠩᠭᠠᠯᠨᠠ",
+      "poppe": "čangγalna",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "чинийхтэй",
       "bichig": "ᠴᠢᠨᠢᠢᠬᠲᠡᠢ",
+      "poppe": "činiiktei",
       "confidence": 0.6507592190889372
     },
     {
       "course": "mongolian_a1",
       "word": "чулуулгийн",
       "bichig": "ᠴᠤᠯᠤᠯᠭ᠎ᠤᠨ",
+      "poppe": "čululγ-un",
       "confidence": 0.35
     },
     {
       "course": "mongolian_a1",
       "word": "шоу",
       "bichig": "ᠱᠣᠤ",
+      "poppe": "šou",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "эмэгтэйтэй",
       "bichig": "ᠡᠮᠡᠭᠲᠡᠢᠲᠡᠢ",
+      "poppe": "emegteitei",
       "confidence": 0.45054064877853417
     },
     {
       "course": "mongolian_a1",
       "word": "эхэлдэг",
       "bichig": "ᠡᠬᠡᠯᠳᠡᠭ",
+      "poppe": "ekeldeg",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "эхэллээ",
       "bichig": "ᠡᠬᠡᠯᠯ᠎ᠢᠶᠡᠨ",
+      "poppe": "ekell-iyen",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "эхэлнэ",
       "bichig": "ᠡᠬᠡᠯᠨᠡ",
+      "poppe": "ekelne",
       "confidence": 1
     },
     {
       "course": "mongolian_swadesh",
       "word": "ядарлаа",
       "bichig": "ᠶᠠᠳᠠᠷᠯ᠎ᠢᠶᠠᠨ",
+      "poppe": "yadarl-iyan",
       "confidence": 0.5384615384615384
     },
     {
       "course": "mongolian_a1",
       "word": "яриарай",
       "bichig": "ᠶᠠᠷᠢᠠᠷᠠᠢ",
+      "poppe": "yariarai",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "ярьдаг",
       "bichig": "ᠶᠠᠷᠢᠳᠠᠭ",
+      "poppe": "yaridaγ",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "ярьсан",
       "bichig": "ᠶᠠᠷᠢᠰᠠᠨ",
+      "poppe": "yarisan",
       "confidence": 1
     },
     {
       "course": "mongolian_a1",
       "word": "ярья",
       "bichig": "ᠶᠠᠷᠢᠶᠠ",
+      "poppe": "yariya",
       "confidence": 1
     }
   ]
