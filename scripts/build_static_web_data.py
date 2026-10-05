@@ -510,6 +510,7 @@ def refresh_mongolian_only() -> None:
 
 def main() -> None:
     copy_base_data()
+    run_mongolian_bichig(MONGOLIAN_COURSES)
     for course in TIBETAN_COURSES:
         build_tibetan_tokens(course)
         enrich_tibetan_explanations(course)

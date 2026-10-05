@@ -13,8 +13,8 @@
  *   node scripts/mongolian_bichig.mjs [--course mongolian_a1] [--log PATH]
  * Default: both mongolian_a1 and mongolian_swadesh.
  *
- * Reads/writes under minicloze-web/static/data/ (after copy_base_data).
- * Also writes tokens (+ enriched explanations) into minicloze-lib/corpora/.
+ * Reads source explanations from minicloze-lib/corpora/, even when run directly.
+ * Writes enriched explanations + tokens to corpora/ and minicloze-web/static/data/.
  */
 
 import fs from "node:fs";
@@ -148,7 +148,8 @@ function writeJsonPretty(filePath, value) {
 }
 
 function processCourse(course, cache, guessLog) {
-  const explanationsPath = path.join(STATIC_DATA, `${course}_explanations.json`);
+  // Corpora are authoritative: a stale browser mirror must never replace edits.
+  const explanationsPath = path.join(CORPORA, `${course}_explanations.json`);
   if (!fs.existsSync(explanationsPath)) {
     throw new Error(`Missing explanations: ${explanationsPath}`);
   }
@@ -219,12 +220,12 @@ function processCourse(course, cache, guessLog) {
   }
 
   // Write enriched explanations + tokens to static/
-  writeJsonPretty(explanationsPath, explanations);
+  writeJsonPretty(path.join(STATIC_DATA, `${course}_explanations.json`), explanations);
   const tokensStatic = path.join(STATIC_DATA, `${course}_tokens.json`);
   writeJsonCompact(tokensStatic, tokenized);
 
-  // Sync to corpora/
-  writeJsonPretty(path.join(CORPORA, `${course}_explanations.json`), explanations);
+  // Persist only the enrichment of the source we read, never a static mirror.
+  writeJsonPretty(explanationsPath, explanations);
   writeJsonCompact(path.join(CORPORA, `${course}_tokens.json`), tokenized);
 
   return {
