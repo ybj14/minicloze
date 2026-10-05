@@ -23,6 +23,8 @@ pub fn normalize_language_input(input: &str) -> String {
         "armenian-swadesh" | "hye-swadesh" => "Armenian Swadesh".to_string(),
         "georgian-a1" | "kat-a1" => "Georgian A1".to_string(),
         "georgian-swadesh" | "kat-swadesh" => "Georgian Swadesh".to_string(),
+        "maltese-a1" | "mlt-a1" => "Maltese A1".to_string(),
+        "maltese-swadesh" | "mlt-swadesh" => "Maltese Swadesh".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -59,6 +61,10 @@ pub fn normalize_language_input(input: &str) -> String {
             format!("Georgian A{}", &lower["georgian-a".len()..])
         }
         _ if lower.starts_with("kat-a") => format!("Georgian A{}", &lower["kat-a".len()..]),
+        _ if lower.starts_with("maltese-a") => {
+            format!("Maltese A{}", &lower["maltese-a".len()..])
+        }
+        _ if lower.starts_with("mlt-a") => format!("Maltese A{}", &lower["mlt-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -346,6 +352,8 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Macedonian", "mkd"),
         ("Malagasy", "mlg"),
         ("Maltese", "mlt"),
+        ("Maltese A1", "mlt-a1"),
+        ("Maltese Swadesh", "mlt-swadesh"),
         ("Manchu", "mnc"),
         ("Meitei", "mni"),
         ("Mono (USA)", "mnr"),
@@ -569,6 +577,9 @@ mod tests {
             "Khmer Swadesh"
         );
         assert_eq!(normalize_language_input("khm-a2"), "Khmer A2");
+        assert_eq!(normalize_language_input("maltese-a1"), "Maltese A1");
+        assert_eq!(normalize_language_input("mlt-swadesh"), "Maltese Swadesh");
+        assert_eq!(normalize_language_input("mlt-a2"), "Maltese A2");
     }
 
     #[test]
@@ -602,5 +613,8 @@ mod tests {
             Some("khm-swadesh")
         );
         assert_eq!(language_code_for_input("cambodian-a1"), Some("khm-a1"));
+        assert_eq!(language_code_for_input("maltese-a1"), Some("mlt-a1"));
+        assert_eq!(language_code_for_input("maltese-swadesh"), Some("mlt-swadesh"));
+        assert_eq!(language_code_for_input("mlt-a1"), Some("mlt-a1"));
     }
 }
