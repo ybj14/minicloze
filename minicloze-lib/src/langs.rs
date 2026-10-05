@@ -25,6 +25,13 @@ pub fn normalize_language_input(input: &str) -> String {
         "georgian-swadesh" | "kat-swadesh" => "Georgian Swadesh".to_string(),
         "maltese-a1" | "mlt-a1" => "Maltese A1".to_string(),
         "maltese-swadesh" | "mlt-swadesh" => "Maltese Swadesh".to_string(),
+        "sanskrit-a1" | "san-a1" => "Sanskrit A1".to_string(),
+        "sanskrit-swadesh" | "san-swadesh" => "Sanskrit Swadesh".to_string(),
+        "sanskrit-a1-classical"
+        | "san-a1-classical"
+        | "sanskrit-classical-a1"
+        | "san-classical-a1"
+        | "sanskrit a1 classical" => "Sanskrit A1 Classical".to_string(),
         _ if lower.starts_with("tibetan-a") => {
             format!("Tibetan A{}", &lower["tibetan-a".len()..])
         }
@@ -65,6 +72,10 @@ pub fn normalize_language_input(input: &str) -> String {
             format!("Maltese A{}", &lower["maltese-a".len()..])
         }
         _ if lower.starts_with("mlt-a") => format!("Maltese A{}", &lower["mlt-a".len()..]),
+        _ if lower.starts_with("sanskrit-a") => {
+            format!("Sanskrit A{}", &lower["sanskrit-a".len()..])
+        }
+        _ if lower.starts_with("san-a") => format!("Sanskrit A{}", &lower["san-a".len()..]),
         _ if lower.starts_with("mongolian-a") => {
             format!("Mongolian A{}", &lower["mongolian-a".len()..])
         }
@@ -445,6 +456,9 @@ pub fn propagate() -> HashMap<&'static str, &'static str> {
         ("Sango", "sag"),
         ("Yakut", "sah"),
         ("Sanskrit", "san"),
+        ("Sanskrit A1", "san-a1"),
+        ("Sanskrit Swadesh", "san-swadesh"),
+        ("Sanskrit A1 Classical", "san-a1-classical"),
         ("Santali", "sat"),
         ("Sicilian", "scn"),
         ("Scots", "sco"),
@@ -580,6 +594,17 @@ mod tests {
         assert_eq!(normalize_language_input("maltese-a1"), "Maltese A1");
         assert_eq!(normalize_language_input("mlt-swadesh"), "Maltese Swadesh");
         assert_eq!(normalize_language_input("mlt-a2"), "Maltese A2");
+        assert_eq!(normalize_language_input("sanskrit-a1"), "Sanskrit A1");
+        assert_eq!(normalize_language_input("san-swadesh"), "Sanskrit Swadesh");
+        assert_eq!(
+            normalize_language_input("sanskrit-a1-classical"),
+            "Sanskrit A1 Classical"
+        );
+        assert_eq!(
+            normalize_language_input("san-a1-classical"),
+            "Sanskrit A1 Classical"
+        );
+        assert_eq!(normalize_language_input("san-a2"), "Sanskrit A2");
     }
 
     #[test]
@@ -614,7 +639,24 @@ mod tests {
         );
         assert_eq!(language_code_for_input("cambodian-a1"), Some("khm-a1"));
         assert_eq!(language_code_for_input("maltese-a1"), Some("mlt-a1"));
-        assert_eq!(language_code_for_input("maltese-swadesh"), Some("mlt-swadesh"));
+        assert_eq!(
+            language_code_for_input("maltese-swadesh"),
+            Some("mlt-swadesh")
+        );
         assert_eq!(language_code_for_input("mlt-a1"), Some("mlt-a1"));
+        assert_eq!(language_code_for_input("sanskrit-a1"), Some("san-a1"));
+        assert_eq!(
+            language_code_for_input("sanskrit-swadesh"),
+            Some("san-swadesh")
+        );
+        assert_eq!(
+            language_code_for_input("sanskrit-a1-classical"),
+            Some("san-a1-classical")
+        );
+        assert_eq!(
+            language_code_for_input("san-a1-classical"),
+            Some("san-a1-classical")
+        );
+        assert_eq!(language_code_for_input("Sanskrit"), Some("san"));
     }
 }
