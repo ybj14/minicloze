@@ -9,6 +9,7 @@ from armenian_transliteration import romanize as romanize_armenian
 from burmese_okell import romanize as romanize_burmese_okell
 from georgian_transliteration import romanize as romanize_georgian
 from maltese_transliteration import romanize as romanize_maltese
+from sanskrit_transliteration import devanagari_to_iast as romanize_sanskrit
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
 
@@ -16,6 +17,10 @@ from khmer_romanization import transliterate as transliterate_khmer
 ROOT = Path(__file__).resolve().parents[1]
 CORPORA = ROOT / "minicloze-lib" / "corpora"
 GENERATED = CORPORA / "generated"
+
+SANSKRIT_FORBIDDEN = ["शब्द", "पद:", "word “", "the word", "the term"]
+# Classical lines legitimately use शब्द ("sound, noise"), so only flag it in a gloss-like frame.
+SANSKRIT_CLASSICAL_FORBIDDEN = ["इति शब्द", "शब्दस्य अर्थ", "पद:", "word “", "the word", "the term"]
 
 LANGS = {
     "mongolian": {
@@ -358,6 +363,54 @@ LANGS = {
         "explanations_from_batches": True,
         "max_frame_repeats": 8,
     },
+    "sanskrit": {
+        "vocab": CORPORA / "sanskrit_a1_vocab.json",
+        "output": CORPORA / "sanskrit_a1.json",
+        "explanations": CORPORA / "sanskrit_a1_explanations.json",
+        "batches": [GENERATED / f"sanskrit_{start:03d}_{start + 49:03d}.json" for start in range(1, 501, 50)],
+        "id_start": -2100000,
+        "forbidden": SANSKRIT_FORBIDDEN,
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "per_sentence_cloze": True,
+        "max_frame_repeats": 8,
+    },
+    "sanskrit-swadesh": {
+        "vocab": CORPORA / "sanskrit_swadesh_vocab.json",
+        "output": CORPORA / "sanskrit_swadesh.json",
+        "explanations": CORPORA / "sanskrit_swadesh_explanations.json",
+        "batches": [
+            GENERATED / "sanskrit_swadesh_001_041.json",
+            GENERATED / "sanskrit_swadesh_042_083.json",
+            GENERATED / "sanskrit_swadesh_084_124.json",
+            GENERATED / "sanskrit_swadesh_125_165.json",
+            GENERATED / "sanskrit_swadesh_166_207.json",
+        ],
+        "id_start": -2200000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": SANSKRIT_FORBIDDEN,
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "per_sentence_cloze": True,
+        "max_frame_repeats": 8,
+    },
+    "sanskrit-classical": {
+        "vocab": CORPORA / "sanskrit_a1_classical_vocab.json",
+        "output": CORPORA / "sanskrit_a1_classical.json",
+        "explanations": CORPORA / "sanskrit_a1_classical_explanations.json",
+        "batches": [
+            GENERATED / f"sanskrit_a1_classical_{start:03d}_{start + 49:03d}.json"
+            for start in range(1, 501, 50)
+        ],
+        "id_start": -2300000,
+        "forbidden": SANSKRIT_CLASSICAL_FORBIDDEN,
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "per_sentence_cloze": True,
+        "require_citation": True,
+        "max_frame_repeats": 8,
+    },
 }
 
 BAD_ENGLISH_PATTERNS = [
@@ -406,7 +459,21 @@ def validate_batch(lang, config, expected_vocab, batch_path):
             target = sentence.get("target", "")
             text = sentence.get("text", "")
             words = sentence.get("words")
-            if word not in target:
+            if config.get("per_sentence_cloze"):
+                cloze = str(sentence.get("cloze_word", "")).strip()
+                tokens = [
+                    token.strip(",;:?!।॥.\"'")
+                    for token in target.split()
+                ]
+                if not cloze or cloze not in tokens:
+                    errors.append(
+                        f"{batch_path}: index {index} sentence {sentence_index} cloze {cloze!r} is not a standalone token of the target"
+                    )
+                if config.get("require_citation") and not str(sentence.get("citation", "")).strip():
+                    errors.append(
+                        f"{batch_path}: index {index} sentence {sentence_index} lacks a citation"
+                    )
+            elif word not in target:
                 errors.append(
                     f"{batch_path}: index {index} sentence {sentence_index} lacks target word {word!r}"
                 )
@@ -422,7 +489,7 @@ def validate_batch(lang, config, expected_vocab, batch_path):
                         for part in words
                         if str(part.get("word", "")).strip()
                     )
-                    normalized_target = target.strip().rstrip("။.།។៕?!።፧፣፤፥፦։՞՜՛՝჻")
+                    normalized_target = target.strip().rstrip("။.།។៕?!።፧፣፤፥፦։՞՜՛՝჻।॥")
                     if config.get("unspaced_explanations"):
                         normalized_target = re.sub(r"\s+", "", normalized_target)
                     if token_text != normalized_target:
@@ -598,6 +665,15 @@ def enrich_maltese_words(words):
     return words
 
 
+def enrich_sanskrit_words(words):
+    for word in words:
+        text = str(word.get("word", "")).strip()
+        transliteration = str(word.get("transliteration", "")).strip() or romanize_sanskrit(text)
+        if transliteration:
+            word["transliteration"] = transliteration
+    return words
+
+
 def expected_range(path):
     stem = path.stem
     start, end = stem.rsplit("_", 2)[1:]
@@ -633,19 +709,24 @@ def merge_language(lang, config):
 
         word = item["word"].strip("།")
         for sentence in item["sentences"]:
-            rows.append(
-                {
-                    "id": current_id,
-                    "text": sentence["text"],
-                    "cloze_word": word,
-                    "translations": [
-                        {
-                            "id": current_id,
-                            "text": sentence["target"],
-                        }
-                    ],
-                }
-            )
+            row = {
+                "id": current_id,
+                "text": sentence["text"],
+                "cloze_word": sentence.get("cloze_word", word)
+                if config.get("per_sentence_cloze")
+                else word,
+                "translations": [
+                    {
+                        "id": current_id,
+                        "text": sentence["target"],
+                    }
+                ],
+            }
+            if sentence.get("citation"):
+                row["citation"] = sentence["citation"]
+            if sentence.get("source_text"):
+                row["source_text"] = sentence["source_text"]
+            rows.append(row)
             if config.get("explanations_from_batches"):
                 words = sentence["words"]
                 if lang.startswith("burmese"):
@@ -660,6 +741,8 @@ def merge_language(lang, config):
                     words = enrich_georgian_words(words)
                 elif lang.startswith("maltese"):
                     words = enrich_maltese_words(words)
+                elif lang.startswith("sanskrit"):
+                    words = enrich_sanskrit_words(words)
                 explanation_rows.append(
                     {
                         "id": current_id,

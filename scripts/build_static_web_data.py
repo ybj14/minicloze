@@ -28,6 +28,8 @@ except ImportError:  # pragma: no cover
     romanize_georgian = romanize_thai_paiboon = None  # type: ignore
     romanize_maltese = None  # type: ignore
 
+from sanskrit_transliteration import romanize as romanize_sanskrit
+
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
 from tibetan_zwpy import romanize_many as romanize_tibetan_zwpy_many
@@ -59,6 +61,9 @@ COURSE_PREFIXES = [
     "georgian_swadesh",
     "maltese_a1",
     "maltese_swadesh",
+    "sanskrit_a1",
+    "sanskrit_swadesh",
+    "sanskrit_a1_classical",
 ]
 SOURCE_FILES = [
     filename
@@ -74,6 +79,7 @@ ARMENIAN_COURSES = ["armenian_a1", "armenian_swadesh"]
 GEORGIAN_COURSES = ["georgian_a1", "georgian_swadesh"]
 MALTESE_COURSES = ["maltese_a1", "maltese_swadesh"]
 MONGOLIAN_COURSES = ["mongolian_a1", "mongolian_swadesh"]
+SANSKRIT_COURSES = ["sanskrit_a1", "sanskrit_swadesh", "sanskrit_a1_classical"]
 
 
 def tokenize_syllables(text: str) -> list[str]:
@@ -353,6 +359,54 @@ def build_maltese_tokens(course: str) -> None:
     )
 
 
+def enrich_sanskrit_explanations(course: str) -> None:
+    """Fill any missing IAST transliteration (Devanagari -> IAST)."""
+    path = STATIC_DATA / f"{course}_explanations.json"
+    explanations = json.loads(path.read_text(encoding="utf-8"))
+    for sentence in explanations["data"]:
+        for word in sentence.get("words", []):
+            if not str(word.get("transliteration") or "").strip():
+                word["transliteration"] = romanize_sanskrit(word.get("word", ""))
+    path.write_text(json.dumps(explanations, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def build_sanskrit_tokens(course: str) -> None:
+    explanations_path = STATIC_DATA / f"{course}_explanations.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
+    explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
+    tokenized: dict[str, list[dict[str, str]]] = {}
+
+    for sentence in explanations["data"]:
+        tokens = []
+        words = sentence.get("words", [])
+        for index, word in enumerate(words):
+            text = word.get("word", "")
+            if index + 1 < len(words):
+                text = f"{text} "
+            token = {"text": text}
+            transliteration = word.get("transliteration") or romanize_sanskrit(word.get("word", ""))
+            if transliteration and str(transliteration).strip():
+                token["transliteration"] = transliteration
+            tokens.append(token)
+        tokenized[str(sentence["id"])] = tokens
+
+    output_path.write_text(
+        json.dumps(tokenized, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
+def refresh_sanskrit_only() -> None:
+    """Copy Sanskrit corpora to static data, fill IAST, rebuild tokens."""
+    STATIC_DATA.mkdir(parents=True, exist_ok=True)
+    for course in SANSKRIT_COURSES:
+        for suffix in ("", "_explanations", "_vocab"):
+            filename = f"{course}{suffix}.json"
+            shutil.copyfile(CORPORA / filename, STATIC_DATA / filename)
+        enrich_sanskrit_explanations(course)
+        build_sanskrit_tokens(course)
+
+
 def copy_base_data() -> None:
     STATIC_DATA.mkdir(parents=True, exist_ok=True)
     for filename in SOURCE_FILES:
@@ -575,6 +629,9 @@ def main() -> None:
     for course in MALTESE_COURSES:
         enrich_maltese_explanations(course)
         build_maltese_tokens(course)
+    for course in SANSKRIT_COURSES:
+        enrich_sanskrit_explanations(course)
+        build_sanskrit_tokens(course)
 
 
 if __name__ == "__main__":
@@ -586,5 +643,7 @@ if __name__ == "__main__":
         refresh_amharic_only()
     elif "--mongolian-only" in sys.argv:
         refresh_mongolian_only()
+    elif "--sanskrit-only" in sys.argv:
+        refresh_sanskrit_only()
     else:
         main()
