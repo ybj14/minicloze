@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20261002-2";
+const DATA_VERSION = "static-data-20261006-1";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -197,6 +197,28 @@ const COURSES = [
     vocabularyPath: dataPath("/data/georgian_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/georgian_swadesh_explanations.json"),
     tokensPath: dataPath("/data/georgian_swadesh_tokens.json"),
+  },
+  {
+    code: "mlt-a1",
+    label: "Maltese A1",
+    slug: "maltese-a1",
+    baseLanguage: "mlt",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/maltese_a1.json"),
+    vocabularyPath: dataPath("/data/maltese_a1_vocab.json"),
+    explanationsPath: dataPath("/data/maltese_a1_explanations.json"),
+    tokensPath: dataPath("/data/maltese_a1_tokens.json"),
+  },
+  {
+    code: "mlt-swadesh",
+    label: "Maltese Swadesh",
+    slug: "maltese-swadesh",
+    baseLanguage: "mlt",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/maltese_swadesh.json"),
+    vocabularyPath: dataPath("/data/maltese_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/maltese_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/maltese_swadesh_tokens.json"),
   },
 ];
 

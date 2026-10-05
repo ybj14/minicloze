@@ -8,6 +8,7 @@ from amharic_transliteration import transliterate as transliterate_amharic
 from armenian_transliteration import romanize as romanize_armenian
 from burmese_okell import romanize as romanize_burmese_okell
 from georgian_transliteration import romanize as romanize_georgian
+from maltese_transliteration import romanize as romanize_maltese
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
 
@@ -316,6 +317,47 @@ LANGS = {
         "vocab_from_batches": True,
         "explanations_from_batches": True,
     },
+    "maltese": {
+        "vocab": CORPORA / "maltese_a1_vocab.json",
+        "output": CORPORA / "maltese_a1.json",
+        "explanations": CORPORA / "maltese_a1_explanations.json",
+        "batches": [
+            GENERATED / "maltese_001_050.json",
+            GENERATED / "maltese_051_100.json",
+            GENERATED / "maltese_101_150.json",
+            GENERATED / "maltese_151_200.json",
+            GENERATED / "maltese_201_250.json",
+            GENERATED / "maltese_251_300.json",
+            GENERATED / "maltese_301_350.json",
+            GENERATED / "maltese_351_400.json",
+            GENERATED / "maltese_401_450.json",
+            GENERATED / "maltese_451_500.json",
+        ],
+        "id_start": -1900000,
+        "forbidden": ["kelma", "il-kelma", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "max_frame_repeats": 8,
+    },
+    "maltese-swadesh": {
+        "vocab": CORPORA / "maltese_swadesh_vocab.json",
+        "output": CORPORA / "maltese_swadesh.json",
+        "explanations": CORPORA / "maltese_swadesh_explanations.json",
+        "batches": [
+            GENERATED / "maltese_swadesh_001_041.json",
+            GENERATED / "maltese_swadesh_042_083.json",
+            GENERATED / "maltese_swadesh_084_124.json",
+            GENERATED / "maltese_swadesh_125_165.json",
+            GENERATED / "maltese_swadesh_166_207.json",
+        ],
+        "id_start": -2000000,
+        "expected_count": 207,
+        "expected_sentences": 621,
+        "forbidden": ["kelma", "il-kelma", "word “", "the word"],
+        "vocab_from_batches": True,
+        "explanations_from_batches": True,
+        "max_frame_repeats": 8,
+    },
 }
 
 BAD_ENGLISH_PATTERNS = [
@@ -547,6 +589,15 @@ def enrich_georgian_words(words):
     return words
 
 
+def enrich_maltese_words(words):
+    for word in words:
+        text = str(word.get("word", "")).strip()
+        transliteration = str(word.get("transliteration", "")).strip() or romanize_maltese(text)
+        if transliteration:
+            word["transliteration"] = transliteration
+    return words
+
+
 def expected_range(path):
     stem = path.stem
     start, end = stem.rsplit("_", 2)[1:]
@@ -607,6 +658,8 @@ def merge_language(lang, config):
                     words = enrich_armenian_words(words)
                 elif lang.startswith("georgian"):
                     words = enrich_georgian_words(words)
+                elif lang.startswith("maltese"):
+                    words = enrich_maltese_words(words)
                 explanation_rows.append(
                     {
                         "id": current_id,

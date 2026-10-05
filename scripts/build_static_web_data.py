@@ -20,11 +20,13 @@ try:
     from armenian_transliteration import romanize as romanize_armenian
     from burmese_okell import romanize as romanize_burmese_okell
     from georgian_transliteration import romanize as romanize_georgian
+    from maltese_transliteration import romanize as romanize_maltese
     from thai_paiboon import romanize as romanize_thai_paiboon
 except ImportError:  # pragma: no cover
     transliterate_amharic = romanize_amharic = None  # type: ignore
     romanize_armenian = romanize_burmese_okell = None  # type: ignore
     romanize_georgian = romanize_thai_paiboon = None  # type: ignore
+    romanize_maltese = None  # type: ignore
 
 from khmer_romanization import transcribe as transcribe_khmer
 from khmer_romanization import transliterate as transliterate_khmer
@@ -55,6 +57,8 @@ COURSE_PREFIXES = [
     "armenian_swadesh",
     "georgian_a1",
     "georgian_swadesh",
+    "maltese_a1",
+    "maltese_swadesh",
 ]
 SOURCE_FILES = [
     filename
@@ -68,6 +72,7 @@ KHMER_COURSES = ["khmer_a1", "khmer_swadesh"]
 AMHARIC_COURSES = ["amharic_a1", "amharic_swadesh"]
 ARMENIAN_COURSES = ["armenian_a1", "armenian_swadesh"]
 GEORGIAN_COURSES = ["georgian_a1", "georgian_swadesh"]
+MALTESE_COURSES = ["maltese_a1", "maltese_swadesh"]
 MONGOLIAN_COURSES = ["mongolian_a1", "mongolian_swadesh"]
 
 
@@ -312,6 +317,42 @@ def build_georgian_tokens(course: str) -> None:
     )
 
 
+def enrich_maltese_explanations(course: str) -> None:
+    path = STATIC_DATA / f"{course}_explanations.json"
+    explanations = json.loads(path.read_text(encoding="utf-8"))
+    for sentence in explanations["data"]:
+        for word in sentence.get("words", []):
+            text = word.get("word", "")
+            word["transliteration"] = romanize_maltese(text)
+    path.write_text(json.dumps(explanations, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def build_maltese_tokens(course: str) -> None:
+    explanations_path = STATIC_DATA / f"{course}_explanations.json"
+    output_path = STATIC_DATA / f"{course}_tokens.json"
+    explanations = json.loads(explanations_path.read_text(encoding="utf-8"))
+    tokenized: dict[str, list[dict[str, str]]] = {}
+
+    for sentence in explanations["data"]:
+        tokens = []
+        words = sentence.get("words", [])
+        for index, word in enumerate(words):
+            text = word.get("word", "")
+            if index + 1 < len(words):
+                text = f"{text} "
+            token = {"text": text}
+            transliteration = word.get("transliteration") or romanize_maltese(word.get("word", ""))
+            if transliteration and str(transliteration).strip():
+                token["transliteration"] = transliteration
+            tokens.append(token)
+        tokenized[str(sentence["id"])] = tokens
+
+    output_path.write_text(
+        json.dumps(tokenized, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
 def copy_base_data() -> None:
     STATIC_DATA.mkdir(parents=True, exist_ok=True)
     for filename in SOURCE_FILES:
@@ -531,6 +572,9 @@ def main() -> None:
     for course in GEORGIAN_COURSES:
         enrich_georgian_explanations(course)
         build_georgian_tokens(course)
+    for course in MALTESE_COURSES:
+        enrich_maltese_explanations(course)
+        build_maltese_tokens(course)
 
 
 if __name__ == "__main__":
