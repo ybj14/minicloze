@@ -1,0 +1,2504 @@
+# Sanskrit A1 — hand-authored sentences (IAST source; converted to Devanagari by build_sanskrit_batches.py)
+# Format: @ index | lemma (IAST) | gloss ; then 3 lines: sentence with *cloze = English
+# Spelling: pedagogical pausa style (NCERT Ruchira / Samskrita Bharati): no external sandhi,
+# word-final m before a consonant written as anusvāra (ṃ).
+
+@ 1 | namaste | hello
+*namaste, ahaṃ rāmaḥ. = Hello, I am Rama.
+chātrāḥ śikṣakaṃ *namaste iti vadanti. = The students say hello to the teacher.
+*namaste mitra, kathaṃ asi? = Hello, friend, how are you?
+
+@ 2 | dhanyavādaḥ | thank you
+jalārthaṃ *dhanyavādaḥ. = Thanks for the water.
+bālikā *dhanyavādaḥ iti vadati. = The girl says thank you.
+bhavataḥ sāhāyyāya *dhanyavādaḥ. = Thank you for your help.
+
+@ 3 | kṣamyatām | sorry; excuse me
+*kṣamyatām, ahaṃ vilambena āgataḥ. = Sorry, I have come late.
+*kṣamyatām, mārgaḥ kutra asti? = Excuse me, where is the road?
+*kṣamyatām, mayā tava caṣakaḥ bhagnaḥ. = Sorry, I broke your cup.
+
+@ 4 | punarmilāmaḥ | goodbye; see you again
+adya paryāptam, *punarmilāmaḥ. = That is enough for today; see you again.
+sāyaṃ mitrāṇi *punarmilāmaḥ iti vadanti. = In the evening the friends say goodbye.
+śvaḥ vidyālaye *punarmilāmaḥ. = We will meet again at school tomorrow.
+
+@ 5 | suprabhātam | good morning
+*suprabhātam, amba! = Good morning, Mother!
+prātaḥ pitāmahaḥ *suprabhātam iti vadati. = In the morning Grandfather says good morning.
+*suprabhātam, adya ākāśaḥ nirmalaḥ asti. = Good morning, the sky is clear today.
+
+@ 6 | śubharātriḥ | good night
+*śubharātriḥ, idānīṃ svapihi. = Good night, sleep now.
+mātā śiśuṃ *śubharātriḥ iti vadati. = The mother says good night to the baby.
+*śubharātriḥ, śvaḥ prātaḥ milāmaḥ. = Good night, we will meet tomorrow morning.
+
+@ 7 | svāgatam | welcome
+bhavataḥ *svāgatam. = Welcome to you.
+asmākaṃ gṛhe *svāgatam. = Welcome to our home.
+nūtanāḥ chātrāḥ, kakṣyāyāṃ *svāgatam. = New students, welcome to the class.
+
+@ 8 | kṛpayā | please
+*kṛpayā upaviśatu. = Please sit down.
+*kṛpayā jalaṃ dadātu. = Please give me some water.
+*kṛpayā mandaṃ vadatu. = Please speak slowly.
+
+@ 9 | āma | yes
+*āma, ahaṃ chātraḥ asmi. = Yes, I am a student.
+kiṃ bhavān cāyaṃ pibati? *āma. = Do you drink tea? Yes.
+*āma, śvaḥ vayaṃ grāmaṃ gacchāmaḥ. = Yes, tomorrow we are going to the village.
+
+@ 10 | na | not; no
+ahaṃ māṃsaṃ *na khādāmi. = I do not eat meat.
+adya varṣā *na bhavati. = It is not raining today.
+saḥ mama bhrātā *na, mitram asti. = He is not my brother; he is a friend.
+
+@ 11 | kuśalam | well; fine
+atra sarvaṃ *kuśalam, mā cintaya. = Everything is fine here, don't worry.
+api gṛhe *kuśalam? = Is all well at home?
+pitāmahasya svāsthyaṃ *kuśalam asti. = Grandfather's health is good.
+
+@ 12 | bhavān | you (polite, masculine)
+*bhavān kutra gacchati? = Where are you going, sir?
+kiṃ *bhavān śikṣakaḥ? = Are you a teacher, sir?
+*bhavān cāyaṃ pibatu. = Please have some tea, sir.
+
+@ 13 | bhavatī | you (polite, feminine)
+*bhavatī kim icchati? = What would you like, madam?
+*bhavatī kutra vasati? = Where do you live, madam?
+*bhavatī sundaraṃ gāyati. = You sing beautifully, madam.
+
+@ 14 | aham | I
+*ahaṃ gṛhe kāryaṃ karomi. = I work at home.
+prātaḥ *ahaṃ dugdhaṃ pibāmi. = I drink milk in the morning.
+*ahaṃ tava mitraṃ jānāmi. = I know your friend.
+
+@ 15 | tvam | you
+*tvaṃ kutra gacchasi? = Where are you going?
+*tvaṃ mama priyaṃ mitram asi. = You are my dear friend.
+kiṃ *tvam api krīḍituṃ icchasi? = Do you also want to play?
+
+@ 16 | saḥ | he
+*saḥ vidyālayaṃ gacchati. = He goes to school.
+*saḥ prātaḥ śīghraṃ uttiṣṭhati. = He gets up early in the morning.
+*saḥ mama pitā asti. = He is my father.
+
+@ 17 | sā | she
+*sā gītaṃ gāyati. = She sings a song.
+*sā mama bhaginī asti. = She is my sister.
+*sā pākaśālāyāṃ odanaṃ pacati. = She is cooking rice in the kitchen.
+
+@ 18 | vayam | we
+*vayaṃ saṃskṛtaṃ paṭhāmaḥ. = We study Sanskrit.
+*vayam udyāne krīḍāmaḥ. = We play in the park.
+sāyaṃ *vayaṃ saha bhojanaṃ kurmaḥ. = In the evening we eat together.
+
+@ 19 | te | they
+*te chātrāḥ santi. = They are students.
+*te nadyāṃ taranti. = They are swimming in the river.
+*te śvaḥ nagaraṃ gamiṣyanti. = They will go to the city tomorrow.
+
+@ 20 | eṣaḥ | this (masculine)
+*eṣaḥ mama bhrātā. = This is my brother.
+*eṣaḥ vṛkṣaḥ atīva uccaḥ asti. = This tree is very tall.
+*eṣaḥ mārgaḥ grāmaṃ gacchati. = This road goes to the village.
+
+@ 21 | etat | this (neuter)
+*etat mama pustakam. = This is my book.
+*etat phalaṃ madhuram asti. = This fruit is sweet.
+*etat kasya gṛham? = Whose house is this?
+
+@ 22 | tat | that
+*tat kim? = What is that?
+*tat mandiraṃ prācīnam asti. = That temple is old.
+*tat vastraṃ mahyaṃ rocate. = I like that cloth.
+
+@ 23 | mama | my
+*mama nāma sītā. = My name is Sita.
+*mama gṛhaṃ grāme asti. = My house is in the village.
+eṣā *mama ghaṭikā asti. = This is my watch.
+
+@ 24 | tava | your
+*tava nāma kim? = What is your name?
+*tava mātā kutra asti? = Where is your mother?
+*tava lekhanī mama syūte asti. = Your pen is in my bag.
+
+@ 25 | asmākam | our
+*asmākaṃ vidyālayaḥ bṛhan asti. = Our school is big.
+etat *asmākaṃ kṣetram. = This is our field.
+*asmākaṃ śikṣakaḥ atīva sajjanaḥ. = Our teacher is a very good man.
+
+@ 26 | kaḥ | who
+*kaḥ dvāre tiṣṭhati? = Who is standing at the door?
+saḥ *kaḥ asti? = Who is he?
+adya *kaḥ āgamiṣyati? = Who will come today?
+
+@ 27 | kim | what
+tvaṃ *kiṃ paṭhasi? = What are you reading?
+etat *kim asti? = What is this?
+adya bhojane *kim asti? = What is there for dinner today?
+
+@ 28 | kutra | where
+bhavān *kutra vasati? = Where do you live?
+mama kuñcikā *kutra asti? = Where is my key?
+*kutra gacchanti bālakāḥ? = Where are the boys going?
+
+@ 29 | kadā | when
+bhavān *kadā āgamiṣyati? = When will you come?
+vidyālayaḥ *kadā ārabhate? = When does school begin?
+*kadā vayaṃ bhojanaṃ kariṣyāmaḥ? = When shall we eat?
+
+@ 30 | katham | how
+bhavān *kathaṃ asti? = How are you?
+*kathaṃ grāmaṃ gacchāmi? = How do I get to the village?
+etat *kathaṃ likhyate? = How is this written?
+
+@ 31 | kimartham | why
+tvaṃ *kimarthaṃ rodiṣi? = Why are you crying?
+saḥ *kimartham adya na āgataḥ? = Why didn't he come today?
+*kimarthaṃ dvāraṃ pihitam asti? = Why is the door closed?
+
+@ 32 | kati | how many
+tava gṛhe *kati janāḥ santi? = How many people are there in your house?
+*kati vādanam? = What time is it?
+bhavataḥ *kati bhrātaraḥ santi? = How many brothers do you have?
+
+@ 33 | kiyat | how much
+etasya phalasya *kiyat mūlyam? = How much does this fruit cost?
+*kiyat dugdhaṃ paryāptam? = How much milk is enough?
+grāmaḥ *kiyat dūre asti? = How far is the village?
+
+@ 34 | atra | here
+*atra upaviśatu. = Sit here.
+mama gṛham *atra eva asti. = My house is right here.
+*atra jalaṃ śītalam asti. = The water here is cool.
+
+@ 35 | tatra | there
+*tatra ekaḥ vṛkṣaḥ asti. = There is a tree there.
+mama mitraṃ *tatra vasati. = My friend lives there.
+kiṃ *tatra āpaṇaḥ asti? = Is there a shop there?
+
+@ 36 | adya | today
+*adya ravivāsaraḥ. = Today is Sunday.
+*adya vidyālayaḥ nāsti. = There is no school today.
+*adya mātā pāyasaṃ pacati. = Today Mother is making rice pudding.
+
+@ 37 | śvaḥ | tomorrow
+*śvaḥ ahaṃ grāmaṃ gamiṣyāmi. = Tomorrow I will go to the village.
+*śvaḥ parīkṣā bhaviṣyati. = There will be an exam tomorrow.
+*śvaḥ milāmaḥ. = See you tomorrow.
+
+@ 38 | hyaḥ | yesterday
+*hyaḥ varṣā abhavat. = It rained yesterday.
+*hyaḥ ahaṃ mandiraṃ gatavān. = Yesterday I went to the temple.
+*hyaḥ tvaṃ kutra āsīḥ? = Where were you yesterday?
+
+@ 39 | idānīm | now
+*idānīṃ pañca vādanam. = It is five o'clock now.
+*idānīṃ bhojanasya samayaḥ. = Now it is time to eat.
+pitā *idānīṃ kāryālaye asti. = Father is at the office now.
+
+@ 40 | api | also
+aham *api āgacchāmi. = I am coming too.
+mama bhaginī *api chātrā asti. = My sister is also a student.
+saḥ phalaṃ khādati, dugdham *api pibati. = He eats fruit and also drinks milk.
+
+@ 41 | ca | and
+rāmaḥ sītā *ca vanaṃ gacchataḥ. = Rama and Sita go to the forest.
+ahaṃ phalaṃ dugdhaṃ *ca icchāmi. = I want fruit and milk.
+mātā pitā *ca gṛhe staḥ. = Mother and Father are at home.
+
+@ 42 | vā | or
+cāyaṃ *vā dugdhaṃ vā? = Tea or milk?
+śvaḥ *vā paraśvaḥ vā āgacchatu. = Come tomorrow or the day after.
+phalaṃ *vā modakaṃ vā khāda. = Eat a fruit or a sweet.
+
+@ 43 | kintu | but
+ahaṃ gantum icchāmi, *kintu samayaḥ nāsti. = I want to go, but there is no time.
+gṛhaṃ laghu, *kintu sundaram. = The house is small but beautiful.
+saḥ dhanikaḥ, *kintu sukhī na. = He is rich, but not happy.
+
+@ 44 | yataḥ | because
+ahaṃ jalaṃ pibāmi *yataḥ pipāsitaḥ asmi. = I am drinking water because I am thirsty.
+saḥ na āgataḥ *yataḥ rugṇaḥ asti. = He did not come because he is ill.
+vayaṃ gṛhe tiṣṭhāmaḥ *yataḥ bahiḥ varṣā asti. = We are staying at home because it is raining outside.
+
+@ 45 | yadi | if
+*yadi varṣā bhavati, vayaṃ gṛhe eva krīḍāmaḥ. = If it rains, we will play at home.
+*yadi tvaṃ śrāntaḥ, svapihi. = If you are tired, sleep.
+*yadi samayaḥ asti, āgacchatu. = If you have time, please come.
+
+@ 46 | eva | only; indeed
+ahaṃ jalam *eva pibāmi. = I drink only water.
+saḥ *eva mama śikṣakaḥ. = He indeed is my teacher.
+gṛhe ekaḥ *eva dīpaḥ asti. = There is only one lamp in the house.
+
+@ 47 | saha | with
+ahaṃ mitreṇa *saha krīḍāmi. = I play with my friend.
+bālikā mātrā *saha āpaṇaṃ gacchati. = The girl goes to the shop with her mother.
+pitā putreṇa *saha bhojanaṃ karoti. = The father eats with his son.
+
+@ 48 | vinā | without
+jalaṃ *vinā vṛkṣāḥ na vardhante. = Trees do not grow without water.
+saḥ śarkarāṃ *vinā cāyaṃ pibati. = He drinks tea without sugar.
+tvāṃ *vinā ahaṃ na gamiṣyāmi. = I will not go without you.
+
+@ 49 | punaḥ | again
+*punaḥ vadatu. = Please say it again.
+śvaḥ *punaḥ āgacchatu. = Come again tomorrow.
+saḥ pāṭhaṃ *punaḥ paṭhati. = He reads the lesson again.
+
+@ 50 | śīghram | quickly; early
+*śīghram āgaccha, bhojanaṃ siddham. = Come quickly, the food is ready.
+aśvaḥ *śīghraṃ dhāvati. = The horse runs fast.
+adya ahaṃ *śīghram uttiṣṭhāmi. = Today I am getting up early.
+
+@ 51 | mātā | mother
+mama *mātā śikṣikā asti. = My mother is a teacher.
+*mātā bālāya kathāṃ kathayati. = Mother tells the child a story.
+bālakaḥ *mātaraṃ namati. = The boy bows to his mother.
+
+@ 52 | pitā | father
+*pitā prātaḥ samācārapatraṃ paṭhati. = Father reads the newspaper in the morning.
+mama *pitā kṛṣakaḥ asti. = My father is a farmer.
+putraḥ *pitrā saha āpaṇaṃ gacchati. = The son goes to the shop with his father.
+
+@ 53 | bhrātā | brother
+mama *bhrātā nagare vasati. = My brother lives in the city.
+jyeṣṭhaḥ *bhrātā mahyaṃ gaṇitaṃ pāṭhayati. = My elder brother teaches me maths.
+ahaṃ *bhrātre pustakaṃ dadāmi. = I give a book to my brother.
+
+@ 54 | bhaginī | sister
+mama *bhaginī citraṃ racayati. = My sister is drawing a picture.
+*bhaginī mahyaṃ rakṣāsūtraṃ badhnāti. = My sister ties a rakhi thread on me.
+tava *bhaginī kati varṣīyā? = How old is your sister?
+
+@ 55 | putraḥ | son
+rājñaḥ ekaḥ *putraḥ āsīt. = The king had one son.
+mama *putraḥ pañcamakakṣyāyāṃ paṭhati. = My son studies in the fifth grade.
+mātā *putram āhvayati. = The mother calls her son.
+
+@ 56 | putrī | daughter
+tasya *putrī vaidyā asti. = His daughter is a doctor.
+mātā *putryai navaṃ vastraṃ krīṇāti. = The mother buys a new dress for her daughter.
+mama *putrī sundaraṃ nṛtyati. = My daughter dances beautifully.
+
+@ 57 | pitāmahaḥ | grandfather
+*pitāmahaḥ udyāne bhramati. = Grandfather walks in the garden.
+mama *pitāmahaḥ rāmāyaṇaṃ paṭhati. = My grandfather reads the Ramayana.
+bālāḥ *pitāmahasya kathāṃ śṛṇvanti. = The children listen to Grandfather's story.
+
+@ 58 | pitāmahī | grandmother
+*pitāmahī madhurān modakān pacati. = Grandmother makes sweet modakas.
+*pitāmahī mandaṃ mandaṃ calati. = Grandmother walks slowly.
+ahaṃ *pitāmahyā saha mandiraṃ gacchāmi. = I go to the temple with my grandmother.
+
+@ 59 | patiḥ | husband
+tasyāḥ *patiḥ sainikaḥ asti. = Her husband is a soldier.
+*patiḥ patnī ca saha bhojanaṃ kurutaḥ. = The husband and wife eat together.
+sā *patye cāyaṃ dadāti. = She gives tea to her husband.
+
+@ 60 | patnī | wife
+tasya *patnī vaidyā asti. = His wife is a doctor.
+rāmasya *patnī sītā āsīt. = Rama's wife was Sita.
+saḥ *patnyā saha vipaṇiṃ gacchati. = He goes to the market with his wife.
+
+@ 61 | kuṭumbam | family
+mama *kuṭumbe pañca janāḥ santi. = There are five people in my family.
+sarvaṃ *kuṭumbaṃ saha bhojanaṃ karoti. = The whole family eats together.
+ravivāsare vayaṃ *kuṭumbena saha udyānaṃ gacchāmaḥ. = On Sunday we go to the park with the family.
+
+@ 62 | mitram | friend
+rameśaḥ mama *mitram. = Ramesh is my friend.
+ahaṃ *mitreṇa saha vidyālayaṃ gacchāmi. = I go to school with my friend.
+mama *mitrāṇi śvaḥ āgamiṣyanti. = My friends will come tomorrow.
+
+@ 63 | sakhī | female friend
+sītā mama *sakhī asti. = Sita is my friend.
+bālikā *sakhyā saha krīḍati. = The girl plays with her friend.
+mama *sakhyaḥ gītaṃ gāyanti. = My friends are singing a song.
+
+@ 64 | bālakaḥ | boy
+*bālakaḥ kandukena krīḍati. = The boy plays with a ball.
+*bālakāḥ vṛkṣam ārohanti. = The boys are climbing a tree.
+saḥ *bālakaḥ mama bhrātā. = That boy is my brother.
+
+@ 65 | bālikā | girl
+*bālikā pustakaṃ paṭhati. = The girl is reading a book.
+*bālikāḥ udyāne puṣpāṇi paśyanti. = The girls look at the flowers in the garden.
+ekā laghvī *bālikā rodati. = A little girl is crying.
+
+@ 66 | śiśuḥ | baby
+*śiśuḥ mātuḥ aṅke svapiti. = The baby is sleeping in its mother's lap.
+*śiśuḥ dugdhaṃ pibati. = The baby is drinking milk.
+*śiśuḥ candraṃ dṛṣṭvā hasati. = The baby laughs when it sees the moon.
+
+@ 67 | janaḥ | person
+mārge bahavaḥ *janāḥ santi. = There are many people on the street.
+saḥ sajjanaḥ *janaḥ asti. = He is a good person.
+utsave sarve *janāḥ nṛtyanti. = Everyone dances at the festival.
+
+@ 68 | puruṣaḥ | man
+ekaḥ *puruṣaḥ dvāre tiṣṭhati. = A man is standing at the door.
+saḥ *puruṣaḥ mama pitṛvyaḥ asti. = That man is my uncle.
+vṛddhaḥ *puruṣaḥ yaṣṭyā calati. = The old man walks with a stick.
+
+@ 69 | strī | woman
+ekā *strī jalaṃ ānayati. = A woman is fetching water.
+sā *strī mama śikṣikā asti. = That woman is my teacher.
+vipaṇyāṃ *striyaḥ śākaṃ krīṇanti. = Women are buying vegetables in the market.
+
+@ 70 | vṛddhaḥ | old man
+*vṛddhaḥ vṛkṣasya chāyāyām upaviśati. = The old man sits in the shade of the tree.
+bālakaḥ *vṛddhāya mārgaṃ darśayati. = The boy shows the old man the way.
+grāme ekaḥ *vṛddhaḥ kathāḥ kathayati. = An old man in the village tells stories.
+
+@ 71 | atithiḥ | guest
+adya asmākaṃ gṛhe *atithiḥ āgacchati. = A guest is coming to our house today.
+mātā *atithaye jalaṃ dadāti. = Mother gives water to the guest.
+*atithayaḥ bhojanaṃ kurvanti. = The guests are eating.
+
+@ 72 | prativeśī | neighbour
+asmākaṃ *prativeśī vaidyaḥ asti. = Our neighbour is a doctor.
+*prativeśī mahyaṃ phalāni dadāti. = The neighbour gives me fruit.
+*prativeśinaḥ kukkuraḥ rātrau bhaṣati. = The neighbour's dog barks at night.
+
+@ 73 | mātulaḥ | maternal uncle
+mama *mātulaḥ mumbaīnagare vasati. = My uncle (mother's brother) lives in Mumbai.
+*mātulaḥ mahyaṃ dvicakrikāṃ dattavān. = My uncle gave me a bicycle.
+grīṣmāvakāśe ahaṃ *mātulasya gṛhaṃ gacchāmi. = In the summer holidays I go to my uncle's house.
+
+@ 74 | pitṛvyaḥ | paternal uncle
+mama *pitṛvyaḥ grāme kṛṣiṃ karoti. = My uncle (father's brother) farms in the village.
+*pitṛvyaḥ asmākaṃ gṛhe atithiḥ asti. = My uncle is a guest at our house.
+ahaṃ *pitṛvyeṇa saha nadīṃ gacchāmi. = I go to the river with my uncle.
+
+@ 75 | nāma | name
+mama *nāma gītā. = My name is Gita.
+tava mitrasya *nāma kim? = What is your friend's name?
+asya grāmasya *nāma sundarapuram. = The name of this village is Sundarpur.
+
+@ 76 | śikṣakaḥ | teacher
+*śikṣakaḥ phalake likhati. = The teacher writes on the board.
+asmākaṃ *śikṣakaḥ saṃskṛtaṃ pāṭhayati. = Our teacher teaches Sanskrit.
+chātrāḥ *śikṣakaṃ praśnaṃ pṛcchanti. = The students ask the teacher a question.
+
+@ 77 | chātraḥ | student
+*chātraḥ gṛhakāryaṃ karoti. = The student is doing homework.
+kakṣyāyāṃ triṃśat *chātrāḥ santi. = There are thirty students in the class.
+saḥ uttamaḥ *chātraḥ asti. = He is an excellent student.
+
+@ 78 | vaidyaḥ | doctor
+*vaidyaḥ rugṇaṃ paśyati. = The doctor examines the patient.
+jvare *vaidyaṃ gaccha. = When you have a fever, go to the doctor.
+grāme ekaḥ eva *vaidyaḥ asti. = There is only one doctor in the village.
+
+@ 79 | kṛṣakaḥ | farmer
+*kṛṣakaḥ kṣetre kāryaṃ karoti. = The farmer works in the field.
+*kṛṣakāḥ varṣāṃ pratīkṣante. = The farmers are waiting for rain.
+*kṛṣakasya gṛhe dve gāvau staḥ. = There are two cows at the farmer's house.
+
+@ 80 | āpaṇikaḥ | shopkeeper
+*āpaṇikaḥ phalāni vikrīṇāti. = The shopkeeper sells fruit.
+*āpaṇikaṃ mūlyaṃ pṛccha. = Ask the shopkeeper the price.
+*āpaṇikaḥ prātaḥ āpaṇam udghāṭayati. = The shopkeeper opens the shop in the morning.
+
+@ 81 | cālakaḥ | driver
+bhūmiyānasya *cālakaḥ sāvadhānaṃ yānaṃ cālayati. = The bus driver drives carefully.
+*cālakaḥ yānaṃ sthāpayati. = The driver parks the car.
+mama pitā *cālakaḥ asti. = My father is a driver.
+
+@ 82 | sainikaḥ | soldier
+*sainikaḥ deśaṃ rakṣati. = The soldier protects the country.
+*sainikāḥ sīmāyāṃ tiṣṭhanti. = The soldiers stand at the border.
+mama bhrātā *sainikaḥ bhavitum icchati. = My brother wants to become a soldier.
+
+@ 83 | rājā | king
+*rājā siṃhāsane upaviśati. = The king sits on the throne.
+ekasmin nagare ekaḥ *rājā āsīt. = In a certain city there was a king.
+prajāḥ *rājānaṃ namanti. = The people bow to the king.
+
+@ 84 | gāyakaḥ | singer
+*gāyakaḥ madhuraṃ gāyati. = The singer sings sweetly.
+utsave prasiddhaḥ *gāyakaḥ āgacchati. = A famous singer is coming to the festival.
+saḥ *gāyakaḥ bhavitum icchati. = He wants to become a singer.
+
+@ 85 | pācakaḥ | cook
+*pācakaḥ pākaśālāyāṃ sūpaṃ pacati. = The cook is making dal in the kitchen.
+bhojanālaye trayaḥ *pācakāḥ santi. = There are three cooks in the restaurant.
+*pācakasya bhojanaṃ svādu asti. = The cook's food is tasty.
+
+@ 86 | ārakṣakaḥ | police officer
+*ārakṣakaḥ mārge tiṣṭhati. = A police officer is standing on the road.
+*ārakṣakaḥ coraṃ gṛhṇāti. = The policeman catches the thief.
+mārgaṃ na jānāmi, *ārakṣakaṃ pṛcchāmi. = I don't know the way; I will ask the policeman.
+
+@ 87 | lekhakaḥ | writer
+*lekhakaḥ navīnaṃ pustakaṃ likhati. = The writer is writing a new book.
+kālidāsaḥ mahān *lekhakaḥ āsīt. = Kalidasa was a great writer.
+*lekhakasya kathāḥ bālebhyaḥ rocante. = Children like the writer's stories.
+
+@ 88 | nartakī | dancer
+*nartakī mañce nṛtyati. = The dancer dances on the stage.
+sā prasiddhā *nartakī asti. = She is a famous dancer.
+janāḥ *nartakyai karatāḍanaṃ kurvanti. = The people applaud the dancer.
+
+@ 89 | yātrī | traveller
+*yātrī mārgaṃ pṛcchati. = The traveller asks the way.
+śrāntaḥ *yātrī vṛkṣasya adhaḥ viśrāmyati. = The tired traveller rests under a tree.
+sthānake bahavaḥ *yātriṇaḥ santi. = There are many travellers at the station.
+
+@ 90 | bhikṣukaḥ | beggar
+*bhikṣukaḥ mandirasya purataḥ upaviśati. = A beggar sits in front of the temple.
+mātā *bhikṣukāya annaṃ dadāti. = Mother gives food to the beggar.
+*bhikṣukaḥ dvāre āgacchati. = A beggar comes to the door.
+
+@ 91 | kumbhakāraḥ | potter
+*kumbhakāraḥ ghaṭaṃ karoti. = The potter makes a pot.
+*kumbhakārasya ghaṭāḥ vipaṇyāṃ vikrīyante. = The potter's pots are sold in the market.
+grāme ekaḥ vṛddhaḥ *kumbhakāraḥ vasati. = An old potter lives in the village.
+
+@ 92 | sevakaḥ | servant
+*sevakaḥ atithaye jalam ānayati. = The servant brings water for the guest.
+rājñaḥ *sevakāḥ dvāre tiṣṭhanti. = The king's servants stand at the gate.
+*sevakaḥ prātaḥ gṛhaṃ mārjayati. = The servant sweeps the house in the morning.
+
+@ 93 | vaṇik | merchant
+*vaṇik vastrāṇi vikrīṇāti. = The merchant sells cloth.
+dhanikaḥ *vaṇik nagare vasati. = A rich merchant lives in the city.
+*vaṇijaḥ naukayā samudraṃ taranti. = The merchants cross the sea by boat.
+
+@ 94 | dhīvaraḥ | fisherman
+*dhīvaraḥ nadyāṃ jālaṃ kṣipati. = The fisherman casts his net into the river.
+*dhīvarāḥ prātaḥ naukāṃ nayanti. = The fishermen take the boat out in the morning.
+*dhīvaraḥ bahūn matsyān gṛhṇāti. = The fisherman catches many fish.
+
+@ 95 | mālākāraḥ | gardener
+*mālākāraḥ puṣpāṇi siñcati. = The gardener waters the flowers.
+*mālākāraḥ mālāṃ racayati. = The gardener makes a garland.
+udyāne *mālākāraḥ vṛkṣān ropayati. = The gardener plants trees in the park.
+
+@ 96 | śiraḥ | head
+mama *śiraḥ pīḍayati. = My head hurts.
+saḥ *śirasi uṣṇīṣaṃ dhārayati. = He wears a turban on his head.
+śiṣyaḥ guruṃ *śirasā namati. = The pupil bows his head to the teacher.
+
+@ 97 | netram | eye
+tasyāḥ *netre nīle staḥ. = Her eyes are blue.
+*netrābhyāṃ vayaṃ paśyāmaḥ. = We see with our eyes.
+śiśuḥ *netre nimīlya svapiti. = The baby closes its eyes and sleeps.
+
+@ 98 | karṇaḥ | ear
+*karṇābhyāṃ vayaṃ śṛṇumaḥ. = We hear with our ears.
+gajasya *karṇau vistṛtau staḥ. = The elephant's ears are wide.
+mama *karṇe vedanā asti. = I have a pain in my ear.
+
+@ 99 | nāsikā | nose
+pratiśyāye *nāsikā avaruddhā bhavati. = When you have a cold, your nose gets blocked.
+gajasya *nāsikā dīrghā asti. = The elephant's nose is long.
+śīte mama *nāsikā raktā bhavati. = In the cold my nose turns red.
+
+@ 100 | mukham | face; mouth
+saḥ jalena *mukhaṃ prakṣālayati. = He washes his face with water.
+bhojanakāle *mukhaṃ pidhāya cārvaya. = Chew with your mouth closed while eating.
+śiśoḥ *mukhaṃ candravat sundaram. = The baby's face is as lovely as the moon.
+
+@ 101 | dantaḥ | tooth
+prātaḥ ahaṃ *dantān dhāvāmi. = I brush my teeth in the morning.
+śiśoḥ prathamaḥ *dantaḥ āgataḥ. = The baby's first tooth has come.
+mama *dante vedanā asti. = My tooth hurts.
+
+@ 102 | hastaḥ | hand
+bhojanāt pūrvaṃ *hastau prakṣālaya. = Wash your hands before eating.
+tasya *haste ekaṃ pustakam asti. = He has a book in his hand.
+chātraḥ praśnārthaṃ *hastam unnayati. = The student raises his hand to ask a question.
+
+@ 103 | pādaḥ | foot
+mama *pādaḥ śrāntaḥ asti. = My foot is tired.
+saḥ *pādena kandukaṃ tāḍayati. = He kicks the ball with his foot.
+saḥ śiṣyaḥ guroḥ *pādau spṛśati. = The pupil touches his teacher's feet.
+
+@ 104 | aṅgulī | finger
+hastasya pañca *aṅgulyaḥ santi. = A hand has five fingers.
+śiśuḥ mama *aṅgulīṃ gṛhṇāti. = The baby grabs my finger.
+saḥ *aṅgulyā candraṃ darśayati. = He points at the moon with his finger.
+
+@ 105 | udaram | belly; stomach
+mama *udare vedanā asti. = I have a stomach ache.
+*udaraṃ pūrṇam, idānīṃ na khādāmi. = My stomach is full; I won't eat now.
+gajasya *udaraṃ mahat asti. = The elephant's belly is huge.
+
+@ 106 | keśaḥ | hair
+tasyāḥ *keśāḥ dīrghāḥ santi. = Her hair is long.
+pitāmahasya *keśāḥ śvetāḥ. = Grandfather's hair is white.
+sā *keśeṣu puṣpaṃ dhārayati. = She wears a flower in her hair.
+
+@ 107 | kaṇṭhaḥ | throat; neck
+mama *kaṇṭhe pīḍā asti. = My throat hurts.
+gāyakasya *kaṇṭhaḥ madhuraḥ. = The singer's voice is sweet.
+sā *kaṇṭhe mālāṃ dhārayati. = She wears a garland around her neck.
+
+@ 108 | hṛdayam | heart
+mātuḥ *hṛdayaṃ komalam. = A mother's heart is tender.
+dhāvanāt *hṛdayaṃ vegena spandate. = After running the heart beats fast.
+vaidyaḥ mama *hṛdayaṃ parīkṣate. = The doctor checks my heart.
+
+@ 109 | śarīram | body
+vyāyāmena *śarīraṃ balavat bhavati. = Exercise makes the body strong.
+svacchaṃ *śarīraṃ svasthaṃ bhavati. = A clean body stays healthy.
+jvareṇa mama *śarīram uṣṇam asti. = My body is hot with fever.
+
+@ 110 | jihvā | tongue
+uṣṇena dugdhena mama *jihvā dagdhā. = I burned my tongue on hot milk.
+vaidyaḥ vadati, *jihvāṃ darśaya. = The doctor says, show me your tongue.
+kukkuraḥ *jihvāṃ bahiḥ karoti. = The dog sticks out its tongue.
+
+@ 111 | skandhaḥ | shoulder
+pitā putraṃ *skandhe vahati. = The father carries his son on his shoulders.
+kṛṣakaḥ *skandhe halaṃ dhārayati. = The farmer carries a plough on his shoulder.
+mama *skandhe syūtaḥ asti. = There is a bag on my shoulder.
+
+@ 112 | jānu | knee
+patitvā mama *jānu kṣatam. = I fell and hurt my knee.
+pitāmahasya *jānunī pīḍayataḥ. = Grandfather's knees ache.
+bālakaḥ *jānubhyāṃ calati. = The little boy crawls on his knees.
+
+@ 113 | pṛṣṭham | back
+kṛṣakasya *pṛṣṭhe bhāraḥ asti. = The farmer has a load on his back.
+aśvasya *pṛṣṭhe ekaḥ bālakaḥ upaviśati. = A boy is sitting on the horse's back.
+dīrghakālaṃ upaviśya mama *pṛṣṭhaṃ pīḍayati. = My back hurts from sitting a long time.
+
+@ 114 | oṣṭhaḥ | lip
+śīte mama *oṣṭhau śuṣkau bhavataḥ. = In winter my lips get dry.
+śiśoḥ *oṣṭhau raktau staḥ. = The baby's lips are red.
+sā *oṣṭhayoḥ aṅgulīṃ sthāpayati. = She puts her finger to her lips.
+
+@ 115 | nakhaḥ | nail
+saptāhe ekavāraṃ *nakhān kartaya. = Cut your nails once a week.
+mārjārasya *nakhāḥ tīkṣṇāḥ. = A cat's claws are sharp.
+dīrghāḥ *nakhāḥ malināḥ bhavanti. = Long nails get dirty.
+
+@ 116 | gṛham | house; home
+mama *gṛhaṃ nadyāḥ samīpe asti. = My house is near the river.
+sāyaṃ sarve *gṛham āgacchanti. = In the evening everyone comes home.
+*gṛhe kaḥ asti? = Who is at home?
+
+@ 117 | vidyālayaḥ | school
+ahaṃ pratidinaṃ *vidyālayaṃ gacchāmi. = I go to school every day.
+asmākaṃ *vidyālaye viśālaṃ krīḍāṅgaṇam asti. = Our school has a large playground.
+*vidyālayāt bālāḥ madhyāhne gṛhaṃ gacchanti. = The children go home from school at noon.
+
+@ 118 | āpaṇaḥ | shop
+*āpaṇe navīnāni vastrāṇi santi. = There are new clothes in the shop.
+pitā *āpaṇāt dugdham ānayati. = Father brings milk from the shop.
+ravivāsare *āpaṇaḥ pihitaḥ bhavati. = The shop is closed on Sunday.
+
+@ 119 | nagaram | city
+*nagare bahūni yānāni santi. = There are many vehicles in the city.
+mama mātulaḥ *nagaraṃ gacchati. = My uncle is going to the city.
+vārāṇasī prācīnaṃ *nagaram. = Varanasi is an ancient city.
+
+@ 120 | grāmaḥ | village
+mama pitāmahaḥ *grāme vasati. = My grandfather lives in the village.
+*grāmasya vāyuḥ śuddhaḥ asti. = The air in the village is pure.
+vayaṃ grīṣme *grāmaṃ gacchāmaḥ. = We go to the village in summer.
+
+@ 121 | mārgaḥ | road; way
+ayaṃ *mārgaḥ vipaṇiṃ gacchati. = This road goes to the market.
+*mārge sāvadhānaṃ cala. = Walk carefully on the road.
+vidyālayasya *mārgaṃ darśayatu. = Please show me the way to the school.
+
+@ 122 | udyānam | garden; park
+*udyāne bahūni puṣpāṇi santi. = There are many flowers in the garden.
+bālāḥ sāyaṃ *udyānaṃ gacchanti. = The children go to the park in the evening.
+asmākaṃ *udyānasya āmravṛkṣaḥ phalitaḥ. = The mango tree in our garden has borne fruit.
+
+@ 123 | mandiram | temple
+*mandire ghaṇṭānādaḥ bhavati. = Bells ring in the temple.
+pitāmahī prātaḥ *mandiraṃ gacchati. = Grandmother goes to the temple in the morning.
+*mandirāt prasādaṃ ānaya. = Bring prasad from the temple.
+
+@ 124 | nadī | river
+gaṅgā pavitrā *nadī asti. = The Ganga is a holy river.
+bālakāḥ *nadyāṃ taranti. = The boys are swimming in the river.
+*nadyāḥ jalaṃ śītalam asti. = The river water is cold.
+
+@ 125 | vanam | forest
+*vane siṃhāḥ vasanti. = Lions live in the forest.
+rāmaḥ caturdaśa varṣāṇi *vane avasat. = Rama lived in the forest for fourteen years.
+kāṣṭhārthaṃ kṛṣakaḥ *vanaṃ gacchati. = The farmer goes to the forest for firewood.
+
+@ 126 | parvataḥ | mountain
+himālayaḥ uccaḥ *parvataḥ asti. = The Himalaya is a high mountain.
+*parvate himaṃ patati. = Snow falls on the mountain.
+vayaṃ *parvatam ārohāmaḥ. = We are climbing the mountain.
+
+@ 127 | samudraḥ | sea
+*samudrasya jalaṃ lavaṇam asti. = Sea water is salty.
+bālāḥ *samudrasya tīre krīḍanti. = The children play on the seashore.
+naukā *samudre gacchati. = The boat is sailing on the sea.
+
+@ 128 | kṣetram | field
+kṛṣakaḥ *kṣetre dhānyaṃ vapati. = The farmer sows grain in the field.
+*kṣetrāṇi haritāni santi. = The fields are green.
+gāvaḥ *kṣetre tṛṇaṃ caranti. = The cows graze in the field.
+
+@ 129 | cikitsālayaḥ | hospital
+rugṇaḥ *cikitsālayaṃ gacchati. = The sick man goes to the hospital.
+mama mātā *cikitsālaye kāryaṃ karoti. = My mother works in a hospital.
+*cikitsālayaḥ nagarasya madhye asti. = The hospital is in the middle of the city.
+
+@ 130 | pustakālayaḥ | library
+*pustakālaye śāntiḥ bhavati. = It is quiet in the library.
+ahaṃ *pustakālayāt kathāpustakaṃ ānayāmi. = I bring a storybook from the library.
+asmākaṃ vidyālayasya *pustakālayaḥ viśālaḥ. = Our school library is large.
+
+@ 131 | bhojanālayaḥ | restaurant
+vayaṃ *bhojanālaye bhojanaṃ kurmaḥ. = We eat at a restaurant.
+ayaṃ *bhojanālayaḥ rātrau daśavādane pidhīyate. = This restaurant closes at ten at night.
+*bhojanālayasya dosā svādu asti. = The dosa at the restaurant is tasty.
+
+@ 132 | vipaṇiḥ | market
+mātā *vipaṇiṃ gacchati. = Mother goes to the market.
+*vipaṇau bahavaḥ janāḥ santi. = There are many people in the market.
+*vipaṇeḥ navīnāni phalāni ānaya. = Bring fresh fruit from the market.
+
+@ 133 | kakṣyā | classroom; class
+*kakṣyā śvaḥ navavādane ārabhate. = Class begins at nine tomorrow.
+śikṣakaḥ *kakṣyāṃ praviśati. = The teacher enters the classroom.
+ahaṃ ṣaṣṭhyāṃ *kakṣyāyāṃ paṭhāmi. = I study in the sixth class.
+
+@ 134 | pākaśālā | kitchen
+mātā *pākaśālāyāṃ bhojanaṃ pacati. = Mother is cooking food in the kitchen.
+*pākaśālā svacchā asti. = The kitchen is clean.
+mārjāraḥ *pākaśālāṃ praviśati. = The cat goes into the kitchen.
+
+@ 135 | kūpaḥ | well
+grāmasya *kūpe madhuraṃ jalam asti. = The village well has sweet water.
+striyaḥ *kūpāt jalam ānayanti. = The women draw water from the well.
+maṇḍūkaḥ *kūpe vasati. = A frog lives in the well.
+
+@ 136 | deśaḥ | country
+bhārataṃ mama *deśaḥ. = India is my country.
+asmākaṃ *deśe bahvyaḥ bhāṣāḥ santi. = There are many languages in our country.
+saḥ anyasmāt *deśāt āgataḥ. = He has come from another country.
+
+@ 137 | tīram | bank; shore
+nadyāḥ *tīre ekaṃ mandiram asti. = There is a temple on the riverbank.
+vayaṃ samudrasya *tīre bhramāmaḥ. = We walk along the seashore.
+naukā *tīraṃ prāpnoti. = The boat reaches the shore.
+
+@ 138 | setuḥ | bridge
+nadyāḥ upari ekaḥ *setuḥ asti. = There is a bridge over the river.
+vayaṃ *setunā nadīṃ tarāmaḥ. = We cross the river by the bridge.
+ayaṃ *setuḥ atīva prācīnaḥ. = This bridge is very old.
+
+@ 139 | sarovaraḥ | lake
+*sarovare kamalāni vikasanti. = Lotuses bloom in the lake.
+haṃsāḥ *sarovare taranti. = Swans glide on the lake.
+grāmasya samīpe ekaḥ śāntaḥ *sarovaraḥ asti. = There is a quiet lake near the village.
+
+@ 140 | prakoṣṭhaḥ | room
+mama *prakoṣṭhe ekā śayyā asti. = There is a bed in my room.
+ayaṃ *prakoṣṭhaḥ laghuḥ kintu svacchaḥ. = This room is small but clean.
+atithiḥ *prakoṣṭhaṃ praviśati. = The guest enters the room.
+
+@ 141 | dvāram | door
+kṛpayā *dvāram udghāṭayatu. = Please open the door.
+vāyunā *dvāram udghāṭitam. = The wind blew the door open.
+rātrau *dvāraṃ pidhehi. = Close the door at night.
+
+@ 142 | gavākṣaḥ | window
+*gavākṣāt śītalaḥ vāyuḥ āgacchati. = A cool breeze comes in through the window.
+*gavākṣam udghāṭaya, prakāśaḥ āgacchatu. = Open the window and let the light in.
+śiśuḥ *gavākṣāt candraṃ paśyati. = The baby looks at the moon through the window.
+
+@ 143 | bhittiḥ | wall
+*bhittau ekaṃ citram asti. = There is a picture on the wall.
+bālakaḥ *bhittiṃ malinīkaroti. = The boy is dirtying the wall.
+udyānasya *bhittiḥ uccā asti. = The garden wall is high.
+
+@ 144 | sopānam | stairs
+pitāmahī *sopānaṃ mandaṃ mandam ārohati. = Grandmother climbs the stairs slowly.
+*sopāne mā dhāva. = Don't run on the stairs.
+mandirasya *sopānāni śvetāni santi. = The temple steps are white.
+
+@ 145 | aṅgaṇam | courtyard
+bālāḥ *aṅgaṇe krīḍanti. = The children are playing in the courtyard.
+mātā *aṅgaṇe raṅgolīṃ racayati. = Mother draws a rangoli in the courtyard.
+*aṅgaṇasya madhye tulasī asti. = There is a tulsi plant in the middle of the courtyard.
+
+@ 146 | kāryālayaḥ | office
+pitā navavādane *kāryālayaṃ gacchati. = Father goes to the office at nine.
+*kāryālaye bahu kāryam asti. = There is a lot of work at the office.
+mātā sāyaṃ *kāryālayāt āgacchati. = Mother comes back from the office in the evening.
+
+@ 147 | viśvavidyālayaḥ | university
+mama bhrātā *viśvavidyālaye paṭhati. = My brother studies at the university.
+nālandā prācīnaḥ *viśvavidyālayaḥ āsīt. = Nalanda was an ancient university.
+*viśvavidyālayasya pustakālayaḥ bṛhan asti. = The university library is big.
+
+@ 148 | krīḍāṅgaṇam | playground
+bālāḥ *krīḍāṅgaṇe pādakandukaṃ krīḍanti. = The children play football on the playground.
+varṣāyāṃ *krīḍāṅgaṇaṃ jalena pūrṇam. = In the rain the playground is full of water.
+sāyaṃ *krīḍāṅgaṇaṃ gacchāmaḥ. = Let's go to the playground in the evening.
+
+@ 149 | āśramaḥ | hermitage
+ṛṣeḥ *āśramaḥ vane āsīt. = The sage's hermitage was in the forest.
+*āśrame mṛgāḥ nirbhayāḥ caranti. = Deer roam fearlessly in the hermitage.
+śiṣyāḥ guroḥ *āśrame paṭhanti. = The pupils study in the teacher's hermitage.
+
+@ 150 | sthānam | place
+idaṃ *sthānaṃ atīva ramaṇīyam. = This place is very lovely.
+vanaṃ śāntaṃ *sthānam asti. = The forest is a peaceful place.
+atra upaveṣṭuṃ *sthānaṃ nāsti. = There is no place to sit here.
+
+@ 151 | pustakam | book
+etat *pustakaṃ rocakam asti. = This book is interesting.
+chātraḥ *pustakaṃ paṭhati. = The student is reading a book.
+mama syūte pañca *pustakāni santi. = There are five books in my bag.
+
+@ 152 | lekhanī | pen
+mama *lekhanī nīlā asti. = My pen is blue.
+kṛpayā tava *lekhanīṃ dadātu. = Please give me your pen.
+saḥ *lekhanyā patraṃ likhati. = He writes a letter with a pen.
+
+@ 153 | patram | letter
+ahaṃ pitāmahāya *patraṃ likhāmi. = I am writing a letter to Grandfather.
+adya mitrasya *patram āgatam. = A letter from my friend came today.
+mātā *patraṃ paṭhitvā hasati. = Mother reads the letter and smiles.
+
+@ 154 | utpīṭhikā | table
+*utpīṭhikāyāṃ pustakāni santi. = There are books on the table.
+bhojanaṃ *utpīṭhikāyāṃ sthāpaya. = Put the food on the table.
+iyam *utpīṭhikā kāṣṭhena nirmitā. = This table is made of wood.
+
+@ 155 | āsandaḥ | chair
+pitāmahaḥ *āsande upaviśati. = Grandfather sits on the chair.
+ayam *āsandaḥ bhagnaḥ, mā upaviśa. = This chair is broken, don't sit on it.
+atithaye *āsandam ānaya. = Bring a chair for the guest.
+
+@ 156 | śayyā | bed
+śiśuḥ *śayyāyāṃ svapiti. = The baby is sleeping on the bed.
+prātaḥ *śayyāṃ vyavasthāpaya. = Make your bed in the morning.
+mama *śayyā gavākṣasya samīpe asti. = My bed is near the window.
+
+@ 157 | dīpaḥ | lamp
+sāyaṃ mātā *dīpaṃ prajvālayati. = In the evening Mother lights the lamp.
+dīpāvalyāṃ bahavaḥ *dīpāḥ jvalanti. = Many lamps burn at Diwali.
+vāyunā *dīpaḥ nirvāṇaḥ. = The lamp was blown out by the wind.
+
+@ 158 | ghaṭikā | clock; watch
+*ghaṭikāyāṃ daśa vādanam. = It is ten o'clock by the clock.
+pitā mahyaṃ navāṃ *ghaṭikāṃ dattavān. = Father gave me a new watch.
+bhittau ekā *ghaṭikā asti. = There is a clock on the wall.
+
+@ 159 | dūravāṇī | telephone
+*dūravāṇī nadati, kṛpayā paśya. = The phone is ringing, please check.
+ahaṃ *dūravāṇyā mātrā saha vadāmi. = I talk with Mother on the phone.
+mama *dūravāṇī kutra asti? = Where is my phone?
+
+@ 160 | saṅgaṇakam | computer
+bhrātā *saṅgaṇake kāryaṃ karoti. = My brother works on the computer.
+vidyālaye navīnāni *saṅgaṇakāni santi. = There are new computers at school.
+*saṅgaṇakaṃ cālayitum ahaṃ jānāmi. = I know how to use a computer.
+
+@ 161 | syūtaḥ | bag
+mama *syūte pustakāni santi. = There are books in my bag.
+*syūtaḥ atīva guruḥ asti. = The bag is very heavy.
+saḥ *syūtaṃ skandhe dhārayati. = He carries the bag on his shoulder.
+
+@ 162 | vastram | cloth; garment
+dīpāvalyāṃ vayaṃ navīnāni *vastrāṇi dhārayāmaḥ. = At Diwali we wear new clothes.
+mātā *vastrāṇi prakṣālayati. = Mother is washing the clothes.
+idaṃ raktaṃ *vastraṃ kasya? = Whose is this red cloth?
+
+@ 163 | pādatrāṇam | shoe
+mandirāt bahiḥ *pādatrāṇe sthāpaya. = Leave your shoes outside the temple.
+mama *pādatrāṇe jīrṇe staḥ. = My shoes are worn out.
+pitā navīne *pādatrāṇe krīṇāti. = Father is buying a new pair of shoes.
+
+@ 164 | kuñcikā | key
+mama *kuñcikā na labhyate. = I cannot find my key.
+*kuñcikayā dvāram udghāṭaya. = Open the door with the key.
+*kuñcikā utpīṭhikāyāṃ asti. = The key is on the table.
+
+@ 165 | pātram | vessel; pot
+*pātre jalaṃ pūraya. = Fill the pot with water.
+*pātre dugdham asti. = There is milk in the pot.
+bhojanānantaraṃ *pātrāṇi prakṣālaya. = Wash the dishes after the meal.
+
+@ 166 | caṣakaḥ | cup; glass
+ekaṃ *caṣakaṃ jalaṃ dadātu. = Please give me a glass of water.
+*caṣake uṣṇaṃ cāyam asti. = There is hot tea in the cup.
+*caṣakaḥ bhūmau patitvā bhagnaḥ. = The glass fell on the floor and broke.
+
+@ 167 | sthālī | plate
+mātā *sthālyāṃ bhojanaṃ pariveṣayati. = Mother serves the food on a plate.
+*sthālī riktā asti, punaḥ dadātu. = The plate is empty, please give me more.
+bhojanānantaraṃ ahaṃ *sthālīṃ prakṣālayāmi. = I wash my plate after eating.
+
+@ 168 | camasaḥ | spoon
+śiśuḥ *camasena dadhi khādati. = The baby eats yogurt with a spoon.
+*camasena śarkarāṃ yojaya. = Add sugar with a spoon.
+ekaṃ *camasam ānaya. = Bring a spoon.
+
+@ 169 | churikā | knife
+mātā *churikayā phalaṃ kartayati. = Mother cuts the fruit with a knife.
+*churikā tīkṣṇā asti, sāvadhānaḥ bhava. = The knife is sharp, be careful.
+bālāḥ *churikayā na krīḍanti. = Children don't play with knives.
+
+@ 170 | darpaṇaḥ | mirror
+sā *darpaṇe mukhaṃ paśyati. = She looks at her face in the mirror.
+*darpaṇaḥ bhittau lambate. = The mirror hangs on the wall.
+*darpaṇaḥ bhagnaḥ, sāvadhānaṃ cala. = The mirror is broken, walk carefully.
+
+@ 171 | chatram | umbrella
+varṣāyāṃ *chatraṃ nayatu. = Take an umbrella in the rain.
+mama *chatraṃ kṛṣṇavarṇam asti. = My umbrella is black.
+saḥ *chatraṃ vismṛtya āgataḥ. = He came without his umbrella; he forgot it.
+
+@ 172 | dhanam | money; wealth
+mama samīpe adhikaṃ *dhanaṃ nāsti. = I don't have much money with me.
+vidyā sarvottamaṃ *dhanam. = Knowledge is the best wealth.
+saḥ *dhanena pustakāni krīṇāti. = He buys books with the money.
+
+@ 173 | rūpyakam | rupee
+etasya mūlyaṃ daśa *rūpyakāṇi. = This costs ten rupees.
+mama samīpe pañcāśat *rūpyakāṇi santi. = I have fifty rupees with me.
+ekena *rūpyakeṇa kim api na labhyate. = You can't get anything for one rupee.
+
+@ 174 | citram | picture
+bālikā *citraṃ racayati. = The girl is drawing a picture.
+bhittau sundaram *citram asti. = There is a beautiful picture on the wall.
+etat mama pitāmahasya *citram. = This is a picture of my grandfather.
+
+@ 175 | kandukaḥ | ball
+bālakāḥ *kandukena krīḍanti. = The boys are playing with a ball.
+*kandukaḥ vṛkṣe lagnaḥ. = The ball got stuck in the tree.
+mama *kandukaḥ raktavarṇaḥ asti. = My ball is red.
+
+@ 176 | krīḍanakam | toy
+śiśuḥ *krīḍanakena krīḍati. = The baby plays with a toy.
+mātulaḥ mahyaṃ navīnaṃ *krīḍanakam ānayati. = My uncle brings me a new toy.
+*krīḍanakāni peṭikāyāṃ sthāpaya. = Put the toys in the box.
+
+@ 177 | kaṅkatam | comb
+mama *kaṅkataṃ kutra asti? = Where is my comb?
+sā *kaṅkatena keśān prasādhayati. = She combs her hair with a comb.
+*kaṅkataṃ syūte sthāpaya. = Put the comb in the bag.
+
+@ 178 | phenakam | soap
+*phenakena hastau prakṣālaya. = Wash your hands with soap.
+snānāya *phenakam ānaya. = Bring the soap for the bath.
+idaṃ *phenakaṃ sugandhitam asti. = This soap smells nice.
+
+@ 179 | vyajanam | fan
+grīṣme *vyajanaṃ sarvadā calati. = In summer the fan is always running.
+kṛpayā *vyajanaṃ cālayatu. = Please turn on the fan.
+pitāmahī hastena *vyajanaṃ cālayati. = Grandmother waves a hand fan.
+
+@ 180 | yānam | vehicle; car
+mārge bahūni *yānāni calanti. = Many vehicles move on the road.
+pitā *yānena kāryālayaṃ gacchati. = Father goes to the office by car.
+asmākaṃ *yānaṃ śvetavarṇam. = Our car is white.
+
+@ 181 | dvicakrikā | bicycle
+ahaṃ *dvicakrikayā vidyālayaṃ gacchāmi. = I ride my bicycle to school.
+mama *dvicakrikā navīnā asti. = My bicycle is new.
+bhrātā *dvicakrikāṃ cālayituṃ śikṣate. = My brother is learning to ride a bicycle.
+
+@ 182 | naukā | boat
+*naukā nadyāṃ calati. = The boat moves on the river.
+vayaṃ *naukayā nadīṃ tarāmaḥ. = We cross the river by boat.
+dhīvarasya *naukā laghvī asti. = The fisherman's boat is small.
+
+@ 183 | vimānam | aeroplane
+*vimānam ākāśe uḍḍīyate. = The plane flies in the sky.
+vayaṃ *vimānena dillīṃ gamiṣyāmaḥ. = We will go to Delhi by plane.
+śiśuḥ *vimānaṃ dṛṣṭvā hasati. = The baby laughs when it sees the plane.
+
+@ 184 | rathaḥ | chariot
+arjunasya *rathe kṛṣṇaḥ āsīt. = Krishna was on Arjuna's chariot.
+utsave devasya *rathaḥ mārge calati. = At the festival the god's chariot moves along the road.
+*rathaṃ catvāraḥ aśvāḥ karṣanti. = Four horses pull the chariot.
+
+@ 185 | śakaṭam | cart
+kṛṣakaḥ *śakaṭena dhānyaṃ vipaṇiṃ nayati. = The farmer takes grain to market in a cart.
+*śakaṭaṃ dvau vṛṣabhau karṣataḥ. = Two bulls pull the cart.
+*śakaṭe śākāḥ santi. = There are vegetables in the cart.
+
+@ 186 | jalam | water
+pipāsitaḥ ahaṃ *jalaṃ pibāmi. = I am thirsty, so I drink water.
+grīṣme bahu *jalaṃ pibatu. = Drink lots of water in summer.
+nadyāḥ *jalaṃ svaccham asti. = The river water is clear.
+
+@ 187 | dugdham | milk
+pratidinam ekaṃ caṣakaṃ *dugdhaṃ piba. = Drink a glass of milk every day.
+gauḥ *dugdhaṃ dadāti. = The cow gives milk.
+*dugdhe śarkarāṃ mā yojaya. = Don't put sugar in the milk.
+
+@ 188 | annam | food
+*annaṃ vyarthaṃ mā kuru. = Don't waste food.
+kṛṣakaḥ sarvebhyaḥ *annaṃ dadāti. = The farmer provides food for everyone.
+*annaṃ khāditvā saḥ jalaṃ pibati. = After eating, he drinks water.
+
+@ 189 | odanaḥ | cooked rice
+mātā *odanaṃ pacati. = Mother is cooking rice.
+ahaṃ sūpena saha *odanaṃ khādāmi. = I eat rice with dal.
+*odanaḥ uṣṇaḥ asti. = The rice is hot.
+
+@ 190 | roṭikā | flatbread; chapati
+pitāmahī *roṭikāḥ pacati. = Grandmother is making chapatis.
+ahaṃ dve *roṭike khādāmi. = I eat two chapatis.
+*roṭikayā saha śākaṃ khāda. = Eat the vegetables with a chapati.
+
+@ 191 | phalam | fruit
+pratidinam ekaṃ *phalaṃ khāda. = Eat one fruit every day.
+vṛkṣe bahūni *phalāni santi. = There are many fruits on the tree.
+idaṃ *phalaṃ pakvam asti. = This fruit is ripe.
+
+@ 192 | śākaḥ | vegetable
+mātā vipaṇeḥ *śākān ānayati. = Mother brings vegetables from the market.
+haritāḥ *śākāḥ svāsthyāya hitāḥ. = Green vegetables are good for health.
+adya kaḥ *śākaḥ pakvaḥ? = Which vegetable is cooked today?
+
+@ 193 | madhu | honey
+bhramarāḥ *madhu saṅgṛhṇanti. = Bees collect honey.
+*madhu madhuraṃ bhavati. = Honey is sweet.
+pitāmahaḥ uṣṇajalena saha *madhu pibati. = Grandfather takes honey with warm water.
+
+@ 194 | śarkarā | sugar
+cāye alpāṃ *śarkarāṃ yojaya. = Put a little sugar in the tea.
+*śarkarā samāptā, āpaṇāt ānaya. = The sugar has run out; bring some from the shop.
+pipīlikāḥ *śarkarāyāḥ samīpe āgacchanti. = Ants come near the sugar.
+
+@ 195 | lavaṇam | salt
+śāke *lavaṇaṃ nāsti. = There is no salt in the vegetables.
+samudrāt *lavaṇaṃ prāpyate. = Salt is obtained from the sea.
+atyadhikaṃ *lavaṇaṃ na khādet. = One should not eat too much salt.
+
+@ 196 | ghṛtam | ghee
+roṭikāyāṃ *ghṛtaṃ lepaya. = Spread ghee on the chapati.
+mātā *ghṛtena dīpaṃ prajvālayati. = Mother lights the lamp with ghee.
+gavyaṃ *ghṛtaṃ śuddham. = Cow's ghee is pure.
+
+@ 197 | dadhi | yogurt
+grīṣme *dadhi śītalaṃ bhavati. = In summer yogurt is cooling.
+ahaṃ odanena saha *dadhi khādāmi. = I eat yogurt with rice.
+mātā dugdhāt *dadhi karoti. = Mother makes yogurt from milk.
+
+@ 198 | cāyam | tea
+prātaḥ ahaṃ *cāyaṃ pibāmi. = I drink tea in the morning.
+kṛpayā *cāyaṃ svīkarotu. = Please have some tea.
+*cāyam atīva uṣṇam asti. = The tea is very hot.
+
+@ 199 | āmram | mango
+*āmraṃ phalānāṃ rājā. = The mango is the king of fruits.
+grīṣme vayaṃ *āmrāṇi khādāmaḥ. = We eat mangoes in summer.
+idam *āmraṃ madhuram asti. = This mango is sweet.
+
+@ 200 | kadalīphalam | banana
+vānaraḥ *kadalīphalaṃ khādati. = The monkey is eating a banana.
+ahaṃ prātaḥ ekaṃ *kadalīphalaṃ khādāmi. = I eat a banana in the morning.
+*kadalīphalāni pītāni santi. = The bananas are yellow.
+
+@ 201 | nāraṅgam | orange
+*nāraṅgasya rasaḥ madhuraḥ asti. = Orange juice is sweet.
+śītakāle vipaṇyāṃ bahūni *nāraṅgāṇi bhavanti. = In winter there are many oranges in the market.
+mātā mahyaṃ ekaṃ *nāraṅgaṃ dadāti. = Mother gives me an orange.
+
+@ 202 | sevaphalam | apple
+*sevaphalaṃ raktavarṇam asti. = The apple is red.
+kaśmīre bahūni *sevaphalāni bhavanti. = Many apples grow in Kashmir.
+ahaṃ *sevaphalaṃ churikayā kartayāmi. = I cut the apple with a knife.
+
+@ 203 | bhojanam | meal; food
+*bhojanaṃ siddham, āgacchantu. = The meal is ready, come.
+madhyāhne vayaṃ *bhojanaṃ kurmaḥ. = We eat lunch at noon.
+pitāmahyāḥ *bhojanaṃ svādu bhavati. = Grandmother's food is tasty.
+
+@ 204 | pāyasam | rice pudding
+janmadine mātā *pāyasaṃ pacati. = On my birthday Mother makes rice pudding.
+*pāyasam atīva madhuram asti. = The rice pudding is very sweet.
+mandire *pāyasaṃ prasādarūpeṇa dīyate. = Rice pudding is given as prasad in the temple.
+
+@ 205 | modakaḥ | modaka (sweet dumpling)
+gaṇeśāya *modakāḥ rocante. = Ganesha likes modakas.
+pitāmahī *modakān pacati. = Grandmother is making modakas.
+bālakaḥ dvau *modakau khādati. = The boy eats two modakas.
+
+@ 206 | ālukam | potato
+mātā *ālukāni kartayati. = Mother is cutting potatoes.
+*ālukāni bhūmeḥ adhaḥ vardhante. = Potatoes grow under the ground.
+mahyam *ālukasya śākaḥ rocate. = I like potato curry.
+
+@ 207 | tailam | oil
+*taile pūrikāḥ pacyante. = Puris are fried in oil.
+dīpe *tailaṃ nāsti. = There is no oil in the lamp.
+pitāmahī keśeṣu *tailaṃ lepayati. = Grandmother puts oil on her hair.
+
+@ 208 | navanītam | butter
+bālakṛṣṇaḥ *navanītaṃ corayati. = Little Krishna steals butter.
+roṭikāyāṃ *navanītaṃ lepaya. = Spread butter on the chapati.
+dadhnaḥ *navanītaṃ bhavati. = Butter comes from yogurt.
+
+@ 209 | rasaḥ | juice
+grīṣme ahaṃ phalānāṃ *rasaṃ pibāmi. = In summer I drink fruit juice.
+ikṣoḥ *rasaḥ madhuraḥ bhavati. = Sugarcane juice is sweet.
+ekaṃ caṣakaṃ *rasaṃ dadātu. = Please give me a glass of juice.
+
+@ 210 | miṣṭānnam | sweets
+utsave vayaṃ *miṣṭānnaṃ khādāmaḥ. = We eat sweets at the festival.
+atithaye *miṣṭānnaṃ dīyatām. = Let sweets be given to the guest.
+atyadhikaṃ *miṣṭānnaṃ dantebhyaḥ ahitam. = Too many sweets are bad for the teeth.
+
+@ 211 | takram | buttermilk
+grīṣme *takraṃ śarīraṃ śītalaṃ karoti. = In summer buttermilk cools the body.
+bhojanānantaraṃ pitā *takraṃ pibati. = Father drinks buttermilk after the meal.
+*takre lavaṇaṃ jīrakaṃ ca yojaya. = Add salt and cumin to the buttermilk.
+
+@ 212 | drākṣā | grape
+*drākṣāḥ haritāḥ madhurāḥ ca santi. = The grapes are green and sweet.
+śṛgālaḥ *drākṣāḥ prāptuṃ na śaknoti. = The fox cannot reach the grapes.
+mātā vipaṇeḥ *drākṣāḥ krīṇāti. = Mother buys grapes at the market.
+
+@ 213 | nārikelam | coconut
+*nārikelasya jalaṃ madhuram. = Coconut water is sweet.
+keraleṣu bahavaḥ *nārikelavṛkṣāḥ santi. = There are many coconut trees in Kerala.
+mandire bhaktāḥ *nārikelaṃ samarpayanti. = Devotees offer a coconut in the temple.
+
+@ 214 | marīcikā | chilli
+*marīcikā tīkṣṇā bhavati. = Chilli is hot.
+śāke adhikāṃ *marīcikāṃ mā yojaya. = Don't put too much chilli in the curry.
+haritā *marīcikā kṣetre vardhate. = Green chillies are growing in the field.
+
+@ 215 | sūpaḥ | dal; soup
+*sūpaḥ uṣṇaḥ svāduḥ ca asti. = The dal is hot and tasty.
+odanena saha *sūpaṃ khāda. = Eat dal with rice.
+mātā mudgasya *sūpaṃ pacati. = Mother is making mung dal.
+
+@ 216 | apūpaḥ | cake
+janmadine *apūpaṃ kartayāmaḥ. = We cut a cake on the birthday.
+pitā āpaṇāt *apūpam ānayati. = Father brings a cake from the shop.
+ayam *apūpaḥ atīva madhuraḥ. = This cake is very sweet.
+
+@ 217 | taṇḍulaḥ | rice grain
+kṛṣakaḥ kṣetre *taṇḍulān utpādayati. = The farmer grows rice in the field.
+mātā *taṇḍulān jalena prakṣālayati. = Mother washes the rice in water.
+khagāḥ bhūmau *taṇḍulān khādanti. = The birds eat rice grains on the ground.
+
+@ 218 | godhūmaḥ | wheat
+*godhūmāt roṭikāḥ kriyante. = Chapatis are made from wheat.
+pañjābe bahuḥ *godhūmaḥ utpadyate. = A lot of wheat is grown in Punjab.
+kṣetre *godhūmāḥ pītāḥ jātāḥ. = The wheat in the field has turned golden.
+
+@ 219 | pānīyam | drinking water
+yātrī *pānīyaṃ yācate. = The traveller asks for drinking water.
+mārge *pānīyasya vyavasthā asti. = There is drinking water along the road.
+kūpasya *pānīyaṃ śītalaṃ madhuraṃ ca. = The water from the well is cool and sweet.
+
+@ 220 | kṣudhā | hunger
+mama *kṣudhā vardhate, bhojanaṃ kadā? = I'm getting hungry; when is the meal?
+*kṣudhayā śiśuḥ rodati. = The baby is crying from hunger.
+krīḍanānantaraṃ tīvrā *kṣudhā bhavati. = After playing you get very hungry.
+
+@ 221 | kukkuraḥ | dog
+*kukkuraḥ gṛhaṃ rakṣati. = The dog guards the house.
+rātrau *kukkurāḥ bhaṣanti. = Dogs bark at night.
+bālakaḥ *kukkurāya roṭikāṃ dadāti. = The boy gives a chapati to the dog.
+
+@ 222 | mārjāraḥ | cat
+*mārjāraḥ dugdhaṃ pibati. = The cat drinks milk.
+*mārjāraḥ mūṣakam anudhāvati. = The cat chases the mouse.
+*mārjāraḥ gavākṣe svapiti. = The cat is sleeping on the windowsill.
+
+@ 223 | gauḥ | cow
+*gauḥ kṣetre tṛṇaṃ carati. = The cow grazes in the field.
+asmākaṃ *gauḥ bahu dugdhaṃ dadāti. = Our cow gives a lot of milk.
+bālikā *gāṃ snehena spṛśati. = The girl gently strokes the cow.
+
+@ 224 | aśvaḥ | horse
+*aśvaḥ vegena dhāvati. = The horse runs swiftly.
+rājā *aśvam ārohati. = The king mounts the horse.
+*aśvāḥ ghāsaṃ khādanti. = The horses are eating grass.
+
+@ 225 | gajaḥ | elephant
+*gajaḥ viśālaḥ paśuḥ asti. = The elephant is a huge animal.
+*gajasya śuṇḍā dīrghā bhavati. = The elephant has a long trunk.
+utsave alaṅkṛtāḥ *gajāḥ calanti. = Decorated elephants walk in the festival.
+
+@ 226 | siṃhaḥ | lion
+*siṃhaḥ vanasya rājā. = The lion is the king of the forest.
+*siṃhasya garjanaṃ śrutvā mṛgāḥ dhāvanti. = Hearing the lion's roar, the deer run away.
+prāṇisaṅgrahālaye ekaḥ *siṃhaḥ asti. = There is a lion in the zoo.
+
+@ 227 | vyāghraḥ | tiger
+*vyāghraḥ bhāratasya rāṣṭriyapaśuḥ. = The tiger is India's national animal.
+vane ekaḥ *vyāghraḥ jalaṃ pibati. = In the forest a tiger is drinking water.
+*vyāghrasya śarīre kṛṣṇāḥ rekhāḥ santi. = A tiger has black stripes on its body.
+
+@ 228 | vānaraḥ | monkey
+*vānaraḥ vṛkṣe kūrdati. = The monkey jumps in the tree.
+*vānarāḥ mandirasya phalāni haranti. = The monkeys steal fruit from the temple.
+bālāḥ *vānaraṃ dṛṣṭvā hasanti. = The children laugh when they see the monkey.
+
+@ 229 | mṛgaḥ | deer
+*mṛgaḥ vane śīghraṃ dhāvati. = The deer runs fast in the forest.
+sītā suvarṇamayaṃ *mṛgaṃ paśyati. = Sita sees a golden deer.
+*mṛgāḥ sarovare jalaṃ pibanti. = The deer drink water at the lake.
+
+@ 230 | śṛgālaḥ | jackal; fox
+*śṛgālaḥ caturaḥ bhavati. = The jackal is clever.
+rātrau *śṛgālāḥ krośanti. = Jackals howl at night.
+*śṛgālaḥ kākāt roṭikāṃ gṛhṇāti. = The fox takes the bread from the crow.
+
+@ 231 | kākaḥ | crow
+*kākaḥ kṛṣṇavarṇaḥ bhavati. = The crow is black.
+pipāsitaḥ *kākaḥ ghaṭe pāṣāṇān kṣipati. = The thirsty crow drops pebbles into the pot.
+prātaḥ *kākāḥ kā{caw} kā{caw} iti ravanti. = In the morning the crows go caw-caw.
+
+@ 232 | śukaḥ | parrot
+*śukaḥ haritavarṇaḥ asti. = The parrot is green.
+*śukaḥ rāma rāma iti vadati. = The parrot says "Rama, Rama".
+*śukāḥ āmravṛkṣe phalāni khādanti. = The parrots eat fruit in the mango tree.
+
+@ 233 | mayūraḥ | peacock
+*mayūraḥ bhāratasya rāṣṭriyapakṣī. = The peacock is India's national bird.
+varṣāyāṃ *mayūraḥ nṛtyati. = The peacock dances in the rain.
+*mayūrasya pucchaṃ sundaram asti. = The peacock's tail is beautiful.
+
+@ 234 | khagaḥ | bird
+*khagāḥ ākāśe uḍḍīyante. = Birds fly in the sky.
+prātaḥ *khagāḥ madhuraṃ kūjanti. = In the morning the birds sing sweetly.
+vṛkṣe ekasya *khagasya nīḍam asti. = There is a bird's nest in the tree.
+
+@ 235 | matsyaḥ | fish
+*matsyāḥ jale vasanti. = Fish live in water.
+sarovare raktāḥ *matsyāḥ taranti. = Red fish swim in the lake.
+dhīvaraḥ ekaṃ mahāntaṃ *matsyaṃ gṛhṇāti. = The fisherman catches a big fish.
+
+@ 236 | sarpaḥ | snake
+*sarpaḥ tṛṇe gacchati. = A snake is moving through the grass.
+*sarpāt sarve bibhyati. = Everyone is afraid of snakes.
+kṛṣakaḥ kṣetre ekaṃ *sarpaṃ paśyati. = The farmer sees a snake in the field.
+
+@ 237 | mūṣakaḥ | mouse
+*mūṣakaḥ gaṇeśasya vāhanam. = The mouse is Ganesha's mount.
+mārjāraṃ dṛṣṭvā *mūṣakaḥ dhāvati. = Seeing the cat, the mouse runs away.
+pākaśālāyām ekaḥ *mūṣakaḥ asti. = There is a mouse in the kitchen.
+
+@ 238 | ajā | goat
+*ajā tṛṇaṃ carati. = The goat is grazing.
+kṛṣakasya samīpe pañca *ajāḥ santi. = The farmer has five goats.
+*ajāyāḥ dugdhaṃ hitakaram. = Goat's milk is healthy.
+
+@ 239 | kūrmaḥ | turtle; tortoise
+*kūrmaḥ mandaṃ mandaṃ calati. = The tortoise walks very slowly.
+*kūrmaḥ śaśakaṃ dhāvane jayati. = The tortoise beats the hare in the race.
+sarovare ekaḥ vṛddhaḥ *kūrmaḥ vasati. = An old turtle lives in the lake.
+
+@ 240 | maṇḍūkaḥ | frog
+varṣāyāṃ *maṇḍūkāḥ ravanti. = Frogs croak in the rainy season.
+*maṇḍūkaḥ jalāt bahiḥ kūrdati. = The frog jumps out of the water.
+bālāḥ *maṇḍūkāḥ iva kūrdanti. = The children jump like frogs.
+
+@ 241 | haṃsaḥ | swan
+*haṃsaḥ śvetavarṇaḥ bhavati. = The swan is white.
+sarovare dvau *haṃsau tarataḥ. = Two swans are swimming on the lake.
+*haṃsāḥ mānasasarovaraṃ gacchanti. = The swans fly to Lake Manasarovar.
+
+@ 242 | kokilaḥ | cuckoo
+vasante *kokilaḥ madhuraṃ kūjati. = In spring the cuckoo sings sweetly.
+*kokilasya svaraḥ madhuraḥ, kintu varṇaḥ kṛṣṇaḥ. = The cuckoo's voice is sweet but its colour is black.
+āmravṛkṣe ekaḥ *kokilaḥ upaviśati. = A cuckoo is sitting in the mango tree.
+
+@ 243 | bhramaraḥ | bee
+*bhramaraḥ puṣpāt puṣpaṃ gacchati. = The bee goes from flower to flower.
+*bhramarāḥ guñjanti. = The bees are buzzing.
+bālikā *bhramarāt bibheti. = The girl is afraid of the bee.
+
+@ 244 | śaśakaḥ | rabbit; hare
+*śaśakaḥ śīghraṃ dhāvati. = The hare runs fast.
+*śaśakasya karṇau dīrghau staḥ. = The rabbit has long ears.
+bālikā *śaśakāya gṛñjanakaṃ dadāti. = The girl gives a carrot to the rabbit.
+
+@ 245 | uṣṭraḥ | camel
+*uṣṭraḥ marusthale calati. = The camel walks in the desert.
+*uṣṭraḥ bahūni dināni jalaṃ vinā jīvati. = A camel lives many days without water.
+rājasthāne janāḥ *uṣṭram ārohanti. = In Rajasthan people ride camels.
+
+@ 246 | sūryaḥ | sun
+*sūryaḥ pūrvasyāṃ diśi udeti. = The sun rises in the east.
+grīṣme *sūryaḥ tīvraṃ tapati. = In summer the sun shines fiercely.
+sāyaṃ *sūryaḥ astaṃ gacchati. = In the evening the sun sets.
+
+@ 247 | candraḥ | moon
+rātrau *candraḥ prakāśate. = The moon shines at night.
+adya pūrṇimā, *candraḥ pūrṇaḥ asti. = Today is the full moon; the moon is full.
+śiśuḥ *candraṃ dṛṣṭvā prasīdati. = The baby is delighted to see the moon.
+
+@ 248 | tārakā | star
+ākāśe bahvyaḥ *tārakāḥ santi. = There are many stars in the sky.
+rātrau *tārakāḥ dīpyante. = The stars shine at night.
+*tārakāṃ paśya, sā atīva dīptā. = Look at that star; it is very bright.
+
+@ 249 | ākāśaḥ | sky
+*ākāśaḥ nīlaḥ asti. = The sky is blue.
+*ākāśe meghāḥ santi. = There are clouds in the sky.
+rātrau *ākāśaṃ paśya, tārakāḥ dṛśyante. = Look at the sky at night; you can see the stars.
+
+@ 250 | meghaḥ | cloud
+*meghāḥ kṛṣṇāḥ santi, varṣā bhaviṣyati. = The clouds are dark; it is going to rain.
+ākāśe śvetāḥ *meghāḥ calanti. = White clouds are drifting in the sky.
+*meghaṃ dṛṣṭvā mayūraḥ nṛtyati. = Seeing the cloud, the peacock dances.
+
+@ 251 | varṣā | rain
+*varṣā bhavati, chatraṃ nayatu. = It is raining; take an umbrella.
+*varṣāyāṃ kṣetrāṇi haritāni bhavanti. = The fields turn green in the rain.
+*varṣāyāḥ anantaram indradhanuḥ dṛśyate. = After the rain a rainbow appears.
+
+@ 252 | vāyuḥ | wind; air
+śītalaḥ *vāyuḥ vahati. = A cool wind is blowing.
+*vāyunā vṛkṣasya parṇāni patanti. = The leaves fall from the tree in the wind.
+prātaḥ *vāyuḥ śuddhaḥ bhavati. = The air is fresh in the morning.
+
+@ 253 | agniḥ | fire
+śītakāle vayam *agneḥ samīpe upaviśāmaḥ. = In winter we sit near the fire.
+*agniṃ mā spṛśa. = Don't touch the fire.
+*agninā kāṣṭhaṃ jvalati. = The wood burns in the fire.
+
+@ 254 | vṛkṣaḥ | tree
+*vṛkṣaḥ chāyāṃ phalāni ca dadāti. = A tree gives shade and fruit.
+udyāne ekaḥ vṛddhaḥ *vṛkṣaḥ asti. = There is an old tree in the park.
+*vṛkṣān mā chinda. = Do not cut down trees.
+
+@ 255 | puṣpam | flower
+*puṣpāṇi vikasanti. = The flowers are blooming.
+bālikā devāya *puṣpaṃ samarpayati. = The girl offers a flower to the god.
+idaṃ raktaṃ *puṣpaṃ sugandhitam asti. = This red flower smells sweet.
+
+@ 256 | parṇam | leaf
+śiśire vṛkṣāṇāṃ *parṇāni patanti. = In late winter leaves fall from the trees.
+*parṇaṃ haritam asti. = The leaf is green.
+vāyunā *parṇāni ūrdhvaṃ gacchanti. = The leaves fly up in the wind.
+
+@ 257 | bhūmiḥ | ground; earth
+*bhūmau mā upaviśa, āsandaḥ asti. = Don't sit on the ground; there is a chair.
+varṣayā *bhūmiḥ ārdrā asti. = The ground is wet from the rain.
+kṛṣakaḥ *bhūmiṃ karṣati. = The farmer ploughs the land.
+
+@ 258 | prakāśaḥ | light
+*prakāśaḥ gavākṣāt āgacchati. = Light comes in through the window.
+sūryāt *prakāśaḥ prāpyate. = Light comes from the sun.
+dīpasya *prakāśe ahaṃ paṭhāmi. = I read by the light of the lamp.
+
+@ 259 | andhakāraḥ | darkness
+rātrau sarvatra *andhakāraḥ bhavati. = At night it is dark everywhere.
+śiśuḥ *andhakārāt bibheti. = The child is afraid of the dark.
+dīpaḥ *andhakāraṃ nāśayati. = A lamp drives away darkness.
+
+@ 260 | śilā | rock; stone
+nadyāṃ mahatī *śilā asti. = There is a big rock in the river.
+yātrī *śilāyām upaviśati. = The traveller sits on a rock.
+iyaṃ *śilā atīva guruḥ. = This stone is very heavy.
+
+@ 261 | himam | snow
+himālaye sarvadā *himaṃ bhavati. = There is always snow in the Himalaya.
+*himaṃ śvetaṃ śītalaṃ ca. = Snow is white and cold.
+śītakāle parvate *himaṃ patati. = In winter snow falls on the mountain.
+
+@ 262 | dhūliḥ | dust
+mārge bahvī *dhūliḥ asti. = There is a lot of dust on the road.
+pustakeṣu *dhūliḥ patitā. = Dust has settled on the books.
+vāyunā *dhūliḥ uḍḍīyate. = Dust blows about in the wind.
+
+@ 263 | tṛṇam | grass
+gāvaḥ *tṛṇaṃ khādanti. = Cows eat grass.
+udyāne haritaṃ *tṛṇam asti. = There is green grass in the park.
+prātaḥ *tṛṇe himabindavaḥ dṛśyante. = In the morning dewdrops can be seen on the grass.
+
+@ 264 | śākhā | branch
+vānaraḥ *śākhāyāṃ lambate. = The monkey hangs from a branch.
+vāyunā *śākhā bhagnā. = The branch broke in the wind.
+khagaḥ *śākhāyām upaviśya gāyati. = A bird sits on the branch and sings.
+
+@ 265 | ṛtuḥ | season
+bhārate ṣaṭ *ṛtavaḥ santi. = There are six seasons in India.
+tava priyaḥ *ṛtuḥ kaḥ? = What is your favourite season?
+varṣā *ṛtuḥ kṛṣakebhyaḥ hitaḥ. = The rainy season is good for farmers.
+
+@ 266 | vasantaḥ | spring
+*vasante puṣpāṇi vikasanti. = Flowers bloom in spring.
+*vasantaḥ ṛtūnāṃ rājā. = Spring is the king of seasons.
+*vasante kokilaḥ kūjati. = The cuckoo sings in spring.
+
+@ 267 | grīṣmaḥ | summer
+*grīṣme dinaṃ dīrghaṃ bhavati. = In summer the days are long.
+*grīṣmaḥ atīva uṣṇaḥ asti. = The summer is very hot.
+*grīṣmāvakāśe vayaṃ parvataṃ gacchāmaḥ. = In the summer holidays we go to the mountains.
+
+@ 268 | śītakālaḥ | winter
+*śītakāle rātriḥ dīrghā bhavati. = In winter the nights are long.
+*śītakāle ūrṇāvastraṃ dhāraya. = Wear woollen clothes in winter.
+*śītakālaḥ mahyaṃ rocate. = I like winter.
+
+@ 269 | ātapaḥ | sunshine; heat of the sun
+pitāmahaḥ *ātape upaviśati. = Grandfather sits in the sunshine.
+madhyāhne *ātapaḥ tīvraḥ bhavati. = The sun is strong at noon.
+*ātapāt rakṣituṃ chatraṃ nayatu. = Take an umbrella to protect yourself from the sun.
+
+@ 270 | dhūmaḥ | smoke
+pākaśālāyāḥ *dhūmaḥ nirgacchati. = Smoke is coming out of the kitchen.
+yatra *dhūmaḥ tatra agniḥ. = Where there is smoke, there is fire.
+*dhūmena mama netrābhyām aśrūṇi patanti. = Tears fall from my eyes because of the smoke.
+
+@ 271 | dinam | day
+saptāhe sapta *dināni bhavanti. = A week has seven days.
+adya sundaraṃ *dinam asti. = It is a lovely day today.
+ahaṃ pratidinaṃ vyāyāmaṃ karomi, ekam api *dinaṃ na tyajāmi. = I exercise daily and don't skip a single day.
+
+@ 272 | rātriḥ | night
+*rātrau tārakāḥ dṛśyante. = Stars are seen at night.
+*rātriḥ śāntā asti. = The night is quiet.
+śītakāle *rātriḥ dīrghā, grīṣme laghvī. = Nights are long in winter and short in summer.
+
+@ 273 | prātaḥ | in the morning
+ahaṃ *prātaḥ ṣaḍvādane uttiṣṭhāmi. = I get up at six in the morning.
+*prātaḥ vāyuḥ śītalaḥ bhavati. = The breeze is cool in the morning.
+pitāmahī *prātaḥ snānaṃ karoti. = Grandmother bathes in the morning.
+
+@ 274 | sāyam | in the evening
+*sāyaṃ vayaṃ krīḍāmaḥ. = We play in the evening.
+pitā *sāyaṃ ṣaḍvādane āgacchati. = Father comes home at six in the evening.
+*sāyaṃ mandire ārārtikaṃ bhavati. = In the evening there is an aarti in the temple.
+
+@ 275 | madhyāhnaḥ | noon
+*madhyāhne mārgaḥ nirjanaḥ bhavati. = At noon the road is empty.
+*madhyāhnaḥ atīva uṣṇaḥ. = Noon is very hot.
+vidyālayaḥ *madhyāhne samāpyate. = School finishes at noon.
+
+@ 276 | vādanam | o'clock
+idānīṃ kati *vādanam? = What time is it now?
+vidyālayaḥ navavādane ārabhate, idānīm aṣṭa *vādanam. = School starts at nine; now it is eight o'clock.
+rātrau daśa *vādanaṃ jātam, svapihi. = It's ten o'clock at night; go to sleep.
+
+@ 277 | nimeṣaḥ | minute; moment
+pañca *nimeṣān pratīkṣatām. = Please wait five minutes.
+ekasmin *nimeṣe āgacchāmi. = I'll come in a minute.
+bhūmiyānaṃ daśa *nimeṣeṣu āgamiṣyati. = The bus will come in ten minutes.
+
+@ 278 | horā | hour
+ahaṃ pratidinam ekāṃ *horāṃ paṭhāmi. = I study for an hour every day.
+dinasya caturviṃśatiḥ *horāḥ bhavanti. = A day has twenty-four hours.
+nagaraṃ gantuṃ dve *hore āvaśyake. = It takes two hours to get to the city.
+
+@ 279 | saptāhaḥ | week
+ayaṃ *saptāhaḥ atīva vyastaḥ āsīt. = This week was very busy.
+āgāmini *saptāhe parīkṣā asti. = The exam is next week.
+mātulaḥ ekaṃ *saptāhaṃ asmākaṃ gṛhe vasati. = My uncle is staying with us for a week.
+
+@ 280 | māsaḥ | month
+*māse triṃśat dināni bhavanti. = A month has thirty days.
+āgāmini *māse mama janmadinam. = My birthday is next month.
+varṣe dvādaśa *māsāḥ bhavanti. = There are twelve months in a year.
+
+@ 281 | varṣam | year
+mama bhrātā daśa *varṣāṇi vayaskaḥ. = My brother is ten years old.
+pratyekasmin *varṣe vayaṃ kāśīṃ gacchāmaḥ. = Every year we go to Kashi.
+nūtanasya *varṣasya śubhāśayāḥ! = Happy New Year!
+
+@ 282 | samayaḥ | time
+idānīṃ krīḍāyāḥ *samayaḥ nāsti. = There is no time for play now.
+*samayaḥ dhanāt api mūlyavān. = Time is more valuable than money.
+kṛpayā *samaye āgacchatu. = Please come on time.
+
+@ 283 | sarvadā | always
+*sarvadā satyaṃ vada. = Always tell the truth.
+mama mātā *sarvadā prasannā bhavati. = My mother is always cheerful.
+saḥ *sarvadā samaye vidyālayaṃ gacchati. = He always goes to school on time.
+
+@ 284 | kadāpi | ever (with na: never)
+ahaṃ *kadāpi asatyaṃ na vadāmi. = I never tell lies.
+saḥ *kadāpi vilambena na āgacchati. = He is never late.
+kiṃ tvaṃ *kadāpi samudraṃ dṛṣṭavān? = Have you ever seen the sea?
+
+@ 285 | prāyaḥ | usually; mostly
+ahaṃ *prāyaḥ padbhyāṃ vidyālayaṃ gacchāmi. = I usually walk to school.
+grīṣme *prāyaḥ varṣā na bhavati. = It usually doesn't rain in summer.
+pitā *prāyaḥ sāyaṃ samācāraṃ śṛṇoti. = Father usually listens to the news in the evening.
+
+@ 286 | kadācit | sometimes; once
+*kadācit vayaṃ bhojanālaye bhojanaṃ kurmaḥ. = Sometimes we eat at a restaurant.
+saḥ *kadācit eva hasati. = He only rarely laughs.
+*kadācit ekaḥ rājā āsīt. = Once there was a king.
+
+@ 287 | jhaṭiti | at once; immediately
+*jhaṭiti āgaccha! = Come at once!
+dūravāṇīṃ śrutvā saḥ *jhaṭiti uttiṣṭhati. = Hearing the phone, he gets up immediately.
+vaidyaḥ *jhaṭiti cikitsālayam āgataḥ. = The doctor came to the hospital immediately.
+
+@ 288 | śanaiḥ | slowly; gently
+*śanaiḥ cala, mārgaḥ ārdraḥ. = Walk slowly, the road is wet.
+kūrmaḥ *śanaiḥ śanaiḥ gacchati. = The tortoise moves very slowly.
+mātā śiśuṃ *śanaiḥ śayyāyāṃ sthāpayati. = Mother gently lays the baby on the bed.
+
+@ 289 | paścāt | later; afterwards
+ahaṃ *paścāt āgamiṣyāmi. = I will come later.
+bhojanāt *paścāt vayaṃ krīḍāmaḥ. = After the meal we play.
+pañca nimeṣebhyaḥ *paścāt bhūmiyānam āgatam. = The bus came five minutes later.
+
+@ 290 | pūrvam | before; earlier
+snānāt *pūrvaṃ vyāyāmaṃ karomi. = I exercise before my bath.
+sūryodayāt *pūrvam ahaṃ uttiṣṭhāmi. = I get up before sunrise.
+*pūrvam atra ekaṃ vanam āsīt. = There used to be a forest here.
+
+@ 291 | ravivāsaraḥ | Sunday
+*ravivāsare vidyālayaḥ na bhavati. = There is no school on Sunday.
+*ravivāsare vayaṃ udyānaṃ gacchāmaḥ. = On Sunday we go to the park.
+śvaḥ *ravivāsaraḥ, ahaṃ vilambena uttiṣṭhāmi. = Tomorrow is Sunday; I will get up late.
+
+@ 292 | somavāsaraḥ | Monday
+*somavāsare vidyālayaḥ punaḥ ārabhate. = School starts again on Monday.
+pitāmahī *somavāsare upavāsaṃ karoti. = Grandmother fasts on Mondays.
+adya *somavāsaraḥ, gaṇitasya parīkṣā asti. = Today is Monday; there is a maths test.
+
+@ 293 | maṅgalavāsaraḥ | Tuesday
+*maṅgalavāsare hanumanmandire bahavaḥ janāḥ bhavanti. = On Tuesday there are many people at the Hanuman temple.
+*maṅgalavāsare mama nṛtyakakṣyā asti. = I have dance class on Tuesday.
+hyaḥ somavāsaraḥ āsīt, adya *maṅgalavāsaraḥ. = Yesterday was Monday; today is Tuesday.
+
+@ 294 | budhavāsaraḥ | Wednesday
+*budhavāsare vipaṇiḥ pihitā bhavati. = The market is closed on Wednesday.
+āgāmini *budhavāsare mātulaḥ āgamiṣyati. = My uncle will come next Wednesday.
+*budhavāsaraḥ saptāhasya madhye bhavati. = Wednesday is in the middle of the week.
+
+@ 295 | guruvāsaraḥ | Thursday
+*guruvāsare vayaṃ saṅgītaṃ śikṣāmahe. = On Thursday we learn music.
+*guruvāsare pustakālayaḥ sāyaṃ pihitaḥ. = On Thursday the library is closed in the evening.
+śvaḥ *guruvāsaraḥ, krīḍāspardhā bhaviṣyati. = Tomorrow is Thursday; there will be a sports competition.
+
+@ 296 | śukravāsaraḥ | Friday
+*śukravāsare vidyālaye citrakalāyāḥ kakṣyā bhavati. = On Friday there is an art class at school.
+*śukravāsaraḥ saptāhasya antimaḥ kāryadivasaḥ. = Friday is the last working day of the week.
+*śukravāsare sāyaṃ vayaṃ calacitraṃ paśyāmaḥ. = On Friday evening we watch a film.
+
+@ 297 | śanivāsaraḥ | Saturday
+*śanivāsare vidyālayaḥ madhyāhne samāpyate. = On Saturday school ends at noon.
+*śanivāsare ahaṃ pitāmahasya gṛhaṃ gacchāmi. = On Saturday I go to my grandfather's house.
+adya *śanivāsaraḥ, śvaḥ avakāśaḥ. = Today is Saturday; tomorrow is a holiday.
+
+@ 298 | paraśvaḥ | day after tomorrow
+*paraśvaḥ mama janmadinam. = The day after tomorrow is my birthday.
+vayaṃ *paraśvaḥ grāmaṃ gamiṣyāmaḥ. = We will go to the village the day after tomorrow.
+parīkṣā śvaḥ na, *paraśvaḥ bhaviṣyati. = The exam is not tomorrow but the day after.
+
+@ 299 | utsavaḥ | festival
+dīpāvalī prakāśasya *utsavaḥ. = Diwali is the festival of lights.
+grāme *utsave sarve nṛtyanti. = Everyone dances at the village festival.
+*utsavāya vayaṃ gṛhaṃ alaṅkurmaḥ. = We decorate the house for the festival.
+
+@ 300 | janmadinam | birthday
+adya mama *janmadinam. = Today is my birthday.
+tava *janmadinaṃ kadā? = When is your birthday?
+*janmadine mitrāṇi upahārān ānayanti. = Friends bring presents on my birthday.
+
+@ 301 | ekam | one
+mama samīpe *ekaṃ pustakam asti. = I have one book.
+vṛkṣe *ekaṃ phalam eva avaśiṣṭam. = Only one fruit is left on the tree.
+*ekaṃ caṣakaṃ dugdhaṃ pibāmi. = I drink one glass of milk.
+
+@ 302 | dve | two
+mama *dve bhaginyau staḥ. = I have two sisters.
+*dve phale utpīṭhikāyāṃ staḥ. = There are two fruits on the table.
+ahaṃ *dve roṭike khāditavān. = I ate two chapatis.
+
+@ 303 | trīṇi | three
+utpīṭhikāyāṃ *trīṇi pustakāni santi. = There are three books on the table.
+saḥ *trīṇi phalāni krīṇāti. = He buys three fruits.
+mama gṛhe *trīṇi vātāyanāni santi. = My house has three windows.
+
+@ 304 | catvāri | four
+vṛkṣe *catvāri phalāni santi. = There are four fruits on the tree.
+mama *catvāri mitrāṇi saha krīḍanti. = My four friends are playing together.
+pitā *catvāri patrāṇi likhati. = Father is writing four letters.
+
+@ 305 | pañca | five
+*pañca āmrāṇi daśa rūpyakaiḥ krīṇāmi. = I buy five mangoes for ten rupees.
+*pañca bālakāḥ kandukena krīḍanti. = Five boys are playing with a ball.
+vayaṃ *pañca nimeṣeṣu vipaṇiṃ prāpnumaḥ. = We reach the market in five minutes.
+
+@ 306 | ṣaṭ | six
+mama kakṣyāyāṃ *ṣaṭ mitrāṇi santi. = I have six friends in my class.
+*ṣaṭ kadalīphalāni krīṇāmi. = I buy six bananas.
+kīṭasya *ṣaṭ pādāḥ bhavanti. = An insect has six legs.
+
+@ 307 | sapta | seven
+*sapta chātrāḥ adya anupasthitāḥ. = Seven students are absent today.
+indradhanuṣi *sapta varṇāḥ bhavanti. = A rainbow has seven colours.
+mama bhaginī *sapta varṣāṇi vayaskā. = My sister is seven years old.
+
+@ 308 | aṣṭa | eight
+ahaṃ rātrau *aṣṭa horāḥ svapimi. = I sleep eight hours a night.
+kakṣyāyām *aṣṭa bālikāḥ santi. = There are eight girls in the class.
+lūtāyāḥ *aṣṭa pādāḥ bhavanti. = A spider has eight legs.
+
+@ 309 | nava | nine
+kakṣyāyāṃ *nava saṅgaṇakāni santi. = There are nine computers in the classroom.
+rātrau *nava vādane ahaṃ svapimi. = I go to bed at nine at night.
+udyāne *nava vṛkṣāḥ santi. = There are nine trees in the park.
+
+@ 310 | daśa | ten
+*daśa chātrāḥ krīḍāṅgaṇe dhāvanti. = Ten students are running on the playground.
+ekaṃ caṣakaṃ cāyaṃ *daśa rūpyakaiḥ labhyate. = A cup of tea costs ten rupees.
+*daśa nimeṣān pratīkṣasva. = Wait ten minutes.
+
+@ 311 | viṃśatiḥ | twenty
+asmākaṃ kakṣyāyāṃ *viṃśatiḥ chātrāḥ santi. = There are twenty students in our class.
+etasya pustakasya mūlyaṃ *viṃśatiḥ rūpyakāṇi. = This book costs twenty rupees.
+mama mātulaḥ *viṃśatiḥ varṣāṇi pūrvaṃ nagaram āgataḥ. = My uncle came to the city twenty years ago.
+
+@ 312 | śatam | hundred
+mama pitāmahaḥ *śataṃ varṣāṇi jīvitum icchati. = My grandfather wants to live a hundred years.
+vidyālaye *śataṃ chātrāḥ paṭhanti. = A hundred students study at the school.
+grāme *śataṃ gṛhāṇi santi. = There are a hundred houses in the village.
+
+@ 313 | sahasram | thousand
+nagare *sahasraṃ janāḥ utsavaṃ draṣṭum āgatāḥ. = A thousand people came to see the festival in the city.
+ākāśe *sahasrāṇi tārakāḥ santi. = There are thousands of stars in the sky.
+etasya dvicakrikāyāḥ mūlyaṃ pañca *sahasrāṇi rūpyakāṇi. = This bicycle costs five thousand rupees.
+
+@ 314 | prathamaḥ | first
+saḥ dhāvane *prathamaḥ abhavat. = He came first in the race.
+*prathamaḥ pāṭhaḥ saralaḥ asti. = The first lesson is easy.
+*prathamaṃ hastau prakṣālaya, tataḥ khāda. = First wash your hands, then eat.
+
+@ 315 | dvitīyaḥ | second
+mama bhrātā *dvitīyāyāṃ kakṣyāyāṃ paṭhati. = My brother is in the second grade.
+saḥ dhāvane *dvitīyaḥ abhavat. = He came second in the race.
+*dvitīyaḥ pāṭhaḥ kiñcit kaṭhinaḥ. = The second lesson is a bit hard.
+
+@ 316 | ardham | half
+*ardhaṃ phalaṃ tava, ardhaṃ mama. = Half the fruit is yours, half is mine.
+*ardhaṃ caṣakaṃ dugdhaṃ pibāmi. = I drink half a glass of milk.
+*ardhahorānantaraṃ milāmaḥ. = Let's meet in half an hour.
+
+@ 317 | sarve | all; everyone
+*sarve chātrāḥ kakṣyāyāṃ santi. = All the students are in class.
+gṛhe *sarve kuśalinaḥ. = Everyone at home is well.
+*sarve militvā gītaṃ gāyanti. = Everyone sings a song together.
+
+@ 318 | bahu | much; many
+saḥ *bahu paṭhati. = He studies a lot.
+mama mātuḥ *bahu kāryam asti. = My mother has a lot of work.
+saḥ *bahu vadati, alpaṃ karoti. = He talks a lot and does little.
+
+@ 319 | alpam | little; a little
+cāye *alpaṃ dugdhaṃ yojaya. = Put a little milk in the tea.
+mama samīpe *alpaṃ dhanam asti. = I have little money.
+saḥ *alpam eva khādati. = He eats only a little.
+
+@ 320 | kiñcit | some; a little; something
+*kiñcit jalaṃ dadātu. = Please give me a little water.
+kiṃ bhavān *kiñcit khāditum icchati? = Would you like something to eat?
+adya *kiñcit śītam asti. = It is a little cold today.
+
+@ 321 | raktaḥ | red
+gulābapuṣpaṃ *raktam asti. = The rose is red.
+sā *raktaṃ vastraṃ dhārayati. = She is wearing a red dress.
+sāyaṃ ākāśaḥ *raktaḥ bhavati. = In the evening the sky turns red.
+
+@ 322 | nīlaḥ | blue
+mayūrasya kaṇṭhaḥ *nīlaḥ bhavati. = The peacock's neck is blue.
+samudrasya jalaṃ *nīlaṃ dṛśyate. = The sea water looks blue.
+mama *nīlā lekhanī kutra? = Where is my blue pen?
+
+@ 323 | śvetaḥ | white
+dugdhaṃ *śvetaṃ bhavati. = Milk is white.
+*śvetaḥ aśvaḥ rājñaḥ asti. = The white horse belongs to the king.
+sā *śvetāṃ śāṭikāṃ dhārayati. = She is wearing a white sari.
+
+@ 324 | kṛṣṇaḥ | black
+*kṛṣṇāḥ meghāḥ varṣāṃ sūcayanti. = Dark clouds signal rain.
+rātrau ākāśaḥ *kṛṣṇaḥ dṛśyate. = At night the sky looks black.
+mama *kṛṣṇaṃ chatraṃ kutra? = Where is my black umbrella?
+
+@ 325 | haritaḥ | green
+vasante vṛkṣāḥ *haritāḥ bhavanti. = In spring the trees turn green.
+kṛṣakasya kṣetraṃ *haritam asti. = The farmer's field is green.
+mama priyaḥ varṇaḥ *haritaḥ. = My favourite colour is green.
+
+@ 326 | pītaḥ | yellow
+haridrā *pītā bhavati. = Turmeric is yellow.
+vasante sarṣapakṣetrāṇi *pītāni bhavanti. = In spring the mustard fields turn yellow.
+suvarṇaṃ *pītaṃ dīpyate. = Gold shines yellow.
+
+@ 327 | varṇaḥ | colour
+tava priyaḥ *varṇaḥ kaḥ? = What is your favourite colour?
+kākasya *varṇaḥ kṛṣṇaḥ. = The crow's colour is black.
+asya puṣpasya *varṇaḥ manoharaḥ. = This flower's colour is lovely.
+
+@ 328 | dhūsaraḥ | grey
+*dhūsarāḥ meghāḥ ākāśe santi. = There are grey clouds in the sky.
+gajasya varṇaḥ *dhūsaraḥ bhavati. = An elephant is grey.
+śītakāle ākāśaḥ *dhūsaraḥ bhavati. = In winter the sky is grey.
+
+@ 329 | pāṭalaḥ | pink
+kamalaṃ *pāṭalaṃ bhavati. = The lotus is pink.
+śiśoḥ kapolau *pāṭalau staḥ. = The baby's cheeks are pink.
+*pāṭalāni gulābapuṣpāṇi udyāne vikasanti. = Pink roses are blooming in the garden.
+
+@ 330 | suvarṇam | gold
+*suvarṇaṃ bahumūlyaṃ bhavati. = Gold is very valuable.
+tasyāḥ karṇayoḥ *suvarṇasya kuṇḍale staḥ. = She has gold earrings in her ears.
+sā spardhāyāṃ *suvarṇapadakaṃ labdhavatī. = She won a gold medal in the competition.
+
+@ 331 | sundaraḥ | beautiful
+idaṃ udyānaṃ *sundaram asti. = This garden is beautiful.
+sā *sundarī bālikā asti. = She is a beautiful girl.
+kāśmīraḥ *sundaraḥ pradeśaḥ. = Kashmir is a beautiful region.
+
+@ 332 | bṛhat | big
+asmākaṃ gṛhaṃ *bṛhat asti. = Our house is big.
+gajaḥ *bṛhan paśuḥ. = The elephant is a big animal.
+nagare ekaḥ *bṛhan āpaṇaḥ udghāṭitaḥ. = A big shop has opened in the city.
+
+@ 333 | laghu | small; light
+mama prakoṣṭhaḥ *laghuḥ asti. = My room is small.
+ayaṃ syūtaḥ *laghuḥ, ahaṃ vahāmi. = This bag is light; I'll carry it.
+*laghu bhojanaṃ rātrau hitam. = A light meal at night is good.
+
+@ 334 | navīnaḥ | new
+pitā *navīnaṃ yānaṃ krītavān. = Father bought a new car.
+*navīnaḥ chātraḥ kakṣyām āgataḥ. = A new student has come to the class.
+etat *navīnaṃ pustakam. = This is a new book.
+
+@ 335 | prācīnaḥ | old; ancient
+idaṃ mandiraṃ *prācīnam asti. = This temple is ancient.
+saṃskṛtaṃ *prācīnā bhāṣā. = Sanskrit is an ancient language.
+grāme ekaḥ *prācīnaḥ kūpaḥ asti. = There is an old well in the village.
+
+@ 336 | uttamaḥ | excellent; very good
+*uttamaḥ śikṣakaḥ sarvadā dhairyeṇa pāṭhayati. = A good teacher always teaches patiently.
+tava lekhaḥ *uttamaḥ asti. = Your essay is excellent.
+idaṃ *uttamaṃ bhojanam. = This is excellent food.
+
+@ 337 | śobhanam | nice; good; fine
+*śobhanam, idānīṃ gacchāmaḥ. = Good, let's go now.
+tava citraṃ *śobhanam asti. = Your picture is nice.
+adya vātāvaraṇaṃ *śobhanam. = The weather is fine today.
+
+@ 338 | duṣṭaḥ | wicked; bad
+*duṣṭaḥ rākṣasaḥ sītām aharat. = The wicked demon carried off Sita.
+*duṣṭaiḥ saha mitratā mā kuru. = Do not make friends with wicked people.
+saḥ kukkuraḥ *duṣṭaḥ, sāvadhānaḥ bhava. = That dog is vicious; be careful.
+
+@ 339 | uṣṇaḥ | hot; warm
+*uṣṇaṃ bhojanaṃ svādu bhavati. = Hot food tastes good.
+grīṣme vāyuḥ *uṣṇaḥ bhavati. = In summer the wind is hot.
+śītakāle *uṣṇaṃ jalaṃ piba. = Drink warm water in winter.
+
+@ 340 | śītalaḥ | cool; cold
+*śītalaṃ jalaṃ grīṣme sukhadaṃ bhavati. = Cool water is pleasant in summer.
+himālaye *śītalaṃ vātāvaraṇaṃ bhavati. = The weather in the Himalaya is cold.
+vṛkṣasya chāyā *śītalā bhavati. = The shade of a tree is cool.
+
+@ 341 | madhuraḥ | sweet
+āmraṃ *madhuraṃ phalam. = The mango is a sweet fruit.
+kokilasya svaraḥ *madhuraḥ. = The cuckoo's voice is sweet.
+mātā *madhurāṃ vāṇīṃ vadati. = Mother speaks sweetly.
+
+@ 342 | amlaḥ | sour
+nimbukaṃ *amlaṃ bhavati. = A lemon is sour.
+apakvāḥ drākṣāḥ *amlāḥ bhavanti. = Unripe grapes are sour.
+dadhi kiñcit *amlam asti. = The yogurt is a little sour.
+
+@ 343 | dīrghaḥ | long
+*dīrghaṃ mārgaṃ calitvā saḥ śrāntaḥ. = He is tired after walking a long way.
+gaṅgā *dīrghā nadī. = The Ganga is a long river.
+uṣṭrasya grīvā *dīrghā bhavati. = A camel has a long neck.
+
+@ 344 | hrasvaḥ | short
+śaśakasya pucchaṃ *hrasvaṃ bhavati. = A rabbit's tail is short.
+śītakāle dināni *hrasvāni bhavanti. = Days are short in winter.
+ayaṃ mārgaḥ *hrasvaḥ, śīghraṃ prāpsyāmaḥ. = This road is short; we'll get there quickly.
+
+@ 345 | uccaḥ | tall; high
+*uccaḥ vṛkṣaḥ vāyunā kampate. = The tall tree sways in the wind.
+mama bhrātā pituḥ api *uccaḥ asti. = My brother is taller than even our father.
+mandirasya śikharam *uccam asti. = The temple spire is tall.
+
+@ 346 | nīcaḥ | low
+iyaṃ bhittiḥ *nīcā asti. = This wall is low.
+vṛkṣasya *nīcāḥ śākhāḥ bālāḥ spṛśanti. = Children touch the low branches of the tree.
+*nīcaḥ āsandaḥ śiśave upayuktaḥ. = The low chair is just right for the baby.
+
+@ 347 | sthūlaḥ | fat; thick
+vṛkṣasya kāṇḍaḥ *sthūlaḥ asti. = The tree trunk is thick.
+saḥ mārjāraḥ *sthūlaḥ jātaḥ. = That cat has become fat.
+etat *sthūlaṃ pustakaṃ kasya? = Whose is this thick book?
+
+@ 348 | kṛśaḥ | thin; lean
+rugṇaḥ bālakaḥ *kṛśaḥ jātaḥ. = The sick boy has become thin.
+saḥ *kṛśaḥ kintu balavān. = He is thin but strong.
+*kṛśāḥ gāvaḥ kṣetre caranti. = Thin cows are grazing in the field.
+
+@ 349 | balavān | strong
+*balavān aśvaḥ śakaṭaṃ karṣati. = A strong horse pulls the cart.
+bhīmaḥ atīva *balavān āsīt. = Bhima was very strong.
+*balavān vāyuḥ vṛkṣān pātayati. = A strong wind knocks down trees.
+
+@ 350 | durbalaḥ | weak
+rugṇaḥ *durbalaḥ bhavati. = A sick person becomes weak.
+jvarāt paraṃ ahaṃ *durbalaḥ asmi. = I am weak after the fever.
+*durbalān sadā rakṣa. = Always protect the weak.
+
+@ 351 | sukhī | happy
+sā svakāryeṇa *sukhī asti. = She is happy with her work.
+saḥ grāme *sukhī vasati. = He lives happily in the village.
+sarve *sukhinaḥ bhavantu. = May all be happy.
+
+@ 352 | duḥkhī | sad; unhappy
+mitrasya rogeṇa saḥ *duḥkhī asti. = He is sad because his friend is ill.
+kimarthaṃ tvaṃ *duḥkhī asi? = Why are you sad?
+kanduke naṣṭe bālakaḥ *duḥkhī jātaḥ. = The boy became sad when his ball was lost.
+
+@ 353 | śrāntaḥ | tired
+dīrghayātrayā ahaṃ *śrāntaḥ asmi. = I am tired from the long journey.
+*śrāntaḥ kṛṣakaḥ vṛkṣasya chāyāyāṃ svapiti. = The tired farmer sleeps in the shade of a tree.
+sā *śrāntā, ataḥ śīghraṃ svapiti. = She is tired, so she goes to sleep early.
+
+@ 354 | bubhukṣitaḥ | hungry
+ahaṃ *bubhukṣitaḥ asmi, kiṃ bhojanaṃ siddham? = I am hungry; is the food ready?
+*bubhukṣitaḥ śiśuḥ rodati. = The hungry baby is crying.
+*bubhukṣitāya annaṃ dehi. = Give food to the hungry.
+
+@ 355 | pipāsitaḥ | thirsty
+ahaṃ *pipāsitaḥ asmi, jalaṃ dadātu. = I am thirsty; please give me water.
+grīṣme kukkuraḥ *pipāsitaḥ bhavati. = In summer the dog gets thirsty.
+*pipāsitāḥ khagāḥ sarovaraṃ gacchanti. = The thirsty birds go to the lake.
+
+@ 356 | rugṇaḥ | ill; sick
+mama bhrātā adya *rugṇaḥ asti. = My brother is ill today.
+*rugṇāya vaidyaḥ auṣadhaṃ dadāti. = The doctor gives medicine to the sick man.
+*rugṇā pitāmahī śayyāyāṃ śete. = My sick grandmother is lying in bed.
+
+@ 357 | svasthaḥ | healthy; well
+idānīṃ ahaṃ *svasthaḥ asmi. = I am well now.
+vaidyaḥ vadati, rugṇaḥ idānīṃ *svasthaḥ. = The doctor says the patient is now well.
+*svasthaḥ bhavituṃ pratidinaṃ vyāyāmaṃ kuru. = Exercise every day to stay healthy.
+
+@ 358 | mahārghaḥ | expensive
+nagare phalāni *mahārghāṇi santi. = Fruit is expensive in the city.
+asmin āpaṇe vastrāṇi *mahārghāṇi. = The clothes in this shop are expensive.
+etat yānam atīva *mahārgham. = This car is very expensive.
+
+@ 359 | saralaḥ | easy; simple; straight
+ayaṃ praśnaḥ *saralaḥ asti. = This question is easy.
+saṃskṛtabhāṣā *saralā madhurā ca. = The Sanskrit language is simple and sweet.
+pitāmahaḥ *saralaṃ jīvanaṃ jīvati. = Grandfather lives a simple life.
+
+@ 360 | kaṭhinaḥ | difficult; hard
+gaṇitaṃ mahyaṃ *kaṭhinaṃ bhāti. = Maths seems hard to me.
+śilā *kaṭhinā bhavati. = A rock is hard.
+parvatasya ārohaṇaṃ *kaṭhinam. = Climbing the mountain is difficult.
+
+@ 361 | svacchaḥ | clean; clear
+asmākaṃ vidyālayaḥ *svacchaḥ asti. = Our school is clean.
+*svacchaṃ jalam eva piba. = Drink only clean water.
+gṛhaṃ *svacchaṃ kuru. = Keep the house clean.
+
+@ 362 | malinaḥ | dirty
+tava vastrāṇi *malināni santi. = Your clothes are dirty.
+*malinaṃ jalaṃ mā piba. = Do not drink dirty water.
+krīḍitvā bālakasya hastau *malinau. = After playing, the boy's hands are dirty.
+
+@ 363 | pūrṇaḥ | full
+ghaṭaḥ jalena *pūrṇaḥ asti. = The pot is full of water.
+adya *pūrṇaḥ candraḥ dṛśyate. = The full moon can be seen today.
+bhūmiyānaṃ janaiḥ *pūrṇam. = The bus is full of people.
+
+@ 364 | riktaḥ | empty
+mama caṣakaḥ *riktaḥ asti. = My cup is empty.
+ravivāsare kāryālayaḥ *riktaḥ bhavati. = On Sunday the office is empty.
+*riktena hastena mā gaccha, phalāni naya. = Don't go empty-handed; take some fruit.
+
+@ 365 | samīpe | near
+mama gṛhasya *samīpe ekam udyānam asti. = There is a park near my house.
+mātuḥ *samīpe śiśuḥ svapiti. = The baby sleeps next to its mother.
+vidyālayaḥ *samīpe eva, padbhyāṃ gacchāmi. = School is close by; I walk there.
+
+@ 366 | dūre | far
+grāmaḥ nagarāt *dūre asti. = The village is far from the city.
+mama mātulaḥ *dūre vasati. = My uncle lives far away.
+agneḥ *dūre tiṣṭha. = Stay away from the fire.
+
+@ 367 | vāmataḥ | on the left
+mandiraṃ mārgasya *vāmataḥ asti. = The temple is on the left side of the road.
+*vāmataḥ gaccha, tatra āpaṇaḥ asti. = Go to the left; there is a shop there.
+mama *vāmataḥ bhrātā upaviśati. = My brother sits on my left.
+
+@ 368 | dakṣiṇataḥ | on the right
+*dakṣiṇataḥ cikitsālayaḥ asti. = The hospital is on the right.
+pustakālayaḥ vidyālayasya *dakṣiṇataḥ. = The library is to the right of the school.
+dvitīye mārge *dakṣiṇataḥ gaccha. = Turn right at the second road.
+
+@ 369 | priyaḥ | dear; beloved
+rāmaḥ daśarathasya *priyaḥ putraḥ āsīt. = Rama was Dasharatha's beloved son.
+mama *priyaṃ phalam āmram. = My favourite fruit is the mango.
+*priyaṃ vada, satyaṃ vada. = Speak kindly, speak truthfully.
+
+@ 370 | caturaḥ | clever
+śṛgālaḥ *caturaḥ paśuḥ. = The jackal is a clever animal.
+sā *caturā chātrā asti. = She is a clever student.
+*caturaḥ kākaḥ ghaṭāt jalaṃ pibati. = The clever crow drinks water from the pot.
+
+@ 371 | mūrkhaḥ | foolish; fool
+*mūrkhaḥ siṃhaḥ kūpe patati. = The foolish lion falls into the well.
+saḥ *mūrkhaḥ na, kevalaṃ śrāntaḥ. = He is not foolish, just tired.
+*mūrkhaiḥ saha vivādaṃ mā kuru. = Don't argue with fools.
+
+@ 372 | dhanikaḥ | rich
+*dhanikaḥ janaḥ nirdhanebhyaḥ dānaṃ karoti. = The rich man gives charity to the poor.
+*dhanikāḥ api sarvadā sukhinaḥ na bhavanti. = Even the rich are not always happy.
+saḥ *dhanikaḥ, kintu kṛpaṇaḥ. = He is rich but stingy.
+
+@ 373 | nirdhanaḥ | poor
+*nirdhanaḥ kṛṣakaḥ kaṭhinaṃ kāryaṃ karoti. = The poor farmer works hard.
+*nirdhanebhyaḥ vastrāṇi dehi. = Give clothes to the poor.
+saḥ *nirdhanaḥ, kintu santuṣṭaḥ. = He is poor but content.
+
+@ 374 | śāntaḥ | calm; quiet
+rātrau grāmaḥ *śāntaḥ bhavati. = At night the village is quiet.
+pustakālaye *śāntāḥ tiṣṭhantu. = Please stay quiet in the library.
+sarovarasya jalaṃ *śāntam asti. = The water of the lake is calm.
+
+@ 375 | vyastaḥ | busy
+pitā adya *vyastaḥ asti. = Father is busy today.
+parīkṣākāle chātrāḥ *vyastāḥ bhavanti. = Students are busy at exam time.
+kṣamyatām, ahaṃ idānīṃ *vyastaḥ asmi. = Sorry, I am busy right now.
+
+@ 376 | satyam | truth; true
+saḥ kadāpi *satyaṃ na tyajati. = He never abandons the truth.
+tava vacanaṃ *satyam asti. = What you say is true.
+*satyam eva jayate. = Truth alone triumphs.
+
+@ 377 | asatyam | lie; untruth
+*asatyaṃ mā vada. = Don't tell lies.
+tasya vacanam *asatyam āsīt. = What he said was a lie.
+*asatyena mitrāṇi naśyanti. = Lies destroy friendships.
+
+@ 378 | prasannaḥ | pleased; cheerful
+śikṣakaḥ chātreṇa *prasannaḥ asti. = The teacher is pleased with the student.
+upahāraṃ dṛṣṭvā bālikā *prasannā jātā. = The girl was delighted to see the present.
+adya bhavān *prasannaḥ dṛśyate. = You look cheerful today.
+
+@ 379 | kupitaḥ | angry
+pitā *kupitaḥ asti, yataḥ ahaṃ vilambena āgataḥ. = Father is angry because I came late.
+*kupitaḥ janaḥ uccaiḥ vadati. = An angry person speaks loudly.
+mā *kupitā bhava, amba. = Don't be angry, Mother.
+
+@ 380 | bhītaḥ | afraid; frightened
+parīkṣāyāḥ *bhītaḥ chātraḥ paṭhati. = The student, nervous about the exam, studies hard.
+siṃhaṃ dṛṣṭvā mṛgāḥ *bhītāḥ. = The deer are frightened at the sight of the lion.
+mā *bhītaḥ bhava, ahaṃ atra asmi. = Don't be afraid, I am here.
+
+@ 381 | asti | is; there is
+mama gṛhe ekaḥ kukkuraḥ *asti. = There is a dog in my house.
+mama mitraṃ vaidyaḥ *asti. = My friend is a doctor.
+nagare ekaṃ prācīnaṃ mandiram *asti. = There is an old temple in the city.
+
+@ 382 | gacchati | goes
+saḥ pratidinaṃ vidyālayaṃ *gacchati. = He goes to school every day.
+ahaṃ vipaṇiṃ *gacchāmi. = I am going to the market.
+vayaṃ śvaḥ grāmaṃ *gacchāmaḥ. = We are going to the village tomorrow.
+
+@ 383 | āgacchati | comes
+pitā sāyaṃ gṛham *āgacchati. = Father comes home in the evening.
+atra *āgaccha, mitra! = Come here, friend!
+vasante kokilāḥ *āgacchanti. = The cuckoos come in spring.
+
+@ 384 | paṭhati | reads; studies
+sā rātrau kathāpustakaṃ *paṭhati. = She reads a storybook at night.
+ahaṃ saṃskṛtaṃ *paṭhāmi. = I study Sanskrit.
+vayaṃ pratidinaṃ ekaṃ pāṭhaṃ *paṭhāmaḥ. = We study one lesson every day.
+
+@ 385 | likhati | writes
+bālikā lekhanyā *likhati. = The girl writes with a pen.
+ahaṃ mitrāya patraṃ *likhāmi. = I am writing a letter to my friend.
+kaviḥ kāvyaṃ *likhati. = The poet writes a poem.
+
+@ 386 | vadati | speaks; says
+saḥ saṃskṛtena *vadati. = He speaks in Sanskrit.
+saḥ satyam *vadati. = He speaks the truth.
+kṛpayā uccaiḥ *vadatu. = Please speak loudly.
+
+@ 387 | paśyati | sees; looks at
+ahaṃ ākāśe vimānaṃ *paśyāmi. = I see a plane in the sky.
+bālāḥ udyāne mayūraṃ *paśyanti. = The children see a peacock in the garden.
+*paśya, varṣā bhavati! = Look, it's raining!
+
+@ 388 | khādati | eats
+gajaḥ ikṣuṃ *khādati. = The elephant eats sugarcane.
+vayaṃ madhyāhne roṭikāṃ *khādāmaḥ. = We eat chapatis at noon.
+tvaṃ kiṃ *khādasi? = What are you eating?
+
+@ 389 | pibati | drinks
+gauḥ nadyāḥ jalaṃ *pibati. = The cow drinks water from the river.
+pitā rātrau uṣṇaṃ dugdhaṃ *pibati. = Father drinks hot milk at night.
+bālāḥ dugdhaṃ *pibanti. = The children drink milk.
+
+@ 390 | svapiti | sleeps
+kukkuraḥ dvāre *svapiti. = The dog sleeps at the door.
+pitāmahaḥ madhyāhne kiñcit *svapiti. = Grandfather naps a little at noon.
+mārjāraḥ ātape *svapiti. = The cat is sleeping in the sun.
+
+@ 391 | uttiṣṭhati | gets up; rises
+pitāmahaḥ yaṣṭyāḥ sāhāyyena *uttiṣṭhati. = Grandfather gets up with the help of a stick.
+*uttiṣṭha, sūryaḥ uditaḥ. = Get up, the sun has risen.
+śikṣake praviṣṭe chātrāḥ *uttiṣṭhanti. = When the teacher enters, the students stand up.
+
+@ 392 | upaviśati | sits
+sarve vṛttākāreṇa *upaviśanti. = Everyone sits in a circle.
+chātrāḥ bhūmau *upaviśanti. = The students sit on the floor.
+khagaḥ śākhāyām *upaviśati. = The bird sits on the branch.
+
+@ 393 | tiṣṭhati | stands; stays
+dhvajaṃ dhṛtvā sainikaḥ *tiṣṭhati. = The soldier stands holding a flag.
+vṛkṣasya adhaḥ mā *tiṣṭha, vidyut patati. = Don't stand under the tree; lightning is striking.
+adya ahaṃ gṛhe eva *tiṣṭhāmi. = Today I'm staying at home.
+
+@ 394 | dhāvati | runs
+aśvaḥ kṣetre *dhāvati. = The horse runs in the field.
+mā *dhāva, patiṣyasi. = Don't run, you'll fall.
+bālāḥ krīḍāṅgaṇe *dhāvanti. = The children are running on the playground.
+
+@ 395 | krīḍati | plays
+bālāḥ udyāne *krīḍanti. = The children play in the park.
+ahaṃ bhrātrā saha *krīḍāmi. = I play with my brother.
+mārjāraśāvakaḥ sūtreṇa *krīḍati. = The kitten plays with a thread.
+
+@ 396 | hasati | laughs
+śiśuḥ mātaraṃ dṛṣṭvā *hasati. = The baby laughs at the sight of its mother.
+sarve vidūṣakaṃ dṛṣṭvā *hasanti. = Everyone laughs at the clown.
+kimarthaṃ *hasasi? = Why are you laughing?
+
+@ 397 | rodati | cries
+bālakaḥ patitvā *rodati. = The boy falls and cries.
+mā *roda, mātā śīghram āgamiṣyati. = Don't cry, Mother will come soon.
+rātrau śiśuḥ *rodati. = The baby cries at night.
+
+@ 398 | karoti | does; makes
+tvaṃ kiṃ *karoṣi? = What are you doing?
+mātā gṛhakāryaṃ *karoti. = Mother does the housework.
+vayaṃ prātaḥ yogaṃ *kurmaḥ. = We do yoga in the morning.
+
+@ 399 | dadāti | gives
+śikṣakaḥ chātrebhyaḥ pustakāni *dadāti. = The teacher gives books to the students.
+vṛkṣaḥ chāyāṃ *dadāti. = A tree gives shade.
+ahaṃ mitrāya upahāraṃ *dadāmi. = I give a present to my friend.
+
+@ 400 | gṛhṇāti | takes; catches
+saḥ hastena kandukaṃ *gṛhṇāti. = He catches the ball with his hand.
+bālikā pustakaṃ *gṛhṇāti. = The girl takes the book.
+*gṛhāṇa, etat tava kṛte. = Take this; it's for you.
+
+@ 401 | ānayati | brings
+kukkuraḥ kandukam *ānayati. = The dog brings back the ball.
+kṛpayā ekaṃ caṣakaṃ jalam *ānayatu. = Please bring a glass of water.
+pitā mahyaṃ navīnaṃ pustakam *ānītavān. = Father brought me a new book.
+
+@ 402 | nayati | leads; takes along
+gopālaḥ gāḥ kṣetraṃ *nayati. = The cowherd takes the cows to the field.
+pitā māṃ vidyālayaṃ *nayati. = Father takes me to school.
+naukā yātriṇaḥ parapāraṃ *nayati. = The boat takes the passengers to the other bank.
+
+@ 403 | jānāti | knows
+ahaṃ saṃskṛtaṃ *jānāmi. = I know Sanskrit.
+kiṃ bhavān mārgaṃ *jānāti? = Do you know the way?
+saḥ mama nāma na *jānāti. = He doesn't know my name.
+
+@ 404 | icchati | wants
+ahaṃ jalaṃ pātum *icchāmi. = I want to drink water.
+bālakaḥ krīḍitum *icchati. = The boy wants to play.
+bhavān kim *icchati? = What would you like?
+
+@ 405 | śaknoti | can; is able
+ahaṃ tarituṃ *śaknomi. = I can swim.
+śiśuḥ idānīṃ calituṃ *śaknoti. = The baby can walk now.
+kiṃ tvaṃ etat bhāraṃ voḍhuṃ *śaknoṣi? = Can you carry this load?
+
+@ 406 | śṛṇoti | hears; listens
+ahaṃ khagānāṃ kūjanaṃ *śṛṇomi. = I hear the birds singing.
+chātrāḥ śikṣakasya vacanaṃ *śṛṇvanti. = The students listen to the teacher.
+pitāmahī rātrau gītāni *śṛṇoti. = Grandmother listens to songs at night.
+
+@ 407 | pṛcchati | asks
+bālakaḥ pitaraṃ bahūn praśnān *pṛcchati. = The boy asks his father lots of questions.
+vaidyaḥ rugṇaṃ tasya nāma *pṛcchati. = The doctor asks the patient his name.
+ahaṃ mātaraṃ *pṛcchāmi, kiṃ pacati iti. = I ask Mother what she is cooking.
+
+@ 408 | kathayati | tells
+pitāmahī kathāṃ *kathayati. = Grandmother tells a story.
+satyaṃ *kathaya, kena caṣakaḥ bhagnaḥ? = Tell the truth: who broke the cup?
+śikṣakaḥ rāmāyaṇasya kathāṃ *kathayati. = The teacher tells the story of the Ramayana.
+
+@ 409 | cintayati | thinks
+saḥ parīkṣāyāḥ viṣaye *cintayati. = He is thinking about the exam.
+ahaṃ mitrasya viṣaye *cintayāmi. = I am thinking of my friend.
+mā *cintaya, sarvaṃ śobhanaṃ bhaviṣyati. = Don't worry, everything will be fine.
+
+@ 410 | snāti | bathes
+ahaṃ prātaḥ śītalena jalena *snāmi. = I bathe in cold water in the morning.
+gajaḥ nadyāṃ *snāti. = The elephant bathes in the river.
+bhaktāḥ gaṅgāyāṃ *snānti. = The devotees bathe in the Ganga.
+
+@ 411 | pacati | cooks
+pācakaḥ rājñe miṣṭānnaṃ *pacati. = The cook prepares sweets for the king.
+ahaṃ svayaṃ cāyaṃ *pacāmi. = I make tea myself.
+adya pitā bhojanaṃ *pacati. = Today Father is cooking the meal.
+
+@ 412 | krīṇāti | buys
+mātā vipaṇau phalāni *krīṇāti. = Mother buys fruit at the market.
+ahaṃ navīnāṃ lekhanīṃ *krīṇāmi. = I am buying a new pen.
+vayaṃ utsavāya dīpān *krīṇīmaḥ. = We buy lamps for the festival.
+
+@ 413 | vikrīṇāti | sells
+kṛṣakaḥ vipaṇau dhānyaṃ *vikrīṇāti. = The farmer sells grain at the market.
+saḥ bālakaḥ mārge vartamānapatrāṇi *vikrīṇāti. = That boy sells newspapers in the street.
+āpaṇikaḥ mahārghāṇi vastrāṇi *vikrīṇāti. = The shopkeeper sells expensive clothes.
+
+@ 414 | sevate | serves
+putraḥ vṛddhau pitarau *sevate. = The son looks after his old parents.
+vaidyaḥ rugṇān *sevate. = The doctor serves the sick.
+sainikaḥ deśaṃ *sevate. = The soldier serves his country.
+
+@ 415 | rakṣati | protects; guards
+rājā prajāḥ *rakṣati. = The king protects his subjects.
+mātā śiśuṃ śītāt *rakṣati. = The mother protects the baby from the cold.
+vṛkṣāḥ asmān ātapāt *rakṣanti. = Trees protect us from the sun.
+
+@ 416 | namati | bows
+śiṣyaḥ guruṃ *namati. = The pupil bows to the teacher.
+prātaḥ ahaṃ pitarau *namāmi. = In the morning I bow to my parents.
+phalaiḥ pūrṇāḥ śākhāḥ *namanti. = Branches laden with fruit bend down.
+
+@ 417 | pūjayati | worships
+pitāmahī prātaḥ devaṃ *pūjayati. = Grandmother worships the god in the morning.
+janāḥ dīpāvalyāṃ lakṣmīṃ *pūjayanti. = People worship Lakshmi at Diwali.
+vayaṃ gurūn *pūjayāmaḥ. = We honour our teachers.
+
+@ 418 | gāyati | sings
+bālikā madhuraṃ gītaṃ *gāyati. = The girl sings a sweet song.
+vayaṃ prātaḥ prārthanāṃ *gāyāmaḥ. = We sing a prayer in the morning.
+gāyakaḥ mañce *gāyati. = The singer sings on stage.
+
+@ 419 | nṛtyati | dances
+pitāmahaḥ api utsave *nṛtyati. = Even Grandfather dances at the festival.
+utsave bālikāḥ *nṛtyanti. = The girls dance at the festival.
+sā bharatanāṭyaṃ *nṛtyati. = She dances Bharatanatyam.
+
+@ 420 | calati | walks; moves
+bālakaḥ mātuḥ hastaṃ gṛhītvā *calati. = The boy walks holding his mother's hand.
+mārge vāmataḥ *cala. = Walk on the left side of the road.
+ghaṭikā na *calati, bhagnā asti. = The clock isn't working; it's broken.
+
+@ 421 | patati | falls
+vṛkṣāt phalaṃ *patati. = A fruit falls from the tree.
+pustakaṃ hastāt *patati. = The book falls from my hand.
+sāvadhānaṃ cala, anyathā *patiṣyasi. = Walk carefully, or you'll fall.
+
+@ 422 | udghāṭayati | opens
+dvāram *udghāṭaya, atithiḥ āgataḥ. = Open the door, a guest has arrived.
+kṛpayā gavākṣam *udghāṭayatu. = Please open the window.
+chātrāḥ pustakāni *udghāṭayanti. = The students open their books.
+
+@ 423 | pidadhāti | closes
+āpaṇikaḥ rātrau āpaṇaṃ *pidadhāti. = The shopkeeper closes the shop at night.
+pustakaṃ *pidhehi, idānīṃ svapihi. = Close the book and go to sleep now.
+śiśuḥ netre *pidadhāti. = The baby closes its eyes.
+
+@ 424 | prakṣālayati | washes
+vṛṣṭiḥ mārgān *prakṣālayati. = The rain washes the streets.
+sevakaḥ pātrāṇi *prakṣālayati. = The servant washes the dishes.
+pitā yānaṃ *prakṣālayati. = Father is washing the car.
+
+@ 425 | ārohati | climbs; rides
+vānaraḥ vṛkṣam *ārohati. = The monkey climbs the tree.
+bālāḥ śakaṭam *ārohanti. = The children climb onto the cart.
+saḥ bhūmiyānam *ārohati. = He gets on the bus.
+
+@ 426 | avatarati | gets down; descends
+yātriṇaḥ bhūmiyānāt *avataranti. = The passengers get off the bus.
+vānaraḥ vṛkṣāt *avatarati. = The monkey climbs down from the tree.
+gaṅgā himālayāt *avatarati. = The Ganga descends from the Himalaya.
+
+@ 427 | praviśati | enters
+sevakaḥ rājñaḥ bhavanaṃ *praviśati. = The servant enters the king's palace.
+sarpaḥ bile *praviśati. = The snake goes into its hole.
+kṛpayā *praviśatu, upaviśatu ca. = Please come in and sit down.
+
+@ 428 | nirgacchati | goes out
+saḥ gṛhāt *nirgacchati. = He goes out of the house.
+sūryodaye kṛṣakāḥ kṣetrāya *nirgacchanti. = At sunrise the farmers head out to the fields.
+varṣāyāṃ bahiḥ mā *nirgaccha. = Don't go out in the rain.
+
+@ 429 | pratīkṣate | waits
+ahaṃ bhūmiyānaṃ *pratīkṣe. = I am waiting for the bus.
+mātā putraṃ *pratīkṣate. = The mother waits for her son.
+kṛpayā kiñcit *pratīkṣatām. = Please wait a little.
+
+@ 430 | smarati | remembers
+ahaṃ bālyasya dināni *smarāmi. = I remember the days of my childhood.
+kiṃ tvaṃ mama nāma *smarasi? = Do you remember my name?
+pitāmahaḥ pratidinaṃ bhagavantaṃ *smarati. = Grandfather remembers God every day.
+
+@ 431 | vismarati | forgets
+ahaṃ kuñcikāṃ *vismarāmi. = I keep forgetting my key.
+mama upadeśaṃ mā *vismara. = Don't forget my advice.
+saḥ sarvadā chatraṃ *vismarati. = He always forgets his umbrella.
+
+@ 432 | labhate | gets; obtains
+parīkṣāyāṃ saḥ uttamān aṅkān *labhate. = He gets top marks in the exam.
+pariśrameṇa janaḥ saphalatāṃ *labhate. = Through hard work a person gains success.
+atra śuddhaṃ jalaṃ *labhyate. = Pure water is available here.
+
+@ 433 | tyajati | leaves; gives up
+saḥ krodhaṃ *tyajati. = He gives up his anger.
+vṛkṣāḥ śiśire parṇāni *tyajanti. = Trees shed their leaves in late winter.
+duṣṭaṃ mitraṃ *tyaja. = Leave a wicked friend.
+
+@ 434 | kṣipati | throws
+bālakaḥ kandukaṃ *kṣipati. = The boy throws the ball.
+kacavaraṃ mārge mā *kṣipa. = Don't throw rubbish on the road.
+dhīvaraḥ jale jālaṃ *kṣipati. = The fisherman throws his net into the water.
+
+@ 435 | vahati | carries; flows
+nadī samudraṃ prati *vahati. = The river flows towards the sea.
+gardabhaḥ bhāraṃ *vahati. = The donkey carries a load.
+śītalaḥ vāyuḥ mandaṃ *vahati. = A cool breeze blows gently.
+
+@ 436 | tarati | swims; crosses
+matsyaḥ jale *tarati. = The fish swims in the water.
+ahaṃ grīṣme nadyāṃ *tarāmi. = In summer I swim in the river.
+hanumān samudraṃ *tarati. = Hanuman crosses the ocean.
+
+@ 437 | bhramati | wanders; strolls
+vayaṃ sāyam udyāne *bhramāmaḥ. = We take a walk in the park in the evening.
+pṛthvī sūryaṃ paritaḥ *bhramati. = The earth goes around the sun.
+bhramaraḥ puṣpeṣu *bhramati. = The bee wanders among the flowers.
+
+@ 438 | jīvati | lives; is alive
+matsyaḥ jalaṃ vinā na *jīvati. = A fish cannot live without water.
+kūrmaḥ bahūni varṣāṇi *jīvati. = A tortoise lives for many years.
+vayaṃ sukhena *jīvāmaḥ. = We live happily.
+
+@ 439 | vasati | dwells; lives
+ahaṃ dillīnagare *vasāmi. = I live in Delhi.
+siṃhaḥ guhāyāṃ *vasati. = The lion lives in a cave.
+kutra *vasati bhavataḥ mitram? = Where does your friend live?
+
+@ 440 | milati | meets
+ahaṃ śvaḥ mitreṇa saha *milāmi. = I will meet my friend tomorrow.
+nadī samudreṇa saha *milati. = The river meets the sea.
+utsave sarve bandhavaḥ *milanti. = All the relatives meet at the festival.
+
+@ 441 | āhvayati | calls
+mātā bhojanāya sarvān *āhvayati. = Mother calls everyone to eat.
+śikṣakaḥ chātraṃ nāmnā *āhvayati. = The teacher calls the student by name.
+vaidyam *āhvaya, pitāmahaḥ rugṇaḥ. = Call the doctor; Grandfather is ill.
+
+@ 442 | preṣayati | sends
+ahaṃ mitrāya sandeśaṃ *preṣayāmi. = I send a message to my friend.
+pitā putraṃ vipaṇiṃ *preṣayati. = The father sends his son to the market.
+rājā dūtaṃ *preṣayati. = The king sends a messenger.
+
+@ 443 | ārabhate | begins
+vidyālayaḥ jūnamāse punaḥ *ārabhate. = School begins again in June.
+saḥ navīnaṃ kāryam *ārabhate. = He is starting a new job.
+varṣā *ārabdhā, gṛhaṃ calāmaḥ. = The rain has started; let's go home.
+
+@ 444 | samāpayati | finishes
+ahaṃ gṛhakāryaṃ *samāpayāmi. = I am finishing my homework.
+saḥ bhojanaṃ *samāpayati. = He finishes his meal.
+śikṣakaḥ pāṭhaṃ *samāpayati. = The teacher finishes the lesson.
+
+@ 445 | pāṭhayati | teaches
+śikṣakaḥ gaṇitaṃ *pāṭhayati. = The teacher teaches maths.
+mama mātā vidyālaye *pāṭhayati. = My mother teaches at a school.
+pitāmahaḥ māṃ ślokān *pāṭhayati. = Grandfather teaches me verses.
+
+@ 446 | śocati | grieves; worries
+mā *śoca, sarvaṃ śobhanaṃ bhaviṣyati. = Don't grieve; all will be well.
+vṛddhā mātā putrasya kṛte *śocati. = The old mother worries about her son.
+gataṃ na *śocāmi. = I don't grieve over the past.
+
+@ 447 | bibheti | fears
+śiśuḥ kukkurāt *bibheti. = The child is afraid of the dog.
+ahaṃ sarpāt *bibhemi. = I am afraid of snakes.
+vīraḥ kasmāt api na *bibheti. = A brave man fears nothing.
+
+@ 448 | kupyati | gets angry
+pitā asatyena *kupyati. = Father gets angry at lies.
+mā *kupya, ahaṃ kṣamāṃ yāce. = Don't be angry; I apologise.
+śikṣakaḥ vilambena āgatāya chātrāya *kupyati. = The teacher is angry with the student who came late.
+
+@ 449 | tuṣyati | is pleased
+mātā putrasya kāryeṇa *tuṣyati. = The mother is pleased with her son's work.
+alpena eva saḥ *tuṣyati. = He is content with little.
+devaḥ bhaktyā *tuṣyati. = God is pleased by devotion.
+
+@ 450 | rocate | is liked; pleases
+mahyam āmraṃ *rocate. = I like mangoes.
+kiṃ tubhyaṃ saṅgītaṃ *rocate? = Do you like music?
+bālebhyaḥ krīḍanaṃ *rocate. = Children like playing.
+
+@ 451 | bhavati | becomes; happens; is
+varṣāyāṃ mārgaḥ paṅkilaḥ *bhavati. = In the rainy season the road becomes muddy.
+kim *abhavat? kimarthaṃ rodiṣi? = What happened? Why are you crying?
+saḥ vaidyaḥ *bhavitum icchati. = He wants to become a doctor.
+
+@ 452 | dahati | burns
+agniḥ kāṣṭhaṃ *dahati. = Fire burns wood.
+grīṣme sūryaḥ bhūmiṃ *dahati. = In summer the sun scorches the ground.
+dīpasya jvālā aṅgulīṃ *dahati. = The lamp's flame burns the finger.
+
+@ 453 | siñcati | waters; sprinkles
+mālākāraḥ pādapān *siñcati. = The gardener waters the plants.
+ahaṃ prātaḥ tulasīṃ *siñcāmi. = I water the tulsi plant in the morning.
+kṛṣakaḥ kṣetraṃ *siñcati. = The farmer irrigates the field.
+
+@ 454 | kartayati | cuts
+nāpitaḥ keśān *kartayati. = The barber cuts hair.
+mātā śākaṃ *kartayati. = Mother chops vegetables.
+sā kartaryā patraṃ *kartayati. = She cuts the paper with scissors.
+
+@ 455 | sīvyati | sews
+tunnavāyaḥ vastraṃ *sīvyati. = The tailor sews the cloth.
+mātā mama kañcukaṃ *sīvyati. = Mother is sewing my shirt.
+pitāmahī sūcyā *sīvyati. = Grandmother sews with a needle.
+
+@ 456 | dhārayati | wears; holds
+saḥ śvetaṃ vastraṃ *dhārayati. = He wears white clothes.
+śītakāle vayam ūrṇāvastrāṇi *dhārayāmaḥ. = In winter we wear woollens.
+pitāmahaḥ upanetre *dhārayati. = Grandfather wears glasses.
+
+@ 457 | kṣamate | forgives
+mātā putrasya doṣaṃ *kṣamate. = The mother forgives her son's fault.
+saḥ sarvān *kṣamate. = He forgives everyone.
+kṛpayā māṃ *kṣamasva. = Please forgive me.
+
+@ 458 | sthāpayati | puts; places
+pustakaṃ utpīṭhikāyāṃ *sthāpaya. = Put the book on the table.
+saḥ dhanaṃ syūte *sthāpayati. = He puts the money in his bag.
+mātā dīpaṃ gavākṣe *sthāpayati. = Mother places a lamp in the window.
+
+@ 459 | viharati | roams; enjoys oneself
+khagāḥ ākāśe *viharanti. = Birds roam the sky.
+vayaṃ ravivāsare vane *viharāmaḥ. = On Sunday we go on an outing in the forest.
+haṃsāḥ sarovare *viharanti. = The swans glide about the lake.
+
+@ 460 | ākarṣati | pulls; attracts
+vṛṣabhaḥ halam *ākarṣati. = The bull pulls the plough.
+puṣpāṇāṃ gandhaḥ bhramarān *ākarṣati. = The scent of flowers attracts bees.
+bālakaḥ mārjārasya pucchaṃ *ākarṣati. = The boy pulls the cat's tail.
+
+@ 461 | utpatati | flies up; leaps up
+mārjāraṃ dṛṣṭvā khagaḥ *utpatati. = Seeing the cat, the bird flies up.
+vimānaṃ vegena *utpatati. = The plane takes off quickly.
+pārāvatāḥ saha eva *utpatanti. = The pigeons all fly up together.
+
+@ 462 | jalpati | chatters; prattles
+kakṣyāyāṃ mā *jalpa. = Don't chatter in class.
+śukaḥ sarvadā *jalpati. = The parrot chatters all the time.
+bālikāḥ udyāne *jalpanti hasanti ca. = The girls chatter and laugh in the park.
+
+@ 463 | vardhate | grows
+vṛkṣaḥ śanaiḥ śanaiḥ *vardhate. = A tree grows slowly.
+śiśuḥ dine dine *vardhate. = The baby grows day by day.
+varṣāyāṃ nadyāḥ jalaṃ *vardhate. = In the rainy season the river rises.
+
+@ 464 | ramate | enjoys; delights
+bālakaḥ krīḍāyāṃ *ramate. = The boy enjoys playing.
+mama manaḥ saṅgīte *ramate. = My mind delights in music.
+gopālaḥ vane gobhiḥ saha *ramate. = The cowherd enjoys himself in the forest with the cows.
+
+@ 465 | avagacchati | understands
+ahaṃ saṃskṛtam *avagacchāmi. = I understand Sanskrit.
+kiṃ tvaṃ mama vacanam *avagacchasi? = Do you understand what I am saying?
+chātrāḥ pāṭham *avagacchanti. = The students understand the lesson.
+
+@ 466 | anuvadati | repeats; translates
+chātrāḥ śikṣakasya vākyam *anuvadanti. = The students repeat the teacher's sentence.
+kṛpayā etat vākyam āṅglabhāṣayā *anuvadatu. = Please translate this sentence into English.
+śukaḥ mama vacanam *anuvadati. = The parrot repeats what I say.
+
+@ 467 | kūrdati | jumps
+maṇḍūkaḥ jale *kūrdati. = The frog jumps into the water.
+bālakāḥ harṣeṇa *kūrdanti. = The boys jump for joy.
+hariṇaḥ uccaiḥ *kūrdati. = The deer leaps high.
+
+@ 468 | lambate | hangs
+vṛkṣāt phalāni *lambante. = Fruit hangs from the tree.
+bhittau ghaṭikā *lambate. = A clock hangs on the wall.
+capalaḥ vānaraḥ pucchena *lambate. = The playful monkey hangs by its tail.
+
+@ 469 | dṛśyate | is seen; appears
+rātrau ākāśe candraḥ *dṛśyate. = The moon can be seen in the sky at night.
+dūre ekaḥ parvataḥ *dṛśyate. = A mountain can be seen in the distance.
+bhavān śrāntaḥ *dṛśyate. = You look tired.
+
+@ 470 | āsīt | was; there was
+rāmaḥ ayodhyāyāḥ rājā *āsīt. = Rama was the king of Ayodhya.
+hyaḥ mama janmadinam *āsīt. = Yesterday was my birthday.
+hyaḥ atīva śītam *āsīt. = It was very cold yesterday.
+
+@ 471 | bahiḥ | outside
+bālāḥ *bahiḥ krīḍanti. = The children are playing outside.
+*bahiḥ varṣā bhavati. = It is raining outside.
+*bahiḥ gatvā paśya, kaḥ āgataḥ. = Go outside and see who has come.
+
+@ 472 | antaḥ | inside
+*antaḥ āgacchatu, bahiḥ śītam. = Come inside; it's cold outside.
+peṭikāyāḥ *antaḥ kim asti? = What is inside the box?
+mandirasya *antaḥ śāntiḥ asti. = It is peaceful inside the temple.
+
+@ 473 | upari | above; on
+vṛkṣasya *upari khagāḥ santi. = There are birds up in the tree.
+gṛhasya *upari candraḥ dṛśyate. = The moon is visible above the house.
+pustakaṃ utpīṭhikāyāḥ *upari sthāpaya. = Put the book on top of the table.
+
+@ 474 | adhaḥ | below; under
+vṛkṣasya *adhaḥ chāyā asti. = There is shade under the tree.
+mārjāraḥ śayyāyāḥ *adhaḥ svapiti. = The cat sleeps under the bed.
+setoḥ *adhaḥ nadī vahati. = The river flows under the bridge.
+
+@ 475 | purataḥ | in front
+vidyālayasya *purataḥ ekam udyānam asti. = There is a garden in front of the school.
+saḥ mama *purataḥ upaviśati. = He sits in front of me.
+gṛhasya *purataḥ yānaṃ tiṣṭhati. = A car is parked in front of the house.
+
+@ 476 | pṛṣṭhataḥ | behind
+gṛhasya *pṛṣṭhataḥ kūpaḥ asti. = There is a well behind the house.
+kukkuraḥ mama *pṛṣṭhataḥ dhāvati. = The dog runs behind me.
+meghānāṃ *pṛṣṭhataḥ sūryaḥ asti. = The sun is behind the clouds.
+
+@ 477 | madhye | in the middle; among
+grāmasya *madhye ekaḥ vaṭavṛkṣaḥ asti. = There is a banyan tree in the middle of the village.
+mitrāṇāṃ *madhye saḥ sarvadā hasati. = He is always laughing among his friends.
+sarovarasya *madhye kamalāni santi. = There are lotuses in the middle of the lake.
+
+@ 478 | sarvatra | everywhere
+varṣāyāṃ *sarvatra jalam asti. = In the rainy season there is water everywhere.
+utsave *sarvatra dīpāḥ jvalanti. = At the festival lamps burn everywhere.
+ahaṃ kuñcikāṃ *sarvatra anviṣṭavān. = I looked for the key everywhere.
+
+@ 479 | anyatra | elsewhere
+atra sthānaṃ nāsti, *anyatra gacchāmaḥ. = There is no room here; let's go elsewhere.
+mama mitram idānīm *anyatra vasati. = My friend now lives somewhere else.
+kuñcikā atra na, *anyatra paśya. = The key isn't here; look somewhere else.
+
+@ 480 | iva | like; as if
+saḥ vānaraḥ *iva vṛkṣam ārohati. = He climbs the tree like a monkey.
+saḥ siṃhaḥ *iva balavān. = He is as strong as a lion.
+tasyāḥ svaraḥ kokilaḥ *iva madhuraḥ. = Her voice is sweet like a cuckoo's.
+
+@ 481 | khalu | indeed; surely
+bhavān śrāntaḥ *khalu? = You must be tired, surely?
+adya ravivāsaraḥ *khalu, vidyālayaḥ nāsti. = Today is Sunday after all; there's no school.
+saḥ tava bhrātā *khalu? = He is your brother, isn't he?
+
+@ 482 | nūnam | surely; certainly
+saḥ *nūnam āgamiṣyati. = He will certainly come.
+meghāḥ kṛṣṇāḥ, *nūnaṃ varṣā bhaviṣyati. = The clouds are dark; it will surely rain.
+*nūnaṃ saḥ mārgaṃ vismṛtavān. = He has surely forgotten the way.
+
+@ 483 | atīva | very
+adya *atīva uṣṇam asti. = It is very hot today.
+eṣā kathā *atīva rocakā. = This story is very interesting.
+saḥ *atīva vegena dhāvati. = He runs very fast.
+
+@ 484 | samyak | properly; well
+*samyak paṭha, parīkṣā āsannā. = Study properly; the exam is near.
+saḥ saṃskṛtaṃ *samyak vadati. = He speaks Sanskrit well.
+bhojanaṃ *samyak cārvaya. = Chew your food properly.
+
+@ 485 | sukhena | happily; comfortably
+grāme vayaṃ *sukhena vasāmaḥ. = We live happily in the village.
+rātrau śiśuḥ *sukhena svapiti. = The baby sleeps peacefully at night.
+mārgaḥ saralaḥ, *sukhena prāpsyasi. = The road is easy; you'll get there comfortably.
+
+@ 486 | mandam | slowly; softly
+*mandaṃ vada, śiśuḥ svapiti. = Speak softly; the baby is sleeping.
+vṛddhaḥ *mandaṃ calati. = The old man walks slowly.
+nadī *mandaṃ mandaṃ vahati. = The river flows gently.
+
+@ 487 | uccaiḥ | loudly
+saḥ *uccaiḥ hasati. = He laughs loudly.
+kṛpayā *uccaiḥ paṭha, sarve śṛṇvantu. = Please read aloud so everyone can hear.
+siṃhaḥ *uccaiḥ garjati. = The lion roars loudly.
+
+@ 488 | tūṣṇīm | silently; quietly
+pustakālaye *tūṣṇīṃ paṭha. = Read quietly in the library.
+śikṣakasya praveśe sarve *tūṣṇīm upaviśanti. = When the teacher comes in, everyone sits quietly.
+saḥ kimapi na vadati, *tūṣṇīṃ tiṣṭhati. = He says nothing and stays silent.
+
+@ 489 | sahasā | suddenly
+*sahasā varṣā ārabdhā. = Suddenly it began to rain.
+*sahasā vidyut gatā, gṛhe andhakāraḥ jātaḥ. = Suddenly the power went out and the house went dark.
+mārge *sahasā ekaḥ sarpaḥ āgataḥ. = Suddenly a snake appeared on the path.
+
+@ 490 | ekadā | once; one day
+*ekadā ekaḥ siṃhaḥ vane suptaḥ āsīt. = Once a lion was asleep in the forest.
+*ekadā vayaṃ samudraṃ gatavantaḥ. = Once we went to the sea.
+*ekadā kākaḥ pipāsitaḥ abhavat. = One day a crow was thirsty.
+
+@ 491 | tadā | then; at that time
+yadā pitā āgacchati, *tadā vayaṃ bhojanaṃ kurmaḥ. = When Father comes, then we eat.
+*tadā ahaṃ bālakaḥ āsam. = At that time I was a boy.
+yadā varṣā bhavati, *tadā mayūrāḥ nṛtyanti. = When it rains, the peacocks dance.
+
+@ 492 | yadā | when (relative)
+*yadā sūryaḥ udeti, tadā khagāḥ kūjanti. = When the sun rises, the birds sing.
+*yadā ahaṃ gṛham āgacchāmi, mātā prasīdati. = When I come home, Mother is happy.
+*yadā samayaḥ bhaviṣyati, tadā āgamiṣyāmi. = When I have time, I will come.
+
+@ 493 | yatra | where (relative)
+*yatra jalam asti, tatra jīvanam. = Where there is water, there is life.
+*yatra ahaṃ vasāmi, tatra bahavaḥ vṛkṣāḥ santi. = There are many trees where I live.
+*yatra nāryaḥ pūjyante, tatra devatāḥ ramante. = Where women are honoured, there the gods rejoice.
+
+@ 494 | ataḥ | therefore; so
+ahaṃ rugṇaḥ, *ataḥ vidyālayaṃ na gacchāmi. = I am ill, so I am not going to school.
+varṣā bhavati, *ataḥ chatraṃ naya. = It is raining, so take an umbrella.
+saḥ pariśramaṃ karoti, *ataḥ saphalaḥ bhavati. = He works hard, therefore he succeeds.
+
+@ 495 | kevalam | only; merely
+*kevalam ekaḥ chātraḥ anupasthitaḥ. = Only one student is absent.
+saḥ *kevalaṃ phalāni khādati. = He eats only fruit.
+*kevalaṃ pañca nimeṣāḥ avaśiṣṭāḥ. = Only five minutes are left.
+
+@ 496 | anyaḥ | other; another
+*anyat pustakaṃ dadātu. = Please give me another book.
+ayaṃ mārgaḥ pihitaḥ, *anyaṃ mārgaṃ gaccha. = This road is closed; take another road.
+*anye chātrāḥ krīḍāṅgaṇe santi. = The other students are on the playground.
+
+@ 497 | svayam | oneself; by oneself
+ahaṃ *svayaṃ gṛhakāryaṃ karomi. = I do my homework by myself.
+śiśuḥ idānīṃ *svayaṃ khādati. = The baby now eats by itself.
+dvāraṃ *svayam udghāṭitam. = The door opened by itself.
+
+@ 498 | parasparam | each other; mutually
+mitrāṇi *parasparaṃ sāhāyyaṃ kurvanti. = Friends help each other.
+bālakāḥ *parasparaṃ vivādaṃ kurvanti. = The boys argue with each other.
+utsave janāḥ *parasparaṃ miṣṭānnaṃ yacchanti. = At the festival people give each other sweets.
+
+@ 499 | sādhu | well done; good
+*sādhu, tvaṃ samyak uttaram adadāḥ. = Well done, you answered correctly.
+*sādhu sādhu, uttamaṃ gītam. = Bravo, an excellent song!
+tava vicāraḥ *sādhu. = Your idea is good.
+
+@ 500 | alam | enough
+*alaṃ krīḍayā, idānīṃ paṭha. = Enough playing; study now.
+*alaṃ bhojanena, udaraṃ pūrṇam. = Enough food, my stomach is full.
+*alaṃ vivādena, mitrāṇi bhavata. = Enough arguing; be friends.

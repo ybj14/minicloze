@@ -111,6 +111,18 @@ pub fn corpus_for_language(language: &str) -> Option<LocalCorpus> {
             base_language: "mlt",
             json: include_str!("../corpora/maltese_swadesh.json"),
         }),
+        "san-a1" => Some(LocalCorpus {
+            base_language: "san",
+            json: include_str!("../corpora/sanskrit_a1.json"),
+        }),
+        "san-swadesh" => Some(LocalCorpus {
+            base_language: "san",
+            json: include_str!("../corpora/sanskrit_swadesh.json"),
+        }),
+        "san-a1-classical" => Some(LocalCorpus {
+            base_language: "san",
+            json: include_str!("../corpora/sanskrit_a1_classical.json"),
+        }),
         _ => None,
     }
 }
@@ -176,6 +188,15 @@ pub fn vocabulary_for_language(language: &str) -> Option<LocalVocabulary> {
         }),
         "mlt-swadesh" => Some(LocalVocabulary {
             json: include_str!("../corpora/maltese_swadesh_vocab.json"),
+        }),
+        "san-a1" => Some(LocalVocabulary {
+            json: include_str!("../corpora/sanskrit_a1_vocab.json"),
+        }),
+        "san-swadesh" => Some(LocalVocabulary {
+            json: include_str!("../corpora/sanskrit_swadesh_vocab.json"),
+        }),
+        "san-a1-classical" => Some(LocalVocabulary {
+            json: include_str!("../corpora/sanskrit_a1_classical_vocab.json"),
         }),
         _ => None,
     }
@@ -338,6 +359,15 @@ fn explanations_for_language(language: &str) -> Option<LocalExplanations> {
         "mlt-swadesh" => Some(LocalExplanations {
             json: include_str!("../corpora/maltese_swadesh_explanations.json"),
         }),
+        "san-a1" => Some(LocalExplanations {
+            json: include_str!("../corpora/sanskrit_a1_explanations.json"),
+        }),
+        "san-swadesh" => Some(LocalExplanations {
+            json: include_str!("../corpora/sanskrit_swadesh_explanations.json"),
+        }),
+        "san-a1-classical" => Some(LocalExplanations {
+            json: include_str!("../corpora/sanskrit_a1_classical_explanations.json"),
+        }),
         _ => None,
     }
 }
@@ -354,6 +384,7 @@ pub fn lookup_language(language: &str) -> &str {
         "hye-a1" | "hye-swadesh" => "hye",
         "kat-a1" | "kat-swadesh" => "kat",
         "mlt-a1" | "mlt-swadesh" => "mlt",
+        "san-a1" | "san-swadesh" | "san-a1-classical" => "san",
         _ => language,
     }
 }
@@ -386,6 +417,9 @@ mod tests {
             "kat-swadesh",
             "mlt-a1",
             "mlt-swadesh",
+            "san-a1",
+            "san-swadesh",
+            "san-a1-classical",
         ] {
             let corpus = corpus_for_language(language).expect("local corpus exists");
             let explanations =

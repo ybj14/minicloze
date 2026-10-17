@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20261006-1";
+const DATA_VERSION = "static-data-20261006-2";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -219,6 +219,39 @@ const COURSES = [
     vocabularyPath: dataPath("/data/maltese_swadesh_vocab.json"),
     explanationsPath: dataPath("/data/maltese_swadesh_explanations.json"),
     tokensPath: dataPath("/data/maltese_swadesh_tokens.json"),
+  },
+  {
+    code: "san-a1",
+    label: "Sanskrit A1",
+    slug: "sanskrit-a1",
+    baseLanguage: "san",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/sanskrit_a1.json"),
+    vocabularyPath: dataPath("/data/sanskrit_a1_vocab.json"),
+    explanationsPath: dataPath("/data/sanskrit_a1_explanations.json"),
+    tokensPath: dataPath("/data/sanskrit_a1_tokens.json"),
+  },
+  {
+    code: "san-swadesh",
+    label: "Sanskrit Swadesh",
+    slug: "sanskrit-swadesh",
+    baseLanguage: "san",
+    sentenceCount: 621,
+    corpusPath: dataPath("/data/sanskrit_swadesh.json"),
+    vocabularyPath: dataPath("/data/sanskrit_swadesh_vocab.json"),
+    explanationsPath: dataPath("/data/sanskrit_swadesh_explanations.json"),
+    tokensPath: dataPath("/data/sanskrit_swadesh_tokens.json"),
+  },
+  {
+    code: "san-a1-classical",
+    label: "Sanskrit A1 Classical",
+    slug: "sanskrit-a1-classical",
+    baseLanguage: "san",
+    sentenceCount: 1500,
+    corpusPath: dataPath("/data/sanskrit_a1_classical.json"),
+    vocabularyPath: dataPath("/data/sanskrit_a1_classical_vocab.json"),
+    explanationsPath: dataPath("/data/sanskrit_a1_classical_explanations.json"),
+    tokensPath: dataPath("/data/sanskrit_a1_classical_tokens.json"),
   },
 ];
 

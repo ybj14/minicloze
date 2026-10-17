@@ -1,0 +1,2508 @@
+# Sanskrit A1 Classical — beginner sentences adapted from verifiable classical texts.
+# Format: @ index | lemma (IAST) | gloss ; then 3 lines: sentence with *cloze = English ## key
+# key = code@LINE.CLAUSE (line number in the GRETIL plain-text file, 1-based daṇḍa clause)
+#       or code:substring; build_sanskrit_batches.py resolves it and stores the citation
+#       ("Adapted from <work>, <verse/passage> — <GRETIL URL> (line N)") and the original clause.
+# Codes: hit = Hitopadeśa, pt = Pañcatantra, vet = Vetālapañcaviṃśatikā (Kathāsaritsāgara),
+#        ram = Rāmāyaṇa, bhg = Bhagavadgītā, manu = Manusmṛti, bhartr = Bhartṛhari Śatakatraya.
+# Spelling: same pedagogical pausa style as a1.txt (no external sandhi; final m -> ṃ before consonant).
+
+@ 1 | rājā | king
+*rājā paṇḍitānāṃ sabhāṃ kārayati. = The king has an assembly of scholars convened. ## hit@199.1
+tataḥ *rājā tau sādaram avalokayati. = Then the king looks at the two of them with respect. ## hit@1795.2
+*rājā bhogasya bhājanam, na kāryasya. = The king is there to enjoy, not to do the work. ## hit@2043.1
+
+@ 2 | nṛpaḥ | king
+*nṛpaḥ pitā iva prajāḥ rakṣet. = A king should protect his subjects like a father. ## hit@1905.1
+kāmāsaktaḥ *nṛpaḥ hitaṃ na gaṇayati. = A king lost in pleasure does not care about what is good. ## hit@2130.1
+he *nṛpate, yaḥ kṣaṇaṃ na manyate, saḥ mūrkhaḥ. = O king, whoever disregards a moment is a fool. ## hit@1837.1
+
+@ 3 | mantrī | minister
+*mantrī vadati, deva, saṅgrāme vijayaḥ prāptaḥ. = The minister says, "Your Majesty, victory has been won in battle." ## hit@2644.1
+rājakāryaṃ nāśayan *mantrī doṣaṃ labhate. = A minister who ruins the king's work bears the blame. ## hit@2044.1
+ayaṃ doṣaḥ *mantriṇāṃ na, daivasya. = This fault is not the ministers'; it is fate's. ## hit@3283.1
+
+@ 4 | svāmī | master
+dātā kṣamī ca *svāmī durlabhaḥ. = A generous and patient master is hard to find. ## hit@3205.1
+sevakāḥ *svāminaḥ dṛṣṭiṃ bahu manyante. = Servants value their master's glance highly. ## hit@1416.1
+dhārmikaḥ nītikuśalaḥ ca janaḥ uttamaḥ *svāmī bhavati. = A righteous man skilled in policy makes an excellent master. ## hit@1215.1
+
+@ 5 | sevakaḥ | servant
+tasya trayaḥ *sevakāḥ santi. = He has three servants. ## hit@3657.2
+*sevakaḥ sukhāya duḥkhaṃ sahate. = A servant puts up with hardship for the sake of comfort. ## hit@1427.1
+rājñaḥ *sevakāḥ svajīvite api na viśvasanti. = The king's servants cannot be sure even of their own lives. ## hit@2204.1
+
+@ 6 | bhṛtyaḥ | servant
+*bhṛtyāḥ ābharaṇāni iva svasthāne yojyante. = Servants, like ornaments, are put in their proper place. ## hit@1685.1
+rājā purāṇān *bhṛtyān na tyajet. = A king should not abandon his old servants. ## hit@2098.1
+vicārajñaḥ nṛpaḥ uttamaiḥ *bhṛtyaiḥ pūryate. = A discerning king is surrounded by excellent servants. ## hit@1698.1
+
+@ 7 | dūtaḥ | messenger
+avadhyaḥ *dūtaḥ sarvaṃ vadati. = A messenger, who may not be killed, speaks freely about everything. ## hit@2790.1
+rājā *dūtaṃ dūrāt paśyet. = The king should see the messenger from a distance. ## hit@2771.1
+buddhimān brāhmaṇaḥ *dūtaḥ bhavet. = A clever Brahmin should be the messenger. ## hit@2509.1
+
+@ 8 | brāhmaṇaḥ | Brahmin
+mūḍhaḥ *brāhmaṇaḥ nakulaṃ hatvā tapyate. = The foolish Brahmin kills the mongoose and then regrets it. ## hit@3890.1
+varṇānāṃ *brāhmaṇaḥ guruḥ. = Among the classes, the Brahmin is the teacher. ## hit@828.1
+*brāhmaṇaḥ prāptam artham api kṛcchreṇa yacchati. = A Brahmin parts with money only with great difficulty, even when it is due. ## hit@1857.1
+
+@ 9 | vaṇik | merchant
+tatra vardhamānaḥ nāma *vaṇik nivasati. = A merchant named Vardhamana lives there. ## hit@1312.2
+vikramapure samudradattaḥ nāma *vaṇik asti. = In Vikramapura there is a merchant named Samudradatta. ## hit@3329.1
+sāgaradattaḥ *vaṇik kasmiṃścit nagare vasati. = The merchant Sagaradatta lives in a certain town. ## pt@3324.1
+
+@ 10 | guruḥ | teacher; honoured one
+atithiḥ sarvasya *guruḥ. = A guest is to be honoured by everyone. ## hit@572.1
+saḥ *guroḥ samīpe na adhītavān. = He did not study with a teacher. ## hit@196.1
+dvijātīnām agniḥ *guruḥ. = For the twice-born, fire is the guru. ## hit@828.1
+
+@ 11 | śiṣyaḥ | pupil
+saḥ *śiṣyaḥ guruṃ prativadati. = The pupil answers the teacher. ## vet@6157.1
+*śiṣyasya putraḥ grāmāt āgacchati. = The pupil's son comes from the village. ## pt@979.1
+rājaputraḥ *śiṣyasya rūpaṃ dhārayati. = The prince takes on the appearance of a pupil. ## vet@470.1
+
+@ 12 | paṇḍitaḥ | wise man; scholar
+yaḥ sarvabhūteṣu ātmānaṃ paśyati, saḥ *paṇḍitaḥ. = Whoever sees himself in all beings is wise. ## hit@304.1
+dhanāt janaḥ *paṇḍitaḥ bhavati. = With money, a man is counted as learned. ## hit@860.1
+*paṇḍitaṃ satyena vaśīkuryāt. = One should win over a wise man with the plain truth. ## hit@3961.1
+
+@ 13 | mūrkhaḥ | fool
+satsaṅgena *mūrkhaḥ api pravīṇaḥ bhavati. = In good company even a fool becomes skilled. ## hit@202.1
+ekaḥ guṇī putraḥ varam, na śataṃ *mūrkhāḥ. = Better one good son than a hundred fools. ## hit@117.1
+mṛtaḥ putraḥ varam, na tu *mūrkhaḥ. = A dead son is better than a foolish one. ## hit@92.1
+
+@ 14 | mitram | friend
+*mitra, mā evaṃ kuru. = Friend, don't do that. ## hit@441.2
+vāyasaḥ vadati, *mitra, ekaṃ sthānam asti. = The crow says, "Friend, there is a place." ## hit@792.1
+*mitreṇa vinā gṛhaṃ śūnyam. = Without a friend, a home is empty. ## hit@872.1
+
+@ 15 | śatruḥ | enemy
+mūrkhaḥ putraḥ *śatruḥ. = A foolish son is an enemy. ## hit@131.1
+yena bālaḥ na pāṭhitaḥ, sā mātā *śatruḥ. = A mother who has not taught her child is an enemy. ## hit@189.1
+yaḥ *śatroḥ saṅkaṭe tiṣṭhati, saḥ bāndhavaḥ. = Whoever stands by you in danger from enemies is a true kinsman. ## hit@633.1
+
+@ 16 | suhṛt | friend
+satyatā *suhṛdaḥ guṇaḥ. = Truthfulness is a friend's virtue. ## hit@744.1
+hitakāmānāṃ *suhṛdāṃ vacanaṃ śṛṇu. = Listen to what friends who wish you well tell you. ## hit@3381.2
+buddhimantaḥ *suhṛdaḥ kāryāṇi sādhayanti. = Wise friends get things done. ## hit@244.1
+
+@ 17 | janaḥ | person; people
+sarvaḥ *janaḥ śūraḥ, yāvat yuddhaṃ na paśyati. = Everyone is brave until he sees a fight. ## hit@2664.1
+kṛpaṇaṃ *janaṃ kaḥ api na icchati. = Nobody wants a stingy person. ## hit@907.1
+citrakarmavidaḥ *janāḥ same nimnonnatāni paśyanti. = Painters see hollows and heights on a flat surface. ## hit@1945.1
+
+@ 18 | lokaḥ | world; people
+dhanavān *loke balavān. = In the world, the rich man is the strong one. ## hit@855.1
+vipattau mahān *loke dhīratvaṃ darśayati. = In misfortune a great man shows his steadiness to the world. ## hit@2678.1
+*loke budhaḥ ucitam ucitena yojayati. = In the world a wise man joins the fitting with the fitting. ## hit@510.1
+
+@ 19 | atithiḥ | guest
+yadi annaṃ nāsti, *atithiḥ madhuravacasā pūjyaḥ. = If there is no food, a guest should be honoured with kind words. ## hit@565.1
+*atithiḥ gṛhāt nirāśaḥ na gacchet. = A guest should not leave the house disappointed. ## hit@579.1
+yūyaṃ mām *atithiṃ hantum udyatāḥ. = You are ready to kill me, your guest. ## hit@560.3
+
+@ 20 | cauraḥ | thief
+*cauraḥ gṛhadravyāṇi hartuṃ praviśati. = A thief comes in to steal the household goods. ## hit@1464.3
+ghaṇṭām ādāya palāyamānaḥ *cauraḥ vyāghreṇa hataḥ. = A thief running away with a bell was killed by a tiger. ## hit@1808.3
+ayaṃ *cauraḥ karpūraṃ corayitvā khādati. = This thief steals camphor and eats it. ## hit@3334.3
+
+@ 21 | muniḥ | sage
+*muniḥ mūṣikaṃ vadati, tvaṃ mārjāraḥ bhava. = The sage says to the mouse, "Become a cat." ## hit@3411.6
+*muniḥ taṃ vyāghraṃ mūṣikam eva paśyati. = The sage sees that tiger as just a mouse. ## hit@3413.1
+vyāghraḥ bhūtvā mūṣikaḥ *muniṃ hantuṃ gacchati. = Having become a tiger, the mouse goes to kill the sage. ## hit@3405.1
+
+@ 22 | ṛṣiḥ | seer; sage
+vālmīkiḥ bhagavān *ṛṣiḥ. = Valmiki is a revered seer. ## ram@485.1
+saḥ *ṛṣibhiḥ parivṛtaṃ taṃ paśyati. = He sees him surrounded by seers. ## vet@5332.1
+vasiṣṭhaḥ *ṛṣiḥ āgacchati. = The seer Vasishtha arrives. ## ram@5290.1
+
+@ 23 | tapasvī | ascetic
+ahaṃ *tapasvī, araṇyeṣu bhramāmi. = I am an ascetic; I wander in the forests. ## vet@500.1
+bhoḥ *tapasvin, āvayoḥ vivādaḥ asti. = O ascetic, we two have a dispute. ## pt@4289.4
+rājñaḥ caraḥ *tapasvinaḥ veṣaṃ dhārayati. = The king's spy dresses as an ascetic. ## hit@2631.1
+
+@ 24 | putraḥ | son
+sā tasya *putraṃ kuśūlāt bahiḥ karoti. = She takes his son out of the granary. ## hit@1980.1
+bahubhiḥ *putraiḥ kaḥ dhanyaḥ? = Who is blessed just by having many sons? ## hit@127.1
+yaḥ na vidvān na dhārmikaḥ, tena *putreṇa kaḥ arthaḥ? = What use is a son who is neither learned nor good? ## hit@89.1
+
+@ 25 | pitā | father
+ṛṇakartā *pitā śatruḥ. = A father who runs up debts is an enemy. ## hit@130.1
+rājā sarveṣāṃ *pitā mātā ca. = The king is father and mother to all. ## pt@2136.1
+yena putraḥ na pāṭhitaḥ, saḥ *pitā vairī. = A father who has not taught his son is a foe. ## hit@189.1
+
+@ 26 | mātā | mother
+*mātā mitraṃ pitā ca svabhāvāt hitāḥ. = Mother, friend and father wish us well by nature. ## hit@421.1
+jantau jāte *mātuḥ stanau prasravataḥ. = When a baby is born, the mother's breasts fill with milk. ## hit@1121.1
+kanyā varaṃ varayate, *mātā dhanam icchati. = The girl chooses a groom; the mother wants wealth. ## pt@4922.1
+
+@ 27 | bhāryā | wife
+rūpavatī *bhāryā śatruḥ. = A beautiful wife is an enemy. ## hit@131.1
+dhane naṣṭe *bhāryāṃ jānīyāt. = When the money is gone, you come to know your wife. ## hit@630.1
+rājani asati kutaḥ *bhāryā kutaḥ dhanam? = Without a king, where is a wife, where is wealth? ## hit@1219.1
+
+@ 28 | patiḥ | husband; owner
+kṣetrasya *patiḥ laguḍaṃ gṛhītvā āgacchati. = The owner of the field comes with a stick. ## hit@681.1
+sā agnau patitaṃ *patiṃ paśyati. = She sees her husband fallen into the fire. ## pt@4643.1
+pativratā *patyuḥ hite ratā. = A devoted wife cares for her husband's welfare. ## pt@4555.1
+
+@ 29 | kanyā | girl; daughter
+*kanyā varaṃ varayate, pitā vidyām icchati. = The girl chooses a groom; the father wants learning. ## pt@4922.1
+*kanyā pāṃsunā krīḍati. = The girl plays in the dust. ## pt@4926.1
+saḥ tāṃ *kanyāṃ parigṛhṇātu. = Let him take that girl as his wife. ## pt@6822.1
+
+@ 30 | strī | woman
+*strī vadati, ahaṃ rājalakṣmīḥ. = The woman says, "I am the king's good fortune." ## hit@2969.1
+*striyaṃ dānena mānena ca toṣayet. = One should please a woman with gifts and respect. ## hit@3965.1
+*striyaṃ bālaṃ ca kadāpi na praharet. = One should never strike a woman or a child. ## pt@5649.1
+
+@ 31 | naraḥ | man
+guṇavān *naraḥ pūjyate. = A man of good qualities is honoured. ## hit@133.1
+ekaḥ *naraḥ māsaṃ bhojanaṃ bhavati. = One man is food for a month. ## hit@1064.1
+ye *narāḥ hiṃsāṃ na kurvanti, te svargaṃ gacchanti. = Men who harm no one go to heaven. ## hit@588.1
+
+@ 32 | puruṣaḥ | man; person
+loke saḥ *puruṣaḥ nāsti, yaḥ śriyaṃ na kāmayate. = There is no man in the world who does not want wealth. ## hit@2076.1
+*puruṣaḥ yatnaṃ kuryāt. = A person should make an effort. ## hit@167.1
+*puruṣāḥ trividhāḥ, uttamāḥ madhyamāḥ adhamāḥ ca. = People are of three kinds: the best, the middling and the worst. ## hit@1681.1
+
+@ 33 | bālakaḥ | boy; child
+śyenaḥ *bālakaṃ harati. = The hawk carries off the boy. ## pt@2560.1
+*bālakaḥ ayam iti cintayitvā saḥ taṃ na hanti. = Thinking "this is a child", he does not kill him. ## pt@5652.3
+*bālakaiḥ saha mantraṃ na kuryāt. = One should not take counsel with children. ## pt@6548.1
+
+@ 34 | vṛddhaḥ | old man; old
+*vṛddhaḥ vyāghraḥ pathikaṃ mārayati. = The old tiger kills the traveller. ## hit@261.1
+*vṛddhasya śaśakasya vāraḥ āgacchati. = The old hare's turn comes. ## hit@2016.2
+bālaḥ *vṛddhaḥ dīrgharogī ca sukhena jīyante. = A child, an old man and a chronically ill man are easily defeated. ## hit@3540.1
+
+@ 35 | bhrātā | brother
+*bhrātaḥ, ajīrṇabhayāt kaḥ bhojanaṃ tyajati? = Brother, who gives up food for fear of indigestion? ## hit@1605.1
+pitā vā *bhrātā vā kanyāṃ dadyāt. = The father or the brother should give the girl in marriage. ## hit@2595.1
+tasya siṃhasya *bhrātā stabdhakarṇaḥ āgacchati. = The lion's brother Stabdhakarna arrives. ## hit@1814.1
+
+@ 36 | kumāraḥ | prince; boy
+devāḥ jātasya *kumārasya rakṣāṃ kurvanti. = The gods take care of the newborn boy. ## ram@2925.1
+ayam aṅgadaḥ *kumāraḥ, taṃ rakṣa. = This is Prince Angada; look after him. ## ram@23678.1
+*kumāraḥ aṅgadaḥ kathaṃ jīviṣyati? = How will young Angada go on living? ## ram@29534.1
+
+@ 37 | devaḥ | god; Your Majesty
+cakravākaḥ vadati, *deva, kākaḥ eva asau. = The ruddy goose says, "Your Majesty, that is surely the crow." ## hit@2920.1
+sarvajñaḥ hasitvā vadati, *deva, atra śaṅkā na kartavyā. = Sarvajna laughs and says, "Your Majesty, there is nothing to worry about here." ## hit@3944.1
+kṛpaṇaḥ *devāya api na dadāti. = A miser gives nothing, not even to a god. ## hit@1033.1
+
+@ 38 | daivam | fate
+*daivaṃ cintayitvā udyogaṃ na tyajet. = One should not give up effort just by thinking about fate. ## hit@169.1
+*daive vimukhe yatnaḥ vyarthaḥ bhavati. = When fate is against you, effort is in vain. ## hit@887.1
+*daivaṃ svayaṃ kiñcit na dadāti. = Fate by itself gives nothing. ## hit@183.1
+
+@ 39 | vyādhaḥ | hunter
+*vyādhaḥ taṇḍulakaṇān vikīrya jālaṃ vistārayati. = The hunter scatters grains of rice and spreads a net. ## hit@258.1
+mṛgaḥ āsannaṃ *vyādhaṃ dṛṣṭvā palāyate. = The deer sees the hunter close by and runs away. ## hit@1283.5
+pakṣiṣu dūraṃ gateṣu saḥ *vyādhaḥ nivartate. = When the birds are far away, the hunter turns back. ## hit@419.1
+
+@ 40 | lubdhakaḥ | hunter
+*lubdhake samīpam āgate yuvāṃ palāyethām. = When the hunter comes near, you two should run away. ## hit@1281.5
+ahaṃ *lubdhakāt bhītaḥ bhavatāṃ śaraṇam āgataḥ. = Afraid of the hunter, I have come to you for refuge. ## hit@1178.1
+*lubdhakaṃ nivṛttaṃ dṛṣṭvā kapotāḥ vadanti. = Seeing the hunter go back, the pigeons speak. ## hit@419.2
+
+@ 41 | dhīvaraḥ | fisherman
+*dhīvarāḥ prahṛṣṭāḥ svagṛhaṃ gacchanti. = The fishermen go home in high spirits. ## pt@6435.1
+kūrmaḥ *dhīvarāṇām ālāpaṃ śṛṇoti. = The tortoise hears the fishermen's talk. ## hit@3303.1
+yadbhaviṣyaḥ *dhīvaraiḥ prāptaḥ. = Yadbhavishya was caught by the fishermen. ## hit@3348.3
+
+@ 42 | nāpitaḥ | barber
+*nāpitaḥ nidhim icchan bhikṣuṃ hanti. = Wanting treasure, the barber kills the monk. ## hit@3009.1
+saḥ *nāpitaḥ rājapuruṣaiḥ hataḥ. = That barber was killed by the king's men. ## hit@3019.4
+narāṇāṃ *nāpitaḥ dhūrtaḥ. = Among men, the barber is the sly one. ## pt@4116.1
+
+@ 43 | rajakaḥ | washerman
+vārāṇasyāṃ karpūrapaṭakaḥ nāma *rajakaḥ asti. = In Varanasi there is a washerman named Karpurapataka. ## hit@1464.1
+hastināpure vilāsaḥ nāma *rajakaḥ vasati. = A washerman named Vilasa lives in Hastinapura. ## hit@2417.1
+prātaḥ *rajakaḥ taṃ svagṛhaṃ nayati. = In the morning the washerman takes him home. ## pt@5771.2
+
+@ 44 | siṃhaḥ | lion
+suptasya *siṃhasya mukhe mṛgāḥ na praviśanti. = Deer do not walk into the mouth of a sleeping lion. ## hit@186.1
+*siṃhaḥ vadati, bhadra, mahatī śaṅkā māṃ bādhate. = The lion says, "Friend, a great worry troubles me." ## hit@1734.1
+mṛgāḥ *siṃhasya abhiṣekaṃ na kurvanti. = The animals do not crown the lion king. ## hit@1388.1
+
+@ 45 | vyāghraḥ | tiger
+kākaḥ *vyāghraḥ jambukaḥ ca siṃhasya sevakāḥ. = The crow, the tiger and the jackal are the lion's servants. ## hit@3657.2
+śabdena jñātaḥ saḥ *vyāghreṇa hataḥ. = Recognized by his voice, he is killed by the tiger. ## hit@2757.1
+*vyāghraḥ hastaṃ prasārya kaṅkaṇaṃ darśayati. = The tiger stretches out its paw and shows the bracelet. ## hit@275.3
+
+@ 46 | śṛgālaḥ | jackal
+paṅke nimagnaḥ hastī *śṛgālaiḥ bhakṣitaḥ. = The elephant stuck in the mud was eaten by jackals. ## hit@1239.1
+taṃ dṛṣṭvā sarve *śṛgālāḥ cintayanti. = Seeing him, all the jackals think. ## hit@1208.2
+*śṛgālāt mṛgaṃ kākaḥ rakṣati. = The crow saves the deer from the jackal. ## hit@515.1
+
+@ 47 | kākaḥ | crow
+*kākaḥ api cañcvā svodaraṃ pūrayati. = Even a crow fills its belly with its beak. ## hit@1495.1
+subuddhiḥ nāma *kākaḥ mṛgasya ciramitram. = A crow named Subuddhi is the deer's old friend. ## hit:subuddhi-nāmā kāko
+*kākaḥ vadati, sakhe, ayaṃ dvitīyaḥ kaḥ? = The crow says, "Friend, who is this second one?" ## hit:ko 'yaṃ dvitīyaḥ
+
+@ 48 | mṛgaḥ | deer
+*mṛgaḥ kākaḥ ca mahatā snehena vasataḥ. = A deer and a crow live together in great affection. ## hit@523.2
+saḥ *mṛgaḥ svecchayā vane bhramati. = The deer roams the forest as it pleases. ## hit:sa ca mṛgaḥ svecchayā
+śṛgālaḥ cintayati, katham etasya *mṛgasya māṃsaṃ khādāmi? = The jackal thinks, "How can I eat this deer's meat?" ## hit:etan-māṃsaṃ sulalitaṃ bhakṣayāmi
+
+@ 49 | kūrmaḥ | tortoise
+haṃsābhyāṃ nīyamānaḥ *kūrmaḥ patati. = The tortoise being carried by the two geese falls. ## hit@3295.1
+kambugrīvaḥ nāma *kūrmaḥ tayoḥ mitram. = A tortoise named Kambugriva is their friend. ## hit@3301.3
+durbuddhiḥ *kūrmaḥ kāṣṭhāt bhraṣṭaḥ vinaśyati. = The foolish tortoise drops from the stick and dies. ## hit@3291.1
+
+@ 50 | mūṣikaḥ | mouse
+biḍālaḥ taṃ *mūṣikaṃ khādituṃ dhāvati. = The cat runs to eat the mouse. ## hit@3411.4
+*mūṣikasya mitreṇa kapotāḥ muktāḥ. = The pigeons are freed by their friend the mouse. ## hit@504.1
+paśya, ayaṃ pāpaḥ *mūṣikaḥ punaḥ mūṣikaḥ abhavat. = Look, this wicked mouse has become a mouse again. ## hit@861.1
+
+@ 51 | haṃsaḥ | swan; goose
+*haṃsānāṃ madhye bakaḥ na śobhate. = A heron does not look good among swans. ## hit@190.1
+kākaiḥ *haṃsāḥ vañcitāḥ. = The geese were tricked by the crows. ## hit@2350.1
+tatra saṅkaṭaḥ vikaṭaḥ ca nāma *haṃsau ciraṃ vasataḥ. = Two geese named Sankata and Vikata have long lived there. ## hit@3301.2
+
+@ 52 | bakaḥ | heron
+atilobhāt *bakaḥ mṛtaḥ. = The heron died of too much greed. ## hit@3420.1
+kaścit *bakaḥ dvitīyaḥ bhūtvā gacchatu. = Let some heron go along as a companion. ## hit@2633.3
+nakulāḥ vṛkṣam āruhya *bakānāṃ śāvakān khādanti. = The mongooses climb the tree and eat the herons' chicks. ## hit@3369.2
+
+@ 53 | sarpaḥ | snake
+maṇinā bhūṣitaḥ *sarpaḥ api bhayaṅkaraḥ. = A snake adorned with a jewel is still frightening. ## hit@716.1
+tayoḥ pādābhyām ekaḥ *sarpaḥ mṛtaḥ. = One snake was killed under their stamping feet. ## hit@1058.1
+*sarpeṇa saha gṛhe vāsaḥ mṛtyuḥ eva. = Living in a house with a snake is certain death. ## hit@1998.1
+
+@ 54 | gajaḥ | elephant
+paṅke magnānāṃ *gajānāṃ gajāḥ eva sahāyāḥ. = Only elephants can help elephants stuck in the mud. ## hit@1167.1
+*gajaḥ spṛśan api hanti. = An elephant kills just by touching. ## hit@2452.1
+saḥ mattaḥ *gajaḥ iva svacchandaṃ carati. = He wanders freely like an elephant in rut. ## hit@2131.1
+
+@ 55 | hastī | elephant
+brahmāraṇye karpūratilakaḥ nāma *hastī asti. = In Brahma Forest there is an elephant named Karpuratilaka. ## hit@1208.1
+baleṣu *hastī pramukhaḥ. = Among the forces, the elephant is the chief. ## hit@2869.1
+varṣākāle *hastināṃ gamanaṃ praśastam. = Marching with elephants is best in the rainy season. ## hit@2841.1
+
+@ 56 | vānaraḥ | monkey
+tatra *vānarāṇāṃ balavat yūthaṃ krīḍat āgacchati. = A strong troop of monkeys comes there playing. ## hit@1449.3
+*vānarāḥ tāṃ ghaṇṭāṃ punaḥ punaḥ vādayanti. = The monkeys ring that bell again and again. ## hit@1808.5
+kīlam utpāṭayan *vānaraḥ nidhanaṃ yāti. = The monkey that pulls out the wedge meets its death. ## hit@1441.1
+
+@ 57 | makaraḥ | crocodile
+*makaraḥ vadati, bhadra, saḥ lambakarṇaḥ kaḥ? = The crocodile says, "Friend, who is this Lambakarna?" ## pt@5558.1
+balavān *makaraḥ mama gṛhaṃ ruṇaddhi. = A stronger crocodile has taken over my home. ## pt@5948.2
+*makaraḥ samudrataṭe piṅgalaṃ hanti. = A crocodile kills Pingala on the seashore. ## pt@2926.1
+
+@ 58 | mārjāraḥ | cat
+saḥ *mārjāraḥ taroḥ koṭare tiṣṭhati. = The cat stays in the hollow of the tree. ## hit@607.1
+*mārjārasya doṣeṇa gṛdhraḥ hataḥ. = The vulture was killed because of the cat's wickedness. ## hit@534.1
+muniḥ mūṣikaṃ *mārjāraṃ karoti. = The sage turns the mouse into a cat. ## hit@3411.6
+
+@ 59 | kukkuraḥ | dog
+saḥ biḍālaḥ *kukkuraṃ dṛṣṭvā palāyate. = The cat sees the dog and runs away. ## hit@3411.7
+*kukkuraḥ vadati, bhadra, mama kāryasya carcāṃ mā kuru. = The dog says, "Friend, don't meddle in my job." ## hit@1466.1
+*kukkuraḥ prāṅgaṇe upaviṣṭaḥ asti. = The dog is sitting in the courtyard. ## hit@1464.5
+
+@ 60 | gardabhaḥ | donkey
+tasya prāṅgaṇe *gardabhaḥ baddhaḥ tiṣṭhati. = A donkey stands tied up in his courtyard. ## hit@1464.4
+dvīpinaḥ carmaṇā channaḥ *gardabhaḥ vācā hataḥ. = The donkey in a leopard's skin was killed because of its voice. ## hit@2411.1
+tasya *gardabhaḥ atibhārāt durbalaḥ abhavat. = His donkey grew weak from carrying too much. ## hit@2417.2
+
+@ 61 | uṣṭraḥ | camel
+te sārthāt bhraṣṭam ekam *uṣṭraṃ paśyanti. = They see a camel that has strayed from its caravan. ## hit@3657.3
+kākādayaḥ *uṣṭre akṛtyaṃ kurvanti. = The crow and the others do wrong by the camel. ## pt@1767.1
+siṃhaḥ āgatya *uṣṭraṃ paśyati. = The lion comes and looks at the camel. ## pt@2296.1
+
+@ 62 | kapotaḥ | pigeon
+tena sarveṣāṃ *kapotānāṃ bandhanāni chinnāni. = He cut the bonds of all the pigeons. ## hit@482.3
+śyenānāṃ madhye *kapotaḥ iva saḥ bhītaḥ. = He is as frightened as a pigeon among hawks. ## hit@3588.1
+*kapotāḥ pṛcchanti, katham etat? = The pigeons ask, "How did that happen?" ## hit@263.1
+
+@ 63 | śukaḥ | parrot
+*śukāḥ haritāḥ, haṃsāḥ śuklāḥ ca. = Parrots are green and swans are white. ## hit@1124.1
+bakaḥ *śukaḥ iva na pāṭhyate. = A heron cannot be taught to talk like a parrot. ## hit@211.1
+sabhāyāṃ *śukaḥ kākaḥ ca āhūtau. = The parrot and the crow are summoned to the assembly. ## hit@2773.1
+
+@ 64 | gṛdhraḥ | vulture
+*gṛdhraḥ vadati, kimartham āgataḥ asi? = The vulture says, "Why have you come?" ## hit@558.1
+dūram apasara, iti *gṛdhraḥ mārjāraṃ vadati. = "Get away!" the vulture tells the cat. ## hit@551.1
+*gṛdhraḥ manasi cintayati. = The vulture thinks to himself. ## hit@3090.1
+
+@ 65 | ulūkaḥ | owl
+*ulūkaṃ nṛpatiṃ kṛtvā kā siddhiḥ? = What will we gain by making the owl king? ## pt@4134.1
+sarve *ulūkāḥ tasya vadhāya gacchanti. = All the owls go to kill him. ## pt@4447.3
+*ulūkaiḥ pūrṇāṃ dagdhāṃ guhāṃ paśya. = Look at the burnt cave full of owls. ## pt@3825.1
+
+@ 66 | matsyaḥ | fish
+bakaḥ bahūn *matsyān khāditvā mṛtaḥ. = The heron ate many fish and then died. ## hit@3419.1
+*matsyāḥ mama jīvanasya hetavaḥ. = Fish are what I live on. ## hit@3428.1
+jale māṃsaṃ *matsyaiḥ khādyate. = Meat in the water is eaten by fish. ## hit@1138.1
+
+@ 67 | maṇḍūkaḥ | frog
+*maṇḍūkāḥ pūrṇaṃ nipānaṃ gacchanti. = Frogs go to a full watering hole. ## hit@1101.1
+vṛddhena sarpeṇa *maṇḍūkāḥ hatāḥ. = The frogs were killed by the old snake. ## hit@3725.1
+ahaṃ *maṇḍūkān voḍhum atra tiṣṭhāmi. = I stay here to carry the frogs. ## hit@3860.2
+
+@ 68 | śaśakaḥ | hare
+madonmattaḥ siṃhaḥ *śaśakena hataḥ. = The arrogant lion was killed by a hare. ## hit@2008.1
+vijayaḥ nāma vṛddhaḥ *śaśakaḥ vadati, mā viṣīdata. = An old hare named Vijaya says, "Don't despair." ## hit@2450.1
+*śaśakāḥ sukhena vasanti. = The hares live happily. ## hit@2440.1
+
+@ 69 | vṛṣabhaḥ | bull
+karaṭakaḥ vadati, he *vṛṣabha, tvam atra vane tiṣṭhasi. = Karataka says, "Bull, you are staying in this forest." ## hit@1779.1
+duṣṭāt *vṛṣabhāt śūnyā śālā varam. = An empty stable is better than a vicious bull. ## hit@923.1
+*vṛṣabhāḥ asmākaṃ bhakṣyāḥ. = Bulls are our food. ## hit@1747.4
+
+@ 70 | gauḥ | cow
+*gāvaḥ araṇye navaṃ navaṃ tṛṇam icchanti. = Cows in the forest always want fresh grass. ## hit@3332.1
+tvaṃ paṅke *gauḥ iva sīdasi. = You are sinking like a cow in the mud. ## hit@137.1
+yathā *gauḥ kāle duhyate, tathā prajāḥ pālyante. = As a cow is milked at the right time, so subjects are looked after. ## pt@1448.1
+
+@ 71 | aśvaḥ | horse
+senāyāḥ balam *aśvaḥ. = Horses are the strength of an army. ## hit@2872.1
+pārśvayoḥ *aśvāḥ, aśvānāṃ pārśve rathāḥ. = Horses on both flanks, and chariots beside the horses. ## hit@2832.1
+saḥ sarvān *aśvān avalokayati. = He looks over all the horses. ## pt@6731.2
+
+@ 72 | mayūraḥ | peacock
+tatra citravarṇaḥ nāma *mayūraḥ pakṣirājaḥ vasati. = A peacock named Chitravarna, king of the birds, lives there. ## hit@2367.2
+ayaṃ *mayūraḥ kena rājā kṛtaḥ? = Who made this peacock king? ## hit@2399.1
+haṃsaiḥ saha *mayūrāṇāṃ vigrahaḥ bhavati. = War breaks out between the geese and the peacocks. ## hit@2349.1
+
+@ 73 | kokilaḥ | cuckoo
+saḥ *kokilasya madhuraṃ svanaṃ śṛṇoti. = He hears the cuckoo's sweet call. ## ram@4927.1
+hṛṣṭaḥ *kokilaḥ āhvayati. = The happy cuckoo calls out. ## ram@21796.1
+tatra mattāḥ *kokilāḥ nityaṃ vasanti. = Excited cuckoos always live there. ## ram@29669.1
+
+@ 74 | bhramaraḥ | bee
+ayaṃ vṛkṣaḥ *bhramaraiḥ upagītaḥ. = Bees hum around this tree. ## ram@20578.1
+supuṣpaḥ vṛkṣaḥ *bhramaraiḥ śobhitaḥ. = The tree in full bloom is beautiful with bees. ## ram@22372.1
+vanāni *bhramaraiḥ sevitāni. = The woods are visited by bees. ## ram@38023.1
+
+@ 75 | pakṣī | bird
+iti cintayitvā sarve *pakṣiṇaḥ jālam ādāya utpatanti. = With this thought, all the birds take the net and fly up. ## hit@414.1
+tatra nīḍeṣu *pakṣiṇaḥ sukhena vasanti. = Birds live happily there in their nests. ## hit@2386.2
+etat śrutvā te *pakṣiṇaḥ māṃ hantum udyatāḥ. = Hearing this, those birds got ready to kill me. ## hit@2401.1
+
+@ 76 | vihagaḥ | bird
+ākāśe carantaḥ *vihagāḥ api āpadaṃ prāpnuvanti. = Even birds that roam the sky meet with misfortune. ## hit@495.1
+*vihagāḥ ekānte vyomni vicaranti. = Birds roam the open sky alone. ## pt@2826.1
+*vihagāḥ patibhiḥ saha ramante. = The birds enjoy themselves with their mates. ## ram@21801.1
+
+@ 77 | vanam | forest
+daridrasya *vanāt anyat sukhaṃ kutaḥ? = For a poor man, where is happiness apart from the forest? ## hit@888.1
+*vane siṃhasya vṛṣabhasya ca snehaḥ vardhate. = In the forest the friendship between the lion and the bull grows. ## hit@1307.1
+nadīṣu *vaneṣu ca bhayaṃ bhavati. = There is danger in rivers and forests. ## hit@2826.1
+
+@ 78 | araṇyam | forest; wilderness
+adya ārabhya asmin *araṇye mama ājñā pālanīyā. = From today, my orders must be obeyed in this forest. ## hit@2750.4
+*araṇye kaścit śṛgālaḥ svecchayā bhramati. = In the forest a certain jackal roams as he pleases. ## hit@2748.1
+tasya yathā *araṇyaṃ tathā gṛham. = For him, a house is no different from a forest. ## pt@5880.1
+
+@ 79 | nagaram | city
+kāñcanapure *nagare vīravikramaḥ rājā asti. = In the city of Kanchanapura there is a king named Viravikrama. ## hit@1920.1
+bhāgīrathītīre pāṭaliputraṃ nāma *nagaram asti. = On the bank of the Ganges there is a city called Pataliputra. ## hit@79.1
+śrīparvatasya madhye brahmapuraṃ *nagaram. = Brahmapura is a city in the middle of Shriparvata. ## hit@1808.1
+
+@ 80 | grāmaḥ | village
+*grāmasya arthe kulaṃ tyajet. = For the sake of the village, one should give up a family. ## hit@975.1
+janapadasya arthe *grāmaṃ tyajet. = For the sake of the country, one should give up a village. ## hit@976.1
+rathakāraḥ ahaṃ anyaṃ *grāmaṃ gacchāmi iti vadati. = The cartwright says, "I am going to another village." ## hit@2557.4
+
+@ 81 | nadī | river
+*nadīnāṃ viśvāsaḥ na kartavyaḥ. = Rivers should not be trusted. ## hit@328.1
+yatra sajalā *nadī nāsti, tatra na vaset. = Do not live where there is no river with water. ## hit@816.1
+*nadī vṛkṣasya mūlaṃ kṣālayati, chinatti ca. = The river washes the tree's root and also cuts it away. ## hit@3721.1
+
+@ 82 | saraḥ | lake
+mālavaviṣaye padmagarbhaṃ nāma *saraḥ asti. = In the Malava region there is a lake called Padmagarbha. ## hit@3426.1
+karpūradvīpe padmakeliḥ nāma mahat *saraḥ asti. = On the island of Karpura there is a big lake called Padmakeli. ## hit@2354.1
+haṃsaḥ *sarasi tārāṇāṃ chāyāṃ paśyati. = The swan sees the reflection of the stars in the lake. ## hit@3946.1
+
+@ 83 | jalam | water
+gatvā *jalaṃ praviśya ātmānaṃ rakṣa. = Go into the water and save yourself. ## hit@3201.6
+*jale alpaḥ grāhaḥ api balavān. = In the water even a small crocodile is strong. ## hit@3586.1
+*jalam agniḥ viṣaṃ ca mṛtyoḥ kāraṇāni. = Water, fire and poison can be causes of death. ## hit@1055.1
+
+@ 84 | vṛkṣaḥ | tree
+phalacchāyāyuktaḥ mahān *vṛkṣaḥ sevitavyaḥ. = Seek out a great tree that has fruit and shade. ## hit@2423.1
+analaḥ śuṣkaṃ *vṛkṣam iva dahati. = It burns like fire burns a dry tree. ## hit@2760.1
+kṣaṇāntare *vṛkṣasya chāyā tasya mukhāt apagacchati. = After a moment the tree's shade moves off his face. ## hit@2531.4
+
+@ 85 | taruḥ | tree
+ujjayinyāḥ mārge plakṣaḥ *taruḥ asti. = On the road to Ujjayini there is a fig tree. ## hit@2531.1
+godāvarītīre viśālaḥ śālmalī *taruḥ asti. = On the bank of the Godavari there is a big silk-cotton tree. ## hit@249.1
+jalasamīpe *taruḥ iva saḥ vardhate. = He thrives like a tree near water. ## hit@3058.1
+
+@ 86 | parvataḥ | mountain
+*parvatāt patitam api āyuḥ rakṣati. = A man's destined lifespan protects him even when he falls from a mountain. ## hit@1374.1
+ahaṃ *parvatasya śikharam āruhya vadāmi. = I will climb to the mountain top and speak. ## hit@2455.1
+narmadātīre *parvatasya adhaḥ śālmalī taruḥ asti. = On the Narmada's bank, at the foot of a mountain, there is a silk-cotton tree. ## hit@2386.1
+
+@ 87 | gṛham | house
+aputrasya *gṛhaṃ śūnyam. = The house of a man without a son is empty. ## hit@872.1
+bālaḥ vṛddhaḥ yuvā vā *gṛham āgataḥ pūjyaḥ. = Whether a child, an old man or a youth, whoever comes to the house is honoured. ## hit@571.1
+śatrau api *gṛham āgate ātithyaṃ kāryam. = Hospitality is due even to an enemy who comes to the house. ## hit@562.1
+
+@ 88 | deśaḥ | country; place
+yatra vidyā nāsti, taṃ *deśaṃ tyajet. = One should leave a place where there is no learning. ## hit@804.1
+*deśe kāle pātre ca dattaṃ dānaṃ sāttvikam. = A gift given in the right place, at the right time and to the right person is pure. ## hit@313.1
+magadhe *deśe campakavatī nāma vanam asti. = In the land of Magadha there is a forest named Champakavati. ## hit@523.1
+
+@ 89 | mārgaḥ | road; way
+dharmasya *mārgaḥ aṣṭavidhaḥ. = The path of dharma is eightfold. ## hit@280.1
+durgeṣu *mārgeṣu nṛpasya rakṣā kartavyā. = On difficult roads, the king must be protected. ## hit@2844.1
+padātayaḥ *mārgān śodhayanti. = Foot soldiers clear the roads. ## hit@2880.1
+
+@ 90 | kṣetram | field
+mūrkhaḥ gardabhaḥ nityaṃ *kṣetre carati. = The foolish donkey grazes in the field every day. ## hit@2410.1
+*kṣetrasya patiḥ tatra pāśān yojayati. = The owner of the field sets snares there. ## hit@625.6
+*kṣetrāṇāṃ patayaḥ vyāghraṃ matvā palāyante. = The field owners think it is a tiger and run away. ## hit@2417.4
+
+@ 91 | bhūmiḥ | ground; earth
+tṛṇāni *bhūmiḥ udakaṃ vāk ca satāṃ gṛhe na kṣīyante. = Grass, ground, water and kind words never run out in a good man's house. ## hit@567.1
+rājānaḥ gatāḥ, *bhūmiḥ adya api tiṣṭhati. = The kings are gone, but the earth still remains today. ## hit@3745.1
+*bhūmiḥ mitraṃ suvarṇaṃ ca yuddhasya phalāni. = Land, allies and gold are the fruits of war. ## hit@2807.1
+
+@ 92 | pṛthivī | earth
+ātmanaḥ arthe *pṛthivīṃ tyajet. = For one's own sake one should give up the whole earth. ## hit@976.1
+*pṛthivyāḥ patiḥ meghaḥ iva sarveṣām ādhāraḥ. = The lord of the earth supports everyone, like a rain cloud. ## hit@1222.1
+*pṛthivyāḥ pālāḥ kva gatāḥ? = Where have the rulers of the earth gone? ## hit@3744.1
+
+@ 93 | ākāśaḥ | sky
+*ākāśe māṃsaṃ pakṣibhiḥ khādyate. = In the sky, meat is eaten by birds. ## hit@1137.1
+pakṣiṇaḥ *ākāśe utpatanti, bhūmau ca nipatanti. = Birds fly up into the sky and come down to the ground. ## pt@3465.1
+*ākāśāt kaḥ api avatarati. = Someone comes down from the sky. ## pt@5931.4
+
+@ 94 | sūryaḥ | sun
+saḥ *sūryasya maṇḍalaṃ bhittvā paramāṃ gatiṃ yāti. = He pierces the disc of the sun and reaches the highest state. ## pt@2655.1
+sā *sūryaṃ patiṃ na icchati. = She does not want the sun as her husband. ## pt@4850.1
+dveṣasya tamaḥ na *sūryeṇa naśyati, sāmnā eva naśyati. = The darkness of hatred is not destroyed by the sun, only by kindness. ## pt@2364.1
+
+@ 95 | candraḥ | moon
+ekaḥ *candraḥ tamaḥ hanti, na tārāgaṇāḥ. = One moon drives away the darkness, not all the stars. ## hit@118.1
+*candraḥ cāṇḍālasya gṛhāt jyotsnāṃ na harati. = The moon does not hold back its light from an outcaste's house. ## hit@576.1
+bhagavatā *candreṇa ahaṃ preṣitaḥ. = I have been sent by the lord Moon. ## hit@2457.2
+
+@ 96 | meghaḥ | cloud
+*meghaḥ girau varṣati. = The cloud rains on the mountains. ## pt@1711.1
+*meghaiḥ sūryaḥ ācchāditaḥ. = The sun is covered by clouds. ## pt@3630.1
+hemantasya *meghaḥ mandaṃ mandaṃ varṣati. = The winter cloud rains gently. ## pt@2430.2
+
+@ 97 | agniḥ | fire
+saḥ tam *agniṃ parikramya praviśati. = He walks around the fire and enters it. ## pt@4624.1
+*agnau patitaṃ kapotaṃ dṛṣṭvā sā vadati. = Seeing the pigeon fallen into the fire, she speaks. ## pt@4627.1
+kāṣṭhāt *agniḥ jāyate. = Fire comes from wood. ## pt@531.1
+
+@ 98 | vāyuḥ | wind
+mṛduḥ śītalaḥ *vāyuḥ api vṛkṣān unmūlayati. = Even a gentle, cool wind can uproot trees. ## pt@5193.1
+sarpaḥ phaṇāṃ niṣkāsya *vāyum aśnāti. = The snake puts out its hood and feeds on the air. ## pt@4763.3
+meghaḥ vadati, *vāyuḥ mattaḥ adhikaḥ. = The cloud says, "The wind is greater than I." ## pt@4958.1
+
+@ 99 | phalam | fruit
+pāpapuṇyānāṃ *phalam iha eva labhate. = One reaps the fruit of great sins and good deeds in this very life. ## hit@686.1
+saṃsāravṛkṣasya dve eva madhure *phale. = The tree of worldly life has only two sweet fruits. ## hit@990.1
+*phalaṃ dadatī latā sicyate. = A creeper that gives fruit gets watered. ## pt@1449.1
+
+@ 100 | puṣpam | flower
+*puṣpāṇi dadatī latā rakṣyate. = A creeper that gives flowers is looked after. ## pt@1449.1
+sā *puṣpaiḥ yuktā latā iva dagdhā. = She was like a flowering creeper burnt by fire. ## pt@4567.1
+trayaḥ narāḥ suvarṇasya *puṣpāṇi cinvanti. = Three kinds of men gather flowers of gold. ## pt@318.1
+
+@ 101 | mūlam | root
+duṣṭasya amātyasya *mūlāt uddharaṇaṃ sukham. = It is a relief to root out a wicked minister completely. ## hit@2068.1
+candanavṛkṣasya *mūlaṃ sarpaiḥ āśritam. = The root of the sandalwood tree is occupied by snakes. ## hit@2263.1
+anirvedaḥ śriyaḥ *mūlam. = Perseverance is the root of prosperity. ## pt@2040.1
+
+@ 102 | śākhā | branch
+candanavṛkṣasya *śākhāḥ vānaraiḥ āśritāḥ. = The sandalwood tree's branches are occupied by monkeys. ## hit@2264.1
+campakavṛkṣasya *śākhāyāṃ kākaḥ vasati. = A crow lives on a branch of the champak tree. ## hit@531.2
+gajaḥ caṭakānāṃ *śākhāṃ śuṇḍayā bhanakti. = The elephant breaks the sparrows' branch with its trunk. ## pt@2061.4
+
+@ 103 | tīram | bank; shore
+dakṣiṇasamudrasya *tīre ṭiṭṭibhau vasataḥ. = A pair of sandpipers lives on the shore of the southern ocean. ## hit@2174.1
+kaścit vadati, sarasaḥ *tīre enaṃ dagdhvā khādāmaḥ. = Someone says, "Let's roast him on the lake shore and eat him." ## hit@3377.1
+pāṭaliputraṃ bhāgīrathyāḥ *tīre asti. = Pataliputra is on the bank of the Ganges. ## hit@79.1
+
+@ 104 | samudraḥ | ocean
+ṭiṭṭibhamātreṇa *samudraḥ vyākulaḥ kṛtaḥ. = The ocean was thrown into turmoil by a mere sandpiper. ## hit@2166.1
+*samudrasya velā etat sthānaṃ vyāpnoti. = The ocean's tide covers this place. ## hit@2178.1
+svādujalaḥ kūpaḥ lokaṃ prīṇāti, na *samudraḥ. = A well of sweet water pleases people, not the ocean. ## pt@3142.1
+
+@ 105 | kūpaḥ | well
+*kūpasya khanitā adhaḥ adhaḥ gacchati. = A well-digger goes lower and lower. ## hit@1558.1
+śaśakaḥ siṃhaṃ gabhīraṃ *kūpaṃ darśayati. = The hare shows the lion a deep well. ## hit@2027.1
+antaḥ svādujalaḥ *kūpaḥ lokasya prītyai bhavati. = A well with sweet water inside is a joy to people. ## pt@3142.1
+
+@ 106 | guhā | cave
+nirvātaḥ vanapradeśaḥ *guhā vā anviṣyatām. = Let a sheltered spot in the forest or a cave be found. ## pt@2404.5
+siṃhasya śabdena sā *guhā pratiravaiḥ pūrṇā bhavati. = The cave fills with echoes of the lion's roar. ## pt@5030.3
+kākāḥ *guhāṃ dagdhuṃ kāṣṭhāni ānayanti. = The crows bring sticks to set fire to the cave. ## pt@5044.1
+
+@ 107 | nīḍam | nest; den
+asmābhiḥ tṛṇaiḥ *nīḍāni nirmitāni. = We built nests out of grass. ## hit@2387.1
+te matsyān *nīḍāni nayanti. = They carry fish to their nests. ## ram@25759.1
+girīṇāṃ śṛṅgeṣu siṃhānāṃ *nīḍāni santi. = There are lions' dens on the mountain peaks. ## ram@25761.1
+
+@ 108 | koṭaraḥ | hollow of a tree
+tasya *koṭare kṛṣṇasarpaḥ vasati. = A black snake lives in its hollow. ## pt@2541.2
+jalasamīpe ramyaḥ *koṭaraḥ asti. = Near the water there is a lovely hollow. ## pt@5479.3
+*koṭare sthitaḥ sarpaḥ tayoḥ apatyāni khādati. = The snake living in the hollow eats their young. ## hit@1996.2
+
+@ 109 | rātriḥ | night
+hā putraka, etāsu *rātriṣu tvaṃ na adhītavān. = Alas, my son, all these nights you did not study. ## hit@136.1
+nānādeśebhyaḥ āgatya *rātrau pakṣiṇaḥ tatra vasanti. = Birds come there from many lands and spend the night. ## hit@249.2
+saḥ *rātrau gāḍhaṃ suptaḥ. = At night he is fast asleep. ## hit@1464.2
+
+@ 110 | dinam | day
+sarpaḥ ekaṃ *dinaṃ bhojanaṃ bhavati. = The snake will be food for one day. ## hit@1065.1
+yat *dine dine aśnāsi, tat tava dhanam. = What you eat day by day is your real wealth. ## hit@1073.1
+*dineṣu gacchatsu śokaḥ apayāti. = As the days go by, grief fades. ## hit@3812.1
+
+@ 111 | divasaḥ | day
+dānena adhyayanena ca *divasaṃ saphalaṃ kuryāt. = Make the day fruitful with giving and study. ## hit@1358.1
+*divase divase mūḍhaṃ śokāḥ āviśanti. = Day after day, sorrows overtake the fool. ## hit@252.1
+atikrānte *divase ahaṃ gopagṛhe suptaḥ. = The day before, I slept in a cowherd's house. ## hit@1928.2
+
+@ 112 | kālaḥ | time
+dhīmatāṃ *kālaḥ kāvyena śāstreṇa ca gacchati. = Wise people spend their time with poetry and learning. ## hit@239.1
+*kālaḥ akṛtasya kāryasya rasaṃ pibati. = Time drinks up the juice of a task left undone. ## hit@2153.1
+*kāle prāpte kuśena spṛṣṭaḥ api na jīvati. = When one's time has come, even a touch of grass kills. ## hit@1379.1
+
+@ 113 | prabhātam | morning; dawn
+*prabhāte kṣetrapatiḥ tatra āgacchati. = At dawn the owner of the field comes there. ## hit@681.1
+*prabhāte anyat kiñcit arjayiṣyāmi. = In the morning I will earn something else. ## pt@5652.2
+vayaṃ *prabhāte atra āgamiṣyāmaḥ. = We will come here at dawn. ## pt@6406.3
+
+@ 114 | dhanam | wealth; money
+ātmānaṃ *dhanaiḥ api rakṣet. = Protect yourself, even at the cost of your wealth. ## hit@450.1
+prājñaḥ parārthe *dhanāni tyajet. = A wise man gives up his wealth for others. ## hit@458.1
+kṛpaṇasya *dhanam agniḥ cauraḥ rājā vā harati. = A miser's money is taken by fire, thieves or the king. ## hit@1034.1
+
+@ 115 | vidyā | knowledge; learning
+sarvadravyeṣu *vidyā eva uttamaṃ dravyam. = Of all possessions, learning is the best. ## hit@59.1
+prājñaḥ ajarāmaravat *vidyāṃ cintayet. = A wise man should pursue learning as if he would never grow old or die. ## hit@56.1
+*vidyayā hīnāḥ na śobhante. = Those without learning do not shine. ## hit@193.1
+
+@ 116 | guṇaḥ | virtue; quality
+sarvasya svabhāvāḥ parīkṣyante, na itare *guṇāḥ. = Everyone's nature is tested, not their other qualities. ## hit@332.1
+śarīraṃ kṣaṇikam, *guṇāḥ ciraṃ tiṣṭhanti. = The body is short-lived; virtues last a long time. ## hit@480.1
+parokṣe api *guṇānāṃ ślāghā kartavyā. = Praise good qualities even behind a person's back. ## hit@1620.1
+
+@ 117 | doṣaḥ | fault
+svayaṃ kṛte *doṣe vilāpaḥ anucitaḥ. = When the fault is your own, it is wrong to complain. ## hit@1909.4
+*doṣāt bhītiḥ kāpuruṣasya lakṣaṇam. = Fear of making mistakes is the mark of a coward. ## hit@1604.1
+*doṣaiḥ yuktaḥ api kāyaḥ priyaḥ. = One's body is dear even when full of faults. ## hit@2082.1
+
+@ 118 | dharmaḥ | duty; righteousness
+*dharmaḥ eva ekaḥ suhṛt, yaḥ nidhane api anuyāti. = Dharma is the only friend that follows us even in death. ## hit@592.1
+sevāyāḥ *dharmaḥ parama gahanaḥ. = The duty of service is very hard to understand. ## hit@1422.1
+saḥ sarvavidyānāṃ *dharmasya ca hetuḥ. = That is the source of all learning and of dharma. ## hit@1350.1
+
+@ 119 | satyam | truth
+aśvamedhasahasraṃ *satyaṃ ca tulayā dhṛtam. = A thousand horse sacrifices and truth were weighed on a scale. ## hit@4061.1
+tapaḥ *satyaṃ kṣamā ca dharmasya mārgaḥ. = Austerity, truth and patience are the path of dharma. ## hit@279.1
+khalānāṃ vacanaiḥ satām api matiḥ *satyaṃ dolāyate. = Truly, what wicked people say makes even good people's minds waver. ## hit@3650.1
+
+@ 120 | sukham | happiness
+santuṣṭānāṃ yat *sukhaṃ tat lubdhānāṃ kutaḥ? = Where is the happiness of the contented for the greedy? ## hit@951.1
+āpatitaṃ *sukhaṃ sevyam. = Enjoy happiness when it comes. ## hit@1097.1
+dvau eva *sukham edhete, yadbhaviṣyaḥ vinaśyati. = Only two thrive happily; Yadbhavishya perishes. ## hit@3310.1
+
+@ 121 | duḥkham | sorrow
+āpatitaṃ *duḥkham api soḍhavyam. = Sorrow too must be borne when it comes. ## hit@1097.1
+dhanam arjane *duḥkhaṃ dadāti. = Money brings pain while you earn it. ## hit@1129.1
+uttamaḥ svāmī *duḥkhena labhyate. = A good master is found only with difficulty. ## hit@3205.1
+
+@ 122 | buddhiḥ | intelligence
+*buddhiḥ yasya balaṃ tasya. = Whoever has intelligence has strength. ## hit@2007.1
+tasya *buddhiḥ drohe asti iti kathaṃ jñāyate? = How can one know that he is thinking of treachery? ## hit@2197.1
+sā *buddhiḥ apratihatā. = That intelligence is unstoppable. ## hit@881.1
+
+@ 123 | bhayam | fear; danger
+yāvat *bhayam anāgatam, tāvat eva bhetavyam. = Be afraid only as long as the danger has not yet come. ## hit@3439.1
+yatra *bhayaṃ lajjā dākṣiṇyaṃ ca na santi, tatra na vaset. = Do not live where there is no fear, shame or courtesy. ## hit@811.1
+itaḥ *bhayam iti rājā jānāti. = The king knows, "From this one there is danger." ## hit@1697.1
+
+@ 124 | krodhaḥ | anger
+*krodhe mṛtyuḥ vasati. = Death lives in anger. ## hit@1740.1
+*krodhaḥ dyūtaṃ ca mitrasya dūṣaṇam. = Anger and gambling spoil a friendship. ## hit@755.1
+lobhāt *krodhaḥ prabhavati. = Anger arises from greed. ## hit@368.1
+
+@ 125 | lobhaḥ | greed
+kaṅkaṇasya *lobhena saḥ paṅke magnaḥ. = Out of greed for the bracelet, he sank in the mud. ## hit@260.1
+*lobhāt kāmaḥ jāyate. = Desire arises from greed. ## hit@368.1
+*lobhena mohitāḥ kliśyante. = Those blinded by greed suffer. ## hit@365.1
+
+@ 126 | mṛtyuḥ | death
+jantoḥ *mṛtyuḥ dine dine āsannataraḥ bhavati. = Every day, death comes nearer to a creature. ## hit@3758.1
+saḥ svayaṃ *mṛtyum eva gṛhṇāti. = He is taking on his own death. ## hit@2163.1
+*mṛtyuḥ kaṃ na nihanti? = Whom does death not strike down? ## hit@3073.1
+
+@ 127 | prāṇāḥ | life; life-breath
+ekasya kṣaṇikā prītiḥ, anyaḥ *prāṇaiḥ vimucyate. = One has a moment's pleasure; the other loses his life. ## hit@597.1
+viśvastaḥ *prāṇeṣu dhaneṣu ca niyoktavyaḥ. = A trusted man should be put in charge of one's life and wealth. ## hit@3156.1
+adhamānāṃ sevāyāḥ *prāṇānāṃ tyāgaḥ varam. = Better to give up one's life than to serve the vile. ## hit@926.1
+
+@ 128 | karma | deed; action
+āyuḥ *karma vittaṃ vidyā ca garbhe eva sṛjyante. = Lifespan, deeds, wealth and learning are fixed already in the womb. ## hit@149.1
+apaṇḍitaḥ ātmanaḥ *karmaṇāṃ doṣān na jānāti. = A fool does not see the faults in his own deeds. ## hit@3287.1
+puṇyaṃ *karma kurvatāṃ paśūnām api viśvāsaḥ dṛśyate. = Trust is seen even among animals who do good deeds. ## hit@698.1
+
+@ 129 | kāryam | work; task
+udyamena *kāryāṇi sidhyanti, na manorathaiḥ. = Tasks are accomplished by effort, not by wishes. ## hit@185.1
+yaḥ yatra kuśalaḥ, taṃ tatra *kārye niyojayet. = Put each person to the task he is good at. ## hit@2717.1
+*kāryasya kāle yathāśakti kuryāt. = When it is time to act, do what you can. ## hit@3199.1
+
+@ 130 | vacanam | word; speech
+kākaḥ vadati, mitra, etat kāpuruṣasya *vacanam. = The crow says, "Friend, those are a coward's words." ## hit@775.1
+hitaḥ naraḥ apṛṣṭaḥ api kalyāṇaṃ *vacanaṃ brūyāt. = A well-wisher should give good advice even when not asked. ## hit@2040.1
+satyaṃ *vacanaṃ vadantaḥ durgāṇi taranti. = Those who speak the truth get through hard times. ## hit@3832.1
+
+@ 131 | vākyam | statement; words
+sadā *vākyaṃ rakṣitavyam. = One should always guard one's speech. ## hit@3294.1
+yaḥ suhṛdāṃ *vākyaṃ na abhinandati, saḥ naśyati. = Whoever ignores his friends' advice comes to ruin. ## hit@3290.1
+piśunānāṃ *vākyeṣu ruciḥ na kartavyā. = Take no pleasure in what slanderers say. ## hit@919.1
+
+@ 132 | upāyaḥ | means; plan
+prājñaḥ *upāyaṃ cintayet. = A wise man should think of a plan. ## hit@3360.1
+*upāyena yat śakyaṃ, tat parākrameṇa na śakyam. = What can be done by a clever plan cannot be done by force. ## hit@1239.2
+*upāyāḥ catvāraḥ nirdiṣṭāḥ. = Four means have been taught. ## hit@3922.1
+
+@ 133 | upadeśaḥ | advice
+mūrkhāṇām *upadeśaḥ kopāya bhavati. = Advice only makes fools angry. ## hit@2375.1
+rājā vadati, yathākartavyam *upadeśaṃ brūta. = The king says, "Advise me on what should be done." ## hit@2796.5
+bhavān *upadeśaṃ na sahate. = You cannot stand advice. ## hit@3851.1
+
+@ 134 | kathā | story; talk
+*kathāyāḥ chalena bālānāṃ nītiḥ kathyate. = Good conduct is taught to children through stories. ## hit@72.1
+deva, vartakasya *kathām api kathayāmi. = Your Majesty, I will also tell the story of the quail. ## hit@2537.1
+*kathāyāḥ yogena satyavāditvaṃ jñāyate. = Truthfulness is found out in the course of conversation. ## hit@759.1
+
+@ 135 | nītiḥ | policy; good conduct
+iyaṃ *nītiḥ cirāt phalati, na kṣaṇāt. = This policy bears fruit slowly, not in a moment. ## hit@2674.1
+*nītau vipannāyāṃ sakalaṃ jagat sīdati. = When good policy fails, the whole world suffers. ## hit@1712.1
+ātmanaḥ udayaḥ parasya glāniḥ ca, iyatī eva *nītiḥ. = Your own rise and your enemy's decline: that is all there is to policy. ## hit@2910.1
+
+@ 136 | viṣam | poison
+jihvāgre madhu, hṛdi *viṣam. = Honey on the tip of the tongue, poison in the heart. ## hit@679.1
+stabdhasya maitrī *viṣam. = Friendship with an arrogant man is poison. ## hit@1898.1
+sarpasya *viṣaṃ bhavatu mā vā, phaṇāṭopaḥ bhayaṅkaraḥ. = Whether or not a snake has poison, its raised hood is frightening. ## pt@1296.1
+
+@ 137 | annam | food
+*annaṃ pānaṃ ca śaṅkābhiḥ ākrāntam. = Food and drink are full of suspicion. ## hit@355.1
+ahaṃ *annaṃ, bhavān bhoktā, kathaṃ prītiḥ? = I am food and you are the eater; how can we be friends? ## hit@511.1
+atikṣamāvān hastastham api *annaṃ na bhakṣayati. = A person who is too forgiving cannot even eat the food in his hand. ## hit@2304.1
+
+@ 138 | āhāraḥ | food
+strīṇām *āhāraḥ dviguṇaḥ. = Women eat twice as much. ## hit@1982.1
+deva, yatnāt api *āhāraḥ na prāptaḥ. = Your Majesty, despite our efforts, no food was found. ## hit@3699.3
+*āhārasya abhāvāt ahaṃ durbalaḥ asmi. = I am weak from lack of food. ## hit@3864.1
+
+@ 139 | bhojanam | meal; food
+tāni mama *bhojanāni bhaviṣyanti. = They will be my food. ## hit@627.4
+maruṣu vṛṣṭiḥ iva kṣudhārtasya *bhojanam. = Food to a starving man is like rain in the desert. ## hit@292.1
+saḥ māṃ *bhojanaiḥ saṃvardhayiṣyati. = He will feed me up with fine food. ## hit@801.1
+
+@ 140 | māṃsam | meat; flesh
+yaḥ yasya *māṃsam atti, tayoḥ antaraṃ paśyata. = See the difference between the eater and the one whose flesh is eaten. ## hit@596.1
+mama *māṃsam icchan śṛgālaḥ atra eva tiṣṭhati. = The jackal who wants my flesh is waiting right here. ## hit@643.1
+duṣṭaḥ prathamaṃ pādayoḥ patati, paścāt pṛṣṭhasya *māṃsaṃ khādati. = A villain first falls at your feet, then eats the flesh off your back. ## hit@672.1
+
+@ 141 | kṣudhā | hunger
+*kṣudhayā ārtā sarpiṇī svam aṇḍaṃ khādet. = A starving snake may eat its own egg. ## hit@3668.1
+śvā alpaṃ labdhvā tuṣyati, tena *kṣudhaḥ śāntiḥ na bhavati. = A dog is happy to get a scrap, though it does not still its hunger. ## hit@1511.1
+*kṣudhayā ārtā mahilā svaputram api tyajet. = A starving woman may abandon even her own son. ## hit@3667.1
+
+@ 142 | tṛṣṇā | thirst; craving
+sā *tṛṣṇā cet tyaktā, kaḥ daridraḥ? = Once craving is given up, who is poor? ## hit@1152.1
+*tṛṣṇayā vāhyamānasya yojanaśataṃ na dūram. = For someone driven by craving, a hundred leagues is not far. ## hit@962.1
+yaḥ *tṛṣṇayā mucyate, saḥ sukhī. = Whoever is free from craving is happy. ## hit@2124.1
+
+@ 143 | śarīram | body
+*śarīreṇa saha sarvam anyat naśyati. = Everything else perishes along with the body. ## hit@593.1
+*śarīrasya guṇānāṃ ca mahat antaram. = There is a great difference between the body and virtues. ## hit@479.1
+*śarīraṃ kṣaṇena naśyati. = The body perishes in a moment. ## hit@480.1
+
+@ 144 | hastaḥ | hand
+śṛgālaḥ vadati, mama pucchāgre *hastaṃ dattvā uttiṣṭha. = The jackal says, "Put your hand on the tip of my tail and get up." ## hit@1234.1
+mayā sā *hastena spṛṣṭā. = I touched her with my hand. ## hit@1926.14
+śauṇḍikyāḥ *haste payaḥ api madyam iti ucyate. = Even milk in a wine-seller's hand is called liquor. ## hit@2428.1
+
+@ 145 | pādaḥ | foot
+buddhimān ekena *pādena calati, ekena tiṣṭhati. = A wise man moves with one foot and stands firm on the other. ## hit@789.1
+upānadgūḍhasya *pādasya bhūḥ carmāvṛtā iva. = For a foot in a shoe, the whole earth seems covered with leather. ## hit@948.1
+maṇiḥ *pādeṣu luṭhati, kācaḥ śirasi dhāryate. = The jewel rolls at people's feet, while glass is worn on the head. ## hit@1673.1
+
+@ 146 | netram | eye
+kruddhasya *netre rakte abhavatām. = The angry one's eyes turned red. ## ram@19538.1
+aśrupūrṇābhyāṃ *netrābhyāṃ saḥ idaṃ vacanam abravīt. = With eyes full of tears he said these words. ## ram@30698.1
+vibhīṣaṇaḥ sugrīvasya *netre pramārjati. = Vibhishana wipes Sugriva's eyes. ## ram@38820.1
+
+@ 147 | mukham | mouth; face
+darpāt sarpasya *mukhe karaḥ nyastaḥ. = Out of pride, a hand was put into a snake's mouth. ## hit@2142.1
+*mukhe nikṣiptaṃ ratnaṃ prāṇān na dhārayati. = A jewel put in the mouth does not keep you alive. ## hit@2725.1
+tasya *mukhaṃ prasannaṃ dṛṣṭiḥ ca vimalā. = His face is cheerful and his gaze is clear. ## hit@841.1
+
+@ 148 | śiraḥ | head
+kīṭaḥ api puṣpāṇāṃ saṅgāt satāṃ *śiraḥ ārohati. = Even an insect, in the company of flowers, rises to the heads of good people. ## hit@219.1
+*śirasaḥ chedanam api varam. = Even losing one's head is better. ## hit@2048.1
+rathakāraḥ bhāryāṃ *śirasā vahati. = The cartwright carries his wife on his head. ## hit@2551.1
+
+@ 149 | hṛdayam | heart
+asya *hṛdaye śokasya śaṅkavaḥ nikhanyante. = Spikes of grief are driven into his heart. ## hit@3776.1
+te *hṛdayaṃ śokena āviṣṭam. = Your heart is overcome by grief. ## hit@3851.2
+svāmī vāci madhuraḥ, *hṛdaye viṣam. = The master is sweet in speech but has poison in his heart. ## hit@2268.1
+
+@ 150 | manaḥ | mind
+netrayoḥ mukhasya ca vikāreṇa antargataṃ *manaḥ lakṣyate. = Changes in the eyes and face show what is in the mind. ## hit@1571.1
+yasya *manaḥ dāne tapasi śaurye ca na prathitam, tasya jīvanaṃ vyartham. = If someone's mind is not known for giving, austerity or courage, his life is wasted. ## hit@113.1
+phalena *manasā vācā ca enaṃ praharṣayet. = Please him with gifts, with your heart and with words. ## hit@3391.1
+
+@ 151 | āśramaḥ | hermitage
+*āśramasya samīpe mūṣikaśāvakaḥ kākasya mukhāt patati. = Near the hermitage, a baby mouse falls from a crow's beak. ## hit@3411.2
+ahaṃ tava *āśrame atithiḥ. = I am a guest in your hermitage. ## vet@5447.1
+itaḥ na atidūre tasya pituḥ *āśramaḥ asti. = Not far from here is his father's hermitage. ## vet@5324.1
+
+@ 152 | mandiram | house; palace
+yathā stambhaiḥ *mandiraṃ, tathā mantribhiḥ rājyaṃ dhāryate. = As a building is held up by pillars, so a kingdom is held up by ministers. ## pt@744.1
+kākāḥ śatroḥ *mandire sthitvā haṃsān vañcayanti. = The crows stay in the enemy's palace and trick the geese. ## hit@2350.1
+*mandire dagdhe api agnau kasya anādaraḥ? = Even when his house has burned down, who scorns fire? ## hit@2086.1
+
+@ 153 | prāsādaḥ | palace
+tayā hīnaḥ *prāsādaḥ api araṇyasadṛśaḥ. = Without her, even a palace is like a forest. ## pt@5877.1
+rājā *prāsādam adhiruhya taṃ paśyati. = The king climbs up to the palace terrace and looks at him. ## vet@1072.1
+saḥ tūṣṇīṃ *prāsādāt avarohati. = He comes down from the palace in silence. ## vet@1330.1
+
+@ 154 | sabhā | assembly; court
+yatra vṛddhāḥ na santi, sā *sabhā na. = Where there are no elders, it is not a real assembly. ## hit@2779.1
+*sabhāyāḥ madhye mūrkhaḥ na śobhate. = A fool does not shine in the middle of an assembly. ## hit@190.1
+rājā *sabhāṃ kṛtvā śukaṃ kākaṃ ca āhvayati. = The king holds an assembly and summons the parrot and the crow. ## hit@2773.1
+
+@ 155 | yuddham | battle; war
+utsave vyasane *yuddhe ca yaḥ tiṣṭhati, saḥ bāndhavaḥ. = Whoever stands by you at festivals, in trouble and in war is a true kinsman. ## hit@3735.1
+śatrūn *yuddhena sādhituṃ na prayateta. = One should not try to overcome enemies by war. ## hit@2661.1
+vāyasaḥ vadati, deva, svayaṃ gatvā *yuddhaṃ paśyatu. = The crow says, "Your Majesty, go yourself and see the battle." ## hit@3181.1
+
+@ 156 | senā | army
+sārasena kukkuṭānāṃ *senā hatā. = The army of cocks was destroyed by the crane. ## hit@3236.1
+saḥ anugatāṃ *senāṃ gaṅgāṃ ca nirīkṣate. = He looks at the army following him and at the Ganges. ## ram@12386.1
+kruddhaḥ agniḥ iva saḥ tāṃ *senāṃ dagdhum icchati. = Like an angry fire, he wants to burn up that army. ## ram@13473.1
+
+@ 157 | durgam | fort
+jalajantūnāṃ jalam eva *durgam. = For water creatures, water itself is a fortress. ## hit@1200.1
+tasmāt *durgaṃ viśiṣyate. = That is why a fort is so valuable. ## hit@2701.1
+aguptaṃ *durgaṃ vyasanam ucyate. = An unguarded fort is called a disaster. ## hit@3189.1
+
+@ 158 | bāṇaḥ | arrow
+śūraḥ ardhacandreṇa *bāṇena tasya śiraḥ chinatti. = The hero cuts off his head with a crescent-headed arrow. ## vet@1493.1
+saḥ *bāṇaiḥ sūkarān bhinatti. = He shoots the wild boars with arrows. ## vet@5248.1
+kāmaḥ mama hṛdaye *bāṇān kṣipati. = Love shoots arrows into my heart. ## vet@5794.1
+
+@ 159 | dhanuḥ | bow
+nirguṇaṃ *dhanuḥ kiṃ kariṣyati? = What can a bow without a string do? ## hit@134.1
+atisañcayaśīlaḥ jambukaḥ *dhanuṣā hataḥ. = The jackal who hoarded too much was killed by the bow. ## hit@1045.1
+adya *dhanuṣaḥ guṇaḥ bhakṣyaḥ. = Today the bowstring is to be eaten. ## hit@1065.1
+
+@ 160 | khaḍgaḥ | sword
+kṣatriyaḥ dravye niyuktaḥ *khaḍgaṃ darśayati. = A warrior put in charge of money shows his sword. ## hit@1859.1
+śūdrakaḥ svaśiraḥ chettuṃ *khaḍgam utthāpayati. = Shudraka raises his sword to cut off his own head. ## hit@2987.2
+rājā *khaḍgam ādāya nagarāt bahiḥ gacchati. = The king takes his sword and goes out of the city. ## hit@2967.1
+
+@ 161 | rathaḥ | chariot
+ekena cakreṇa *rathasya gatiḥ na bhavati. = A chariot cannot move on one wheel. ## hit@161.1
+*rathānāṃ pārśve gajāḥ, gajānāṃ pārśve padātayaḥ. = Elephants beside the chariots, foot soldiers beside the elephants. ## hit@2833.1
+vijñānī ākāśe carantaṃ *rathaṃ racayati. = The clever man builds a chariot that flies through the sky. ## vet@1424.1
+
+@ 162 | ratnam | jewel
+mitram iti idaṃ *ratnaṃ kena sṛṣṭam? = Who created this jewel called "friend"? ## hit@1268.1
+gṛhe pracurāṇi *ratnāni dhanaṃ ca āgacchanti. = Plenty of jewels and wealth come into the house. ## hit@2324.1
+rājā prajābhyaḥ suvarṇaṃ dhānyaṃ *ratnāni ca labhate. = The king receives gold, grain and jewels from his subjects. ## pt@1454.1
+
+@ 163 | suvarṇam | gold
+sarasi snātvā idaṃ *suvarṇasya kaṅkaṇaṃ gṛhāṇa. = Bathe in the lake and take this gold bracelet. ## hit@315.1
+pratyahaṃ *suvarṇasya pañca śatāni dehi. = Give me five hundred gold pieces a day. ## hit@2945.1
+saḥ bhikṣukaḥ *suvarṇasya kalaśaḥ bhaviṣyati. = That monk will turn into a pot of gold. ## hit@3017.4
+
+@ 164 | vastram | cloth; garment
+sakṛt pīḍitaṃ snānasya *vastraṃ jalaṃ na muñcati. = A bath cloth squeezed only once does not give up its water. ## hit@1887.1
+malinaiḥ *vastraiḥ yatra tatra upaviśyate. = In dirty clothes, one sits down anywhere. ## pt@5522.1
+rājā mantriṇaṃ *vastraiḥ alaṅkāraiḥ ca pūjayati. = The king honours the minister with clothes and ornaments. ## hit@4064.3
+
+@ 165 | pātram | vessel; worthy person
+vṛddhaṃ dhanaṃ *pātreṣu nikṣipet. = Wealth that has grown should be given to worthy people. ## hit@1339.1
+saḥ dvitīyaṃ viśvāsasya *pātraṃ gṛhītvā yātu. = Let him take along a second trustworthy person. ## hit@2628.1
+*pātre dattaṃ dānaṃ sāttvikam. = A gift given to a worthy person is pure. ## hit@313.1
+
+@ 166 | ghaṭaḥ | pot
+jalabindunipātena kramaśaḥ *ghaṭaḥ pūryate. = Drop by drop, a pot is filled. ## hit@1349.1
+sujanaḥ kanakasya *ghaṭaḥ iva durbhedyaḥ. = A good man, like a golden pot, is hard to break. ## hit@728.1
+durjanaḥ mṛdaḥ *ghaṭaḥ iva sukhabhedyaḥ. = A bad man, like a clay pot, is easily broken. ## hit@727.1
+
+@ 167 | dīpaḥ | lamp
+andhakāre āgate *dīpaḥ upakaroti. = When darkness comes, a lamp is a help. ## hit@2276.1
+nṛpaḥ *dīpaḥ iva prajābhyaḥ dhanaṃ gṛhṇāti. = A king, like a lamp taking oil, takes wealth from his subjects. ## pt@1445.1
+eṣaḥ bhagavān trailokyasya *dīpaḥ. = This lord is the lamp of the three worlds. ## pt@4946.4
+
+@ 168 | jālam | net
+ete vihaṅgamāḥ saṃhatāḥ mama *jālaṃ haranti. = These birds, working together, carry off my net. ## hit@416.1
+*jālāt muktaḥ saḥ gabhīraṃ jalaṃ praviśati. = Freed from the net, he dives into deep water. ## hit@3348.2
+sarve ekacittāḥ bhūtvā *jālam ādāya uḍḍīyantām. = Let everyone work together, take the net and fly away. ## hit@406.1
+
+@ 169 | pāśaḥ | snare; noose
+prathamam eteṣāṃ *pāśān chindhi. = First cut their snares. ## hit@441.3
+prāptakālaḥ *pāśaṃ na paśyati. = One whose time has come does not see the snare. ## hit@485.1
+*pāśena baddhaḥ mṛgaḥ kākena rakṣitaḥ. = The deer caught in the snare was rescued by the crow. ## hit@515.1
+
+@ 170 | bandhanam | bond; trap
+yathāśakti eteṣāṃ *bandhanaṃ khaṇḍaya. = Cut through their bonds as best you can. ## hit@445.2
+rāvaṇaḥ sītām aharat, *bandhanaṃ tu samudrasya abhavat. = Ravana carried off Sita, but it was the ocean that got bridged. ## hit@2521.1
+kapotāḥ *bandhanāt muktāḥ. = The pigeons are freed from their bonds. ## hit@504.1
+
+@ 171 | vivaram | hole
+vṛkṣasya adhaḥ *vivare sarpaḥ tiṣṭhati. = A snake lives in a hole under the tree. ## hit@3367.3
+mūṣikaḥ *vivaraṃ gacchati, kākaḥ vṛkṣāgram ārohati. = The mouse goes into its hole and the crow flies to the treetop. ## hit@1176.4
+hiraṇyakaḥ *vivarāt vadati, kaḥ tvam? = Hiranyaka says from inside his hole, "Who are you?" ## hit@506.3
+
+@ 172 | śayyā | bed
+tṛṇāni *śayyā, valkalaṃ vasanam. = Grass for a bed, bark for clothing. ## hit@986.1
+nārīṇāṃ pṛthak *śayyā aśastraḥ vadhaḥ. = For a wife, a separate bed is a death without a weapon. ## hit@1770.1
+tapasvinaḥ *śayyā bhūmiḥ eva. = An ascetic's bed is the bare ground. ## pt@1669.1
+
+@ 173 | āsanam | seat
+damanakaḥ nirdiṣṭe *āsane upaviśati. = Damanaka sits on the seat he was shown. ## pt@428.1
+śucau deśe sthiram *āsanaṃ sthāpayet. = One should set up a steady seat in a clean place. ## bhg@2063.1
+bhagavān munibhiḥ saha *āsane āstām. = Let the lord sit on the seat with these sages. ## ram@3880.1
+
+@ 174 | dvāram | door; gate
+rājñaḥ *dvāre śmaśāne ca yaḥ tiṣṭhati, saḥ bāndhavaḥ. = Whoever stands by you at the king's gate and at the cremation ground is a true kinsman. ## hit@634.1
+mṛtyoḥ catvāri *dvārāṇi. = Death has four doors. ## hit@2189.1
+sahasā eva durgasya *dvāraṃ ruddhyatām. = Block the fort gate at once. ## hit@3108.3
+
+@ 175 | gacchati | goes
+kiṃ karomi, kva *gacchāmi? = What shall I do, where shall I go? ## hit@2222.1
+naukā sthale na *gacchati. = A boat does not go on land. ## hit@719.1
+dhīmatāṃ kālaḥ sukhena *gacchati. = The time of the wise passes pleasantly. ## hit@239.1
+
+@ 176 | āgacchati | comes
+yeṣāṃ gṛhe suhṛdaḥ *āgacchanti, te dhanyāḥ. = Blessed are those to whose homes friends come. ## pt@1646.1
+śaśakaḥ vadati, mayā saha *āgaccha. = The hare says, "Come with me." ## pt@4213.1
+asya pṛṣṭhe lubdhakāḥ *āgacchanti vā? = Are hunters coming after him? ## pt@3655.2
+
+@ 177 | vadati | says; speaks
+dūtaḥ śastreṣu udyateṣu api anyathā na *vadati. = A messenger does not change his words even when weapons are raised. ## hit@2462.1
+re barbara, kiṃ *vadasi? = You brute, what are you saying? ## hit@2565.1
+pānthaḥ *vadati, tvayi kathaṃ viśvāsaḥ? = The traveller says, "How can I trust you?" ## hit@275.4
+
+@ 178 | paśyati | sees
+khagaḥ yojanaśatāt māṃsaṃ *paśyati. = A bird sees meat from a hundred leagues away. ## hit@484.1
+*paśya, śrīḥ nītividaṃ prati dhāvati. = Look, fortune runs to the one who knows policy. ## hit@3600.1
+rājānaḥ cāraiḥ *paśyanti, itare janāḥ cakṣurbhyām. = Kings see through their spies; other people see with their eyes. ## pt@4075.1
+
+@ 179 | karoti | does; makes
+sādhavaḥ bhūtānāṃ dayāṃ *kurvanti. = Good people show compassion to all creatures. ## hit@296.1
+apriyāṇi api *kurvan priyaḥ priyaḥ eva. = Someone dear stays dear even when doing unpleasant things. ## hit@2085.1
+kākaḥ api cañcvā udarapūraṇaṃ *karoti. = Even a crow manages to fill its belly with its beak. ## hit@1495.1
+
+@ 180 | dadāti | gives
+vidyā vinayaṃ *dadāti. = Learning gives humility. ## hit@65.1
+yat *dadāti yat aśnāti, tat eva dhaninaḥ dhanam. = What a rich man gives and what he eats — that alone is his wealth. ## hit@1069.1
+idaṃ śāstraṃ nītividyāṃ *dadāti. = This book teaches the science of good conduct. ## hit@52.1
+
+@ 181 | jānāti | knows
+ayaṃ mama upayogaṃ na *jānāti. = He does not know how useful I am. ## hit@1466.3
+āpadi naraḥ sāratāṃ *jānāti. = In hard times a man learns what people are worth. ## hit@1732.1
+yaḥ antaraṃ na *jānāti, saḥ śatrubhiḥ tiraskriyate. = Whoever does not know the difference is defeated by enemies. ## hit@2408.1
+
+@ 182 | tiṣṭhati | stands; stays
+jihvāgre madhu *tiṣṭhati. = Honey sits on the tip of the tongue. ## hit@679.1
+kṛtadhiyaḥ nirākulāḥ *tiṣṭhanti. = Wise people stay calm. ## hit@3102.1
+uttamāḥ guṇāḥ mahātmani eva *tiṣṭhanti. = The highest virtues are found only in great souls. ## hit@283.1
+
+@ 183 | vasati | lives; dwells
+dhṛṣṭaḥ pārśve *vasati. = The bold one stays close by. ## hit@1421.1
+naye śaurye ca sampadaḥ *vasanti. = Prosperity dwells in good policy and courage. ## hit@3068.1
+yadi asmākaṃ sevayā *vasati, tat āstām. = If he lives here serving us, let him stay. ## hit@3868.2
+
+@ 184 | khādati | eats
+saḥ duṣṭaḥ bakaḥ matsyān ekaikaśaḥ nītvā *khādati. = The wicked heron takes the fish one at a time and eats them. ## hit@3437.2
+sarpaḥ bakānāṃ bālāpatyāni *khādati. = The snake eats the herons' young. ## hit@3367.4
+yatra mūṣikāḥ lohasya tulāṃ *khādanti, tatra śyenaḥ bālakaṃ harati. = Where mice eat an iron scale, a hawk carries off a boy. ## pt@2608.1
+
+@ 185 | pibati | drinks
+ahaṃ padminyāḥ nālam ādāya dūrāt api jalaṃ *pibāmi. = I take a lotus stalk and drink water even from a distance. ## pt@6655.4
+santoṣam amṛtam iva *pibatāṃ parā nirvṛtiḥ. = Those who drink contentment like nectar find the greatest peace. ## pt@3626.1
+kālaḥ tasya phalaṃ *pibati. = Time drinks up its fruit. ## pt@5060.1
+
+@ 186 | hanti | kills; destroys
+avinayaḥ śriyaṃ *hanti, jarā rūpam iva. = Bad conduct destroys prosperity, as old age destroys beauty. ## hit@3050.1
+durnayaḥ samṛddhāḥ śriyaḥ api *hanti. = Bad policy destroys even great wealth. ## hit@3081.1
+divā suptaṃ sainyaṃ sadā *hanyāt. = One should always strike an army that sleeps by day. ## hit@3045.1
+
+@ 187 | rakṣati | protects
+labdhaṃ prayatnataḥ *rakṣet. = Guard carefully what you have gained. ## hit@1338.1
+takṣakeṇa daṣṭam api āyuḥ *rakṣati. = Even one bitten by Takshaka is protected by his lifespan. ## hit@1375.1
+śatruṃ praṇamya api prāṇān dhanāni ca *rakṣet. = Even by bowing to an enemy, one should protect one's life and wealth. ## pt@5464.1
+
+@ 188 | cintayati | thinks
+ahaṃ ahorātraṃ vittam eva *cintayāmi. = Day and night I think of nothing but money. ## pt@6106.3
+deva, tvam evaṃ *cintayasi, ayaṃ mahākāyaḥ iti. = Your Majesty, you are thinking, "He is huge." ## pt@1545.2
+prājñaḥ apāyam api *cintayet. = A wise man should also think of the risks. ## hit@3360.1
+
+@ 189 | icchati | wants
+kartā mṛtpiṇḍāt yat yat *icchati, tat karoti. = A potter makes whatever he wants out of a lump of clay. ## hit@179.1
+yuddhe vijayaḥ sandigdhaḥ, ataḥ samena api sandhim *icchet. = Victory in war is uncertain, so seek peace even with an equal. ## hit@3484.1
+bhūtim *icchatā puruṣeṇa ṣaṭ doṣāḥ tyaktavyāḥ. = A man who wants prosperity should give up six faults. ## hit@403.1
+
+@ 190 | śaknoti | is able
+ahaṃ goyugam apahartuṃ na *śaknomi. = I cannot steal the pair of oxen. ## pt@4730.2
+tasya viyogaṃ soḍhuṃ na *śaknomi. = I cannot bear to be separated from him. ## pt@5595.9
+saḥ padam ekam api calituṃ na *śaknoti. = He cannot move even a single step. ## pt@5560.4
+
+@ 191 | śṛṇoti | hears; listens
+yaḥ suhṛdāṃ hitaṃ bhāṣitaṃ na *śṛṇoti, saḥ naśyati. = Whoever does not listen to the good advice of friends is ruined. ## hit@638.1
+gatāyuṣaḥ na *śṛṇvanti, na paśyanti. = Those whose life is over neither hear nor see. ## hit@651.1
+mitra, satāṃ rahasyaṃ *śṛṇu. = Friend, listen to the secret of the good. ## hit@1127.1
+
+@ 192 | pṛcchati | asks
+yadbhaviṣyaḥ *pṛcchati, katham etat? = Yadbhavishya asks, "How did that happen?" ## hit@3323.1
+damanakaḥ vadati, deva, kiñcit *pṛcchāmi. = Damanaka says, "Your Majesty, may I ask something?" ## hit@1725.1
+ayam eva yathākartavyaṃ *pṛcchyatām. = Let us ask him what should be done. ## hit@3428.5
+
+@ 193 | kathayati | tells
+rājaputrāḥ pṛcchanti, viṣṇuśarmā *kathayati. = The princes ask, and Vishnusharma tells the story. ## hit@2352.1
+hiraṇyakaḥ vadati, *kathayāmi, śrūyatām. = Hiranyaka says, "I will tell it; listen." ## hit@837.1
+vijigīṣuḥ kathaṃ parabhūmim ākramati, tat *kathaya. = Tell me how a conqueror invades enemy land. ## hit@2817.2
+
+@ 194 | labhate | obtains
+saḥ avamānaṃ *labhate. = He meets with disrespect. ## hit@1639.1
+śaraṇāgate rakṣite tat phalaṃ *labhate. = By protecting someone who comes for refuge, one gains that reward. ## hit@3695.1
+te khaḍgasya dhārāṃ *labhante. = They meet the edge of the sword. ## hit@2815.1
+
+@ 195 | tyajati | abandons; leaves
+asāraṃ saṃsāraṃ *tyajataḥ sukham. = Happiness belongs to one who gives up this empty world. ## hit@3843.1
+ete vetanaṃ vinā api mama antikaṃ na *tyajanti. = These people do not leave my side even without pay. ## hit@467.1
+prakṛtiḥ svāminaṃ *tyaktvā na jīvati. = The people cannot survive once they abandon their ruler. ## hit@3225.1
+
+@ 196 | patati | falls
+mānī śokagahane *patati. = The proud man falls into deep grief. ## hit@2132.1
+yadi ayaṃ kūrmaḥ *patati, atra eva paktvā khādāmaḥ. = If this tortoise falls, we'll cook it right here and eat it. ## hit@3375.1
+duṣṭaḥ prathamaṃ pādayoḥ *patati. = A villain first falls at your feet. ## hit@672.1
+
+@ 197 | dhāvati | runs
+vyādhānāṃ śarebhyaḥ mṛgaḥ vegena *dhāvati. = The deer runs swiftly away from the hunters' arrows. ## pt@3226.1
+dhanalubdhāḥ itaḥ ca itaḥ ca *dhāvanti. = Those greedy for money run here and there. ## hit@952.1
+te tasya anupadaṃ *dhāvanti. = They run right behind him. ## pt@5145.5
+
+@ 198 | nayati | leads; takes
+bho baka, mām api tatra *naya. = O heron, take me there too. ## hit@3437.3
+svaceṣṭitāni eva naraṃ *nayanti. = A man's own actions lead him to his fate. ## hit@1551.1
+ahaṃ yuṣmān ekaikaśaḥ tatra *nayāmi. = I will take you there one by one. ## hit@3435.2
+
+@ 199 | ānayati | brings
+sarvān pakṣiṇaḥ śīghram *ānayata. = Bring all the birds quickly. ## pt@4503.2
+tvayā eṣaḥ tṛṇabhojī svāminaḥ samīpam *ānītaḥ. = You brought this grass-eater to the master. ## pt@923.1
+tvayā ahaṃ atra kasmāt *ānītaḥ? = Why did you bring me here? ## pt@5400.3
+
+@ 200 | gṛhṇāti | takes; seizes
+kālaḥ dūrāt api *gṛhṇāti. = Time seizes you even from afar. ## hit@498.1
+idaṃ suvarṇakaṅkaṇaṃ *gṛhāṇa. = Take this gold bracelet. ## hit@315.1
+ayam etāvat vetanaṃ *gṛhṇāti. = He takes this much pay. ## hit@2953.3
+
+@ 201 | praviśati | enters
+mṛgāḥ siṃhasya mukhe svayaṃ na *praviśanti. = Deer do not walk into a lion's mouth by themselves. ## hit@186.1
+surakṣite antaḥpure api kaścit *praviśati. = Someone gets into the inner palace even though it is well guarded. ## pt@1256.2
+kaḥ manujaḥ svecchayā agniṃ *praviśati? = What man walks into a fire of his own free will? ## pt@1917.1
+
+@ 202 | nirgacchati | goes out
+saḥ prātaḥ utthāya svagṛhāt *nirgataḥ. = He got up at dawn and left his house. ## pt@5826.1
+saḥ jvalitāt vanāt dūraṃ *nirgataḥ. = He got far away out of the burning forest. ## pt@3225.1
+vṛkṣakoṭarāt sarpaḥ *nirgatya tasya samīpam āgataḥ. = A snake came out of the tree hollow and came up to him. ## pt@6895.2
+
+@ 203 | bhavati | is; becomes
+kāryakāraṇāt anye hitabuddhayaḥ *bhavanti. = Other people become well-wishers only for some purpose. ## hit@421.2
+adravye kṛtā kriyā phalavatī na *bhavati. = Effort spent on an unworthy person does not bear fruit. ## hit@210.1
+durjanaḥ mṛdghaṭavat sukhabhedyaḥ *bhavati. = A wicked man breaks as easily as a clay pot. ## hit@727.1
+
+@ 204 | asti | is; there is
+etasmin mahāpuruṣalakṣaṇaṃ sarvam *asti. = This man has every mark of a great person. ## hit@2998.1
+kāñcanapuranāmni nagare vīravikramaḥ nāma rājā *asti. = In a city called Kanchanapura there is a king named Viravikrama. ## hit@1920.1
+magadhadeśe campakavatī nāma araṇyānī *asti. = In the land of Magadha there is a great forest called Champakavati. ## hit@523.1
+
+@ 205 | jīvati | lives
+saḥ śvasan api na *jīvati. = Though he breathes, he is not really alive. ## hit@1353.1
+yasya jīvite mitrāṇi bāndhavāḥ ca *jīvanti, tasya jīvitaṃ saphalam. = A life is worthwhile when friends and relatives live by it. ## hit@1490.1
+ātmārthe kaḥ na *jīvati? = Who does not live for himself? ## hit@1491.1
+
+@ 206 | mriyate | dies
+viśvāsitaḥ asau citrakarṇavat *mriyate. = Once he is made to trust them, he dies like Chitrakarna. ## hit@3651.1
+prājñaḥ yudhyamānaḥ ripuṇā saha *mriyate. = A wise man dies fighting, and takes his enemy with him. ## hit@2288.1
+kṣudrajantavaḥ jāyante ca *mriyante ca. = Small creatures are born and die. ## hit@2983.1
+
+@ 207 | hasati | laughs
+etāḥ kāryahetoḥ *hasanti ca rudanti ca. = These women laugh and cry to get what they want. ## pt@1103.1
+saḥ cauraḥ *hasan prāṇān jahau. = The thief died laughing. ## vet@3452.1
+saḥ kāruṇikaḥ tapasvī *hasan abravīt. = The kind ascetic said with a laugh. ## vet@4792.1
+
+@ 208 | roditi | weeps
+tasya duḥkhena duḥkhitaḥ ahaṃ *rodimi. = I am crying because his pain hurts me. ## pt@2543.2
+sā sādhvī *rudatī evam abhāṣata. = The good woman spoke like this through her tears. ## vet@794.1
+kā asau *roditi? = Who is that woman crying? ## vet@1088.1
+
+@ 209 | bibheti | fears
+kukkurāt *bibheṣi? tvam eva kukkuraḥ bhava. = Are you afraid of the dog? Then become a dog yourself. ## hit@3411.8
+saḥ kukkuraḥ vyāghrāt *bibheti. = That dog is afraid of the tiger. ## hit@3411.9
+bāla, mṛtyoḥ kiṃ *bibheṣi? = Child, why are you afraid of death? ## pt@2650.1
+
+@ 210 | sevate | serves
+bhavān kevalam āhārārthī rājānaṃ *sevate? = Do you serve the king just for food? ## hit@1483.1
+arthārthī janaḥ śmaśānam api *sevate. = Someone who wants money will serve even at a cremation ground. ## pt@140.1
+dambhārtham api dānaṃ *sevyate. = Even charity is sometimes practised just for show. ## hit@282.1
+
+@ 211 | prāpnoti | reaches; obtains
+tyaktaḥ mahīpālaḥ nindāṃ *prāpnoti. = An abandoned king earns blame. ## hit@3151.1
+yathā ahaṃ anyaṃ hradaṃ *prāpnomi, tathā kuru. = Make sure I get to another lake. ## hit@3348.5
+saḥ nakhabhaṅgaṃ vā phalaṃ vā *prāpnoti. = He gets either a broken claw or a prize. ## pt@3878.1
+
+@ 212 | vyāpādayati | kills
+svāmī citrakarṇaṃ *vyāpādayati. = The master kills Chitrakarna. ## hit@3661.3
+sarvān tān śatrūn *vyāpādaya. = Kill all those enemies. ## pt@1287.2
+tvāṃ gṛhakarmakaraṃ matvā na *vyāpādayāmi. = I see you as a house servant, so I will not kill you. ## pt@861.2
+
+@ 213 | bhakṣayati | eats; devours
+pāyasadagdhaḥ bālaḥ dadhi api phūtkṛtya *bhakṣayati. = A child burnt by hot milk-rice blows even on yogurt before eating it. ## hit@3952.1
+maṇḍūkān *bhakṣaya. = Eat the frogs. ## hit@3866.1
+ahaṃ samīpāgatān api matsyān na *bhakṣayāmi. = I do not eat even the fish that come near me. ## pt@1357.3
+
+@ 214 | pālayati | protects; rules
+mitra, yaśaḥ *pālaya. = Friend, guard your good name. ## hit@472.1
+kīrtiṃ *pālaya, duḥkhite dayāṃ kuru. = Guard your reputation and be kind to those who suffer. ## bhartr@444.1
+dharmātmā bharataḥ ayodhyāṃ *pālayati. = Righteous Bharata rules Ayodhya. ## ram@23354.1
+
+@ 215 | upaviśati | sits down
+rājā mantrayituṃ *upaviṣṭaḥ. = The king sat down to hold a council. ## hit@2796.4
+saḥ sabhāmadhye *upaviṣṭaḥ api sphuṭaṃ na vadati. = Though he is seated in the assembly, he does not speak clearly. ## pt@4312.1
+eṣaḥ ahaṃ tava durgadvāre *upaviṣṭaḥ. = Here I am, sitting at the gate of your fort. ## pt@2892.1
+
+@ 216 | uttiṣṭhati | gets up
+tvaritam *uttiṣṭha, ahaṃ tvāṃ svāśrayaṃ prāpayāmi. = Get up quickly; I will take you home. ## pt@4319.2
+*uttiṣṭha, agrataḥ gacchāmaḥ. = Get up, let's go on ahead. ## pt@6262.2
+tataḥ rājā *utthāya prasthitaḥ. = Then the king got up and set out. ## hit@2918.1
+
+@ 217 | svapiti | sleeps
+siṃhaḥ sukhaṃ *svapiti. = The lion sleeps peacefully. ## hit@1767.3
+madīyasthāne gatvā *svapihi. = Go to my place and sleep. ## pt@3368.2
+tvaṃ gataśaṅkaḥ *svapihi. = Sleep without any worry. ## pt@3239.1
+
+@ 218 | paṭhati | reads; recites; studies
+saḥ ekaṃ ślokaṃ punaḥ punaḥ *paṭhati. = He keeps reciting the same verse. ## hit@1922.2
+te vidyāmaṭhe gatvā *paṭhanti. = They go to the school and study. ## pt@6355.2
+te dvādaśa varṣāṇi *paṭhitvā vidyākuśalāḥ abhavan. = After twelve years of study they became learned. ## pt@6355.3
+
+@ 219 | bhāṣate | speaks
+yaḥ apṛṣṭaḥ bahu *bhāṣate, saḥ durmatiḥ. = Whoever talks a lot without being asked is a fool. ## hit@1580.1
+saḥ gadgadaṃ vacaḥ *bhāṣate. = He speaks in a shaky voice. ## pt@1150.1
+tvaṃ prajñāvādān *bhāṣase. = You speak words of wisdom. ## pt@2698.1
+
+@ 220 | pacati | cooks; ripens
+adharmavṛkṣasya svādu phalaṃ na *pacyate. = No sweet fruit ripens on the tree of wrongdoing. ## vet@4388.1
+saḥ candanaiḥ indhanaiḥ tilakaṇān *pacati. = He cooks sesame seeds over a fire of sandalwood. ## bhartr@549.1
+kūrmaṃ *paktvā atra eva khādāmaḥ. = Let's cook the tortoise and eat it right here. ## hit@3375.1
+
+@ 221 | krīṇāti | buys
+saḥ śatena vastraṃ tāmbūlaṃ ca *krīṇāti. = He buys clothes and betel for a hundred coins. ## vet@1033.1
+saḥ vaṇijaḥ ekaṃ gṛhaṃ *krītvā tatra vasati. = He bought a house from a merchant and lives there. ## vet@5008.1
+tena bahumūlyāni ratnāni *krītāni. = He bought precious jewels. ## pt@2642.1
+
+@ 222 | vikrīṇāti | sells
+śāṇḍilī mātā akasmāt tilaiḥ tilān na *vikrīṇāti. = Mother Shandili does not trade sesame for sesame without a reason. ## pt@3120.1
+saḥ sarvavastūni *vikrīya ratnāni krītavān. = He sold all his things and bought jewels. ## pt@2642.1
+saḥ āpaṇe kiñcit kāñcanaṃ *vikrīṇāti. = He sells a little gold at the market. ## vet@302.1
+
+@ 223 | ārohati | climbs
+kīṭaḥ api puṣpasaṅgāt satāṃ śiraḥ *ārohati. = By staying close to flowers, even an insect ends up on good people's heads. ## hit@219.1
+saḥ potam *āruhya tatra gataḥ. = He went there by ship. ## hit@1926.3
+nakulāḥ vṛkṣam *āruhya bakaśāvakān khādanti. = The mongooses climb the tree and eat the heron chicks. ## hit@3369.2
+
+@ 224 | tarati | crosses
+jale sthitaḥ vānaraḥ iva saḥ durgaṃ *tarati. = He gets through the hard place like a monkey in the water. ## pt@5315.1
+sāgaraṃ *tīrtvā tvaṃ sītāṃ drakṣyasi. = Once you have crossed the ocean, you will see Sita. ## ram@35390.1
+satyavādinaḥ durgāṇi api *taranti. = Truthful people get through even hard times. ## hit@3832.1
+
+@ 225 | bhramati | wanders
+vṛddhasya dṛṣṭiḥ *bhrāmyati. = An old man's vision blurs. ## pt@5861.1
+saḥ samudrataṭe *bhraman śiṃśapāvṛkṣaṃ paśyati. = While wandering along the seashore, he sees a shimshapa tree. ## pt@6509.4
+saḥ niśi *bhraman harmyeṣu anviṣyati. = He wanders at night, searching the mansions. ## vet@3179.1
+
+@ 226 | nivasati | dwells
+atra araṇye bandhuhīnaḥ ekākī *nivasāmi. = I live alone in this forest, with no family. ## hit@527.2
+ekatra vṛkṣe kākaḥ vartakaḥ ca sukhaṃ *nivasataḥ. = A crow and a quail live happily in the same tree. ## hit@2539.1
+tatra citravarṇaḥ nāma mayūraḥ *nivasati. = A peacock named Chitravarna lives there. ## hit@2367.2
+
+@ 227 | smarati | remembers
+rājakanyā *smṛtvā prāha. = The princess remembered and spoke. ## pt@3388.1
+yaḥ māṃ nityaśaḥ *smarati, tasya ahaṃ sulabhaḥ. = I am easy to reach for anyone who remembers me always. ## bhg@2740.1
+saḥ imaṃ janma na *smarati. = He does not remember this birth. ## vet@4814.1
+
+@ 228 | dahati | burns
+uṣṇaḥ aṅgāraḥ karaṃ *dahati. = A hot coal burns your hand. ## hit@668.1
+duḥkhaṃ me manaḥ nityaśaḥ *dahati. = Grief keeps burning in my mind. ## ram@22417.1
+grīṣme pāvakaḥ śuṣkāṇi araṇyāni *dahati. = In summer, fire burns up dry forests. ## ram@41449.1
+
+@ 229 | ramate | enjoys; delights
+yatra vaktā śrotā ca asti, tatra sampadaḥ *ramante. = Good fortune is happy to stay where there are both a speaker and a listener. ## hit@2095.1
+ye nṛpāḥ sadā *ramante, teṣāṃ śriyā ripavaḥ sukhinaḥ bhavanti. = When kings think only of pleasure, their enemies enjoy their wealth. ## pt@2391.1
+bhuvi kaścit śṛṅgāre *ramate. = In this world, some people find their joy in love. ## bhartr@1083.1
+
+@ 230 | krīḍati | plays
+bhavaḥ tatra rājavat *krīḍati. = Shiva enjoys himself there like a king. ## ram@50381.1
+saḥ nṛpātmajaḥ sakhyā saha *krīḍati. = The prince plays with his friend. ## vet@175.1
+mṛtasya dhanaiḥ anye *krīḍanti. = Other people have fun with a dead man's money. ## hit@1070.1
+
+@ 231 | gāyati | sings
+sā vallakīṃ vādayantī *gāyati. = She sings while playing the lute. ## vet@2864.1
+ahaṃ bhavitavyatāṃ *gāyāmi. = I sing of destiny. ## vet@2954.1
+kecit *gāyanti, kecit praṇamanti. = Some sing and some bow. ## ram@34628.1
+
+@ 232 | nṛtyati | dances
+samaramukhe kabandhaḥ *nṛtyati. = A headless body dances at the front of the battle. ## pt@2457.1
+saḥ tūryadhvaninā *nṛtyan gṛhadvāreṣu babhrāma. = Dancing to the drums, he went from door to door. ## pt@5834.10
+kecit *nṛtyanti, kecit prahasanti. = Some dance and some burst out laughing. ## ram@34628.1
+
+@ 233 | vardhate | grows
+tasya snehaḥ uttarottaraṃ *vardhate. = His affection grows more and more. ## hit@611.2
+vṛddhasya badhiratā *vardhate. = An old man's deafness gets worse. ## bhartr@1464.1
+ayaṃ śokaḥ hṛdi *vardhate. = This grief grows in my heart. ## ram@10755.1
+
+@ 234 | mucyate | is freed
+svāmitrāsaḥ tatra eva *mucyate. = The master's fear goes away right there. ## hit@1751.1
+saḥ dhavalagṛhāt uttārya *muktaḥ. = He was taken down from the palace and let go. ## pt@3364.1
+tasya prahārāt ahaṃ *muktaḥ. = I escaped its blow. ## pt@5593.4
+
+@ 235 | badhnāti | binds
+saḥ tāṃ stambhe *baddhvā suptaḥ. = He tied her to a post and went to sleep. ## hit@1928.4
+aham atra ātmānaṃ *baddhvā tiṣṭhāmi. = I will tie myself up and stay here. ## hit@1933.2
+prātaḥ jālena *baddhaḥ saḥ mṛtavat sthitaḥ. = Caught in a net at dawn, he lay still as if he were dead. ## hit@3348.1
+
+@ 236 | chinatti | cuts
+sakhe, mama bandhanaṃ *chindhi. = Friend, cut me loose. ## hit@627.5
+mūṣikaḥ pratyahaṃ siṃhasya kesarāgraṃ *chinatti. = Every day a mouse gnaws off the tips of the lion's mane. ## hit@1762.2
+tṛṣṇāṃ *chindhi, kṣamāṃ bhaja. = Cut off craving and practise patience. ## bhartr@441.1
+
+@ 237 | yācate | begs; asks for
+yaḥ kāryakāle *yācate, saḥ kiṃbhṛtyaḥ? = What kind of servant asks for favours when there is work to be done? ## hit@1468.1
+ahaṃ brāhmaṇān śirasā praṇataḥ *yāce. = With my head bowed, I beg the brahmins. ## ram@4430.1
+mṛtyo, tvāṃ *yāce, māṃ yamasādanaṃ naya. = Death, I beg you: take me to Yama's home. ## ram@51151.1
+
+@ 238 | dṛśyate | is seen
+āgantukāḥ api kadācit upakārakāḥ *dṛśyante. = Newcomers sometimes turn out to be helpful too. ## hit@2926.1
+yudhyamānayoḥ vijayaḥ anityaḥ *dṛśyate. = When two sides fight, victory is never certain. ## hit@2657.2
+suhṛjjanāḥ nārikelasamākārāḥ *dṛśyante. = Good friends are like coconuts. ## hit@735.1
+
+@ 239 | ucyate | is said; is called
+vittaṃ sarvasādhanam *ucyate. = Wealth is called the means to everything. ## pt@138.1
+sādhu idam *ucyate. = That is well said. ## pt@71.3
+apakāriṣu yaḥ sādhuḥ, saḥ sādhuḥ *ucyate. = Someone who is good to those who hurt him is called truly good. ## pt@1562.1
+
+@ 240 | viśvasiti | trusts
+yaḥ śatruṣu *viśvasiti, tasya jīvitaṃ śīghraṃ naśyati. = Whoever trusts his enemies soon loses his life. ## hit@722.1
+upakārāt śatruṣu *viśvasiti yaḥ, saḥ patitaḥ eva pratibudhyate. = Whoever trusts enemies because of a favour only wakes up after he has fallen. ## hit@3385.1
+ahaṃ kasyacit na *viśvasimi. = I do not trust anyone. ## pt@2862.3
+
+@ 241 | āliṅgati | embraces
+eṣā caurasya bhayāt mām *āliṅgati. = She is holding me because she is scared of the thief. ## pt@5866.5
+saḥ bilāt niṣkramya tam *āliṅgya tena saha prasthitaḥ. = He came out of his hole, hugged him and set off with him. ## pt@5490.1
+saḥ devadattaṃ balāt *āliṅgya skandhe āropayati. = He grabs Devadatta in a hug and lifts him onto his shoulder. ## pt@5834.9
+
+@ 242 | āhvayati | calls
+rājā sarvān śiṣṭān *āhūya mantrayati. = The king calls all the elders together and takes counsel. ## hit@2796.4
+kaḥ evaṃ mām *āhvayati? = Who is calling me like that? ## pt@5447.1
+bhavataḥ bahavaḥ śrāvakāḥ *āhvayanti. = Many followers are inviting you. ## pt@6133.2
+
+@ 243 | preṣayati | sends
+tat māṃ gṛhaṃ *preṣaya. = So send me home. ## pt@6748.2
+ahaṃ tava antikaṃ *preṣitaḥ. = I have been sent to you. ## pt@4209.2
+bhagavatā candreṇa ahaṃ bhavataḥ samīpaṃ *preṣitaḥ. = The blessed Moon has sent me to you. ## hit@2457.2
+
+@ 244 | pūjayati | honours; worships
+guṇavān naraḥ yasya kasya putraḥ api *pūjyate. = A man of merit is honoured no matter whose son he is. ## hit@133.1
+jātimātreṇa kaḥ *pūjyate? = Who is honoured just because of his birth? ## hit@555.1
+dhanena apūjyaḥ api *pūjyate. = With money, even someone unworthy is honoured. ## pt@134.1
+
+@ 245 | praṇamati | bows
+vīravaraḥ *praṇamya calitaḥ. = Viravara bowed and left. ## hit@2953.1
+meghavarṇaḥ āgatya *praṇamya vadati. = Meghavarna comes in, bows and speaks. ## hit@3172.1
+saḥ api *praṇamya piṅgalakasya abhimukhaṃ pratasthe. = He bowed as well and set off towards Pingalaka. ## pt@422.3
+
+@ 246 | sthāpayati | places; establishes
+saḥ te ubhe ekasmin vāsake *sthāpayati. = He puts the two of them up in a single house. ## vet@3746.1
+saḥ sarvāṃ mahīṃ vaśe *sthāpayati. = He brings the whole earth under his control. ## vet@6550.1
+mahāprājña, idaṃ rājyaṃ *sthāpaya. = Wise one, put this kingdom in order. ## ram@14859.1
+
+@ 247 | vañcayati | deceives
+asau tvayā kathaṃ *vañcitaḥ? = How did you trick him? ## hit@3626.1
+enaṃ *vañcayitvā paśuṃ gṛhṇīmaḥ. = Let's trick him and take the animal. ## pt@4363.3
+vitrastasāraṅganetrayā kaḥ na *vañcitaḥ? = Who has not been fooled by a woman with eyes like a startled deer's? ## hit@1408.1
+
+@ 248 | nindati | blames
+mūrkhāḥ paṇḍitaṃ puruṣaṃ sadā *nindanti. = Fools always criticize a learned man. ## pt@2620.1
+saḥ muhuḥ ātmānaṃ *nindati. = He blames himself over and over. ## vet@4394.1
+yaḥ yuvatīḥ *nindati, saḥ alīkapaṇḍitaḥ. = Anyone who speaks badly of young women is a fake scholar. ## bhartr@935.1
+
+@ 249 | praśaṃsati | praises
+nītiśāstravidaḥ janāḥ durgaṃ *praśaṃsanti. = Experts in statecraft speak highly of forts. ## pt@2787.1
+satyaṃ tvaṃ buddhiśarīraḥ iti saḥ *praśaṃsati. = "You truly are wisdom itself," he says in praise. ## vet@437.1
+yena janaḥ vṛttiṃ kalpayati, tena loke ca *praśasyate. = People are praised for the same skill they earn their living by. ## hit@1648.1
+
+@ 250 | vicārayati | considers
+kāryakāle yathāśakti kuryāt, na tu *vicārayet. = When it is time to act, you should do your best and not stop to deliberate. ## hit@3199.1
+iti samyak *vicārya saḥ tasya sakāśaṃ na jagāma. = After thinking it over carefully, he did not go to him. ## pt@3360.1
+iti *vicārya saḥ mandaṃ mandaṃ śabdam akarot. = With this in mind, he made a very soft sound. ## pt@4447.2
+
+@ 251 | āsvādayati | tastes
+lambakarṇaḥ gardabhaḥ dūrvāṅkurān *āsvādayati. = Lambakarna the donkey nibbles young blades of grass. ## pt@5564.2
+tat *āsvādya viśrāntaḥ tvam anugamiṣyasi. = Once you have tasted it and rested, you will follow. ## ram@28072.1
+sā api tat *āsvādya prahṛṣṭā babhūva. = She tasted it too and was delighted. ## pt@6864.2
+
+@ 252 | nivartate | turns back; ceases
+satāṃ svabhāvaḥ na *nivartate. = Good people do not change their nature. ## hit@699.1
+saritāṃ srotāṃsi vrajanti, na *nivartante. = River currents keep flowing and never turn back. ## hit@3789.1
+balī śatruḥ alabdhvā na *nivartate. = A strong attacker does not turn back empty-handed. ## hit@4038.1
+
+@ 253 | nivārayati | prevents; holds back
+snigdhaḥ mitram akuśalāt *nivārayati. = A loving friend holds you back from harm. ## hit@2122.1
+tasya rājadvārapraveśaḥ api *nivāritaḥ. = He was even banned from entering the palace gate. ## pt@831.2
+mayā api saḥ na *nivāritaḥ. = I did not stop him either. ## pt@4234.3
+
+@ 254 | avalokayati | looks at
+tam *avalokya mūṣikaḥ muneḥ kroḍe praviveśa. = When it saw him, the mouse crept into the sage's lap. ## hit@3411.5
+tam *avalokya sarve śṛgālāḥ cintayanti. = When they see him, all the jackals start thinking. ## hit@1208.2
+rājā balam *avalokayan yodhayet. = A king should command the battle while keeping an eye on his army. ## hit@3183.1
+
+@ 255 | āśvāsayati | consoles
+mantrisutaḥ rājasutam *āśvāsayati. = The minister's son comforts the prince. ## vet@301.1
+saḥ putram *āśvāsya bhojayati. = He comforts his son and gets him to eat. ## vet@1570.1
+evaṃ saḥ rājānam *āśvāsayati. = That is how he reassures the king. ## vet@5491.1
+
+@ 256 | anugacchati | follows
+mṛgavāyasamūṣikāḥ duḥkhitāḥ tam *anugacchanti. = The deer, the crow and the mouse follow him in sorrow. ## hit@1243.5
+pūrvakṛtaṃ karma kartāram *anugacchati. = Past deeds follow the person who did them. ## pt@3477.1
+karma gacchantaṃ naram *anugacchati. = Karma follows a man wherever he goes. ## pt@3479.1
+
+@ 257 | mahān | great
+vipattau *mahān dhīratvam adhigacchati. = In bad times a great man finds his courage. ## hit@2678.1
+*mahān parasya anarthaṃ na prakāśayati. = A great person does not spread news of someone else's misfortune. ## hit@3881.1
+vane siṃhavṛṣabhayoḥ *mahān snehaḥ vardhate. = In the forest a great friendship grows between the lion and the bull. ## hit@1307.1
+
+@ 258 | kṛśaḥ | thin; lean
+saḥ śvā *kṛśaḥ kāṇaḥ khañjaḥ ca asti. = That dog is thin, one-eyed and lame. ## bhartr@964.1
+te vānarāḥ *kṛśāḥ dīnavadanāḥ ca. = Those monkeys are thin and look miserable. ## ram@26440.1
+saḥ malinaḥ dīnaḥ *kṛśaḥ ca. = He is dirty, miserable and thin. ## ram@11480.1
+
+@ 259 | alpaḥ | little; small
+idam *alpaṃ kartuṃ śakṣyāmi. = I'll be able to do this little thing. ## pt@5248.1
+*alpena kālena rāvaṇaṃ drakṣyāmi. = I will see Ravana before long. ## ram@31935.1
+ādityaḥ *alpaṃ toyaṃ śoṣayati. = The sun dries up a little water. ## ram@30497.1
+
+@ 260 | laghuḥ | light; small
+utsāhī *laghuḥ api guruṃ śatruṃ hanyāt. = A small but determined man can kill a big enemy. ## pt@3921.1
+dātā *laghuḥ api sevyaḥ bhavati. = A generous man is worth serving even if he is small. ## pt@3141.1
+*laghūnām api saṃśrayaḥ rakṣāyai bhavati. = Even the shelter of small creatures gives protection. ## pt@4034.2
+
+@ 261 | sundaraḥ | beautiful
+yat yasmai rocate, tat tasya *sundaram. = Whatever someone likes is beautiful to him. ## hit@1586.1
+ekā bhāryā bhavet, *sundarī vā darī vā. = One should have just one wife: either a beautiful woman or a mountain cave. ## bhartr@399.1
+*sundaraṃ rāmaṃ śīghram ānaya. = Bring handsome Rama here quickly. ## ram@7075.1
+
+@ 262 | sukhī | happy
+ṣaḍvargaṃ tyaktvā nṛpaḥ *sukhī bhavati. = A king who gives up the six vices is happy. ## hit@3904.1
+svāmine duḥkhaṃ nivedya janaḥ *sukhī bhavati. = You feel better once you tell your troubles to a capable master. ## pt@2117.1
+svajanaṃ hatvā kathaṃ *sukhinaḥ syāma? = How could we be happy after killing our own people? ## bhg@182.1
+
+@ 263 | duḥkhitaḥ | sad; unhappy
+saḥ *duḥkhitaḥ cintayāmāsa. = He thought sadly. ## vet@4735.1
+mama rāṣṭre kaḥ api daridraḥ vā *duḥkhitaḥ vā na asti. = In my kingdom no one is poor or unhappy. ## vet@1081.1
+pitṛbhyāṃ lālitaṃ śarīraṃ tyajāmi iti saḥ *duḥkhitaḥ vadati. = "I am giving up the body my parents raised," he says sadly. ## vet@6214.1
+
+@ 264 | dīnaḥ | poor; wretched
+evaṃ *dīnaḥ saḥ vilapati. = Miserable, he laments like this. ## ram@13717.1
+ahaṃ *dīnā bhṛśaduḥkhitā ca. = I am wretched and deeply sad. ## ram@4161.1
+*dīnā patnī jīrṇam ambaraṃ dhārayati. = The poor wife wears worn-out clothes. ## bhartr@1192.1
+
+@ 265 | balavān | strong
+loke dhanavān sarvaḥ *balavān. = In this world, every rich man is powerful. ## hit@855.1
+dhanena lokaḥ *balavān bhavati. = Money makes people powerful. ## hit@860.1
+tatra *balavān vānarayūthaḥ krīḍan āgataḥ. = A strong troop of monkeys came there, playing. ## hit@1449.3
+
+@ 266 | durbalaḥ | weak
+kiṣkindhāṃ prāpya anāthaḥ *durbalaḥ iva jīveyam. = Back in Kishkindha, I would live like a weak orphan. ## ram@26791.1
+balavān *durbalān na cintayati. = A strong man does not worry about the weak. ## ram@17423.1
+kākamāṃsaṃ stokaṃ *durbalaṃ ca. = Crow meat is scanty and has little strength in it. ## pt@1807.1
+
+@ 267 | buddhimān | intelligent
+*buddhimān mitrārthe bāndhavārthe ca sadā yatate. = A wise man always works hard for his friends and relatives. ## pt@1956.1
+yaḥ utpannām āpadaṃ samādhatte, saḥ *buddhimān. = Someone who deals with trouble as soon as it comes is wise. ## hit@3320.1
+*buddhimān kāryārthaṃ śatrūn api skandhena vahet. = To get a job done, a wise man will even carry his enemies on his shoulders. ## hit@3724.1
+
+@ 268 | īśvaraḥ | lord; rich man
+tṛṣṇā parityaktā cet, kaḥ daridraḥ kaḥ *īśvaraḥ? = Once craving is gone, who is poor and who is rich? ## hit@1152.1
+*īśvare dhanaṃ mā prayaccha. = Do not give money to the rich. ## hit@308.1
+saḥ svāmī māṃ vikretum *īśvaraḥ. = That master has the right to sell me. ## hit@2578.2
+
+@ 269 | daridraḥ | poor
+manasvinaḥ *daridrasya vanāt anyat sukhaṃ kutaḥ? = Where else can a proud poor man find happiness but in the forest? ## hit@888.1
+kaunteya, *daridrān bhara. = Son of Kunti, support the poor. ## hit@308.1
+kiṃvarāṭakaḥ naraḥ *daridraḥ bhavati. = A man who thinks a cowrie shell is not worth anything ends up poor. ## hit@1837.1
+
+@ 270 | priyaḥ | dear
+*priyaḥ janaḥ apriyāṇi kurvan api priyaḥ eva. = Someone dear stays dear even when he does unpleasant things. ## hit@2085.1
+prastāvasadṛśaṃ *priyaṃ vākyaṃ vadet. = Say something kind that suits the moment. ## hit@1575.1
+yaḥ madbhaktaḥ, saḥ me *priyaḥ. = Whoever is devoted to me is dear to me. ## bhg@4152.1
+
+@ 271 | śuṣkaḥ | dry
+kuñjaraiḥ bhagnāni *śuṣkāṇi kāṣṭhāni ānaya. = Bring dry wood broken off by the elephants. ## ram@21389.1
+hutāśanaḥ *śuṣkam indhanam āsādya jvalati. = A fire blazes up when it reaches dry fuel. ## ram@33622.1
+bahūni *śuṣkāṇi kāṣṭhāni samājñāpaya. = Order plenty of dry wood. ## ram@23924.1
+
+@ 272 | bhītaḥ | afraid
+*bhītaḥ śatruḥ palāyanaparaḥ. = The frightened enemy is ready to run away. ## pt@4432.2
+sā *bhītā rudatī śanaiḥ cacāla. = Frightened and crying, she slowly walked away. ## vet@908.1
+ṛṣeḥ *bhītāḥ vayaṃ na gacchema. = We are afraid of the sage, so we won't go. ## ram@815.1
+
+@ 273 | bubhukṣitaḥ | hungry
+*bubhukṣitaḥ kiṃ pāpaṃ na karoti? = What wrong will a hungry man not do? ## hit@3669.1
+*bubhukṣitāḥ pariśrāntāḥ ca vānarāḥ vṛkṣamūlam upāśritāḥ. = Hungry and exhausted, the monkeys sat down at the foot of a tree. ## ram@26569.1
+kruddhaḥ *bubhukṣitaḥ ca dharmaṃ na jānāti. = A man who is angry or hungry does not know right from wrong. ## hit@3673.1
+
+@ 274 | tṛṣitaḥ | thirsty
+*tṛṣitaḥ saḥ jalaṃ pītvā abravīt. = He was thirsty, so he drank the water and then spoke. ## vet@4996.1
+te *tṛṣitāḥ salilārthinaḥ ca. = They are thirsty and looking for water. ## ram@26437.1
+uṣṇābhitaptāḥ *tṛṣitāḥ ca jalāśayaṃ saṃkṣobhayanti. = Worn out by the heat and thirsty, they churn up the pond. ## ram@52092.1
+
+@ 275 | yuvā | young man
+*yuvā vā vṛddhaḥ vā gṛham āgataḥ atithiḥ pūjyaḥ. = Young or old, a guest who comes to the house should be honoured. ## hit@571.1
+sā *yuvānaṃ sadhanaṃ patim icchati. = She wants a young, rich husband. ## hit@1964.1
+*yuvā tatra ekāṃ yuvatiṃ dadarśa. = The young man saw a young woman there. ## vet@4774.1
+
+@ 276 | navaḥ | new
+gāvaḥ araṇye *navaṃ navaṃ tṛṇaṃ prārthayante. = In the forest, cows keep looking for fresh grass. ## hit@3332.1
+tvayā kiṃ *navaṃ dṛṣṭam? = What new things have you seen? ## vet@2812.1
+tava etat darśanaṃ *navam. = Seeing you like this is new to me. ## vet@2780.1
+
+@ 277 | jīrṇaḥ | old; worn
+saḥ śvā kṣudhā kṣāmaḥ *jīrṇaḥ ca. = That dog is weak with hunger and old. ## bhartr@966.1
+tṛṣṇā na jīrṇā, vayam eva *jīrṇāḥ. = Our craving has not grown old; we have. ## bhartr@1122.1
+manorathāḥ hṛdaye eva *jīrṇāḥ. = My wishes grew old inside my heart. ## bhartr@1513.1
+
+@ 278 | dīrghaḥ | long
+saḥ *dīrghaṃ niḥśvasya upaviṣṭaḥ. = He let out a long sigh and sat down. ## hit@2224.1
+saḥ gokarṇe *dīrghaṃ tapaḥ ātiṣṭhat. = He did long penance at Gokarna. ## ram@3296.1
+saḥ śunaḥśepāya *dīrgham āyuḥ prādāt. = He granted Shunahshepa a long life. ## ram@4819.1
+
+@ 279 | uttamaḥ | best; excellent
+sarvarasānāṃ lavaṇaḥ rasaḥ *uttamaḥ. = Of all flavours, salt is the best. ## hit@2728.1
+dhānyānāṃ saṅgrahaḥ *uttamaḥ. = A store of grain is the best kind of store. ## hit@2724.1
+saḥ *uttamaḥ satpuruṣaḥ. = He is the best kind of good man. ## hit@1171.1
+
+@ 280 | adhamaḥ | lowest; vile
+mānuṣāṇāṃ lokāt paraḥ *adhamaḥ na asti. = There is nothing lower than the human world. ## ram@51157.1
+kulam utkarṣaṃ ninīṣuḥ *adhamān tyajet. = Someone who wants to raise his family up should keep away from low people. ## manu@2738.1
+karmavidyāviśeṣāt *adhamāḥ madhyamāḥ agryāḥ ca bhavanti. = Depending on what they do and know, people turn out low, middling or high. ## manu@7853.1
+
+@ 281 | sādhuḥ | good; good man
+*sādhavaḥ ātmaupamyena bhūtānāṃ dayāṃ kurvanti. = Good people are kind to all creatures, as they would be to themselves. ## hit@296.1
+*sādhavaḥ guṇahīneṣu jīveṣu api dayālavaḥ. = Good people are kind even to creatures with no merits. ## hit@575.1
+apakāriṣu api yaḥ dayāṃ karoti, saḥ *sādhuḥ. = Someone who is kind even to those who hurt him is good. ## pt@1562.1
+
+@ 282 | duṣṭaḥ | wicked
+*duṣṭam amātyaṃ mūlāt uddharet. = You should get rid of a wicked minister, root and all. ## hit@2068.1
+*duṣṭā bhāryā śaṭhaṃ mitraṃ ca mṛtyave eva. = A wicked wife and a false friend lead only to death. ## hit@1997.1
+āgantukaḥ jātimātrāt *duṣṭaḥ kim? = Is a newcomer wicked just because of where he comes from? ## hit@2998.3
+
+@ 283 | mṛtaḥ | dead
+nimajjanasthānābhāvāt vayaṃ *mṛtāḥ. = With nowhere to bathe, we are as good as dead. ## hit@2446.2
+pādāsphālanena sarpaḥ api *mṛtaḥ. = The snake was trampled to death too. ## hit@1058.1
+mama putrāḥ dārāḥ ca *mṛtāḥ. = My sons and my wife have died. ## hit@277.2
+
+@ 284 | sarvaḥ | all; every
+śarīreṇa saha *sarvam anyat nāśaṃ gacchati. = Everything else is lost along with the body. ## hit@593.1
+*sarve sarvamaṅgalāyāḥ sthānaṃ gatāḥ. = They all went to the shrine of Sarvamangala. ## hit@2980.2
+tena *sarvam anuṣṭhitam. = He has done everything. ## hit@955.1
+
+@ 285 | anyaḥ | other
+tat enaṃ tyaja, yāvat *anyaḥ kaścit na paśyati. = So let him go before anyone else sees. ## pt@4388.1
+rājā mantrī ca tatra sthitau, *anye anyatra gatāḥ. = The king and the minister stayed there; the others went somewhere else. ## hit@2616.1
+sukhahetoḥ duḥkhīyati, sevakāt *anyaḥ kaḥ mūḍhaḥ? = Who but a servant is foolish enough to suffer for the sake of happiness? ## hit@1427.1
+
+@ 286 | ekaḥ | one
+prākārasthaḥ *ekaḥ dhanurdharaḥ śataṃ yodhayati. = One archer on the wall can fight off a hundred men. ## hit@2700.1
+kulālambī *ekaḥ putraḥ varam. = One son who supports the family is better. ## hit@128.1
+tena saktupūrṇaḥ *ekaḥ śarāvaḥ prāptaḥ. = He got a bowl full of barley flour. ## hit@3459.2
+
+@ 287 | dvau | two
+mṛgaśūkarau *dvau māsau yātaḥ. = The deer and the boar will last two months. ## hit@1064.1
+saṃsāravṛkṣasya *dve eva rasavatī phale. = The tree of worldly life bears only two sweet fruits. ## hit@990.1
+śastraṃ śāstraṃ ca *dve vidye. = Weapons and books are two kinds of learning. ## hit@68.1
+
+@ 288 | trayaḥ | three
+tasya *trayaḥ sevakāḥ, kākaḥ vyāghraḥ jambukaḥ ca. = He has three servants: a crow, a tiger and a jackal. ## hit@3657.2
+asāre saṃsāre *trīṇi sārāṇi. = In this worthless world there are three things of value. ## hit@995.1
+mārge *trayaḥ dhūrtāḥ saṃmukhāḥ babhūvuḥ. = On the road, three crooks came up to him. ## pt@4363.1
+
+@ 289 | catvāraḥ | four
+durgasya laṅghanopāyāḥ *catvāraḥ. = There are four ways to take a fort. ## hit@3194.1
+tasya *catvāraḥ sutāḥ utpedire. = Four sons were born to him. ## vet@5939.1
+te *catvāraḥ catasraḥ diśaḥ prayayuḥ. = The four of them set off in four directions. ## vet@6011.1
+
+@ 290 | pañca | five
+yatra *pañca na vidyante, tatra vāsaṃ na kārayet. = Do not settle where these five things are missing. ## hit@808.1
+*pañca śatāni śūrāḥ api ripusenāṃ nighnanti. = Even five hundred brave men can destroy an enemy army. ## hit@3143.1
+rājā vīravarāya *pañca śatāni suvarṇāni dadāti. = The king gives Viravara five hundred gold coins. ## hit@2955.1
+
+@ 291 | śatam | hundred
+mitrāṇi *śatāni kartavyāni. = You should make hundreds of friends. ## hit@503.1
+durge sthitāḥ *śataṃ yodhāḥ śatasahasrāṇi yodhayanti. = A hundred soldiers inside a fort can hold off a hundred thousand. ## hit@2701.1
+vīravaraḥ pratyahaṃ suvarṇasya pañca *śatāni yācate. = Viravara asks for five hundred gold coins every day. ## hit@2945.1
+
+@ 292 | sahasram | thousand
+gajānāṃ *sahasreṇa api tat na sidhyati, yat durgeṇa sidhyati. = Even a thousand elephants cannot do what a fort can. ## pt@1488.1
+kausalyā madvidhān *sahasram api bibhṛyāt. = Kausalya could support a thousand people like me. ## ram@8408.1
+mayā gavām ekaṃ *sahasram api na dattam. = I have not given away even a thousand cows. ## ram@8522.1
+
+@ 293 | prathamaḥ | first
+sarvasiddhīnāṃ *prathamaḥ pratyūhaḥ uttāpaḥ. = Haste is the first obstacle to any success. ## hit@2681.1
+mayā saha te *prathamaḥ snehasambhāṣaḥ jātaḥ. = This is the first friendly talk you have had with me. ## pt@1394.1
+tasya *prathamaḥ ātmajaḥ śūradevaḥ. = His first son was Shuradeva. ## vet@2227.1
+
+@ 294 | saḥ | he; that
+*saḥ bandhuḥ, yaḥ āpadi mitram uddharati. = A true kinsman is someone who gets a friend out of trouble. ## hit@389.1
+*saḥ viśvastaḥ janaḥ dhaneṣu niyoktavyaḥ. = That trusted man should be put in charge of the money. ## hit@3156.1
+*saḥ mūḍhaḥ nakulāt brāhmaṇaḥ iva tapyate. = That fool suffers like the brahmin with the mongoose. ## hit@3890.1
+
+@ 295 | aham | I
+*aham annaṃ, bhavān bhoktā; kathaṃ prītiḥ bhaviṣyati? = I am the food and you are the one eating it; what friendship could there be? ## hit@511.1
+*aham etasya rājñaḥ rājalakṣmīḥ. = I am this king's royal fortune. ## hit@2969.1
+*aham api gatvā nirūpayāmi. = I will go and find out too. ## hit@2965.3
+
+@ 296 | tvam | you
+kaḥ *tvam? kutaḥ samāgataḥ asi? = Who are you? Where have you come from? ## hit@2367.4
+yadi *tvam uttaraṃ dāsyasi, tadā tava maraṇam. = If you answer, you will die. ## hit@3371.2
+rājan, mām avajñātuṃ *tvaṃ na arhasi. = King, you should not look down on me. ## hit@1706.1
+
+@ 297 | vayam | we
+śrutvā *vayaṃ sukhinaḥ bhūtāḥ. = We were happy to hear it. ## hit@3253.1
+tena dhanena *vayaṃ dhaninaḥ kiṃ na bhavāmaḥ? = Why don't we get rich with that same money? ## hit@1019.1
+*vayaṃ sarve śrutavantaḥ. = We have all heard it. ## hit@1290.1
+
+@ 298 | kaḥ | who
+savidyānāṃ *kaḥ videśaḥ? = What land is foreign to a learned man? ## hit@1362.1
+lalāṭe likhitaṃ projjhituṃ *kaḥ samarthaḥ? = Who can wipe away what is written on one's forehead? ## hit@339.1
+*kaḥ atra iti pṛṣṭaḥ, aham iti brūyāt. = When someone asks "Who is there?", you should answer "I am." ## hit@1593.1
+
+@ 299 | kim | what; why
+maṇinā bhūṣitaḥ sarpaḥ *kiṃ na bhayaṅkaraḥ? = Is a snake wearing a jewel any less frightening? ## hit@716.1
+*kim asti, kiṃ na asti, jñāyatām. = Find out what is there and what isn't. ## hit@1818.1
+*kim adya sukṛtaṃ kṛtam? = What good deed have I done today? ## hit@255.1
+
+@ 300 | kutra | where
+*kutra tava kaṅkaṇam? = Where is your bracelet? ## hit@275.3
+*kutra me śiśuḥ? = Where is my child? ## pt@2590.3
+lakṣmīḥ *kutra kadā sthirā dṛṣṭā? = Where and when has fortune ever been seen to stay put? ## vet@3908.1
+
+@ 301 | kadā | when
+icchānurūpaḥ vibhavaḥ *kadā kasya bhaviṣyati? = When does anyone ever have all the wealth he wants? ## pt@3136.1
+*kadā tat bhaviṣyati? = When will that happen? ## hit@464.1
+veśyā śrīḥ ca kasya *kadā sthirā? = When has a courtesan or fortune ever stayed with anyone? ## vet@5999.1
+
+@ 302 | katham | how
+*katham evaṃ satvaraṃ sambhāvyate? = How can this be expected so quickly? ## hit@3925.1
+*katham etat? = How did that happen? ## hit@2352.1
+arthāḥ *kathaṃ sukhāvahāḥ? = How can riches bring happiness? ## hit@1130.1
+
+@ 303 | atra | here
+vṛṣabha, *atra kānane tiṣṭhasi? = Bull, are you staying here in this forest? ## hit@1779.1
+*atra bhavatā svagṛhe iva sthīyatām. = Please stay here as if it were your own home. ## hit@1188.1
+sakhe, *atra śāntiḥ karaṇīyā. = Friend, here we need to make peace. ## hit@1095.1
+
+@ 304 | tatra | there
+*tatra cūḍākarṇaḥ nāma parivrājakaḥ prativasati. = A wandering monk named Chudakarna lives there. ## hit@839.2
+*tatra citragrīvaḥ uvāca, mitra, mā evaṃ kuru. = Then Chitragriva said, "Friend, don't do that." ## hit@441.2
+*tatra kā paridevanā? = What is there to grieve about? ## hit@3773.1
+
+@ 305 | adya | today
+*adya dhanurguṇaḥ bhakṣyaḥ. = Today I will eat the bowstring. ## hit@1065.1
+mṛtyuḥ *adya vā abdaśatānte vā dhruvaḥ. = Death is certain, whether it comes today or in a hundred years. ## hit@3749.1
+śarīram *adya śvaḥ vā naśyati. = The body dies today or tomorrow. ## hit@4045.1
+
+@ 306 | śvaḥ | tomorrow
+*śvaḥ prabhāte āśramapadaṃ gamiṣyāmaḥ. = Tomorrow at dawn we will go to the hermitage. ## ram@2176.1
+*śvaḥ puṣyeṇa rāmaḥ yauvarājye abhiṣicyate. = Tomorrow, under the Pushya star, Rama will be made crown prince. ## ram@6624.1
+ahaṃ *śvaḥ prabhāte pratīcīṃ diśaṃ gamiṣyāmi. = Tomorrow at dawn I will head west. ## ram@54134.1
+
+@ 307 | idānīm | now
+*idānīm atikrāntopavarṇanena kim? = What is the use of talking about the past now? ## hit@1076.1
+*idānīṃ mama atra avasthānam ayuktam. = Now it is not right for me to stay here. ## hit@886.1
+tat na kṣantavyam *idānīm. = That cannot be forgiven now. ## hit@2421.2
+
+@ 308 | punaḥ | again
+prāṇatyāgaḥ varam, na *punaḥ adhamānām upagamaḥ. = Better to die than to go begging to low people. ## hit@926.1
+araṇye vāsaḥ varam, na *punaḥ avivekādhipapure. = Better to live in the forest than in the city of a foolish king. ## hit@925.1
+saḥ tān sampreṣya *punaḥ durgaṃ praviṣṭaḥ. = He sent them off and went back into the fort. ## pt@2857.1
+
+@ 309 | eva | only; just
+arthārjane sarvatra sandehaḥ *eva. = Making money is always uncertain. ## hit@270.1
+bhṛtyāḥ ābharaṇāni ca sthāne *eva niyojyante. = Servants and jewels must each be put in the right place. ## hit@1685.1
+śīghram *eva mama antikam āgaccha. = Come to me right away. ## pt@3343.3
+
+@ 310 | api | also; even
+viṣasaṃsargāt amṛtam *api mṛtyave. = Mixed with poison, even nectar brings death. ## hit@268.1
+tiraścām *api viśvāsaḥ dṛṣṭaḥ. = Trust is seen even among animals. ## hit@698.1
+ātmānaṃ dāraiḥ *api dhanaiḥ api rakṣet. = Protect yourself even at the cost of your wife and your money. ## hit@450.1
+
+@ 311 | ca | and
+samaiḥ samatām eti, viśiṣṭaiḥ *ca viśiṣṭatām. = With equals you become an equal, and with the eminent you become eminent. ## hit@206.1
+āyuḥ karma vittaṃ vidyā nidhanaṃ *ca garbhe eva sṛjyante. = Lifespan, deeds, wealth, learning and death are all fixed in the womb. ## hit@149.1
+saḥ pustakeṣu na adhītavān, gurusannidhau *ca na. = He studied neither from books nor with a teacher. ## hit@196.1
+
+@ 312 | vā | or
+pitā *vā bhrātā vā, rājñaḥ prāṇacchedakaraḥ hantavyaḥ. = Father or brother, whoever threatens the king's life must be killed. ## hit@2299.1
+kāṇena cakṣuṣā kiṃ *vā? = What good is a blind eye? ## hit@90.1
+nirāyāsaṃ pānīyaṃ *vā bhayottaraṃ svādvannaṃ vā? = Water that comes easily, or tasty food that comes with fear? ## hit@979.1
+
+@ 313 | na | not
+gatāyuṣaḥ *na jighranti, na śṛṇvanti, na paśyanti. = People whose time has come can no longer smell, hear or see. ## hit@651.1
+daivaṃ saṃcintya udyogaṃ *na tyajet. = Don't give up effort just because you think about fate. ## hit@169.1
+tat dhanaṃ *na devāya na viprāya na bandhubhyaḥ. = That money goes neither to the gods, nor to brahmins, nor to relatives. ## hit@1033.1
+
+@ 314 | iti | thus (quotation marker)
+*iti vijñāya matimān svasthānaṃ na parityajet. = Knowing this, a wise man does not leave his own home. ## hit@773.1
+asau drohabuddhiḥ *iti kathaṃ jñātavyam? = How can one tell that he is a traitor? ## hit@2197.1
+*iti uktvā saḥ śanaiḥ upagamya pānthaṃ dhṛtavān. = Having said this, he crept up and grabbed the traveller. ## hit@315.5
+
+@ 315 | yadi | if
+*yadi daivāt phalaṃ na asti, chāyā kena nivāryate? = Even if fate grants no fruit, who can take away the shade? ## hit@2424.1
+*yadi samyak netā narapatiḥ na syāt, prajāḥ sīdanti. = If there were no good king to lead them, the people would sink. ## hit@2356.1
+*yadi tvaṃ śīghraṃ na āgamiṣyasi, tadā ahaṃ mariṣyāmi. = If you don't come soon, I will die. ## pt@3343.3
+
+@ 316 | tadā | then
+yadā etat niścitaṃ bhāvi, *tadā vigrahaḥ kartavyaḥ. = When this is sure to happen, then war must be waged. ## hit@2808.1
+yadi ayaṃ kūrmaḥ patati, *tadā atra eva khādāmaḥ. = If this tortoise falls, then we'll eat it right here. ## hit@3375.1
+yadā yadā mūṣikaśabdaṃ śṛṇoti, *tadā tadā biḍālaṃ māṃsena poṣayati. = Whenever he hears a mouse, he feeds the cat some meat. ## hit@1767.4
+
+@ 317 | yadā | when
+*yadā rājā kāñcit gatiṃ na paśyati, tadā yudhyate. = When a king sees no way out, he fights. ## hit@3443.1
+yaḥ *yadā yasya māṃsam atti, ubhayoḥ antaraṃ paśya. = When one creature eats another's flesh, look at the difference between them. ## hit@596.1
+*yadā rājā svayaṃ samādiśati, tadā saḥ svagṛhaṃ yāti. = He goes home only when the king himself orders it. ## hit@2955.7
+
+@ 318 | ekadā | once
+*ekadā tena bhikṣuḥ laguḍena vyāpāditaḥ. = Once he killed a monk with a club. ## hit@3019.3
+saḥ bhūpatiḥ *ekadā ślokadvayaṃ śuśrāva. = One day the king heard two verses. ## hit@79.3
+*ekadā ghaṇṭām ādāya palāyamānaḥ cauraḥ vyāghreṇa vyāpāditaḥ. = Once a thief running off with a bell was killed by a tiger. ## hit@1808.3
+
+@ 319 | sahasā | suddenly
+mūḍhāḥ *sahasā śatrubalaṃ viśanti. = Fools rush headlong into the enemy army. ## hit@2814.1
+saḥ chidraṃ nirūpya *sahasā praviśati. = He finds a gap and slips in quickly. ## hit@674.1
+*sahasā yātrākaraṇam anucitam. = It is unwise to march out in a hurry. ## hit@2812.1
+
+@ 320 | śanaiḥ | slowly
+*śanaiḥ śanaiḥ upagamya vyāghraḥ pānthaṃ dhṛtavān. = Creeping up very slowly, the tiger grabbed the traveller. ## hit@315.5
+saḥ karṇe *śanaiḥ rauti. = It hums softly in your ear. ## hit@673.1
+salilapūraḥ *śanaiḥ plavaṃ nāśayati. = A flood slowly breaks a raft apart. ## pt@2960.1
+
+@ 321 | śīghram | quickly
+etat carma ādāya *śīghram eṣyāmi. = I'll take this hide and come back quickly. ## ram@19027.1
+duṣṭāḥ *śīghram eva vinaśyanti. = Wicked people come to a quick end. ## ram@19779.1
+tasmāt anyatra *śīghraṃ gamyatām. = So let's hurry off somewhere else. ## pt@6513.2
+
+@ 322 | saha | with
+eṣāṃ mayā *saha jātidravyabalānāṃ sāmyam asti. = They are my equals in birth, wealth and strength. ## hit@463.1
+tvayā *saha sauhṛdyam avaśyaṃ karaṇīyam. = I really must be friends with you. ## hit@725.2
+yaḥ yena pratibaddhaḥ, saḥ tena *saha udayī vyayī. = Whoever is tied to someone rises and falls with him. ## hit@3155.1
+
+@ 323 | vinā | without
+puruṣakāreṇa *vinā daivaṃ na sidhyati. = Fate achieves nothing without human effort. ## hit@162.1
+kriyāṃ *vinā jñānaṃ bhāraḥ. = Knowledge without action is a burden. ## hit@324.1
+jagatīpālaḥ sañcārakaiḥ *vinā andhavat sīdet. = A king without spies is as helpless as a blind man. ## hit@2072.1
+
+@ 324 | iva | like; as
+vidyāhīnāḥ nirgandhāḥ kiṃśukāḥ *iva na śobhante. = People without learning don't shine, just like kimshuka flowers that have no scent. ## hit@193.1
+tvaṃ viduṣāṃ madhye paṅke gauḥ *iva sīdasi. = Among the learned you sink like a cow in mud. ## hit@137.1
+durjanaḥ śvapuccham *iva kadāpi ṛjuḥ na bhavati. = A wicked man, like a dog's tail, never becomes straight. ## hit@2107.1
+
+@ 325 | sadā | always
+sampattayaḥ parādhīnāḥ, cittaṃ *sadā anirvṛtam. = Their wealth depends on others, and their mind is never at peace. ## hit@2203.1
+*sadā śreyaḥ eva ācaret. = Always do what is good. ## hit@1404.1
+saḥ chāyā iva *sadā anugataḥ. = He always follows like a shadow. ## hit@1597.1
+
+@ 326 | sarvadā | always
+saḥ siṃhaḥ *sarvadā paśūnāṃ vadhaṃ karoti. = That lion is always killing animals. ## hit@2012.2
+sakhe, tvayā *sarvadā sotsāhena bhavitavyam. = Friend, you should always be full of energy. ## hit@1081.1
+vidyā ahāryatvāt akṣayatvāt ca *sarvadā śreṣṭhā. = Learning is always the best wealth, because no one can steal it and it never runs out. ## hit@60.1
+
+@ 327 | nityam | always; daily
+santaḥ eva satāṃ *nityam āpaduddharaṇakṣamāḥ. = Only good people can always rescue the good from trouble. ## hit@1166.1
+nṛpārcitaṃ janaṃ janapadāḥ *nityam arcayanti. = People always honour someone the king honours. ## hit@1716.1
+*nityaṃ sañcayaḥ kartavyaḥ, na tu atisañcayaḥ. = Always save something, but don't hoard too much. ## hit@1044.1
+
+@ 328 | bahu | much; many
+anāhūtaḥ apṛṣṭaḥ ca saḥ *bahu vadati. = He comes without being invited and talks a lot without being asked. ## hit@1580.1
+*bahūni bhāṇḍāni bhagnāni. = Many pots were broken. ## hit@3459.7
+*bahūni draviṇāni labhyante. = Plenty of wealth can be won. ## pt@6232.1
+
+@ 329 | kiñcit | a little; something
+āhārārthaṃ *kiñcit prāptam? = Did you find anything to eat? ## hit@3676.2
+deva, *kiñcit pṛcchāmi. = Your Majesty, I have a question. ## hit@1725.1
+bhartuḥ anivedya *kiñcit api svayaṃ na kurvīta. = Do nothing on your own without telling your master. ## hit@1832.1
+
+@ 330 | dūram | far
+*dūram apasara, no cet hantavyaḥ asi. = Get far away, or I'll have to kill you. ## hit@551.1
+tau saṃjīvakaṃ kiyat *dūre saṃsthāpya gatau. = They left Sanjivaka a little way off and went on. ## hit@1795.1
+*dūre bhīrutvam, āsanne śūratā. = Fear when danger is far off, courage when it is close. ## hit@2677.1
+
+@ 331 | samīpam | near; nearby
+saḥ pratyahaṃ mṛtyoḥ *samīpam eti. = Every day he comes closer to death. ## hit@3809.1
+gajayūthanāthasya *samīpe sthitvā kathaṃ vaktavyam? = How should I speak when I am standing near the leader of the elephant herd? ## hit@2450.4
+saḥ tṛṇabhojinaṃ svāminaḥ *samīpaṃ nayati. = He brings the grass-eater to the master. ## pt@923.1
+
+@ 332 | upari | above; on
+*upari upari paśyantaḥ sarve daridrati. = Everyone who keeps looking up at those above them feels poor. ## hit@1315.1
+bālasya api raveḥ pādāḥ bhūbhṛtām *upari patanti. = Even the young sun's rays fall on the mountain tops. ## pt@2026.1
+kṣmābhṛt deśānām *upari, cikitsakāḥ āturāṇām. = A king is above his lands, and doctors are above the sick. ## pt@894.1
+
+@ 333 | adhaḥ | below
+*adhaḥ adhaḥ paśyataḥ kasya mahimā na upacīyate? = Who doesn't feel greater when he looks at those below him? ## hit@1314.1
+naraḥ svaiḥ eva karmabhiḥ *adhaḥ yāti, uccaiḥ vrajati. = A man goes down or rises up through his own deeds. ## hit@1557.1
+mitampacaḥ kṣitau *adhaḥ vittaṃ nicakhāna. = The miser buried his money deep in the ground. ## hit@1010.1
+
+@ 334 | madhye | in the middle; among
+durjanānāṃ *madhye vastuṃ na śakyate. = You cannot live among wicked people. ## pt@1764.2
+pakṣiṇāṃ *madhye vāyasaḥ caturaḥ. = Among birds, the crow is the clever one. ## pt@4114.2
+saḥ teṣāṃ *madhye sukhena vicarati. = He wanders happily among them. ## pt@1779.5
+
+@ 335 | bahiḥ | outside
+anye badarikākārāḥ *bahiḥ eva manoharāḥ. = Others are like jujube fruit: attractive only on the outside. ## hit@736.1
+mārjāraḥ koṭarāt niḥsṛtya *bahiḥ palāyitaḥ. = The cat came out of the hollow and ran off outside. ## hit@607.5
+ahaṃ *bahiḥ niḥsṛtya svavikramaṃ darśayāmi. = I will go outside and show how brave I am. ## hit@3172.3
+
+@ 336 | purataḥ | in front
+gardabhaḥ api tava *purataḥ gacchati. = Even a donkey walks ahead of you. ## pt@5583.6
+siṃhādayaḥ mṛgān vyāpādya tasya *purataḥ prakṣipanti. = The lions and the others kill animals and throw them down in front of him. ## pt@1633.8
+ahaṃ balinām *purataḥ bravīmi. = I speak out in front of the powerful. ## bhartr@941.1
+
+@ 337 | paścāt | afterwards; behind
+śukaḥ api mama *paścāt āgacchan āste. = The parrot is also coming along behind me. ## hit@2602.2
+*paścāt ānīya draṣṭavyaḥ. = Later he can be brought in and seen. ## hit@2648.2
+senāpatiḥ *paścāt yāyāt. = The general should march at the rear. ## hit@2835.1
+
+@ 338 | tataḥ | then; from there
+*tataḥ śabdāt abhijñāya saḥ hantavyaḥ. = Then, once he is recognized by his voice, he has to be killed. ## hit@2757.1
+*tataḥ tau saṃjīvakam ānīya darśanaṃ kāritavantau. = Then the two of them brought Sanjivaka and arranged a meeting. ## hit@1810.6
+*tataḥ bhavadbhiḥ saha mitratvam icchāmi. = So I want to be friends with you. ## hit@1178.2
+
+@ 339 | atha | now; then
+*atha kadācit vṛddhaśaśakasya vāraḥ samāyātaḥ. = Then one day it was the old hare's turn. ## hit@2016.2
+*atha viṣṇuśarmā prāha. = Then Vishnusharma spoke. ## hit@3251.1
+*atha saḥ bakaḥ pañcatvaṃ gataḥ. = Then the heron died. ## hit@3446.2
+
+@ 340 | khalu | indeed
+dehināṃ jīvitaṃ *khalu jale candraḥ iva capalam. = The life of living beings is as unsteady as the moon reflected in water. ## hit@4048.1
+sarvāḥ prakṛtayaḥ svāmimūlāḥ *khalu. = All of a king's subjects really do depend on him. ## hit@3701.1
+śūnyā śālā varam, na *khalu duṣṭavṛṣabhaḥ. = An empty stable is better than a bad bull. ## hit@923.1
+
+@ 341 | nūnam | surely
+*nūnam ayam aśvarūpeṇa rākṣasaḥ. = Surely this is a demon in the form of a horse. ## pt@6735.4
+*nūnam ataḥ paraṃ ratnāni bhaviṣyanti. = Surely there will be jewels further on. ## pt@6270.8
+*nūnam anena mantriṇā rājā vināśam avāpsyati. = Surely this minister will be the king's ruin. ## pt@1523.6
+
+@ 342 | alam | enough
+*alam anayā śaṅkayā. = Enough of this worry. ## hit@1783.1
+*alaṃ gṛhanarakavāsena, vanam eva gacchāmi. = Enough of living in this hell of a house; I am going to the forest. ## hit@3819.2
+*alam anena atītopālambhanena. = Enough of complaining about the past. ## hit@2609.1
+
+@ 343 | āha | says (said)
+damanakaḥ sasambhramam *āha, deva, mā evam. = Damanaka said in alarm, "Your Majesty, please don't." ## hit@2146.1
+siṃhaḥ sakopam *āha, satvaraṃ gatvā taṃ darśaya. = The lion said angrily, "Go quickly and show him to me." ## hit@2025.1
+yaḥ apriyāṇi pathyāni *āha, tena rājā sahāyavān. = A king has a real ally in someone who tells him unpleasant but useful truths. ## hit@3477.1
+
+@ 344 | āsīt | was; there was
+bhairavaḥ nāma vyādhaḥ *āsīt. = There was a hunter named Bhairava. ## hit@1053.1
+tatra sudarśanaḥ nāma narapatiḥ *āsīt. = There was a king there named Sudarshana. ## hit@79.2
+kasmiṃścit deśe mahācaturakaḥ nāma śṛgālaḥ *āsīt. = In a certain country there was a jackal called Mahachaturaka. ## pt@6001.1
+
+@ 345 | abhavat | became; was
+kālena tayoḥ santatiḥ *abhavat. = In time they had children. ## pt@2061.2
+vajradaṃṣṭrasya mattagajena saha yuddham *abhavat. = Vajradamshtra got into a fight with a wild elephant. ## pt@2269.1
+tasya śobhāvatī nāma rājadhānī *abhavat. = His capital was a city called Shobhavati. ## vet@1541.1
+
+@ 346 | gataḥ | gone; went
+sasainyāḥ pṛthivīpālāḥ kva *gatāḥ? = Where have all the kings and their armies gone? ## hit@3744.1
+kuṭṭanī gauravaṃ *gatā. = The old woman won great respect. ## hit@1800.1
+te api pralayaṃ *gatāḥ. = They are gone too. ## hit@3799.1
+
+@ 347 | kṛtam | done
+ajñānāt anena aparādhaḥ *kṛtaḥ. = He did wrong because he didn't know any better. ## hit@2471.2
+yena puṇyatīrthe duṣkaraṃ tapaḥ *kṛtam, saḥ dhanyaḥ. = Blessed is the man who has done hard penance at a holy place. ## hit@120.1
+pūrvajanmani *kṛtaṃ karma daivam iti kathyate. = Deeds done in a past life are called fate. ## hit@166.1
+
+@ 348 | śaraṇam | refuge
+ahaṃ bhavatāṃ *śaraṇam āgataḥ. = I have come to you for refuge. ## hit@1178.1
+ahaṃ tasya *śaraṇaṃ prāptaḥ. = I have come to him for shelter. ## pt@4546.1
+kapotena *śaraṇam āgataḥ śatruḥ api pūjitaḥ. = The pigeon honoured even an enemy who came to him for refuge. ## pt@4515.1
+
+@ 349 | āpad | misfortune; danger
+*āpatsu mitraṃ jānīyāt. = You find out who your friends are in hard times. ## hit@629.1
+*āpadi apṛṣṭaḥ api hitaṃ brūyāt. = In a crisis, give good advice even if no one asks. ## hit@1642.1
+*āpadām āpatantīnāṃ hitaḥ api hetutām āyāti. = When misfortunes are on their way, even a friend can become their cause. ## hit@385.1
+
+@ 350 | vipad | calamity; misfortune
+aparicchedakartṝṇāṃ pade pade *vipadaḥ syuḥ. = People who act without thinking run into trouble at every step. ## hit@972.1
+yasya *vipadi viṣādaḥ na asti, saḥ dhīraḥ. = Someone who does not lose heart in misfortune is steadfast. ## hit@399.1
+*vipadi sahāyāḥ anye, śriyam anubhavanti anye. = Some people help you in hard times; others just share your wealth. ## pt@6898.1
+
+@ 351 | sampad | prosperity
+*sampadaḥ sodyogaṃ naram āyānti. = Prosperity comes to the man who works hard. ## hit@1102.1
+*sampadi yasya harṣaḥ na asti, saḥ mahān. = Someone who does not get carried away in good times is great. ## hit@399.1
+kāyaḥ saṃnihitāpāyaḥ, *sampadaḥ āpadāṃ padam. = The body is always close to its end, and wealth is where misfortunes live. ## hit@1263.1
+
+@ 352 | lakṣmīḥ | fortune; wealth
+udyoginaṃ puruṣasiṃham *lakṣmīḥ upaiti. = Fortune comes to the lion among men who works hard. ## hit@173.1
+janapadaiḥ *lakṣmīḥ samālabhyatām. = May the people find prosperity. ## hit@1294.1
+*lakṣmīḥ kadāpi sthirā na dṛṣṭā. = No one has ever seen fortune stay put. ## vet@3908.1
+
+@ 353 | yaśaḥ | fame
+kāyena *yaśaḥ labhyeta. = Fame can be won with this body. ## hit@476.1
+mudhā *yaśaḥ malinaṃ kim iti kriyate? = Why stain your good name for nothing? ## hit@3214.1
+mama *yaśaḥ kṣititale vistāryatām. = Let my fame spread across the earth. ## pt@1819.4
+
+@ 354 | kīrtiḥ | glory
+dānaparaḥ rājā *kīrtim avāpnoti. = A generous king wins glory. ## pt@6523.1
+mṛtaiḥ svargaḥ, jīvadbhiḥ *kīrtiḥ prāpyate. = The dead win heaven and the living win glory. ## pt@1880.1
+saḥ suhṛdbalaṃ rājyaṃ *kīrtiṃ ca nāśayati. = He throws away the support of his friends, his kingdom and his good name. ## hit@3480.1
+
+@ 355 | vinayaḥ | modesty; discipline
+*vinayāt pātratāṃ yāti. = Humility makes a person worthy. ## hit@65.1
+śrutasya bhūṣaṇaṃ *vinayaḥ. = Humility is what makes learning shine. ## bhartr@467.1
+guruṣu *vinayaḥ sarvabhūtānukampā ca. = Respect for teachers, and compassion for all beings. ## bhartr@186.1
+
+@ 356 | matiḥ | mind; judgment
+khaloktibhiḥ satām api *matiḥ dolāyate. = Even good people waver when they listen to the wicked. ## hit@3650.1
+kāryeṣu utpanneṣu yasya *matiḥ na hīyate, saḥ durgāṇi tarati. = Someone who keeps a clear head when problems come up gets through hard times. ## hit@1947.1
+vidhiḥ balavān iti me *matiḥ. = I think fate is powerful. ## hit@491.1
+
+@ 357 | snehaḥ | affection
+kaḥ *snehaḥ? = What is love? ## hit@968.1
+capalena saha *snehaḥ na kartavyaḥ. = Don't make friends with someone fickle. ## hit@705.2
+mṛgakākau mahatā *snehena nivasataḥ. = The deer and the crow live together as close friends. ## hit@523.2
+
+@ 358 | dayā | compassion
+satyaṃ śauryaṃ *dayā tyāgaḥ ca nṛpasya mahāguṇāḥ. = Truth, courage, compassion and generosity are a king's great virtues. ## hit@3150.1
+saḥ dīne *dayāṃ na kurute. = He shows no pity to the poor. ## hit@1532.1
+duḥkhite *dayāṃ kuru, etat satāṃ ceṣṭitam. = Be kind to those who suffer; that is how good people behave. ## bhartr@444.1
+
+@ 359 | kṣamā | forgiveness; patience
+śatrau mitre ca *kṣamā yatīnāṃ bhūṣaṇam. = Patience with enemies and friends alike is an ornament for ascetics. ## hit@2307.1
+anyadā puṃsaḥ bhūṣaṇaṃ *kṣamā. = At other times, patience is what becomes a man. ## hit@2402.1
+vipadi dhairyam, abhyudaye ca *kṣamā. = Courage in bad times and patience in good times. ## hit@394.1
+
+@ 360 | dānam | gift; charity
+daridre dīyate *dānaṃ saphalam. = A gift given to the poor bears fruit. ## hit@293.1
+deśe kāle pātre ca dattaṃ tat *dānaṃ sāttvikam. = A gift given at the right place and time to the right person is pure. ## hit@313.1
+sāmnā *dānena bhedena vā śatruṃ jayet. = Defeat an enemy with talks, gifts or by splitting his side. ## hit@2660.1
+
+@ 361 | tapaḥ | austerity
+gṛhe api pañcendriyanigrahaḥ *tapaḥ. = Even at home, controlling the five senses is penance. ## hit@3822.1
+medhāvī *tapaḥ taptvā sukhī bhavet. = A wise man who does penance becomes happy. ## hit@1400.1
+brāhmaṇe *tapaḥ sambhāvyam. = Penance is what one expects of a brahmin. ## pt@6036.1
+
+@ 362 | pāpam | sin; evil
+lobhaḥ *pāpasya kāraṇam. = Greed is the root of sin. ## hit@369.1
+tasya *pāpaṃ brahmahatyāsamam. = His sin is as bad as killing a brahmin. ## hit@1180.1
+upakāriṇi yaḥ *pāpaṃ samācarati, taṃ vasudhā kathaṃ vahati? = How can the earth bear someone who wrongs his benefactor? ## hit@664.1
+
+@ 363 | puṇyam | merit
+saḥ tasmai duṣkṛtaṃ dattvā *puṇyam ādāya gacchati. = He leaves his host his sins and goes off with his merit. ## hit@580.1
+parahitāt adhikaṃ *puṇyaṃ na asti. = There is no greater merit than helping others. ## bhartr@759.1
+yadi teṣu tava vāñchā asti, *puṇyaṃ kuruṣva. = If you want those things, do good deeds. ## bhartr@676.1
+
+@ 364 | svargaḥ | heaven
+tādṛk saukhyaṃ *svarge api na jāyate. = You can't find happiness like that even in heaven. ## pt@4236.1
+yadi evaṃ *svargaṃ gamyate, narakaṃ kena gamyate? = If this is how people get to heaven, how does anyone get to hell? ## pt@4302.1
+*svarge akṣayaḥ vāsaḥ bhavet. = He would live in heaven forever. ## pt@1819.7
+
+@ 365 | kulam | family; lineage
+bāndhavāḥ *kulam icchanti. = The relatives want a good family. ## pt@4923.1
+tataḥ asmākaṃ *kulaṃ vinaṣṭam. = Then our family was wiped out. ## hit@2448.4
+yayoḥ samaṃ vittaṃ samaṃ *kulam, tayoḥ maitrī yujyate. = Friendship works between two people with equal wealth and family background. ## pt@1721.1
+
+@ 366 | rājyam | kingdom
+vibhīṣaṇaḥ rāmam āsādya laṅkāyāṃ *rājyaṃ lebhe. = By joining Rama, Vibhishana won the kingdom of Lanka. ## hit@2436.1
+*rājyaṃ prāptam iti asāmpratam na vartitavyam. = Don't misbehave just because you have won a kingdom. ## hit@3049.1
+budhaiḥ tyakte *rājye nītiḥ guṇavatī na bhavati. = In a kingdom the wise have left, policy goes wrong. ## hit@1711.1
+
+@ 367 | jīvitam | life
+prājñaḥ parārthe dhanāni *jīvitaṃ ca utsṛjet. = A wise man gives up his money and even his life for others. ## hit@458.1
+yauvanaṃ rūpaṃ *jīvitaṃ ca anityam. = Youth, beauty and life itself do not last. ## hit@3762.1
+caureṇa *jīvitaṃ dattam. = The thief spared his life. ## pt@4714.1
+
+@ 368 | vyasanam | vice; calamity
+*vyasane prāpte yaḥ tiṣṭhati, saḥ bāndhavaḥ. = Whoever stands by you when disaster strikes is a true relative. ## hit@633.1
+vākpāruṣyaṃ daṇḍapāruṣyaṃ ca mahībhujāṃ *vyasanāni. = Harsh words and harsh punishments are the vices of kings. ## hit@3062.1
+*vyasaneṣu bāndhavān jānīyāt. = You get to know your relatives in hard times. ## hit@630.1
+
+@ 369 | prajā | subjects; people
+nṛpaḥ *prajāṃ saṃrakṣati, sā pārthivaṃ vardhayati. = The king protects his people, and they make the king prosper. ## hit@2360.1
+yaḥ nṛpaḥ ajām iva *prajāṃ hanyāt, tasya ekā eva tṛptiḥ. = A king who slaughters his people like a goat is satisfied only once. ## pt@1439.1
+yathā gauḥ kāle duhyate pālyate ca, tathā *prajāḥ. = Subjects, like a cow, should be milked at the right time and looked after. ## pt@1448.1
+
+@ 370 | amātyaḥ | minister
+yaḥ kākinīṃ pravardhayet, saḥ *amātyaḥ śreyān. = A minister who can make even a penny grow is the best. ## hit@1839.1
+ekaḥ api medhāvī *amātyaḥ rājānaṃ mahatīṃ śriyaṃ prāpayet. = Even a single clever minister can bring a king great fortune. ## ram@13789.1
+duṣṭasya *amātyasya uddharaṇaṃ sukham. = Getting rid of a wicked minister brings relief. ## hit@2068.1
+
+@ 371 | sacivaḥ | counsellor
+āpadrahitaḥ rājā *sacivaṃ na abhivāñchati. = A king with no troubles doesn't want a counsellor. ## pt@677.1
+tasya vararuciḥ nāma *sacivaḥ sarvaśāstrajñaḥ. = His counsellor, Vararuchi, knew every branch of learning. ## pt@5744.2
+dhārmikaḥ rājā candraprabhaḥ *sacivān abravīt. = Chandraprabha, a righteous king, spoke to his counsellors. ## vet@5105.1
+
+@ 372 | senāpatiḥ | general
+*senāpatiḥ khinnān yodhān śanaiḥ āśvāsayati. = The general gently encourages the tired soldiers. ## hit@2835.1
+tataḥ baladharaḥ *senāpatiḥ tam etya vadati. = Then Baladhara the general comes up to him and speaks. ## vet@4576.1
+vīraketuḥ ekavīraṃ cauraṃ *senāpatiṃ vyadhāt. = Viraketu made Ekavira, a thief, his general. ## vet@3488.1
+
+@ 373 | yodhaḥ | warrior
+bhūpāḥ mahābalān *yodhān vāñchanti. = Kings want very strong soldiers. ## pt@5665.1
+saḥ *yodhān hatān matvā kruddhaḥ. = Thinking his soldiers had been killed, he became furious. ## ram@50859.1
+adhīraḥ *yodhaḥ sarvāṅgaiḥ saṃvṛtaiḥ api bibheti. = A timid soldier is scared even when his whole body is protected. ## hit@2157.1
+
+@ 374 | vīraḥ | hero
+*vīraḥ balena saha arātiṃ prati vicarati. = The hero marches against the enemy with his army. ## hit@3611.1
+saḥ *vīraḥ nṛpaḥ sāvahelam uvāca. = The brave king answered with contempt. ## vet@1942.1
+*vīraḥ api kāmena viḍambitaḥ. = Even a hero can be made a fool of by love. ## vet@1891.1
+
+@ 375 | śūraḥ | brave man
+*śūraḥ syāt avikatthanaḥ. = Be brave, but don't boast. ## hit@2995.1
+śatrubhiḥ pariveṣṭitaḥ hataḥ *śūraḥ akṣayān lokān labhate. = A brave man who dies surrounded by enemies wins worlds that never end. ## hit@3248.1
+raṇe *śūraṃ jānīyāt. = You find out who is brave in battle. ## hit@629.1
+
+@ 376 | vaidyaḥ | physician
+gatāyuṣi dhanvantariḥ *vaidyaḥ api kiṃ karoti? = What can even Dhanvantari the physician do for someone whose time is up? ## hit@3226.1
+yasya rājñaḥ *vaidyaḥ mantrī ca priyaṃvadāḥ, saḥ śīghraṃ naśyati. = A king whose doctor and minister only tell him what he wants to hear soon comes to ruin. ## hit@3004.1
+me *vaidyaḥ na asti, auṣadhaṃ ca na. = I have no doctor and no medicine. ## bhartr@854.1
+
+@ 377 | sakhā | friend
+*sakhe, brūhi, kim etat? = Friend, tell me, what is this? ## hit@2213.1
+*sakhe, tvaṃ sevānabhijñaḥ. = Friend, you don't know how to serve a master. ## hit@1578.1
+paralokayāne dharmaḥ *sakhā. = On the journey to the next world, dharma is your friend. ## hit@4054.1
+
+@ 378 | bandhuḥ | relative; kinsman
+paraḥ api hitavān *bandhuḥ. = Even a stranger who helps you is family. ## hit@2928.1
+*bandhuḥ jñātibhāvataḥ ākramya sarvasvaṃ grasate. = A relative uses his family ties to grab everything you own. ## hit@1860.1
+brāhmaṇaḥ kṣatriyaḥ *bandhuḥ vā adhikāre na praśasyate. = A brahmin, a warrior or a relative is not a good choice for a post. ## hit@1856.1
+
+@ 379 | payaḥ | milk; water
+gavāṃ *payaḥ prakṛtyā madhuram. = Cow's milk is naturally sweet. ## hit@320.1
+śauṇḍikīhaste *payaḥ api vāruṇī iti abhidhīyate. = In a wine-seller's hand, even milk gets called liquor. ## hit@2428.1
+sakṛt pīḍitaṃ snānavastraṃ dhṛtaṃ *payaḥ muñcet kim? = Does a bath towel let go of all its water after one squeeze? ## hit@1887.1
+
+@ 380 | daṇḍaḥ | stick; punishment
+parasya aparādhena pareṣāṃ *daṇḍaṃ na ācaret. = Don't punish some people for someone else's crime. ## hit@2137.1
+bhṛtyāparādhajaḥ *daṇḍaḥ svāminaḥ jāyate. = The penalty for a servant's crime falls on his master. ## pt@2176.1
+yatra sāmnā eva siddhiḥ, tatra *daṇḍaḥ na viniyojyaḥ. = Where kind words will work, force should not be used. ## pt@2357.1
+
+@ 381 | ghṛtam | ghee
+dadhnaḥ *ghṛtaṃ śreyaḥ. = Ghee is better than curd. ## pt@4272.1
+kṣaudraṃ dadhi *ghṛtaṃ payaḥ ca sajjam. = Honey, curd, ghee and milk are ready. ## ram@7105.1
+*ghṛtaṃ tailaṃ gandhāḥ ca ānīyantām. = Have ghee, oil and perfumes brought. ## ram@23931.1
+
+@ 382 | tṛṇam | grass
+*tṛṇāni bhūmiḥ udakaṃ sūnṛtā vāk ca satāṃ gṛhe na ucchidyante. = A grass mat, a place to sit, water and kind words are never lacking in a good home. ## hit@567.1
+asmābhiḥ cañcumātrāhṛtaiḥ *tṛṇaiḥ nīḍāḥ nirmitāḥ. = We built our nests with grass we carried in our beaks. ## hit@2387.1
+*tṛṇāni śayyā, vasanaṃ valkalam. = Grass for a bed and bark for clothes. ## hit@986.1
+
+@ 383 | dhānyam | grain
+*dhānyaṃ śākaṃ vāsāṃsi ca gurave prītim āvahet. = Grain, vegetables and clothes are gifts that please a teacher. ## manu@1139.1
+paśavaḥ aparivṛtaṃ *dhānyaṃ vihiṃsyuḥ. = Animals may damage grain that isn't fenced in. ## manu@4987.1
+nirdātā kakṣam uddharati, *dhānyaṃ ca rakṣati. = A weeder pulls up the weeds and protects the grain. ## manu@3916.1
+
+@ 384 | vairam | enmity
+durjanena samaṃ sakhyaṃ *vairaṃ ca na kārayet. = Don't make either friends or enemies with a wicked man. ## hit@667.1
+śatroḥ vikramam ajñātvā *vairaṃ na ārabheta. = Don't start a feud without knowing how strong the enemy is. ## pt@1901.1
+dhīmatā mitratvam eva yojyam, *vairaṃ na. = A wise man should make friends, not enemies. ## pt@2913.1
+
+@ 385 | chāyā | shade; shadow
+drumaḥ chettum āgate api *chāyāṃ na upasaṃharate. = A tree doesn't withdraw its shade even from the man who comes to cut it down. ## hit@563.1
+pathikaḥ *chāyām āśritya tiṣṭhati. = A traveller stops to rest in the shade. ## hit@3768.1
+*chāyā ātapaḥ ca nityaṃ susambaddhau. = Shade and sunlight always go together. ## pt@3482.1
+
+@ 386 | dhūmaḥ | smoke
+pitā putreṇa *dhūmena ghātitaḥ. = Because of his son, the father was killed by smoke. ## pt@2462.1
+prayāgam abhitaḥ unnataṃ *dhūmaṃ paśya. = Look at the smoke rising all around Prayaga. ## ram@10130.1
+tasya *dhūmaḥ dṛśyate. = You can see its smoke. ## ram@13643.1
+
+@ 387 | dhairyam | courage
+*dhairyam avalambya pratīkāraḥ cintyatām. = Keep your courage and think of a way out. ## hit@392.2
+yasya *dhairyam, saḥ mahīnāthaḥ parābhavaṃ na yāti. = A king with courage is never defeated. ## pt@590.1
+vidhure daive api *dhairyaṃ na tyājyam. = Don't lose heart even when fate is against you. ## pt@1185.1
+
+@ 388 | kāṣṭham | wood
+mahodadhau kāṣṭhaṃ ca *kāṣṭhaṃ ca sameyātām. = Two pieces of wood may drift together in the ocean. ## hit@3765.1
+dṛḍhā rajjuḥ laghu *kāṣṭhaṃ vā ānīyatām. = Bring a strong rope or a light piece of wood. ## pt@1959.1
+tasya paṭakarmaṇaḥ *kāṣṭhāni bhagnāni. = The wooden parts of his loom broke. ## pt@6509.2
+
+@ 389 | kṣaṇaḥ | moment
+rājā *kṣaṇaṃ vicintya āha. = The king thought for a moment and said. ## hit@3281.1
+anyaḥ *kṣaṇena bhavati. = A person can become someone else in a moment. ## hit@883.1
+*kṣaṇam api yat yaśasā jīvyate, tat jīvitam. = Even a moment lived with honour is real life. ## hit@1524.1
+
+@ 390 | latā | creeper
+puṣpaphalapradā *latā sicyate cīyate ca. = A creeper that gives flowers and fruit gets watered and tended. ## pt@1449.1
+sā dāvāgninā vidagdhā *latā iva abhavat. = She looked like a creeper burnt by a forest fire. ## pt@4567.1
+saḥ puṣpānatāḥ *latāḥ paśyati. = He looks at the creepers bending under their flowers. ## vet@2533.1
+
+@ 391 | padmam | lotus
+sā *padmaṃ śirasi ādadhe. = She put a lotus on her head. ## vet@205.1
+kṣapākṣaye *padmāni prabudhyante. = Lotuses open when the night ends. ## ram@28970.1
+mama pādayoḥ *padmāni santi. = There are lotus marks on my feet. ## ram@38942.1
+
+@ 392 | kamalam | lotus
+jaleṣu *kamalāni, tatra ca grāhāḥ. = There are lotuses in the water, and crocodiles there too. ## hit@2260.1
+parabhukte *kamale aleḥ ratiḥ kiṃ jāyate? = Does a bee enjoy a lotus that someone else has already had? ## vet@2381.1
+madhulubdhāḥ alayaḥ *kamalaṃ sevante. = Bees go after the lotus because they want its honey. ## pt@1094.1
+
+@ 393 | pucchaḥ | tail
+rākṣasāḥ mama *pucchaṃ samantataḥ veṣṭayanti. = The demons wrap things all around my tail. ## ram@34437.1
+te mama *pucchaṃ ādīpayan. = They set my tail on fire. ## ram@34441.1
+saḥ pradīptena *pucchena tāṃ purīṃ dahati. = He burns the city with his blazing tail. ## ram@34455.1
+
+@ 394 | pakṣaḥ | wing
+niśācaraḥ me *pakṣau chittvā gataḥ. = The demon cut off my wings and left. ## ram@21104.1
+me *pakṣau punaḥ utthitau. = My wings have grown back. ## ram@27327.1
+pitāmahaḥ dvau eva *pakṣau asṛjat. = The Creator made only two wings. ## ram@37692.1
+
+@ 395 | maraṇam | death
+alpakleśena *maraṇam, dāridryam atiduḥsaham. = Death costs little pain; poverty is unbearable. ## hit@877.1
+jantoḥ *maraṇam avaśyam eva. = Every creature has to die. ## hit@3213.1
+mayā buddhiprabhāvāt asya *maraṇaṃ sādhayitavyam. = I must bring about his death by using my wits. ## hit@1208.5
+
+@ 396 | karṇaḥ | ear
+kākaḥ *karṇe kathayati. = The crow whispers in his ear. ## hit@3686.1
+siṃhaḥ bhūmiṃ spṛṣṭvā *karṇau spṛśati. = The lion touches the ground and then his ears. ## hit@3686.2
+saḥ *karṇe kathayati, evam evam. = He says into his ear, "This is how it is." ## hit@3196.2
+
+@ 397 | dantaḥ | tooth
+sthānabhraṣṭāḥ *dantāḥ keśāḥ nakhāḥ ca na śobhante. = Teeth, hair and nails look bad once they are out of place. ## hit@772.1
+saḥ krodhāt *dantān dharṣayan dhāvati. = He runs at them, grinding his teeth in anger. ## pt@6488.1
+saḥ pāṇau pāṇiṃ viniṣpiṣya *dantān kaṭakaṭāyya sthitaḥ. = He stood there wringing his hands and grinding his teeth. ## ram@54401.1
+
+@ 398 | nakhaḥ | claw; nail
+mṛgarāṭ *nakhaiḥ gajendraṃ vidadāra. = The king of beasts tore the great elephant apart with his claws. ## ram@42160.1
+saḥ kāṃścit *nakhaiḥ vyadārayat. = He ripped some of them apart with his claws. ## ram@32911.1
+mama *nakhāḥ snigdhāḥ samāḥ ca. = My nails are smooth and even. ## ram@38955.1
+
+@ 399 | māsaḥ | month
+ayaṃ śrāvaṇaḥ *māsaḥ salilāgamaḥ. = This is Shravana, the month when the rains come. ## ram@24051.1
+rājñā kṛtaḥ samayaḥ *māsaḥ vyatikrāntaḥ. = The month the king set as a deadline has passed. ## ram@26645.1
+saḥ taṃ *māsaṃ pratīkṣamāṇaḥ tiṣṭhati. = He is waiting for that month to pass. ## ram@26118.1
+
+@ 400 | kupyati | is angry
+yaḥ apakartum aśaktaḥ, saḥ kevalaṃ *kupyati. = Someone who is unable to do harm just gets angry. ## pt@777.1
+eṣaḥ dharmarājaḥ tava upari *kupitaḥ. = Yama, the king of justice, is angry with you. ## pt@2304.2
+dvāre sthitaḥ vadati, prabhuḥ *kupyati. = The man at the door says, "The master is angry." ## bhartr@1454.1
+
+@ 401 | tuṣyati | is pleased
+mūrkhaḥ sāntvena *tuṣyati. = A fool is satisfied with a few soothing words. ## hit@2550.1
+kāpuruṣaḥ svalpakena api *tuṣyati. = A small-minded man is happy with very little. ## pt@226.1
+saḥ rājā ativismitaḥ *tuṣṭaḥ ca tam abhāṣata. = Amazed and pleased, the king spoke to him. ## vet@2113.1
+
+@ 402 | harati | takes away; steals
+kanyā jātamātrā jananīmanaḥ *harati. = A daughter, as soon as she is born, robs her mother of peace of mind. ## pt@1268.1
+jarā dehaṃ, mṛtyuḥ jīvitaṃ *harati. = Old age takes the body, and death takes life. ## bhartr@1485.1
+arthitā guṇaśatam api *harati. = Begging takes away even a hundred good qualities. ## hit@930.1
+
+@ 403 | vahati | carries
+lokaḥ dagdhum indhanaṃ mūrdhnā *vahati. = People carry firewood on their heads, even though it is only for burning. ## hit@3720.1
+hayāḥ nāgāḥ ca coditāḥ *vahanti. = Horses and elephants carry loads when they are driven. ## hit@1567.1
+ahaṃ ātmānam api *voḍhuṃ na śaknomi. = I can't even carry myself. ## pt@5709.1
+
+@ 404 | kṣipati | throws
+saḥ bhṛtye doṣān *kṣipati. = He puts the blame on his servant. ## hit@2133.1
+mantravādī mām āhūya bandhane *kṣipati. = A snake charmer calls me and throws me into a cage. ## pt@5452.1
+saḥ dhūrtapatiḥ yogagulikāṃ mukhe *kṣiptvā antarhitaḥ. = The master trickster put the magic pill in his mouth and vanished. ## vet@3580.1
+
+@ 405 | utpatati | flies up
+mūṣikaḥ *utpatya bhikṣāpātre samārūḍhaḥ. = The mouse jumped up into the begging bowl. ## pt@3084.2
+ye ākāśe *utpatanti, te mahītale nipatanti. = Whatever flies up into the sky falls back to earth. ## pt@3465.1
+tau *utpatya ākāśam āsthitau. = The two of them flew up into the sky. ## ram@27223.1
+
+@ 406 | carati | moves; grazes
+ajā siṃhaprasādena vane nirbhayaṃ *carati. = Under the lion's protection, the goat grazes in the forest without fear. ## hit@2435.1
+gūḍhacāraḥ jale sthale ca *carati. = A spy moves about on water and on land. ## hit@2633.1
+saḥ gardabhaḥ kṣetre suciraṃ *carati. = That donkey grazes in the field for a long time. ## hit@2410.1
+
+@ 407 | vicarati | roams
+itaḥ cetaḥ ca *vicaran kaścit siṃhaḥ tatra samāyayau. = Roaming here and there, a lion came to that very spot. ## pt@6001.4
+rāmaḥ daṇḍakāraṇyaṃ *vicarati. = Rama roams through the Dandaka forest. ## ram@20702.1
+mṛgaḥ śādvalāni *vicaran gacchati. = The deer moves along, grazing on the grassy patches. ## ram@18839.1
+
+@ 408 | jayati | wins; conquers
+saḥ dhīraḥ kṛtsnaṃ lokatrayaṃ *jayati. = That steadfast man conquers all three worlds. ## bhartr@580.1
+tulām adhirūḍhaḥ bhāsvān jaladapaṭalāni *jayati. = When the sun enters Libra, it breaks through the clouds. ## pt@2044.1
+ahaṃ raṇe taṃ *jitvā nivartiṣye. = I will defeat him in battle and come back. ## ram@23142.1
+
+@ 409 | pratīkṣate | waits
+kṣaṇaṃ *pratīkṣasva, ahaṃ vṛkṣam ārohāmi. = Wait a moment while I climb the tree. ## pt@6340.1
+*pratīkṣasva, ahaṃ te citāṃ karomi. = Wait while I build you a pyre. ## vet@1225.1
+svajanaḥ tvāṃ *pratīkṣate. = Your people are waiting for you. ## ram@12095.1
+
+@ 410 | śocati | grieves
+yaḥ aśocyāni bhūtāni *śocati, saḥ mūḍhaḥ. = Whoever grieves over what isn't worth grieving over is a fool. ## pt@2069.1
+tasmāt ahaṃ na *śocāmi. = That's why I don't grieve. ## pt@3315.1
+tvaṃ sarvāṇi bhūtāni *śocitum na arhasi. = You should not grieve for any living being. ## bhg@495.1
+
+@ 411 | vilapati | laments
+tataḥ hiraṇyakaḥ *vilapati. = Then Hiranyaka laments. ## hit@1243.6
+saḥ viṣādaṃ kurvan *vilapati. = He laments in his grief. ## pt@5691.2
+saḥ tam āliṅgya bahu *vilapati. = He hugs him and laments at length. ## vet@5864.1
+
+@ 412 | kampate | trembles
+vātāḥ paruṣaṃ vānti, vasuṃdharā ca *kampate. = Harsh winds blow and the earth shakes. ## ram@38080.1
+pratividdhāṅgaḥ api aṅgadaḥ na *kampate. = Even wounded, Angada does not flinch. ## ram@43105.1
+pādapaiḥ hanyamānaḥ api saḥ na *kampate. = Even when he is struck with trees, he does not flinch. ## ram@41290.1
+
+@ 413 | vinaśyati | perishes
+yadbhaviṣyaḥ *vinaśyati. = Yadbhavishya, the fish who trusted to fate, perishes. ## hit@3310.1
+grīṣme kusaritaḥ iva tasya kriyāḥ *vinaśyanti. = His efforts dry up like little streams in summer. ## hit@865.1
+saḥ durbuddhiḥ kūrmaḥ kāṣṭhāt bhraṣṭaḥ *vinaśyati. = The foolish tortoise falls off the stick and dies. ## hit@3291.1
+
+@ 414 | palāyate | flees
+tataḥ kākaḥ *palāyitaḥ. = Then the crow flew away. ## hit@2539.6
+mṛgaḥ vyādhaṃ vilokya utthāya drutaṃ *palāyitaḥ. = The deer saw the hunter, jumped up and ran off fast. ## hit@1283.5
+tat parijñāya mārjāraḥ *palāyitaḥ. = Realizing this, the cat ran away. ## hit@607.5
+
+@ 415 | śobhate | shines; looks beautiful
+haṃsamadhye bakaḥ yathā, saḥ sabhāmadhye na *śobhate. = Like a heron among swans, he looks out of place in the assembly. ## hit@190.1
+sthānabhraṣṭāḥ narāḥ na *śobhante. = People out of their proper place do not look good. ## hit@772.1
+vidyāhīnāḥ janāḥ na *śobhante. = People without learning do not shine. ## hit@193.1
+
+@ 416 | prayacchati | gives
+yaḥ vidyāṃ *prayacchati, saḥ api pitā. = Whoever gives you knowledge is also a father. ## pt@4912.1
+bhūmiḥ phalaṃ *prayacchati. = The earth yields its fruit. ## pt@1431.1
+saḥ prītipūrvakam imāni phalāni *prayacchati. = He gives these fruits with affection. ## pt@5335.2
+
+@ 417 | yāti | goes
+satsannidhānena mūrkhaḥ pravīṇatāṃ *yāti. = By spending time with good people, a fool becomes skilled. ## hit@202.1
+mahadbhiḥ supratiṣṭhitaḥ aśmā api devatvaṃ *yāti. = Even a stone becomes a god when great people set it up. ## hit@220.1
+udake śakaṭaṃ na *yāti, sthale nauḥ na gacchati. = A cart doesn't go on water, and a boat doesn't go on land. ## hit@719.1
+
+@ 418 | āyāti | comes
+tatpratāpena śatravaḥ āśu vaśam *āyānti. = Because of his power, enemies soon come under his control. ## hit@3534.1
+analaḥ nirvāṇam *āyāti, śītatāṃ na yāti. = A fire may go out, but it never turns cold. ## hit@893.1
+ārādhyamānaḥ api nṛpatiḥ toṣaṃ na *āyāti, kim atra citram? = What's surprising if a king isn't pleased even when served with care? ## hit@2236.1
+
+@ 419 | ākarṇayati | listens; hears
+asmadvacanam *ākarṇya sarvapakṣiṇaḥ sakopāḥ babhūvuḥ. = Hearing our words, all the birds got angry. ## hit@2373.1
+tat *ākarṇya kūrmaḥ haṃsau āha. = Hearing this, the tortoise spoke to the two geese. ## hit@3303.1
+taṃ śabdam *ākarṇya saḥ api śabdaṃ karoti. = When he hears that sound, he howls too. ## hit@2752.10
+
+@ 420 | bravīti | says
+vāyasaḥ *brūte, mitra, sunirūpitaṃ sthānam asti. = The crow says, "Friend, I know a carefully chosen place." ## hit@792.1
+siṃhaḥ *brūte, bhadra, mahatī śaṅkā māṃ bādhate. = The lion says, "My friend, a great worry is bothering me." ## hit@1734.1
+sā *brūte, samudravelayā idaṃ sthānaṃ vyāpyate. = She says, "This place gets flooded by the sea tide." ## hit@2178.1
+
+@ 421 | dhyāyati | meditates; reflects
+aho kim etat iti saḥ kṣaṇaṃ *dhyāyati. = "Oh, what is this?" he wonders for a moment. ## vet@2761.1
+iti *dhyāyan saḥ unmādavān iva abhavat. = Brooding like this, he almost lost his mind. ## vet@1876.1
+iti *dhyāyan saḥ svasainyaṃ prāpa. = Thinking this over, he reached his army. ## vet@5479.1
+
+@ 422 | nivedayati | reports; offers
+yathāśrutaṃ *nivedayāmi, śṛṇu deva. = I will report exactly what I heard; listen, Your Majesty. ## hit@2824.1
+svayam eva pakṣiṇaṃ rājñe *nivedayāmi. = I will present the bird to the king myself. ## pt@5002.10
+saḥ dugdhaṃ *nivedya gṛhaṃ prāyāt. = He offered the milk and went home. ## pt@4488.1
+
+@ 423 | sahate | endures
+parāśritāḥ śītavātātapakleśān *sahante. = People who depend on others put up with cold, wind and heat. ## hit@1399.1
+arthārthī mūḍhaḥ janaḥ bahūni kaṣṭāni *sahate. = A foolish man who wants money puts up with many hardships. ## pt@3437.1
+mantraḥ ciraṃ guptaḥ sthātuṃ na *sahate. = A secret plan cannot stay hidden for long. ## hit@2158.1
+
+@ 424 | ācarati | practises; behaves
+śaśvat kalyāṇam *ācaret. = One should always act virtuously. ## hit@4049.1
+yaḥ dharmaṃ na *ācaret, tasya śrutena kim? = What good is learning to someone who doesn't practise dharma? ## hit@1024.1
+samarthaḥ san dharmam *ācaret. = While you are able, do what is right. ## pt@2202.1
+
+@ 425 | nirūpayati | examines; looks into
+tat *nirūpayāmi tāvat. = Let me look into it first. ## hit@275.1
+laghupatanakaḥ sudūraṃ *nirūpya bhayahetuṃ na apaśyat. = Laghupatanaka looked far and wide but saw nothing to be afraid of. ## hit@1176.5
+kiṃ etat iti gatvā *nirūpaya. = Go and find out what this is. ## hit@2965.3
+
+@ 426 | nāśayati | destroys
+durgakaṇṭakamardanaiḥ śatrūn *nāśayet. = Destroy enemies by crushing their forts and their thorny defences. ## hit@2847.1
+etat prabhūtam api dāridryaṃ na *nāśayati. = This does not get rid of even great poverty. ## pt@6262.1
+saḥ rāvaṇasya kīrtiṃ nāma ca *nāśayet. = He would destroy Ravana's fame and his name. ## ram@30937.1
+
+@ 427 | sthiraḥ | steady; lasting
+cauraḥ taṃ *sthiraṃ kartum ārabdhavān. = The thief tried to make it stand still. ## pt@6735.1
+mayā *sthirā pratijñā kṛtā. = I have made a firm promise. ## ram@14608.1
+asanmaitrī veśyā śrīḥ ca na *sthirā. = Bad friendships, courtesans and fortune never last. ## vet@5999.1
+
+@ 428 | guṇavān | virtuous; worthy
+nṛśaṃsebhyaḥ *guṇavatām api bhayaṃ vidyate. = Even good people have reason to fear cruel ones. ## hit@648.1
+saḥ pūrvaṃ saṃsadi *guṇavān iti uktaḥ. = Earlier he was praised in the assembly as a man of merit. ## pt@1548.1
+ete mama putrāḥ kathaṃ *guṇavantaḥ kriyantām? = How can these sons of mine be made into good men? ## hit@139.1
+
+@ 429 | samarthaḥ | able; capable
+tvaṃ gantum adhunā api *samarthaḥ. = You can still leave now. ## hit@3201.5
+etena balavatā saha vigrahītuṃ bhavān kathaṃ *samarthaḥ? = How can you fight with someone so strong? ## hit@2003.1
+asahāyaḥ *samarthaḥ api kiṃ kariṣyati? = What can even a capable man do on his own? ## pt@4023.1
+
+@ 430 | śreṣṭhaḥ | best
+idaṃ dhanuṣāṃ *śreṣṭham ānītam. = This finest of bows has been brought. ## ram@5154.1
+saḥ dhanurvedavidāṃ *śreṣṭhaḥ. = He is the best of all archers. ## ram@5987.1
+saḥ rāmaniṣevitaṃ *śreṣṭhaṃ deśam anuprāptaḥ. = He reached the excellent place where Rama had lived. ## ram@25216.1
+
+@ 431 | dhanyaḥ | blessed; fortunate
+*dhanyaḥ aham. = I am blessed. ## hit@2975.4
+manthara, *dhanyaḥ asi. = Manthara, you are fortunate. ## hit@1164.1
+yasya īdṛśī bhāryā, saḥ puruṣaḥ *dhanyaḥ. = A man with a wife like that is lucky. ## pt@4556.1
+
+@ 432 | durjanaḥ | wicked person
+*durjanaḥ priyavādī, na etat viśvāsakāraṇam. = A wicked man may speak kindly, but that is no reason to trust him. ## hit@678.1
+vidyayā alaṅkṛtaḥ api *durjanaḥ parihartavyaḥ. = Avoid a wicked man even if he is learned. ## hit@715.1
+nityaśaḥ sevyamānaḥ api *durjanaḥ ārjavaṃ na yāti. = A wicked man never becomes honest, however well you treat him. ## hit@2106.1
+
+@ 433 | madhuraḥ | sweet
+ayaṃ svāmī vāci *madhuraḥ, hṛdaye viṣam. = This master has sweet words but poison in his heart. ## hit@2268.1
+viṣayopabhogaḥ āpāte eva *madhuraḥ. = Sensual pleasure is sweet only at first. ## hit@4052.1
+tasya kathānurāgaḥ *madhurā ca vāṇī. = He loves to talk and has a sweet voice. ## hit@842.1
+
+@ 434 | uṣṇaḥ | hot
+te *uṣṇam aśru vimuñcanti. = They shed hot tears. ## ram@10512.1
+tasyāḥ *uṣṇāḥ niḥśvāsāḥ. = Her sighs are hot. ## vet@5671.1
+aṅgāraḥ *uṣṇaḥ dahati, śītaḥ kṛṣṇāyate. = A coal burns you when it is hot and blackens you when it is cold. ## hit@668.1
+
+@ 435 | duṣkaraḥ | difficult
+saḥ rājñaḥ *duṣkaraṃ hitaṃ kṛtavān. = He did the king a difficult service. ## pt@497.1
+mitraṃ sukaraṃ, paripālanaṃ *duṣkaram. = Making a friend is easy; keeping one is hard. ## ram@24745.1
+tat dāruṇaṃ *duṣkaraṃ karma sāhasāt kṛtam. = That terrible, difficult deed was done on impulse. ## ram@27205.1
+
+@ 436 | ghoraḥ | terrible
+saḥ *ghoraṃ narakaṃ yāti. = He goes to a terrible hell. ## pt@4297.1
+*ghoraḥ śakunilubdhakaḥ mahāraṇye vicacāra. = A fierce bird-catcher roamed the great forest. ## pt@4523.1
+adya *ghorāṇi nimittāni dṛśyante. = Terrible omens can be seen today. ## ram@20360.1
+
+@ 437 | divyaḥ | divine
+saḥ *divyam aparaṃ puraṃ dadarśa. = He saw another city, a heavenly one. ## vet@1982.1
+saḥ tayā saha *divyam āhāraṃ bubhuje. = He ate heavenly food together with her. ## vet@4778.1
+saḥ akasmāt *divyaṃ nagaram apaśyat. = Suddenly he saw a heavenly city. ## vet@2900.1
+
+@ 438 | dhīraḥ | steadfast; wise
+*dhīraḥ arthaiḥ vinā api bahumānaṃ spṛśati. = A steadfast man wins respect even without money. ## hit@1109.1
+*dhīrāḥ nyāyyāt pathaḥ padaṃ na pravicalanti. = The steadfast don't stray a single step from the right path. ## bhartr@474.1
+*dhīraḥ bhava, ahaṃ vaḥ nayāmi. = Be brave; I will take you there. ## vet@1477.1
+
+@ 439 | capalaḥ | fickle; restless
+vānarāḥ *capalāḥ avinītāḥ ca. = Monkeys are restless and badly behaved. ## ram@39764.1
+ayuktacāraḥ *capalaḥ kathaṃ rājā bhaviṣyasi? = How can you be king when you are fickle and have no spies? ## ram@18138.1
+tvaṃ pāpasvabhāvaḥ *capalaḥ ca. = You are wicked by nature and fickle. ## ram@19662.1
+
+@ 440 | kuśalaḥ | skilful; well
+bhadra, *kuśalaṃ te? = My friend, are you well? ## hit@2199.4
+yaḥ yatra kārye *kuśalaḥ, taṃ tatra viniyojayet. = Put each person on the job he is good at. ## hit@2717.1
+me *kuśalāḥ vaidyāḥ santi. = I have skilled doctors. ## ram@6866.1
+
+@ 441 | caturaḥ | clever
+saḥ vacane *caturaḥ dūtakarmajñaḥ ca. = He is clever with words and knows the work of an envoy. ## pt@4181.7
+tādṛk *caturaḥ kaḥ api na dṛṣṭaḥ. = No one so clever has ever been seen. ## pt@768.4
+vāyasaḥ *caturaḥ iti śrūyate. = The crow is said to be clever. ## pt@4114.2
+
+@ 442 | krūraḥ | cruel
+lubdhaḥ *krūraḥ alasaḥ ca bhṛtyaḥ tyājyaḥ. = A greedy, cruel or lazy servant should be let go. ## hit@3029.1
+*krūraḥ mṛṣāvādī vā atra na jīvet. = No cruel man or liar would live here. ## ram@16434.1
+saḥ *krūraḥ māṃ yuddhāya samāhvayata. = That cruel man challenged me to a fight. ## ram@22571.1
+
+@ 443 | mṛduḥ | soft; gentle
+*mṛdunā salilena śailaḥ api khanyate. = Even a rock is worn away by soft water. ## pt@1842.1
+*mṛduḥ hi paribhūyate. = A gentle person gets pushed around. ## ram@7612.1
+saḥ *mṛdvībhiḥ vāgbhiḥ tau upacakrāma. = He approached the two of them with gentle words. ## ram@21995.1
+
+@ 444 | nirbhayaḥ | fearless
+ahaṃ tvāṃ śapathādibhiḥ *nirbhayaṃ kariṣyāmi. = I will make you feel safe by swearing oaths. ## pt@2944.2
+atra *nirbhayaḥ svagātrāṇi pratāpayasva. = Warm yourself here without fear. ## pt@4606.1
+te tatra vane *nirbhayāḥ paryaṭanti. = They wander in that forest without fear. ## pt@1460.4
+
+@ 445 | gambhīraḥ | deep
+saḥ samudraḥ iva *gambhīraḥ. = He is as deep as the ocean. ## ram@28726.1
+vayaṃ *gambhīraṃ vanaṃ vicarāmaḥ. = We roam the deep forest. ## ram@19372.1
+*gambhīraṃ bherīnādaṃ śṛṇu. = Listen to the deep sound of the drums. ## ram@37526.1
+
+@ 446 | nirguṇaḥ | worthless; stringless
+vaṃśaviśuddhaḥ api *nirguṇaḥ dhanuḥ kiṃ kariṣyati? = What use is a bow of fine bamboo if it has no string? ## hit@134.1
+guṇāḥ *nirguṇaṃ prāpya doṣāḥ bhavanti. = Virtues turn into faults when they reach a worthless man. ## hit@227.1
+guṇavān *nirguṇaḥ vā, bhartā nārīṇāṃ daivatam. = Good or bad, a husband is like a god to his wife. ## ram@10725.1
+
+@ 447 | nīcaḥ | low; base
+*nīcaḥ api gṛham āgataḥ pūjanīyaḥ. = Even a low-born man who comes to your house should be honoured. ## hit@583.1
+mahatām āspade *nīcaḥ kadāpi na kartavyaḥ. = Never put a low person in a high position. ## hit@3402.1
+*nīcaḥ ślāghyapadaṃ prāpya svāminaṃ hantum icchati. = A low person who gets a high position wants to kill his master. ## hit@3413.5
+
+@ 448 | pūrṇaḥ | full
+aṇḍajāḥ *pūrṇaṃ saraḥ āyānti. = Birds flock to a full lake. ## hit@1101.1
+tena vinā janaiḥ *pūrṇaḥ api grāmaḥ araṇyam iva. = Without him, even a village full of people feels like a wilderness. ## hit@2561.3
+etat medasā *pūrṇam. = This is full of fat. ## pt@609.1
+
+@ 449 | śūnyaḥ | empty
+candrasvāmī *śūnyaṃ śivālayaṃ viveśa. = Chandrasvami went into an empty Shiva temple. ## vet@4733.1
+mūrkhasya diśaḥ *śūnyāḥ. = For a fool, every direction is empty. ## hit@873.1
+brāhmaṇaḥ *śūnyaṃ gṛhaṃ muktvā bhikṣārthaṃ gataḥ. = The brahmin left the house empty and went out to beg. ## pt@6182.1
+
+@ 450 | ekākī | alone
+ayam *ekākī rājaputraḥ tamasi prahitaḥ. = This prince has been sent out alone into the darkness. ## hit@2965.1
+saḥ *ekākī gṛhasantyaktaḥ digambaraḥ. = He is alone, homeless, with only the sky for clothing. ## pt@6137.1
+kāryavaśāt ahaṃ *ekākī gamiṣyāmi. = I have to go alone on business. ## pt@6889.3
+
+@ 451 | nirjanaḥ | deserted
+tau rāmaṃ *nirjane vane anugacchetām. = The two of them should follow Rama into the lonely forest. ## ram@8734.1
+tvaṃ *nirjanaṃ vanaṃ kimartham āgataḥ? = Why have you come to this lonely forest? ## ram@22201.1
+sā *nirjanaṃ vanaṃ praviṣṭā. = She went into the lonely forest. ## ram@30018.1
+
+@ 452 | durlabhaḥ | hard to obtain
+śuciḥ dakṣaḥ anuraktaḥ ca bhṛtyaḥ *durlabhaḥ. = A servant who is honest, capable and loyal is hard to find. ## hit@3207.2
+apriyasya pathyasya vaktā śrotā ca *durlabhaḥ. = People who speak unpleasant but helpful truths are rare, and so are people who listen to them. ## pt@3648.1
+etat catuḥ bhadraṃ *durlabham. = These four blessings are hard to come by. ## hit@1040.1
+
+@ 453 | sulabhaḥ | easy to obtain
+naṣṭā api bhūmiḥ *sulabhā, na bhṛtyāḥ. = Lost land is easy to win back, but good servants are not. ## hit@2294.1
+rājan, priyavādinaḥ puruṣāḥ satataṃ *sulabhāḥ. = Your Majesty, people who say pleasant things are always easy to find. ## pt@3647.1
+nityayuktasya yoginaḥ ahaṃ *sulabhaḥ. = I am easy to reach for a yogi who is always devoted. ## bhg@2741.1
+
+@ 454 | viśālaḥ | wide; vast
+godāvarītīre *viśālaḥ śālmalītaruḥ asti. = On the bank of the Godavari there is a huge silk-cotton tree. ## hit@249.1
+yasya tṛṣṇā *viśālā, saḥ daridraḥ. = Whoever has a huge craving is poor. ## bhartr@1359.1
+narmadātīre parvatopatyakāyāṃ *viśālaḥ śālmalītaruḥ asti. = On the bank of the Narmada, at the foot of a mountain, stands a huge silk-cotton tree. ## hit@2386.1
+
+@ 455 | ramyaḥ | pleasant; lovely
+bhadre, ayaṃ samudrapradeśaḥ *ramyaḥ. = My dear, this stretch of seashore is lovely. ## pt@1910.1
+saḥ purāṇaṃ nirjanaṃ *ramyaṃ sthānaṃ dṛṣṭvā muniṃ papraccha. = Seeing an old, lonely and lovely place, he asked the sage about it. ## ram@3718.1
+priyāyāḥ mukhaṃ *ramyam. = The face of one's beloved is lovely. ## bhartr@1495.1
+
+@ 456 | śubhaḥ | auspicious; good
+*śubham astu. = May all go well. ## hit@1653.1
+aniṣṭāt iṣṭalābhe api gatiḥ *śubhā na jāyate. = Even if you get what you want by wrong means, it doesn't end well. ## hit@267.1
+nṛṇāṃ hṛdi *śubhaṃ vā pāpaṃ vā saṃsthitam. = Both good and evil live in people's hearts. ## pt@792.1
+
+@ 457 | prasannaḥ | pleased
+putra, *prasannaḥ asmi te. = Son, I am pleased with you. ## hit@2987.4
+*prasannaṃ mukhaṃ vimalā ca dṛṣṭiḥ. = A cheerful face and clear eyes. ## hit@841.1
+saḥ *prasannaḥ bhūtvā abravīt. = He was pleased and said. ## pt@6895.7
+
+@ 458 | kruddhaḥ | angry
+saḥ kenāpi kāryeṇa putrasya upari *kruddhaḥ. = He is angry with his son about something. ## hit@1978.1
+*kruddhaḥ saḥ kitavān abhāṣata. = Angry, he spoke to the gamblers. ## vet@4718.1
+*kruddhaḥ kuśiṣyaḥ tāpasaṃ prāha. = The bad student angrily spoke to the ascetic. ## vet@6163.1
+
+@ 459 | santuṣṭaḥ | contented
+te svecchāhāravihāraṃ kurvāṇāḥ *santuṣṭāḥ sukhaṃ nivasanti. = Eating and wandering as they please, they live happily and contentedly. ## hit@1176.1
+yogī satataṃ *santuṣṭaḥ. = A yogi is always content. ## bhg@4137.1
+rāvaṇaḥ tena vākyena *santuṣṭaḥ. = Ravana was pleased with that answer. ## ram@46351.1
+
+@ 460 | vismitaḥ | astonished
+anena hetunā *vismitaḥ asmi. = This is why I am amazed. ## hit@1727.5
+sarve paurāḥ *vismitāḥ āyayuḥ. = All the townspeople came, amazed. ## vet@5888.1
+maharṣayaḥ saṃgamaṃ prekṣya *vismitāḥ. = The great sages were amazed to see the meeting. ## ram@14824.1
+
+@ 461 | tathā | so; likewise
+sukham āpatitaṃ sevyam, duḥkham āpatitaṃ *tathā. = Accept happiness when it comes, and sorrow as well. ## hit@1097.1
+*tathā satsannidhānena hīnavarṇaḥ api dīpyate. = In the same way, being near good people makes even a low-born man shine. ## hit@224.1
+yathā ayaṃ mṛgaḥ mama bandhuḥ, *tathā bhavān api. = Just like this deer, you are my friend too. ## hit@620.1
+
+@ 462 | yathā | as; just as
+marusthalyāṃ *yathā vṛṣṭiḥ, kṣudhārte bhojanaṃ tathā. = Food to a hungry man is like rain in the desert. ## hit@292.1
+haṃsābhyāṃ nīyamānasya kūrmasya patanaṃ *yathā. = Like the fall of the tortoise that the two geese were carrying. ## hit@3295.1
+*yathā ayaṃ mama āyattaḥ bhaviṣyati, tathā karomi. = I will make sure he comes under my control. ## hit@1629.1
+
+@ 463 | evam | thus; so
+mitra, *evam astu. = Friend, so be it. ## hit@1196.1
+*evam ātmakṛtaṃ karma mānavaḥ pratipadyate. = In this way a man reaps what he has done himself. ## hit@180.1
+rājā āha, asti tāvat *evam. = The king said, "So it is." ## hit@3281.1
+
+@ 464 | tūṣṇīm | silently
+mitra, *tūṣṇīm āsyatām. = Friend, keep quiet. ## hit@1747.1
+siṃhaḥ tat śrutvā *tūṣṇīṃ sthitaḥ. = Hearing that, the lion said nothing. ## hit@3699.1
+hiraṇyakaḥ bhayāt cakitaḥ *tūṣṇīṃ sthitaḥ. = Hiranyaka was startled with fear and stayed quiet. ## hit@423.4
+
+@ 465 | uccaiḥ | loudly
+tvam *uccaiḥ śabdaṃ kṛtvā svāminaṃ kiṃ na jāgarayasi? = Why don't you make a loud noise and wake the master? ## hit@1464.7
+saḥ rājñaḥ samīpe *uccaiḥ na hasati. = He doesn't laugh loudly near the king. ## pt@364.1
+sā *uccaiḥ svareṇa cukrośa. = She cried out in a loud voice. ## ram@9194.1
+
+@ 466 | sukhena | happily; easily
+tatra pakṣiṇaḥ nīḍeṣu *sukhena nivasanti. = The birds live there comfortably in their nests. ## hit@2386.2
+ahaṃ cirāt etasya bhujacchāyāyāṃ *sukhena viśrāntā. = For a long time I have rested happily in the shelter of his arms. ## hit@2969.2
+yuvayoḥ pakṣabalena mayā api *sukhena gantavyam. = With the strength of your wings, I'll be able to travel easily too. ## hit@3356.2
+
+@ 467 | avaśyam | certainly
+*avaśyaṃ bhāvinaḥ bhāvāḥ mahatām api bhavanti. = What must happen happens, even to the great. ## hit@153.1
+anujīvinā svāminaḥ sāṃnidhyam *avaśyaṃ karaṇīyam. = A servant must stay close to his master. ## hit@1602.2
+viṣayiṇām idam *avaśyaṃ kartavyam. = Worldly people have to do this. ## hit@254.1
+
+@ 468 | kadācit | sometime; once
+ghanaḥ prativātaṃ *kadācit na upasarpati. = A cloud never moves against the wind. ## hit@3528.1
+yuddhe *kadācit ubhayoḥ api vināśaḥ bhavati. = In war, sometimes both sides are destroyed. ## hit@3488.1
+tat *kadācit api na gantavyam. = So you should never go there. ## pt@6431.1
+
+@ 469 | kvacit | somewhere
+durjanena samaṃ *kvacit na sthātavyaṃ na gantavyam. = Never stay or travel with a wicked man. ## hit@2524.1
+auṣadhaparijñānāt vyādheḥ śāntiḥ *kvacit na bhavet. = Just knowing about a medicine never cures a disease. ## hit@2821.1
+uttamādhamayoḥ vivādaḥ *kvacit na yujyate. = A quarrel between a great man and a low one is never fitting. ## hit@2285.1
+
+@ 470 | sarvatra | everywhere
+nītividyā *sarvatra vācāṃ vaicitryaṃ dadāti. = The study of policy gives you a way with words everywhere. ## hit@52.1
+*sarvatra parokṣaguṇāḥ karmānumeyāḥ. = Everywhere, hidden qualities can be judged from actions. ## hit@3937.1
+dhanavān *sarvatra balavān. = A rich man is powerful everywhere. ## hit@855.1
+
+@ 471 | yatra | where (relative)
+ekaikam api anarthāya, kim u *yatra catuṣṭayam? = Each one alone leads to ruin; what about where all four come together? ## hit@85.1
+*yatra yatra bhayam, tatra tatra senānīḥ yāyāt. = Wherever there is danger, the general should go there. ## hit@2826.1
+na sā sabhā *yatra na santi vṛddhāḥ. = It is no real assembly where there are no elders. ## hit@2779.1
+
+@ 472 | yataḥ | because
+upāṃśukrīḍitaḥ amātyaḥ na kartavyaḥ, *yataḥ saḥ svayaṃ rājāyate. = Don't get too familiar with a minister, because he will start acting like the king. ## hit@1868.1
+aśvāḥ rakṣaṇīyāḥ, *yataḥ aśvaḥ sainyānāṃ jaṅgamaḥ prākāraḥ. = Look after the horses, because a horse is a moving wall for an army. ## hit@2872.1
+*yataḥ ayaṃ cirāt nirvṛtaḥ, mama upayogaṃ na jānāti. = Because he has been at ease for so long, he doesn't know how useful I am. ## hit@1466.3
+
+@ 473 | ataḥ | therefore
+*ataḥ śukaḥ api ānīya prasthāpyatām. = So the parrot should be brought and sent off too. ## hit@2768.2
+*ataḥ paraṃ tava mama ca prītiḥ na ucitā. = From now on, friendship between you and me is not right. ## pt@4509.3
+*ataḥ paraṃ kiṃ duḥkham? = What could be worse than this? ## hit@1145.1
+
+@ 474 | tu | but
+ādyau sakṛt duḥkhakarau, antimaḥ *tu pade pade. = The first two hurt only once, but the last hurts at every step. ## hit@93.1
+ete vihaṅgamāḥ saṃhatāḥ *tu mama jālaṃ haranti. = But these birds are working together and carrying off my net. ## hit@416.1
+parasparopakāraḥ *tu maitrī. = Helping each other, though, is friendship. ## hit@4032.1
+
+@ 475 | hi | for; indeed
+sarvasya svabhāvāḥ *hi parīkṣyante, na itare guṇāḥ. = It is a person's nature that gets tested, not his other qualities. ## hit@332.1
+mṛtyuḥ krodhe vasati, saḥ *hi sarvatejomayaḥ. = Death lives in anger, for anger is pure fire. ## hit@1740.1
+satāṃ *hi svabhāvaḥ sādhuśīlatvāt na nivartate. = For good people, being good at heart, never change their nature. ## hit@699.1
+
+@ 476 | kila | it is said
+antarduṣṭaḥ kṣamāyuktaḥ sarvānarthakaraḥ *kila. = They say a man who seems patient but is wicked inside causes every kind of harm. ## hit@1871.1
+bhārate jīvantaḥ api pañca mṛtāḥ śrūyante *kila. = The Bharata says there are five people who are dead even while alive. ## pt@1660.1
+īśvarāḥ bhūridānena phalaṃ labhante *kila. = The rich, it is said, earn merit by giving generously. ## pt@3138.1
+
+@ 477 | aho | oh!
+*aho me durdaivam. = Oh, what bad luck I have! ## hit@1255.1
+*aho, nidhanatā sarvāpadām āspadam. = Oh, poverty is the root of all troubles! ## hit@913.1
+*aho, paralokayāne dharmaḥ eva sakhā. = Oh, on the journey to the next world, only dharma is your friend! ## hit@4054.1
+
+@ 478 | bhoḥ | hey; sir!
+*bhoḥ paṇḍitāḥ, mama vacanaṃ śrūyatām. = Scholars, listen to what I have to say. ## hit@199.2
+*bhoḥ baka, kaḥ atra asmākaṃ rakṣaṇopāyaḥ? = Heron, how can we be saved? ## hit@3433.1
+*bhoḥ baka, mām api tatra naya. = Heron, take me there too. ## hit@3437.3
+
+@ 479 | mā | do not
+kācit sīmantinī īdṛśaṃ putraṃ *mā janayet. = May no woman ever give birth to a son like this. ## hit@1335.1
+mantrin, mama utsāhabhaṅgaṃ *mā kṛthāḥ. = Minister, don't crush my enthusiasm. ## hit@2817.1
+deva, *mā bhaiṣīḥ. = Your Majesty, don't be afraid. ## hit@3095.1
+
+@ 480 | daśa | ten
+*daśa saṃvatsarāḥ gatāḥ. = Ten years have passed. ## ram@4858.1
+anāvṛṣṭyā *daśa varṣāṇi lokaḥ dagdhaḥ. = For ten years the world was scorched by drought. ## ram@15213.1
+tau *daśa diśaḥ śobhayataḥ. = The two of them light up all ten directions. ## ram@1866.1
+
+@ 481 | ṣaṭ | six
+parabhāgyopajīvī ca, *ṣaṭ ete nityaduḥkhitāḥ. = Someone who lives off other people's luck is one of the six who are always unhappy. ## hit@360.1
+*ṣaṭ doṣāḥ puruṣeṇa hātavyāḥ. = A man should give up six faults. ## hit@403.1
+etāni *ṣaṭ jīvalokasya sukhāni. = These are the six joys of life in this world. ## hit@125.1
+
+@ 482 | sapta | seven
+*sapta sandheyāḥ kīrtitāḥ. = Seven kinds of king are said to be fit allies. ## hit@3513.1
+*sapta svarāḥ trayaḥ grāmāḥ. = There are seven notes and three scales. ## pt@6472.1
+etāḥ *sapta durgasampadaḥ. = These are the seven strengths of a fort. ## hit@2711.1
+
+@ 483 | dvitīyaḥ | second
+saḥ *dvitīyaṃ viśvāsapātraṃ gṛhītvā yātu. = Let him go, and take a second trustworthy person along. ## hit@2628.1
+rājahaṃsaḥ *dvitīyaḥ svargapatiḥ. = The royal swan is like a second lord of heaven. ## hit@2371.3
+me *dvitīyaḥ anarthaḥ samupasthitaḥ. = A second misfortune has struck me. ## hit@1246.1
+
+@ 484 | ardham | half
+tasya *ardhaṃ vīravareṇa brāhmaṇebhyaḥ dattam. = Viravara gave half of it to the brahmins. ## hit@2955.3
+sarvanāśe samutpanne paṇḍitaḥ *ardhaṃ tyajati. = When everything is about to be lost, a wise man gives up half. ## pt@5514.1
+*ardhena kāryaṃ kurute. = He gets the job done with the half he keeps. ## pt@5515.1
+
+@ 485 | pūrvam | before; formerly
+paraṃ sthānam asamīkṣya *pūrvam āyatanaṃ na tyajet. = Don't leave your old home before checking out the new place. ## hit@790.1
+mayā asya *pūrvam upakṛtam. = I helped him before. ## hit@4002.1
+mitra, mayā *pūrvam eva uktam. = Friend, I already told you. ## hit@645.1
+
+@ 486 | cirāt | after a long time
+nītiḥ *cirāt phalati, na kṣaṇāt. = Good policy bears fruit slowly, not overnight. ## hit@2674.1
+*cirāt dṛṣṭaḥ asi. = It's been a long time since I saw you. ## hit@1655.3
+*cirāt mṛgakākau tatra nivasataḥ. = For a long time the deer and the crow have lived there. ## hit@523.2
+
+@ 487 | ciram | for a long time
+tatra saṅkaṭavikaṭau nāma haṃsau *ciraṃ nivasataḥ. = Two geese named Sankata and Vikata have lived there for a long time. ## hit@3301.2
+sukṛtināṃ kīrtiḥ *ciraṃ vardhatām. = May the fame of good people keep growing for a long time. ## hit@4075.1
+te śaśakāḥ *ciram asmābhiḥ rakṣitāḥ. = We have protected those hares for a long time. ## hit@2465.3
+
+@ 488 | prātaḥ | in the morning
+atha *prātaḥ sarve yathābhimataṃ deśaṃ gatāḥ. = Then in the morning they all went wherever they wanted. ## hit@625.2
+*prātaḥ yat ucitaṃ tat kartavyam. = In the morning we will do whatever is right. ## hit@3305.2
+saḥ *prātaḥ ātmānaṃ mṛtavat sandarśya sthitaḥ. = In the morning he lay still, pretending to be dead. ## hit@2748.2
+
+@ 489 | sāyam | in the evening
+*sāyam āgatam atithiṃ yathāśakti pūjayet. = Honour a guest who comes in the evening as well as you can. ## pt@4581.1
+*sāyaṃ sā vṛddhā gṛham āgantum icchati. = In the evening the old woman wants to come home. ## vet@331.1
+*sāyaṃ samprāptaḥ atithiḥ gṛhamedhinā pūjyaḥ. = A householder must honour a guest who arrives at sunset. ## pt@989.1
+
+@ 490 | setuḥ | bridge
+vānarapuṃgavāḥ adya eva *setuṃ badhnantu. = Let the monkey heroes build the bridge today. ## ram@36526.1
+sāgare *setuḥ baddhaḥ. = A bridge has been built across the ocean. ## ram@36604.1
+sāgare *setum abaddhvā laṅkāṃ gantuṃ na śakyam. = You can't get to Lanka without building a bridge across the ocean. ## ram@36416.1
+
+@ 491 | udyānam | garden; park
+sā nātidūragam *udyānaṃ praviṣṭā. = She went into a garden not far away. ## vet@886.1
+sā daivāt tat *udyānam āgāt. = By chance she came to that garden. ## vet@5729.1
+*udyāne krīḍanaiḥ autsukyaṃ kṣipāva. = Let's play in the garden and take our minds off things. ## vet@3068.1
+
+@ 492 | gopaḥ | cowherd
+tasyāḥ bhartā *gopaḥ goṣṭhāt samāgataḥ. = Her husband, the cowherd, came back from the cowshed. ## hit@1976.4
+saḥ *gopaḥ punaḥ nidrām upagataḥ. = The cowherd fell asleep again. ## hit@1933.6
+saḥ *gopaḥ prabuddhaḥ avadat. = The cowherd woke up and spoke. ## hit@1933.4
+
+@ 493 | vacaḥ | speech; word
+sevakaḥ niḥśaṅkaṃ *vacaḥ na brūte. = A servant doesn't speak his mind freely. ## pt@1664.1
+duruktaṃ *vacaḥ vākkṣatam iva na prarohati. = A wound made by cruel words never heals. ## pt@4324.1
+manuḥ idaṃ *vacaḥ jagāda. = Manu spoke these words. ## pt@1957.1
+
+@ 494 | jarā | old age
+*jarā uttamaṃ rūpam iva, avinayaḥ śriyaṃ hanti. = Bad conduct destroys fortune, just as old age destroys beauty. ## hit@3050.1
+satāṃ *jarā ādau citte, tataḥ kāye jāyate. = For good people, old age comes first to the mind and only then to the body. ## pt@953.1
+*jarayā pariṇataḥ saḥ śokāgninā dahyate. = Worn out by old age, he burns in the fire of grief. ## hit@1001.1
+
+@ 495 | yauvanam | youth
+*yauvanaṃ dhanaṃ prabhutvam avivekitā ca anarthāya. = Youth, wealth, power and thoughtlessness each lead to ruin. ## hit@84.1
+*yauvanaṃ girinadīvegopamam. = Youth rushes past like a mountain stream. ## hit@998.1
+arthahīnāḥ *yauvane api vṛddhāḥ syuḥ. = People without money are old even in their youth. ## pt@144.1
+
+@ 496 | bālyam | childhood
+vayaṃ *bālyāt prabhṛti ekatra krīḍitāḥ. = We have played together since childhood. ## pt@6323.2
+saḥ *bālye api sadā parahite rataḥ. = Even as a child, he was always devoted to helping others. ## vet@5512.1
+*bālyam uparatam. = Childhood is over. ## bhartr@886.1
+
+@ 497 | vidvān | learned man
+*vidvān eva upadeṣṭavyaḥ. = Only a wise person should be given advice. ## hit@2379.1
+rājā svadeśe pūjyate, *vidvān sarvatra pūjyate. = A king is honoured in his own country; a learned man is honoured everywhere. ## pt@3027.1
+yaḥ kriyāvān puruṣaḥ, saḥ *vidvān. = The man who acts on what he knows is truly learned. ## hit@1084.1
+
+@ 498 | mūḍhaḥ | foolish
+saḥ *mūḍhaḥ nīlavarṇaśṛgālavat paraiḥ hanyate. = That fool gets killed by others, like the blue jackal. ## hit@2740.1
+kauṇḍinya, *mūḍhaḥ asi. = Kaundinya, you are a fool. ## hit@3738.1
+*mūḍhaḥ ripuḥ sukhacchedyaḥ. = A foolish enemy is easy to destroy. ## hit@3030.1
+
+@ 499 | lubdhaḥ | greedy
+*lubdhaḥ bhīruḥ tvarāyuktaḥ ca dharmaṃ na vetti. = Someone who is greedy, cowardly or hasty does not know what is right. ## hit@3674.1
+*lubdhaḥ rājā sandhānāya na yogyaḥ. = A greedy king is not fit to make an alliance with. ## hit@3541.1
+saḥ māṃse *lubdhaḥ dhanuḥ ādāya vanaṃ gataḥ. = Hungry for meat, he took his bow and went into the forest. ## hit@1053.2
+
+@ 500 | āsannaḥ | near; at hand
+nṛpatiḥ *āsannam eva manuṣyaṃ bhajate. = A king favours whoever happens to be close to him. ## hit@1609.1
+ayaṃ dharmaviplavaḥ *āsannaḥ. = A breach of duty is close at hand. ## vet@3722.1
+tatra *āsannaṃ maraṇam api maṅgalasamam. = There, even approaching death feels like a blessing. ## bhartr@1545.1

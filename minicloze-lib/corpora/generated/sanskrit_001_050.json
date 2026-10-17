@@ -1,0 +1,4682 @@
+[
+  {
+    "vocab_index": 1,
+    "word": "नमस्ते",
+    "gloss": "hello",
+    "transliteration": "namaste",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "नमस्ते, अहं रामः।",
+        "text": "Hello, I am Rama.",
+        "cloze_word": "नमस्ते",
+        "transliteration": "namaste, ahaṃ rāmaḥ.",
+        "words": [
+          {
+            "word": "नमस्ते,",
+            "gloss": "hello",
+            "transliteration": "namaste,",
+            "note": "target"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "रामः",
+            "gloss": "Rama",
+            "transliteration": "rāmaḥ"
+          }
+        ]
+      },
+      {
+        "target": "छात्राः शिक्षकं नमस्ते इति वदन्ति।",
+        "text": "The students say hello to the teacher.",
+        "cloze_word": "नमस्ते",
+        "transliteration": "chātrāḥ śikṣakaṃ namaste iti vadanti.",
+        "words": [
+          {
+            "word": "छात्राः",
+            "gloss": "students",
+            "transliteration": "chātrāḥ"
+          },
+          {
+            "word": "शिक्षकं",
+            "gloss": "teacher (object)",
+            "transliteration": "śikṣakaṃ"
+          },
+          {
+            "word": "नमस्ते",
+            "gloss": "hello",
+            "transliteration": "namaste",
+            "note": "target"
+          },
+          {
+            "word": "इति",
+            "gloss": "(quotation marker)",
+            "transliteration": "iti"
+          },
+          {
+            "word": "वदन्ति",
+            "gloss": "they say",
+            "transliteration": "vadanti"
+          }
+        ]
+      },
+      {
+        "target": "नमस्ते मित्र, कथम् असि?",
+        "text": "Hello, friend, how are you?",
+        "cloze_word": "नमस्ते",
+        "transliteration": "namaste mitra, katham asi?",
+        "words": [
+          {
+            "word": "नमस्ते",
+            "gloss": "hello",
+            "transliteration": "namaste",
+            "note": "target"
+          },
+          {
+            "word": "मित्र,",
+            "gloss": "friend (vocative)",
+            "transliteration": "mitra,"
+          },
+          {
+            "word": "कथम्",
+            "gloss": "how",
+            "transliteration": "katham"
+          },
+          {
+            "word": "असि",
+            "gloss": "are (you)",
+            "transliteration": "asi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 2,
+    "word": "धन्यवादः",
+    "gloss": "thank you",
+    "transliteration": "dhanyavādaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "जलार्थं धन्यवादः।",
+        "text": "Thanks for the water.",
+        "cloze_word": "धन्यवादः",
+        "transliteration": "jalārthaṃ dhanyavādaḥ.",
+        "words": [
+          {
+            "word": "जलार्थं",
+            "gloss": "for the water",
+            "transliteration": "jalārthaṃ"
+          },
+          {
+            "word": "धन्यवादः",
+            "gloss": "thank you",
+            "transliteration": "dhanyavādaḥ",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "बालिका धन्यवादः इति वदति।",
+        "text": "The girl says thank you.",
+        "cloze_word": "धन्यवादः",
+        "transliteration": "bālikā dhanyavādaḥ iti vadati.",
+        "words": [
+          {
+            "word": "बालिका",
+            "gloss": "girl",
+            "transliteration": "bālikā"
+          },
+          {
+            "word": "धन्यवादः",
+            "gloss": "thank you",
+            "transliteration": "dhanyavādaḥ",
+            "note": "target"
+          },
+          {
+            "word": "इति",
+            "gloss": "(quotation marker)",
+            "transliteration": "iti"
+          },
+          {
+            "word": "वदति",
+            "gloss": "says; speaks",
+            "transliteration": "vadati"
+          }
+        ]
+      },
+      {
+        "target": "भवतः साहाय्याय धन्यवादः।",
+        "text": "Thank you for your help.",
+        "cloze_word": "धन्यवादः",
+        "transliteration": "bhavataḥ sāhāyyāya dhanyavādaḥ.",
+        "words": [
+          {
+            "word": "भवतः",
+            "gloss": "your (sir); of you",
+            "transliteration": "bhavataḥ"
+          },
+          {
+            "word": "साहाय्याय",
+            "gloss": "for the help",
+            "transliteration": "sāhāyyāya"
+          },
+          {
+            "word": "धन्यवादः",
+            "gloss": "thank you",
+            "transliteration": "dhanyavādaḥ",
+            "note": "target"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 3,
+    "word": "क्षम्यताम्",
+    "gloss": "sorry; excuse me",
+    "transliteration": "kṣamyatām",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "क्षम्यताम्, अहं विलम्बेन आगतः।",
+        "text": "Sorry, I have come late.",
+        "cloze_word": "क्षम्यताम्",
+        "transliteration": "kṣamyatām, ahaṃ vilambena āgataḥ.",
+        "words": [
+          {
+            "word": "क्षम्यताम्,",
+            "gloss": "sorry; excuse me",
+            "transliteration": "kṣamyatām,",
+            "note": "target"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "विलम्बेन",
+            "gloss": "late",
+            "transliteration": "vilambena"
+          },
+          {
+            "word": "आगतः",
+            "gloss": "came; has come",
+            "transliteration": "āgataḥ"
+          }
+        ]
+      },
+      {
+        "target": "क्षम्यताम्, मार्गः कुत्र अस्ति?",
+        "text": "Excuse me, where is the road?",
+        "cloze_word": "क्षम्यताम्",
+        "transliteration": "kṣamyatām, mārgaḥ kutra asti?",
+        "words": [
+          {
+            "word": "क्षम्यताम्,",
+            "gloss": "sorry; excuse me",
+            "transliteration": "kṣamyatām,",
+            "note": "target"
+          },
+          {
+            "word": "मार्गः",
+            "gloss": "road; way",
+            "transliteration": "mārgaḥ"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "क्षम्यताम्, मया तव चषकः भग्नः।",
+        "text": "Sorry, I broke your cup.",
+        "cloze_word": "क्षम्यताम्",
+        "transliteration": "kṣamyatām, mayā tava caṣakaḥ bhagnaḥ.",
+        "words": [
+          {
+            "word": "क्षम्यताम्,",
+            "gloss": "sorry; excuse me",
+            "transliteration": "kṣamyatām,",
+            "note": "target"
+          },
+          {
+            "word": "मया",
+            "gloss": "by me",
+            "transliteration": "mayā"
+          },
+          {
+            "word": "तव",
+            "gloss": "your",
+            "transliteration": "tava"
+          },
+          {
+            "word": "चषकः",
+            "gloss": "cup; glass",
+            "transliteration": "caṣakaḥ"
+          },
+          {
+            "word": "भग्नः",
+            "gloss": "broken",
+            "transliteration": "bhagnaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 4,
+    "word": "पुनर्मिलामः",
+    "gloss": "goodbye; see you again",
+    "transliteration": "punarmilāmaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अद्य पर्याप्तम्, पुनर्मिलामः।",
+        "text": "That is enough for today; see you again.",
+        "cloze_word": "पुनर्मिलामः",
+        "transliteration": "adya paryāptam, punarmilāmaḥ.",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "पर्याप्तम्,",
+            "gloss": "enough",
+            "transliteration": "paryāptam,"
+          },
+          {
+            "word": "पुनर्मिलामः",
+            "gloss": "goodbye; see you again",
+            "transliteration": "punarmilāmaḥ",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "सायं मित्राणि पुनर्मिलामः इति वदन्ति।",
+        "text": "In the evening the friends say goodbye.",
+        "cloze_word": "पुनर्मिलामः",
+        "transliteration": "sāyaṃ mitrāṇi punarmilāmaḥ iti vadanti.",
+        "words": [
+          {
+            "word": "सायं",
+            "gloss": "in the evening",
+            "transliteration": "sāyaṃ"
+          },
+          {
+            "word": "मित्राणि",
+            "gloss": "friends",
+            "transliteration": "mitrāṇi"
+          },
+          {
+            "word": "पुनर्मिलामः",
+            "gloss": "goodbye; see you again",
+            "transliteration": "punarmilāmaḥ",
+            "note": "target"
+          },
+          {
+            "word": "इति",
+            "gloss": "(quotation marker)",
+            "transliteration": "iti"
+          },
+          {
+            "word": "वदन्ति",
+            "gloss": "they say",
+            "transliteration": "vadanti"
+          }
+        ]
+      },
+      {
+        "target": "श्वः विद्यालये पुनर्मिलामः।",
+        "text": "We will meet again at school tomorrow.",
+        "cloze_word": "पुनर्मिलामः",
+        "transliteration": "śvaḥ vidyālaye punarmilāmaḥ.",
+        "words": [
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ"
+          },
+          {
+            "word": "विद्यालये",
+            "gloss": "at school",
+            "transliteration": "vidyālaye"
+          },
+          {
+            "word": "पुनर्मिलामः",
+            "gloss": "goodbye; see you again",
+            "transliteration": "punarmilāmaḥ",
+            "note": "target"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 5,
+    "word": "सुप्रभातम्",
+    "gloss": "good morning",
+    "transliteration": "suprabhātam",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "सुप्रभातम्, अम्ब!",
+        "text": "Good morning, Mother!",
+        "cloze_word": "सुप्रभातम्",
+        "transliteration": "suprabhātam, amba!",
+        "words": [
+          {
+            "word": "सुप्रभातम्,",
+            "gloss": "good morning",
+            "transliteration": "suprabhātam,",
+            "note": "target"
+          },
+          {
+            "word": "अम्ब",
+            "gloss": "Mother (vocative)",
+            "transliteration": "amba"
+          }
+        ]
+      },
+      {
+        "target": "प्रातः पितामहः सुप्रभातम् इति वदति।",
+        "text": "In the morning Grandfather says good morning.",
+        "cloze_word": "सुप्रभातम्",
+        "transliteration": "prātaḥ pitāmahaḥ suprabhātam iti vadati.",
+        "words": [
+          {
+            "word": "प्रातः",
+            "gloss": "in the morning",
+            "transliteration": "prātaḥ"
+          },
+          {
+            "word": "पितामहः",
+            "gloss": "grandfather",
+            "transliteration": "pitāmahaḥ"
+          },
+          {
+            "word": "सुप्रभातम्",
+            "gloss": "good morning",
+            "transliteration": "suprabhātam",
+            "note": "target"
+          },
+          {
+            "word": "इति",
+            "gloss": "(quotation marker)",
+            "transliteration": "iti"
+          },
+          {
+            "word": "वदति",
+            "gloss": "says; speaks",
+            "transliteration": "vadati"
+          }
+        ]
+      },
+      {
+        "target": "सुप्रभातम्, अद्य आकाशः निर्मलः अस्ति।",
+        "text": "Good morning, the sky is clear today.",
+        "cloze_word": "सुप्रभातम्",
+        "transliteration": "suprabhātam, adya ākāśaḥ nirmalaḥ asti.",
+        "words": [
+          {
+            "word": "सुप्रभातम्,",
+            "gloss": "good morning",
+            "transliteration": "suprabhātam,",
+            "note": "target"
+          },
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "आकाशः",
+            "gloss": "sky",
+            "transliteration": "ākāśaḥ"
+          },
+          {
+            "word": "निर्मलः",
+            "gloss": "clear",
+            "transliteration": "nirmalaḥ"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 6,
+    "word": "शुभरात्रिः",
+    "gloss": "good night",
+    "transliteration": "śubharātriḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "शुभरात्रिः, इदानीं स्वपिहि।",
+        "text": "Good night, sleep now.",
+        "cloze_word": "शुभरात्रिः",
+        "transliteration": "śubharātriḥ, idānīṃ svapihi.",
+        "words": [
+          {
+            "word": "शुभरात्रिः,",
+            "gloss": "good night",
+            "transliteration": "śubharātriḥ,",
+            "note": "target"
+          },
+          {
+            "word": "इदानीं",
+            "gloss": "now",
+            "transliteration": "idānīṃ"
+          },
+          {
+            "word": "स्वपिहि",
+            "gloss": "sleep",
+            "transliteration": "svapihi"
+          }
+        ]
+      },
+      {
+        "target": "माता शिशुं शुभरात्रिः इति वदति।",
+        "text": "The mother says good night to the baby.",
+        "cloze_word": "शुभरात्रिः",
+        "transliteration": "mātā śiśuṃ śubharātriḥ iti vadati.",
+        "words": [
+          {
+            "word": "माता",
+            "gloss": "mother",
+            "transliteration": "mātā"
+          },
+          {
+            "word": "शिशुं",
+            "gloss": "baby (object)",
+            "transliteration": "śiśuṃ"
+          },
+          {
+            "word": "शुभरात्रिः",
+            "gloss": "good night",
+            "transliteration": "śubharātriḥ",
+            "note": "target"
+          },
+          {
+            "word": "इति",
+            "gloss": "(quotation marker)",
+            "transliteration": "iti"
+          },
+          {
+            "word": "वदति",
+            "gloss": "says; speaks",
+            "transliteration": "vadati"
+          }
+        ]
+      },
+      {
+        "target": "शुभरात्रिः, श्वः प्रातः मिलामः।",
+        "text": "Good night, we will meet tomorrow morning.",
+        "cloze_word": "शुभरात्रिः",
+        "transliteration": "śubharātriḥ, śvaḥ prātaḥ milāmaḥ.",
+        "words": [
+          {
+            "word": "शुभरात्रिः,",
+            "gloss": "good night",
+            "transliteration": "śubharātriḥ,",
+            "note": "target"
+          },
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ"
+          },
+          {
+            "word": "प्रातः",
+            "gloss": "in the morning",
+            "transliteration": "prātaḥ"
+          },
+          {
+            "word": "मिलामः",
+            "gloss": "we meet",
+            "transliteration": "milāmaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 7,
+    "word": "स्वागतम्",
+    "gloss": "welcome",
+    "transliteration": "svāgatam",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "भवतः स्वागतम्।",
+        "text": "Welcome to you.",
+        "cloze_word": "स्वागतम्",
+        "transliteration": "bhavataḥ svāgatam.",
+        "words": [
+          {
+            "word": "भवतः",
+            "gloss": "your (sir); of you",
+            "transliteration": "bhavataḥ"
+          },
+          {
+            "word": "स्वागतम्",
+            "gloss": "welcome",
+            "transliteration": "svāgatam",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "अस्माकं गृहे स्वागतम्।",
+        "text": "Welcome to our home.",
+        "cloze_word": "स्वागतम्",
+        "transliteration": "asmākaṃ gṛhe svāgatam.",
+        "words": [
+          {
+            "word": "अस्माकं",
+            "gloss": "our",
+            "transliteration": "asmākaṃ"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "स्वागतम्",
+            "gloss": "welcome",
+            "transliteration": "svāgatam",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "नूतनाः छात्राः, कक्ष्यायां स्वागतम्।",
+        "text": "New students, welcome to the class.",
+        "cloze_word": "स्वागतम्",
+        "transliteration": "nūtanāḥ chātrāḥ, kakṣyāyāṃ svāgatam.",
+        "words": [
+          {
+            "word": "नूतनाः",
+            "gloss": "new",
+            "transliteration": "nūtanāḥ"
+          },
+          {
+            "word": "छात्राः,",
+            "gloss": "students",
+            "transliteration": "chātrāḥ,"
+          },
+          {
+            "word": "कक्ष्यायां",
+            "gloss": "in the class",
+            "transliteration": "kakṣyāyāṃ"
+          },
+          {
+            "word": "स्वागतम्",
+            "gloss": "welcome",
+            "transliteration": "svāgatam",
+            "note": "target"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 8,
+    "word": "कृपया",
+    "gloss": "please",
+    "transliteration": "kṛpayā",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "कृपया उपविशतु।",
+        "text": "Please sit down.",
+        "cloze_word": "कृपया",
+        "transliteration": "kṛpayā upaviśatu.",
+        "words": [
+          {
+            "word": "कृपया",
+            "gloss": "please",
+            "transliteration": "kṛpayā",
+            "note": "target"
+          },
+          {
+            "word": "उपविशतु",
+            "gloss": "please sit",
+            "transliteration": "upaviśatu"
+          }
+        ]
+      },
+      {
+        "target": "कृपया जलं ददातु।",
+        "text": "Please give me some water.",
+        "cloze_word": "कृपया",
+        "transliteration": "kṛpayā jalaṃ dadātu.",
+        "words": [
+          {
+            "word": "कृपया",
+            "gloss": "please",
+            "transliteration": "kṛpayā",
+            "note": "target"
+          },
+          {
+            "word": "जलं",
+            "gloss": "water",
+            "transliteration": "jalaṃ"
+          },
+          {
+            "word": "ददातु",
+            "gloss": "please give",
+            "transliteration": "dadātu"
+          }
+        ]
+      },
+      {
+        "target": "कृपया मन्दं वदतु।",
+        "text": "Please speak slowly.",
+        "cloze_word": "कृपया",
+        "transliteration": "kṛpayā mandaṃ vadatu.",
+        "words": [
+          {
+            "word": "कृपया",
+            "gloss": "please",
+            "transliteration": "kṛpayā",
+            "note": "target"
+          },
+          {
+            "word": "मन्दं",
+            "gloss": "slowly; softly",
+            "transliteration": "mandaṃ"
+          },
+          {
+            "word": "वदतु",
+            "gloss": "please speak",
+            "transliteration": "vadatu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 9,
+    "word": "आम",
+    "gloss": "yes",
+    "transliteration": "āma",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "आम, अहं छात्रः अस्मि।",
+        "text": "Yes, I am a student.",
+        "cloze_word": "आम",
+        "transliteration": "āma, ahaṃ chātraḥ asmi.",
+        "words": [
+          {
+            "word": "आम,",
+            "gloss": "yes",
+            "transliteration": "āma,",
+            "note": "target"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "छात्रः",
+            "gloss": "student",
+            "transliteration": "chātraḥ"
+          },
+          {
+            "word": "अस्मि",
+            "gloss": "am",
+            "transliteration": "asmi"
+          }
+        ]
+      },
+      {
+        "target": "किं भवान् चायं पिबति? आम।",
+        "text": "Do you drink tea? Yes.",
+        "cloze_word": "आम",
+        "transliteration": "kiṃ bhavān cāyaṃ pibati? āma.",
+        "words": [
+          {
+            "word": "किं",
+            "gloss": "what",
+            "transliteration": "kiṃ"
+          },
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān"
+          },
+          {
+            "word": "चायं",
+            "gloss": "tea",
+            "transliteration": "cāyaṃ"
+          },
+          {
+            "word": "पिबति?",
+            "gloss": "drinks",
+            "transliteration": "pibati?"
+          },
+          {
+            "word": "आम",
+            "gloss": "yes",
+            "transliteration": "āma",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "आम, श्वः वयं ग्रामं गच्छामः।",
+        "text": "Yes, tomorrow we are going to the village.",
+        "cloze_word": "आम",
+        "transliteration": "āma, śvaḥ vayaṃ grāmaṃ gacchāmaḥ.",
+        "words": [
+          {
+            "word": "आम,",
+            "gloss": "yes",
+            "transliteration": "āma,",
+            "note": "target"
+          },
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ"
+          },
+          {
+            "word": "वयं",
+            "gloss": "we",
+            "transliteration": "vayaṃ"
+          },
+          {
+            "word": "ग्रामं",
+            "gloss": "village (object)",
+            "transliteration": "grāmaṃ"
+          },
+          {
+            "word": "गच्छामः",
+            "gloss": "we go",
+            "transliteration": "gacchāmaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 10,
+    "word": "न",
+    "gloss": "not; no",
+    "transliteration": "na",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहं मांसं न खादामि।",
+        "text": "I do not eat meat.",
+        "cloze_word": "न",
+        "transliteration": "ahaṃ māṃsaṃ na khādāmi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "मांसं",
+            "gloss": "meat",
+            "transliteration": "māṃsaṃ"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na",
+            "note": "target"
+          },
+          {
+            "word": "खादामि",
+            "gloss": "I eat",
+            "transliteration": "khādāmi"
+          }
+        ]
+      },
+      {
+        "target": "अद्य वर्षा न भवति।",
+        "text": "It is not raining today.",
+        "cloze_word": "न",
+        "transliteration": "adya varṣā na bhavati.",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "वर्षा",
+            "gloss": "rain",
+            "transliteration": "varṣā"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na",
+            "note": "target"
+          },
+          {
+            "word": "भवति",
+            "gloss": "is; becomes",
+            "transliteration": "bhavati"
+          }
+        ]
+      },
+      {
+        "target": "सः मम भ्राता न, मित्रम् अस्ति।",
+        "text": "He is not my brother; he is a friend.",
+        "cloze_word": "न",
+        "transliteration": "saḥ mama bhrātā na, mitram asti.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "भ्राता",
+            "gloss": "brother",
+            "transliteration": "bhrātā"
+          },
+          {
+            "word": "न,",
+            "gloss": "not",
+            "transliteration": "na,",
+            "note": "target"
+          },
+          {
+            "word": "मित्रम्",
+            "gloss": "friend",
+            "transliteration": "mitram"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 11,
+    "word": "कुशलम्",
+    "gloss": "well; fine",
+    "transliteration": "kuśalam",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अत्र सर्वं कुशलम्, मा चिन्तय।",
+        "text": "Everything is fine here, don't worry.",
+        "cloze_word": "कुशलम्",
+        "transliteration": "atra sarvaṃ kuśalam, mā cintaya.",
+        "words": [
+          {
+            "word": "अत्र",
+            "gloss": "here",
+            "transliteration": "atra"
+          },
+          {
+            "word": "सर्वं",
+            "gloss": "everything; whole",
+            "transliteration": "sarvaṃ"
+          },
+          {
+            "word": "कुशलम्,",
+            "gloss": "well; fine",
+            "transliteration": "kuśalam,",
+            "note": "target"
+          },
+          {
+            "word": "मा",
+            "gloss": "don't",
+            "transliteration": "mā"
+          },
+          {
+            "word": "चिन्तय",
+            "gloss": "worry; think",
+            "transliteration": "cintaya"
+          }
+        ]
+      },
+      {
+        "target": "अपि गृहे कुशलम्?",
+        "text": "Is all well at home?",
+        "cloze_word": "कुशलम्",
+        "transliteration": "api gṛhe kuśalam?",
+        "words": [
+          {
+            "word": "अपि",
+            "gloss": "also; even",
+            "transliteration": "api"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "कुशलम्",
+            "gloss": "well; fine",
+            "transliteration": "kuśalam",
+            "note": "target"
+          }
+        ]
+      },
+      {
+        "target": "पितामहस्य स्वास्थ्यं कुशलम् अस्ति।",
+        "text": "Grandfather's health is good.",
+        "cloze_word": "कुशलम्",
+        "transliteration": "pitāmahasya svāsthyaṃ kuśalam asti.",
+        "words": [
+          {
+            "word": "पितामहस्य",
+            "gloss": "grandfather's",
+            "transliteration": "pitāmahasya"
+          },
+          {
+            "word": "स्वास्थ्यं",
+            "gloss": "health",
+            "transliteration": "svāsthyaṃ"
+          },
+          {
+            "word": "कुशलम्",
+            "gloss": "well; fine",
+            "transliteration": "kuśalam",
+            "note": "target"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 12,
+    "word": "भवान्",
+    "gloss": "you (polite, masculine)",
+    "transliteration": "bhavān",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "भवान् कुत्र गच्छति?",
+        "text": "Where are you going, sir?",
+        "cloze_word": "भवान्",
+        "transliteration": "bhavān kutra gacchati?",
+        "words": [
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān",
+            "note": "target"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra"
+          },
+          {
+            "word": "गच्छति",
+            "gloss": "goes",
+            "transliteration": "gacchati"
+          }
+        ]
+      },
+      {
+        "target": "किं भवान् शिक्षकः?",
+        "text": "Are you a teacher, sir?",
+        "cloze_word": "भवान्",
+        "transliteration": "kiṃ bhavān śikṣakaḥ?",
+        "words": [
+          {
+            "word": "किं",
+            "gloss": "what",
+            "transliteration": "kiṃ"
+          },
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān",
+            "note": "target"
+          },
+          {
+            "word": "शिक्षकः",
+            "gloss": "teacher",
+            "transliteration": "śikṣakaḥ"
+          }
+        ]
+      },
+      {
+        "target": "भवान् चायं पिबतु।",
+        "text": "Please have some tea, sir.",
+        "cloze_word": "भवान्",
+        "transliteration": "bhavān cāyaṃ pibatu.",
+        "words": [
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān",
+            "note": "target"
+          },
+          {
+            "word": "चायं",
+            "gloss": "tea",
+            "transliteration": "cāyaṃ"
+          },
+          {
+            "word": "पिबतु",
+            "gloss": "please drink",
+            "transliteration": "pibatu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 13,
+    "word": "भवती",
+    "gloss": "you (polite, feminine)",
+    "transliteration": "bhavatī",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "भवती किम् इच्छति?",
+        "text": "What would you like, madam?",
+        "cloze_word": "भवती",
+        "transliteration": "bhavatī kim icchati?",
+        "words": [
+          {
+            "word": "भवती",
+            "gloss": "you (madam)",
+            "transliteration": "bhavatī",
+            "note": "target"
+          },
+          {
+            "word": "किम्",
+            "gloss": "what",
+            "transliteration": "kim"
+          },
+          {
+            "word": "इच्छति",
+            "gloss": "wants",
+            "transliteration": "icchati"
+          }
+        ]
+      },
+      {
+        "target": "भवती कुत्र वसति?",
+        "text": "Where do you live, madam?",
+        "cloze_word": "भवती",
+        "transliteration": "bhavatī kutra vasati?",
+        "words": [
+          {
+            "word": "भवती",
+            "gloss": "you (madam)",
+            "transliteration": "bhavatī",
+            "note": "target"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra"
+          },
+          {
+            "word": "वसति",
+            "gloss": "lives",
+            "transliteration": "vasati"
+          }
+        ]
+      },
+      {
+        "target": "भवती सुन्दरं गायति।",
+        "text": "You sing beautifully, madam.",
+        "cloze_word": "भवती",
+        "transliteration": "bhavatī sundaraṃ gāyati.",
+        "words": [
+          {
+            "word": "भवती",
+            "gloss": "you (madam)",
+            "transliteration": "bhavatī",
+            "note": "target"
+          },
+          {
+            "word": "सुन्दरं",
+            "gloss": "beautiful; beautifully",
+            "transliteration": "sundaraṃ"
+          },
+          {
+            "word": "गायति",
+            "gloss": "sings",
+            "transliteration": "gāyati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 14,
+    "word": "अहम्",
+    "gloss": "I",
+    "transliteration": "aham",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहं गृहे कार्यं करोमि।",
+        "text": "I work at home.",
+        "cloze_word": "अहं",
+        "transliteration": "ahaṃ gṛhe kāryaṃ karomi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ",
+            "note": "target"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "कार्यं",
+            "gloss": "work",
+            "transliteration": "kāryaṃ"
+          },
+          {
+            "word": "करोमि",
+            "gloss": "I do",
+            "transliteration": "karomi"
+          }
+        ]
+      },
+      {
+        "target": "प्रातः अहं दुग्धं पिबामि।",
+        "text": "I drink milk in the morning.",
+        "cloze_word": "अहं",
+        "transliteration": "prātaḥ ahaṃ dugdhaṃ pibāmi.",
+        "words": [
+          {
+            "word": "प्रातः",
+            "gloss": "in the morning",
+            "transliteration": "prātaḥ"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ",
+            "note": "target"
+          },
+          {
+            "word": "दुग्धं",
+            "gloss": "milk",
+            "transliteration": "dugdhaṃ"
+          },
+          {
+            "word": "पिबामि",
+            "gloss": "I drink",
+            "transliteration": "pibāmi"
+          }
+        ]
+      },
+      {
+        "target": "अहं तव मित्रं जानामि।",
+        "text": "I know your friend.",
+        "cloze_word": "अहं",
+        "transliteration": "ahaṃ tava mitraṃ jānāmi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ",
+            "note": "target"
+          },
+          {
+            "word": "तव",
+            "gloss": "your",
+            "transliteration": "tava"
+          },
+          {
+            "word": "मित्रं",
+            "gloss": "friend",
+            "transliteration": "mitraṃ"
+          },
+          {
+            "word": "जानामि",
+            "gloss": "I know",
+            "transliteration": "jānāmi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 15,
+    "word": "त्वम्",
+    "gloss": "you",
+    "transliteration": "tvam",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "त्वं कुत्र गच्छसि?",
+        "text": "Where are you going?",
+        "cloze_word": "त्वं",
+        "transliteration": "tvaṃ kutra gacchasi?",
+        "words": [
+          {
+            "word": "त्वं",
+            "gloss": "you",
+            "transliteration": "tvaṃ",
+            "note": "target"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra"
+          },
+          {
+            "word": "गच्छसि",
+            "gloss": "you go",
+            "transliteration": "gacchasi"
+          }
+        ]
+      },
+      {
+        "target": "त्वं मम प्रियं मित्रम् असि।",
+        "text": "You are my dear friend.",
+        "cloze_word": "त्वं",
+        "transliteration": "tvaṃ mama priyaṃ mitram asi.",
+        "words": [
+          {
+            "word": "त्वं",
+            "gloss": "you",
+            "transliteration": "tvaṃ",
+            "note": "target"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "प्रियं",
+            "gloss": "dear",
+            "transliteration": "priyaṃ"
+          },
+          {
+            "word": "मित्रम्",
+            "gloss": "friend",
+            "transliteration": "mitram"
+          },
+          {
+            "word": "असि",
+            "gloss": "are (you)",
+            "transliteration": "asi"
+          }
+        ]
+      },
+      {
+        "target": "किं त्वम् अपि क्रीडितुम् इच्छसि?",
+        "text": "Do you also want to play?",
+        "cloze_word": "त्वम्",
+        "transliteration": "kiṃ tvam api krīḍitum icchasi?",
+        "words": [
+          {
+            "word": "किं",
+            "gloss": "what",
+            "transliteration": "kiṃ"
+          },
+          {
+            "word": "त्वम्",
+            "gloss": "you",
+            "transliteration": "tvam",
+            "note": "target"
+          },
+          {
+            "word": "अपि",
+            "gloss": "also; even",
+            "transliteration": "api"
+          },
+          {
+            "word": "क्रीडितुम्",
+            "gloss": "to play",
+            "transliteration": "krīḍitum"
+          },
+          {
+            "word": "इच्छसि",
+            "gloss": "you want",
+            "transliteration": "icchasi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 16,
+    "word": "सः",
+    "gloss": "he",
+    "transliteration": "saḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "सः विद्यालयं गच्छति।",
+        "text": "He goes to school.",
+        "cloze_word": "सः",
+        "transliteration": "saḥ vidyālayaṃ gacchati.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ",
+            "note": "target"
+          },
+          {
+            "word": "विद्यालयं",
+            "gloss": "to school",
+            "transliteration": "vidyālayaṃ"
+          },
+          {
+            "word": "गच्छति",
+            "gloss": "goes",
+            "transliteration": "gacchati"
+          }
+        ]
+      },
+      {
+        "target": "सः प्रातः शीघ्रम् उत्तिष्ठति।",
+        "text": "He gets up early in the morning.",
+        "cloze_word": "सः",
+        "transliteration": "saḥ prātaḥ śīghram uttiṣṭhati.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ",
+            "note": "target"
+          },
+          {
+            "word": "प्रातः",
+            "gloss": "in the morning",
+            "transliteration": "prātaḥ"
+          },
+          {
+            "word": "शीघ्रम्",
+            "gloss": "quickly; early",
+            "transliteration": "śīghram"
+          },
+          {
+            "word": "उत्तिष्ठति",
+            "gloss": "gets up",
+            "transliteration": "uttiṣṭhati"
+          }
+        ]
+      },
+      {
+        "target": "सः मम पिता अस्ति।",
+        "text": "He is my father.",
+        "cloze_word": "सः",
+        "transliteration": "saḥ mama pitā asti.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ",
+            "note": "target"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "पिता",
+            "gloss": "father",
+            "transliteration": "pitā"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 17,
+    "word": "सा",
+    "gloss": "she",
+    "transliteration": "sā",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "सा गीतं गायति।",
+        "text": "She sings a song.",
+        "cloze_word": "सा",
+        "transliteration": "sā gītaṃ gāyati.",
+        "words": [
+          {
+            "word": "सा",
+            "gloss": "she; that",
+            "transliteration": "sā",
+            "note": "target"
+          },
+          {
+            "word": "गीतं",
+            "gloss": "song",
+            "transliteration": "gītaṃ"
+          },
+          {
+            "word": "गायति",
+            "gloss": "sings",
+            "transliteration": "gāyati"
+          }
+        ]
+      },
+      {
+        "target": "सा मम भगिनी अस्ति।",
+        "text": "She is my sister.",
+        "cloze_word": "सा",
+        "transliteration": "sā mama bhaginī asti.",
+        "words": [
+          {
+            "word": "सा",
+            "gloss": "she; that",
+            "transliteration": "sā",
+            "note": "target"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "भगिनी",
+            "gloss": "sister",
+            "transliteration": "bhaginī"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "सा पाकशालायाम् ओदनं पचति।",
+        "text": "She is cooking rice in the kitchen.",
+        "cloze_word": "सा",
+        "transliteration": "sā pākaśālāyām odanaṃ pacati.",
+        "words": [
+          {
+            "word": "सा",
+            "gloss": "she; that",
+            "transliteration": "sā",
+            "note": "target"
+          },
+          {
+            "word": "पाकशालायाम्",
+            "gloss": "in the kitchen",
+            "transliteration": "pākaśālāyām"
+          },
+          {
+            "word": "ओदनं",
+            "gloss": "rice",
+            "transliteration": "odanaṃ"
+          },
+          {
+            "word": "पचति",
+            "gloss": "cooks",
+            "transliteration": "pacati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 18,
+    "word": "वयम्",
+    "gloss": "we",
+    "transliteration": "vayam",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "वयं संस्कृतं पठामः।",
+        "text": "We study Sanskrit.",
+        "cloze_word": "वयं",
+        "transliteration": "vayaṃ saṃskṛtaṃ paṭhāmaḥ.",
+        "words": [
+          {
+            "word": "वयं",
+            "gloss": "we",
+            "transliteration": "vayaṃ",
+            "note": "target"
+          },
+          {
+            "word": "संस्कृतं",
+            "gloss": "Sanskrit",
+            "transliteration": "saṃskṛtaṃ"
+          },
+          {
+            "word": "पठामः",
+            "gloss": "we study",
+            "transliteration": "paṭhāmaḥ"
+          }
+        ]
+      },
+      {
+        "target": "वयम् उद्याने क्रीडामः।",
+        "text": "We play in the park.",
+        "cloze_word": "वयम्",
+        "transliteration": "vayam udyāne krīḍāmaḥ.",
+        "words": [
+          {
+            "word": "वयम्",
+            "gloss": "we",
+            "transliteration": "vayam",
+            "note": "target"
+          },
+          {
+            "word": "उद्याने",
+            "gloss": "in the garden; in the park",
+            "transliteration": "udyāne"
+          },
+          {
+            "word": "क्रीडामः",
+            "gloss": "we play",
+            "transliteration": "krīḍāmaḥ"
+          }
+        ]
+      },
+      {
+        "target": "सायं वयं सह भोजनं कुर्मः।",
+        "text": "In the evening we eat together.",
+        "cloze_word": "वयं",
+        "transliteration": "sāyaṃ vayaṃ saha bhojanaṃ kurmaḥ.",
+        "words": [
+          {
+            "word": "सायं",
+            "gloss": "in the evening",
+            "transliteration": "sāyaṃ"
+          },
+          {
+            "word": "वयं",
+            "gloss": "we",
+            "transliteration": "vayaṃ",
+            "note": "target"
+          },
+          {
+            "word": "सह",
+            "gloss": "with",
+            "transliteration": "saha"
+          },
+          {
+            "word": "भोजनं",
+            "gloss": "food; meal",
+            "transliteration": "bhojanaṃ"
+          },
+          {
+            "word": "कुर्मः",
+            "gloss": "we do",
+            "transliteration": "kurmaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 19,
+    "word": "ते",
+    "gloss": "they",
+    "transliteration": "te",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "ते छात्राः सन्ति।",
+        "text": "They are students.",
+        "cloze_word": "ते",
+        "transliteration": "te chātrāḥ santi.",
+        "words": [
+          {
+            "word": "ते",
+            "gloss": "they",
+            "transliteration": "te",
+            "note": "target"
+          },
+          {
+            "word": "छात्राः",
+            "gloss": "students",
+            "transliteration": "chātrāḥ"
+          },
+          {
+            "word": "सन्ति",
+            "gloss": "are",
+            "transliteration": "santi"
+          }
+        ]
+      },
+      {
+        "target": "ते नद्यां तरन्ति।",
+        "text": "They are swimming in the river.",
+        "cloze_word": "ते",
+        "transliteration": "te nadyāṃ taranti.",
+        "words": [
+          {
+            "word": "ते",
+            "gloss": "they",
+            "transliteration": "te",
+            "note": "target"
+          },
+          {
+            "word": "नद्यां",
+            "gloss": "in the river",
+            "transliteration": "nadyāṃ"
+          },
+          {
+            "word": "तरन्ति",
+            "gloss": "swim; cross",
+            "transliteration": "taranti"
+          }
+        ]
+      },
+      {
+        "target": "ते श्वः नगरं गमिष्यन्ति।",
+        "text": "They will go to the city tomorrow.",
+        "cloze_word": "ते",
+        "transliteration": "te śvaḥ nagaraṃ gamiṣyanti.",
+        "words": [
+          {
+            "word": "ते",
+            "gloss": "they",
+            "transliteration": "te",
+            "note": "target"
+          },
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ"
+          },
+          {
+            "word": "नगरं",
+            "gloss": "city",
+            "transliteration": "nagaraṃ"
+          },
+          {
+            "word": "गमिष्यन्ति",
+            "gloss": "they will go",
+            "transliteration": "gamiṣyanti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 20,
+    "word": "एषः",
+    "gloss": "this (masculine)",
+    "transliteration": "eṣaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "एषः मम भ्राता।",
+        "text": "This is my brother.",
+        "cloze_word": "एषः",
+        "transliteration": "eṣaḥ mama bhrātā.",
+        "words": [
+          {
+            "word": "एषः",
+            "gloss": "this",
+            "transliteration": "eṣaḥ",
+            "note": "target"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "भ्राता",
+            "gloss": "brother",
+            "transliteration": "bhrātā"
+          }
+        ]
+      },
+      {
+        "target": "एषः वृक्षः अतीव उच्चः अस्ति।",
+        "text": "This tree is very tall.",
+        "cloze_word": "एषः",
+        "transliteration": "eṣaḥ vṛkṣaḥ atīva uccaḥ asti.",
+        "words": [
+          {
+            "word": "एषः",
+            "gloss": "this",
+            "transliteration": "eṣaḥ",
+            "note": "target"
+          },
+          {
+            "word": "वृक्षः",
+            "gloss": "tree",
+            "transliteration": "vṛkṣaḥ"
+          },
+          {
+            "word": "अतीव",
+            "gloss": "very",
+            "transliteration": "atīva"
+          },
+          {
+            "word": "उच्चः",
+            "gloss": "tall; high",
+            "transliteration": "uccaḥ"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "एषः मार्गः ग्रामं गच्छति।",
+        "text": "This road goes to the village.",
+        "cloze_word": "एषः",
+        "transliteration": "eṣaḥ mārgaḥ grāmaṃ gacchati.",
+        "words": [
+          {
+            "word": "एषः",
+            "gloss": "this",
+            "transliteration": "eṣaḥ",
+            "note": "target"
+          },
+          {
+            "word": "मार्गः",
+            "gloss": "road; way",
+            "transliteration": "mārgaḥ"
+          },
+          {
+            "word": "ग्रामं",
+            "gloss": "village (object)",
+            "transliteration": "grāmaṃ"
+          },
+          {
+            "word": "गच्छति",
+            "gloss": "goes",
+            "transliteration": "gacchati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 21,
+    "word": "एतत्",
+    "gloss": "this (neuter)",
+    "transliteration": "etat",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "एतत् मम पुस्तकम्।",
+        "text": "This is my book.",
+        "cloze_word": "एतत्",
+        "transliteration": "etat mama pustakam.",
+        "words": [
+          {
+            "word": "एतत्",
+            "gloss": "this",
+            "transliteration": "etat",
+            "note": "target"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "पुस्तकम्",
+            "gloss": "book",
+            "transliteration": "pustakam"
+          }
+        ]
+      },
+      {
+        "target": "एतत् फलं मधुरम् अस्ति।",
+        "text": "This fruit is sweet.",
+        "cloze_word": "एतत्",
+        "transliteration": "etat phalaṃ madhuram asti.",
+        "words": [
+          {
+            "word": "एतत्",
+            "gloss": "this",
+            "transliteration": "etat",
+            "note": "target"
+          },
+          {
+            "word": "फलं",
+            "gloss": "fruit",
+            "transliteration": "phalaṃ"
+          },
+          {
+            "word": "मधुरम्",
+            "gloss": "sweet; sweetly",
+            "transliteration": "madhuram"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "एतत् कस्य गृहम्?",
+        "text": "Whose house is this?",
+        "cloze_word": "एतत्",
+        "transliteration": "etat kasya gṛham?",
+        "words": [
+          {
+            "word": "एतत्",
+            "gloss": "this",
+            "transliteration": "etat",
+            "note": "target"
+          },
+          {
+            "word": "कस्य",
+            "gloss": "whose",
+            "transliteration": "kasya"
+          },
+          {
+            "word": "गृहम्",
+            "gloss": "house; home",
+            "transliteration": "gṛham"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 22,
+    "word": "तत्",
+    "gloss": "that",
+    "transliteration": "tat",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "तत् किम्?",
+        "text": "What is that?",
+        "cloze_word": "तत्",
+        "transliteration": "tat kim?",
+        "words": [
+          {
+            "word": "तत्",
+            "gloss": "that",
+            "transliteration": "tat",
+            "note": "target"
+          },
+          {
+            "word": "किम्",
+            "gloss": "what",
+            "transliteration": "kim"
+          }
+        ]
+      },
+      {
+        "target": "तत् मन्दिरं प्राचीनम् अस्ति।",
+        "text": "That temple is old.",
+        "cloze_word": "तत्",
+        "transliteration": "tat mandiraṃ prācīnam asti.",
+        "words": [
+          {
+            "word": "तत्",
+            "gloss": "that",
+            "transliteration": "tat",
+            "note": "target"
+          },
+          {
+            "word": "मन्दिरं",
+            "gloss": "temple",
+            "transliteration": "mandiraṃ"
+          },
+          {
+            "word": "प्राचीनम्",
+            "gloss": "ancient; old",
+            "transliteration": "prācīnam"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "तत् वस्त्रं मह्यं रोचते।",
+        "text": "I like that cloth.",
+        "cloze_word": "तत्",
+        "transliteration": "tat vastraṃ mahyaṃ rocate.",
+        "words": [
+          {
+            "word": "तत्",
+            "gloss": "that",
+            "transliteration": "tat",
+            "note": "target"
+          },
+          {
+            "word": "वस्त्रं",
+            "gloss": "cloth; dress",
+            "transliteration": "vastraṃ"
+          },
+          {
+            "word": "मह्यं",
+            "gloss": "to me; for me",
+            "transliteration": "mahyaṃ"
+          },
+          {
+            "word": "रोचते",
+            "gloss": "pleases; is liked",
+            "transliteration": "rocate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 23,
+    "word": "मम",
+    "gloss": "my",
+    "transliteration": "mama",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "मम नाम सीता।",
+        "text": "My name is Sita.",
+        "cloze_word": "मम",
+        "transliteration": "mama nāma sītā.",
+        "words": [
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama",
+            "note": "target"
+          },
+          {
+            "word": "नाम",
+            "gloss": "name",
+            "transliteration": "nāma"
+          },
+          {
+            "word": "सीता",
+            "gloss": "Sita",
+            "transliteration": "sītā"
+          }
+        ]
+      },
+      {
+        "target": "मम गृहं ग्रामे अस्ति।",
+        "text": "My house is in the village.",
+        "cloze_word": "मम",
+        "transliteration": "mama gṛhaṃ grāme asti.",
+        "words": [
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama",
+            "note": "target"
+          },
+          {
+            "word": "गृहं",
+            "gloss": "house; home",
+            "transliteration": "gṛhaṃ"
+          },
+          {
+            "word": "ग्रामे",
+            "gloss": "in the village",
+            "transliteration": "grāme"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "एषा मम घटिका अस्ति।",
+        "text": "This is my watch.",
+        "cloze_word": "मम",
+        "transliteration": "eṣā mama ghaṭikā asti.",
+        "words": [
+          {
+            "word": "एषा",
+            "gloss": "this",
+            "transliteration": "eṣā"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama",
+            "note": "target"
+          },
+          {
+            "word": "घटिका",
+            "gloss": "clock; watch",
+            "transliteration": "ghaṭikā"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 24,
+    "word": "तव",
+    "gloss": "your",
+    "transliteration": "tava",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "तव नाम किम्?",
+        "text": "What is your name?",
+        "cloze_word": "तव",
+        "transliteration": "tava nāma kim?",
+        "words": [
+          {
+            "word": "तव",
+            "gloss": "your",
+            "transliteration": "tava",
+            "note": "target"
+          },
+          {
+            "word": "नाम",
+            "gloss": "name",
+            "transliteration": "nāma"
+          },
+          {
+            "word": "किम्",
+            "gloss": "what",
+            "transliteration": "kim"
+          }
+        ]
+      },
+      {
+        "target": "तव माता कुत्र अस्ति?",
+        "text": "Where is your mother?",
+        "cloze_word": "तव",
+        "transliteration": "tava mātā kutra asti?",
+        "words": [
+          {
+            "word": "तव",
+            "gloss": "your",
+            "transliteration": "tava",
+            "note": "target"
+          },
+          {
+            "word": "माता",
+            "gloss": "mother",
+            "transliteration": "mātā"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "तव लेखनी मम स्यूते अस्ति।",
+        "text": "Your pen is in my bag.",
+        "cloze_word": "तव",
+        "transliteration": "tava lekhanī mama syūte asti.",
+        "words": [
+          {
+            "word": "तव",
+            "gloss": "your",
+            "transliteration": "tava",
+            "note": "target"
+          },
+          {
+            "word": "लेखनी",
+            "gloss": "pen",
+            "transliteration": "lekhanī"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "स्यूते",
+            "gloss": "in the bag",
+            "transliteration": "syūte"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 25,
+    "word": "अस्माकम्",
+    "gloss": "our",
+    "transliteration": "asmākam",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अस्माकं विद्यालयः बृहन् अस्ति।",
+        "text": "Our school is big.",
+        "cloze_word": "अस्माकं",
+        "transliteration": "asmākaṃ vidyālayaḥ bṛhan asti.",
+        "words": [
+          {
+            "word": "अस्माकं",
+            "gloss": "our",
+            "transliteration": "asmākaṃ",
+            "note": "target"
+          },
+          {
+            "word": "विद्यालयः",
+            "gloss": "school",
+            "transliteration": "vidyālayaḥ"
+          },
+          {
+            "word": "बृहन्",
+            "gloss": "big",
+            "transliteration": "bṛhan"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "एतत् अस्माकं क्षेत्रम्।",
+        "text": "This is our field.",
+        "cloze_word": "अस्माकं",
+        "transliteration": "etat asmākaṃ kṣetram.",
+        "words": [
+          {
+            "word": "एतत्",
+            "gloss": "this",
+            "transliteration": "etat"
+          },
+          {
+            "word": "अस्माकं",
+            "gloss": "our",
+            "transliteration": "asmākaṃ",
+            "note": "target"
+          },
+          {
+            "word": "क्षेत्रम्",
+            "gloss": "field",
+            "transliteration": "kṣetram"
+          }
+        ]
+      },
+      {
+        "target": "अस्माकं शिक्षकः अतीव सज्जनः।",
+        "text": "Our teacher is a very good man.",
+        "cloze_word": "अस्माकं",
+        "transliteration": "asmākaṃ śikṣakaḥ atīva sajjanaḥ.",
+        "words": [
+          {
+            "word": "अस्माकं",
+            "gloss": "our",
+            "transliteration": "asmākaṃ",
+            "note": "target"
+          },
+          {
+            "word": "शिक्षकः",
+            "gloss": "teacher",
+            "transliteration": "śikṣakaḥ"
+          },
+          {
+            "word": "अतीव",
+            "gloss": "very",
+            "transliteration": "atīva"
+          },
+          {
+            "word": "सज्जनः",
+            "gloss": "good person",
+            "transliteration": "sajjanaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 26,
+    "word": "कः",
+    "gloss": "who",
+    "transliteration": "kaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "कः द्वारे तिष्ठति?",
+        "text": "Who is standing at the door?",
+        "cloze_word": "कः",
+        "transliteration": "kaḥ dvāre tiṣṭhati?",
+        "words": [
+          {
+            "word": "कः",
+            "gloss": "who",
+            "transliteration": "kaḥ",
+            "note": "target"
+          },
+          {
+            "word": "द्वारे",
+            "gloss": "at the door",
+            "transliteration": "dvāre"
+          },
+          {
+            "word": "तिष्ठति",
+            "gloss": "stands; is parked",
+            "transliteration": "tiṣṭhati"
+          }
+        ]
+      },
+      {
+        "target": "सः कः अस्ति?",
+        "text": "Who is he?",
+        "cloze_word": "कः",
+        "transliteration": "saḥ kaḥ asti?",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "कः",
+            "gloss": "who",
+            "transliteration": "kaḥ",
+            "note": "target"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "अद्य कः आगमिष्यति?",
+        "text": "Who will come today?",
+        "cloze_word": "कः",
+        "transliteration": "adya kaḥ āgamiṣyati?",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "कः",
+            "gloss": "who",
+            "transliteration": "kaḥ",
+            "note": "target"
+          },
+          {
+            "word": "आगमिष्यति",
+            "gloss": "will come",
+            "transliteration": "āgamiṣyati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 27,
+    "word": "किम्",
+    "gloss": "what",
+    "transliteration": "kim",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "त्वं किं पठसि?",
+        "text": "What are you reading?",
+        "cloze_word": "किं",
+        "transliteration": "tvaṃ kiṃ paṭhasi?",
+        "words": [
+          {
+            "word": "त्वं",
+            "gloss": "you",
+            "transliteration": "tvaṃ"
+          },
+          {
+            "word": "किं",
+            "gloss": "what",
+            "transliteration": "kiṃ",
+            "note": "target"
+          },
+          {
+            "word": "पठसि",
+            "gloss": "you read",
+            "transliteration": "paṭhasi"
+          }
+        ]
+      },
+      {
+        "target": "एतत् किम् अस्ति?",
+        "text": "What is this?",
+        "cloze_word": "किम्",
+        "transliteration": "etat kim asti?",
+        "words": [
+          {
+            "word": "एतत्",
+            "gloss": "this",
+            "transliteration": "etat"
+          },
+          {
+            "word": "किम्",
+            "gloss": "what",
+            "transliteration": "kim",
+            "note": "target"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "अद्य भोजने किम् अस्ति?",
+        "text": "What is there for dinner today?",
+        "cloze_word": "किम्",
+        "transliteration": "adya bhojane kim asti?",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "भोजने",
+            "gloss": "for the meal",
+            "transliteration": "bhojane"
+          },
+          {
+            "word": "किम्",
+            "gloss": "what",
+            "transliteration": "kim",
+            "note": "target"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 28,
+    "word": "कुत्र",
+    "gloss": "where",
+    "transliteration": "kutra",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "भवान् कुत्र वसति?",
+        "text": "Where do you live?",
+        "cloze_word": "कुत्र",
+        "transliteration": "bhavān kutra vasati?",
+        "words": [
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra",
+            "note": "target"
+          },
+          {
+            "word": "वसति",
+            "gloss": "lives",
+            "transliteration": "vasati"
+          }
+        ]
+      },
+      {
+        "target": "मम कुञ्चिका कुत्र अस्ति?",
+        "text": "Where is my key?",
+        "cloze_word": "कुत्र",
+        "transliteration": "mama kuñcikā kutra asti?",
+        "words": [
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "कुञ्चिका",
+            "gloss": "key",
+            "transliteration": "kuñcikā"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra",
+            "note": "target"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "कुत्र गच्छन्ति बालकाः?",
+        "text": "Where are the boys going?",
+        "cloze_word": "कुत्र",
+        "transliteration": "kutra gacchanti bālakāḥ?",
+        "words": [
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra",
+            "note": "target"
+          },
+          {
+            "word": "गच्छन्ति",
+            "gloss": "they go",
+            "transliteration": "gacchanti"
+          },
+          {
+            "word": "बालकाः",
+            "gloss": "boys",
+            "transliteration": "bālakāḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 29,
+    "word": "कदा",
+    "gloss": "when",
+    "transliteration": "kadā",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "भवान् कदा आगमिष्यति?",
+        "text": "When will you come?",
+        "cloze_word": "कदा",
+        "transliteration": "bhavān kadā āgamiṣyati?",
+        "words": [
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān"
+          },
+          {
+            "word": "कदा",
+            "gloss": "when",
+            "transliteration": "kadā",
+            "note": "target"
+          },
+          {
+            "word": "आगमिष्यति",
+            "gloss": "will come",
+            "transliteration": "āgamiṣyati"
+          }
+        ]
+      },
+      {
+        "target": "विद्यालयः कदा आरभते?",
+        "text": "When does school begin?",
+        "cloze_word": "कदा",
+        "transliteration": "vidyālayaḥ kadā ārabhate?",
+        "words": [
+          {
+            "word": "विद्यालयः",
+            "gloss": "school",
+            "transliteration": "vidyālayaḥ"
+          },
+          {
+            "word": "कदा",
+            "gloss": "when",
+            "transliteration": "kadā",
+            "note": "target"
+          },
+          {
+            "word": "आरभते",
+            "gloss": "begins",
+            "transliteration": "ārabhate"
+          }
+        ]
+      },
+      {
+        "target": "कदा वयं भोजनं करिष्यामः?",
+        "text": "When shall we eat?",
+        "cloze_word": "कदा",
+        "transliteration": "kadā vayaṃ bhojanaṃ kariṣyāmaḥ?",
+        "words": [
+          {
+            "word": "कदा",
+            "gloss": "when",
+            "transliteration": "kadā",
+            "note": "target"
+          },
+          {
+            "word": "वयं",
+            "gloss": "we",
+            "transliteration": "vayaṃ"
+          },
+          {
+            "word": "भोजनं",
+            "gloss": "food; meal",
+            "transliteration": "bhojanaṃ"
+          },
+          {
+            "word": "करिष्यामः",
+            "gloss": "we will do",
+            "transliteration": "kariṣyāmaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 30,
+    "word": "कथम्",
+    "gloss": "how",
+    "transliteration": "katham",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "भवान् कथम् अस्ति?",
+        "text": "How are you?",
+        "cloze_word": "कथम्",
+        "transliteration": "bhavān katham asti?",
+        "words": [
+          {
+            "word": "भवान्",
+            "gloss": "you (sir)",
+            "transliteration": "bhavān"
+          },
+          {
+            "word": "कथम्",
+            "gloss": "how",
+            "transliteration": "katham",
+            "note": "target"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "कथं ग्रामं गच्छामि?",
+        "text": "How do I get to the village?",
+        "cloze_word": "कथं",
+        "transliteration": "kathaṃ grāmaṃ gacchāmi?",
+        "words": [
+          {
+            "word": "कथं",
+            "gloss": "how",
+            "transliteration": "kathaṃ",
+            "note": "target"
+          },
+          {
+            "word": "ग्रामं",
+            "gloss": "village (object)",
+            "transliteration": "grāmaṃ"
+          },
+          {
+            "word": "गच्छामि",
+            "gloss": "I go",
+            "transliteration": "gacchāmi"
+          }
+        ]
+      },
+      {
+        "target": "एतत् कथं लिख्यते?",
+        "text": "How is this written?",
+        "cloze_word": "कथं",
+        "transliteration": "etat kathaṃ likhyate?",
+        "words": [
+          {
+            "word": "एतत्",
+            "gloss": "this",
+            "transliteration": "etat"
+          },
+          {
+            "word": "कथं",
+            "gloss": "how",
+            "transliteration": "kathaṃ",
+            "note": "target"
+          },
+          {
+            "word": "लिख्यते",
+            "gloss": "is written",
+            "transliteration": "likhyate"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 31,
+    "word": "किमर्थम्",
+    "gloss": "why",
+    "transliteration": "kimartham",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "त्वं किमर्थं रोदिषि?",
+        "text": "Why are you crying?",
+        "cloze_word": "किमर्थं",
+        "transliteration": "tvaṃ kimarthaṃ rodiṣi?",
+        "words": [
+          {
+            "word": "त्वं",
+            "gloss": "you",
+            "transliteration": "tvaṃ"
+          },
+          {
+            "word": "किमर्थं",
+            "gloss": "why",
+            "transliteration": "kimarthaṃ",
+            "note": "target"
+          },
+          {
+            "word": "रोदिषि",
+            "gloss": "you cry",
+            "transliteration": "rodiṣi"
+          }
+        ]
+      },
+      {
+        "target": "सः किमर्थम् अद्य न आगतः?",
+        "text": "Why didn't he come today?",
+        "cloze_word": "किमर्थम्",
+        "transliteration": "saḥ kimartham adya na āgataḥ?",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "किमर्थम्",
+            "gloss": "why",
+            "transliteration": "kimartham",
+            "note": "target"
+          },
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na"
+          },
+          {
+            "word": "आगतः",
+            "gloss": "came; has come",
+            "transliteration": "āgataḥ"
+          }
+        ]
+      },
+      {
+        "target": "किमर्थं द्वारं पिहितम् अस्ति?",
+        "text": "Why is the door closed?",
+        "cloze_word": "किमर्थं",
+        "transliteration": "kimarthaṃ dvāraṃ pihitam asti?",
+        "words": [
+          {
+            "word": "किमर्थं",
+            "gloss": "why",
+            "transliteration": "kimarthaṃ",
+            "note": "target"
+          },
+          {
+            "word": "द्वारं",
+            "gloss": "door",
+            "transliteration": "dvāraṃ"
+          },
+          {
+            "word": "पिहितम्",
+            "gloss": "closed",
+            "transliteration": "pihitam"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 32,
+    "word": "कति",
+    "gloss": "how many",
+    "transliteration": "kati",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "तव गृहे कति जनाः सन्ति?",
+        "text": "How many people are there in your house?",
+        "cloze_word": "कति",
+        "transliteration": "tava gṛhe kati janāḥ santi?",
+        "words": [
+          {
+            "word": "तव",
+            "gloss": "your",
+            "transliteration": "tava"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "कति",
+            "gloss": "how many",
+            "transliteration": "kati",
+            "note": "target"
+          },
+          {
+            "word": "जनाः",
+            "gloss": "people",
+            "transliteration": "janāḥ"
+          },
+          {
+            "word": "सन्ति",
+            "gloss": "are",
+            "transliteration": "santi"
+          }
+        ]
+      },
+      {
+        "target": "कति वादनम्?",
+        "text": "What time is it?",
+        "cloze_word": "कति",
+        "transliteration": "kati vādanam?",
+        "words": [
+          {
+            "word": "कति",
+            "gloss": "how many",
+            "transliteration": "kati",
+            "note": "target"
+          },
+          {
+            "word": "वादनम्",
+            "gloss": "o'clock",
+            "transliteration": "vādanam"
+          }
+        ]
+      },
+      {
+        "target": "भवतः कति भ्रातरः सन्ति?",
+        "text": "How many brothers do you have?",
+        "cloze_word": "कति",
+        "transliteration": "bhavataḥ kati bhrātaraḥ santi?",
+        "words": [
+          {
+            "word": "भवतः",
+            "gloss": "your (sir); of you",
+            "transliteration": "bhavataḥ"
+          },
+          {
+            "word": "कति",
+            "gloss": "how many",
+            "transliteration": "kati",
+            "note": "target"
+          },
+          {
+            "word": "भ्रातरः",
+            "gloss": "brothers",
+            "transliteration": "bhrātaraḥ"
+          },
+          {
+            "word": "सन्ति",
+            "gloss": "are",
+            "transliteration": "santi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 33,
+    "word": "कियत्",
+    "gloss": "how much",
+    "transliteration": "kiyat",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "एतस्य फलस्य कियत् मूल्यम्?",
+        "text": "How much does this fruit cost?",
+        "cloze_word": "कियत्",
+        "transliteration": "etasya phalasya kiyat mūlyam?",
+        "words": [
+          {
+            "word": "एतस्य",
+            "gloss": "of this",
+            "transliteration": "etasya"
+          },
+          {
+            "word": "फलस्य",
+            "gloss": "of the fruit",
+            "transliteration": "phalasya"
+          },
+          {
+            "word": "कियत्",
+            "gloss": "how much",
+            "transliteration": "kiyat",
+            "note": "target"
+          },
+          {
+            "word": "मूल्यम्",
+            "gloss": "price",
+            "transliteration": "mūlyam"
+          }
+        ]
+      },
+      {
+        "target": "कियत् दुग्धं पर्याप्तम्?",
+        "text": "How much milk is enough?",
+        "cloze_word": "कियत्",
+        "transliteration": "kiyat dugdhaṃ paryāptam?",
+        "words": [
+          {
+            "word": "कियत्",
+            "gloss": "how much",
+            "transliteration": "kiyat",
+            "note": "target"
+          },
+          {
+            "word": "दुग्धं",
+            "gloss": "milk",
+            "transliteration": "dugdhaṃ"
+          },
+          {
+            "word": "पर्याप्तम्",
+            "gloss": "enough",
+            "transliteration": "paryāptam"
+          }
+        ]
+      },
+      {
+        "target": "ग्रामः कियत् दूरे अस्ति?",
+        "text": "How far is the village?",
+        "cloze_word": "कियत्",
+        "transliteration": "grāmaḥ kiyat dūre asti?",
+        "words": [
+          {
+            "word": "ग्रामः",
+            "gloss": "village",
+            "transliteration": "grāmaḥ"
+          },
+          {
+            "word": "कियत्",
+            "gloss": "how much",
+            "transliteration": "kiyat",
+            "note": "target"
+          },
+          {
+            "word": "दूरे",
+            "gloss": "far",
+            "transliteration": "dūre"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 34,
+    "word": "अत्र",
+    "gloss": "here",
+    "transliteration": "atra",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अत्र उपविशतु।",
+        "text": "Sit here.",
+        "cloze_word": "अत्र",
+        "transliteration": "atra upaviśatu.",
+        "words": [
+          {
+            "word": "अत्र",
+            "gloss": "here",
+            "transliteration": "atra",
+            "note": "target"
+          },
+          {
+            "word": "उपविशतु",
+            "gloss": "please sit",
+            "transliteration": "upaviśatu"
+          }
+        ]
+      },
+      {
+        "target": "मम गृहम् अत्र एव अस्ति।",
+        "text": "My house is right here.",
+        "cloze_word": "अत्र",
+        "transliteration": "mama gṛham atra eva asti.",
+        "words": [
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "गृहम्",
+            "gloss": "house; home",
+            "transliteration": "gṛham"
+          },
+          {
+            "word": "अत्र",
+            "gloss": "here",
+            "transliteration": "atra",
+            "note": "target"
+          },
+          {
+            "word": "एव",
+            "gloss": "only; indeed",
+            "transliteration": "eva"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "अत्र जलं शीतलम् अस्ति।",
+        "text": "The water here is cool.",
+        "cloze_word": "अत्र",
+        "transliteration": "atra jalaṃ śītalam asti.",
+        "words": [
+          {
+            "word": "अत्र",
+            "gloss": "here",
+            "transliteration": "atra",
+            "note": "target"
+          },
+          {
+            "word": "जलं",
+            "gloss": "water",
+            "transliteration": "jalaṃ"
+          },
+          {
+            "word": "शीतलम्",
+            "gloss": "cool",
+            "transliteration": "śītalam"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 35,
+    "word": "तत्र",
+    "gloss": "there",
+    "transliteration": "tatra",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "तत्र एकः वृक्षः अस्ति।",
+        "text": "There is a tree there.",
+        "cloze_word": "तत्र",
+        "transliteration": "tatra ekaḥ vṛkṣaḥ asti.",
+        "words": [
+          {
+            "word": "तत्र",
+            "gloss": "there",
+            "transliteration": "tatra",
+            "note": "target"
+          },
+          {
+            "word": "एकः",
+            "gloss": "one; a",
+            "transliteration": "ekaḥ"
+          },
+          {
+            "word": "वृक्षः",
+            "gloss": "tree",
+            "transliteration": "vṛkṣaḥ"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "मम मित्रं तत्र वसति।",
+        "text": "My friend lives there.",
+        "cloze_word": "तत्र",
+        "transliteration": "mama mitraṃ tatra vasati.",
+        "words": [
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "मित्रं",
+            "gloss": "friend",
+            "transliteration": "mitraṃ"
+          },
+          {
+            "word": "तत्र",
+            "gloss": "there",
+            "transliteration": "tatra",
+            "note": "target"
+          },
+          {
+            "word": "वसति",
+            "gloss": "lives",
+            "transliteration": "vasati"
+          }
+        ]
+      },
+      {
+        "target": "किं तत्र आपणः अस्ति?",
+        "text": "Is there a shop there?",
+        "cloze_word": "तत्र",
+        "transliteration": "kiṃ tatra āpaṇaḥ asti?",
+        "words": [
+          {
+            "word": "किं",
+            "gloss": "what",
+            "transliteration": "kiṃ"
+          },
+          {
+            "word": "तत्र",
+            "gloss": "there",
+            "transliteration": "tatra",
+            "note": "target"
+          },
+          {
+            "word": "आपणः",
+            "gloss": "shop",
+            "transliteration": "āpaṇaḥ"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 36,
+    "word": "अद्य",
+    "gloss": "today",
+    "transliteration": "adya",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अद्य रविवासरः।",
+        "text": "Today is Sunday.",
+        "cloze_word": "अद्य",
+        "transliteration": "adya ravivāsaraḥ.",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya",
+            "note": "target"
+          },
+          {
+            "word": "रविवासरः",
+            "gloss": "Sunday",
+            "transliteration": "ravivāsaraḥ"
+          }
+        ]
+      },
+      {
+        "target": "अद्य विद्यालयः नास्ति।",
+        "text": "There is no school today.",
+        "cloze_word": "अद्य",
+        "transliteration": "adya vidyālayaḥ nāsti.",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya",
+            "note": "target"
+          },
+          {
+            "word": "विद्यालयः",
+            "gloss": "school",
+            "transliteration": "vidyālayaḥ"
+          },
+          {
+            "word": "नास्ति",
+            "gloss": "is not",
+            "transliteration": "nāsti"
+          }
+        ]
+      },
+      {
+        "target": "अद्य माता पायसं पचति।",
+        "text": "Today Mother is making rice pudding.",
+        "cloze_word": "अद्य",
+        "transliteration": "adya mātā pāyasaṃ pacati.",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya",
+            "note": "target"
+          },
+          {
+            "word": "माता",
+            "gloss": "mother",
+            "transliteration": "mātā"
+          },
+          {
+            "word": "पायसं",
+            "gloss": "rice pudding",
+            "transliteration": "pāyasaṃ"
+          },
+          {
+            "word": "पचति",
+            "gloss": "cooks",
+            "transliteration": "pacati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 37,
+    "word": "श्वः",
+    "gloss": "tomorrow",
+    "transliteration": "śvaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "श्वः अहं ग्रामं गमिष्यामि।",
+        "text": "Tomorrow I will go to the village.",
+        "cloze_word": "श्वः",
+        "transliteration": "śvaḥ ahaṃ grāmaṃ gamiṣyāmi.",
+        "words": [
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ",
+            "note": "target"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "ग्रामं",
+            "gloss": "village (object)",
+            "transliteration": "grāmaṃ"
+          },
+          {
+            "word": "गमिष्यामि",
+            "gloss": "I will go",
+            "transliteration": "gamiṣyāmi"
+          }
+        ]
+      },
+      {
+        "target": "श्वः परीक्षा भविष्यति।",
+        "text": "There will be an exam tomorrow.",
+        "cloze_word": "श्वः",
+        "transliteration": "śvaḥ parīkṣā bhaviṣyati.",
+        "words": [
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ",
+            "note": "target"
+          },
+          {
+            "word": "परीक्षा",
+            "gloss": "exam",
+            "transliteration": "parīkṣā"
+          },
+          {
+            "word": "भविष्यति",
+            "gloss": "will be",
+            "transliteration": "bhaviṣyati"
+          }
+        ]
+      },
+      {
+        "target": "श्वः मिलामः।",
+        "text": "See you tomorrow.",
+        "cloze_word": "श्वः",
+        "transliteration": "śvaḥ milāmaḥ.",
+        "words": [
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ",
+            "note": "target"
+          },
+          {
+            "word": "मिलामः",
+            "gloss": "we meet",
+            "transliteration": "milāmaḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 38,
+    "word": "ह्यः",
+    "gloss": "yesterday",
+    "transliteration": "hyaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "ह्यः वर्षा अभवत्।",
+        "text": "It rained yesterday.",
+        "cloze_word": "ह्यः",
+        "transliteration": "hyaḥ varṣā abhavat.",
+        "words": [
+          {
+            "word": "ह्यः",
+            "gloss": "yesterday",
+            "transliteration": "hyaḥ",
+            "note": "target"
+          },
+          {
+            "word": "वर्षा",
+            "gloss": "rain",
+            "transliteration": "varṣā"
+          },
+          {
+            "word": "अभवत्",
+            "gloss": "was; happened",
+            "transliteration": "abhavat"
+          }
+        ]
+      },
+      {
+        "target": "ह्यः अहं मन्दिरं गतवान्।",
+        "text": "Yesterday I went to the temple.",
+        "cloze_word": "ह्यः",
+        "transliteration": "hyaḥ ahaṃ mandiraṃ gatavān.",
+        "words": [
+          {
+            "word": "ह्यः",
+            "gloss": "yesterday",
+            "transliteration": "hyaḥ",
+            "note": "target"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "मन्दिरं",
+            "gloss": "temple",
+            "transliteration": "mandiraṃ"
+          },
+          {
+            "word": "गतवान्",
+            "gloss": "went",
+            "transliteration": "gatavān"
+          }
+        ]
+      },
+      {
+        "target": "ह्यः त्वं कुत्र आसीः?",
+        "text": "Where were you yesterday?",
+        "cloze_word": "ह्यः",
+        "transliteration": "hyaḥ tvaṃ kutra āsīḥ?",
+        "words": [
+          {
+            "word": "ह्यः",
+            "gloss": "yesterday",
+            "transliteration": "hyaḥ",
+            "note": "target"
+          },
+          {
+            "word": "त्वं",
+            "gloss": "you",
+            "transliteration": "tvaṃ"
+          },
+          {
+            "word": "कुत्र",
+            "gloss": "where",
+            "transliteration": "kutra"
+          },
+          {
+            "word": "आसीः",
+            "gloss": "you were",
+            "transliteration": "āsīḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 39,
+    "word": "इदानीम्",
+    "gloss": "now",
+    "transliteration": "idānīm",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "इदानीं पञ्च वादनम्।",
+        "text": "It is five o'clock now.",
+        "cloze_word": "इदानीं",
+        "transliteration": "idānīṃ pañca vādanam.",
+        "words": [
+          {
+            "word": "इदानीं",
+            "gloss": "now",
+            "transliteration": "idānīṃ",
+            "note": "target"
+          },
+          {
+            "word": "पञ्च",
+            "gloss": "five",
+            "transliteration": "pañca"
+          },
+          {
+            "word": "वादनम्",
+            "gloss": "o'clock",
+            "transliteration": "vādanam"
+          }
+        ]
+      },
+      {
+        "target": "इदानीं भोजनस्य समयः।",
+        "text": "Now it is time to eat.",
+        "cloze_word": "इदानीं",
+        "transliteration": "idānīṃ bhojanasya samayaḥ.",
+        "words": [
+          {
+            "word": "इदानीं",
+            "gloss": "now",
+            "transliteration": "idānīṃ",
+            "note": "target"
+          },
+          {
+            "word": "भोजनस्य",
+            "gloss": "of eating; meal",
+            "transliteration": "bhojanasya"
+          },
+          {
+            "word": "समयः",
+            "gloss": "time",
+            "transliteration": "samayaḥ"
+          }
+        ]
+      },
+      {
+        "target": "पिता इदानीं कार्यालये अस्ति।",
+        "text": "Father is at the office now.",
+        "cloze_word": "इदानीं",
+        "transliteration": "pitā idānīṃ kāryālaye asti.",
+        "words": [
+          {
+            "word": "पिता",
+            "gloss": "father",
+            "transliteration": "pitā"
+          },
+          {
+            "word": "इदानीं",
+            "gloss": "now",
+            "transliteration": "idānīṃ",
+            "note": "target"
+          },
+          {
+            "word": "कार्यालये",
+            "gloss": "at the office",
+            "transliteration": "kāryālaye"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 40,
+    "word": "अपि",
+    "gloss": "also",
+    "transliteration": "api",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहम् अपि आगच्छामि।",
+        "text": "I am coming too.",
+        "cloze_word": "अपि",
+        "transliteration": "aham api āgacchāmi.",
+        "words": [
+          {
+            "word": "अहम्",
+            "gloss": "I",
+            "transliteration": "aham"
+          },
+          {
+            "word": "अपि",
+            "gloss": "also; even",
+            "transliteration": "api",
+            "note": "target"
+          },
+          {
+            "word": "आगच्छामि",
+            "gloss": "I come",
+            "transliteration": "āgacchāmi"
+          }
+        ]
+      },
+      {
+        "target": "मम भगिनी अपि छात्रा अस्ति।",
+        "text": "My sister is also a student.",
+        "cloze_word": "अपि",
+        "transliteration": "mama bhaginī api chātrā asti.",
+        "words": [
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "भगिनी",
+            "gloss": "sister",
+            "transliteration": "bhaginī"
+          },
+          {
+            "word": "अपि",
+            "gloss": "also; even",
+            "transliteration": "api",
+            "note": "target"
+          },
+          {
+            "word": "छात्रा",
+            "gloss": "student (f.)",
+            "transliteration": "chātrā"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "सः फलं खादति, दुग्धम् अपि पिबति।",
+        "text": "He eats fruit and also drinks milk.",
+        "cloze_word": "अपि",
+        "transliteration": "saḥ phalaṃ khādati, dugdham api pibati.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "फलं",
+            "gloss": "fruit",
+            "transliteration": "phalaṃ"
+          },
+          {
+            "word": "खादति,",
+            "gloss": "eats",
+            "transliteration": "khādati,"
+          },
+          {
+            "word": "दुग्धम्",
+            "gloss": "milk",
+            "transliteration": "dugdham"
+          },
+          {
+            "word": "अपि",
+            "gloss": "also; even",
+            "transliteration": "api",
+            "note": "target"
+          },
+          {
+            "word": "पिबति",
+            "gloss": "drinks",
+            "transliteration": "pibati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 41,
+    "word": "च",
+    "gloss": "and",
+    "transliteration": "ca",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "रामः सीता च वनं गच्छतः।",
+        "text": "Rama and Sita go to the forest.",
+        "cloze_word": "च",
+        "transliteration": "rāmaḥ sītā ca vanaṃ gacchataḥ.",
+        "words": [
+          {
+            "word": "रामः",
+            "gloss": "Rama",
+            "transliteration": "rāmaḥ"
+          },
+          {
+            "word": "सीता",
+            "gloss": "Sita",
+            "transliteration": "sītā"
+          },
+          {
+            "word": "च",
+            "gloss": "and",
+            "transliteration": "ca",
+            "note": "target"
+          },
+          {
+            "word": "वनं",
+            "gloss": "forest",
+            "transliteration": "vanaṃ"
+          },
+          {
+            "word": "गच्छतः",
+            "gloss": "(two) go",
+            "transliteration": "gacchataḥ"
+          }
+        ]
+      },
+      {
+        "target": "अहं फलं दुग्धं च इच्छामि।",
+        "text": "I want fruit and milk.",
+        "cloze_word": "च",
+        "transliteration": "ahaṃ phalaṃ dugdhaṃ ca icchāmi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "फलं",
+            "gloss": "fruit",
+            "transliteration": "phalaṃ"
+          },
+          {
+            "word": "दुग्धं",
+            "gloss": "milk",
+            "transliteration": "dugdhaṃ"
+          },
+          {
+            "word": "च",
+            "gloss": "and",
+            "transliteration": "ca",
+            "note": "target"
+          },
+          {
+            "word": "इच्छामि",
+            "gloss": "I want",
+            "transliteration": "icchāmi"
+          }
+        ]
+      },
+      {
+        "target": "माता पिता च गृहे स्तः।",
+        "text": "Mother and Father are at home.",
+        "cloze_word": "च",
+        "transliteration": "mātā pitā ca gṛhe staḥ.",
+        "words": [
+          {
+            "word": "माता",
+            "gloss": "mother",
+            "transliteration": "mātā"
+          },
+          {
+            "word": "पिता",
+            "gloss": "father",
+            "transliteration": "pitā"
+          },
+          {
+            "word": "च",
+            "gloss": "and",
+            "transliteration": "ca",
+            "note": "target"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "स्तः",
+            "gloss": "are (two)",
+            "transliteration": "staḥ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 42,
+    "word": "वा",
+    "gloss": "or",
+    "transliteration": "vā",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "चायं वा दुग्धं वा?",
+        "text": "Tea or milk?",
+        "cloze_word": "वा",
+        "transliteration": "cāyaṃ vā dugdhaṃ vā?",
+        "words": [
+          {
+            "word": "चायं",
+            "gloss": "tea",
+            "transliteration": "cāyaṃ"
+          },
+          {
+            "word": "वा",
+            "gloss": "or",
+            "transliteration": "vā",
+            "note": "target"
+          },
+          {
+            "word": "दुग्धं",
+            "gloss": "milk",
+            "transliteration": "dugdhaṃ"
+          },
+          {
+            "word": "वा",
+            "gloss": "or",
+            "transliteration": "vā"
+          }
+        ]
+      },
+      {
+        "target": "श्वः वा परश्वः वा आगच्छतु।",
+        "text": "Come tomorrow or the day after.",
+        "cloze_word": "वा",
+        "transliteration": "śvaḥ vā paraśvaḥ vā āgacchatu.",
+        "words": [
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ"
+          },
+          {
+            "word": "वा",
+            "gloss": "or",
+            "transliteration": "vā",
+            "note": "target"
+          },
+          {
+            "word": "परश्वः",
+            "gloss": "day after tomorrow",
+            "transliteration": "paraśvaḥ"
+          },
+          {
+            "word": "वा",
+            "gloss": "or",
+            "transliteration": "vā"
+          },
+          {
+            "word": "आगच्छतु",
+            "gloss": "please come",
+            "transliteration": "āgacchatu"
+          }
+        ]
+      },
+      {
+        "target": "फलं वा मोदकं वा खाद।",
+        "text": "Eat a fruit or a sweet.",
+        "cloze_word": "वा",
+        "transliteration": "phalaṃ vā modakaṃ vā khāda.",
+        "words": [
+          {
+            "word": "फलं",
+            "gloss": "fruit",
+            "transliteration": "phalaṃ"
+          },
+          {
+            "word": "वा",
+            "gloss": "or",
+            "transliteration": "vā",
+            "note": "target"
+          },
+          {
+            "word": "मोदकं",
+            "gloss": "modaka; sweet",
+            "transliteration": "modakaṃ"
+          },
+          {
+            "word": "वा",
+            "gloss": "or",
+            "transliteration": "vā"
+          },
+          {
+            "word": "खाद",
+            "gloss": "eat",
+            "transliteration": "khāda"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 43,
+    "word": "किन्तु",
+    "gloss": "but",
+    "transliteration": "kintu",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहं गन्तुम् इच्छामि, किन्तु समयः नास्ति।",
+        "text": "I want to go, but there is no time.",
+        "cloze_word": "किन्तु",
+        "transliteration": "ahaṃ gantum icchāmi, kintu samayaḥ nāsti.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "गन्तुम्",
+            "gloss": "to go",
+            "transliteration": "gantum"
+          },
+          {
+            "word": "इच्छामि,",
+            "gloss": "I want",
+            "transliteration": "icchāmi,"
+          },
+          {
+            "word": "किन्तु",
+            "gloss": "but",
+            "transliteration": "kintu",
+            "note": "target"
+          },
+          {
+            "word": "समयः",
+            "gloss": "time",
+            "transliteration": "samayaḥ"
+          },
+          {
+            "word": "नास्ति",
+            "gloss": "is not",
+            "transliteration": "nāsti"
+          }
+        ]
+      },
+      {
+        "target": "गृहं लघु, किन्तु सुन्दरम्।",
+        "text": "The house is small but beautiful.",
+        "cloze_word": "किन्तु",
+        "transliteration": "gṛhaṃ laghu, kintu sundaram.",
+        "words": [
+          {
+            "word": "गृहं",
+            "gloss": "house; home",
+            "transliteration": "gṛhaṃ"
+          },
+          {
+            "word": "लघु,",
+            "gloss": "light",
+            "transliteration": "laghu,"
+          },
+          {
+            "word": "किन्तु",
+            "gloss": "but",
+            "transliteration": "kintu",
+            "note": "target"
+          },
+          {
+            "word": "सुन्दरम्",
+            "gloss": "beautiful; beautifully",
+            "transliteration": "sundaram"
+          }
+        ]
+      },
+      {
+        "target": "सः धनिकः, किन्तु सुखी न।",
+        "text": "He is rich, but not happy.",
+        "cloze_word": "किन्तु",
+        "transliteration": "saḥ dhanikaḥ, kintu sukhī na.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "धनिकः,",
+            "gloss": "rich",
+            "transliteration": "dhanikaḥ,"
+          },
+          {
+            "word": "किन्तु",
+            "gloss": "but",
+            "transliteration": "kintu",
+            "note": "target"
+          },
+          {
+            "word": "सुखी",
+            "gloss": "happy",
+            "transliteration": "sukhī"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 44,
+    "word": "यतः",
+    "gloss": "because",
+    "transliteration": "yataḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहं जलं पिबामि यतः पिपासितः अस्मि।",
+        "text": "I am drinking water because I am thirsty.",
+        "cloze_word": "यतः",
+        "transliteration": "ahaṃ jalaṃ pibāmi yataḥ pipāsitaḥ asmi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "जलं",
+            "gloss": "water",
+            "transliteration": "jalaṃ"
+          },
+          {
+            "word": "पिबामि",
+            "gloss": "I drink",
+            "transliteration": "pibāmi"
+          },
+          {
+            "word": "यतः",
+            "gloss": "because",
+            "transliteration": "yataḥ",
+            "note": "target"
+          },
+          {
+            "word": "पिपासितः",
+            "gloss": "thirsty",
+            "transliteration": "pipāsitaḥ"
+          },
+          {
+            "word": "अस्मि",
+            "gloss": "am",
+            "transliteration": "asmi"
+          }
+        ]
+      },
+      {
+        "target": "सः न आगतः यतः रुग्णः अस्ति।",
+        "text": "He did not come because he is ill.",
+        "cloze_word": "यतः",
+        "transliteration": "saḥ na āgataḥ yataḥ rugṇaḥ asti.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na"
+          },
+          {
+            "word": "आगतः",
+            "gloss": "came; has come",
+            "transliteration": "āgataḥ"
+          },
+          {
+            "word": "यतः",
+            "gloss": "because",
+            "transliteration": "yataḥ",
+            "note": "target"
+          },
+          {
+            "word": "रुग्णः",
+            "gloss": "sick person; ill",
+            "transliteration": "rugṇaḥ"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      },
+      {
+        "target": "वयं गृहे तिष्ठामः यतः बहिः वर्षा अस्ति।",
+        "text": "We are staying at home because it is raining outside.",
+        "cloze_word": "यतः",
+        "transliteration": "vayaṃ gṛhe tiṣṭhāmaḥ yataḥ bahiḥ varṣā asti.",
+        "words": [
+          {
+            "word": "वयं",
+            "gloss": "we",
+            "transliteration": "vayaṃ"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "तिष्ठामः",
+            "gloss": "we stay",
+            "transliteration": "tiṣṭhāmaḥ"
+          },
+          {
+            "word": "यतः",
+            "gloss": "because",
+            "transliteration": "yataḥ",
+            "note": "target"
+          },
+          {
+            "word": "बहिः",
+            "gloss": "outside",
+            "transliteration": "bahiḥ"
+          },
+          {
+            "word": "वर्षा",
+            "gloss": "rain",
+            "transliteration": "varṣā"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 45,
+    "word": "यदि",
+    "gloss": "if",
+    "transliteration": "yadi",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "यदि वर्षा भवति, वयं गृहे एव क्रीडामः।",
+        "text": "If it rains, we will play at home.",
+        "cloze_word": "यदि",
+        "transliteration": "yadi varṣā bhavati, vayaṃ gṛhe eva krīḍāmaḥ.",
+        "words": [
+          {
+            "word": "यदि",
+            "gloss": "if",
+            "transliteration": "yadi",
+            "note": "target"
+          },
+          {
+            "word": "वर्षा",
+            "gloss": "rain",
+            "transliteration": "varṣā"
+          },
+          {
+            "word": "भवति,",
+            "gloss": "is; becomes",
+            "transliteration": "bhavati,"
+          },
+          {
+            "word": "वयं",
+            "gloss": "we",
+            "transliteration": "vayaṃ"
+          },
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "एव",
+            "gloss": "only; indeed",
+            "transliteration": "eva"
+          },
+          {
+            "word": "क्रीडामः",
+            "gloss": "we play",
+            "transliteration": "krīḍāmaḥ"
+          }
+        ]
+      },
+      {
+        "target": "यदि त्वं श्रान्तः, स्वपिहि।",
+        "text": "If you are tired, sleep.",
+        "cloze_word": "यदि",
+        "transliteration": "yadi tvaṃ śrāntaḥ, svapihi.",
+        "words": [
+          {
+            "word": "यदि",
+            "gloss": "if",
+            "transliteration": "yadi",
+            "note": "target"
+          },
+          {
+            "word": "त्वं",
+            "gloss": "you",
+            "transliteration": "tvaṃ"
+          },
+          {
+            "word": "श्रान्तः,",
+            "gloss": "tired",
+            "transliteration": "śrāntaḥ,"
+          },
+          {
+            "word": "स्वपिहि",
+            "gloss": "sleep",
+            "transliteration": "svapihi"
+          }
+        ]
+      },
+      {
+        "target": "यदि समयः अस्ति, आगच्छतु।",
+        "text": "If you have time, please come.",
+        "cloze_word": "यदि",
+        "transliteration": "yadi samayaḥ asti, āgacchatu.",
+        "words": [
+          {
+            "word": "यदि",
+            "gloss": "if",
+            "transliteration": "yadi",
+            "note": "target"
+          },
+          {
+            "word": "समयः",
+            "gloss": "time",
+            "transliteration": "samayaḥ"
+          },
+          {
+            "word": "अस्ति,",
+            "gloss": "is",
+            "transliteration": "asti,"
+          },
+          {
+            "word": "आगच्छतु",
+            "gloss": "please come",
+            "transliteration": "āgacchatu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 46,
+    "word": "एव",
+    "gloss": "only; indeed",
+    "transliteration": "eva",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहं जलम् एव पिबामि।",
+        "text": "I drink only water.",
+        "cloze_word": "एव",
+        "transliteration": "ahaṃ jalam eva pibāmi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "जलम्",
+            "gloss": "water",
+            "transliteration": "jalam"
+          },
+          {
+            "word": "एव",
+            "gloss": "only; indeed",
+            "transliteration": "eva",
+            "note": "target"
+          },
+          {
+            "word": "पिबामि",
+            "gloss": "I drink",
+            "transliteration": "pibāmi"
+          }
+        ]
+      },
+      {
+        "target": "सः एव मम शिक्षकः।",
+        "text": "He indeed is my teacher.",
+        "cloze_word": "एव",
+        "transliteration": "saḥ eva mama śikṣakaḥ.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "एव",
+            "gloss": "only; indeed",
+            "transliteration": "eva",
+            "note": "target"
+          },
+          {
+            "word": "मम",
+            "gloss": "my",
+            "transliteration": "mama"
+          },
+          {
+            "word": "शिक्षकः",
+            "gloss": "teacher",
+            "transliteration": "śikṣakaḥ"
+          }
+        ]
+      },
+      {
+        "target": "गृहे एकः एव दीपः अस्ति।",
+        "text": "There is only one lamp in the house.",
+        "cloze_word": "एव",
+        "transliteration": "gṛhe ekaḥ eva dīpaḥ asti.",
+        "words": [
+          {
+            "word": "गृहे",
+            "gloss": "at home; in the house",
+            "transliteration": "gṛhe"
+          },
+          {
+            "word": "एकः",
+            "gloss": "one; a",
+            "transliteration": "ekaḥ"
+          },
+          {
+            "word": "एव",
+            "gloss": "only; indeed",
+            "transliteration": "eva",
+            "note": "target"
+          },
+          {
+            "word": "दीपः",
+            "gloss": "lamp",
+            "transliteration": "dīpaḥ"
+          },
+          {
+            "word": "अस्ति",
+            "gloss": "is",
+            "transliteration": "asti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 47,
+    "word": "सह",
+    "gloss": "with",
+    "transliteration": "saha",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "अहं मित्रेण सह क्रीडामि।",
+        "text": "I play with my friend.",
+        "cloze_word": "सह",
+        "transliteration": "ahaṃ mitreṇa saha krīḍāmi.",
+        "words": [
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "मित्रेण",
+            "gloss": "with a friend",
+            "transliteration": "mitreṇa"
+          },
+          {
+            "word": "सह",
+            "gloss": "with",
+            "transliteration": "saha",
+            "note": "target"
+          },
+          {
+            "word": "क्रीडामि",
+            "gloss": "I play",
+            "transliteration": "krīḍāmi"
+          }
+        ]
+      },
+      {
+        "target": "बालिका मात्रा सह आपणं गच्छति।",
+        "text": "The girl goes to the shop with her mother.",
+        "cloze_word": "सह",
+        "transliteration": "bālikā mātrā saha āpaṇaṃ gacchati.",
+        "words": [
+          {
+            "word": "बालिका",
+            "gloss": "girl",
+            "transliteration": "bālikā"
+          },
+          {
+            "word": "मात्रा",
+            "gloss": "with mother",
+            "transliteration": "mātrā"
+          },
+          {
+            "word": "सह",
+            "gloss": "with",
+            "transliteration": "saha",
+            "note": "target"
+          },
+          {
+            "word": "आपणं",
+            "gloss": "shop (object)",
+            "transliteration": "āpaṇaṃ"
+          },
+          {
+            "word": "गच्छति",
+            "gloss": "goes",
+            "transliteration": "gacchati"
+          }
+        ]
+      },
+      {
+        "target": "पिता पुत्रेण सह भोजनं करोति।",
+        "text": "The father eats with his son.",
+        "cloze_word": "सह",
+        "transliteration": "pitā putreṇa saha bhojanaṃ karoti.",
+        "words": [
+          {
+            "word": "पिता",
+            "gloss": "father",
+            "transliteration": "pitā"
+          },
+          {
+            "word": "पुत्रेण",
+            "gloss": "with son",
+            "transliteration": "putreṇa"
+          },
+          {
+            "word": "सह",
+            "gloss": "with",
+            "transliteration": "saha",
+            "note": "target"
+          },
+          {
+            "word": "भोजनं",
+            "gloss": "food; meal",
+            "transliteration": "bhojanaṃ"
+          },
+          {
+            "word": "करोति",
+            "gloss": "does; makes",
+            "transliteration": "karoti"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 48,
+    "word": "विना",
+    "gloss": "without",
+    "transliteration": "vinā",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "जलं विना वृक्षाः न वर्धन्ते।",
+        "text": "Trees do not grow without water.",
+        "cloze_word": "विना",
+        "transliteration": "jalaṃ vinā vṛkṣāḥ na vardhante.",
+        "words": [
+          {
+            "word": "जलं",
+            "gloss": "water",
+            "transliteration": "jalaṃ"
+          },
+          {
+            "word": "विना",
+            "gloss": "without",
+            "transliteration": "vinā",
+            "note": "target"
+          },
+          {
+            "word": "वृक्षाः",
+            "gloss": "trees",
+            "transliteration": "vṛkṣāḥ"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na"
+          },
+          {
+            "word": "वर्धन्ते",
+            "gloss": "grow",
+            "transliteration": "vardhante"
+          }
+        ]
+      },
+      {
+        "target": "सः शर्करां विना चायं पिबति।",
+        "text": "He drinks tea without sugar.",
+        "cloze_word": "विना",
+        "transliteration": "saḥ śarkarāṃ vinā cāyaṃ pibati.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "शर्करां",
+            "gloss": "sugar",
+            "transliteration": "śarkarāṃ"
+          },
+          {
+            "word": "विना",
+            "gloss": "without",
+            "transliteration": "vinā",
+            "note": "target"
+          },
+          {
+            "word": "चायं",
+            "gloss": "tea",
+            "transliteration": "cāyaṃ"
+          },
+          {
+            "word": "पिबति",
+            "gloss": "drinks",
+            "transliteration": "pibati"
+          }
+        ]
+      },
+      {
+        "target": "त्वां विना अहं न गमिष्यामि।",
+        "text": "I will not go without you.",
+        "cloze_word": "विना",
+        "transliteration": "tvāṃ vinā ahaṃ na gamiṣyāmi.",
+        "words": [
+          {
+            "word": "त्वां",
+            "gloss": "you",
+            "transliteration": "tvāṃ"
+          },
+          {
+            "word": "विना",
+            "gloss": "without",
+            "transliteration": "vinā",
+            "note": "target"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "न",
+            "gloss": "not",
+            "transliteration": "na"
+          },
+          {
+            "word": "गमिष्यामि",
+            "gloss": "I will go",
+            "transliteration": "gamiṣyāmi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 49,
+    "word": "पुनः",
+    "gloss": "again",
+    "transliteration": "punaḥ",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "पुनः वदतु।",
+        "text": "Please say it again.",
+        "cloze_word": "पुनः",
+        "transliteration": "punaḥ vadatu.",
+        "words": [
+          {
+            "word": "पुनः",
+            "gloss": "again",
+            "transliteration": "punaḥ",
+            "note": "target"
+          },
+          {
+            "word": "वदतु",
+            "gloss": "please speak",
+            "transliteration": "vadatu"
+          }
+        ]
+      },
+      {
+        "target": "श्वः पुनः आगच्छतु।",
+        "text": "Come again tomorrow.",
+        "cloze_word": "पुनः",
+        "transliteration": "śvaḥ punaḥ āgacchatu.",
+        "words": [
+          {
+            "word": "श्वः",
+            "gloss": "tomorrow",
+            "transliteration": "śvaḥ"
+          },
+          {
+            "word": "पुनः",
+            "gloss": "again",
+            "transliteration": "punaḥ",
+            "note": "target"
+          },
+          {
+            "word": "आगच्छतु",
+            "gloss": "please come",
+            "transliteration": "āgacchatu"
+          }
+        ]
+      },
+      {
+        "target": "सः पाठं पुनः पठति।",
+        "text": "He reads the lesson again.",
+        "cloze_word": "पुनः",
+        "transliteration": "saḥ pāṭhaṃ punaḥ paṭhati.",
+        "words": [
+          {
+            "word": "सः",
+            "gloss": "he; that",
+            "transliteration": "saḥ"
+          },
+          {
+            "word": "पाठं",
+            "gloss": "lesson",
+            "transliteration": "pāṭhaṃ"
+          },
+          {
+            "word": "पुनः",
+            "gloss": "again",
+            "transliteration": "punaḥ",
+            "note": "target"
+          },
+          {
+            "word": "पठति",
+            "gloss": "reads; studies",
+            "transliteration": "paṭhati"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "vocab_index": 50,
+    "word": "शीघ्रम्",
+    "gloss": "quickly; early",
+    "transliteration": "śīghram",
+    "source": "LLM-authored Sanskrit A1 2026-10-06",
+    "sentences": [
+      {
+        "target": "शीघ्रम् आगच्छ, भोजनं सिद्धम्।",
+        "text": "Come quickly, the food is ready.",
+        "cloze_word": "शीघ्रम्",
+        "transliteration": "śīghram āgaccha, bhojanaṃ siddham.",
+        "words": [
+          {
+            "word": "शीघ्रम्",
+            "gloss": "quickly; early",
+            "transliteration": "śīghram",
+            "note": "target"
+          },
+          {
+            "word": "आगच्छ,",
+            "gloss": "come",
+            "transliteration": "āgaccha,"
+          },
+          {
+            "word": "भोजनं",
+            "gloss": "food; meal",
+            "transliteration": "bhojanaṃ"
+          },
+          {
+            "word": "सिद्धम्",
+            "gloss": "ready",
+            "transliteration": "siddham"
+          }
+        ]
+      },
+      {
+        "target": "अश्वः शीघ्रं धावति।",
+        "text": "The horse runs fast.",
+        "cloze_word": "शीघ्रं",
+        "transliteration": "aśvaḥ śīghraṃ dhāvati.",
+        "words": [
+          {
+            "word": "अश्वः",
+            "gloss": "horse",
+            "transliteration": "aśvaḥ"
+          },
+          {
+            "word": "शीघ्रं",
+            "gloss": "quickly; early",
+            "transliteration": "śīghraṃ",
+            "note": "target"
+          },
+          {
+            "word": "धावति",
+            "gloss": "runs",
+            "transliteration": "dhāvati"
+          }
+        ]
+      },
+      {
+        "target": "अद्य अहं शीघ्रम् उत्तिष्ठामि।",
+        "text": "Today I am getting up early.",
+        "cloze_word": "शीघ्रम्",
+        "transliteration": "adya ahaṃ śīghram uttiṣṭhāmi.",
+        "words": [
+          {
+            "word": "अद्य",
+            "gloss": "today",
+            "transliteration": "adya"
+          },
+          {
+            "word": "अहं",
+            "gloss": "I",
+            "transliteration": "ahaṃ"
+          },
+          {
+            "word": "शीघ्रम्",
+            "gloss": "quickly; early",
+            "transliteration": "śīghram",
+            "note": "target"
+          },
+          {
+            "word": "उत्तिष्ठामि",
+            "gloss": "I get up",
+            "transliteration": "uttiṣṭhāmi"
+          }
+        ]
+      }
+    ]
+  }
+]
