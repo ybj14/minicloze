@@ -2,6 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "python3 -m unittest discover -s scripts -p 'test_*.py' -v",
     "build:static-data": "./.venv-tibetan/bin/python scripts/build_static_web_data.py",
     "build:mongolian-bichig": "node scripts/mongolian_bichig.mjs",
     "build:static-data:mongolian": "python3 scripts/build_static_web_data.py --mongolian-only"

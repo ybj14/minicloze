@@ -68,11 +68,22 @@ Then open <http://127.0.0.1:4173>. To refresh the static corpus files after
 editing `minicloze-lib/corpora`, run:
 
 ```bash
+npm ci # Mongolian converter used by both full and Mongolian-only builds
 ./.venv-tibetan/bin/python scripts/build_static_web_data.py
 
-# Mongolian Traditional (Hudum) only (needs npm install):
+# Mongolian Traditional (Hudum) + Poppe only:
 python3 scripts/build_static_web_data.py --mongolian-only
 ```
+
+All builds treat `minicloze-lib/corpora` as the source of truth. The full build
+also regenerates Mongolian Traditional script, Poppe, tokens, and the QA log.
+`npm run build:mongolian-bichig` can safely be run directly to enrich source
+explanations and write mirrored explanations/tokens; the Python wrapper also
+copies the base course and vocabulary files.
+
+Run the static-data build regression tests with `npm test` after `npm ci`.
+They use temporary fixture corpora and require Python 3.10+ and Node 18+;
+Tibetan Python dependencies are not needed for these focused tests.
 
 Vercel can deploy the static app from this workspace using `vercel.json`; it has
 no install or build command and serves `minicloze-web/static` as the output
