@@ -3,9 +3,14 @@
  * Build-time Cyrillic → Traditional Mongolian (Hudum / Mongol bichig) + Poppe
  * (Classical / scholarly Latin, 鲍培转写) converter.
  *
- * Uses @gege-mn/gege-converter. Prefer the top candidate's `classical` field
- * (lexicon/harvested Classical romanization ≈ Poppe/VPMC scholarly Latin:
- * č š ǰ γ ö ü q/k). Fallback: fromScript(bichig) via @gege-mn/mongol-bichig.
+ * Uses @gege-mn/gege-converter (a CANDIDATE GENERATOR, ~74% top-1 per its own
+ * README — output is NOT expert-reviewed). The top candidate's `classical` field
+ * is the converter's code-point romanization, not true Poppe: it leaks FVS
+ * digits (`mašin1`), letter-boundary dots, `kh` for ᠻ, and — in the harvested
+ * tier — writes q/γ in front-vowel words (`deγer-e`, `qeüqed`). We therefore
+ * run it through normalizePoppe() (mechanical, harmony-based) and apply the
+ * reviewed per-surface overrides in scripts/data/mongolian_bichig_overrides.json
+ * (each row cites its source). Fallback: fromScript(bichig).
  *
  * Display order (UI): Cyrillic → bichig → poppe (mirrors Tibetan native → zwpy → Wylie).
  *
@@ -27,6 +32,67 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const STATIC_DATA = path.join(ROOT, "minicloze-web", "static", "data");
 const CORPORA = path.join(ROOT, "minicloze-lib", "corpora");
+
+const OVERRIDES_PATH = path.join(ROOT, "scripts", "data", "mongolian_bichig_overrides.json");
+
+function loadOverrides() {
+  if (!fs.existsSync(OVERRIDES_PATH)) return new Map();
+  const rows = JSON.parse(fs.readFileSync(OVERRIDES_PATH, "utf8")).overrides || [];
+  const map = new Map();
+  for (const row of rows) {
+    const key = String(row.cyrillic).toLowerCase();
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push({ ...row, glossRe: row.when_gloss ? new RegExp(row.when_gloss, "i") : null });
+  }
+  return map;
+}
+
+const OVERRIDES = loadOverrides();
+
+/** Reviewed override for this surface (+ gloss, for homograph rows), or null. */
+function findOverride(surface, gloss, sentenceId = null) {
+  const rows = OVERRIDES.get(String(surface || "").trim().toLowerCase());
+  if (!rows) return null;
+  for (const row of rows) {
+    if (sentenceId != null && (row.except_sentence_ids || []).includes(String(sentenceId))) continue;
+    if (!row.glossRe) return row;
+    if (gloss && row.glossRe.test(gloss)) return row;
+  }
+  return null;
+}
+
+function overrideResult(row) {
+  return { bichig: row.bichig, poppe: row.poppe, provenance: "reviewed-override", confidence: 1 };
+}
+
+const BACK_VOWELS = /[aou]/;
+const FRONT_VOWELS = /[eöüē]/;
+
+/**
+ * Mechanical clean-up of the converter's `classical` string into Poppe-style
+ * transcription. Only changes that are unambiguous:
+ *  - drop FVS digits (1–4) and letter-boundary dots — encoding artefacts;
+ *  - `kh` (ᠻ, loan KHA) → k;
+ *  - in a word whose vowels are all front (e ö ü ē, optionally i) and that has
+ *    no back vowel (a o u), ᠬ/ᠭ can only be k/g, so q→k and γ→g.
+ * Back-vowel and mixed (loan) words are left as the converter wrote them, so
+ * reviewed lexicon readings such as `salkin` are untouched.
+ * "Word" = one space-separated chunk including its MVS-joined suffixes.
+ */
+export function normalizePoppe(classical) {
+  if (!classical) return classical;
+  return classical
+    .split(" ")
+    .map((word) => {
+      let w = word.replace(/(?<=\p{L})[1-4]/gu, "").replace(/(?<=\p{L})\.(?=\p{L})/gu, "");
+      w = w.replace(/kh/g, "k");
+      if (FRONT_VOWELS.test(w) && !BACK_VOWELS.test(w)) {
+        w = w.replace(/q/g, "k").replace(/γ/g, "g");
+      }
+      return w;
+    })
+    .join(" ");
+}
 
 const DEFAULT_COURSES = ["mongolian_a1", "mongolian_swadesh"];
 
@@ -76,6 +142,11 @@ function convertWord(raw) {
     return null;
   }
 
+  const override = findOverride(text, null);
+  if (override) {
+    return overrideResult(override);
+  }
+
   let provenance = "unknown";
   let confidence = null;
   let parts = [];
@@ -113,11 +184,11 @@ function convertWord(raw) {
     provenance = "error";
   }
 
-  let poppe = classicalFromParts(parts);
+  let poppe = normalizePoppe(classicalFromParts(parts));
   if (!poppe && bichig.trim()) {
     try {
       const harmony = harmonyOf(bichig) || undefined;
-      poppe = fromScript(bichig, harmony) || "";
+      poppe = normalizePoppe(fromScript(bichig, harmony) || "");
     } catch {
       poppe = "";
     }
@@ -169,7 +240,8 @@ function processCourse(course, cache, guessLog) {
       const surface = word.word || "";
       wordCount += 1;
 
-      let cached = cache.get(surface);
+      const glossOverride = findOverride(surface, word.gloss || "", sentence.id);
+      let cached = glossOverride?.glossRe ? overrideResult(glossOverride) : cache.get(surface);
       if (cached === undefined) {
         cached = convertWord(surface);
         cache.set(surface, cached);
@@ -262,7 +334,8 @@ function main() {
   const report = {
     converter: "@gege-mn/gege-converter",
     poppeSource:
-      "candidate.classical (Poppe/VPMC scholarly Classical romanization); fallback fromScript(bichig)",
+      "normalizePoppe(candidate.classical) — FVS digits/dots stripped, kh→k, front-harmony q/γ→k/g; reviewed overrides from scripts/data/mongolian_bichig_overrides.json; fallback fromScript(bichig). NOT expert-reviewed beyond the override rows.",
+    overridesApplied: OVERRIDES.size,
     courses: summaries,
     uniqueSurfaces: cache.size,
     guessTierUnique: [...uniqueGuesses.values()].sort((a, b) =>
@@ -308,4 +381,6 @@ function main() {
   }
 }
 
-main();
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main();
+}

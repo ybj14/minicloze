@@ -13,7 +13,7 @@
 ## Conversion choice
 
 **Source:** top candidate `classical` from `@gege-mn/gege-converter` (same path that builds bichig).  
-This Classical romanization is the scholarly / VPMC-style Latin used in Mongolian studies and matches **Poppe** (鲍培转写) conventions: `č š ǰ γ ö ü`, harmony-conditioned `q`/`k` and `γ`/`g`.
+> **Correction (2026-10-29 review, see `minicloze_mongolian_poppe_audit.md`):** neither the bichig nor the Poppe line is expert-reviewed. `@gege-mn/gege-converter` describes itself as a candidate generator (~74% top-1). Its raw `classical` field is not Poppe: it leaked FVS digits (`mašin1`), `kh`, and q/γ in front-vowel words (`deγer-e`, `qeüqed`) for ~19% of tokens. The build now runs `normalizePoppe()` (mechanical harmony/artefact fix) and applies `scripts/data/mongolian_bichig_overrides.json` (34 source-cited rows). Remaining lexical errors (verb past -лаа, -du-ban forms, guess-tier words) still need a bichig reader.
 
 **Why Classical from the converter (not a fresh Cyrillic→Latin table):**
 

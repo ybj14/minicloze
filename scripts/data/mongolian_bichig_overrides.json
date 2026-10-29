@@ -1,0 +1,327 @@
+{
+  "_comment": "Reviewed per-surface overrides for scripts/mongolian_bichig.mjs. Keys are lower-cased Cyrillic surfaces. Every row cites the source(s) its bichig was checked against. 'when_gloss' (regex, case-insensitive) restricts a homograph row to tokens whose English gloss matches. Poppe uses '-' for each MVS, matching the rest of the data.",
+  "overrides": [
+    {
+      "cyrillic": "манай",
+      "bichig": "ᠮᠠᠨ᠎ᠤ",
+      "poppe": "man-u",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Genitive of ba; MT/WK use NNBSP, repo convention is MVS. Poppe grammar writes manu."
+    },
+    {
+      "cyrillic": "вэ",
+      "bichig": "ᠪᠤᠢ",
+      "poppe": "bui",
+      "source": [
+        "Wiktionary (en.wiktionary.org)"
+      ],
+      "note": "Question particle вэ/бэ = classical bui (бэ already correct in data)."
+    },
+    {
+      "cyrillic": "одоо",
+      "bichig": "ᠣᠳᠤ",
+      "poppe": "odu",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was odu-ban (spurious reflexive)."
+    },
+    {
+      "cyrillic": "гэртээ",
+      "bichig": "ᠭᠡᠷ᠎ᠲᠡᠭᠡᠨ",
+      "poppe": "ger-tegen",
+      "source": [
+        "Wiktionary (en.wiktionary.org)"
+      ],
+      "note": "Dative-reflexive -daγan/-degen, not -du-ban."
+    },
+    {
+      "cyrillic": "заримдаа",
+      "bichig": "ᠵᠠᠷᠢᠮ᠎ᠳᠠᠭᠠᠨ",
+      "poppe": "ǰarim-daγan",
+      "source": [
+        "Wiktionary (en.wiktionary.org)"
+      ]
+    },
+    {
+      "cyrillic": "ангидаа",
+      "bichig": "ᠠᠩᠭᠢ᠎ᠳᠠᠭᠠᠨ",
+      "poppe": "angγi-daγan",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн) (stem анги)"
+      ]
+    },
+    {
+      "cyrillic": "дүү",
+      "bichig": "ᠳᠡᠭᠦᠦ",
+      "poppe": "degüü",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was ᠳ᠋ᠧᠦ d1ēü (loan-letter garbage)."
+    },
+    {
+      "cyrillic": "цагдаа",
+      "bichig": "ᠴᠠᠭᠳᠠᠭ᠎ᠠ",
+      "poppe": "čaγdaγ-a",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was čaγ-tu-ban (misparse \"time+dat+refl\")."
+    },
+    {
+      "cyrillic": "мянга",
+      "bichig": "ᠮᠢᠩᠭ᠎ᠠ",
+      "poppe": "mingγ-a",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "мянган",
+      "bichig": "ᠮᠢᠩᠭᠠᠨ",
+      "poppe": "mingγan",
+      "source": [
+        "Wiktionary (en.wiktionary.org)"
+      ],
+      "note": "Was miγγan."
+    },
+    {
+      "cyrillic": "дээд",
+      "bichig": "ᠳᠡᠭᠡᠳᠦ",
+      "poppe": "degedü",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was de-dü."
+    },
+    {
+      "cyrillic": "нарийн",
+      "bichig": "ᠨᠠᠷᠢᠨ",
+      "poppe": "narin",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was nari-yin (misparse as genitive)."
+    },
+    {
+      "cyrillic": "өгнө",
+      "bichig": "ᠥᠭᠦᠨ᠎ᠡ",
+      "poppe": "ögün-e",
+      "source": [
+        "Wiktionary (en.wiktionary.org)"
+      ],
+      "note": "Was öγγün-e."
+    },
+    {
+      "cyrillic": "таяг",
+      "bichig": "ᠲᠠᠶᠠᠭ",
+      "poppe": "tayaγ",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was ta-yi (misparse as accusative)."
+    },
+    {
+      "cyrillic": "тэрэг",
+      "bichig": "ᠲᠡᠷᠭᠡ",
+      "poppe": "terge",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was tere-yi (misparse \"that+acc\")."
+    },
+    {
+      "cyrillic": "тус",
+      "bichig": "ᠲᠤᠰᠠ",
+      "poppe": "tusa",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "when_gloss": "help|benefit",
+      "note": "Only the noun \"help\"; тус \"each/respective\" not overridden."
+    },
+    {
+      "cyrillic": "алдаа",
+      "bichig": "ᠠᠯᠳᠠᠭ᠎ᠠ",
+      "poppe": "aldaγ-a",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "мөнгө",
+      "bichig": "ᠮᠥᠩᠭᠦ",
+      "poppe": "mönggü",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "мөнгөө",
+      "bichig": "ᠮᠥᠩᠭᠦ᠎ᠪᠡᠨ",
+      "poppe": "mönggü-ben",
+      "source": [
+        "Wiktionary (en.wiktionary.org) + mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн) (lemma мөнгө)"
+      ],
+      "note": "Lemma verified; -ben = standard reflexive after vowel. Was mön-iyen."
+    },
+    {
+      "cyrillic": "үндэс",
+      "bichig": "ᠦᠨᠳᠦᠰᠦ",
+      "poppe": "ündüsü",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "үндес",
+      "bichig": "ᠦᠨᠳᠦᠰᠦ",
+      "poppe": "ündüsü",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Cyrillic surface is a misspelling of үндэс in the corpus."
+    },
+    {
+      "cyrillic": "эхнэр",
+      "bichig": "ᠡᠬᠡᠨᠡᠷ",
+      "poppe": "ekener",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was eke-ner."
+    },
+    {
+      "cyrillic": "цөөн",
+      "bichig": "ᠴᠥᠭᠡᠨ",
+      "poppe": "čögen",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was čögegen."
+    },
+    {
+      "cyrillic": "хүнд",
+      "bichig": "ᠬᠦᠨᠳᠦ",
+      "poppe": "kündü",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "when_gloss": "heavy|difficult|hard|serious|severe",
+      "note": "Homograph: only when the gloss is \"heavy/difficult\"; dative of хүн (kümün-dü) left alone. Sentence -100859 \"хоёр хүнд хангалттай\" (enough for two people) is the dative and is excluded; its gloss \"heavy\" is itself wrong.",
+      "except_sentence_ids": [
+        "-100859"
+      ]
+    },
+    {
+      "cyrillic": "хэрэгтэй",
+      "bichig": "ᠬᠡᠷᠡᠭᠲᠡᠢ",
+      "poppe": "keregtei",
+      "source": [
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)",
+        "@gege-mn/gege-converter suffixes.js rulebook §2.3.6 (adjectival -тай³ is attached)"
+      ],
+      "note": "Adjectival -тай attached; MT encodes final ᠶ, repo/WK use ᠢ."
+    },
+    {
+      "cyrillic": "дуртай",
+      "bichig": "ᠳᠤᠷᠠᠲᠠᠢ",
+      "poppe": "duratai",
+      "source": [
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was dur-a-tai."
+    },
+    {
+      "cyrillic": "хүчтэй",
+      "bichig": "ᠬᠦᠴᠦᠲᠡᠢ",
+      "poppe": "küčütei",
+      "source": [
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "баяртай",
+      "bichig": "ᠪᠠᠶᠠᠷᠲᠠᠢ",
+      "poppe": "bayartai",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "амттай",
+      "bichig": "ᠠᠮᠲᠠᠲᠠᠢ",
+      "poppe": "amtatai",
+      "source": [
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was aman-tu-tai."
+    },
+    {
+      "cyrillic": "эмэгтэй",
+      "bichig": "ᠡᠮᠡᠭᠲᠡᠢ",
+      "poppe": "emegtei",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "эрэгтэй",
+      "bichig": "ᠡᠷᠡᠭᠲᠡᠢ",
+      "poppe": "eregtei",
+      "source": [
+        "Wiktionary (en.wiktionary.org)",
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ],
+      "note": "Was erγi-tei."
+    },
+    {
+      "cyrillic": "ёстой",
+      "bichig": "ᠶᠣᠰᠤᠲᠠᠢ",
+      "poppe": "yosutai",
+      "source": [
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)",
+        "@gege-mn/gege-converter suffixes.js rulebook §2.3.6 (adjectival -тай³ is attached)"
+      ]
+    },
+    {
+      "cyrillic": "аюултай",
+      "bichig": "ᠠᠶᠤᠯᠲᠠᠢ",
+      "poppe": "ayultai",
+      "source": [
+        "mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн)"
+      ]
+    },
+    {
+      "cyrillic": "хөгжилтэй",
+      "bichig": "ᠬᠥᠭᠵᠢᠯᠲᠡᠢ",
+      "poppe": "kögǰiltei",
+      "source": [
+        "Wiktionary (en.wiktionary.org)"
+      ]
+    }
+  ]
+}
