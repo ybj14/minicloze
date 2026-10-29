@@ -62,7 +62,129 @@ function findOverride(surface, gloss, sentenceId = null) {
 }
 
 function overrideResult(row) {
-  return { bichig: row.bichig, poppe: row.poppe, provenance: "reviewed-override", confidence: 1 };
+  return {
+    bichig: row.bichig,
+    poppe: row.poppe,
+    provenance: "reviewed-override",
+    confidence: 1,
+    source: row.source || [],
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Review status ("verified" marker).
+//
+// A word form is verified:true only if
+//   (a) a sourced override row covers it, or
+//   (b) its bichig equals a dictionary string recorded in
+//       scripts/data/mongolian_dictionary_evidence.json (mongoltoli.mn and/or
+//       Wiktionary, exact match after NNBSP/space -> MVS) AND its Poppe equals
+//       the rule-based transliteration of that bichig (toPoppe below),
+// and it is not in a known-unresolved category from
+// scripts/data/mongolian_review_flags.json. Everything else is verified:false
+// with the reason codes in `review`. The marker never changes bichig/Poppe.
+// ---------------------------------------------------------------------------
+
+const EVIDENCE_PATH = path.join(ROOT, "scripts", "data", "mongolian_dictionary_evidence.json");
+const FLAGS_PATH = path.join(ROOT, "scripts", "data", "mongolian_review_flags.json");
+const REVIEW_QUEUE_JSON = path.join(ROOT, "scripts", "data", "mongolian_review_queue.json");
+const REVIEW_QUEUE_MD = path.join(ROOT, "scripts", "data", "mongolian_review_queue.md");
+const VERIFIED_WORDS_JSON = path.join(ROOT, "scripts", "data", "mongolian_verified_words.json");
+
+const EVIDENCE = fs.existsSync(EVIDENCE_PATH)
+  ? JSON.parse(fs.readFileSync(EVIDENCE_PATH, "utf8")).evidence || {}
+  : {};
+const FLAGS = fs.existsSync(FLAGS_PATH) ? JSON.parse(fs.readFileSync(FLAGS_PATH, "utf8")) : {};
+const PAST_LAA_RE = new RegExp(FLAGS.past_laa?.surface_regex || "(лаа|лоо|лээ|лөө)$", "iu");
+const PAST_LAA_EXCLUDE_RE = new RegExp(FLAGS.past_laa?.exclude_gloss_regex || "^$", "iu");
+const HOMOGRAPHS = new Set((FLAGS.homographs || []).map((r) => r.cyrillic.toLowerCase()));
+const GLOSS_ERRORS = (FLAGS.gloss_errors || []).map((r) => ({
+  cyrillic: r.cyrillic.toLowerCase(),
+  ids: new Set((r.sentence_ids || []).map(String)),
+}));
+
+const MVS = "\u180e";
+function normScript(s) {
+  return String(s || "").trim().replace(/[\u202f ]/g, MVS);
+}
+function normScriptMt(s) {
+  return normScript(s).replace(/\u1836$/u, "\u1822");
+}
+
+/** Dictionary sources whose recorded bichig equals `bichig` exactly. */
+export function dictionaryMatches(surface, bichig) {
+  const ev = EVIDENCE[String(surface || "").toLowerCase()];
+  if (!ev || !bichig) return [];
+  const b = normScript(bichig);
+  const out = [];
+  if (ev.mongoltoli && normScriptMt(ev.mongoltoli.bichig) === b) out.push("mongoltoli.mn");
+  if (ev.wiktionary && (ev.wiktionary.bichig || []).some((x) => normScript(x) === b)) {
+    out.push("Wiktionary");
+  }
+  return out;
+}
+
+const POPPE_LETTERS = {
+  "\u1820": "a", "\u1821": "e", "\u1822": "i", "\u1823": "o", "\u1824": "u",
+  "\u1825": "ö", "\u1826": "ü", "\u1827": "ē", "\u1828": "n", "\u1829": "ng",
+  "\u182a": "b", "\u182b": "p", "\u182c": "Q", "\u182d": "G", "\u182e": "m",
+  "\u182f": "l", "\u1830": "s", "\u1831": "š", "\u1832": "t", "\u1833": "d",
+  "\u1834": "č", "\u1835": "ǰ", "\u1836": "y", "\u1837": "r", "\u1838": "w",
+  "\u1839": "f", "\u183a": "k", "\u183b": "k", "\u183c": "c", "\u183d": "z",
+  "\u183e": "h", "\u180e": "-", "\u202f": "-", " ": " ",
+};
+const IGNORABLE = /[\u180b-\u180d\u180f\u200c\u200d]/u;
+
+/**
+ * Rule-based Poppe-style transliteration of bichig (independent of the
+ * converter): one letter per code point; ᠬ/ᠭ are q/γ in a back-vowel word
+ * (any a/o/u in the space-separated chunk) and k/g otherwise. Unknown code
+ * points become "?" so they never match.
+ */
+export function toPoppe(bichig) {
+  let s = "";
+  for (const ch of String(bichig || "")) {
+    if (IGNORABLE.test(ch)) continue;
+    s += POPPE_LETTERS[ch] ?? "?";
+  }
+  return s
+    .split(" ")
+    .map((w) => {
+      const back = /[aou]/.test(w.replace(/[QG]/g, ""));
+      return w.replace(/Q/g, back ? "q" : "k").replace(/G/g, back ? "γ" : "g");
+    })
+    .join(" ");
+}
+
+/** Review status for one token (context-dependent: gloss and sentence id). */
+export function reviewToken({ surface, gloss, sentenceId, result }) {
+  if (!result?.bichig) return null;
+  const lower = String(surface || "").trim().toLowerCase();
+  const dict = dictionaryMatches(lower, result.bichig);
+  if (result.provenance === "reviewed-override") {
+    return { verified: true, verifiedBy: ["sourced override", ...(result.source || [])], dict };
+  }
+  const reasons = [];
+  if (GLOSS_ERRORS.some((g) => g.cyrillic === lower && g.ids.has(String(sentenceId)))) {
+    reasons.push("gloss-error");
+  }
+  if (HOMOGRAPHS.has(lower)) reasons.push("homograph");
+  if (PAST_LAA_RE.test(lower) && !PAST_LAA_EXCLUDE_RE.test(String(gloss || "").trim())) {
+    reasons.push("past-laa");
+  }
+  const poppe = String(result.poppe || "");
+  if (/(тай|тэй|той|төй)$/u.test(lower) && /-t[ae]i(\s|$)/u.test(poppe)) {
+    reasons.push("tai-detached");
+  }
+  if (/-(du|tu|dü|tü)-(ban|ben)\b/u.test(poppe)) reasons.push("du-ban");
+  if (dict.length) {
+    if (toPoppe(result.bichig) !== poppe) reasons.push("poppe-rule-mismatch");
+  } else {
+    if (result.provenance === "guess") reasons.push("guess-tier");
+    reasons.push("not-dictionary-checked");
+  }
+  if (reasons.length) return { verified: false, reasons, dict };
+  return { verified: true, verifiedBy: dict, dict };
 }
 
 const BACK_VOWELS = /[aou]/;
@@ -206,6 +328,137 @@ function convertWord(raw) {
   };
 }
 
+/** Aggregate review status per lower-cased surface (for queue / verified list). */
+function recordReview(reviewLog, { course, sentence, word, result, review }) {
+  const key = String(word.word || "").trim().toLowerCase();
+  if (!reviewLog.has(key)) {
+    reviewLog.set(key, { cyrillic: key, tokens: 0, unverifiedTokens: 0, forms: new Map() });
+  }
+  const entry = reviewLog.get(key);
+  entry.tokens += 1;
+  if (!review.verified) entry.unverifiedTokens += 1;
+  const formKey = `${result.bichig}\t${result.poppe}\t${review.verified}\t${(review.reasons || []).join(" ")}`;
+  if (!entry.forms.has(formKey)) {
+    entry.forms.set(formKey, {
+      bichig: result.bichig,
+      poppe: result.poppe,
+      verified: review.verified,
+      verified_by: review.verified ? review.verifiedBy : undefined,
+      reasons: review.verified ? undefined : review.reasons,
+      dictionary_match: review.dict.length ? review.dict : undefined,
+      converter_tier: result.provenance,
+      glosses: new Set(),
+      courses: new Set(),
+      sentence_ids: [],
+      tokens: 0,
+    });
+  }
+  const form = entry.forms.get(formKey);
+  form.tokens += 1;
+  if (word.gloss) form.glosses.add(word.gloss);
+  form.courses.add(course);
+  if (form.sentence_ids.length < 5) form.sentence_ids.push(String(sentence.id));
+}
+
+function formOut(f) {
+  return { ...f, glosses: [...f.glosses], courses: [...f.courses] };
+}
+
+function writeReviewOutputs(reviewLog) {
+  const totalTokens = [...reviewLog.values()].reduce((a, e) => a + e.tokens, 0);
+  const unverifiedTokens = [...reviewLog.values()].reduce((a, e) => a + e.unverifiedTokens, 0);
+  const queue = [];
+  const verified = [];
+  for (const entry of reviewLog.values()) {
+    for (const f of entry.forms.values()) {
+      const row = { cyrillic: entry.cyrillic, ...formOut(f) };
+      (f.verified ? verified : queue).push(row);
+    }
+  }
+  const byFreq = (a, b) => b.tokens - a.tokens || a.cyrillic.localeCompare(b.cyrillic, "mn");
+  queue.sort(byFreq).forEach((row, i) => (row.rank = i + 1));
+  verified.sort(byFreq);
+
+  const reasonCounts = {};
+  for (const row of queue) {
+    for (const r of row.reasons) {
+      reasonCounts[r] = reasonCounts[r] || { types: 0, tokens: 0 };
+      reasonCounts[r].types += 1;
+      reasonCounts[r].tokens += row.tokens;
+    }
+  }
+  const summary = {
+    tokens: totalTokens,
+    verifiedTokens: totalTokens - unverifiedTokens,
+    unverifiedTokens,
+    verifiedTokenPct: Number(((100 * (totalTokens - unverifiedTokens)) / totalTokens).toFixed(1)),
+    verifiedForms: verified.length,
+    unverifiedForms: queue.length,
+    reasons: reasonCounts,
+  };
+
+  writeJsonPretty(REVIEW_QUEUE_JSON, {
+    _comment:
+      "GENERATED by scripts/mongolian_bichig.mjs - do not edit. Mongolian word forms whose bichig/Poppe are NOT verified (verified:false in the data), ranked by token frequency across mongolian_a1 + mongolian_swadesh. One row per (surface, reading, reason set). Reason codes: scripts/data/mongolian_review_flags.json. To resolve a row, add a sourced row to scripts/data/mongolian_bichig_overrides.json and rebuild.",
+    summary,
+    queue,
+  });
+  writeJsonPretty(VERIFIED_WORDS_JSON, {
+    _comment:
+      "GENERATED by scripts/mongolian_bichig.mjs - do not edit. Word forms marked verified:true and the source(s) that support them: a sourced override row, or an exact bichig match in scripts/data/mongolian_dictionary_evidence.json (mongoltoli.mn / Wiktionary) with Poppe equal to the rule-based transliteration of that bichig. 'Verified' means dictionary-checked, not reviewed by a reader of Traditional Mongolian.",
+    summary,
+    verified,
+  });
+
+  const esc = (v) => String(v ?? "").replace(/\|/g, "\\|");
+  const line = (r) =>
+    `| ${r.rank} | ${esc(r.cyrillic)} | ${esc(r.glosses.join("; "))} | ${esc(r.bichig)} | ${esc(r.poppe)} | ${r.tokens} | ${r.reasons.join(", ")} | ${r.dictionary_match ? r.dictionary_match.join(", ") : ""} | ${r.sentence_ids.join(" ")} |`;
+  const head =
+    "| # | Cyrillic | Gloss | Bichig (current) | Poppe (current) | Tokens | Reasons | Dict. match | Sentences |\n|---|---|---|---|---|---|---|---|---|";
+  const top = queue.slice(0, 230);
+  const topSet = new Set(top);
+  const guessRest = queue.filter((r) => !topSet.has(r) && r.reasons.includes("guess-tier"));
+  const rest = queue.filter((r) => !topSet.has(r) && !r.reasons.includes("guess-tier"));
+  const reasonDocs = FLAGS.reasons || {};
+  const md = [
+    "# Mongolian bichig / Poppe review queue",
+    "",
+    "GENERATED by `scripts/mongolian_bichig.mjs` — do not edit by hand. Source of truth: `mongolian_review_queue.json`.",
+    "",
+    `Every form below is shown in the app as **unverified** (\`verified: false\`). The bichig and Poppe are the current machine output of \`@gege-mn/gege-converter\` 0.5.0 (plus mechanical Poppe clean-up) and have **not** been checked by a reader of Traditional Mongolian. Fix a form by adding a sourced row to \`scripts/data/mongolian_bichig_overrides.json\` and rebuilding.`,
+    "",
+    `Tokens: ${summary.tokens}; verified (dictionary-checked or sourced override): ${summary.verifiedTokens} (${summary.verifiedTokenPct}%); unverified: ${summary.unverifiedTokens}. Unverified forms: ${summary.unverifiedForms}.`,
+    "",
+    "## Reason codes",
+    "",
+    "| Code | Forms | Tokens | Meaning |",
+    "|---|---|---|---|",
+    ...Object.entries(reasonCounts)
+      .sort((a, b) => b[1].tokens - a[1].tokens)
+      .map(([k, v]) => `| ${k} | ${v.types} | ${v.tokens} | ${esc(reasonDocs[k] || "")} |`),
+    "",
+    "Dict. match = a dictionary string matches the bichig, but the form is held back because it is in a known-unresolved category or its Poppe is not the rule transliteration.",
+    "",
+    `## 1. Top ${top.length} by token frequency`,
+    "",
+    head,
+    ...top.map(line),
+    "",
+    `## 2. Remaining guess-tier forms (${guessRest.length})`,
+    "",
+    head,
+    ...guessRest.map(line),
+    "",
+    `## 3. All other unverified forms (${rest.length})`,
+    "",
+    head,
+    ...rest.map(line),
+    "",
+  ].join("\n");
+  fs.writeFileSync(REVIEW_QUEUE_MD, md, "utf8");
+  return summary;
+}
+
 function loadJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
@@ -218,7 +471,7 @@ function writeJsonPretty(filePath, value) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-function processCourse(course, cache, guessLog) {
+function processCourse(course, cache, guessLog, reviewLog) {
   const explanationsPath = path.join(STATIC_DATA, `${course}_explanations.json`);
   if (!fs.existsSync(explanationsPath)) {
     throw new Error(`Missing explanations: ${explanationsPath}`);
@@ -256,6 +509,25 @@ function processCourse(course, cache, guessLog) {
         }
       }
 
+      const review = reviewToken({
+        surface,
+        gloss: word.gloss || "",
+        sentenceId: sentence.id,
+        result: cached,
+      });
+      delete word.verified;
+      delete word.verified_by;
+      delete word.review;
+      if (review) {
+        word.verified = review.verified;
+        if (review.verified) {
+          word.verified_by = review.verifiedBy.join("; ");
+        } else {
+          word.review = review.reasons.join(" ");
+        }
+        recordReview(reviewLog, { course, sentence, word, result: cached, review });
+      }
+
       if (cached?.bichig) {
         word.bichig = cached.bichig;
         withBichig += 1;
@@ -283,6 +555,9 @@ function processCourse(course, cache, guessLog) {
       }
       if (cached?.poppe) {
         token.poppe = cached.poppe;
+      }
+      if (review) {
+        token.verified = review.verified;
       }
       tokens.push(token);
     }
@@ -317,10 +592,11 @@ function main() {
 
   const cache = new Map();
   const guessLog = [];
+  const reviewLog = new Map();
   const summaries = [];
 
   for (const course of courses) {
-    summaries.push(processCourse(course, cache, guessLog));
+    summaries.push(processCourse(course, cache, guessLog, reviewLog));
   }
 
   // Unique lemma guess list across courses
@@ -331,11 +607,14 @@ function main() {
     }
   }
 
+  const reviewSummary = writeReviewOutputs(reviewLog);
+
   const report = {
     converter: "@gege-mn/gege-converter",
     poppeSource:
       "normalizePoppe(candidate.classical) — FVS digits/dots stripped, kh→k, front-harmony q/γ→k/g; reviewed overrides from scripts/data/mongolian_bichig_overrides.json; fallback fromScript(bichig). NOT expert-reviewed beyond the override rows.",
     overridesApplied: OVERRIDES.size,
+    review: reviewSummary,
     courses: summaries,
     uniqueSurfaces: cache.size,
     guessTierUnique: [...uniqueGuesses.values()].sort((a, b) =>
@@ -355,6 +634,9 @@ function main() {
     );
   }
   console.log(`  unique surfaces cached: ${cache.size}`);
+  console.log(
+    `  verified tokens: ${reviewSummary.verifiedTokens}/${reviewSummary.tokens} (${reviewSummary.verifiedTokenPct}%); unverified forms: ${reviewSummary.unverifiedForms}`,
+  );
   console.log(`  unique guess-tier lemmas: ${uniqueGuesses.size}`);
   console.log(`  QA log: ${outLog}`);
 
