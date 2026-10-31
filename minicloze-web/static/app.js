@@ -353,6 +353,7 @@ const els = {
   promptLine: document.querySelector("#promptLine"),
   wylieLine: document.querySelector("#wylieLine"),
   wylieOrthographyLine: document.querySelector("#wylieOrthographyLine"),
+  readingUnverifiedNote: document.querySelector("#readingUnverifiedNote"),
   translationLabel: document.querySelector("#translationLabel"),
   translationText: document.querySelector("#translationText"),
   choices: document.querySelector("#choices"),
@@ -1477,6 +1478,13 @@ function renderCard(card) {
     hide(els.wylieOrthographyLine);
   }
 
+  renderUnverifiedReadingNote(
+    !els.wylieLine.classList.contains("hidden") ||
+      (els.wylieOrthographyLine && !els.wylieOrthographyLine.classList.contains("hidden"))
+      ? card.unverifiedReading
+      : null,
+  );
+
   if (activeMode === "multiple_choice") {
     renderChoices(card.answer_options);
     show(els.choices);
@@ -1498,8 +1506,29 @@ function markUnverifiedReading(element, note) {
   element.classList.toggle("reading-unverified", Boolean(note));
   if (note) {
     element.title = note;
+    element.setAttribute("aria-describedby", "readingUnverifiedNote");
   } else {
     element.removeAttribute("title");
+    element.removeAttribute("aria-describedby");
+  }
+}
+
+/**
+ * Visible (not hover-only) explanation of the `*`, shown before answering so
+ * keyboard, touch and screen-reader users get the same warning. The note text
+ * never contains the cloze answer (see unverifiedReadingNote).
+ */
+function renderUnverifiedReadingNote(note) {
+  const el = els.readingUnverifiedNote;
+  if (!el) {
+    return;
+  }
+  if (note) {
+    el.textContent = `* ${note}`;
+    show(el);
+  } else {
+    el.textContent = "";
+    hide(el);
   }
 }
 

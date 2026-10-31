@@ -471,7 +471,7 @@ function writeJsonPretty(filePath, value) {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
 }
 
-function processCourse(course, cache, guessLog, reviewLog) {
+function processCourse(course, cache, guessLog, reviewLog, { write = true } = {}) {
   const explanationsPath = path.join(STATIC_DATA, `${course}_explanations.json`);
   if (!fs.existsSync(explanationsPath)) {
     throw new Error(`Missing explanations: ${explanationsPath}`);
@@ -565,14 +565,16 @@ function processCourse(course, cache, guessLog, reviewLog) {
     tokenized[String(sentence.id)] = tokens;
   }
 
-  // Write enriched explanations + tokens to static/
-  writeJsonPretty(explanationsPath, explanations);
-  const tokensStatic = path.join(STATIC_DATA, `${course}_tokens.json`);
-  writeJsonCompact(tokensStatic, tokenized);
+  if (write) {
+    // Write enriched explanations + tokens to static/
+    writeJsonPretty(explanationsPath, explanations);
+    const tokensStatic = path.join(STATIC_DATA, `${course}_tokens.json`);
+    writeJsonCompact(tokensStatic, tokenized);
 
-  // Sync to corpora/
-  writeJsonPretty(path.join(CORPORA, `${course}_explanations.json`), explanations);
-  writeJsonCompact(path.join(CORPORA, `${course}_tokens.json`), tokenized);
+    // Sync to corpora/
+    writeJsonPretty(path.join(CORPORA, `${course}_explanations.json`), explanations);
+    writeJsonCompact(path.join(CORPORA, `${course}_tokens.json`), tokenized);
+  }
 
   return {
     course,
@@ -595,8 +597,14 @@ function main() {
   const reviewLog = new Map();
   const summaries = [];
 
-  for (const course of courses) {
-    summaries.push(processCourse(course, cache, guessLog, reviewLog));
+  // The review queue, verified-word list and QA log are shared across courses,
+  // so always analyse every course; only the requested ones are rewritten.
+  const requested = new Set(courses);
+  const allCourses = [...new Set([...DEFAULT_COURSES, ...courses])];
+  for (const course of allCourses) {
+    summaries.push(
+      processCourse(course, cache, guessLog, reviewLog, { write: requested.has(course) }),
+    );
   }
 
   // Unique lemma guess list across courses

@@ -69,4 +69,4 @@ npm run test:mongolian
 
 The build also regenerates `scripts/data/mongolian_review_queue.{json,md}`, `scripts/data/mongolian_verified_words.json` and `scripts/data/mongolian_bichig_qa.json`.
 
-Cache for the 2026-10-30 review build: `DATA_VERSION=static-data-20261030-1`, SW `minicloze-static-pwa-v44`, asset `?v=static-pwa-20261030-01`.
+Cache for the 2026-10-30 review build: `DATA_VERSION=static-data-20261030-1`, SW `minicloze-static-pwa-v45`, asset `?v=static-pwa-20261031-01`.
