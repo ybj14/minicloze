@@ -101,7 +101,7 @@ no install or build command and serves `minicloze-web/static` as the output
 directory. The same directory also works on any static host. Details are in
 [Deploying to Vercel](#deploying-to-vercel).
 
-You can run the local web version (the Axum server in `minicloze-web/src/main.rs`) in the foreground with Tibetan Wylie support enabled:
+You can run the local web version (the Axum server in `minicloze-web/src/main.rs`) in the foreground with Tibetan Wylie support enabled. Note: its `/data/:file` route embeds data only for the Mongolian, Tibetan, Tajik, Thai, Burmese and Khmer courses, so use the static preview above for Amharic, Armenian, Georgian, Maltese and Sanskrit:
 
 ```bash
 ./web.sh
