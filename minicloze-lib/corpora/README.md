@@ -4,56 +4,37 @@ These corpora use the same JSON shape as the Tatoeba v1 sentence API, with one e
 
 - `cloze_word`: the preferred target word to hide in the prompt.
 
-The vocabulary selection is based on larger beginner/frequency lists, then the example sentences are original minicloze content. The source lists are used only for selecting target words and English glosses; the local corpora do not copy source example sentences, audio, or images.
+The vocabulary selection is based on larger beginner/frequency lists, then the example sentences are original minicloze content. The source lists are used only for selecting target words and English glosses; the local corpora do not copy source example sentences, audio, or images. The exception is Sanskrit A1 Classical, whose sentences are simplified adaptations of cited lines from classical texts (see Sources).
 
 Files:
 
-- `mongolian_a1_vocab.json`: 500 Mongolian Cyrillic target words.
-- `mongolian_a1.json`: 1,500 Mongolian cloze sentences.
-- `mongolian_swadesh_vocab.json`: 207 Mongolian Cyrillic Swadesh target words.
-- `mongolian_swadesh.json`: 621 Mongolian Swadesh cloze sentences.
-- `tibetan_a1_vocab.json`: 500 Tibetan target words.
-- `tibetan_a1.json`: 1,500 Tibetan cloze sentences.
-- `tibetan_swadesh_vocab.json`: 207 Tibetan Swadesh target words.
-- `tibetan_swadesh.json`: 621 Tibetan Swadesh cloze sentences.
-- `tajik_a1_vocab.json`: 500 Tajik Cyrillic target words.
-- `tajik_a1.json`: 1,500 Tajik cloze sentences.
-- `tajik_swadesh_vocab.json`: 207 Tajik Cyrillic Swadesh target words.
-- `tajik_swadesh.json`: 621 Tajik Swadesh cloze sentences.
-- `thai_a1_vocab.json`: 500 Thai target words.
-- `thai_a1.json`: 1,500 Thai cloze sentences.
-- `thai_swadesh_vocab.json`: 207 Thai Swadesh target words.
-- `thai_swadesh.json`: 621 Thai Swadesh cloze sentences.
-- `burmese_a1_vocab.json`: 500 Burmese target words.
-- `burmese_a1.json`: 1,500 Burmese cloze sentences.
-- `burmese_a1_explanations.json`: full-sentence Burmese word explanations with MLCTS and Okell.
-- `burmese_swadesh_vocab.json`: 207 Burmese Swadesh target words.
-- `burmese_swadesh.json`: 621 Burmese Swadesh cloze sentences.
-- `burmese_swadesh_explanations.json`: full-sentence Burmese Swadesh word explanations with MLCTS and Okell.
-- `khmer_a1_vocab.json`: 500 Khmer target words.
-- `khmer_a1.json`: 1,500 Khmer cloze sentences.
-- `khmer_a1_explanations.json`: full-sentence Khmer word explanations with Wiktionary transliteration and transcription.
-- `khmer_swadesh_vocab.json`: 207 Khmer Swadesh target words.
-- `khmer_swadesh.json`: 621 Khmer Swadesh cloze sentences.
-- `khmer_swadesh_explanations.json`: full-sentence Khmer Swadesh word explanations with Wiktionary transliteration and transcription.
-- `amharic_a1_vocab.json`: 500 Amharic target words.
-- `amharic_a1.json`: 1,500 Amharic cloze sentences.
-- `amharic_a1_explanations.json`: full-sentence Amharic word explanations with SERA-style transliteration.
-- `amharic_swadesh_vocab.json`: 207 Amharic Swadesh target words.
-- `amharic_swadesh.json`: 621 Amharic Swadesh cloze sentences.
-- `amharic_swadesh_explanations.json`: full-sentence Amharic Swadesh word explanations with SERA-style transliteration.
-- `armenian_a1_vocab.json`: 500 Armenian target words.
-- `armenian_a1.json`: 1,500 Armenian cloze sentences.
-- `armenian_a1_explanations.json`: full-sentence Armenian word explanations with apostrophe-marked ASCII transliteration.
-- `armenian_swadesh_vocab.json`: 207 Armenian Swadesh target words.
-- `armenian_swadesh.json`: 621 Armenian Swadesh cloze sentences.
-- `armenian_swadesh_explanations.json`: full-sentence Armenian Swadesh word explanations with apostrophe-marked ASCII transliteration.
-- `georgian_a1_vocab.json`: 500 Georgian target words.
-- `georgian_a1.json`: 1,500 Georgian cloze sentences.
-- `georgian_a1_explanations.json`: full-sentence Georgian word explanations with apostrophe-marked ASCII transliteration.
-- `georgian_swadesh_vocab.json`: 207 Georgian Swadesh target words.
-- `georgian_swadesh.json`: 621 Georgian Swadesh cloze sentences.
-- `georgian_swadesh_explanations.json`: full-sentence Georgian Swadesh word explanations with apostrophe-marked ASCII transliteration.
+Every course has three files: `<course>.json` (cloze sentences), `<course>_vocab.json` (target words) and `<course>_explanations.json` (full-sentence word explanations). Mongolian also has `<course>_tokens.json` (Traditional script / Poppe tokens written by `scripts/mongolian_bichig.mjs`). A1 courses have 500 target words and 1,500 sentences. Swadesh courses have 207 target words and 621 sentences. Reviewed batch inputs live in `generated/`.
+
+| Course | Files (`<course>`) | Script / helper fields (explanation words) |
+| --- | --- | --- |
+| Mongolian A1 | `mongolian_a1` (+ `_tokens`) | Cyrillic; `bichig` (Traditional Mongolian) + `poppe`, machine-generated, with `verified` / `verified_by` (see `SHIP.md`) |
+| Mongolian Swadesh | `mongolian_swadesh` (+ `_tokens`) | same as Mongolian A1 |
+| Tibetan A1 | `tibetan_a1` | Tibetan; `wylie` + `zwpy` (藏文拼音) are added only to the static web copy by `scripts/build_static_web_data.py` |
+| Tibetan Swadesh | `tibetan_swadesh` | same as Tibetan A1 |
+| Tajik A1 | `tajik_a1` | Tajik Cyrillic |
+| Tajik Swadesh | `tajik_swadesh` | Tajik Cyrillic |
+| Thai A1 | `thai_a1` | Thai; `paiboon` |
+| Thai Swadesh | `thai_swadesh` | same as Thai A1 |
+| Burmese A1 | `burmese_a1` | Burmese; `mlcts` and `okell` |
+| Burmese Swadesh | `burmese_swadesh` | MLCTS and Okell |
+| Khmer A1 | `khmer_a1` | Khmer; Wiktionary-style `transliteration` and `transcription` |
+| Khmer Swadesh | `khmer_swadesh` | Wiktionary transliteration and transcription |
+| Amharic A1 | `amharic_a1` | Ge'ez script; `transliteration` = port of Wiktionary `Module:Ethi-translit` (`scripts/amharic_transliteration.py`; earlier docs said SERA-style) |
+| Amharic Swadesh | `amharic_swadesh` | same as Amharic A1 |
+| Armenian A1 | `armenian_a1` | Armenian; apostrophe-marked ASCII transliteration |
+| Armenian Swadesh | `armenian_swadesh` | apostrophe-marked ASCII transliteration |
+| Georgian A1 | `georgian_a1` | Georgian; apostrophe-marked ASCII transliteration |
+| Georgian Swadesh | `georgian_swadesh` | apostrophe-marked ASCII transliteration |
+| Maltese A1 | `maltese_a1` | Maltese orthography (ċ ġ ħ ż); ASCII learner transliteration (`scripts/maltese_transliteration.py`) |
+| Maltese Swadesh | `maltese_swadesh` | same as Maltese A1 |
+| Sanskrit A1 | `sanskrit_a1` | Devanagari; IAST |
+| Sanskrit Swadesh | `sanskrit_swadesh` | Devanagari; IAST |
+| Sanskrit A1 Classical | `sanskrit_a1_classical` | Devanagari; IAST; each sentence row carries `citation` and `source_text` |
 
 Sources:
 
@@ -67,4 +48,9 @@ Sources:
 - Amharic: Codex-curated beginner A1 seed list, combined with Amharic Swadesh seed items, used for selecting target words and English glosses.
 - Armenian: Codex-curated beginner A1 seed list, combined with Eastern Armenian Swadesh seed items, used for selecting target words and English glosses.
 - Georgian: Codex-curated beginner A1 seed list, combined with Georgian Swadesh seed items, used for selecting target words and English glosses.
+- Maltese: LLM-curated Maltese A1 seed list (`A1_SOURCE` in `scripts/maltese_vocab.py`); A1 vocabulary and sentences are labelled `LLM-authored Maltese A1 2026-10-06` and were authored in `scripts/generate_maltese_courses.py` (PR #28).
+- Maltese Swadesh: the 207 standard Swadesh concepts with preferred modern Maltese forms in `SWADESH_WORDS` (`scripts/maltese_vocab.py`, `SWADESH_SOURCE = "Wiktionary Maltese Swadesh seed"`), with per-item notes where the chosen form differs from Wiktionary; rows are labelled `LLM-authored Maltese Swadesh 2026-10-06` (PR #28).
+- Sanskrit A1: hand-authored IAST source `scripts/data/sanskrit/a1.txt` with lexicons `lexicon.tsv` / `lexicon_swadesh.tsv`, converted by `scripts/build_sanskrit_batches.py`; vocabulary rows are labelled `LLM-authored Sanskrit A1 2026-10-06` (PR #29).
+- Sanskrit Swadesh: lemmas from Wiktionary [Module:Swadesh/data/sa](https://en.wiktionary.org/wiki/Module:Swadesh/data/sa); where Wiktionary gives a Vedic/archaic or rare term a common textbook word is used, and every such override is listed in `scripts/data/sanskrit/README.md`; sentences are LLM-authored (`scripts/data/sanskrit/swadesh.txt`, PR #29).
+- Sanskrit A1 Classical: every sentence is adapted from a specific line of a GRETIL plain-text edition (Hitopadeśa, Pañcatantra, Vetālapañcaviṃśatikā, Rāmāyaṇa, Bhagavadgītā, Manusmṛti, Bhartṛhari's Śatakatraya); each row's `citation` gives the GRETIL URL and line, and `source_text` the original clause. GRETIL e-texts are CC BY-NC-SA 4.0. Details and lemma swaps: `scripts/data/sanskrit/README.md` (PR #29).
 - Swadesh: Wiktionary Swadesh data for English, Mongolian, Tibetan, Tajik, Thai, Burmese, Khmer, Amharic, Eastern Armenian, and Georgian, used for selecting the 207 core target concepts and seed target words; all cloze sentences are original minicloze A1 material.

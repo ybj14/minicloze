@@ -5,24 +5,25 @@
 `minicloze` is a Rust workspace for a cloze-style language-learning game.
 
 - `minicloze-lib/`: shared Rust logic for sentence loading, prompts, answer checking, SRS, Tibetan helpers, and local corpora embedded with `include_str!`.
-- `minicloze-cli/`: terminal frontend; `cargo run -- <language-or-corpus> [inverse]`.
+- `minicloze-cli/`: terminal frontend (binary `minicloze`); `cargo run --bin minicloze -- <language-or-corpus> [inverse]`. The workspace has two binaries (`minicloze`, `minicloze-web`), so a bare `cargo run` fails.
 - `minicloze-web/`: Axum local web server plus a browser-only static PWA in `minicloze-web/static`.
 - `minicloze-lib/corpora/`: source local course JSON, vocabulary JSON, explanation JSON, and generated batch inputs.
 - `scripts/`: corpus merge/build/enrichment utilities.
 
-The important local course codes are `mon-a1`, `mon-swadesh`, `bod-a1`, `bod-swadesh`, `tgk-a1`, `tgk-swadesh`, `tha-a1`, `tha-swadesh`, `mya-a1`, `mya-swadesh`, `khm-a1`, and `khm-swadesh`. User-facing aliases such as `mongolian-a1`, `tibetan-swadesh`, `burmese-a1`, and `khmer-a1` are normalized in `minicloze-lib/src/langs.rs`.
+The local course codes (see `COURSES` in `minicloze-web/static/app.js`) are `mon-a1`, `mon-swadesh`, `bod-a1`, `bod-swadesh`, `tgk-a1`, `tgk-swadesh`, `tha-a1`, `tha-swadesh`, `mya-a1`, `mya-swadesh`, `khm-a1`, `khm-swadesh`, `amh-a1`, `amh-swadesh`, `hye-a1`, `hye-swadesh`, `kat-a1`, `kat-swadesh`, `mlt-a1`, `mlt-swadesh`, `san-a1`, `san-swadesh`, and `san-a1-classical`. User-facing aliases such as `mongolian-a1`, `tibetan-swadesh`, `burmese-a1`, `khmer-a1`, `maltese-a1`, and `sanskrit-a1-classical` are normalized in `minicloze-lib/src/langs.rs`.
 
 ## Development Commands
 
-Run commands from the repository root unless noted otherwise.
+Run commands from the repository root unless noted otherwise. Contributor workflow, PR rules, and Vercel deploy notes are in `README.md` ("How to contribute", "Deploying to Vercel").
 
-- Format Rust: `cargo fmt`
-- Run all Rust tests: `cargo test`
-- Run CLI locally: `cargo run -- mongolian-a1` or `cargo run -- tibetan-a1 inverse`
+- Format Rust: `cargo fmt` (needs the rustfmt component: `rustup component add rustfmt`)
+- Run all Rust tests: `cargo test` (recent stable toolchain; without `pkg-config`, set `OPENSSL_LIB_DIR` / `OPENSSL_INCLUDE_DIR`, e.g. `/usr/lib/x86_64-linux-gnu` and `/usr/include`)
+- Run CLI locally: `cargo run --bin minicloze -- mongolian-a1` or `cargo run --bin minicloze -- tibetan-a1 inverse`
 - Run launcher with Tibetan dependencies bootstrapped: `./learn.sh tibetan-a1`
 - Run local web server with Tibetan helpers: `./web.sh`
 - Static PWA preview: `python3 -m http.server 4173 --directory minicloze-web/static`
-- Rebuild static web data after corpus changes: `./.venv-tibetan/bin/python scripts/build_static_web_data.py`
+- Rebuild static web data after corpus changes: `./.venv-tibetan/bin/python scripts/build_static_web_data.py` (same as `npm run build:static-data`; `.venv-tibetan` is created by `./learn.sh tibetan-a1` or `./web.sh`). Single-language refreshes: `--khmer-only`, `--amharic-only`, `--mongolian-only`, `--sanskrit-only`.
+- Mongolian bichig/Poppe: `npm install`, then `npm run build:static-data:mongolian` and `npm run test:mongolian`
 - Background web server: `./webctl.sh start`, `./webctl.sh status`, `./webctl.sh stop`, `./webctl.sh logs`
 
 Tibetan learner phonetics use `scripts/tibetan_zwpy.py` (藏文拼音 / ZWPY). The launcher scripts create/reuse `.venv-tibetan` and install Botok/pyewts when needed.
@@ -38,10 +39,10 @@ Treat `minicloze-lib/corpora` as the source of truth. The browser app loads mirr
 
 Useful corpus scripts:
 
-- `scripts/merge_a1_corpora.py [language...]` validates generated batches and writes the main A1/Swadesh corpus JSON files.
-- `scripts/generate_full_sentence_explanations.py [tajik|thai]` builds Tajik/Thai explanation files and fails on unknown/alignment issues by default.
+- `scripts/merge_a1_corpora.py [language...]` validates generated batches and writes the main A1/Swadesh corpus JSON files. Language keys are the `LANGS` entries, e.g. `maltese`, `maltese-swadesh`, `sanskrit`, `sanskrit-swadesh`, `sanskrit-classical`.
+- `scripts/generate_full_sentence_explanations.py [language...]` builds explanation files for `mongolian`, `tibetan`, `tajik`, `thai` and their `-swadesh` variants, and fails on unknown/alignment issues by default (`--allow-unknown` to override). Newer merge configs (Maltese, Sanskrit) build vocab/explanations from the batches instead (`vocab_from_batches` / `explanations_from_batches`).
 - `scripts/generate_swadesh_courses.py` fetches Wiktionary Swadesh seed data and writes local Swadesh vocabulary/course material.
-- `scripts/build_static_web_data.py` copies corpus/vocab/explanation files into the static web directory, adds Tibetan Wylie + ZWPY (藏文拼音) data, Thai Paiboon data, Burmese MLCTS/Okell token data, Khmer Wiktionary transliteration/transcription token data, and Mongolian Traditional (Hudum/bichig) via `scripts/mongolian_bichig.mjs` (`@gege-mn/gege-converter`; requires `npm install`). The Mongolian bichig/Poppe output is unreviewed machine output: each word carries `verified: true|false` (true = sourced override or dictionary-checked, not human-reviewed). Fix forms only via sourced rows in `scripts/data/mongolian_bichig_overrides.json`, never by hand-editing data or from unsourced knowledge; the review queue is `scripts/data/mongolian_review_queue.md`. Run `npm run test:mongolian` after rebuilding.
+- `scripts/build_static_web_data.py` copies corpus/vocab/explanation files into the static web directory, adds Tibetan Wylie + ZWPY (藏文拼音) data, Thai Paiboon data, Burmese MLCTS/Okell token data, Khmer Wiktionary transliteration/transcription token data, Amharic/Armenian/Georgian/Maltese/Sanskrit transliteration tokens, and Mongolian Traditional (Hudum/bichig) via `scripts/mongolian_bichig.mjs` (`@gege-mn/gege-converter`; requires `npm install`). On `master` the Mongolian step runs only with `--mongolian-only` (or `npm run build:static-data:mongolian`), not in the full build; draft PR #27 proposes adding it. The Mongolian bichig/Poppe output is unreviewed machine output: each word carries `verified: true|false` (true = sourced override or dictionary-checked, not human-reviewed). Fix forms only via sourced rows in `scripts/data/mongolian_bichig_overrides.json`, never by hand-editing data or from unsourced knowledge; the review queue is `scripts/data/mongolian_review_queue.md`. Run `npm run test:mongolian` after rebuilding.
 
 Before authoring or rewriting any local cloze corpus, read `minicloze-lib/corpora/GENERATION_RULES.md`. Those rules are binding: production sentences must be authored from the meaning and natural usage of each word, not generated by rotating templates or inserting words into generic frames. Scripts may validate, split, merge, enrich explanations/transliteration, and detect repetition, but they must not be the author of final sentence content.
 
@@ -71,7 +72,7 @@ When changing `app.js`, `app.css`, `index.html`, service-worker behavior, or sta
 - `CACHE_NAME` and shell asset query strings in `minicloze-web/static/service-worker.js`
 - CSS/JS query strings in `minicloze-web/static/index.html`
 
-The Axum server in `minicloze-web/src/main.rs` embeds the same static files with `include_str!` and exposes API endpoints for local server mode.
+The Axum server in `minicloze-web/src/main.rs` embeds the same static files with `include_str!` and exposes API endpoints for local server mode. Its `/data/:file` route currently embeds data only for the Mongolian, Tibetan, Tajik, Thai, Burmese, and Khmer courses, so Amharic, Armenian, Georgian, Maltese, and Sanskrit data return 404 in `./web.sh` mode. Use the static preview for those.
 
 ## Testing Guidance
 
@@ -91,4 +92,6 @@ For frontend/UI changes, preview with either `./web.sh` or the static HTTP serve
 
 ## Git Hygiene
 
-This repository may be nested inside a broader workspace. The project repository root is this directory, not its parent. Avoid committing local runtime artifacts such as `target/`, `node_modules/`, `.venv-tibetan/`, `.minicloze-web.log`, `.minicloze-web.pid`, and `.DS_Store`.
+Work on a feature branch and open a PR to `master`. PRs are squash-merged by the owner. Agents must not merge PRs or push to `master`.
+
+This repository may be nested inside a broader workspace. The project repository root is this directory, not its parent. Avoid committing local runtime artifacts such as `target/`, `node_modules/`, `.venv-tibetan/`, `.minicloze-web.log`, `.minicloze-web.pid`, `__pycache__/`, and `.DS_Store`.
