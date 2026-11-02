@@ -1,0 +1,6460 @@
+{
+ "_comment": "Dictionary evidence used to mark Mongolian bichig as dictionary-checked (scripts/mongolian_bichig.mjs). Fetched 2026-10-29 (UTC+8) during the Poppe/bichig audit. 'wiktionary': Traditional-script strings from the Mongolian section of the English Wiktionary page for this exact Cyrillic surface (kind 'headword' = from {{mn-...}} head templates; 'page-script' = any script string on the page, used only when the page has no head template). 'mongoltoli': headword bichig from mongoltoli.mn (Монгол хэлний их тайлбар толь, ШУА Хэл зохиолын хүрээлэн) for this exact surface queried as a lemma; only the first headword is returned for homographs. A surface counts as dictionary-checked only if the data's bichig equals one of these strings exactly, after normalising NNBSP/space to MVS (U+180E) and, for mongoltoli only, final YA (U+1836) to I (U+1822). FVS are NOT ignored. Neither source is a substitute for review by a reader of Traditional Mongolian; Wiktionary in particular is not authoritative.",
+ "fetched": "2026-10-29",
+ "evidence": {
+  "аа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B0"
+   }
+  },
+  "аав": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠪᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B0%D0%B2"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠪᠤ",
+    "entry_ids": [
+     "34"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%B0%D0%B2"
+   }
+  },
+  "аавтай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠪᠤ ᠲᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B0%D0%B2%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "авах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠪᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B2%D0%B0%D1%85"
+   }
+  },
+  "авсан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠪᠰᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B2%D1%81%D0%B0%D0%BD"
+   }
+  },
+  "автобус": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠦ᠋ᠲ᠋ᠣᠪᠦ᠋ᠰ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠦ᠋ᠲ᠋ᠣᠪᠦ᠋ᠰ",
+    "entry_ids": [
+     "1210"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81"
+   }
+  },
+  "автобусанд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠦ᠋ᠲ᠋ᠣᠪᠦ᠋ᠰᠤᠨ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B0%D0%BD%D0%B4"
+   }
+  },
+  "автобусны": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠦ᠋ᠲ᠋ᠣᠪᠦ᠋ᠰᠤᠨ ᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%BD%D1%8B"
+   }
+  },
+  "авч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠪᠴᠢ",
+     "ᠠᠪᠴᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B2%D1%87"
+   }
+  },
+  "агаар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠭᠠᠷ",
+     "ᠠᠭᠤᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B3%D0%B0%D0%B0%D1%80"
+   }
+  },
+  "агаарт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠭᠠᠷ ᠲᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B3%D0%B0%D0%B0%D1%80%D1%82"
+   }
+  },
+  "агнах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠩᠨᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B3%D0%BD%D0%B0%D1%85"
+   }
+  },
+  "агшин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠱᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B3%D1%88%D0%B8%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠱᠠᠨ",
+    "entry_ids": [
+     "1876"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%B3%D1%88%D0%B8%D0%BD"
+   }
+  },
+  "ажил": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠵᠢᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B6%D0%B8%D0%BB"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠵᠢᠯ",
+    "entry_ids": [
+     "2414"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%B6%D0%B8%D0%BB"
+   }
+  },
+  "аймшиг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠶᠤᠮᠰᠢᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B9%D0%BC%D1%88%D0%B8%D0%B3"
+   }
+  },
+  "айх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠶᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%B9%D1%85"
+   }
+  },
+  "алах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠠᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "алга": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠠᠭ᠎ᠠ",
+     "ᠠᠯᠭ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D0%B3%D0%B0"
+   }
+  },
+  "алдаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠳᠠᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D0%B4%D0%B0%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠯᠳᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "3491"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%BB%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "алим": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠢᠮ᠎᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D0%B8%D0%BC"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠯᠢᠮ᠎ᠠ",
+    "entry_ids": [
+     "3828"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%BB%D0%B8%D0%BC"
+   }
+  },
+  "алт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠲᠠ",
+     "ᠠᠯᠲᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D1%82"
+   }
+  },
+  "алхам": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠬᠤᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D1%85%D0%B0%D0%BC"
+   }
+  },
+  "алхах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠬᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D1%85%D0%B0%D1%85"
+   }
+  },
+  "алчуур": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠯᠴᠢᠭᠤᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BB%D1%87%D1%83%D1%83%D1%80"
+   }
+  },
+  "ам": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠮᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BC"
+   }
+  },
+  "амархан": {
+   "mongoltoli": {
+    "bichig": "ᠠᠮᠠᠷᠬᠠᠨ",
+    "entry_ids": [
+     "4620"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%BC%D0%B0%D1%80%D1%85%D0%B0%D0%BD"
+   }
+  },
+  "амралт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠮᠠᠷᠠᠯᠲᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BC%D1%80%D0%B0%D0%BB%D1%82"
+   }
+  },
+  "амттай": {
+   "mongoltoli": {
+    "bichig": "ᠠᠮᠲᠠᠲᠠᠶ",
+    "entry_ids": [
+     "5031"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%BC%D1%82%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "амьдрал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠮᠢᠳ᠋ᠤᠷᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BC%D1%8C%D0%B4%D1%80%D0%B0%D0%BB"
+   }
+  },
+  "амьдрах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠮᠢᠳᠤᠷᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BC%D1%8C%D0%B4%D1%80%D0%B0%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠮᠢᠳᠤᠷᠠᠬᠤ",
+    "entry_ids": [
+     "5284"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%BC%D1%8C%D0%B4%D1%80%D0%B0%D1%85"
+   }
+  },
+  "амьсгалах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠮᠢᠰᠬᠤᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BC%D1%8C%D1%81%D0%B3%D0%B0%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "амьтан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠮᠢᠲᠠᠨ",
+     "ᠠᠮᠢᠲᠠᠨ᠌"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BC%D1%8C%D1%82%D0%B0%D0%BD"
+   }
+  },
+  "анги": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠩᠭᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BD%D0%B3%D0%B8"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠩᠭᠢ",
+    "entry_ids": [
+     "5672"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D0%BD%D0%B3%D0%B8"
+   }
+  },
+  "ангиа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠩᠭᠢ ᠪᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BD%D0%B3%D0%B8%D0%B0"
+   }
+  },
+  "ангид": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠩᠭᠢ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BD%D0%B3%D0%B8%D0%B4"
+   }
+  },
+  "ангидаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠩᠭᠢ ᠳᠠᠭᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BD%D0%B3%D0%B8%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "анчин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠩᠴᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D0%BD%D1%87%D0%B8%D0%BD"
+   }
+  },
+  "арал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠷᠠᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%80%D0%B0%D0%BB"
+   }
+  },
+  "арван": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠷᠪᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%80%D0%B2%D0%B0%D0%BD"
+   }
+  },
+  "ард": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠷᠠᠳ",
+     "ᠠᠷᠤ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%80%D0%B4"
+   }
+  },
+  "арьс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠷᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%80%D1%8C%D1%81"
+   }
+  },
+  "асуудал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠰᠠᠭᠣᠳᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%81%D1%83%D1%83%D0%B4%D0%B0%D0%BB"
+   }
+  },
+  "асуух": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠰᠠᠭᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%81%D1%83%D1%83%D1%85"
+   }
+  },
+  "ах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠬ᠎ᠠ",
+     "ᠠᠬᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%85"
+   }
+  },
+  "ачаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠴᠢᠶ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%87%D0%B0%D0%B0"
+   }
+  },
+  "ашиглах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠰᠢᠭᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%88%D0%B8%D0%B3%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "аюултай": {
+   "mongoltoli": {
+    "bichig": "ᠠᠶᠤᠯᠲᠠᠶ",
+    "entry_ids": [
+     "8835"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D1%8E%D1%83%D0%BB%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "аяга": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠶᠠᠭ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%8F%D0%B3%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠠᠶᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "8942"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B0%D1%8F%D0%B3%D0%B0"
+   }
+  },
+  "аялал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠶᠠᠯᠠᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%8F%D0%BB%D0%B0%D0%BB"
+   }
+  },
+  "аялгуу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠶᠠᠯᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B0%D1%8F%D0%BB%D0%B3%D1%83%D1%83"
+   }
+  },
+  "ба": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠ",
+     "ᠪᠠ᠍"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0"
+   }
+  },
+  "баах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠭᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B0%D1%85"
+   }
+  },
+  "баг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B3"
+   }
+  },
+  "бага": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B3%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "9729"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B0%D0%B3%D0%B0"
+   }
+  },
+  "багш": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠭᠰᠢ",
+     "ᠪᠠᠭᠱᠢ",
+     "ᠪᠠᡴᠰᡳ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B3%D1%88"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠠᠭᠰᠢ",
+    "entry_ids": [
+     "10206"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B0%D0%B3%D1%88"
+   }
+  },
+  "бай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9"
+   }
+  },
+  "байвал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶᠢᠪᠠᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D0%B2%D0%B0%D0%BB"
+   }
+  },
+  "байгаль": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶᠢᠭᠠᠯᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D0%B3%D0%B0%D0%BB%D1%8C"
+   }
+  },
+  "байгууллага": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶᠢᠭᠤᠯᠤᠯᠭ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D0%B3%D1%83%D1%83%D0%BB%D0%BB%D0%B0%D0%B3%D0%B0"
+   }
+  },
+  "байж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶ᠋ᠢᠵᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D0%B6"
+   }
+  },
+  "байна": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠢᠨ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D0%BD%D0%B0"
+   }
+  },
+  "байр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠢᠷᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D1%80"
+   }
+  },
+  "байранд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠢᠷᠢᠨ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D1%80%D0%B0%D0%BD%D0%B4"
+   }
+  },
+  "байх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶ᠋ᠢᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D1%85"
+   }
+  },
+  "байхгүй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶ᠋ᠢᠬᠤ",
+     "ᠦᠭᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D1%85%D0%B3%D2%AF%D0%B9"
+   }
+  },
+  "байшин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶ᠋ᠢᠰᠢᠩ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D0%B9%D1%88%D0%B8%D0%BD"
+   }
+  },
+  "барих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠷᠢᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%80%D0%B8%D1%85"
+   }
+  },
+  "баруун": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠷᠠᠭᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%80%D1%83%D1%83%D0%BD"
+   }
+  },
+  "баяр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶᠠᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%8F%D1%80"
+   }
+  },
+  "баярлалаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶᠠᠷᠯᠠᠯᠤᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%8F%D1%80%D0%BB%D0%B0%D0%BB%D0%B0%D0%B0"
+   }
+  },
+  "баяртай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠶᠠᠷᠲᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B0%D1%8F%D1%80%D1%82%D0%B0%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠠᠶᠠᠷᠲᠠᠶ",
+    "entry_ids": [
+     "13062"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B0%D1%8F%D1%80%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "би": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠢ",
+    "entry_ids": [
+     "13119"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B8"
+   }
+  },
+  "бид": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠳ᠋ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠢᠳᠡ",
+    "entry_ids": [
+     "13140"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B8%D0%B4"
+   }
+  },
+  "бие": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠡᠶ᠎ᠡ",
+     "ᠪᡝᠶᡝ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D0%B5"
+   }
+  },
+  "бий": {
+   "mongoltoli": {
+    "bichig": "ᠪᠤᠢ",
+    "entry_ids": [
+     "13341"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B8%D0%B9"
+   }
+  },
+  "битгий": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠲᠡᠬᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D1%82%D0%B3%D0%B8%D0%B9"
+   }
+  },
+  "бичиг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠴᠢᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D1%87%D0%B8%D0%B3"
+   }
+  },
+  "бичих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠴᠢᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D1%87%D0%B8%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠢᠴᠢᠬᠦ",
+    "entry_ids": [
+     "13746"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%B8%D1%87%D0%B8%D1%85"
+   }
+  },
+  "бичлэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠴᠢᠯᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D1%87%D0%BB%D1%8D%D0%B3"
+   }
+  },
+  "биш": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠰᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%B8%D1%88"
+   }
+  },
+  "богино": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠭᠣᠨᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠣᠭᠤᠨᠢ",
+    "entry_ids": [
+     "13917"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%BE%D0%B3%D0%B8%D0%BD%D0%BE"
+   }
+  },
+  "бодит": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠳᠠᠲᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%B4%D0%B8%D1%82"
+   }
+  },
+  "бодох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠳᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%B4%D0%BE%D1%85"
+   }
+  },
+  "бол": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%BB"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠣᠯ",
+    "entry_ids": [
+     "14372"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%BE%D0%BB"
+   }
+  },
+  "боломж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠯᠤᠮᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%BB%D0%BE%D0%BC%D0%B6"
+   }
+  },
+  "болон": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠯᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%BB%D0%BE%D0%BD"
+   }
+  },
+  "болох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠯᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D0%BB%D0%BE%D1%85"
+   }
+  },
+  "бор": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠷᠤ",
+     "ᠪᠣᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D1%80"
+   }
+  },
+  "бороо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠷᠣᠭ᠎ᠠ",
+     "ᠪᠣᠷᠣᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D1%80%D0%BE%D0%BE"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠣᠷᠤᠭ᠎ᠠ",
+    "entry_ids": [
+     "15416"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D0%BE%D1%80%D0%BE%D0%BE"
+   }
+  },
+  "босох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠰᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D1%81%D0%BE%D1%85"
+   }
+  },
+  "бохир": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠣᠬᠢᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D0%BE%D1%85%D0%B8%D1%80"
+   }
+  },
+  "будаг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠳᠤᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%83%D0%B4%D0%B0%D0%B3"
+   }
+  },
+  "булан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠯᠤᠩ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%83%D0%BB%D0%B0%D0%BD"
+   }
+  },
+  "буруу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠷᠤᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%83%D1%80%D1%83%D1%83"
+   }
+  },
+  "бусад": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠰᠤᠳ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%83%D1%81%D0%B0%D0%B4"
+   }
+  },
+  "буудал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠠᠭᠣᠳᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%83%D1%83%D0%B4%D0%B0%D0%BB"
+   }
+  },
+  "буюу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠶ᠋ᠤ",
+     "ᠪᠦᠬᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%83%D1%8E%D1%83"
+   }
+  },
+  "бэ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%8D"
+   }
+  },
+  "бэлэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠡᠯᠡᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%8D%D0%BB%D1%8D%D0%B3"
+   }
+  },
+  "бэлэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠡᠯᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%8D%D0%BB%D1%8D%D0%BD"
+   }
+  },
+  "бяцхан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠢᠴᠢᠬᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D1%8F%D1%86%D1%85%D0%B0%D0%BD"
+   }
+  },
+  "бүгд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠭᠦᠳᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D2%AF%D0%B3%D0%B4"
+   }
+  },
+  "бүлэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠯᠦᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D2%AF%D0%BB%D1%8D%D0%B3"
+   }
+  },
+  "бүр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠷᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D2%AF%D1%80"
+   }
+  },
+  "бүс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠰᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D2%AF%D1%81"
+   }
+  },
+  "бүх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D2%AF%D1%85"
+   }
+  },
+  "бүү": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠦ",
+     "ᠪᠤᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D2%AF%D2%AF"
+   }
+  },
+  "бөгж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠦᠭᠡᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%A9%D0%B3%D0%B6"
+   }
+  },
+  "бөмбөг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠥᠮᠪᠦᠭᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%A9%D0%BC%D0%B1%D3%A9%D0%B3"
+   },
+   "mongoltoli": {
+    "bichig": "ᠪᠥᠮᠪᠦᠭᠡ",
+    "entry_ids": [
+     "16014"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B1%D3%A9%D0%BC%D0%B1%D3%A9%D0%B3"
+   }
+  },
+  "бөөлжих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠥᠭᠡᠯᠵᠢᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%A9%D3%A9%D0%BB%D0%B6%D0%B8%D1%85"
+   }
+  },
+  "бөөс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠥᠭᠡᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B1%D3%A9%D3%A9%D1%81"
+   }
+  },
+  "вэ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠪᠤᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B2%D1%8D"
+   }
+  },
+  "гадаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠳᠠᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D0%B4%D0%B0%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠠᠳᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "21569"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B3%D0%B0%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "гадил": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠳᠠᠯᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D0%B4%D0%B8%D0%BB"
+   }
+  },
+  "газар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠵᠠᠷ",
+     "ᠬᠠᠵᠠᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D0%B7%D0%B0%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠠᠵᠠᠷ",
+    "entry_ids": [
+     "21887"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B3%D0%B0%D0%B7%D0%B0%D1%80"
+   }
+  },
+  "гал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠯ",
+     "ᠬᠠᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D0%BB"
+   }
+  },
+  "гар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠠᠷ",
+    "entry_ids": [
+     "23000"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B3%D0%B0%D1%80"
+   }
+  },
+  "гарах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠷᠬᠤ",
+     "ᠬᠠᠷᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D1%80%D0%B0%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠠᠷᠬᠤ",
+    "entry_ids": [
+     "23182"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B3%D0%B0%D1%80%D0%B0%D1%85"
+   }
+  },
+  "гариг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠠᠷᠢᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B0%D1%80%D0%B8%D0%B3"
+   }
+  },
+  "гинж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠢᠨᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B8%D0%BD%D0%B6"
+   }
+  },
+  "гитарын": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠢᠲᠠᠷ ᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%B8%D1%82%D0%B0%D1%80%D1%8B%D0%BD"
+   }
+  },
+  "гол": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠣᠣᠯ",
+     "ᠭᠣᠤᠯ",
+     "ᠬᠣᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D0%BB"
+   }
+  },
+  "гудамж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠤᠳᠤᠮᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%83%D0%B4%D0%B0%D0%BC%D0%B6"
+   }
+  },
+  "гурав": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠤᠷᠪᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%83%D1%80%D0%B0%D0%B2"
+   }
+  },
+  "гурван": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠤᠷᠪᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%83%D1%80%D0%B2%D0%B0%D0%BD"
+   }
+  },
+  "гурил": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠤᠯᠢᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%83%D1%80%D0%B8%D0%BB"
+   }
+  },
+  "гутал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠤᠲᠤᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%83%D1%82%D0%B0%D0%BB"
+   }
+  },
+  "гэдэс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠳᠡᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D0%B4%D1%8D%D1%81"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠡᠳᠡᠰᠦ",
+    "entry_ids": [
+     "27765"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B3%D1%8D%D0%B4%D1%8D%D1%81"
+   }
+  },
+  "гэнэт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠨᠡᠳᠲᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D0%BD%D1%8D%D1%82"
+   }
+  },
+  "гэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠷ",
+     "ᠭᠡᠷ᠎ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠭᠡᠷ",
+    "entry_ids": [
+     "28026"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B3%D1%8D%D1%80"
+   }
+  },
+  "гэрийн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠷ ᠦᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D1%80%D0%B8%D0%B9%D0%BD"
+   }
+  },
+  "гэрт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠷ ᠲᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D1%80%D1%82"
+   }
+  },
+  "гэртээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠷ ᠲᠡᠭᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D1%80%D1%82%D1%8D%D1%8D"
+   }
+  },
+  "гэрэл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠷᠡᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D1%80%D1%8D%D0%BB"
+   }
+  },
+  "гэрээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠡᠷ᠎ᠡ",
+     "ᠭᠡᠷ ᠢᠶᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D1%8D%D1%80%D1%8D%D1%8D"
+   }
+  },
+  "гүүр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠭᠦᠭᠦᠷᠭᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B3%D2%AF%D2%AF%D1%80"
+   }
+  },
+  "давс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠪᠤᠰᠤ",
+     "ᠳᠠᠪᠤᠰᠤᠨ",
+     "ᡩᠠᠪᠰᡠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D0%B2%D1%81"
+   }
+  },
+  "дайн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D0%B9%D0%BD"
+   }
+  },
+  "далавч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠯᠠᠪᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D0%BB%D0%B0%D0%B2%D1%87"
+   }
+  },
+  "далай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠯᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D0%BB%D0%B0%D0%B9"
+   }
+  },
+  "дараа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠷᠤᠭ᠎ᠠ",
+     "ᠳᠠᠷᠠᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D1%80%D0%B0%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠠᠷᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "31878"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D0%B0%D1%80%D0%B0%D0%B0"
+   }
+  },
+  "дасгал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠰᠬᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D1%81%D0%B3%D0%B0%D0%BB"
+   }
+  },
+  "дахин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠬᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%B0%D1%85%D0%B8%D0%BD"
+   }
+  },
+  "долоо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠣᠯᠤᠭ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%BB%D0%BE%D0%BE"
+   }
+  },
+  "долоон": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠣᠯᠤᠭᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%BB%D0%BE%D0%BE%D0%BD"
+   }
+  },
+  "дотор": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠣᠲᠤᠷ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D1%82%D0%BE%D1%80"
+   }
+  },
+  "дугуй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠣᠭᠣᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D0%B3%D1%83%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠤᠭᠤᠶ",
+    "entry_ids": [
+     "35221"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%83%D0%B3%D1%83%D0%B9"
+   }
+  },
+  "дулаан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠣᠯᠠᠭᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D0%BB%D0%B0%D0%B0%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠤᠯᠠᠭᠠᠨ",
+    "entry_ids": [
+     "35319"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%83%D0%BB%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "дунд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠤᠮᠳᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D0%BD%D0%B4"
+   }
+  },
+  "дурлах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠤᠷᠠᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D1%80%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "дуртай": {
+   "mongoltoli": {
+    "bichig": "ᠳᠤᠷᠠᠲᠠᠶ",
+    "entry_ids": [
+     "35756"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%83%D1%80%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "дуу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠭᠤ",
+     "ᠳᠠᠭᠤᠤ",
+     "ᠳᠤᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D1%83"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠠᠭᠤ",
+    "entry_ids": [
+     "35923"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%83%D1%83"
+   }
+  },
+  "дуудлага": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠠᠭᠤᠳᠠᠯᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D1%83%D0%B4%D0%BB%D0%B0%D0%B3%D0%B0"
+   }
+  },
+  "дуулах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠤᠭᠤᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%83%D1%83%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "дэвтэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠪᠲᠡᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D0%B2%D1%82%D1%8D%D1%80"
+   }
+  },
+  "дэлгэц": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠯᠭᠡᠴᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D0%BB%D0%B3%D1%8D%D1%86"
+   }
+  },
+  "дэлгүүр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠯᠭᠡᠭᠦᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D0%BB%D0%B3%D2%AF%D2%AF%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠡᠯᠭᠡᠭᠦᠷ",
+    "entry_ids": [
+     "37993"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%8D%D0%BB%D0%B3%D2%AF%D2%AF%D1%80"
+   }
+  },
+  "дэлхий": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠯᠡᠭᠡᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D0%BB%D1%85%D0%B8%D0%B9"
+   }
+  },
+  "дэлхийн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠯᠡᠬᠡᠢ ᠶᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D0%BB%D1%85%D0%B8%D0%B9%D0%BD"
+   }
+  },
+  "дэргэд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠷᠭᠡᠳᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D1%80%D0%B3%D1%8D%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠡᠷᠭᠡᠳᠡ",
+    "entry_ids": [
+     "38580"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%8D%D1%80%D0%B3%D1%8D%D0%B4"
+   }
+  },
+  "дээд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠭᠡᠳᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D1%8D%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠡᠭᠡᠳᠦ",
+    "entry_ids": [
+     "38783"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%8D%D1%8D%D0%B4"
+   }
+  },
+  "дээр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠭᠡᠷ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠡᠭᠡᠷ᠎ᠡ",
+    "entry_ids": [
+     "38913"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D1%8D%D1%8D%D1%80"
+   }
+  },
+  "дээш": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠭᠡᠭᠰᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D1%8D%D1%8D%D1%88"
+   }
+  },
+  "дүрэм": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠦᠷᠢᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D2%AF%D1%80%D1%8D%D0%BC"
+   }
+  },
+  "дүү": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠡᠭᠦᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D2%AF%D2%AF"
+   },
+   "mongoltoli": {
+    "bichig": "ᠳᠡᠭᠦᠦ",
+    "entry_ids": [
+     "36961"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B4%D2%AF%D2%AF"
+   }
+  },
+  "дөрвөн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠥᠷᠪᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D3%A9%D1%80%D0%B2%D3%A9%D0%BD"
+   }
+  },
+  "дөрөв": {
+   "wiktionary": {
+    "bichig": [
+     "ᠳᠥᠷᠪᠡ",
+     "ᠳᠥ᠋ᠷᠪᠡᠨ",
+     "ᠳᠥ᠋ᠷᠪᠡ᠋"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B4%D3%A9%D1%80%D3%A9%D0%B2"
+   }
+  },
+  "ерөнхий": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠡᠷᠦᠩᠬᠡᠶ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B5%D1%80%D3%A9%D0%BD%D1%85%D0%B8%D0%B9"
+   }
+  },
+  "есөн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠢᠰᠦᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B5%D1%81%D3%A9%D0%BD"
+   }
+  },
+  "жижиг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠵᠢᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%B6%D0%B8%D0%B3"
+   },
+   "mongoltoli": {
+    "bichig": "ᠵᠢᠵᠢᠭ",
+    "entry_ids": [
+     "42306"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B6%D0%B8%D0%B6%D0%B8%D0%B3"
+   }
+  },
+  "жил": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%BB"
+   }
+  },
+  "жимс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠮᠢᠰ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%BC%D1%81"
+   }
+  },
+  "жин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠩ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D0%BD"
+   }
+  },
+  "жирэмсэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠷᠮᠦᠰᠦᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B6%D0%B8%D1%80%D1%8D%D0%BC%D1%81%D1%8D%D0%BD"
+   }
+  },
+  "заах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠭᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%B0%D1%85"
+   }
+  },
+  "завь": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠪᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%B2%D1%8C"
+   }
+  },
+  "загас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠭᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%B3%D0%B0%D1%81"
+   }
+  },
+  "зай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%B9"
+   }
+  },
+  "залуу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠯᠠᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%BB%D1%83%D1%83"
+   }
+  },
+  "зам": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D0%BC"
+   },
+   "mongoltoli": {
+    "bichig": "ᠵᠠᠮ",
+    "entry_ids": [
+     "46035"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B7%D0%B0%D0%BC"
+   }
+  },
+  "зарим": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵ",
+     "ᠠ",
+     "ᠷᠢᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D1%80%D0%B8%D0%BC"
+   },
+   "mongoltoli": {
+    "bichig": "ᠵᠠᠷᠢᠮ",
+    "entry_ids": [
+     "46746"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B7%D0%B0%D1%80%D0%B8%D0%BC"
+   }
+  },
+  "заримдаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠷᠢᠮ ᠳᠠᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D1%80%D0%B8%D0%BC%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "зах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠬ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D1%85"
+   }
+  },
+  "захиа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠬᠢᠶ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D1%85%D0%B8%D0%B0"
+   }
+  },
+  "захидал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠬᠢᠳᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%B0%D1%85%D0%B8%D0%B4%D0%B0%D0%BB"
+   }
+  },
+  "зогсох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠣᠭᠰᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D0%BE%D0%B3%D1%81%D0%BE%D1%85"
+   }
+  },
+  "зузаан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠤᠵᠠᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%83%D0%B7%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "зун": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%83%D0%BD"
+   }
+  },
+  "зураас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠷᠤᠭᠠᠰᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%83%D1%80%D0%B0%D0%B0%D1%81"
+   }
+  },
+  "зураг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠷᠤᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%83%D1%80%D0%B0%D0%B3"
+   }
+  },
+  "зурагт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠷᠤᠭᠲᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%83%D1%80%D0%B0%D0%B3%D1%82"
+   }
+  },
+  "зурлаа": {
+   "mongoltoli": {
+    "bichig": "ᠵᠢᠷᠤᠯᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "49318"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B7%D1%83%D1%80%D0%BB%D0%B0%D0%B0"
+   }
+  },
+  "зуун": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠠᠭᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%83%D1%83%D0%BD"
+   }
+  },
+  "зэрлэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠡᠷᠯᠢᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%8D%D1%80%D0%BB%D1%8D%D0%B3"
+   }
+  },
+  "зэрэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵ",
+     "ᠠ",
+     "᠊ᠷᠭᠡᠡ᠋"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D1%8D%D1%80%D1%8D%D0%B3"
+   }
+  },
+  "зүйл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠤᠢᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D2%AF%D0%B9%D0%BB"
+   }
+  },
+  "зүрх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠢᠷᠦᠬᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D2%AF%D1%80%D1%85"
+   }
+  },
+  "зүү": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠡᠭᠦᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D2%AF%D2%AF"
+   }
+  },
+  "зүүн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠡᠭᠦᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D2%AF%D2%AF%D0%BD"
+   }
+  },
+  "зөв": {
+   "mongoltoli": {
+    "bichig": "ᠵᠥᠪ",
+    "entry_ids": [
+     "48246"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B7%D3%A9%D0%B2"
+   }
+  },
+  "зөвшөөрөл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠥᠪᠰᠢᠶᠡᠷᠡᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D3%A9%D0%B2%D1%88%D3%A9%D3%A9%D1%80%D3%A9%D0%BB"
+   }
+  },
+  "зөвшөөрөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠥᠪᠰᠢᠶᠡᠷᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D3%A9%D0%B2%D1%88%D3%A9%D3%A9%D1%80%D3%A9%D1%85"
+   }
+  },
+  "зөгий": {
+   "wiktionary": {
+    "bichig": [
+     "ᠵᠥᠭᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B7%D3%A9%D0%B3%D0%B8%D0%B9"
+   }
+  },
+  "зөөлөн": {
+   "mongoltoli": {
+    "bichig": "ᠵᠥᠭᠡᠯᠡᠨ",
+    "entry_ids": [
+     "48494"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B7%D3%A9%D3%A9%D0%BB%D3%A9%D0%BD"
+   }
+  },
+  "идэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠢᠳᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%B4%D1%8D%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠢᠳᠡᠬᠦ",
+    "entry_ids": [
+     "51475"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B8%D0%B4%D1%8D%D1%85"
+   }
+  },
+  "инээмсэглэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠢᠨᠢᠶᠡᠮᠰᠦᠭᠯᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%BD%D1%8D%D1%8D%D0%BC%D1%81%D1%8D%D0%B3%D0%BB%D1%8D%D1%85"
+   }
+  },
+  "инээх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠢᠨᠢᠶᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B8%D0%BD%D1%8D%D1%8D%D1%85"
+   }
+  },
+  "ир": {
+   "wiktionary": {
+    "bichig": [
+     "ᠢᠷ",
+     "ᠢᠷ᠎ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B8%D1%80"
+   }
+  },
+  "ирэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠢᠷᠡᠬᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%B8%D1%80%D1%8D%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠢᠷᠡᠬᠦ",
+    "entry_ids": [
+     "52797"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%B8%D1%80%D1%8D%D1%85"
+   }
+  },
+  "их": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠡᠬᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%B8%D1%85"
+   }
+  },
+  "карт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠻᠠᠷᠲ᠋"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D1%80%D1%82"
+   }
+  },
+  "кино": {
+   "wiktionary": {
+    "bichig": [
+     "ᠺᠢᠨᠣ᠋",
+     "ᠻᠢᠨᠣ᠋"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B8%D0%BD%D0%BE"
+   },
+   "mongoltoli": {
+    "bichig": "ᠺᠢᠨᠣ᠋",
+    "entry_ids": [
+     "53655"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BA%D0%B8%D0%BD%D0%BE"
+   }
+  },
+  "киноны": {
+   "wiktionary": {
+    "bichig": [
+     "ᠻᠢᠨᠣ᠋ ᠶᠢᠨ",
+     "ᠺᠢᠨᠣ᠋ ᠶᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%B8%D0%BD%D0%BE%D0%BD%D1%8B"
+   }
+  },
+  "компьютер": {
+   "wiktionary": {
+    "bichig": [
+     "ᠺᠣᠮᠫᠢᠶᠦ᠋ᠲ᠋ᠧᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80"
+   }
+  },
+  "лаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠯᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BB%D0%B0%D0%B0"
+   }
+  },
+  "маажих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠭᠠᠵᠢᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D0%B0%D0%B6%D0%B8%D1%85"
+   }
+  },
+  "маань": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠨᠢ",
+     "ᠮᠠᠨᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D0%B0%D0%BD%D1%8C"
+   }
+  },
+  "малгай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠯᠠᠭᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D0%BB%D0%B3%D0%B0%D0%B9"
+   }
+  },
+  "манай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠨ ᠤ",
+     "ᠮᠠᠨᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D0%BD%D0%B0%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠠᠨ ᠤ",
+    "entry_ids": [
+     "55958"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%B0%D0%BD%D0%B0%D0%B9"
+   }
+  },
+  "манан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠨᠠᠨ",
+     "ᠮᠠᠨᠠᠩ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D0%BD%D0%B0%D0%BD"
+   }
+  },
+  "мангас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠩᠭᠤᠰ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D0%BD%D0%B3%D0%B0%D1%81"
+   }
+  },
+  "маргааш": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠷᠭᠠᠰᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D1%80%D0%B3%D0%B0%D0%B0%D1%88"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠠᠷᠭᠠᠰᠢ",
+    "entry_ids": [
+     "56424"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%B0%D1%80%D0%B3%D0%B0%D0%B0%D1%88"
+   }
+  },
+  "мах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠢᠬ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D1%85"
+   }
+  },
+  "маш": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠰᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D1%88"
+   }
+  },
+  "машин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠱᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B0%D1%88%D0%B8%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠠᠱᠢᠨ",
+    "entry_ids": [
+     "56866"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%B0%D1%88%D0%B8%D0%BD"
+   }
+  },
+  "метр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠧᠲ᠋ᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B5%D1%82%D1%80"
+   }
+  },
+  "миний": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠢᠨᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D0%BD%D0%B8%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠢᠨᠦ",
+    "entry_ids": [
+     "57064"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%B8%D0%BD%D0%B8%D0%B9"
+   }
+  },
+  "минут": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠢᠨᠦ᠋ᠲ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D0%BD%D1%83%D1%82"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠢᠨᠦᠢᠲ",
+    "entry_ids": [
+     "57074"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%B8%D0%BD%D1%83%D1%82"
+   }
+  },
+  "минь": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠢᠨᠢ",
+     "ᠮᠢᠨᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%B8%D0%BD%D1%8C"
+   }
+  },
+  "могой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠭᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%B3%D0%BE%D0%B9"
+   }
+  },
+  "мод": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠳᠤ",
+     "ᠮᠣᠳᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠣᠳᠤ",
+    "entry_ids": [
+     "57210"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%BE%D0%B4"
+   }
+  },
+  "модны": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠳᠤᠨ ᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%B4%D0%BD%D1%8B"
+   }
+  },
+  "монгол": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠩᠭᠣᠯ",
+     "ᠮᠣᠩᠬᠣᠯ",
+     "ᡏᡆᡊᡎᡆᠯ",
+     "ᠮᠣᠩᡤᠣ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠣᠩᠭᠤᠯ",
+    "entry_ids": [
+     "57384"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB"
+   }
+  },
+  "монголд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠩᠭᠣᠯ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D0%B4"
+   }
+  },
+  "монголоор": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠩᠭᠣᠯ",
+     "ᠢ᠋ᠶ᠋ᠠᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D0%BE%D0%BE%D1%80"
+   }
+  },
+  "монголын": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠩᠭᠣᠯ ᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D0%BD%D0%B3%D0%BE%D0%BB%D1%8B%D0%BD"
+   }
+  },
+  "морь": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠷᠢ",
+     "ᠮᠣᠷᠢᠨ",
+     "ᠮᠣᡵᡳᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D1%80%D1%8C"
+   }
+  },
+  "мохоо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠣᠬᠤᠭᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D0%BE%D1%85%D0%BE%D0%BE"
+   }
+  },
+  "муж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠤᠵᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%83%D0%B6"
+   }
+  },
+  "музей": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠦᠽᠧᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%83%D0%B7%D0%B5%D0%B9"
+   }
+  },
+  "муу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠠᠭᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%83%D1%83"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠠᠭᠤ",
+    "entry_ids": [
+     "59019"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D1%83%D1%83"
+   }
+  },
+  "муур": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠤᠤᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%83%D1%83%D1%80"
+   }
+  },
+  "мэдэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠡᠳᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%8D%D0%B4%D1%8D%D1%85"
+   }
+  },
+  "мэдэхгүй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠡᠳᠡᠬᠦ",
+     "ᠦᠭᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%8D%D0%B4%D1%8D%D1%85%D0%B3%D2%AF%D0%B9"
+   }
+  },
+  "мэдээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠡᠳᠡᠭᠡ",
+     "ᠮᡝᡩᡝᡤᡝ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D"
+   }
+  },
+  "мэдээлэл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠡᠳᠡᠭᠡᠯᠡᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D1%8D%D0%BB"
+   }
+  },
+  "мэт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠡᠲᠦ",
+     "ᠮᠡᠲ᠋ᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%8D%D1%82"
+   }
+  },
+  "мянган": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠢᠩᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D1%8F%D0%BD%D0%B3%D0%B0%D0%BD"
+   }
+  },
+  "мөн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠥᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D0%BD"
+   }
+  },
+  "мөнгө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠥᠩᠭᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D0%BD%D0%B3%D3%A9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠮᠥᠩᠭᠦ",
+    "entry_ids": [
+     "57931"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BC%D3%A9%D0%BD%D0%B3%D3%A9"
+   }
+  },
+  "мөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠥᠷ",
+     "ᠮᠥᠷᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%80"
+   }
+  },
+  "мөс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠮᠥᠰᠥ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BC%D3%A9%D1%81"
+   }
+  },
+  "навч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠪᠴᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B2%D1%87"
+   }
+  },
+  "над": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠳᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B4"
+   }
+  },
+  "найз": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠶ᠋ᠢᠵᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B9%D0%B7"
+   }
+  },
+  "найман": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠢ᠍ᠮᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD"
+   }
+  },
+  "найтаах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠶ᠋ᠢᠲᠠᠭᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%B9%D1%82%D0%B0%D0%B0%D1%85"
+   }
+  },
+  "нам": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%BC"
+   }
+  },
+  "намар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠮᠤᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D0%BC%D0%B0%D1%80"
+   }
+  },
+  "нар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠷᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠨᠠᠷᠠ",
+    "entry_ids": [
+     "61667"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BD%D0%B0%D1%80"
+   }
+  },
+  "нарийн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠷᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D1%80%D0%B8%D0%B9%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠨᠠᠷᠢᠨ",
+    "entry_ids": [
+     "61781"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BD%D0%B0%D1%80%D0%B8%D0%B9%D0%BD"
+   }
+  },
+  "нарлаг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠷᠠᠯᠢᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B0%D1%80%D0%BB%D0%B0%D0%B3"
+   }
+  },
+  "нимгэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠮᠭᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B8%D0%BC%D0%B3%D1%8D%D0%BD"
+   }
+  },
+  "нисэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠰᠬᠦ",
+     "ᠨ᠋ᠢᠰᠬᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%B8%D1%81%D1%8D%D1%85"
+   }
+  },
+  "ногоо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠭᠤᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%B3%D0%BE%D0%BE"
+   }
+  },
+  "ногоон": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠭᠤᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%B3%D0%BE%D0%BE%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠨᠣᠭᠤᠭᠠᠨ",
+    "entry_ids": [
+     "62665"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BD%D0%BE%D0%B3%D0%BE%D0%BE%D0%BD"
+   }
+  },
+  "нойтон": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠶᠢᠲᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%B9%D1%82%D0%BE%D0%BD"
+   }
+  },
+  "ном": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠮ",
+     "ᠨ᠋ᠣᠮ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%BC"
+   },
+   "mongoltoli": {
+    "bichig": "ᠨᠣᠮ",
+    "entry_ids": [
+     "62912"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BD%D0%BE%D0%BC"
+   }
+  },
+  "номоор": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠮ ᠢᠶᠠᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%BC%D0%BE%D0%BE%D1%80"
+   }
+  },
+  "номыг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠮ ᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%BC%D1%8B%D0%B3"
+   }
+  },
+  "номын": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠮ ᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D0%BC%D1%8B%D0%BD"
+   }
+  },
+  "нохой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠣᠬᠠᠢ",
+     "ᠨ᠋ᠣᠬᠠᠢ",
+     "ᠨᡳᠣᡥᡝ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D0%BE%D1%85%D0%BE%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠨᠣᠬᠠᠶ",
+    "entry_ids": [
+     "63241"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BD%D0%BE%D1%85%D0%BE%D0%B9"
+   }
+  },
+  "нулимс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠯᠪᠤᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%83%D0%BB%D0%B8%D0%BC%D1%81"
+   }
+  },
+  "нуруу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠷᠤᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%83%D1%80%D1%83%D1%83"
+   }
+  },
+  "нуур": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠠᠭᠤᠷ",
+     "ᠨ᠋ᠠᠭ᠍ᠤᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%83%D1%83%D1%80"
+   }
+  },
+  "нь": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢ",
+     "ᠢᠨᠤ",
+     "ᠠᠨᠤ",
+     "ᠢᠨ᠌ᠤ",
+     "ᠠᠨ᠌ᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8C"
+   }
+  },
+  "нэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠭᠡ",
+     "ᠨ᠋ᠢᠬᠡᠨ",
+     "᠑"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D0%B3"
+   }
+  },
+  "нэмэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠡᠮᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D0%BC%D1%8D%D1%85"
+   }
+  },
+  "нэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠡᠷ᠎ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D1%80"
+   }
+  },
+  "нэрийг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠡᠷ᠎ᠡ ᠶᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D1%80%D0%B8%D0%B9%D0%B3"
+   }
+  },
+  "нэрээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠡᠷ᠎ᠡ ᠪᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D1%80%D1%8D%D1%8D"
+   }
+  },
+  "нээлттэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠡᠭᠡᠭᠡᠯᠲᠡᠲᠡᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D1%8D%D0%BB%D1%82%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "нээх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠡᠭᠡᠭᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8D%D1%8D%D1%85"
+   }
+  },
+  "нялх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠯᠬ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D1%8F%D0%BB%D1%85"
+   }
+  },
+  "нүд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠳᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D2%AF%D0%B4"
+   }
+  },
+  "нүх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠦᠬᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D2%AF%D1%85"
+   }
+  },
+  "нүүр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠢᠭᠤᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D2%AF%D2%AF%D1%80"
+   }
+  },
+  "нөгөө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠥᠭᠦᠭᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D3%A9%D0%B3%D3%A9%D3%A9"
+   }
+  },
+  "нөхөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠨᠥᠬᠦᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BD%D3%A9%D1%85%D3%A9%D1%80"
+   }
+  },
+  "объект": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠪᠶᠧᠺᠲ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82"
+   }
+  },
+  "од": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠳᠤ",
+     "ᠣᠳᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠣᠳᠤ",
+    "entry_ids": [
+     "66759"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BE%D0%B4"
+   }
+  },
+  "одоо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠳᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%B4%D0%BE%D0%BE"
+   },
+   "mongoltoli": {
+    "bichig": "ᠣᠳᠤ",
+    "entry_ids": [
+     "66833"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BE%D0%B4%D0%BE%D0%BE"
+   }
+  },
+  "ой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%B9"
+   }
+  },
+  "олон": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠯᠠᠨ",
+     "ᠣᠯᠤᠩ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%BB%D0%BE%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠣᠯᠠᠨ",
+    "entry_ids": [
+     "67606"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BE%D0%BB%D0%BE%D0%BD"
+   }
+  },
+  "олох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠯᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%BB%D0%BE%D1%85"
+   }
+  },
+  "олс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠯᠤᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%BB%D1%81"
+   }
+  },
+  "онгоц": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠩᠭᠣᠴᠠ",
+     "ᠣᠩᠭᠣᠴᠠᠰ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%BD%D0%B3%D0%BE%D1%86"
+   }
+  },
+  "онигоо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠨᠢᠭ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D0%BD%D0%B8%D0%B3%D0%BE%D0%BE"
+   }
+  },
+  "ор": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠷᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%80"
+   }
+  },
+  "орой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠷᠤᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%80%D0%BE%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠣᠷᠤᠶ",
+    "entry_ids": [
+     "68989"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BE%D1%80%D0%BE%D0%B9"
+   }
+  },
+  "орох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠷᠤᠬᠤ",
+     "ᠣᠷᠣᠬᠤ",
+     "ᠣᠷᠠᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%80%D0%BE%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠣᠷᠤᠬᠤ",
+    "entry_ids": [
+     "69344"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BE%D1%80%D0%BE%D1%85"
+   }
+  },
+  "орчлон": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠷᠴᠢᠯᠠᠩ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%80%D1%87%D0%BB%D0%BE%D0%BD"
+   }
+  },
+  "охин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠬᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%85%D0%B8%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠦᠬᠢᠨ",
+    "entry_ids": [
+     "70012"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D0%BE%D1%85%D0%B8%D0%BD"
+   }
+  },
+  "оюутан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠶᠤᠲᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%8E%D1%83%D1%82%D0%B0%D0%BD"
+   }
+  },
+  "оёх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠣᠶᠤᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D0%BE%D1%91%D1%85"
+   }
+  },
+  "парк": {
+   "wiktionary": {
+    "bichig": [
+     "ᠫᠠᠷᠻ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BF%D0%B0%D1%80%D0%BA"
+   }
+  },
+  "паспорт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠫᠠᠰᠫᠣᠷᠲ᠋"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D0%BF%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D1%82"
+   }
+  },
+  "руу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠷᠤᠭᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%80%D1%83%D1%83"
+   }
+  },
+  "сав": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠪᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%B2"
+   }
+  },
+  "саван": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠪᠤᠩ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%B2%D0%B0%D0%BD"
+   }
+  },
+  "сайн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠶ᠋ᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%B9%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠠᠶᠢᠨ",
+    "entry_ids": [
+     "75379"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%81%D0%B0%D0%B9%D0%BD"
+   }
+  },
+  "сайхан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠶ᠋ᠢᠬᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%B9%D1%85%D0%B0%D0%BD"
+   }
+  },
+  "салхи": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠯᠬᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%BB%D1%85%D0%B8"
+   }
+  },
+  "самбар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠮᠪᠠᠷ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%BC%D0%B1%D0%B0%D1%80"
+   }
+  },
+  "сандал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠨᠳᠠᠯᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%BD%D0%B4%D0%B0%D0%BB"
+   }
+  },
+  "сансар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠨᠰᠠᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D0%BD%D1%81%D0%B0%D1%80"
+   }
+  },
+  "сар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠷᠠ",
+     "ᠰᠠᠷ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠠᠷᠠᠨ",
+    "entry_ids": [
+     "76813"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%81%D0%B0%D1%80"
+   }
+  },
+  "сарын": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠷ᠎ᠠ ᠶᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D1%80%D1%8B%D0%BD"
+   }
+  },
+  "сая": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠶ᠎ᠠ",
+     "ᠰᠠᠶᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%B0%D1%8F"
+   }
+  },
+  "сонин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠣᠨᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%BD%D0%B8%D0%BD"
+   }
+  },
+  "сонсох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠣᠨᠤᠰᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D0%BE%D0%BD%D1%81%D0%BE%D1%85"
+   }
+  },
+  "сурагч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠤᠷᠤᠭᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D1%83%D1%80%D0%B0%D0%B3%D1%87"
+   }
+  },
+  "сурах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠤᠷᠬᠤ",
+     "ᠰᠤᠷᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D1%83%D1%80%D0%B0%D1%85"
+   }
+  },
+  "сургууль": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠤᠷᠭᠠᠭᠤᠯᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D1%83%D1%80%D0%B3%D1%83%D1%83%D0%BB%D1%8C"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠤᠷᠭᠠᠭᠤᠯᠢ",
+    "entry_ids": [
+     "79887"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%81%D1%83%D1%80%D0%B3%D1%83%D1%83%D0%BB%D1%8C"
+   }
+  },
+  "суудал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠭᠤᠳᠠᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D1%83%D1%83%D0%B4%D0%B0%D0%BB"
+   }
+  },
+  "суух": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠠᠭᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D1%83%D1%83%D1%85"
+   }
+  },
+  "сэлэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠡᠯᠢᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D1%8D%D0%BB%D1%8D%D1%85"
+   }
+  },
+  "сүм": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠦᠮ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D2%AF%D0%BC"
+   }
+  },
+  "сүү": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠦᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D2%AF%D2%AF"
+   }
+  },
+  "сүүл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠡᠭᠦᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%81%D2%AF%D2%AF%D0%BB"
+   }
+  },
+  "та": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0"
+   }
+  },
+  "тав": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠪᠤ",
+     "ᠲᠠᠪᠤᠨ",
+     "ᠲᠠᠪᠠ",
+     "ᠲᠠᠪ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B2"
+   }
+  },
+  "таван": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠪᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B2%D0%B0%D0%BD"
+   }
+  },
+  "тавих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠯᠪᠢᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B2%D0%B8%D1%85"
+   }
+  },
+  "тавь": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠪᠢ",
+     "ᠲᠠᠪᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B2%D1%8C"
+   }
+  },
+  "тайван": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠶᠢᠪᠤᠩ",
+     "ᠲᠠᠶᠢᠫᠢᠩ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠠᠶᠢᠪᠤᠩ",
+    "entry_ids": [
+     "83613"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D0%B0%D0%B9%D0%B2%D0%B0%D0%BD"
+   }
+  },
+  "тайлбар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠶᠢᠯᠪᠤᠷᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%B9%D0%BB%D0%B1%D0%B0%D1%80"
+   }
+  },
+  "талбай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠯᠠᠪᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%BB%D0%B1%D0%B0%D0%B9"
+   }
+  },
+  "талбар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠯᠠᠪᠤᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%BB%D0%B1%D0%B0%D1%80"
+   }
+  },
+  "талх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠯᠬ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%BB%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠠᠯᠬ᠎ᠠ",
+    "entry_ids": [
+     "84061"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D0%B0%D0%BB%D1%85"
+   }
+  },
+  "тамирчин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠮᠢᠷᠴᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%BC%D0%B8%D1%80%D1%87%D0%B8%D0%BD"
+   }
+  },
+  "таны": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠨ ᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D0%BD%D1%8B"
+   }
+  },
+  "тархи": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠷᠢᠬᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D1%80%D1%85%D0%B8"
+   }
+  },
+  "тасалбар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠰᠤᠯᠪᠤᠷᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D1%81%D0%B0%D0%BB%D0%B1%D0%B0%D1%80"
+   }
+  },
+  "татах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠲᠠᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D1%82%D0%B0%D1%85"
+   }
+  },
+  "таяг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠠᠶᠠᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B0%D1%8F%D0%B3"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠠᠶᠠᠭ",
+    "entry_ids": [
+     "85916"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D0%B0%D1%8F%D0%B3"
+   }
+  },
+  "тийм": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠢᠮᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%B8%D0%B9%D0%BC"
+   }
+  },
+  "товч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠪᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%B2%D1%87"
+   }
+  },
+  "тоглоом": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠭᠯᠠᠭᠠᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%B3%D0%BB%D0%BE%D0%BE%D0%BC"
+   }
+  },
+  "тоглох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠭᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%B3%D0%BB%D0%BE%D1%85"
+   }
+  },
+  "тойрог": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠭᠣᠷᠢᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%B9%D1%80%D0%BE%D0%B3"
+   }
+  },
+  "толгой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠯᠤᠭᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%BB%D0%B3%D0%BE%D0%B9"
+   }
+  },
+  "том": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠮᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%BC"
+   }
+  },
+  "тоо": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%BE"
+   }
+  },
+  "тоолох": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠭᠠᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%BE%D0%BB%D0%BE%D1%85"
+   }
+  },
+  "тоос": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠣᠭᠤᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D0%BE%D0%BE%D1%81"
+   }
+  },
+  "тус": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠤᠰᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%83%D1%81"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠤᠰᠠ",
+    "entry_ids": [
+     "90018"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D1%83%D1%81"
+   }
+  },
+  "тусламж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠤᠰᠠᠯᠠᠮᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%83%D1%81%D0%BB%D0%B0%D0%BC%D0%B6"
+   }
+  },
+  "туслах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠤᠰᠠᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%83%D1%81%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "тухай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠤᠬᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%83%D1%85%D0%B0%D0%B9"
+   }
+  },
+  "тэд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠳ᠋ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D0%B4"
+   }
+  },
+  "тэдний": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠳᠡᠨ ᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D0%B4%D0%BD%D0%B8%D0%B9"
+   }
+  },
+  "тэмдэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠮᠳᠡᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D0%BC%D0%B4%D1%8D%D0%B3"
+   }
+  },
+  "тэмцэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠮᠡᠴᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D0%BC%D1%86%D1%8D%D1%85"
+   }
+  },
+  "тэнгэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠩᠷᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D0%BD%D0%B3%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠩᠷᠢ",
+    "entry_ids": [
+     "93090"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D1%8D%D0%BD%D0%B3%D1%8D%D1%80"
+   }
+  },
+  "тэнд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠨᠳᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D0%BD%D0%B4"
+   }
+  },
+  "тэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠷᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠡᠷᠡ",
+    "entry_ids": [
+     "93590"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D1%8D%D1%80"
+   }
+  },
+  "тэрэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠷᠭᠡ",
+     "ᠲᠡᠷᠭᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D1%8D%D1%80%D1%8D%D0%B3"
+   },
+   "mongoltoli": {
+    "bichig": "ᠲᠡᠷᠭᠡ",
+    "entry_ids": [
+     "93769"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%82%D1%8D%D1%80%D1%8D%D0%B3"
+   }
+  },
+  "түлхэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠦᠯᠬᠢᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D2%AF%D0%BB%D1%85%D1%8D%D1%85"
+   }
+  },
+  "түлхүүр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠦᠯᠬᠢᠭᠦᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D2%AF%D0%BB%D1%85%D2%AF%D2%AF%D1%80"
+   }
+  },
+  "түүний": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠭᠦᠨ ᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D2%AF%D2%AF%D0%BD%D0%B8%D0%B9"
+   }
+  },
+  "түүх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠡᠭᠦᠬᠦ",
+     "ᠲᠡᠦᠬᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D2%AF%D2%AF%D1%85"
+   }
+  },
+  "төв": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠥᠪ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D3%A9%D0%B2"
+   }
+  },
+  "төгрөг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠥᠭᠥᠷᠢᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D3%A9%D0%B3%D1%80%D3%A9%D0%B3"
+   }
+  },
+  "төгрөгийн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠥᠭᠥᠷᠢᠭ ᠦᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D3%A9%D0%B3%D1%80%D3%A9%D0%B3%D0%B8%D0%B9%D0%BD"
+   }
+  },
+  "төлөвлөгөө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠥᠯᠦᠪᠯᠡᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D3%A9%D0%BB%D3%A9%D0%B2%D0%BB%D3%A9%D0%B3%D3%A9%D3%A9"
+   }
+  },
+  "төрөл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠥᠷᠦᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D3%A9%D1%80%D3%A9%D0%BB"
+   }
+  },
+  "төрөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠲᠥᠷᠥᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%82%D3%A9%D1%80%D3%A9%D1%85"
+   }
+  },
+  "угаах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠭᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%B3%D0%B0%D0%B0%D1%85"
+   }
+  },
+  "удаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠳᠠᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "удаан": {
+   "mongoltoli": {
+    "bichig": "ᠤᠳᠠᠭᠠᠨ",
+    "entry_ids": [
+     "94685"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%83%D0%B4%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "удирдах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠳᠤᠷᠢᠳᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%B4%D0%B8%D1%80%D0%B4%D0%B0%D1%85"
+   }
+  },
+  "улаан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠯᠠᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%BB%D0%B0%D0%B0%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠤᠯᠠᠭᠠᠨ",
+    "entry_ids": [
+     "95140"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%83%D0%BB%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "улсын": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠯᠤᠰ ᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%BB%D1%81%D1%8B%D0%BD"
+   }
+  },
+  "унах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠨᠤᠬᠤ",
+     "ᠤᠨᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%BD%D0%B0%D1%85"
+   }
+  },
+  "унгах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠩᠭᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%BD%D0%B3%D0%B0%D1%85"
+   }
+  },
+  "унтах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠨᠲᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%BD%D1%82%D0%B0%D1%85"
+   }
+  },
+  "унтраах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠨᠲᠠᠷᠠᠭᠠᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D0%BD%D1%82%D1%80%D0%B0%D0%B0%D1%85"
+   }
+  },
+  "уралдаан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠷᠤᠯᠳᠤᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D0%B0%D0%BB%D0%B4%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "ургамал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠷᠭᠤᠮᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D0%B3%D0%B0%D0%BC%D0%B0%D0%BB"
+   }
+  },
+  "урлаг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠷᠠᠯᠢᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D0%BB%D0%B0%D0%B3"
+   }
+  },
+  "урсгал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠷᠤᠰᠬᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D1%81%D0%B3%D0%B0%D0%BB"
+   }
+  },
+  "урт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠷᠲᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%80%D1%82"
+   },
+   "mongoltoli": {
+    "bichig": "ᠤᠷᠲᠤ",
+    "entry_ids": [
+     "97022"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%83%D1%80%D1%82"
+   }
+  },
+  "ус": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤ",
+     "ᠤᠰᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81"
+   },
+   "mongoltoli": {
+    "bichig": "ᠤᠰᠤ",
+    "entry_ids": [
+     "97309"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%83%D1%81"
+   }
+  },
+  "усаар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤ ᠪᠠᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81%D0%B0%D0%B0%D1%80"
+   }
+  },
+  "усан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81%D0%B0%D0%BD"
+   }
+  },
+  "усанд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤᠨ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81%D0%B0%D0%BD%D0%B4"
+   }
+  },
+  "усгүй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤᠨ ᠦᠭᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81%D0%B3%D2%AF%D0%B9"
+   }
+  },
+  "усны": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤᠨ ᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81%D0%BD%D1%8B"
+   }
+  },
+  "усыг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠰᠤ ᠶᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%81%D1%8B%D0%B3"
+   }
+  },
+  "утаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠲᠤᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%82%D0%B0%D0%B0"
+   }
+  },
+  "утас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠲᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%82%D0%B0%D1%81"
+   }
+  },
+  "уу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%83"
+   }
+  },
+  "уул": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠤᠯ",
+     "ᠤᠤᠯᠠ",
+     "ᡤᡡᠯᡥᠠ",
+     "ᠠᠭᠤᠯᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%83%D0%BB"
+   }
+  },
+  "ууртай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠭᠤᠷᠲᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%83%D1%80%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "уух": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠤᠭᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%83%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠤᠤᠭᠤᠬᠤ",
+    "entry_ids": [
+     "98270"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%83%D1%83%D1%85"
+   }
+  },
+  "уучлаарай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠠᠭᠤᠴᠢᠯᠠᠭᠠᠷᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%83%D1%87%D0%BB%D0%B0%D0%B0%D1%80%D0%B0%D0%B9"
+   }
+  },
+  "уях": {
+   "wiktionary": {
+    "bichig": [
+     "ᠤᠶᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%83%D1%8F%D1%85"
+   }
+  },
+  "хаалга": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠭᠠᠯᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B0%D0%BB%D0%B3%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠠᠭᠠᠯᠭ᠎ᠠ",
+    "entry_ids": [
+     "102166"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D0%B0%D0%B0%D0%BB%D0%B3%D0%B0"
+   }
+  },
+  "хаалттай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠭᠠᠯᠲᠠᠲᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B0%D0%BB%D1%82%D1%82%D0%B0%D0%B9"
+   }
+  },
+  "хаан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠭᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "хаана": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠮᠢᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B0%D0%BD%D0%B0"
+   }
+  },
+  "хавар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠪᠤᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B2%D0%B0%D1%80"
+   }
+  },
+  "хагарах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠭᠠᠷᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B3%D0%B0%D1%80%D0%B0%D1%85"
+   }
+  },
+  "хазах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠵᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B7%D0%B0%D1%85"
+   }
+  },
+  "хайр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠶ᠋ᠢᠷ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B9%D1%80"
+   }
+  },
+  "хайч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠶ᠋ᠢᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%B9%D1%87"
+   }
+  },
+  "халуун": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠯᠠᠭᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%BB%D1%83%D1%83%D0%BD"
+   }
+  },
+  "хамар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠪᠠᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%BC%D0%B0%D1%80"
+   }
+  },
+  "хамгаалах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠮᠠᠭᠠᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%BC%D0%B3%D0%B0%D0%B0%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "хамт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠮᠲᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%BC%D1%82"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠠᠮᠲᠤ",
+    "entry_ids": [
+     "105215"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D0%B0%D0%BC%D1%82"
+   }
+  },
+  "ханан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠨᠠᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%BD%D0%B0%D0%BD"
+   }
+  },
+  "ханиах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠨᠢᠶᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D0%BD%D0%B8%D0%B0%D1%85"
+   }
+  },
+  "хар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80"
+   }
+  },
+  "харандаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷᠠᠨᠳᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80%D0%B0%D0%BD%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "харанхуй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷᠠᠩᠬᠤᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80%D0%B0%D0%BD%D1%85%D1%83%D0%B9"
+   }
+  },
+  "харах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80%D0%B0%D1%85"
+   }
+  },
+  "харин": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷᠢᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80%D0%B8%D0%BD"
+   }
+  },
+  "хариу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷᠢᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80%D0%B8%D1%83"
+   }
+  },
+  "хариулах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠷᠢᠭᠤᠯᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%80%D0%B8%D1%83%D0%BB%D0%B0%D1%85"
+   }
+  },
+  "хатуу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠲᠠᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%82%D1%83%D1%83"
+   }
+  },
+  "хаях": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠶᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B0%D1%8F%D1%85"
+   }
+  },
+  "хий": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B8%D0%B9"
+   }
+  },
+  "хийх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠢᠬᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%B8%D0%B9%D1%85"
+   }
+  },
+  "хичээл": {
+   "mongoltoli": {
+    "bichig": "ᠬᠢᠴᠢᠶᠡᠯ",
+    "entry_ids": [
+     "108785"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D0%B8%D1%87%D1%8D%D1%8D%D0%BB"
+   }
+  },
+  "хойд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠶᠢᠳᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%B9%D0%B4"
+   }
+  },
+  "хол": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠯᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%BB"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠣᠯᠠ",
+    "entry_ids": [
+     "109473"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D0%BE%D0%BB"
+   }
+  },
+  "холтос": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠯᠲᠤᠰᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%BB%D1%82%D0%BE%D1%81"
+   }
+  },
+  "хоол": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠭᠤᠯᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%BE%D0%BB"
+   }
+  },
+  "хоолой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠭᠤᠯᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%BE%D0%BB%D0%BE%D0%B9"
+   }
+  },
+  "хооронд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠭᠤᠷᠤᠨᠳᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D0%BE%D1%80%D0%BE%D0%BD%D0%B4"
+   }
+  },
+  "хорхой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠷᠤᠬᠠᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D1%80%D1%85%D0%BE%D0%B9"
+   }
+  },
+  "хос": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠣᠰ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D1%81"
+   }
+  },
+  "хот": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠲᠠ",
+     "ᠰᠤᠮᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D1%82"
+   }
+  },
+  "хотын": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠲᠠ ᠶᠢᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D1%82%D1%8B%D0%BD"
+   }
+  },
+  "хоёр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠣᠶᠠᠷ",
+     "ᠬᠣᠶ᠋ᠠᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D0%BE%D1%91%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠣᠶᠠᠷ",
+    "entry_ids": [
+     "109140"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D0%BE%D1%91%D1%80"
+   }
+  },
+  "хувцас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠤᠪᠴᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D0%B2%D1%86%D0%B0%D1%81"
+   }
+  },
+  "хувь": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠤᠪᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D0%B2%D1%8C"
+   }
+  },
+  "хулгайч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠤᠯᠠᠭᠠᠶᠢᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D0%BB%D0%B3%D0%B0%D0%B9%D1%87"
+   }
+  },
+  "хумс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠢᠮᠤᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D0%BC%D1%81"
+   }
+  },
+  "хурал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠤᠷᠠᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D1%80%D0%B0%D0%BB"
+   }
+  },
+  "хурдан": {
+   "mongoltoli": {
+    "bichig": "ᠬᠤᠷᠳᠤᠨ",
+    "entry_ids": [
+     "115941"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%83%D1%80%D0%B4%D0%B0%D0%BD"
+   }
+  },
+  "хуруу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠤᠷᠤᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D1%80%D1%83%D1%83"
+   }
+  },
+  "хурхирах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠤᠷᠬᠢᠷᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D1%80%D1%85%D0%B8%D1%80%D0%B0%D1%85"
+   }
+  },
+  "хутга": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠢᠲᠤᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D1%82%D0%B3%D0%B0"
+   }
+  },
+  "хуудас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠭᠤᠳᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D1%83%D0%B4%D0%B0%D1%81"
+   }
+  },
+  "хууль": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠠᠤᠯᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%83%D1%83%D0%BB%D1%8C"
+   }
+  },
+  "хуурай": {
+   "mongoltoli": {
+    "bichig": "ᠬᠠᠤᠷᠠᠶ",
+    "entry_ids": [
+     "116713"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%83%D1%83%D1%80%D0%B0%D0%B9"
+   }
+  },
+  "хуучин": {
+   "mongoltoli": {
+    "bichig": "ᠬᠠᠭᠤᠴᠢᠨ",
+    "entry_ids": [
+     "116865"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%83%D1%83%D1%87%D0%B8%D0%BD"
+   }
+  },
+  "хэвтэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠪᠲᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%B2%D1%82%D1%8D%D1%85"
+   }
+  },
+  "хэдэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠳᠦᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%B4%D1%8D%D0%BD"
+   }
+  },
+  "хэзээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠵᠢᠶ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%B7%D1%8D%D1%8D"
+   }
+  },
+  "хэл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠯᠡ",
+     "ᠬᠡᠯᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%BB"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠡᠯᠡ",
+    "entry_ids": [
+     "119467"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%8D%D0%BB"
+   }
+  },
+  "хэлбэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠯᠪᠡᠷᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%BB%D0%B1%D1%8D%D1%80"
+   }
+  },
+  "хэлэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠯᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%BB%D1%8D%D1%85"
+   }
+  },
+  "хэмжээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠮᠵᠢᠶ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%BC%D0%B6%D1%8D%D1%8D"
+   }
+  },
+  "хэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D0%BD"
+   }
+  },
+  "хэрэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠷᠡᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D1%8D%D1%80%D1%8D%D0%B3"
+   }
+  },
+  "хэрэггүй": {
+   "mongoltoli": {
+    "bichig": "ᠬᠡᠷᠡᠭ ᠦᠭᠡᠶ",
+    "entry_ids": [
+     "120654"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%8D%D1%80%D1%8D%D0%B3%D0%B3%D2%AF%D0%B9"
+   }
+  },
+  "хэрэгтэй": {
+   "mongoltoli": {
+    "bichig": "ᠬᠡᠷᠡᠭᠲᠡᠶ",
+    "entry_ids": [
+     "120722"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%8D%D1%80%D1%8D%D0%B3%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "хэцүү": {
+   "mongoltoli": {
+    "bichig": "ᠬᠡᠴᠡᠭᠦᠦ",
+    "entry_ids": [
+     "121009"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D1%8D%D1%86%D2%AF%D2%AF"
+   }
+  },
+  "хүзүү": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠵᠦᠭᠦᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%B7%D2%AF%D2%AF"
+   }
+  },
+  "хүйтэн": {
+   "mongoltoli": {
+    "bichig": "ᠬᠦᠢᠲᠡᠨ",
+    "entry_ids": [
+     "117318"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D2%AF%D0%B9%D1%82%D1%8D%D0%BD"
+   }
+  },
+  "хүлээх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠯᠢᠶᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BB%D1%8D%D1%8D%D1%85"
+   }
+  },
+  "хүмүүс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠰ",
+     "ᠬᠦᠮᠦᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BC%D2%AF%D2%AF%D1%81"
+   }
+  },
+  "хүмүүст": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠰ ᠲᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BC%D2%AF%D2%AF%D1%81%D1%82"
+   }
+  },
+  "хүн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BD"
+   }
+  },
+  "хүнд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠨᠳᠦ",
+     "ᠬᠦᠮᠦᠨ ᠳᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BD%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠦᠨᠳᠦ",
+    "entry_ids": [
+     "117752"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D2%AF%D0%BD%D0%B4"
+   }
+  },
+  "хүний": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠨ ᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BD%D0%B8%D0%B9"
+   }
+  },
+  "хүнийг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠨ ᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BD%D0%B8%D0%B9%D0%B3"
+   }
+  },
+  "хүнтэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠨ ᠲᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BD%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "хүнээр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠮᠦᠨ ᠢᠶᠡᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D0%BD%D1%8D%D1%8D%D1%80"
+   }
+  },
+  "хүртэл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠷᠲᠡᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D1%80%D1%82%D1%8D%D0%BB"
+   }
+  },
+  "хүрхрээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠷᠬᠢᠷ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D1%80%D1%85%D1%80%D1%8D%D1%8D"
+   }
+  },
+  "хүрэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠷᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D1%80%D1%8D%D1%85"
+   }
+  },
+  "хүч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠴᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D1%87"
+   }
+  },
+  "хүчтэй": {
+   "mongoltoli": {
+    "bichig": "ᠬᠦᠴᠦᠲᠡᠶ",
+    "entry_ids": [
+     "118935"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D2%AF%D1%87%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "хүү": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠦᠦ",
+     "ᠬᠦ᠋ᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D2%AF"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠦᠦ",
+    "entry_ids": [
+     "118477"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D2%AF%D2%AF"
+   }
+  },
+  "хүүхэд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠡᠦᠬᠡᠳ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D2%AF%D2%AF%D1%85%D1%8D%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠡᠦᠬᠡᠳ",
+    "entry_ids": [
+     "118609"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D2%AF%D2%AF%D1%85%D1%8D%D0%B4"
+   }
+  },
+  "хөгжилтэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠭᠵᠢᠯᠲᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D0%B3%D0%B6%D0%B8%D0%BB%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "хөгжим": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠭᠵᠢᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D0%B3%D0%B6%D0%B8%D0%BC"
+   }
+  },
+  "хөдөлгүүр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠳᠡᠯᠭᠡᠭᠦᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D0%B4%D3%A9%D0%BB%D0%B3%D2%AF%D2%AF%D1%80"
+   }
+  },
+  "хөл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D0%BB"
+   }
+  },
+  "хөлдөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠯᠳᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D0%BB%D0%B4%D3%A9%D1%85"
+   }
+  },
+  "хөрш": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠷᠰᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D1%80%D1%88"
+   }
+  },
+  "хөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠬᠥᠬᠡ",
+     "ᠬᠥᠬᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%85%D3%A9%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠬᠥᠬᠡ",
+    "entry_ids": [
+     "113798"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%85%D3%A9%D1%85"
+   }
+  },
+  "цаас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠭᠠᠰᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%B0%D1%81"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠᠭᠠᠰᠤ",
+    "entry_ids": [
+     "121788"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D0%B0%D0%B0%D1%81"
+   }
+  },
+  "цаг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠭ",
+     "ᠴᠠᠭ᠌"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%B3"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠᠭ",
+    "entry_ids": [
+     "122062"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D0%B0%D0%B3"
+   }
+  },
+  "цагаан": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠭᠠᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%B3%D0%B0%D0%B0%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠᠭᠠᠨ",
+    "entry_ids": [
+     "122192"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D0%B0%D0%B3%D0%B0%D0%B0%D0%BD"
+   }
+  },
+  "цагдаа": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠭᠳᠠᠭ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%B3%D0%B4%D0%B0%D0%B0"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠᠭᠳᠠᠭ᠎ᠠ",
+    "entry_ids": [
+     "122387"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D0%B0%D0%B3%D0%B4%D0%B0%D0%B0"
+   }
+  },
+  "цай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠᠢ",
+    "entry_ids": [
+     "122478"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D0%B0%D0%B9"
+   }
+  },
+  "цайнд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠶᠢᠨ ᠳᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%B9%D0%BD%D0%B4"
+   }
+  },
+  "цамц": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠮᠴᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D0%BC%D1%86"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠᠮᠴᠠ",
+    "entry_ids": [
+     "122830"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D0%B0%D0%BC%D1%86"
+   }
+  },
+  "царай": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠷᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%80%D0%B0%D0%B9"
+   }
+  },
+  "цас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%B0%D1%81"
+   }
+  },
+  "цонх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠣᠩᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%BE%D0%BD%D1%85"
+   }
+  },
+  "цохих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠣᠬᠢᠬᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D0%BE%D1%85%D0%B8%D1%85"
+   }
+  },
+  "цус": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D1%83%D1%81"
+   }
+  },
+  "цэвэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠡᠪᠡᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D1%8D%D0%B2%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠡᠪᠡᠷ",
+    "entry_ids": [
+     "125821"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D1%8D%D0%B2%D1%8D%D1%80"
+   }
+  },
+  "цэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠡᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D1%8D%D0%B3"
+   }
+  },
+  "цэнхэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠡᠩᠬᠡᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D1%8D%D0%BD%D1%85%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠡᠩᠬᠡᠷ",
+    "entry_ids": [
+     "126244"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D1%8D%D0%BD%D1%85%D1%8D%D1%80"
+   }
+  },
+  "цэцэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠡᠴᠡᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D1%8D%D1%86%D1%8D%D0%B3"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠡᠴᠡᠭ",
+    "entry_ids": [
+     "126484"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D1%8D%D1%86%D1%8D%D0%B3"
+   }
+  },
+  "цүнх": {
+   "mongoltoli": {
+    "bichig": "ᠴᠦᠩᠬᠦ",
+    "entry_ids": [
+     "125642"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D2%AF%D0%BD%D1%85"
+   }
+  },
+  "цөөн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠥᠭᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%86%D3%A9%D3%A9%D0%BD"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠥᠭᠡᠨ",
+    "entry_ids": [
+     "124787"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%86%D3%A9%D3%A9%D0%BD"
+   }
+  },
+  "ч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%87"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠠ᠊",
+    "entry_ids": [
+     "126641"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%87"
+   }
+  },
+  "чавхдас": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠪᠬᠠᠳᠠᠰᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B0%D0%B2%D1%85%D0%B4%D0%B0%D1%81"
+   }
+  },
+  "чанга": {
+   "mongoltoli": {
+    "bichig": "ᠴᠢᠩᠭ᠎ᠠ",
+    "entry_ids": [
+     "127090"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%87%D0%B0%D0%BD%D0%B3%D0%B0"
+   }
+  },
+  "чи": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B8"
+   },
+   "mongoltoli": {
+    "bichig": "ᠴᠢ",
+    "entry_ids": [
+     "127428"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%87%D0%B8"
+   }
+  },
+  "чиний": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠨᠤ",
+     "ᠴᠢᠨ᠌ᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B8%D0%BD%D0%B8%D0%B9"
+   }
+  },
+  "чих": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠬᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%87%D0%B8%D1%85"
+   }
+  },
+  "чулуу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠯᠠᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%87%D1%83%D0%BB%D1%83%D1%83"
+   }
+  },
+  "чухал": {
+   "wiktionary": {
+    "bichig": [
+     "ᠴᠢᠬᠤᠯᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%87%D1%83%D1%85%D0%B0%D0%BB"
+   }
+  },
+  "шалгах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠯᠭᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B0%D0%BB%D0%B3%D0%B0%D1%85"
+   }
+  },
+  "шар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠷ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B0%D1%80"
+   }
+  },
+  "шатаах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠲᠠᠭᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B0%D1%82%D0%B0%D0%B0%D1%85"
+   }
+  },
+  "шатар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠲᠠᠷ᠎ᠠ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B0%D1%82%D0%B0%D1%80"
+   }
+  },
+  "шахах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠬᠠᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B0%D1%85%D0%B0%D1%85"
+   }
+  },
+  "шийдвэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠢᠳᠪᠦᠷᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%B9%D0%B4%D0%B2%D1%8D%D1%80"
+   }
+  },
+  "шил": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%BB"
+   }
+  },
+  "шинэ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠨ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D0%BD%D1%8D"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠢᠨ᠎ᠡ",
+    "entry_ids": [
+     "132379"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%88%D0%B8%D0%BD%D1%8D"
+   }
+  },
+  "ширээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠷᠡᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D0%B8%D1%80%D1%8D%D1%8D"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠢᠷᠡᠭᠡ",
+    "entry_ids": [
+     "132796"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%88%D0%B8%D1%80%D1%8D%D1%8D"
+   }
+  },
+  "шувуу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠪᠠᠭᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D1%83%D0%B2%D1%83%D1%83"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠢᠪᠠᠭᠤ",
+    "entry_ids": [
+     "133840"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%88%D1%83%D0%B2%D1%83%D1%83"
+   }
+  },
+  "шугам": {
+   "wiktionary": {
+    "bichig": [
+     "ᠱᠤᠭᠤᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D1%83%D0%B3%D0%B0%D0%BC"
+   }
+  },
+  "шулуун": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠯᠤᠭᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D1%83%D0%BB%D1%83%D1%83%D0%BD"
+   }
+  },
+  "шүд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠳᠦ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D2%AF%D0%B4"
+   }
+  },
+  "шүүс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠢᠭᠦᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D2%AF%D2%AF%D1%81"
+   }
+  },
+  "шөл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠱᠥᠯᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D3%A9%D0%BB"
+   }
+  },
+  "шөнө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠰᠥᠨᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%88%D3%A9%D0%BD%D3%A9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠰᠥᠨᠢ",
+    "entry_ids": [
+     "133631"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%88%D3%A9%D0%BD%D3%A9"
+   }
+  },
+  "эвэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠪᠡᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%B2%D1%8D%D1%80"
+   }
+  },
+  "эгч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠭᠡᠴᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%B3%D1%87"
+   }
+  },
+  "эдгээр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠳ᠋ᠡᠭᠡᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%B4%D0%B3%D1%8D%D1%8D%D1%80"
+   }
+  },
+  "элс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠯᠡᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BB%D1%81"
+   }
+  },
+  "элэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠯᠢᠭᠡ",
+     "ᠡᠯᠡᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BB%D1%8D%D0%B3"
+   }
+  },
+  "эм": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠮ᠎ᠡ",
+     "ᠡᠮ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BC"
+   }
+  },
+  "эмнэлэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠮᠨᠡᠯᠭᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BC%D0%BD%D1%8D%D0%BB%D1%8D%D0%B3"
+   }
+  },
+  "эмч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠮᠴᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BC%D1%87"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠮᠴᠢ",
+    "entry_ids": [
+     "136375"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D0%BC%D1%87"
+   }
+  },
+  "эмэгтэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠮᠡᠭᠲᠡᠢ",
+     "ᠡᠮᠡᠭᠡ",
+     "ᠲᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BC%D1%8D%D0%B3%D1%82%D1%8D%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠮᠡᠭᠲᠡᠶ",
+    "entry_ids": [
+     "136409"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D0%BC%D1%8D%D0%B3%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "эмээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠮᠡᠭᠡ",
+     "ᠡᠮ᠎ᠡ ᠪᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BC%D1%8D%D1%8D"
+   }
+  },
+  "энгийн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠩ ᠤᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BD%D0%B3%D0%B8%D0%B9%D0%BD"
+   }
+  },
+  "энд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠨᠳ᠋ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BD%D0%B4"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠨᠳᠡ",
+    "entry_ids": [
+     "136519"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D0%BD%D0%B4"
+   }
+  },
+  "энэ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠨᠡ",
+     "ᠡᠨ᠌ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D0%BD%D1%8D"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠨᠡ",
+    "entry_ids": [
+     "136644"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D0%BD%D1%8D"
+   }
+  },
+  "эрвээхэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠷᠪᠡᠬᠡᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%80%D0%B2%D1%8D%D1%8D%D1%85%D1%8D%D0%B9"
+   }
+  },
+  "эргэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠷᠭᠢᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%80%D0%B3%D1%8D%D1%85"
+   }
+  },
+  "эрт": {
+   "mongoltoli": {
+    "bichig": "ᠡᠷᠲᠡ",
+    "entry_ids": [
+     "137016"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D1%80%D1%82"
+   }
+  },
+  "эрх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠷᠬᠡ",
+     "ᠡᠷᠢᠬᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%80%D1%85"
+   }
+  },
+  "эрэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠷᠭᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%80%D1%8D%D0%B3"
+   }
+  },
+  "эрэгтэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠷᠡᠭᠲᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%80%D1%8D%D0%B3%D1%82%D1%8D%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠷᠡᠭᠲᠡᠶ",
+    "entry_ids": [
+     "137324"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D1%80%D1%8D%D0%B3%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "эсгий": {
+   "wiktionary": {
+    "bichig": [
+     "ᠢᠰᠡᠭᠡᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%81%D0%B3%D0%B8%D0%B9"
+   }
+  },
+  "эхлэл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠬᠢᠯᠡᠯ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%85%D0%BB%D1%8D%D0%BB"
+   }
+  },
+  "эхлэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠬᠢᠯᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%85%D0%BB%D1%8D%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠬᠢᠯᠡᠬᠦ",
+    "entry_ids": [
+     "137649"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D1%85%D0%BB%D1%8D%D1%85"
+   }
+  },
+  "эхнэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠬᠡᠨᠡᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%85%D0%BD%D1%8D%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠡᠬᠡᠨᠡᠷ",
+    "entry_ids": [
+     "137655"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8D%D1%85%D0%BD%D1%8D%D1%80"
+   }
+  },
+  "эхэлсэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠬᠢᠯᠡᠭᠰᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%85%D1%8D%D0%BB%D1%81%D1%8D%D0%BD"
+   }
+  },
+  "ээж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8D%D1%8D%D0%B6"
+   }
+  },
+  "юм": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠤᠮ",
+     "ᠶᠠᠭᠤᠮ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8E%D0%BC"
+   }
+  },
+  "юу": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠭᠤ",
+     "ᠤᠤ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8E%D1%83"
+   },
+   "mongoltoli": {
+    "bichig": "ᠶᠠᠭᠤ",
+    "entry_ids": [
+     "138095"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%8E%D1%83"
+   }
+  },
+  "яагаад": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠭᠠᠬᠢᠭᠠᠳ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8F%D0%B0%D0%B3%D0%B0%D0%B0%D0%B4"
+   }
+  },
+  "яаж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠭᠠᠭᠢᠵᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8F%D0%B0%D0%B6"
+   }
+  },
+  "явах": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠪᠤᠬᠤ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8F%D0%B2%D0%B0%D1%85"
+   }
+  },
+  "явъя": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠪᠤᠶ᠎ᠠ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8F%D0%B2%D1%8A%D1%8F"
+   }
+  },
+  "ямар": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠮᠠᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D1%8F%D0%BC%D0%B0%D1%80"
+   }
+  },
+  "яс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶᠠᠰᠤ",
+     "ᠶ᠋ᠠᠰᠤ",
+     "ᠶ᠋ᠠᠰᠤᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%8F%D1%81"
+   }
+  },
+  "ёстой": {
+   "wiktionary": {
+    "bichig": [
+     "ᠶ᠋ᠣᠰᠤᠲᠠᠢ",
+     "ᠶᠣᠰᠤᠲᠠᠢ",
+     "ᠶᠣᠰᠤ ᠲᠠᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D1%91%D1%81%D1%82%D0%BE%D0%B9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠶᠣᠰᠤᠲᠠᠶ",
+    "entry_ids": [
+     "40702"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D1%91%D1%81%D1%82%D0%BE%D0%B9"
+   }
+  },
+  "үг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B3"
+   }
+  },
+  "үгийг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠭᠡ ᠶᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B3%D0%B8%D0%B9%D0%B3"
+   }
+  },
+  "үер": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠶᠡᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B5%D1%80"
+   }
+  },
+  "үзэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠵᠦᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B7%D1%8D%D0%B3"
+   }
+  },
+  "үзэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠵᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B7%D1%8D%D1%85"
+   }
+  },
+  "үйлдвэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠢᠯᠡᠳᠪᠦᠷᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B9%D0%BB%D0%B4%D0%B2%D1%8D%D1%80"
+   }
+  },
+  "үйлдвэрлэх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠢᠯᠡᠳᠪᠦᠷᠢᠯᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%B9%D0%BB%D0%B4%D0%B2%D1%8D%D1%80%D0%BB%D1%8D%D1%85"
+   }
+  },
+  "үлээх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠯᠢᠶᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%BB%D1%8D%D1%8D%D1%85"
+   }
+  },
+  "үнс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠨᠡᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%BD%D1%81"
+   }
+  },
+  "үнэн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠨᠡᠨ",
+     "ᠦᠨ᠌ᠡᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%BD%D1%8D%D0%BD"
+   }
+  },
+  "үнээ": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠨᠢᠶ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D0%BD%D1%8D%D1%8D"
+   }
+  },
+  "үр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠷ᠎ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D1%80"
+   }
+  },
+  "үргэлж": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠷᠭᠦᠯᠵᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D1%80%D0%B3%D1%8D%D0%BB%D0%B6"
+   }
+  },
+  "үс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D1%81"
+   }
+  },
+  "үсэг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠦᠰᠦᠭ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D1%81%D1%8D%D0%B3"
+   }
+  },
+  "үүл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠭᠦᠯᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D2%AF%D0%BB"
+   }
+  },
+  "үүлтэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠭᠦᠯᠡᠲᠡᠢ",
+     "ᠡᠭᠦᠯᠡ ᠲᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D2%AF%D0%BB%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "үүргэвч": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠭᠦᠷᠭᠡᠪᠴᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D2%AF%D2%AF%D1%80%D0%B3%D1%8D%D0%B2%D1%87"
+   }
+  },
+  "өвдөг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠪᠦᠳᠦᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B2%D0%B4%D3%A9%D0%B3"
+   }
+  },
+  "өвс": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠪᠡᠰᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B2%D1%81"
+   }
+  },
+  "өвчтэй": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠪᠡᠳᠴᠢᠲᠡᠢ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B2%D1%87%D1%82%D1%8D%D0%B9"
+   }
+  },
+  "өвөл": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠪᠦᠯ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B2%D3%A9%D0%BB"
+   }
+  },
+  "өвөө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠪᠦᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B2%D3%A9%D3%A9"
+   }
+  },
+  "өглөө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠷᠯᠦᠭᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B3%D0%BB%D3%A9%D3%A9"
+   }
+  },
+  "өгнө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠭᠦᠨ᠎ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B3%D0%BD%D3%A9"
+   }
+  },
+  "өгүүлбэр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠭᠦᠯᠡᠪᠦᠷᠢ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B3%D2%AF%D2%AF%D0%BB%D0%B1%D1%8D%D1%80"
+   }
+  },
+  "өгөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠭᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B3%D3%A9%D1%85"
+   },
+   "mongoltoli": {
+    "bichig": "ᠥᠭᠬᠦ",
+    "entry_ids": [
+     "70808"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D3%A9%D0%B3%D3%A9%D1%85"
+   }
+  },
+  "өд": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠳᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B4"
+   }
+  },
+  "өдөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠳᠦᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%B4%D3%A9%D1%80"
+   }
+  },
+  "өмнө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠡᠮᠦᠨ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BC%D0%BD%D3%A9"
+   }
+  },
+  "өнгө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠩᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BD%D0%B3%D3%A9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠥᠩᠭᠡ",
+    "entry_ids": [
+     "71883"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D3%A9%D0%BD%D0%B3%D3%A9"
+   }
+  },
+  "өнгөрөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠩᠭᠡᠷᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BD%D0%B3%D3%A9%D1%80%D3%A9%D1%85"
+   }
+  },
+  "өндөг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠨᠳᠡᠭᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BD%D0%B4%D3%A9%D0%B3"
+   }
+  },
+  "өндөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠨᠳᠥᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BD%D0%B4%D3%A9%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠥᠨᠳᠦᠷ",
+    "entry_ids": [
+     "72148"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D3%A9%D0%BD%D0%B4%D3%A9%D1%80"
+   }
+  },
+  "өнцөг": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠨᠴᠦᠭ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BD%D1%86%D3%A9%D0%B3"
+   }
+  },
+  "өнөөдөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠨᠦᠳᠦᠷ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D0%BD%D3%A9%D3%A9%D0%B4%D3%A9%D1%80"
+   },
+   "mongoltoli": {
+    "bichig": "ᠥᠨᠦᠳᠦᠷ",
+    "entry_ids": [
+     "72262"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D3%A9%D0%BD%D3%A9%D3%A9%D0%B4%D3%A9%D1%80"
+   }
+  },
+  "өргөн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠷᠭᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D1%80%D0%B3%D3%A9%D0%BD"
+   }
+  },
+  "өрөө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠷᠦᠭᠡ",
+     "ᠡᠷᠦᠭᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D1%80%D3%A9%D3%A9"
+   },
+   "mongoltoli": {
+    "bichig": "ᠥᠷᠦᠭᠡ",
+    "entry_ids": [
+     "73085"
+    ],
+    "url": "https://mongoltoli.mn/search.php?opt=1&word=%D3%A9%D1%80%D3%A9%D3%A9"
+   }
+  },
+  "өтгөн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠳᠬᠡᠨ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D1%82%D0%B3%D3%A9%D0%BD"
+   }
+  },
+  "өчигдөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠴᠦᠭᠡᠳᠦᠷ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D1%87%D0%B8%D0%B3%D0%B4%D3%A9%D1%80"
+   }
+  },
+  "өө": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥ",
+     "ᠡ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D3%A9"
+   }
+  },
+  "өөр": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠪᠡᠷ",
+     "ᠥᠭᠡᠷ᠎ᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D3%A9%D1%80"
+   }
+  },
+  "өөрийн": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠪᠡᠷ ᠦᠨ"
+    ],
+    "kind": "page-script",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D3%A9%D1%80%D0%B8%D0%B9%D0%BD"
+   }
+  },
+  "өөрчлөлт": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠭᠡᠷᠡᠴᠢᠯᠡᠯᠲᠡ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D3%A9%D1%80%D1%87%D0%BB%D3%A9%D0%BB%D1%82"
+   }
+  },
+  "өөх": {
+   "wiktionary": {
+    "bichig": [
+     "ᠥᠭᠡᠬᠦ"
+    ],
+    "kind": "headword",
+    "url": "https://en.wiktionary.org/wiki/%D3%A9%D3%A9%D1%85"
+   }
+  }
+ }
+}

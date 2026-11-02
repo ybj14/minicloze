@@ -1,6 +1,49 @@
 {
   "converter": "@gege-mn/gege-converter",
-  "poppeSource": "candidate.classical (Poppe/VPMC scholarly Classical romanization); fallback fromScript(bichig)",
+  "poppeSource": "normalizePoppe(candidate.classical) — FVS digits/dots stripped, kh→k, front-harmony q/γ→k/g; reviewed overrides from scripts/data/mongolian_bichig_overrides.json; fallback fromScript(bichig). NOT expert-reviewed beyond the override rows.",
+  "overridesApplied": 34,
+  "review": {
+    "tokens": 9275,
+    "verifiedTokens": 5815,
+    "unverifiedTokens": 3460,
+    "verifiedTokenPct": 62.7,
+    "verifiedForms": 525,
+    "unverifiedForms": 1103,
+    "reasons": {
+      "not-dictionary-checked": {
+        "types": 1094,
+        "tokens": 3426
+      },
+      "past-laa": {
+        "types": 65,
+        "tokens": 306
+      },
+      "guess-tier": {
+        "types": 106,
+        "tokens": 207
+      },
+      "tai-detached": {
+        "types": 50,
+        "tokens": 110
+      },
+      "homograph": {
+        "types": 4,
+        "tokens": 15
+      },
+      "du-ban": {
+        "types": 10,
+        "tokens": 24
+      },
+      "poppe-rule-mismatch": {
+        "types": 1,
+        "tokens": 3
+      },
+      "gloss-error": {
+        "types": 1,
+        "tokens": 1
+      }
+    }
+  },
   "courses": [
     {
       "course": "mongolian_a1",
@@ -8,8 +51,8 @@
       "words": 6580,
       "withBichig": 6580,
       "withPoppe": 6580,
-      "guessSurfaceUses": 201,
-      "uniqueGuesses": 89
+      "guessSurfaceUses": 143,
+      "uniqueGuesses": 87
     },
     {
       "course": "mongolian_swadesh",
@@ -17,11 +60,11 @@
       "words": 2695,
       "withBichig": 2695,
       "withPoppe": 2695,
-      "guessSurfaceUses": 82,
-      "uniqueGuesses": 22
+      "guessSurfaceUses": 64,
+      "uniqueGuesses": 21
     }
   ],
-  "uniqueSurfaces": 1835,
+  "uniqueSurfaces": 1834,
   "guessTierUnique": [
     {
       "course": "mongolian_a1",
@@ -217,20 +260,6 @@
       "word": "ирээрэй",
       "bichig": "ᠢᠷᠡᠷᠡᠢ",
       "poppe": "irerei",
-      "confidence": 1
-    },
-    {
-      "course": "mongolian_a1",
-      "word": "манай",
-      "bichig": "ᠮᠠᠨᠠᠢ",
-      "poppe": "manai",
-      "confidence": 1
-    },
-    {
-      "course": "mongolian_a1",
-      "word": "Манай",
-      "bichig": "ᠮᠠᠨᠠᠢ",
-      "poppe": "manai",
       "confidence": 1
     },
     {
@@ -553,13 +582,6 @@
       "word": "уулзъя",
       "bichig": "ᠤᠯᠵᠶᠠ",
       "poppe": "ulǰya",
-      "confidence": 1
-    },
-    {
-      "course": "mongolian_swadesh",
-      "word": "үндес",
-      "bichig": "ᠦᠨᠳᠡᠰ",
-      "poppe": "ündes",
       "confidence": 1
     },
     {

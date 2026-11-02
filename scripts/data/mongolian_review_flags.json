@@ -1,0 +1,44 @@
+{
+  "_comment": "Known-unresolved Mongolian bichig/Poppe categories (see minicloze_mongolian_poppe_audit.md §3, §8). Any token matching one of these is marked verified:false by scripts/mongolian_bichig.mjs even if a dictionary string happens to match, unless a sourced row in mongolian_bichig_overrides.json covers it. These rows only FLAG words; they never change bichig, Poppe or gloss. Resolve a word by adding a sourced override row, then remove it from here if listed.",
+  "reasons": {
+    "past-laa": "Past tense -лаа/-лоо/-лээ/-лөө. The converter often parses it as noun + reflexive (гарлаа γarul-iyan, уулаа aγula-ban). The target convention (-l-a/-l-e vs -luγ-a/-laγ-a) is undecided.",
+    "tai-detached": "Adjectival -тай/-тэй/-той/-төй written detached with MVS. Adjectives are usually written attached (хэрэгтэй keregtei), true comitatives detached; each word needs a reader's decision.",
+    "du-ban": "Dative + reflexive written -du-ban/-tü-ben; the expected form is -daγan/-degen. Rule not yet confirmed per word.",
+    "guess-tier": "Converter rule-fallback ('guess' tier, about 6% reliable per its README) and not matched by any dictionary.",
+    "homograph": "Homograph resolved without sentence context; the chosen reading may be the wrong word.",
+    "gloss-error": "The English gloss in the explanation is wrong for this sentence. The bichig/Poppe shown are believed right for the sentence but the token is flagged until the gloss is fixed.",
+    "poppe-rule-mismatch": "Bichig is dictionary-checked but the Poppe string is not the rule-based (vowel-harmony) transliteration of that bichig.",
+    "not-dictionary-checked": "Machine output from @gege-mn/gege-converter 0.5.0 (a candidate generator) not matched against mongoltoli.mn or Wiktionary and not covered by a sourced override."
+  },
+  "past_laa": {
+    "surface_regex": "(лаа|лоо|лээ|лөө)$",
+    "exclude_gloss_regex": "^(one's\\b|morning$|seven$|fly$|candle$|wait$)"
+  },
+  "homographs": [
+    {
+      "cyrillic": "хөх",
+      "note": "Glossed 'blue' (e.g. -100022) and 'breast' (e.g. -500264); the converter gives the same reading köke for both senses. mongoltoli.mn only returned the first headword ('blue')."
+    },
+    {
+      "cyrillic": "эхэнд",
+      "note": "Glossed 'at the beginning', but the data has the reading eke-dü ('to the mother'); sentence audit -101401."
+    },
+    {
+      "cyrillic": "сарын",
+      "note": "Flagged in sentence audit -101401 (month vs moon reading chosen without context)."
+    },
+    {
+      "cyrillic": "зурагт",
+      "note": "Glossed 'television'; data reading ǰiruγtu. Marked ambiguous in the sentence audit (-100955); not confirmed by a dictionary."
+    }
+  ],
+  "gloss_errors": [
+    {
+      "cyrillic": "хүнд",
+      "sentence_ids": [
+        "-100859"
+      ],
+      "note": "'Энэ хоол хоёр хүнд хангалттай': хүнд is the dative of хүн 'person', not 'heavy'. Bichig ᠬᠦᠮᠦᠨ᠎ᠳᠦ kümün-dü is kept; the explanation gloss 'heavy' is wrong and needs fixing in the corpus explanations."
+    }
+  ]
+}

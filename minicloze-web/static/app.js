@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20261006-2";
+const DATA_VERSION = "static-data-20261030-1";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -353,6 +353,7 @@ const els = {
   promptLine: document.querySelector("#promptLine"),
   wylieLine: document.querySelector("#wylieLine"),
   wylieOrthographyLine: document.querySelector("#wylieOrthographyLine"),
+  readingUnverifiedNote: document.querySelector("#readingUnverifiedNote"),
   translationLabel: document.querySelector("#translationLabel"),
   translationText: document.querySelector("#translationText"),
   choices: document.querySelector("#choices"),
@@ -941,7 +942,27 @@ function generatePrompt(sentence, course, inverse) {
       : null,
     secondHalfWylie: joinPromptTokenWylie(words.slice(wordIndex + 1)),
     wordAnswerTransliterations: word.answerTransliterations || [],
+    unverifiedReading: unverifiedReadingNote(words, wordIndex),
   };
+}
+
+const UNVERIFIED_READING_TITLE =
+  "Unverified: machine-generated (gege-converter), not yet dictionary-checked or reviewed by a reader of Traditional Mongolian.";
+
+/** Tooltip for a Mongolian bichig/Poppe line, or null if every word is checked. */
+function unverifiedReadingNote(words, wordIndex) {
+  const flagged = [];
+  words.forEach((word, index) => {
+    if (!word.unverified) {
+      return;
+    }
+    // Never reveal the cloze answer in the tooltip.
+    flagged.push(index === wordIndex ? "(the missing word)" : removePunctuation(word.text));
+  });
+  if (!flagged.length) {
+    return null;
+  }
+  return `${UNVERIFIED_READING_TITLE} Words: ${flagged.join(", ")}.`;
 }
 
 function trailingWhitespace(text) {
@@ -971,6 +992,8 @@ function promptTokens(sentence, course, inverse) {
       transliteration: tokenTransliteration(token),
       wylie: tokenSecondaryWylie(token),
       answerTransliterations: tokenAnswerTransliterations(token),
+      // Mongolian: bichig/Poppe not dictionary-checked or reviewed yet.
+      unverified: token.verified === false,
     }));
   }
 
@@ -1111,7 +1134,7 @@ function buildOptionTransliterationMap(tokens) {
           wylie = cleaned;
         }
       }
-      map.set(key, { primary, wylie });
+      map.set(key, { primary, wylie, unverified: token.verified === false });
     }
   }
   return map;
@@ -1291,6 +1314,7 @@ function cardView(round, card, index) {
     },
     transliteration,
     wylieOrthography,
+    unverifiedReading: card.prompt.unverifiedReading || null,
     translation: card.translation,
     answer_options: card.answerOptions,
   };
@@ -1432,9 +1456,11 @@ function renderCard(card) {
       currentRound?.course?.baseLanguage === "mon",
     );
     renderClozeLine(els.wylieLine, card.transliteration);
+    markUnverifiedReading(els.wylieLine, card.unverifiedReading);
     show(els.wylieLine);
   } else {
     els.wylieLine.classList.remove("bichig-line");
+    markUnverifiedReading(els.wylieLine, null);
     hide(els.wylieLine);
   }
 
@@ -1444,11 +1470,20 @@ function renderCard(card) {
       currentRound?.course?.baseLanguage === "mon",
     );
     renderClozeLine(els.wylieOrthographyLine, card.wylieOrthography);
+    markUnverifiedReading(els.wylieOrthographyLine, card.unverifiedReading);
     show(els.wylieOrthographyLine);
   } else if (els.wylieOrthographyLine) {
     els.wylieOrthographyLine.classList.remove("poppe-line");
+    markUnverifiedReading(els.wylieOrthographyLine, null);
     hide(els.wylieOrthographyLine);
   }
+
+  renderUnverifiedReadingNote(
+    !els.wylieLine.classList.contains("hidden") ||
+      (els.wylieOrthographyLine && !els.wylieOrthographyLine.classList.contains("hidden"))
+      ? card.unverifiedReading
+      : null,
+  );
 
   if (activeMode === "multiple_choice") {
     renderChoices(card.answer_options);
@@ -1462,6 +1497,39 @@ function renderCard(card) {
   }
 
   disableAnswerInputs(false);
+}
+
+function markUnverifiedReading(element, note) {
+  if (!element) {
+    return;
+  }
+  element.classList.toggle("reading-unverified", Boolean(note));
+  if (note) {
+    element.title = note;
+    element.setAttribute("aria-describedby", "readingUnverifiedNote");
+  } else {
+    element.removeAttribute("title");
+    element.removeAttribute("aria-describedby");
+  }
+}
+
+/**
+ * Visible (not hover-only) explanation of the `*`, shown before answering so
+ * keyboard, touch and screen-reader users get the same warning. The note text
+ * never contains the cloze answer (see unverifiedReadingNote).
+ */
+function renderUnverifiedReadingNote(note) {
+  const el = els.readingUnverifiedNote;
+  if (!el) {
+    return;
+  }
+  if (note) {
+    el.textContent = `* ${note}`;
+    show(el);
+  } else {
+    el.textContent = "";
+    hide(el);
+  }
 }
 
 function renderClozeLine(element, line) {
@@ -1545,6 +1613,10 @@ function renderChoices(options) {
           wylie.textContent = reading.wylie;
           button.append(wylie);
         }
+        if (isBichig && reading.unverified) {
+          button.classList.add("reading-unverified");
+          button.title = UNVERIFIED_READING_TITLE;
+        }
       }
 
       button.addEventListener("click", () => submitAnswer(option));
@@ -1575,9 +1647,14 @@ function renderWordExplanations(explanations) {
   title.textContent = "Words";
 
   const list = document.createElement("dl");
+  let anyUnverified = false;
   for (const explanation of explanations) {
     const term = document.createElement("dt");
     term.append(document.createTextNode(explanation.word));
+    const unverified = explanation.verified === false && Boolean(explanation.bichig);
+    if (unverified) {
+      anyUnverified = true;
+    }
     if (explanation.bichig) {
       const bichigElement = document.createElement("span");
       bichigElement.className =
@@ -1591,6 +1668,12 @@ function renderWordExplanations(explanations) {
         "word-explanations-transliteration word-explanations-poppe";
       poppeElement.textContent = explanation.poppe;
       term.append(poppeElement);
+    }
+    if (unverified) {
+      term.classList.add("reading-unverified");
+      term.title = `${UNVERIFIED_READING_TITLE}${explanation.review ? ` (${explanation.review})` : ""}`;
+    } else if (explanation.verified === true && explanation.verified_by) {
+      term.title = `Bichig/Poppe dictionary-checked (not yet reviewed by a reader): ${explanation.verified_by}`;
     }
     for (const transliteration of explanationTransliterations(explanation)) {
       const transliterationElement = document.createElement("span");
@@ -1606,7 +1689,15 @@ function renderWordExplanations(explanations) {
     list.append(term, definition);
   }
 
-  els.wordExplanations.replaceChildren(title, list);
+  const children = [title, list];
+  if (anyUnverified) {
+    const footnote = document.createElement("p");
+    footnote.className = "word-explanations-footnote";
+    footnote.textContent =
+      "* Unverified Traditional Mongolian / Poppe reading: machine-generated, awaiting review.";
+    children.push(footnote);
+  }
+  els.wordExplanations.replaceChildren(...children);
   show(els.wordExplanations);
 }
 
