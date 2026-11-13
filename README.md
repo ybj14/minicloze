@@ -282,7 +282,7 @@ The `package.json` scripts that exist today are `build:static-data`, `build:stat
 - Cache headers from `vercel.json`:
   - `/`, `/index.html`, `/service-worker.js`, `/manifest.webmanifest`: `no-cache, max-age=0`
   - `/data/*` and `/icons/*`: `public, max-age=31536000, immutable` (one year). **A changed data file is only picked up when its URL changes**, which is what `DATA_VERSION` is for.
-- Production is <https://minicloze.vercel.app>. It responds with `server: Vercel`. After #32 was merged on 2026-11-13 it served `static-pwa-20261103-01`, `DATA_VERSION=static-data-20261103-1`, and service worker `minicloze-static-pwa-v46`. This tree bumps those to `static-pwa-20261113-02`, `static-data-20261113-2`, and `minicloze-static-pwa-v48`.
+- Production is <https://minicloze.vercel.app>. It responds with `server: Vercel`. After #32 was merged on 2026-11-13 it served `static-pwa-20261103-01`, `DATA_VERSION=static-data-20261103-1`, and service worker `minicloze-static-pwa-v46`. This tree bumps those to `static-pwa-20261113-03`, `static-data-20261113-3`, and `minicloze-static-pwa-v49`.
 - *Assumed, not visible in the repo:* the Vercel project is connected to GitHub through Vercel's Git integration, so pushes to `master` deploy to production and PR branches get preview deployments. The repo has no Vercel CLI config or GitHub workflow, and the project link and its settings live in the Vercel dashboard (owner only). Ask the owner if you need a preview URL or deploy logs.
 
 ### Local preview
@@ -297,10 +297,10 @@ Whenever you change `app.js`, `app.css`, `index.html`, service-worker behaviour,
 
 | Where | What | Current example |
 | --- | --- | --- |
-| `minicloze-web/static/app.js` | `DATA_VERSION` (appended as `?v=` to every `/data/*.json` URL via `dataPath`) | `static-data-20261113-2` |
-| `minicloze-web/static/index.html` | `?v=` on `/app.css` and `/app.js` | `static-pwa-20261113-02` |
-| `minicloze-web/static/service-worker.js` | the same `?v=` strings in `APP_SHELL` | `static-pwa-20261113-02` |
-| `minicloze-web/static/service-worker.js` | `CACHE_NAME` (increment; old caches are deleted on activate) | `minicloze-static-pwa-v48` |
+| `minicloze-web/static/app.js` | `DATA_VERSION` (appended as `?v=` to every `/data/*.json` URL via `dataPath`) | `static-data-20261113-3` |
+| `minicloze-web/static/index.html` | `?v=` on `/app.css` and `/app.js` | `static-pwa-20261113-03` |
+| `minicloze-web/static/service-worker.js` | the same `?v=` strings in `APP_SHELL` | `static-pwa-20261113-03` |
+| `minicloze-web/static/service-worker.js` | `CACHE_NAME` (increment; old caches are deleted on activate) | `minicloze-static-pwa-v49` |
 
 Convention from history: `static-data-YYYYMMDD-N`, `static-pwa-YYYYMMDD-NN`, and `vN+1` for `CACHE_NAME`. The new service worker waits until the user taps the in-app **Update** toast (#20).
 

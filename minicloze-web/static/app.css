@@ -691,6 +691,13 @@ dt.reading-unverified .word-explanations-poppe {
   gap: 10px;
 }
 
+.text-answer-label {
+  grid-column: 1 / -1;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 750;
+}
+
 .feedback {
   border-radius: 6px;
   padding: 13px 14px;
@@ -726,6 +733,32 @@ dt.reading-unverified .word-explanations-poppe {
   font-size: 0.78rem;
   font-weight: 850;
   text-transform: uppercase;
+}
+
+.word-explanations-source {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.word-explanations-source-text {
+  margin: 0 0 6px;
+  color: var(--ink);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.word-explanations-citation {
+  margin: 0;
+  color: var(--secondary);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.word-explanations-citation a {
+  color: var(--blue, #0b6e4f);
 }
 
 .word-explanations dl {

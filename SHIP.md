@@ -73,4 +73,4 @@ Cache for the 2026-10-30 review build: `DATA_VERSION=static-data-20261030-1`, SW
 
 Cache after #32 (2026-11-13, then on production): `DATA_VERSION=static-data-20261103-1`, SW `minicloze-static-pwa-v46`, asset `?v=static-pwa-20261103-01`.
 
-Current cache in this tree: `DATA_VERSION=static-data-20261113-2`, SW `minicloze-static-pwa-v48`, asset `?v=static-pwa-20261113-02`.
+Current cache in this tree: `DATA_VERSION=static-data-20261113-3`, SW `minicloze-static-pwa-v49`, asset `?v=static-pwa-20261113-03`.
