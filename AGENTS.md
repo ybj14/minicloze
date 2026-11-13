@@ -72,7 +72,7 @@ When changing `app.js`, `app.css`, `index.html`, service-worker behavior, or sta
 - `CACHE_NAME` and shell asset query strings in `minicloze-web/static/service-worker.js`
 - CSS/JS query strings in `minicloze-web/static/index.html`
 
-The Axum server in `minicloze-web/src/main.rs` embeds the same static files with `include_str!` and exposes API endpoints for local server mode. Its `/data/:file` route currently embeds data only for the Mongolian, Tibetan, Tajik, Thai, Burmese, and Khmer courses, so Amharic, Armenian, Georgian, Maltese, and Sanskrit data return 404 in `./web.sh` mode. Use the static preview for those.
+The Axum server in `minicloze-web/src/main.rs` still embeds the app shell (`index.html`, `app.js`, CSS, manifest, service worker, icons) with `include_str!` / `include_bytes!`, and exposes API endpoints for local server mode. `/data/:file` now serves every `*.json` file from `minicloze-web/static/data` on disk (including `mongolian_*_tokens.json` and the Amharic, Armenian, Georgian, Maltese and Sanskrit courses), so `./web.sh` can load all 23 courses. Set `MINICLOZE_STATIC_DIR` to the `static` directory if the binary is not run from the crate.
 
 ## Testing Guidance
 
