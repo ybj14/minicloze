@@ -160,7 +160,7 @@ Dict. match = a dictionary string matches the bichig, but the form is held back 
 | 133 | талд | in/at/to side | ᠲᠠᠯ᠎ᠠ᠎ᠳᠤ | tal-a-du | 5 | not-dictionary-checked |  | -100727 -100750 -101204 -500595 -500598 |
 | 134 | уншиж | reading | ᠤᠩᠰᠢᠵᠤ | ungsiǰu | 5 | not-dictionary-checked |  | -100163 -100598 -100753 -500007 -500067 |
 | 135 | уудаг | drinks | ᠤᠭᠤᠳᠠᠭ | uγudaγ | 5 | not-dictionary-checked |  | -100291 -100607 -100832 -500000 -500532 |
-| 136 | хаав | closeed | ᠬᠠᠭᠠᠪᠠ | qaγaba | 5 | not-dictionary-checked |  | -100028 -100031 -100202 -500478 -500481 |
+| 136 | хаав | closed | ᠬᠠᠭᠠᠪᠠ | qaγaba | 5 | not-dictionary-checked |  | -100028 -100031 -100202 -500478 -500481 |
 | 137 | хамтдаа | together | ᠬᠠᠮᠲᠤ᠎ᠳᠤ᠎ᠪᠠᠨ | qamtu-du-ban | 5 | du-ban, not-dictionary-checked |  | -100801 -100802 -100803 -101178 -500422 |
 | 138 | харагдана | will appear | ᠬᠠᠷᠠᠭᠳᠠᠨ᠎ᠠ | qaraγdan-a | 5 | not-dictionary-checked |  | -100057 -100872 -101044 -500459 -500569 |
 | 139 | харсан | saw | ᠬᠠᠷᠠᠭᠰᠠᠨ | qaraγsan | 5 | not-dictionary-checked |  | -100591 -100714 -100715 -100716 -101016 |
@@ -303,7 +303,7 @@ Dict. match = a dictionary string matches the bichig, but the form is held back 
 | 621 | амраадаг | lets rest; relaxes | ᠠᠮᠷᠠᠳᠠᠭ | amradaγ | 1 | guess-tier, not-dictionary-checked |  | -100109 |
 | 623 | амьдарна | will live | ᠠᠮᠢᠳᠠᠷᠨᠠ | amidarna | 1 | guess-tier, not-dictionary-checked |  | -101406 |
 | 624 | амьдарч | living | ᠠᠮᠢᠳᠠᠷᠴᠢ | amidarči | 1 | guess-tier, not-dictionary-checked |  | -101018 |
-| 630 | асаалаа | turn oned | ᠠᠰᠠᠯ᠎ᠢᠶᠠᠨ | asal-iyan | 1 | past-laa, guess-tier, not-dictionary-checked |  | -100446 |
+| 630 | асаалаа | turned on | ᠠᠰᠠᠯ᠎ᠢᠶᠠᠨ | asal-iyan | 1 | past-laa, guess-tier, not-dictionary-checked |  | -100446 |
 | 649 | байшинг | house + object marker | ᠪᠠᠢᠱᠢᠩᠭ | baišingγ | 1 | guess-tier, not-dictionary-checked |  | -500021 |
 | 651 | барьдаг | holds; builds | ᠪᠠᠷᠢᠳᠠᠭ | baridaγ | 1 | guess-tier, not-dictionary-checked |  | -101109 |
 | 657 | битүүрсэн | blocked; stuffy | ᠪᠢᠲᠦᠷᠰᠡᠨ | bitürsen | 1 | guess-tier, not-dictionary-checked |  | -500222 |
@@ -505,7 +505,7 @@ Dict. match = a dictionary string matches the bichig, but the form is held back 
 | 378 | үүнийг | this | ᠡᠭᠦᠨ᠎ᠢ | egün-i | 3 | not-dictionary-checked |  | -100467 -100480 -101344 |
 | 379 | үүрэх | carry; bear | ᠡᠭᠦᠷᠬᠦ | egürkü | 3 | not-dictionary-checked |  | -101407 -101408 -101409 |
 | 380 | фунт | pound | ᠹᠤᠨᠲ | funt | 3 | not-dictionary-checked |  | -101101 -101102 -101103 |
-| 381 | хаалаа | closeed | ᠬᠠᠭᠠᠯ᠎ᠠ | qaγal-a | 3 | past-laa, not-dictionary-checked |  | -100052 -100853 -101333 |
+| 381 | хаалаа | closed | ᠬᠠᠭᠠᠯ᠎ᠠ | qaγal-a | 3 | past-laa, not-dictionary-checked |  | -100052 -100853 -101333 |
 | 382 | хаалгыг | door | ᠬᠠᠭᠠᠯᠭ᠎ᠠ᠎ᠶᠢ | qaγalγ-a-yi | 3 | not-dictionary-checked |  | -100971 -500388 -500402 |
 | 383 | хавдах | swell | ᠬᠠᠪᠤᠳᠬᠤ | qabudqu | 3 | not-dictionary-checked |  | -500435 -500436 -500437 |
 | 384 | хадгалах | keep; save; store | ᠬᠠᠳᠠᠭᠠᠯᠠᠬᠤ | qadaγalaqu | 3 | not-dictionary-checked |  | -101374 -101375 -101376 |
@@ -604,7 +604,7 @@ Dict. match = a dictionary string matches the bichig, but the form is held back 
 | 489 | зүрхтэй | with a heart | ᠵᠢᠷᠦᠬᠡ᠎ᠲᠡᠢ | ǰirüke-tei | 2 | tai-detached, not-dictionary-checked |  | -100097 -500268 |
 | 490 | идээд | after eating | ᠢᠳᠡᠭᠡ᠎ᠳᠦ | idege-dü | 2 | not-dictionary-checked |  | -100148 -500289 |
 | 491 | инээж | laughing | ᠢᠨᠢᠶᠡᠵᠦ | iniyeǰü | 2 | not-dictionary-checked |  | -100429 -100864 |
-| 493 | мандлаа | riseed | ᠮᠠᠨᠳᠤᠯ᠎ᠠ | mandul-a | 2 | past-laa, not-dictionary-checked |  | -100012 -500438 |
+| 493 | мандлаа | rose | ᠮᠠᠨᠳᠤᠯ᠎ᠠ | mandul-a | 2 | past-laa, not-dictionary-checked |  | -100012 -500438 |
 | 494 | машинд | in/at/to car; machine | ᠮᠠᠱᠢᠨ᠋᠎ᠳᠤ | mašin-du | 2 | not-dictionary-checked |  | -100149 -500290 |
 | 495 | модон | tree | ᠮᠣᠳᠤᠨ | modun | 2 | not-dictionary-checked |  | -100891 -500135 |
 | 496 | монголоор | by/with Mongolia; Mongolian | ᠮᠣᠩᠭᠤᠯ᠎ᠢᠶᠠᠷ | mongγul-iyar | 2 | not-dictionary-checked |  | -100388 -500553 |
@@ -1062,7 +1062,7 @@ Dict. match = a dictionary string matches the bichig, but the form is held back 
 | 1013 | хуулахгүй | will not peel; will not copy | ᠬᠠᠭᠤᠯᠬᠤ ᠦᠭᠡᠢ | qaγulqu ügei | 1 | not-dictionary-checked |  | -500172 |
 | 1014 | хүйтнийг | coldness; cold | ᠬᠥᠢᠲᠡᠨ᠎ᠢ | köiten-i | 1 | not-dictionary-checked |  | -100886 |
 | 1015 | хүлээ | wait | ᠬᠦᠯᠢᠶ᠎ᠡ | küliy-e | 1 | not-dictionary-checked |  | -100845 |
-| 1017 | хүнд | heavy | ᠬᠦᠮᠦᠨ᠎ᠳᠦ | kümün-dü | 1 | gloss-error | Wiktionary | -100859 |
+| 1017 | хүнд | to/for a person | ᠬᠦᠮᠦᠨ᠎ᠳᠦ | kümün-dü | 1 | gloss-error | Wiktionary | -100859 |
 | 1018 | хүрвэл | if reaching | ᠬᠦᠷᠪᠡᠯ | kürbel | 1 | not-dictionary-checked |  | -100131 |
 | 1019 | хүрэхгүй | reach | ᠬᠦᠷᠬᠦ ᠦᠭᠡᠢ | kürkü ügei | 1 | not-dictionary-checked |  | -500499 |
 | 1020 | хүрээд | after reaching | ᠬᠦᠷᠢᠶ᠎ᠡ᠎ᠳᠦ | küriy-e-dü | 1 | not-dictionary-checked |  | -100127 |
@@ -1079,7 +1079,7 @@ Dict. match = a dictionary string matches the bichig, but the form is held back 
 | 1032 | хэмжээтэй | with size; amount; having size; amount | ᠬᠡᠮᠵᠢᠶ᠎ᠡ᠎ᠲᠡᠢ | kemǰiy-e-tei | 1 | tai-detached, not-dictionary-checked |  | -100962 |
 | 1033 | хэрчихгүй | cut | ᠬᠡᠷᠴᠢᠬᠦ ᠦᠭᠡᠢ | kerčikü ügei | 1 | not-dictionary-checked |  | -500575 |
 | 1034 | хэрэглэ | use | ᠬᠡᠷᠡᠭᠯᠡ | keregle | 1 | not-dictionary-checked |  | -500329 |
-| 1035 | хэрэглэв | useed | ᠬᠡᠷᠡᠭᠯᠡᠪᠡ | kereglebe | 1 | not-dictionary-checked |  | -101052 |
+| 1035 | хэрэглэв | used | ᠬᠡᠷᠡᠭᠯᠡᠪᠡ | kereglebe | 1 | not-dictionary-checked |  | -101052 |
 | 1036 | хэрэглэдэг | uses | ᠬᠡᠷᠡᠭᠯᠡᠳᠡᠭ | keregledeg | 1 | not-dictionary-checked |  | -500257 |
 | 1037 | цаанаас | from behind | ᠴᠠᠨ᠎ᠠᠴᠠ | čan-ača | 1 | not-dictionary-checked |  | -100352 |
 | 1038 | цагийн | of time; hour | ᠴᠠᠭ᠎ᠤᠨ | čaγ-un | 1 | not-dictionary-checked |  | -101017 |
