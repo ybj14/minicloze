@@ -1,4 +1,4 @@
-const DATA_VERSION = "static-data-20261113-2";
+const DATA_VERSION = "static-data-20261113-3";
 const dataPath = (path) => `${path}?v=${DATA_VERSION}`;
 
 const COURSES = [
@@ -501,7 +501,10 @@ async function submitAnswer(answer) {
       const explanations = explanationsForCard(currentRound.course, roundCard);
       currentCard.sentenceId = roundCard.sentenceId;
       currentCard.wordExplanations = explanations;
-      renderWordExplanations(explanations);
+      renderWordExplanations(
+        explanations,
+        citationForCard(currentRound.course, roundCard),
+      );
     } catch {
       // Round can continue even if word glosses fail to load.
       hide(els.wordExplanations);
@@ -1636,19 +1639,89 @@ function renderFeedback(result) {
   show(els.feedback);
 }
 
-function renderWordExplanations(explanations) {
-  if (!explanations.length) {
+function citationForCard(course, card) {
+  if (!course || !card || card.sentenceId == null) {
+    return null;
+  }
+  const sentence = (course.sentences || []).find(
+    (item) => item.id === card.sentenceId,
+  );
+  if (!sentence) {
+    return null;
+  }
+  const citation = String(sentence.citation || "").trim();
+  const sourceText = String(sentence.source_text || "").trim();
+  if (!citation && !sourceText) {
+    return null;
+  }
+  return { citation, sourceText };
+}
+
+function appendTextWithHttpsLinks(parent, text) {
+  const urlPattern = /https:\/\/[^\s)]+/g;
+  let lastIndex = 0;
+  let match = urlPattern.exec(text);
+  while (match) {
+    if (match.index > lastIndex) {
+      parent.append(document.createTextNode(text.slice(lastIndex, match.index)));
+    }
+    const link = document.createElement("a");
+    link.href = match[0];
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = match[0];
+    parent.append(link);
+    lastIndex = match.index + match[0].length;
+    match = urlPattern.exec(text);
+  }
+  if (lastIndex < text.length) {
+    parent.append(document.createTextNode(text.slice(lastIndex)));
+  }
+}
+
+function renderSourceCitation(citation) {
+  if (!citation) {
+    return null;
+  }
+  const block = document.createElement("div");
+  block.className = "word-explanations-source";
+
+  const heading = document.createElement("p");
+  heading.className = "word-explanations-title";
+  heading.textContent = "Source";
+  block.append(heading);
+
+  if (citation.sourceText) {
+    const sourceText = document.createElement("p");
+    sourceText.className = "word-explanations-source-text";
+    sourceText.textContent = citation.sourceText;
+    block.append(sourceText);
+  }
+  if (citation.citation) {
+    const line = document.createElement("p");
+    line.className = "word-explanations-citation";
+    appendTextWithHttpsLinks(line, citation.citation);
+    block.append(line);
+  }
+  return block;
+}
+
+function renderWordExplanations(explanations, citation) {
+  const items = explanations || [];
+  if (!items.length && !citation) {
     hide(els.wordExplanations);
     return;
   }
 
+  const children = [];
+  if (items.length) {
   const title = document.createElement("p");
   title.className = "word-explanations-title";
   title.textContent = "Words";
 
   const list = document.createElement("dl");
   let anyUnverified = false;
-  for (const explanation of explanations) {
+  for (const explanation of items) {
     const term = document.createElement("dt");
     term.append(document.createTextNode(explanation.word));
     const unverified = explanation.verified === false && Boolean(explanation.bichig);
@@ -1689,13 +1762,18 @@ function renderWordExplanations(explanations) {
     list.append(term, definition);
   }
 
-  const children = [title, list];
+  children.push(title, list);
   if (anyUnverified) {
     const footnote = document.createElement("p");
     footnote.className = "word-explanations-footnote";
     footnote.textContent =
       "* Unverified Traditional Mongolian / Poppe reading: machine-generated, awaiting review.";
     children.push(footnote);
+  }
+  }
+  const sourceBlock = renderSourceCitation(citation);
+  if (sourceBlock) {
+    children.push(sourceBlock);
   }
   els.wordExplanations.replaceChildren(...children);
   show(els.wordExplanations);
