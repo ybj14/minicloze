@@ -185,6 +185,8 @@ This timeline is derived only from `git log` and the GitHub pull requests of [yb
 - 2026-10-06: **Maltese A1 + Swadesh** (#28).
 - 2026-10-17: **Sanskrit A1, Sanskrit Swadesh and Sanskrit A1 Classical** (#29).
 - 2026-11-03: Mongolian Poppe romanization fixes and `verified: true|false` markers for unverified bichig/Poppe forms, with a review queue and dictionary evidence (#30).
+- 2026-11-03: README onboarding (history, contributing, Vercel deploy) and fixes to `AGENTS.md` and the corpora README (#31).
+- 2026-11-13: nine high-frequency Mongolian bichig/Poppe forms verified via sourced overrides (#32); production cache bumped to `static-data-20261103-1` / `static-pwa-20261103-01` / `minicloze-static-pwa-v46`.
 - Open at the time of writing: draft #27 *Fix Mongolian build source safety and full-build regeneration* (opened 2026-10-06).
 
 ## How to contribute
@@ -280,7 +282,7 @@ The `package.json` scripts that exist today are `build:static-data`, `build:stat
 - Cache headers from `vercel.json`:
   - `/`, `/index.html`, `/service-worker.js`, `/manifest.webmanifest`: `no-cache, max-age=0`
   - `/data/*` and `/icons/*`: `public, max-age=31536000, immutable` (one year). **A changed data file is only picked up when its URL changes**, which is what `DATA_VERSION` is for.
-- Production is <https://minicloze.vercel.app>. It responds with `server: Vercel`, and on 2026-11-03 it served the same asset version (`static-pwa-20261031-01`) as `master`.
+- Production is <https://minicloze.vercel.app>. It responds with `server: Vercel`. After #32 was merged on 2026-11-13 it served `static-pwa-20261103-01`, `DATA_VERSION=static-data-20261103-1`, and service worker `minicloze-static-pwa-v46`. This tree bumps those to `static-pwa-20261113-01`, `static-data-20261113-1`, and `minicloze-static-pwa-v47`.
 - *Assumed, not visible in the repo:* the Vercel project is connected to GitHub through Vercel's Git integration, so pushes to `master` deploy to production and PR branches get preview deployments. The repo has no Vercel CLI config or GitHub workflow, and the project link and its settings live in the Vercel dashboard (owner only). Ask the owner if you need a preview URL or deploy logs.
 
 ### Local preview
@@ -295,10 +297,10 @@ Whenever you change `app.js`, `app.css`, `index.html`, service-worker behaviour,
 
 | Where | What | Current example |
 | --- | --- | --- |
-| `minicloze-web/static/app.js` | `DATA_VERSION` (appended as `?v=` to every `/data/*.json` URL via `dataPath`) | `static-data-20261030-1` |
-| `minicloze-web/static/index.html` | `?v=` on `/app.css` and `/app.js` | `static-pwa-20261031-01` |
-| `minicloze-web/static/service-worker.js` | the same `?v=` strings in `APP_SHELL` | `static-pwa-20261031-01` |
-| `minicloze-web/static/service-worker.js` | `CACHE_NAME` (increment; old caches are deleted on activate) | `minicloze-static-pwa-v45` |
+| `minicloze-web/static/app.js` | `DATA_VERSION` (appended as `?v=` to every `/data/*.json` URL via `dataPath`) | `static-data-20261113-1` |
+| `minicloze-web/static/index.html` | `?v=` on `/app.css` and `/app.js` | `static-pwa-20261113-01` |
+| `minicloze-web/static/service-worker.js` | the same `?v=` strings in `APP_SHELL` | `static-pwa-20261113-01` |
+| `minicloze-web/static/service-worker.js` | `CACHE_NAME` (increment; old caches are deleted on activate) | `minicloze-static-pwa-v47` |
 
 Convention from history: `static-data-YYYYMMDD-N`, `static-pwa-YYYYMMDD-NN`, and `vN+1` for `CACHE_NAME`. The new service worker waits until the user taps the in-app **Update** toast (#20).
 

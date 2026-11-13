@@ -1,11 +1,11 @@
 # Ship: Poppe romanization (鲍培转写) third line for Mongolian
 
-> **Review status (2026-10-30, branch `fix/mongolian-poppe-review`): the Traditional Mongolian (bichig) and Poppe lines are NOT verified.**
+> **Review status (updated 2026-11-13, after #32): the Traditional Mongolian (bichig) and Poppe lines are NOT human-reviewed.**
 > They are machine output of `@gege-mn/gege-converter` 0.5.0, which describes itself as a candidate generator (~74% top-1 per word), plus a mechanical Poppe clean-up and 34 source-cited overrides. Nobody who reads Traditional Mongolian has reviewed them.
 >
 > Every Mongolian token and explanation word now carries `verified: true|false`:
-> * **`verified: true`** (5815 / 9275 tokens, 62.7%) means *dictionary-checked*, not human-reviewed: either a sourced row in `scripts/data/mongolian_bichig_overrides.json`, or the bichig equals the headword string recorded from mongoltoli.mn (Academy of Sciences dictionary) or English Wiktionary in `scripts/data/mongolian_dictionary_evidence.json` **and** the Poppe equals the rule-based transliteration of that bichig. The source is in `verified_by`; the per-word list is `scripts/data/mongolian_verified_words.json`.
-> * **`verified: false`** (3460 tokens) means awaiting review; reason codes are in `review` (explanations only). Known-unresolved categories are always flagged, even when a dictionary string matches: past tense -лаа/-лоо/-лээ/-лөө (`past-laa`), detached -тай/-тэй adjectives (`tai-detached`), -du-ban dative-reflexives (`du-ban`), guess-tier forms (`guess-tier`), homographs (`homograph`), and the wrong gloss of хүнд in sentence -100859 (`gloss-error`). See `scripts/data/mongolian_review_flags.json`.
+> * **`verified: true`** (5973 / 9275 tokens, 64.4%) means *dictionary-checked*, not human-reviewed: either a sourced row in `scripts/data/mongolian_bichig_overrides.json`, or the bichig equals the headword string recorded from mongoltoli.mn (Academy of Sciences dictionary) or English Wiktionary in `scripts/data/mongolian_dictionary_evidence.json` **and** the Poppe equals the rule-based transliteration of that bichig. The source is in `verified_by`; the per-word list is `scripts/data/mongolian_verified_words.json`.
+> * **`verified: false`** (3302 tokens) means awaiting review; reason codes are in `review` (explanations only). Known-unresolved categories are always flagged, even when a dictionary string matches: past tense -лаа/-лоо/-лээ/-лөө (`past-laa`), detached -тай/-тэй adjectives (`tai-detached`), -du-ban dative-reflexives (`du-ban`), guess-tier forms (`guess-tier`), homographs (`homograph`), and the wrong gloss of хүнд in sentence -100859 (`gloss-error`). See `scripts/data/mongolian_review_flags.json`.
 > * The app shows a small `*` and a tooltip on the bichig/Poppe line, multiple-choice option and word list entry when a word is unverified.
 > * Review queue, ranked by token frequency: `scripts/data/mongolian_review_queue.md` (and `.json`). Resolve a word by adding a sourced override row and rebuilding; do not edit generated data.
 >
@@ -70,3 +70,7 @@ npm run test:mongolian
 The build also regenerates `scripts/data/mongolian_review_queue.{json,md}`, `scripts/data/mongolian_verified_words.json` and `scripts/data/mongolian_bichig_qa.json`.
 
 Cache for the 2026-10-30 review build: `DATA_VERSION=static-data-20261030-1`, SW `minicloze-static-pwa-v45`, asset `?v=static-pwa-20261031-01`.
+
+Cache after #32 (2026-11-13, then on production): `DATA_VERSION=static-data-20261103-1`, SW `minicloze-static-pwa-v46`, asset `?v=static-pwa-20261103-01`.
+
+Current cache in this tree: `DATA_VERSION=static-data-20261113-1`, SW `minicloze-static-pwa-v47`, asset `?v=static-pwa-20261113-01`.

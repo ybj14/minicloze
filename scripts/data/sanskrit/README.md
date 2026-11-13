@@ -1,6 +1,6 @@
 # Sanskrit course sources
 
-This directory holds the hand-authored sources for three Sanskrit courses. `scripts/build_sanskrit_batches.py` turns them into batch JSON under `minicloze-lib/corpora/generated/`, and `scripts/merge_a1_corpora.py` merges those batches into the shipped corpora.
+This directory holds the authoring sources for three Sanskrit courses. The A1 and Swadesh sentence files were hand-authored with an LLM as language author; that is not the same as independent human authorship without model assistance. `scripts/build_sanskrit_batches.py` turns them into batch JSON under `minicloze-lib/corpora/generated/`, and `scripts/merge_a1_corpora.py` merges those batches into the shipped corpora.
 
 | Course | Code | Source | Size | Stems | id_start |
 | --- | --- | --- | --- | --- | --- |
