@@ -472,7 +472,8 @@ function writeJsonPretty(filePath, value) {
 }
 
 function processCourse(course, cache, guessLog, reviewLog, { write = true } = {}) {
-  const explanationsPath = path.join(STATIC_DATA, `${course}_explanations.json`);
+  // Corpora are authoritative: a stale static mirror must never replace source edits.
+  const explanationsPath = path.join(CORPORA, `${course}_explanations.json`);
   if (!fs.existsSync(explanationsPath)) {
     throw new Error(`Missing explanations: ${explanationsPath}`);
   }
@@ -515,19 +516,10 @@ function processCourse(course, cache, guessLog, reviewLog, { write = true } = {}
         sentenceId: sentence.id,
         result: cached,
       });
-      delete word.verified;
-      delete word.verified_by;
-      delete word.review;
-      if (review) {
-        word.verified = review.verified;
-        if (review.verified) {
-          word.verified_by = review.verifiedBy.join("; ");
-        } else {
-          word.review = review.reasons.join(" ");
-        }
-        recordReview(reviewLog, { course, sentence, word, result: cached, review });
-      }
 
+      // Apply bichig/Poppe before verified/review so a second pass does not
+      // reshuffle JSON key order (verified used to be inserted first when the
+      // source word had no script fields yet).
       if (cached?.bichig) {
         word.bichig = cached.bichig;
         withBichig += 1;
@@ -543,6 +535,19 @@ function processCourse(course, cache, guessLog, reviewLog, { write = true } = {}
         withPoppe += 1;
       } else {
         delete word.poppe;
+      }
+
+      delete word.verified;
+      delete word.verified_by;
+      delete word.review;
+      if (review) {
+        word.verified = review.verified;
+        if (review.verified) {
+          word.verified_by = review.verifiedBy.join("; ");
+        } else {
+          word.review = review.reasons.join(" ");
+        }
+        recordReview(reviewLog, { course, sentence, word, result: cached, review });
       }
 
       let text = surface;
@@ -566,13 +571,13 @@ function processCourse(course, cache, guessLog, reviewLog, { write = true } = {}
   }
 
   if (write) {
-    // Write enriched explanations + tokens to static/
-    writeJsonPretty(explanationsPath, explanations);
+    // Write the enriched copy to the static mirror.
+    writeJsonPretty(path.join(STATIC_DATA, `${course}_explanations.json`), explanations);
     const tokensStatic = path.join(STATIC_DATA, `${course}_tokens.json`);
     writeJsonCompact(tokensStatic, tokenized);
 
-    // Sync to corpora/
-    writeJsonPretty(path.join(CORPORA, `${course}_explanations.json`), explanations);
+    // Persist only the enrichment of the source we read, never a static mirror.
+    writeJsonPretty(explanationsPath, explanations);
     writeJsonCompact(path.join(CORPORA, `${course}_tokens.json`), tokenized);
   }
 
