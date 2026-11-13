@@ -263,7 +263,7 @@ python3 -m http.server 4173 --directory minicloze-web/static   # manual check at
 Notes:
 - `cargo test` needs a recent stable Rust toolchain and OpenSSL (set `OPENSSL_LIB_DIR` / `OPENSSL_INCLUDE_DIR` if there is no `pkg-config`, see [Development setup](#development-setup)). Run it after rebuilding static data too, since it checks the corpora embedded by `local_corpora.rs`.
 - If you change a Python/Node generator, run it on the affected language and inspect the JSON diff (`git diff --stat`, plus samples).
-- There is no CI in this repository (no `.github/workflows`). Include the commands you ran and their results in the PR description.
+- GitHub Actions (`.github/workflows/test.yml`) runs `cargo test --workspace` and `npm ci && npm run test:mongolian` on pull requests and on pushes to `master`. Still include any extra commands you ran (for example a language-specific merge or a static-data rebuild) in the PR description.
 
 The `package.json` scripts that exist today are `build:static-data`, `build:static-data:mongolian`, `build:mongolian-bichig` and `test:mongolian`.
 

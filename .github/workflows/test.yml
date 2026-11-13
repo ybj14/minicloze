@@ -1,0 +1,34 @@
+name: Tests
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  rust:
+    name: cargo test --workspace
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Install OpenSSL
+        run: sudo apt-get update && sudo apt-get install -y pkg-config libssl-dev
+      - name: Run Rust tests
+        run: cargo test --workspace
+        env:
+          OPENSSL_LIB_DIR: /usr/lib/x86_64-linux-gnu
+          OPENSSL_INCLUDE_DIR: /usr/include
+
+  mongolian:
+    name: npm run test:mongolian
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: npm run test:mongolian
