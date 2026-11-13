@@ -20,6 +20,7 @@ use std::{
     collections::{HashMap, HashSet},
     env,
     net::{SocketAddr, TcpListener as StdTcpListener},
+    path::PathBuf,
     sync::Arc,
 };
 use tokio::sync::RwLock;
@@ -262,85 +263,35 @@ async fn service_worker() -> impl IntoResponse {
     )
 }
 
-async fn data_asset(Path(file): Path<String>) -> Result<Response, AppError> {
-    let body = match file.as_str() {
-        "mongolian_a1.json" => include_str!("../static/data/mongolian_a1.json"),
-        "mongolian_a1_explanations.json" => {
-            include_str!("../static/data/mongolian_a1_explanations.json")
-        }
-        "mongolian_a1_vocab.json" => include_str!("../static/data/mongolian_a1_vocab.json"),
-        "mongolian_swadesh.json" => include_str!("../static/data/mongolian_swadesh.json"),
-        "mongolian_swadesh_explanations.json" => {
-            include_str!("../static/data/mongolian_swadesh_explanations.json")
-        }
-        "mongolian_swadesh_vocab.json" => {
-            include_str!("../static/data/mongolian_swadesh_vocab.json")
-        }
-        "tibetan_a1.json" => include_str!("../static/data/tibetan_a1.json"),
-        "tibetan_a1_explanations.json" => {
-            include_str!("../static/data/tibetan_a1_explanations.json")
-        }
-        "tibetan_a1_tokens.json" => include_str!("../static/data/tibetan_a1_tokens.json"),
-        "tibetan_a1_vocab.json" => include_str!("../static/data/tibetan_a1_vocab.json"),
-        "tibetan_swadesh.json" => include_str!("../static/data/tibetan_swadesh.json"),
-        "tibetan_swadesh_explanations.json" => {
-            include_str!("../static/data/tibetan_swadesh_explanations.json")
-        }
-        "tibetan_swadesh_tokens.json" => {
-            include_str!("../static/data/tibetan_swadesh_tokens.json")
-        }
-        "tibetan_swadesh_vocab.json" => {
-            include_str!("../static/data/tibetan_swadesh_vocab.json")
-        }
-        "tajik_a1.json" => include_str!("../static/data/tajik_a1.json"),
-        "tajik_a1_explanations.json" => {
-            include_str!("../static/data/tajik_a1_explanations.json")
-        }
-        "tajik_a1_vocab.json" => include_str!("../static/data/tajik_a1_vocab.json"),
-        "tajik_swadesh.json" => include_str!("../static/data/tajik_swadesh.json"),
-        "tajik_swadesh_explanations.json" => {
-            include_str!("../static/data/tajik_swadesh_explanations.json")
-        }
-        "tajik_swadesh_vocab.json" => include_str!("../static/data/tajik_swadesh_vocab.json"),
-        "thai_a1.json" => include_str!("../static/data/thai_a1.json"),
-        "thai_a1_explanations.json" => include_str!("../static/data/thai_a1_explanations.json"),
-        "thai_a1_tokens.json" => include_str!("../static/data/thai_a1_tokens.json"),
-        "thai_a1_vocab.json" => include_str!("../static/data/thai_a1_vocab.json"),
-        "thai_swadesh.json" => include_str!("../static/data/thai_swadesh.json"),
-        "thai_swadesh_explanations.json" => {
-            include_str!("../static/data/thai_swadesh_explanations.json")
-        }
-        "thai_swadesh_tokens.json" => include_str!("../static/data/thai_swadesh_tokens.json"),
-        "thai_swadesh_vocab.json" => include_str!("../static/data/thai_swadesh_vocab.json"),
-        "burmese_a1.json" => include_str!("../static/data/burmese_a1.json"),
-        "burmese_a1_explanations.json" => {
-            include_str!("../static/data/burmese_a1_explanations.json")
-        }
-        "burmese_a1_tokens.json" => include_str!("../static/data/burmese_a1_tokens.json"),
-        "burmese_a1_vocab.json" => include_str!("../static/data/burmese_a1_vocab.json"),
-        "burmese_swadesh.json" => include_str!("../static/data/burmese_swadesh.json"),
-        "burmese_swadesh_explanations.json" => {
-            include_str!("../static/data/burmese_swadesh_explanations.json")
-        }
-        "burmese_swadesh_tokens.json" => {
-            include_str!("../static/data/burmese_swadesh_tokens.json")
-        }
-        "burmese_swadesh_vocab.json" => include_str!("../static/data/burmese_swadesh_vocab.json"),
-        "khmer_a1.json" => include_str!("../static/data/khmer_a1.json"),
-        "khmer_a1_explanations.json" => {
-            include_str!("../static/data/khmer_a1_explanations.json")
-        }
-        "khmer_a1_tokens.json" => include_str!("../static/data/khmer_a1_tokens.json"),
-        "khmer_a1_vocab.json" => include_str!("../static/data/khmer_a1_vocab.json"),
-        "khmer_swadesh.json" => include_str!("../static/data/khmer_swadesh.json"),
-        "khmer_swadesh_explanations.json" => {
-            include_str!("../static/data/khmer_swadesh_explanations.json")
-        }
-        "khmer_swadesh_tokens.json" => include_str!("../static/data/khmer_swadesh_tokens.json"),
-        "khmer_swadesh_vocab.json" => include_str!("../static/data/khmer_swadesh_vocab.json"),
-        _ => return Err(AppError::not_found("Asset not found")),
-    };
+fn static_dir() -> PathBuf {
+    if let Ok(dir) = env::var("MINICLOZE_STATIC_DIR") {
+        return PathBuf::from(dir);
+    }
+    PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("static")
+}
 
+fn is_safe_data_filename(file: &str) -> bool {
+    let path = std::path::Path::new(file);
+    path.components().count() == 1
+        && path.extension().and_then(|ext| ext.to_str()) == Some("json")
+        && !file.starts_with('.')
+        && file
+            .chars()
+            .all(|c| c.is_ascii_alphanumeric() || c == '_' || c == '.')
+}
+
+fn resolve_static_data_file(file: &str) -> Option<PathBuf> {
+    if !is_safe_data_filename(file) {
+        return None;
+    }
+    let path = static_dir().join("data").join(file);
+    path.is_file().then_some(path)
+}
+
+async fn data_asset(Path(file): Path<String>) -> Result<Response, AppError> {
+    let path =
+        resolve_static_data_file(&file).ok_or_else(|| AppError::not_found("Asset not found"))?;
+    let body = std::fs::read(&path).map_err(|_| AppError::not_found("Asset not found"))?;
     Ok((
         [
             (header::CONTENT_TYPE, "application/json; charset=utf-8"),
@@ -381,8 +332,8 @@ async fn icon_asset(Path(file): Path<String>) -> Result<Response, AppError> {
     }
 }
 
-async fn languages() -> Json<Vec<LanguageOption>> {
-    Json(vec![
+fn language_options() -> Vec<LanguageOption> {
+    vec![
         LanguageOption {
             code: "mon-a1",
             label: "Mongolian A1",
@@ -455,7 +406,77 @@ async fn languages() -> Json<Vec<LanguageOption>> {
             slug: "khmer-swadesh",
             sentence_count: 621,
         },
-    ])
+        LanguageOption {
+            code: "amh-a1",
+            label: "Amharic A1",
+            slug: "amharic-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "amh-swadesh",
+            label: "Amharic Swadesh",
+            slug: "amharic-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "hye-a1",
+            label: "Armenian A1",
+            slug: "armenian-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "hye-swadesh",
+            label: "Armenian Swadesh",
+            slug: "armenian-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "kat-a1",
+            label: "Georgian A1",
+            slug: "georgian-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "kat-swadesh",
+            label: "Georgian Swadesh",
+            slug: "georgian-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "mlt-a1",
+            label: "Maltese A1",
+            slug: "maltese-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "mlt-swadesh",
+            label: "Maltese Swadesh",
+            slug: "maltese-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "san-a1",
+            label: "Sanskrit A1",
+            slug: "sanskrit-a1",
+            sentence_count: 1500,
+        },
+        LanguageOption {
+            code: "san-swadesh",
+            label: "Sanskrit Swadesh",
+            slug: "sanskrit-swadesh",
+            sentence_count: 621,
+        },
+        LanguageOption {
+            code: "san-a1-classical",
+            label: "Sanskrit A1 Classical",
+            slug: "sanskrit-a1-classical",
+            sentence_count: 1500,
+        },
+    ]
+}
+
+async fn languages() -> Json<Vec<LanguageOption>> {
+    Json(language_options())
 }
 
 async fn create_round(
@@ -874,5 +895,53 @@ mod tests {
 
         assert_eq!(options.iter().filter(|item| *item == "བཀྲ་ཤིས").count(), 1);
         assert_eq!(options.len(), 4);
+    }
+    #[test]
+    fn resolves_every_static_data_json_including_mongolian_tokens() {
+        let data_dir = PathBuf::from(env!("CARGO_MANIFEST_DIR")).join("static/data");
+        let mut names = Vec::new();
+        for entry in std::fs::read_dir(&data_dir).expect("static/data") {
+            let entry = entry.expect("entry");
+            let name = entry.file_name().into_string().expect("utf-8 name");
+            if name.ends_with(".json") {
+                names.push(name);
+            }
+        }
+        assert!(
+            names.iter().any(|name| name == "mongolian_a1_tokens.json"),
+            "mongolian_a1_tokens.json should be served"
+        );
+        assert!(names.iter().any(|name| name == "sanskrit_a1.json"));
+        assert!(names
+            .iter()
+            .any(|name| name == "maltese_swadesh_tokens.json"));
+        assert!(names.iter().any(|name| name == "amharic_a1.json"));
+        for name in &names {
+            let path =
+                resolve_static_data_file(name).unwrap_or_else(|| panic!("should resolve {name}"));
+            assert!(path.is_file(), "{name}");
+            assert!(
+                std::fs::metadata(&path).expect("metadata").len() > 0,
+                "{name} should not be empty"
+            );
+        }
+    }
+
+    #[test]
+    fn rejects_unsafe_or_missing_data_file_names() {
+        assert!(resolve_static_data_file("../Cargo.toml").is_none());
+        assert!(resolve_static_data_file("foo.txt").is_none());
+        assert!(resolve_static_data_file(".hidden.json").is_none());
+        assert!(resolve_static_data_file("missing_course.json").is_none());
+    }
+
+    #[test]
+    fn languages_list_includes_all_twenty_three_courses() {
+        let langs = language_options();
+        assert_eq!(langs.len(), 23);
+        let slugs: Vec<_> = langs.iter().map(|item| item.slug).collect();
+        assert!(slugs.contains(&"mongolian-a1"));
+        assert!(slugs.contains(&"maltese-a1"));
+        assert!(slugs.contains(&"sanskrit-a1-classical"));
     }
 }
