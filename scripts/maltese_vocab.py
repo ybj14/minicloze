@@ -6,7 +6,7 @@ from __future__ import annotations
 SWADESH_SOURCE = "Wiktionary Maltese Swadesh seed"
 A1_SOURCE = "LLM-curated Maltese A1 seed list 2026-10-06"
 BATCH_SOURCE_A1 = "LLM-authored Maltese A1 2026-10-06"
-BATCH_SOURCE_SWADESH = "LLM-authored Maltese Swadesh 2026-10-06"
+BATCH_SOURCE_SWADESH = "Wiktionary Maltese Swadesh seed with documented overrides; LLM-authored sentences 2026-10-06"
 
 # English Swadesh glosses (standard 207).
 SWADESH_GLOSSES = [

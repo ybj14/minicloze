@@ -47,7 +47,7 @@ COURSES = {
         "stem": "sanskrit",
         "count": 500,
         "batch_size": 50,
-        "label": "LLM-authored Sanskrit A1 2026-10-06",
+        "label": "Hand-authored IAST sources, LLM-assisted, 2026-10-06",
     },
     "swadesh": {
         "source": DATA / "swadesh.txt",
