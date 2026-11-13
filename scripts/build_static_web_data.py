@@ -632,6 +632,7 @@ def main() -> None:
     for course in SANSKRIT_COURSES:
         enrich_sanskrit_explanations(course)
         build_sanskrit_tokens(course)
+    run_mongolian_bichig(MONGOLIAN_COURSES)
 
 
 if __name__ == "__main__":
